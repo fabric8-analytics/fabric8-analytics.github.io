@@ -1,0 +1,26 @@
+{
+  "paths": [
+    "/api/v1/service/state", 
+    "/api/v1/service/state", 
+    "/api/v1/debug/expand-filter-query", 
+    "/api/v1/debug/show-select-query", 
+    "/api/v1/debug/analyses-report", 
+    "/api/v1/jobs/selective-flow-scheduling", 
+    "/api/v1/jobs/github-most-starred", 
+    "/api/v1/jobs/aggregate-topics", 
+    "/api/v1/jobs/flow-scheduling", 
+    "/api/v1/jobs/clean-postgres", 
+    "/api/v1/jobs/sync-to-graph", 
+    "/api/v1/jobs/clean-failed", 
+    "/api/v1/jobs/analyses", 
+    "/api/v1/swagger.json", 
+    "/api/v1/readiness", 
+    "/api/v1/liveness", 
+    "/api/v1/jobs", 
+    "/api/v1/ui/", 
+    "/api/v1", 
+    "/api/v1/jobs/<job_id>", 
+    "/api/v1/jobs/<job_id>", 
+    "/api/v1/ui/<path:filename>"
+  ]
+}
