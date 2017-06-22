@@ -1,0 +1,16 @@
+{
+    "paths": [
+        "/api/v1",
+        "/api/v1/component-analyses/<ecosystem>/<package>/<version>",
+        "/api/v1/component-search/<package>",
+        "/api/v1/schemas",
+        "/api/v1/schemas/<collection>",
+        "/api/v1/schemas/<collection>/<name>",
+        "/api/v1/schemas/<collection>/<name>/<version>",
+        "/api/v1/stack-analyses",
+        "/api/v1/stack-analyses/<external_request_id>",
+        "/api/v1/stack-analyses/by-origin/<origin>",
+        "/api/v1/system/version",
+        "/api/v1/user-feedback"
+    ]
+}
