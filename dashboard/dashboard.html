@@ -24,24 +24,34 @@
             <div class="panel panel-primary">
                 <div class="panel-heading">Services liveness and readiness</div>
                 <table class="table table-condensed table-hover table-bordered" rules="all">
-                    <tr><th>System</th><th>Core API</th><th>Jobs API</th><th>Auth.token<br />to core API</th><th>Auth.token<br />to jobs API</th></tr>
+                    <tr><th>System</th><th>Core API</th><th>Jobs API</th><th>Auth.token<br />to core API</th><th>Auth.token<br />to jobs API</th><th>Smoketests</th></tr>
                     <tr><td>Stage</td>
                             <td class="boolean ok">&#x2713;</td>
                             <td class="boolean error">&times;</td>
                             <td class="boolean ok">&#x2713;</td>
                             <td class="boolean error">&times;</td>
+                        <td>?</td>
                     </tr>
                     <tr><td>Production</td>
                             <td class="boolean error">&times;</td>
                             <td class="boolean error">&times;</td>
                             <td class="boolean ok">&#x2713;</td>
                             <td class="boolean ok">&#x2713;</td>
+                        <td>?</td>
                     </tr>
                 </table>
             </div>
             <div class="panel panel-primary">
                 <div class="panel-heading">SLA</div>
                 <table class="table table-condensed table-hover table-bordered" rules="all">
+                    <tr><th>System</th><th colspan="6">Stack analysis</th><th colspan="6">Component analysis</th></tr>
+                    <tr><th>&nbsp;</th><th colspan="3">Sequential</th><th colspan="3">Parallel</th><th colspan="3">Sequential</th><th colspan="3">Parallel</th></tr>
+                    <tr><th>&nbsp;</th><th class="column">duration (s)</th><th class="column">limit</th><th class="column">status</th>
+                                       <th class="column">duration (s)</th><th class="column">limit</th><th class="column">status</th>
+                                       <th class="column">duration (s)</th><th class="column">limit</th><th class="column">status</th>
+                                       <th class="column">duration (s)</th><th class="column">limit</th><th class="column">status</th></tr>
+                    <tr><td>Stage</td></tr>
+                    <tr><td>Production</td></tr>
                 </table>
             </div>
             <div class="panel panel-primary">
@@ -50,8 +60,8 @@
                     <tr><th>Repository</th><th colspan="2">Source files</th><th colspan="3">Linter results</th><th colspan="3">Pydocstyle results</th><th>Overall status</th><th>Remark</th></tr>
                     <tr><th>&nbsp;</th><th>Files</th><th>Total lines</th><th>Pass</th><th>Fail</th><th>% fail</th><th>Pass</th><th>Fail</th><th>% fail</th><th>&nbsp;</th><th>&nbsp;</th></tr>
                     <tr>
-                        <td><a href="https://github.com/fabric8-analytics/fabric8-analytics-common">fabric8-analytics-common</a></td>
-                        <td class="numeric" style="width:10ex">29</td>
+                        <td style="width:40ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-common">fabric8-analytics-common</a></td>
+                        <td class="numeric" style="width:10ex"><a href="repository_fabric8-analytics-common.html">29</a></td>
                         <td class="numeric" style="width:10ex">?</td>
                         <td class="numeric ok" style="width:10ex">28</td>
                         <td class="numeric error" style="width:10ex">1</td>
@@ -62,8 +72,8 @@
                             <td class="boolean error">&times;</td>
                         <td style="width:30ex"></td>
                     <tr>
-                        <td><a href="https://github.com/fabric8-analytics/fabric8-analytics-server">fabric8-analytics-server</a></td>
-                        <td class="numeric" style="width:10ex">54</td>
+                        <td style="width:40ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-server">fabric8-analytics-server</a></td>
+                        <td class="numeric" style="width:10ex"><a href="repository_fabric8-analytics-server.html">54</a></td>
                         <td class="numeric" style="width:10ex">?</td>
                         <td class="numeric ok" style="width:10ex">23</td>
                         <td class="numeric error" style="width:10ex">0</td>
@@ -72,10 +82,10 @@
                         <td class="numeric error" style="width:10ex">22</td>
                         <td class="numeric" style="width:10ex">100%</td>
                             <td class="boolean error">&times;</td>
-                        <td style="width:30ex">not all source files are checked</td>
+                        <td style="width:30ex">not all source files are checked, linter checked 23 files, but pydocstyle checked 22 files</td>
                     <tr>
-                        <td><a href="https://github.com/fabric8-analytics/fabric8-analytics-worker">fabric8-analytics-worker</a></td>
-                        <td class="numeric" style="width:10ex">166</td>
+                        <td style="width:40ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-worker">fabric8-analytics-worker</a></td>
+                        <td class="numeric" style="width:10ex"><a href="repository_fabric8-analytics-worker.html">166</a></td>
                         <td class="numeric" style="width:10ex">?</td>
                         <td class="numeric ok" style="width:10ex">166</td>
                         <td class="numeric error" style="width:10ex">0</td>
@@ -84,10 +94,10 @@
                         <td class="numeric error" style="width:10ex">165</td>
                         <td class="numeric" style="width:10ex">100%</td>
                             <td class="boolean error">&times;</td>
-                        <td style="width:30ex">not all source files are checked</td>
+                        <td style="width:30ex">not all source files are checked, linter checked 166 files, but pydocstyle checked 165 files</td>
                     <tr>
-                        <td><a href="https://github.com/fabric8-analytics/fabric8-analytics-jobs">fabric8-analytics-jobs</a></td>
-                        <td class="numeric" style="width:10ex">29</td>
+                        <td style="width:40ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-jobs">fabric8-analytics-jobs</a></td>
+                        <td class="numeric" style="width:10ex"><a href="repository_fabric8-analytics-jobs.html">29</a></td>
                         <td class="numeric" style="width:10ex">?</td>
                         <td class="numeric ok" style="width:10ex">29</td>
                         <td class="numeric error" style="width:10ex">0</td>
@@ -96,10 +106,10 @@
                         <td class="numeric error" style="width:10ex">27</td>
                         <td class="numeric" style="width:10ex">100%</td>
                             <td class="boolean error">&times;</td>
-                        <td style="width:30ex">not all source files are checked</td>
+                        <td style="width:30ex">not all source files are checked, linter checked 29 files, but pydocstyle checked 27 files</td>
                     <tr>
-                        <td><a href="https://github.com/fabric8-analytics/fabric8-analytics-tagger">fabric8-analytics-tagger</a></td>
-                        <td class="numeric" style="width:10ex">24</td>
+                        <td style="width:40ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-tagger">fabric8-analytics-tagger</a></td>
+                        <td class="numeric" style="width:10ex"><a href="repository_fabric8-analytics-tagger.html">24</a></td>
                         <td class="numeric" style="width:10ex">?</td>
                         <td class="numeric ok" style="width:10ex">22</td>
                         <td class="numeric error" style="width:10ex">0</td>
@@ -110,8 +120,8 @@
                             <td class="boolean error">&times;</td>
                         <td style="width:30ex">not all source files are checked</td>
                     <tr>
-                        <td><a href="https://github.com/fabric8-analytics/fabric8-analytics-stack-analysis">fabric8-analytics-stack-analysis</a></td>
-                        <td class="numeric" style="width:10ex">51</td>
+                        <td style="width:40ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-stack-analysis">fabric8-analytics-stack-analysis</a></td>
+                        <td class="numeric" style="width:10ex"><a href="repository_fabric8-analytics-stack-analysis.html">51</a></td>
                         <td class="numeric" style="width:10ex">?</td>
                         <td class="numeric ok" style="width:10ex">43</td>
                         <td class="numeric error" style="width:10ex">0</td>
@@ -122,8 +132,8 @@
                             <td class="boolean error">&times;</td>
                         <td style="width:30ex">not all source files are checked</td>
                     <tr>
-                        <td><a href="https://github.com/fabric8-analytics/fabric8-analytics-license-analysis">fabric8-analytics-license-analysis</a></td>
-                        <td class="numeric" style="width:10ex">13</td>
+                        <td style="width:40ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-license-analysis">fabric8-analytics-license-analysis</a></td>
+                        <td class="numeric" style="width:10ex"><a href="repository_fabric8-analytics-license-analysis.html">13</a></td>
                         <td class="numeric" style="width:10ex">?</td>
                         <td class="numeric ok" style="width:10ex">13</td>
                         <td class="numeric error" style="width:10ex">0</td>
@@ -134,8 +144,8 @@
                             <td class="boolean error">&times;</td>
                         <td style="width:30ex"></td>
                     <tr>
-                        <td><a href="https://github.com/fabric8-analytics/fabric8-analytics-data-model">fabric8-analytics-data-model</a></td>
-                        <td class="numeric" style="width:10ex">13</td>
+                        <td style="width:40ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-data-model">fabric8-analytics-data-model</a></td>
+                        <td class="numeric" style="width:10ex"><a href="repository_fabric8-analytics-data-model.html">13</a></td>
                         <td class="numeric" style="width:10ex">?</td>
                         <td class="numeric ok" style="width:10ex">13</td>
                         <td class="numeric error" style="width:10ex">0</td>
@@ -146,8 +156,8 @@
                             <td class="boolean error">&times;</td>
                         <td style="width:30ex"></td>
                     <tr>
-                        <td><a href="https://github.com/fabric8-analytics/fabric8-analytics-recommender">fabric8-analytics-recommender</a></td>
-                        <td class="numeric" style="width:10ex">16</td>
+                        <td style="width:40ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-recommender">fabric8-analytics-recommender</a></td>
+                        <td class="numeric" style="width:10ex"><a href="repository_fabric8-analytics-recommender.html">16</a></td>
                         <td class="numeric" style="width:10ex">?</td>
                         <td class="numeric ok" style="width:10ex">16</td>
                         <td class="numeric error" style="width:10ex">0</td>
