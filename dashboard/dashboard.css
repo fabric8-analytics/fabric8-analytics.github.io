@@ -18,6 +18,9 @@ body { padding-top: 100px; }
     width:15ex;
     //font-size:150%;
 }
+.column {
+    width:12ex;
+}
 .numeric {
     text-align:right;
 }
