@@ -1,0 +1,4 @@
+message="Dashboard `date +%Y-%m-%d`"
+echo $message
+git commit -m "$message"
+git push
