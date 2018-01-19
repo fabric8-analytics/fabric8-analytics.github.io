@@ -1,3 +1,5 @@
+git add *.html
+git status
 message="Dashboard `date +%Y-%m-%d`"
 echo $message
 git commit -m "$message"
