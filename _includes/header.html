@@ -1,0 +1,16 @@
+{% if page.lang %}
+  {% assign lang = page.lang %}
+{% else %}
+  {% assign lang = "en" %}
+{% endif %}
+{% assign nav = site.data.navigation["main"][lang] %}
+<center><header class="">
+
+  <h1><a href="{{ site.baseurl }}"> {{ page.title | default: site.title | default: site.github.repository_name }}</a></h1>
+  <h2>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+<nav class="nav-main">
+		{% for link in nav %}
+		  <a class="nav-item" href="{% if link.abs %}{{link.abs}}{% else %}{{ site.baseurl }}{{ link.url }}{% endif %}"><span>{{ link.title }}</span></a>
+		{% endfor %}
+</nav>
+	</header></center>
