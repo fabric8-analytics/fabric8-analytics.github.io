@@ -6,12 +6,15 @@ banner:
 
 main:
     en:
-        - title: Credential Guide
-          note: internal only
-          url: /credentials
-
         - title: Repositories
           url: /repositories
 
         - title: Deployment
           url: /deployment
+
+        - title: Testing
+          url: /test
+
+        - title: Resources
+          url: /resources
+

@@ -11,11 +11,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Fabric8 Analytics
 author: Marek Cermak
 email: macermak@redhat.com
-description: Fabric8 Analytics landing page
 github_username: CermakM
+
+title: Fabric8 Analytics
+description: Fabric8 Analytics landing page
+baseurl: /
+
 
 # Build settings
 theme: jekyll-theme-tactile

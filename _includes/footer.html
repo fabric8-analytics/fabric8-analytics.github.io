@@ -1,11 +1,21 @@
-<footer class="bg-gray-light border-top py-4 text-gray text-center mt-6 flex-none">
-  <span aria-label="Made with love by GitHub and friends">
-    <a href="{{ site.baseurl }}/community/" class="text-gray-dark mb-2">Made with :heart: by :octocat:s and friends</a>
-  </span>  
-  <div class="d-flex flex-justify-center text-uppercase text-bold my-1">
-    <a href="{{ site.baseurl }}/feed.xml" class="d-flex flex-items-center text-gray text-uppercase mr-4"><div class="d-flex mr-1">{% include octicons/rss.svg %}</div> {{ site.data.ui-text[site.locale].feed_label }}</a>
-    <a href="{{ site.baseurl }}/community" class="d-flex flex-items-center text-gray text-uppercase"><div class="d-flex mr-1">{% include octicons/organization.svg %}</div> Community</a>
+<footer class="inner">
+  <div class="footer-buttons">
+	  <a href="" id='contact-community' class="button"><span style="background: transparent url({{ 'assets/images/organization.png' | absolute_url }}) 12px 50% no-repeat;"> Community</span></a>
+	  {% if site.github.is_project_page %}
+		  <a href="{{ site.github.repository_url }}" id="view-on-github" class="button"><span>View on GitHub</span></a>
+	  {% else %}
+		  <a href="{{ site.github.owner_url }}" id="view-on-github" class="button"><span>View on GitHub</span></a>
+	  {% endif %}
+		{% if site.github.is_project_page %}
+		  {{ site.title | default: site.github.repository_name }} is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a><br>
+		{% endif %}
   </div>
-  
-  <p>&copy; {{ site.time | date: '%Y' }} {{ site.name }} {{ site.data.ui-text[site.locale].powered_by }} <a href="http://jekyllrb.com" rel="nofollow" class="text-gray-dark">Jekyll</a> &amp; <a href="https://github.com/primer/primer-css" rel="nofollow" class="text-gray-dark">Primer</a>.</p>
+  <div class="footer-note">
+	  <span aria-label="Made with love by GitHub and friends">
+		<a href="" class="">Made with :heart: by :octocat:s and friends</a>
+	  </span>  
+	  
+	  <p>&copy; {{ site.time | date: '%Y' }} {{ site.name }} {{ site.data.ui-text[site.locale].powered_by }} <a href="http://jekyllrb.com" rel="nofollow" class="">Jekyll</a>
+	  </p>
+  </div>
 </footer>
