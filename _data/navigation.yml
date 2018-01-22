@@ -1,0 +1,17 @@
+banner:
+    en:
+        title: Fabric8 Analytics
+        description: Fabric8 Analytics landing page
+        url: /
+
+main:
+    en:
+        - title: Credential Guide
+          note: internal only
+          url: /credentials
+
+        - title: Repositories
+          url: /repositories
+
+        - title: Deployment
+          url: /deployment
