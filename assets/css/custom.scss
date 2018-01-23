@@ -1,6 +1,17 @@
 ---
 ---
 
+.page-title {
+	text-align: center;
+	margin-up: 30px;
+}
+
+.centered-block {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
 .nav-main {
  display: flex;
  align-items: center;
