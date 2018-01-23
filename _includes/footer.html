@@ -5,16 +5,11 @@
 		  <a href="{{ site.github.repository_url }}" id="view-on-github" class="button"><span>View on GitHub</span></a>
 	  {% else %}
 		  <a href="{{ site.github.owner_url }}" id="view-on-github" class="button"><span>View on GitHub</span></a>
+		{% endif %}
   </div>
   <div class="footer-note">
-	  <span>
-	  <!-- {% endif %} -->
-		<!-- {% if site.github.is_project_page %} -->
-		  <!-- {{ site.title | default: site.github.repository_name }} is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a><br> -->
-		<!-- {% endif %} -->
-		</span>
 	  <span aria-label="Made with love by GitHub and friends">
-		<a href="" class="">Made with :heart: by :octocat:s and friends</a>
+			<a href="" class="">Made with :heart: by :octocat:s and friends</a>
 	  </span>  
 	  
 	  <p>&copy; {{ site.time | date: '%Y' }} {{ site.name }} {{ site.data.ui-text[site.locale].powered_by }} <a href="http://jekyllrb.com" rel="nofollow" class="">Jekyll</a>
