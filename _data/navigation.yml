@@ -7,14 +7,16 @@ banner:
 main:
     en:
         - title: Repositories
-          url: /repositories
+          url: /repositories/
 
         - title: Deployment
-          url: /deployment
+          url: /deployment/
 
         - title: Testing
-          url: /test
+          url: /testing/
+
+        - title: Contribution
+          url: /contribution/
 
         - title: Resources
-          url: /resources
-
+          url: /resources/
