@@ -10,7 +10,7 @@
   <h2>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
 <nav class="nav-main">
 		{% for link in nav %}
-		  <a class="nav-item" href="{% if link.abs %}{{link.abs}}{% else %}{{ site.baseurl }}{{ link.url }}{% endif %}"><span>{{ link.title }}</span></a>
+		  <a class="nav-item" href="{{ site.baseurl }}{{ link.url }}"><span>{{ link.title }}</span></a>
 		{% endfor %}
 </nav>
 	</header></center>

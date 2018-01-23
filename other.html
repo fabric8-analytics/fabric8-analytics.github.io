@@ -1,0 +1,264 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module common</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>common</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="datetime.html">datetime</a><br>
+<a href="json.html">json</a><br>
+<a href="jsonschema.html">jsonschema</a><br>
+</td><td width="25%" valign=top><a href="jwt.html">jwt</a><br>
+<a href="logging.html">logging</a><br>
+<a href="os.html">os</a><br>
+</td><td width="25%" valign=top><a href="re.html">re</a><br>
+<a href="requests.html">requests</a><br>
+<a href="string.html">string</a><br>
+</td><td width="25%" valign=top><a href="time.html">time</a><br>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="common.html#MockedResponse">MockedResponse</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="MockedResponse">class <strong>MockedResponse</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="MockedResponse-__init__"><strong>__init__</strong></a>(self, filename)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<dl><dt><a name="MockedResponse-json"><strong>json</strong></a>(self)</dt></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-access_analyses_report"><strong>access_analyses_report</strong></a>(context, ecosystem)</dt><dd><tt>API&nbsp;call&nbsp;to&nbsp;get&nbsp;analyses&nbsp;report&nbsp;for&nbsp;selected&nbsp;ecosystem.</tt></dd></dl>
+ <dl><dt><a name="-access_url"><strong>access_url</strong></a>(context, url)</dt><dd><tt>Access&nbsp;the&nbsp;service&nbsp;API&nbsp;using&nbsp;the&nbsp;HTTP&nbsp;GET&nbsp;method.</tt></dd></dl>
+ <dl><dt><a name="-access_url_with_authorization_token"><strong>access_url_with_authorization_token</strong></a>(context, url)</dt><dd><tt>Access&nbsp;the&nbsp;service&nbsp;API&nbsp;using&nbsp;the&nbsp;HTTP&nbsp;GET&nbsp;method.</tt></dd></dl>
+ <dl><dt><a name="-acquire_authorization_token"><strong>acquire_authorization_token</strong></a>(context)</dt></dl>
+ <dl><dt><a name="-acquire_jobs_api_authorization_token"><strong>acquire_jobs_api_authorization_token</strong></a>(context)</dt></dl>
+ <dl><dt><a name="-anitya_url"><strong>anitya_url</strong></a>(context, url)</dt><dd><tt>Access&nbsp;the&nbsp;Anitya&nbsp;service&nbsp;API&nbsp;using&nbsp;the&nbsp;HTTP&nbsp;GET&nbsp;method.</tt></dd></dl>
+ <dl><dt><a name="-authorization"><strong>authorization</strong></a>(context)</dt></dl>
+ <dl><dt><a name="-check_all_analyzed_dependency"><strong>check_all_analyzed_dependency</strong></a>(context, packages)</dt></dl>
+ <dl><dt><a name="-check_analysis_result"><strong>check_analysis_result</strong></a>(context, state, ecosystem, package, version)</dt></dl>
+ <dl><dt><a name="-check_analyzed_dependency"><strong>check_analyzed_dependency</strong></a>(context, package, version)</dt></dl>
+ <dl><dt><a name="-check_api_token"><strong>check_api_token</strong></a>(context)</dt></dl>
+ <dl><dt><a name="-check_attribute_presence"><strong>check_attribute_presence</strong></a>(node, attribute_name)</dt></dl>
+ <dl><dt><a name="-check_components"><strong>check_components</strong></a>(context, num=0, components='', ecosystem='')</dt></dl>
+ <dl><dt><a name="-check_cve_value"><strong>check_cve_value</strong></a>(cve)</dt></dl>
+ <dl><dt><a name="-check_cvss_value"><strong>check_cvss_value</strong></a>(cvss)</dt></dl>
+ <dl><dt><a name="-check_ecosystems"><strong>check_ecosystems</strong></a>(context, num)</dt><dd><tt>check&nbsp;if&nbsp;the&nbsp;API&nbsp;call&nbsp;returns&nbsp;correct&nbsp;number&nbsp;of&nbsp;ecosystems</tt></dd></dl>
+ <dl><dt><a name="-check_id_in_json_response"><strong>check_id_in_json_response</strong></a>(context)</dt><dd><tt>Check&nbsp;the&nbsp;ID&nbsp;attribute&nbsp;in&nbsp;the&nbsp;JSON&nbsp;response.<br>
+&nbsp;<br>
+Check&nbsp;if&nbsp;ID&nbsp;is&nbsp;in&nbsp;a&nbsp;format&nbsp;like:&nbsp;'477e85660c504b698beae2b5f2a28b4e'<br>
+ie.&nbsp;it&nbsp;is&nbsp;a&nbsp;string&nbsp;with&nbsp;32&nbsp;characters&nbsp;containing&nbsp;32&nbsp;hexadecimal&nbsp;digits</tt></dd></dl>
+ <dl><dt><a name="-check_id_value"><strong>check_id_value</strong></a>(context, id_attribute_name)</dt><dd><tt>Check&nbsp;the&nbsp;ID&nbsp;attribute&nbsp;in&nbsp;the&nbsp;JSON&nbsp;response.<br>
+&nbsp;<br>
+Check&nbsp;if&nbsp;ID&nbsp;is&nbsp;in&nbsp;a&nbsp;format&nbsp;like:&nbsp;'477e85660c504b698beae2b5f2a28b4e'<br>
+ie.&nbsp;it&nbsp;is&nbsp;a&nbsp;string&nbsp;with&nbsp;32&nbsp;characters&nbsp;containing&nbsp;32&nbsp;hexadecimal&nbsp;digits</tt></dd></dl>
+ <dl><dt><a name="-check_jobs"><strong>check_jobs</strong></a>(context)</dt><dd><tt>Check&nbsp;and&nbsp;remember&nbsp;the&nbsp;number&nbsp;of&nbsp;jobs.</tt></dd></dl>
+ <dl><dt><a name="-check_json"><strong>check_json</strong></a>(context)</dt></dl>
+ <dl><dt><a name="-check_json_response"><strong>check_json_response</strong></a>(context, key)</dt></dl>
+ <dl><dt><a name="-check_json_value_under_key"><strong>check_json_value_under_key</strong></a>(context, key, value)</dt></dl>
+ <dl><dt><a name="-check_licenses"><strong>check_licenses</strong></a>(node, expected_licenses)</dt></dl>
+ <dl><dt><a name="-check_outlier_count"><strong>check_outlier_count</strong></a>(context, count=2)</dt></dl>
+ <dl><dt><a name="-check_outlier_probability"><strong>check_outlier_probability</strong></a>(usage_outliers, package_name, threshold_value)</dt><dd><tt>Try&nbsp;to&nbsp;find&nbsp;outlier&nbsp;probability&nbsp;for&nbsp;given&nbsp;package&nbsp;is&nbsp;found&nbsp;and&nbsp;that<br>
+its&nbsp;probability&nbsp;is&nbsp;within&nbsp;permitted&nbsp;range.</tt></dd></dl>
+ <dl><dt><a name="-check_outlier_probability_threshold_value"><strong>check_outlier_probability_threshold_value</strong></a>(context, min, max)</dt></dl>
+ <dl><dt><a name="-check_outlier_validity"><strong>check_outlier_validity</strong></a>(context)</dt></dl>
+ <dl><dt><a name="-check_security_issue_existence"><strong>check_security_issue_existence</strong></a>(context, cve, package)</dt><dd><tt>Check&nbsp;if&nbsp;the&nbsp;security&nbsp;issue&nbsp;CVE-yyyy-xxxx&nbsp;can&nbsp;be&nbsp;found&nbsp;for&nbsp;the&nbsp;given<br>
+analyzed&nbsp;package.</tt></dd></dl>
+ <dl><dt><a name="-check_security_node"><strong>check_security_node</strong></a>(context, path)</dt></dl>
+ <dl><dt><a name="-check_sentiment"><strong>check_sentiment</strong></a>(analyzed_packages)</dt></dl>
+ <dl><dt><a name="-check_stack_analyses_request_id"><strong>check_stack_analyses_request_id</strong></a>(context)</dt></dl>
+ <dl><dt><a name="-check_stack_analyses_response"><strong>check_stack_analyses_response</strong></a>(context, url)</dt><dd><tt>Check&nbsp;the&nbsp;stack&nbsp;analyses&nbsp;response&nbsp;available&nbsp;on&nbsp;the&nbsp;given&nbsp;URL.</tt></dd></dl>
+ <dl><dt><a name="-check_stack_analysis_id"><strong>check_stack_analysis_id</strong></a>(context)</dt></dl>
+ <dl><dt><a name="-check_status_code"><strong>check_status_code</strong></a>(context, status)</dt><dd><tt>Check&nbsp;the&nbsp;HTTP&nbsp;status&nbsp;code&nbsp;returned&nbsp;by&nbsp;the&nbsp;REST&nbsp;API.</tt></dd></dl>
+ <dl><dt><a name="-check_timestamp"><strong>check_timestamp</strong></a>(timestamp)</dt><dd><tt>Check&nbsp;if&nbsp;the&nbsp;string&nbsp;contains&nbsp;proper&nbsp;timestamp&nbsp;value.</tt></dd></dl>
+ <dl><dt><a name="-check_timestamp_in_json_response"><strong>check_timestamp_in_json_response</strong></a>(context, attribute)</dt><dd><tt>Check&nbsp;the&nbsp;timestamp&nbsp;stored&nbsp;in&nbsp;the&nbsp;JSON&nbsp;response.<br>
+&nbsp;<br>
+Check&nbsp;if&nbsp;the&nbsp;attribute&nbsp;in&nbsp;the&nbsp;JSON&nbsp;response&nbsp;<a href="builtins.html#object">object</a>&nbsp;contains<br>
+proper&nbsp;timestamp&nbsp;value</tt></dd></dl>
+ <dl><dt><a name="-check_timestamp_under_path"><strong>check_timestamp_under_path</strong></a>(context, path)</dt><dd><tt>Check&nbsp;the&nbsp;timestamp&nbsp;stored&nbsp;in&nbsp;selected&nbsp;attribute<br>
+&nbsp;<br>
+Check&nbsp;if&nbsp;timestamp&nbsp;value&nbsp;can&nbsp;be&nbsp;found&nbsp;in&nbsp;the&nbsp;JSON&nbsp;response&nbsp;<a href="builtins.html#object">object</a><br>
+under&nbsp;the&nbsp;given&nbsp;path.</tt></dd></dl>
+ <dl><dt><a name="-check_versions"><strong>check_versions</strong></a>(context, num=0, versions='', ecosystem='', package='')</dt></dl>
+ <dl><dt><a name="-clean_all_failed_jobs"><strong>clean_all_failed_jobs</strong></a>(context)</dt><dd><tt>API&nbsp;call&nbsp;to&nbsp;clean&nbsp;up&nbsp;all&nbsp;failed&nbsp;jobs.</tt></dd></dl>
+ <dl><dt><a name="-component_analysis_url"><strong>component_analysis_url</strong></a>(context, ecosystem, component, version)</dt><dd><tt>Construct&nbsp;URL&nbsp;for&nbsp;the&nbsp;component&nbsp;analyses&nbsp;REST&nbsp;API&nbsp;call.</tt></dd></dl>
+ <dl><dt><a name="-delete_job"><strong>delete_job</strong></a>(context, job_id=None)</dt><dd><tt>API&nbsp;call&nbsp;to&nbsp;delete&nbsp;a&nbsp;job&nbsp;with&nbsp;given&nbsp;ID.</tt></dd></dl>
+ <dl><dt><a name="-download_and_parse_outlier_probability_threshold_value"><strong>download_and_parse_outlier_probability_threshold_value</strong></a>(context)</dt><dd><tt>Special&nbsp;step&nbsp;that&nbsp;is&nbsp;needed&nbsp;to&nbsp;get&nbsp;the&nbsp;stack&nbsp;analysis&nbsp;outlier<br>
+probability&nbsp;threshold.</tt></dd></dl>
+ <dl><dt><a name="-download_file_from_url"><strong>download_file_from_url</strong></a>(url)</dt><dd><tt>Download&nbsp;file&nbsp;from&nbsp;the&nbsp;given&nbsp;URL&nbsp;and&nbsp;do&nbsp;basic&nbsp;check&nbsp;of&nbsp;response.</tt></dd></dl>
+ <dl><dt><a name="-find_job"><strong>find_job</strong></a>(context, job_id, state=None)</dt><dd><tt>check&nbsp;if&nbsp;job&nbsp;with&nbsp;given&nbsp;ID&nbsp;is&nbsp;returned&nbsp;from&nbsp;the&nbsp;service&nbsp;and&nbsp;optionally&nbsp;if<br>
+the&nbsp;job&nbsp;status&nbsp;has&nbsp;expected&nbsp;value</tt></dd></dl>
+ <dl><dt><a name="-find_replacements"><strong>find_replacements</strong></a>(alternates, component, version)</dt></dl>
+ <dl><dt><a name="-find_value_under_the_path"><strong>find_value_under_the_path</strong></a>(context, value, path)</dt><dd><tt>Check&nbsp;if&nbsp;the&nbsp;value&nbsp;(attribute)&nbsp;can&nbsp;be&nbsp;found&nbsp;in&nbsp;the&nbsp;JSON&nbsp;output.</tt></dd></dl>
+ <dl><dt><a name="-finish_analysis_for_component"><strong>finish_analysis_for_component</strong></a>(context, ecosystem, component, version)</dt><dd><tt>Try&nbsp;to&nbsp;wait&nbsp;for&nbsp;the&nbsp;component&nbsp;analysis&nbsp;to&nbsp;be&nbsp;finished.<br>
+&nbsp;<br>
+Current&nbsp;API&nbsp;implementation&nbsp;returns&nbsp;just&nbsp;two&nbsp;HTTP&nbsp;codes:<br>
+200&nbsp;OK&nbsp;:&nbsp;analysis&nbsp;is&nbsp;already&nbsp;finished<br>
+404&nbsp;NOT&nbsp;FOUND:&nbsp;analysis&nbsp;is&nbsp;started&nbsp;or&nbsp;is&nbsp;in&nbsp;progress</tt></dd></dl>
+ <dl><dt><a name="-flow_sheduling_endpoint"><strong>flow_sheduling_endpoint</strong></a>(context, state, job_id=None)</dt><dd><tt>Return&nbsp;URL&nbsp;to&nbsp;flow-scheduling&nbsp;with&nbsp;the&nbsp;given&nbsp;state&nbsp;and&nbsp;job&nbsp;ID.</tt></dd></dl>
+ <dl><dt><a name="-generate_authorization_token"><strong>generate_authorization_token</strong></a>(context, private_key)</dt></dl>
+ <dl><dt><a name="-get_alternate_components"><strong>get_alternate_components</strong></a>(json_data)</dt></dl>
+ <dl><dt><a name="-get_analyzed_packages"><strong>get_analyzed_packages</strong></a>(json_data)</dt><dd><tt>Get&nbsp;names&nbsp;of&nbsp;all&nbsp;analyzed&nbsp;packages.</tt></dd></dl>
+ <dl><dt><a name="-get_attribute_values"><strong>get_attribute_values</strong></a>(list, attribute_name)</dt></dl>
+ <dl><dt><a name="-get_companion_packages"><strong>get_companion_packages</strong></a>(json_data)</dt><dd><tt>Get&nbsp;names&nbsp;of&nbsp;all&nbsp;packages&nbsp;in&nbsp;companion&nbsp;list.</tt></dd></dl>
+ <dl><dt><a name="-get_job_by_id"><strong>get_job_by_id</strong></a>(jobs, job_id)</dt></dl>
+ <dl><dt><a name="-get_jobs_count"><strong>get_jobs_count</strong></a>(context)</dt></dl>
+ <dl><dt><a name="-get_tgt_in_service"><strong>get_tgt_in_service</strong></a>(context, service)</dt><dd><tt>Obtain&nbsp;TGT&nbsp;in&nbsp;specified&nbsp;container&nbsp;via&nbsp;`docker&nbsp;exec`&nbsp;and&nbsp;returns<br>
+output&nbsp;of&nbsp;klist.</tt></dd></dl>
+ <dl><dt><a name="-get_user_components"><strong>get_user_components</strong></a>(json_data)</dt></dl>
+ <dl><dt><a name="-get_value_using_path"><strong>get_value_using_path</strong></a>(obj, path)</dt><dd><tt>Get&nbsp;the&nbsp;attribute&nbsp;value&nbsp;using&nbsp;the&nbsp;XMLpath-like&nbsp;path&nbsp;specification.<br>
+Return&nbsp;any&nbsp;attribute&nbsp;stored&nbsp;in&nbsp;the&nbsp;nested&nbsp;<a href="builtins.html#object">object</a>&nbsp;and&nbsp;list&nbsp;hierarchy&nbsp;using<br>
+the&nbsp;'path'&nbsp;where&nbsp;path&nbsp;consists&nbsp;of:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;keys&nbsp;(selectors)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;indexes&nbsp;(in&nbsp;case&nbsp;of&nbsp;arrays)<br>
+separated&nbsp;by&nbsp;slash,&nbsp;ie.&nbsp;"key1/0/key_x".<br>
+&nbsp;<br>
+Usage:<br>
+<a href="#-get_value_using_path">get_value_using_path</a>({"x"&nbsp;:&nbsp;{"y"&nbsp;:&nbsp;"z"}},&nbsp;"x"))&nbsp;&nbsp;&nbsp;-&gt;&nbsp;{"y"&nbsp;:&nbsp;"z"}<br>
+<a href="#-get_value_using_path">get_value_using_path</a>({"x"&nbsp;:&nbsp;{"y"&nbsp;:&nbsp;"z"}},&nbsp;"x/y"))&nbsp;-&gt;&nbsp;"z"<br>
+<a href="#-get_value_using_path">get_value_using_path</a>(["x",&nbsp;"y",&nbsp;"z"],&nbsp;"0"))&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&gt;&nbsp;"x"<br>
+<a href="#-get_value_using_path">get_value_using_path</a>(["x",&nbsp;"y",&nbsp;"z"],&nbsp;"1"))&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&gt;&nbsp;"y"<br>
+<a href="#-get_value_using_path">get_value_using_path</a>({"key1"&nbsp;:&nbsp;["x",&nbsp;"y",&nbsp;"z"],<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"key2"&nbsp;:&nbsp;["a",&nbsp;"b",&nbsp;"c",&nbsp;"d"]},&nbsp;"key1/1"))&nbsp;-&gt;&nbsp;"y"<br>
+<a href="#-get_value_using_path">get_value_using_path</a>({"key1"&nbsp;:&nbsp;["x",&nbsp;"y",&nbsp;"z"],<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"key2"&nbsp;:&nbsp;["a",&nbsp;"b",&nbsp;"c",&nbsp;"d"]},&nbsp;"key2/1"))&nbsp;-&gt;&nbsp;"b"</tt></dd></dl>
+ <dl><dt><a name="-initial_state"><strong>initial_state</strong></a>(context)</dt><dd><tt>Restart&nbsp;the&nbsp;system&nbsp;to&nbsp;the&nbsp;known&nbsp;initial&nbsp;state.</tt></dd></dl>
+ <dl><dt><a name="-is_proper_authorization_token"><strong>is_proper_authorization_token</strong></a>(context)</dt></dl>
+ <dl><dt><a name="-job_endpoint"><strong>job_endpoint</strong></a>(context, job_id)</dt><dd><tt>Return&nbsp;URL&nbsp;for&nbsp;given&nbsp;job&nbsp;id&nbsp;that&nbsp;can&nbsp;be&nbsp;used&nbsp;to&nbsp;job&nbsp;state&nbsp;manipulation.</tt></dd></dl>
+ <dl><dt><a name="-job_metadata_filename"><strong>job_metadata_filename</strong></a>(metadata)</dt></dl>
+ <dl><dt><a name="-jobs_api_authorization"><strong>jobs_api_authorization</strong></a>(context)</dt></dl>
+ <dl><dt><a name="-jobs_api_url"><strong>jobs_api_url</strong></a>(context, url)</dt><dd><tt>Access&nbsp;the&nbsp;jobs&nbsp;service&nbsp;API&nbsp;using&nbsp;the&nbsp;HTTP&nbsp;GET&nbsp;method.</tt></dd></dl>
+ <dl><dt><a name="-jobs_api_url_with_authorization_token"><strong>jobs_api_url_with_authorization_token</strong></a>(context, url)</dt><dd><tt>Access&nbsp;the&nbsp;jobs&nbsp;service&nbsp;API&nbsp;using&nbsp;the&nbsp;HTTP&nbsp;GET&nbsp;method.</tt></dd></dl>
+ <dl><dt><a name="-maven_manifest_stack_analysis"><strong>maven_manifest_stack_analysis</strong></a>(context, manifest, version='1', token='without')</dt></dl>
+ <dl><dt><a name="-npm_manifest_stack_analysis"><strong>npm_manifest_stack_analysis</strong></a>(context, manifest, version='1', token='without')</dt></dl>
+ <dl><dt><a name="-parse_float_value_from_text_stream"><strong>parse_float_value_from_text_stream</strong></a>(text, key)</dt><dd><tt>Go&nbsp;through&nbsp;all&nbsp;lines&nbsp;of&nbsp;the&nbsp;text&nbsp;file,&nbsp;find&nbsp;the&nbsp;line&nbsp;with&nbsp;given&nbsp;key<br>
+and&nbsp;parse&nbsp;float&nbsp;value&nbsp;specified&nbsp;here</tt></dd></dl>
+ <dl><dt><a name="-parse_token_clause"><strong>parse_token_clause</strong></a>(token_clause)</dt></dl>
+ <dl><dt><a name="-pause_scenario_execution"><strong>pause_scenario_execution</strong></a>(context, num)</dt><dd><tt>Pause&nbsp;the&nbsp;test&nbsp;for&nbsp;provided&nbsp;number&nbsp;of&nbsp;seconds.</tt></dd></dl>
+ <dl><dt><a name="-perform_alternate_components_validation"><strong>perform_alternate_components_validation</strong></a>(json_data)</dt></dl>
+ <dl><dt><a name="-perform_component_search"><strong>perform_component_search</strong></a>(context, component, use_token)</dt></dl>
+ <dl><dt><a name="-perform_kerberized_request"><strong>perform_kerberized_request</strong></a>(context, method, url)</dt><dd><tt>Call&nbsp;REST&nbsp;API&nbsp;on&nbsp;coreapi-server.</tt></dd></dl>
+ <dl><dt><a name="-perform_post_job"><strong>perform_post_job</strong></a>(context, metadata, state, token='without')</dt><dd><tt>API&nbsp;call&nbsp;to&nbsp;create&nbsp;a&nbsp;new&nbsp;job&nbsp;using&nbsp;the&nbsp;provided&nbsp;metadata.&nbsp;The&nbsp;token<br>
+parameter&nbsp;can&nbsp;be&nbsp;set&nbsp;to&nbsp;'with',&nbsp;'without',&nbsp;or&nbsp;'using'.</tt></dd></dl>
+ <dl><dt><a name="-perform_post_job_with_state"><strong>perform_post_job_with_state</strong></a>(context, metadata, job_id, state, token='without')</dt><dd><tt>API&nbsp;call&nbsp;to&nbsp;create&nbsp;a&nbsp;new&nbsp;job&nbsp;using&nbsp;the&nbsp;provided&nbsp;metadata&nbsp;and&nbsp;set&nbsp;a&nbsp;job<br>
+to&nbsp;given&nbsp;state.&nbsp;The&nbsp;token&nbsp;parameter&nbsp;can&nbsp;be&nbsp;set&nbsp;to&nbsp;'with',&nbsp;'without',&nbsp;or<br>
+'using'.</tt></dd></dl>
+ <dl><dt><a name="-perform_valid_manifest_post"><strong>perform_valid_manifest_post</strong></a>(context, manifest, url)</dt><dd><tt>Post&nbsp;a&nbsp;manifest&nbsp;to&nbsp;selected&nbsp;core&nbsp;API&nbsp;endpont.</tt></dd></dl>
+ <dl><dt><a name="-post_input_to_user_feedback"><strong>post_input_to_user_feedback</strong></a>(context, is_valid, endpoint, token)</dt><dd><tt>Send&nbsp;feedback&nbsp;to&nbsp;user&nbsp;feedback&nbsp;endpoint.</tt></dd></dl>
+ <dl><dt><a name="-python_manifest_stack_analysis"><strong>python_manifest_stack_analysis</strong></a>(context, manifest, version='1', token='without')</dt></dl>
+ <dl><dt><a name="-read_analysis_for_component"><strong>read_analysis_for_component</strong></a>(context, ecosystem, component, version)</dt><dd><tt>Read&nbsp;component&nbsp;analysis&nbsp;(or&nbsp;an&nbsp;error&nbsp;message)&nbsp;for&nbsp;the&nbsp;selected<br>
+ecosystem.</tt></dd></dl>
+ <dl><dt><a name="-read_json_file"><strong>read_json_file</strong></a>(context, filename)</dt></dl>
+ <dl><dt><a name="-replaces_component"><strong>replaces_component</strong></a>(replacement, component, version)</dt></dl>
+ <dl><dt><a name="-running_component_search_api"><strong>running_component_search_api</strong></a>(context)</dt><dd><tt>Wait&nbsp;for&nbsp;the&nbsp;component&nbsp;search&nbsp;REST&nbsp;API&nbsp;to&nbsp;be&nbsp;available.</tt></dd></dl>
+ <dl><dt><a name="-running_jobs_debug_api"><strong>running_jobs_debug_api</strong></a>(context)</dt><dd><tt>Wait&nbsp;for&nbsp;the&nbsp;job&nbsp;debug&nbsp;REST&nbsp;API&nbsp;to&nbsp;be&nbsp;available.</tt></dd></dl>
+ <dl><dt><a name="-running_system"><strong>running_system</strong></a>(context)</dt><dd><tt>Ensure&nbsp;that&nbsp;the&nbsp;system&nbsp;is&nbsp;running,&nbsp;(re)start&nbsp;it&nbsp;if&nbsp;necesarry.</tt></dd></dl>
+ <dl><dt><a name="-search_for_component_with_token"><strong>search_for_component_with_token</strong></a>(context, component)</dt><dd><tt>Search&nbsp;for&nbsp;given&nbsp;component&nbsp;via&nbsp;the&nbsp;component&nbsp;search&nbsp;REST&nbsp;API&nbsp;call.</tt></dd></dl>
+ <dl><dt><a name="-search_for_component_without_token"><strong>search_for_component_without_token</strong></a>(context, component)</dt><dd><tt>Search&nbsp;for&nbsp;given&nbsp;component&nbsp;via&nbsp;the&nbsp;component&nbsp;search&nbsp;REST&nbsp;API&nbsp;call.</tt></dd></dl>
+ <dl><dt><a name="-send_json_file_to_job_api"><strong>send_json_file_to_job_api</strong></a>(context, endpoint, filename, use_token)</dt><dd><tt>Send&nbsp;the&nbsp;given&nbsp;file&nbsp;to&nbsp;the&nbsp;selected&nbsp;job&nbsp;API&nbsp;endpoints.&nbsp;If&nbsp;the&nbsp;use_token<br>
+is&nbsp;set,&nbsp;send&nbsp;the&nbsp;'auth-token'&nbsp;header&nbsp;with&nbsp;the&nbsp;token&nbsp;taken&nbsp;from&nbsp;the<br>
+context&nbsp;environment.</tt></dd></dl>
+ <dl><dt><a name="-send_manifest_to_stack_analysis"><strong>send_manifest_to_stack_analysis</strong></a>(context, manifest, name, endpoint, use_token)</dt><dd><tt>Send&nbsp;the&nbsp;selected&nbsp;manifest&nbsp;file&nbsp;to&nbsp;stack&nbsp;analysis.</tt></dd></dl>
+ <dl><dt><a name="-set_job_service_status"><strong>set_job_service_status</strong></a>(context, status=None)</dt><dd><tt>API&nbsp;call&nbsp;to&nbsp;set&nbsp;or&nbsp;reset&nbsp;job&nbsp;service&nbsp;status.</tt></dd></dl>
+ <dl><dt><a name="-set_job_status"><strong>set_job_status</strong></a>(context, job_id, status)</dt><dd><tt>API&nbsp;call&nbsp;to&nbsp;set&nbsp;job&nbsp;status.</tt></dd></dl>
+ <dl><dt><a name="-should_not_find_job_by_id"><strong>should_not_find_job_by_id</strong></a>(context, job_id)</dt><dd><tt>check&nbsp;if&nbsp;job&nbsp;with&nbsp;given&nbsp;ID&nbsp;does&nbsp;not&nbsp;exist</tt></dd></dl>
+ <dl><dt><a name="-split_comma_separated_list"><strong>split_comma_separated_list</strong></a>(l)</dt></dl>
+ <dl><dt><a name="-stack_analysis_check_companion_packages"><strong>stack_analysis_check_companion_packages</strong></a>(context)</dt></dl>
+ <dl><dt><a name="-stack_analysis_check_licenses"><strong>stack_analysis_check_licenses</strong></a>(context, licenses, path)</dt></dl>
+ <dl><dt><a name="-stack_analysis_check_outliers"><strong>stack_analysis_check_outliers</strong></a>(context, component)</dt></dl>
+ <dl><dt><a name="-stack_analysis_check_replaces"><strong>stack_analysis_check_replaces</strong></a>(json_data, component, version, replaced_by, replacement_version)</dt><dd><tt>Check&nbsp;that&nbsp;the&nbsp;component&nbsp;is&nbsp;replaced&nbsp;by&nbsp;the&nbsp;given&nbsp;package<br>
+and&nbsp;version.</tt></dd></dl>
+ <dl><dt><a name="-stack_analysis_check_replaces_count"><strong>stack_analysis_check_replaces_count</strong></a>(json_data, component, version, expected_replacements=1)</dt><dd><tt>Check&nbsp;that&nbsp;the&nbsp;component&nbsp;is&nbsp;replaced&nbsp;only&nbsp;once&nbsp;in&nbsp;the&nbsp;alternate<br>
+analysis.</tt></dd></dl>
+ <dl><dt><a name="-stack_analysis_check_security_node_for_alternate_components"><strong>stack_analysis_check_security_node_for_alternate_components</strong></a>(context)</dt></dl>
+ <dl><dt><a name="-stack_analysis_check_security_node_for_dependencies"><strong>stack_analysis_check_security_node_for_dependencies</strong></a>(context)</dt></dl>
+ <dl><dt><a name="-stack_analysis_check_sentiment"><strong>stack_analysis_check_sentiment</strong></a>(context)</dt><dd><tt>The&nbsp;structure&nbsp;of&nbsp;sentiment&nbsp;details&nbsp;is:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sentiment":&nbsp;{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"latest_comment":&nbsp;"",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"magnitude":&nbsp;0,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"overall_score":&nbsp;0<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},<br>
+&nbsp;<br>
+Expected&nbsp;values&nbsp;for&nbsp;these&nbsp;attributes:<br>
+magnitude:&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&gt;=&nbsp;0<br>
+overall_score&nbsp;:&nbsp;&nbsp;-1,&nbsp;&nbsp;to&nbsp;+1<br>
+&nbsp;<br>
+usecase:<br>
+&nbsp;<br>
+if&nbsp;magnitude&nbsp;==&nbsp;0&nbsp;&nbsp;then&nbsp;&nbsp;overall_score&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;0<br>
+if&nbsp;magnitude&nbsp;&nbsp;&gt;&nbsp;0&nbsp;then&nbsp;&nbsp;overall_score&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;-1&nbsp;to&nbsp;+&nbsp;1<br>
+&nbsp;<br>
+It&nbsp;is&nbsp;applicable&nbsp;for&nbsp;all&nbsp;three&nbsp;blocks&nbsp;of&nbsp;stack&nbsp;analysis&nbsp;response,&nbsp;namely:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;alternate,&nbsp;companion&nbsp;and&nbsp;dependencies.</tt></dd></dl>
+ <dl><dt><a name="-stack_analysis_endpoint"><strong>stack_analysis_endpoint</strong></a>(context, version)</dt></dl>
+ <dl><dt><a name="-stack_analysis_validate_alternate_components"><strong>stack_analysis_validate_alternate_components</strong></a>(context)</dt></dl>
+ <dl><dt><a name="-start_analysis_for_component"><strong>start_analysis_for_component</strong></a>(context, ecosystem, component, version)</dt><dd><tt>Start&nbsp;the&nbsp;component&nbsp;analysis.<br>
+Start&nbsp;the&nbsp;analysis&nbsp;for&nbsp;given&nbsp;component&nbsp;and&nbsp;version&nbsp;in&nbsp;selected&nbsp;ecosystem.<br>
+Current&nbsp;API&nbsp;implementation&nbsp;returns&nbsp;just&nbsp;two&nbsp;HTTP&nbsp;codes:<br>
+200&nbsp;OK&nbsp;:&nbsp;analysis&nbsp;is&nbsp;already&nbsp;finished<br>
+401&nbsp;UNAUTHORIZED&nbsp;:&nbsp;missing&nbsp;or&nbsp;inproper&nbsp;authorization&nbsp;token<br>
+404&nbsp;NOT&nbsp;FOUND&nbsp;:&nbsp;analysis&nbsp;is&nbsp;started&nbsp;or&nbsp;is&nbsp;in&nbsp;progress<br>
+It&nbsp;means&nbsp;that&nbsp;this&nbsp;test&nbsp;step&nbsp;should&nbsp;check&nbsp;if&nbsp;200&nbsp;OK&nbsp;is&nbsp;NOT&nbsp;returned</tt></dd></dl>
+ <dl><dt><a name="-validate_analysis_result"><strong>validate_analysis_result</strong></a>(context, ecosystem, package, version)</dt></dl>
+ <dl><dt><a name="-verify_stack_level_license_info"><strong>verify_stack_level_license_info</strong></a>(context, field_name)</dt></dl>
+ <dl><dt><a name="-wait_for_stack_analysis_completion"><strong>wait_for_stack_analysis_completion</strong></a>(context, version='1', token='without')</dt><dd><tt>Try&nbsp;to&nbsp;wait&nbsp;for&nbsp;the&nbsp;stack&nbsp;analysis&nbsp;to&nbsp;be&nbsp;finished.<br>
+&nbsp;<br>
+This&nbsp;step&nbsp;assumes&nbsp;that&nbsp;stack&nbsp;analysis&nbsp;has&nbsp;been&nbsp;started&nbsp;previously&nbsp;and<br>
+thus&nbsp;that&nbsp;the&nbsp;job&nbsp;ID&nbsp;is&nbsp;known<br>
+&nbsp;<br>
+Current&nbsp;API&nbsp;implementation&nbsp;returns&nbsp;just&nbsp;three&nbsp;HTTP&nbsp;codes:<br>
+200&nbsp;OK&nbsp;:&nbsp;analysis&nbsp;is&nbsp;already&nbsp;finished<br>
+202&nbsp;Accepted:&nbsp;analysis&nbsp;is&nbsp;started&nbsp;or&nbsp;is&nbsp;in&nbsp;progress&nbsp;(or&nbsp;other&nbsp;state!)<br>
+401&nbsp;UNAUTHORIZED&nbsp;:&nbsp;missing&nbsp;or&nbsp;inproper&nbsp;authorization&nbsp;token</tt></dd></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>DEFAULT_AUTHORIZATION_TOKEN_FILENAME</strong> = 'private_key.pem'<br>
+<strong>STACK_ANALYSIS_CONSTANT_FILE_URL</strong> = 'https://raw.githubusercontent.com/fabric8-analyt...nalytics_platform/kronos/pgm/src/pgm_constants.py'<br>
+<strong>STACK_ANALYSIS_OUTLIER_PROBABILITY_CONSTANT_NAME</strong> = 'KRONOS_OUTLIER_PROBABILITY_THRESHOLD_VALUE'</td></tr></table>
+</body></html>
