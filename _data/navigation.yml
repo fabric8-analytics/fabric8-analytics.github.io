@@ -20,3 +20,7 @@ main:
 
         - title: Resources
           url: /resources/
+          submenuitem:
+              - page: Dashboard
+                url: /resources/dashboard/
+
