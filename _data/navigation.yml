@@ -20,7 +20,13 @@ main:
 
         - title: Resources
           url: /resources/
-          submenuitem:
-              - page: Dashboard
+          submenu:
+              - title: Dashboard
                 url: /resources/dashboard/
+
+              - title: Learnings
+                url: /resources/learnings/
+
+              - title: Credential Guide
+                url: /resources/credential/
 
