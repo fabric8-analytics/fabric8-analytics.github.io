@@ -45,6 +45,7 @@ a.nav-item {
   justify-content: center;
   width: 179px;
   padding: 12px 8px 12px 8px;
+  margin-top: 6px;
   margin-right: 14px;
   font-size: 15px;
   font-weight: bold;
@@ -70,7 +71,7 @@ a.nav-item {
   -webkit-border-radius: 30px;
 }
 
-a.nav-item:hover, a.nav-item.active {
+a.nav-item:hover, a.active {
   background: #fafafa; /* Old browsers */
   background: -moz-linear-gradient(top,  #fdfdfd 0%, #c6c6c6 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfdfd), color-stop(100%,#c6c6c6)); /* Chrome,Safari4+ */
