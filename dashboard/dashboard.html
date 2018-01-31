@@ -24,13 +24,17 @@
                 <div class="panel panel-primary">
                     <div class="panel-heading">Services liveness and readiness</div>
                     <table class="table table-condensed table-hover table-bordered" rules="all">
-                        <tr><th>Environment</th><th>Core API</th><th>Jobs API</th><th>Auth.token<br />to core API</th><th>Auth.token<br />to jobs API</th><th>Smoketests</th></tr>
+                        <tr><th>Environment</th><th>Core API</th><th>Jobs API</th><th>Auth.token<br />to core API</th><th>Auth.token<br />to jobs API</th><th>Smoketests</th><th>Smoketests<br />history</th></tr>
                         <tr><td>Stage</td>
                                 <td class="boolean ok">&#x2713;</td>
                                 <td class="boolean ok">&#x2713;</td>
                                 <td class="boolean ok">&#x2713;</td>
                                 <td class="boolean ok">&#x2713;</td>
                                 <td class="boolean error">?</td>
+                            <td>
+                            &nbsp;
+                            <!-- we don't have smoketests CI builds for the stage -->
+                            </td>
                         </tr>
                         <tr><td>Production</td>
                                 <td class="boolean ok">&#x2713;</td>
@@ -39,7 +43,10 @@
                                 <td class="boolean ok">&#x2713;</td>
                                 <td>
                                     <span class="ci_status boolean ok">&#x2713;</span>
-                                    <a href='https://ci.centos.org/job/devtools-test-end-to-end-prod-fabric8-analytics'>link</a></td>
+                                    <a href='https://ci.centos.org/job/devtools-test-end-to-end-prod-fabric8-analytics'>link</a>
+                            <td style="width:3ex">
+                            95/100</td>
+                            </td>
                         </tr>
                     </table>
                 </div>
@@ -186,11 +193,11 @@
                                 100%
                                 </div>
                             </td>
-                            <td class="numeric ok" style="width:8ex">52</td>
-                            <td class="numeric error" style="width:8ex">115</td>
+                            <td class="numeric ok" style="width:8ex">53</td>
+                            <td class="numeric error" style="width:8ex">114</td>
                             <td class="numeric" style="width:16ex">
-                                <div class='progress-bar progress-bar-warning progress-bar-striped' style='width:41.349999999999994%'>
-                                31%
+                                <div class='progress-bar progress-bar-warning progress-bar-striped' style='width:42.2%'>
+                                32%
                                 </div>
                             </td>
                                 <td class="boolean error">&times;</td>
@@ -278,7 +285,7 @@
                         <tr>
                             <td style="width:36ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-data-model">fabric8-analytics-data-model</a></td>
                             <td class="numeric" style="width:8ex"><a href="repository_fabric8-analytics-data-model.html">13</a></td>
-                            <td class="numeric" style="width:8ex">1202</td>
+                            <td class="numeric" style="width:8ex">1229</td>
                             <td class="numeric ok" style="width:8ex">13</td>
                             <td class="numeric error" style="width:8ex">0</td>
                             <td class="numeric" style="width:16ex">
@@ -325,7 +332,7 @@
                             <td style="width:36ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-common">fabric8-analytics-common</a></td>
                                     <td style="width:10ex" class="boolean error">&times;</td>
                                     <td style="width:10ex">
-                                        <span class="ci_status boolean error">&times;</span>
+                                        <span class="ci_status boolean ok">&#x2713;</span>
                                     <a href='https://ci.centos.org/job/devtools-e2e-fabric8-analytics'>link</a>
                                     </td>
                                     <td style="width:10ex">
@@ -340,7 +347,7 @@
                         <tr>
                             <td style="width:36ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-server">fabric8-analytics-server</a></td>
                                     <td style="width:10ex">
-                                        <span class="ci_status boolean ok">&#x2713;</span>
+                                        <span class="ci_status boolean error">&times;</span>
                                     <a href='https://ci.centos.org/job/devtools-fabric8-analytics-server-f8a-build-master'>link</a>
                                     </td>
                                     <td style="width:10ex">
@@ -439,7 +446,7 @@
                         <tr>
                             <td style="width:36ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-data-model">fabric8-analytics-data-model</a></td>
                                     <td style="width:10ex">
-                                        <span class="ci_status boolean ok">&#x2713;</span>
+                                        <span class="ci_status boolean error">&times;</span>
                                     <a href='https://ci.centos.org/job/devtools-fabric8-analytics-data-model-f8a-build-master'>link</a>
                                     </td>
                                     <td style="width:10ex">
@@ -468,16 +475,16 @@
                     </table>
                 </div>
             <div class="panel panel-primary">
-                <div class="panel-heading">Issues for sprint 143</div>
+                <div class="panel-heading">Issues for sprint 144</div>
                 <table class="table table-condensed table-hover table-bordered" rules="all">
                     <tr><th>Team</th><th>List of issues</th></tr>
-                        <tr><td>core</td><td><a href='https://github.com/openshiftio/openshift.io/issues?q=is:open+is:issue+milestone:"Sprint+143"+label:team/analytics/core'>link</a></td></tr>
-                        <tr><td>integration</td><td><a href='https://github.com/openshiftio/openshift.io/issues?q=is:open+is:issue+milestone:"Sprint+143"+label:team/analytics/integration'>link</a></td></tr>
+                        <tr><td>core</td><td><a href='https://github.com/openshiftio/openshift.io/issues?q=is:open+is:issue+milestone:"Sprint+144"+label:team/analytics/core'>link</a></td></tr>
+                        <tr><td>integration</td><td><a href='https://github.com/openshiftio/openshift.io/issues?q=is:open+is:issue+milestone:"Sprint+144"+label:team/analytics/integration'>link</a></td></tr>
                 </table>
             </div>
             <div style='height:100px'></div>
             <div>Author: Pavel Tisnovsky &lt;<a href="mailto:ptisnovs@redhat.com">ptisnovs@redhat.com</a>&gt;</div>
-            <div>Generated on: 2018-01-30 11:12:14</div>
+            <div>Generated on: 2018-01-31 11:29:58</div>
         </div>
     </body>
 </html>
