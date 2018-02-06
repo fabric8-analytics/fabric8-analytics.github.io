@@ -10,24 +10,24 @@ GitHub pages
  * [100 parallel calls](perf-tests/core_api/stack_analysis/production_100_calls/stack_analysis_parallel_calls_100_threads.png)
  * [statistic](perf-tests/core_api/stack_analysis/production_100_calls/stack_analysis_parallel_calls_100_threads_concurrent_100_threads_min_max_avg_times.png)
 
-# For developers
-
 # FAQs
 
 ## What is the overall archicture and flow graph of Fabric8-Anaytics system?
 
+Coming soon...
+
 ## Where are all project repos located?
 
-Here: https://github.com/fabric8-analytics/
 
 You may want to get familiar with:
 
- * Common: https://github.com/fabric8-analytics/fabric8-analytics-common
- * Worker: https://github.com/fabric8-analytics/fabric8-analytics-worker
- * Server: https://github.com/fabric8-analytics/fabric8-analytics-server
- * Jobs: https://github.com/fabric8-analytics/fabric8-analytics-jobs
- * Data-Model-Importer: https://github.com/fabric8-analytics/fabric8-analytics-data-model
- * and others...
+ * [Common](https://github.com/fabric8-analytics/fabric8-analytics-common)
+ * [Worker](https://github.com/fabric8-analytics/fabric8-analytics-worker)
+ * [Server](https://github.com/fabric8-analytics/fabric8-analytics-server)
+ * [Jobs](https://github.com/fabric8-analytics/fabric8-analytics-jobs)
+ * [Data-Model-Importer](https://github.com/fabric8-analytics/fabric8-analytics-data-model)
+ * and others located here at [github.com/fabric8-analytics/](https://github.com/fabric8-analytics/)
+
 
 ## How to develop or run on local machine?
 
@@ -65,3 +65,8 @@ Dev Cluster, Staging Cluster and Production Cluster are OpenShift v3 clusters ma
  * Production Cluster is for end users.
 
 All these clusters have different endpoints, which you can find from your local teams. Talk to them :-)
+
+# Get in touch with Fabric8 Analytics Community!
+
+ * Chat with us on [fabric8-analytics](https://chat.openshift.io/developers/channels/fabric8-analytics) channel on Mattermost.
+ * Try it out and contribute to our projects on [GitHub](https://github.com/fabric8-analytics/fabric8-analytics-deployment)
