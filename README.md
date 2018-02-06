@@ -49,7 +49,7 @@ Once all goes well through the review and PR is merged into master, the changes 
 
 For pushing the changes already incorporated into master branch, the merge commit ID should be updated in the [saas-analytics](https://github.com/openshiftio/saas-analytics/tree/master/bay-services) repo.
 
-This works by tagging each of the container images using commit ids from git logs. So whenever a PR was merged, an image is guild using that commit ID. This id is used to pull the corresponding image when deploying to production.
+This works by tagging each of the container images using commit ids from git logs. So whenever a PR was merged, an image is build using that commit ID. This id is used to pull the corresponding image when deploying to production.
 
 ## Who manages the services required for deploying onto STAGING / PRODUCTION ?
 
