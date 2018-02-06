@@ -69,4 +69,5 @@ All these clusters have different endpoints, which you can find from your local 
 # Get in touch with Fabric8 Analytics Community!
 
  * Chat with us on [fabric8-analytics](https://chat.openshift.io/developers/channels/fabric8-analytics) channel on Mattermost.
- * Try it out and contribute to our projects on [GitHub](https://github.com/fabric8-analytics/fabric8-analytics-deployment)
+ * [Try it out](https://github.com/fabric8-analytics/fabric8-analytics-deployment) and contribute to [our projects on GitHub](https://github.com/fabric8-analytics)
+
