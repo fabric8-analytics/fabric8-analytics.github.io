@@ -9,14 +9,18 @@ main:
         - title: Repositories
           url: /repositories/
 
-        - title: Deployment
-          url: /deployment/
+        - title: Development
+          url: /development/
+          submenu:
 
-        - title: Testing
-          url: /testing/
+            - title: Deployment
+              url: /deployment/
 
-        - title: Contribution
-          url: /contribution/
+            - title: Testing
+              url: /testing/
+
+            - title: Contribution
+              url: /contribution/
 
         - title: Resources
           url: /resources/
@@ -30,3 +34,5 @@ main:
               - title: Credential Guide
                 url: /resources/credentials/
 
+        - title: FAQ
+          url: /faq/
