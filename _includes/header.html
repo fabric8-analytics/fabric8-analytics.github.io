@@ -1,0 +1,44 @@
+{% if page.lang %}
+  {% assign lang = page.lang %}
+{% else %}
+  {% assign lang = "en" %}
+{% endif %}
+
+{% assign nav = site.data.navigation["main"][lang] %}
+
+<center><header class="">
+
+  <h1><a href="{{ site.baseurl }}"> {{ page.title | default: site.title | default: site.github.repository_name }}</a></h1>
+  <h2>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+<nav class="nav-main">
+		<ul>
+		{% for item in nav %}
+
+			{% if page.url == item.url %}
+				{% assign item_class = "nav-item active" %}
+			{% elsif page.url contains "resources" and item.url contains "resources" %}
+				{% assign item_class = "nav-item active" %}
+			{% else %}
+				{% assign item_class = "nav-item" %}
+			{% endif %}
+
+			{% if item.submenu[0] %}
+			<li class="dropdown"><a class="{{ item_class }}" href="javascript:void(0)"><span>{{ item.title }}</span></a>
+					<div class="dropdown-content">
+					{% for entry in item.submenu %}
+						{% if page.url == entry.url %}
+							{% assign subitem_class = "nav-item active" %}
+						{% else %}
+							{% assign subitem_class = "nav-item" %}
+						{% endif %}
+						<a class="{{ subitem_class }}" href="{{ site.baseurl }}{{ entry.url }}"><span>{{ entry.title }}</span></a>
+					{% endfor %}
+					</div>
+				</li>
+			{% else %}
+			<li><a class="{{ item_class }}" href="{{ site.baseurl }}{{ item.url }}"><span>{{ item.title }}</span></a></li>
+			{% endif %}
+		{% endfor %}
+		</ul>
+</nav>
+	</header></center>

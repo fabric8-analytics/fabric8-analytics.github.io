@@ -3,3 +3,4 @@ _site/
 
 
 # files to ignore
+**/*.swp

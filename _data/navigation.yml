@@ -1,0 +1,38 @@
+banner:
+    en:
+        title: Fabric8 Analytics
+        description: Fabric8 Analytics landing page
+        url: /
+
+main:
+    en:
+        - title: Repositories
+          url: /repositories/
+
+        - title: Development
+          url: /development/
+          submenu:
+
+            - title: Deployment
+              url: /deployment/
+
+            - title: Testing
+              url: /testing/
+
+            - title: Contribution
+              url: /contribution/
+
+        - title: Resources
+          url: /resources/
+          submenu:
+              - title: Dashboard
+                url: /resources/dashboard/
+
+              - title: Learnings
+                url: /resources/learnings/
+
+              - title: Credential Guide
+                url: /resources/credentials/
+
+        - title: FAQ
+          url: /faq/
