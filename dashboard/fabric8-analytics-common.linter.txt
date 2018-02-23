@@ -1,0 +1,130 @@
+----------------------------------------------------
+Running Python linter against following directories:
+integration-tests ui-tests perf-tests dashboard reproducers load-tests
+----------------------------------------------------
+
+Using real prefix '/usr'
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/fabric8-analytics-common/venv/bin/python3
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/fabric8-analytics-common/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/fabric8-analytics-common/venv/bin/python3)
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Requirement already satisfied: pycodestyle in ./venv/lib/python3.6/site-packages
+integration-tests/features/src/schema_validator.py
+    Pass
+integration-tests/features/src/parsing.py
+    Pass
+integration-tests/features/src/utils.py
+    Pass
+integration-tests/features/src/graph_db_query.py
+    Pass
+integration-tests/features/src/MockedResponse.py
+    Pass
+integration-tests/features/src/json_utils.py
+    Pass
+integration-tests/features/src/authorization_tokens.py
+    Pass
+integration-tests/features/src/s3interface.py
+    Pass
+integration-tests/features/src/attribute_checks.py
+    Pass
+integration-tests/features/steps/s3_package_analysis.py
+    Pass
+integration-tests/features/steps/gremlin.py
+    Pass
+integration-tests/features/steps/s3_component_analysis.py
+    Pass
+integration-tests/features/steps/server_api.py
+    Pass
+integration-tests/features/steps/three_scale.py
+    Pass
+integration-tests/features/steps/jobs_api.py
+    Pass
+integration-tests/features/steps/user_tag.py
+    Pass
+integration-tests/features/steps/component_analysis.py
+    Pass
+integration-tests/features/steps/s3_interface.py
+    Pass
+integration-tests/features/steps/stack_analysis.py
+    Pass
+integration-tests/features/steps/common.py
+    Pass
+integration-tests/features/steps/authorization.py
+    Pass
+integration-tests/features/steps/backbone_api.py
+    Pass
+integration-tests/features/environment.py
+    Pass
+integration-tests/hack/json2pom.py
+    Pass
+ui-tests/test.py
+    Pass
+perf-tests/src/api.py
+    Pass
+perf-tests/src/jobsapi.py
+    Pass
+perf-tests/src/duration.py
+    Pass
+perf-tests/src/componentgenerator.py
+    Pass
+perf-tests/src/cliargs.py
+    Pass
+perf-tests/src/perf-tests.py
+    Pass
+perf-tests/src/measurements.py
+    Pass
+perf-tests/src/gremlin_api.py
+    Pass
+perf-tests/src/gremlin_query.py
+    Pass
+perf-tests/src/benchmarks.py
+    Pass
+perf-tests/src/s3interface.py
+    Pass
+perf-tests/src/coreapi.py
+    Pass
+perf-tests/src/graph.py
+    Pass
+perf-tests/src/gremlin_package_generator.py
+    Pass
+dashboard/src/results.py
+    Pass
+dashboard/src/configuration.py
+    Pass
+dashboard/src/sla.py
+    Pass
+dashboard/src/api.py
+    Pass
+dashboard/src/ci_jobs.py
+    Pass
+dashboard/src/jobsapi.py
+    Pass
+dashboard/src/perf_tests.py
+    Pass
+dashboard/src/cliargs.py
+    Pass
+dashboard/src/server_configuration.py
+    Pass
+dashboard/src/html_generator.py
+    Pass
+dashboard/src/config.py
+    Pass
+dashboard/src/s3_configuration.py
+    Pass
+dashboard/src/dashboard.py
+    Pass
+dashboard/src/smoke_tests.py
+    Pass
+dashboard/src/coreapi.py
+    Pass
+reproducers/issue1934.py
+    Pass
+reproducers/issue1619.py
+    Pass
+reproducers/issue2012.py
+    Pass
+load-tests/run_load_test.py
+    Pass
+load-tests/locust-test.py
+    Pass
+All checks passed

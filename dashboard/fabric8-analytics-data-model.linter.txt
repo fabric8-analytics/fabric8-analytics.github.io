@@ -1,0 +1,48 @@
+----------------------------------------------------
+Running Python linter against following directories:
+src test
+----------------------------------------------------
+
+Using real prefix '/usr'
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/fabric8-analytics-data-model/venv/bin/python3
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/fabric8-analytics-data-model/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/fabric8-analytics-data-model/venv/bin/python3)
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Requirement already satisfied: pycodestyle in ./venv/lib/python3.6/site-packages
+src/graph_populator.py
+    Pass
+src/__init__.py
+    Pass
+src/rest_api.py
+    Pass
+src/data_source/__init__.py
+    Pass
+src/data_source/abstract_data_source.py
+    Pass
+src/data_source/s3_data_source.py
+    Pass
+src/graph_manager.py
+    Pass
+src/set_logging.py
+    Pass
+src/synchronization.py
+    Pass
+src/data_importer.py
+    Pass
+src/sanitycheck.py
+    Pass
+test/test_rest_api.py
+    Pass
+test/test_graph_properties.py
+    Pass
+test/test_insertion_from_minio.py
+    Pass
+test/test_data_importer.py
+    Pass
+test/test_s3_data_source.py
+    Pass
+test/test_graph_manager.py
+    Pass
+test/test_graph_populator.py
+    Pass
+All checks passed

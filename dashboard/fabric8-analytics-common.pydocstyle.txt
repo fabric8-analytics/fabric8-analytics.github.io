@@ -1,0 +1,192 @@
+----------------------------------------------------
+Checking documentation strings in all sources stored
+in following directories:
+integration-tests ui-tests perf-tests dashboard reproducers load-tests
+----------------------------------------------------
+
+Using real prefix '/usr'
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/fabric8-analytics-common/venv/bin/python3
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/fabric8-analytics-common/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/fabric8-analytics-common/venv/bin/python3)
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages
+Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle)
+Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle)
+integration-tests/features/src/schema_validator.py
+0
+    Pass
+integration-tests/features/src/parsing.py
+0
+    Pass
+integration-tests/features/src/utils.py
+0
+    Pass
+integration-tests/features/src/graph_db_query.py
+0
+    Pass
+integration-tests/features/src/MockedResponse.py
+0
+    Pass
+integration-tests/features/src/json_utils.py
+0
+    Pass
+integration-tests/features/src/authorization_tokens.py
+0
+    Pass
+integration-tests/features/src/s3interface.py
+0
+    Pass
+integration-tests/features/src/attribute_checks.py
+0
+    Pass
+integration-tests/features/steps/s3_package_analysis.py
+0
+    Pass
+integration-tests/features/steps/gremlin.py
+0
+    Pass
+integration-tests/features/steps/s3_component_analysis.py
+0
+    Pass
+integration-tests/features/steps/server_api.py
+0
+    Pass
+integration-tests/features/steps/three_scale.py
+0
+    Pass
+integration-tests/features/steps/jobs_api.py
+0
+    Pass
+integration-tests/features/steps/user_tag.py
+0
+    Pass
+integration-tests/features/steps/component_analysis.py
+0
+    Pass
+integration-tests/features/steps/s3_interface.py
+0
+    Pass
+integration-tests/features/steps/stack_analysis.py
+0
+    Pass
+integration-tests/features/steps/common.py
+0
+    Pass
+integration-tests/features/steps/authorization.py
+0
+    Pass
+integration-tests/features/steps/backbone_api.py
+0
+    Pass
+integration-tests/features/environment.py
+0
+    Pass
+integration-tests/hack/json2pom.py
+0
+    Pass
+ui-tests/test.py
+0
+    Pass
+perf-tests/src/api.py
+0
+    Pass
+perf-tests/src/jobsapi.py
+0
+    Pass
+perf-tests/src/duration.py
+0
+    Pass
+perf-tests/src/componentgenerator.py
+0
+    Pass
+perf-tests/src/cliargs.py
+0
+    Pass
+perf-tests/src/perf-tests.py
+0
+    Pass
+perf-tests/src/measurements.py
+0
+    Pass
+perf-tests/src/gremlin_api.py
+0
+    Pass
+perf-tests/src/gremlin_query.py
+0
+    Pass
+perf-tests/src/benchmarks.py
+0
+    Pass
+perf-tests/src/s3interface.py
+0
+    Pass
+perf-tests/src/coreapi.py
+0
+    Pass
+perf-tests/src/graph.py
+0
+    Pass
+perf-tests/src/gremlin_package_generator.py
+0
+    Pass
+dashboard/src/results.py
+0
+    Pass
+dashboard/src/configuration.py
+0
+    Pass
+dashboard/src/sla.py
+0
+    Pass
+dashboard/src/api.py
+0
+    Pass
+dashboard/src/ci_jobs.py
+0
+    Pass
+dashboard/src/jobsapi.py
+0
+    Pass
+dashboard/src/perf_tests.py
+0
+    Pass
+dashboard/src/cliargs.py
+0
+    Pass
+dashboard/src/server_configuration.py
+0
+    Pass
+dashboard/src/html_generator.py
+0
+    Pass
+dashboard/src/config.py
+0
+    Pass
+dashboard/src/s3_configuration.py
+0
+    Pass
+dashboard/src/dashboard.py
+0
+    Pass
+dashboard/src/smoke_tests.py
+0
+    Pass
+dashboard/src/coreapi.py
+0
+    Pass
+reproducers/issue1934.py
+0
+    Pass
+reproducers/issue1619.py
+0
+    Pass
+reproducers/issue2012.py
+0
+    Pass
+load-tests/run_load_test.py
+0
+    Pass
+load-tests/locust-test.py
+0
+    Pass
+All checks passed for 59 source files

@@ -1,0 +1,65 @@
+----------------------------------------------------
+Running Python linter against following directories:
+f8a_tagger
+----------------------------------------------------
+
+Using real prefix '/usr'
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/fabric8-analytics-tagger/venv/bin/python3
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/fabric8-analytics-tagger/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/fabric8-analytics-tagger/venv/bin/python3)
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Requirement already satisfied: pycodestyle in ./venv/lib/python3.6/site-packages
+f8a_tagger/collectors/__init__.py
+    Pass
+f8a_tagger/collectors/pypi.py
+    Pass
+f8a_tagger/collectors/maven.py
+    Pass
+f8a_tagger/collectors/npm.py
+    Pass
+f8a_tagger/collectors/base.py
+    Pass
+f8a_tagger/collectors/stackoverflow.py
+    Pass
+f8a_tagger/lemmatizer.py
+    Pass
+f8a_tagger/tokenizer.py
+    Pass
+f8a_tagger/__init__.py
+    Pass
+f8a_tagger/utils.py
+    Pass
+f8a_tagger/keywords_chief.py
+    Pass
+f8a_tagger/scoring.py
+    Pass
+f8a_tagger/parsers/__init__.py
+    Pass
+f8a_tagger/parsers/core_parser.py
+    Pass
+f8a_tagger/parsers/parsers.py
+    Pass
+f8a_tagger/parsers/abstract.py
+    Pass
+f8a_tagger/stemmer.py
+    Pass
+f8a_tagger/corpus.py
+    Pass
+f8a_tagger/recipes.py
+    Pass
+f8a_tagger/keywords_set.py
+    Pass
+f8a_tagger/errors.py
+    Pass
+f8a_tagger/defaults.py
+    Pass
+
+----------------------------------------------------
+Running Python linter against selected files:
+f8a_tagger_cli.py setup.py
+----------------------------------------------------
+f8a_tagger_cli.py
+    Pass
+setup.py
+    Pass
+All checks passed

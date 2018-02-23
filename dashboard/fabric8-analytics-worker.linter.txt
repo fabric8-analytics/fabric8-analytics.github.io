@@ -1,0 +1,349 @@
+----------------------------------------------------
+Running Python linter against following directories:
+alembic f8a_worker tests hack
+----------------------------------------------------
+
+Using real prefix '/usr'
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/fabric8-analytics-worker/venv/bin/python3
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/fabric8-analytics-worker/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/fabric8-analytics-worker/venv/bin/python3)
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Requirement already satisfied: pycodestyle in ./venv/lib/python3.6/site-packages
+alembic/versions/f5c853b83d41_add_api_requests_table.py
+    Pass
+alembic/versions/9d605c7725d8_add_app_stack_tables.py
+    Pass
+alembic/versions/76c5fd72744e_gh_usage_stats.py
+    Pass
+alembic/versions/0ff7fe2828a5_initial_revision.py
+    Pass
+alembic/versions/e48c7b4235aa_drop_analysisrequest_table.py
+    Pass
+alembic/versions/be06b06767de_add_indexes_on_foreign_keys_in_.py
+    Pass
+alembic/versions/2bd5f6d0c8b0_introduce_stackreq_origin_flag.py
+    Pass
+alembic/versions/e2762a61d34c_upstream_url_can_be_null.py
+    Pass
+alembic/versions/49c27b67936f_permissions.py
+    Pass
+alembic/versions/33b719488061_add_col_dep_snapshot.py
+    Pass
+alembic/versions/ea55c632ae8d_create_auth_data.py
+    Pass
+alembic/versions/d62464ca17ae_introduce_error_flag_for_worker_results.py
+    Pass
+alembic/versions/ddb09a7d6633_delete_unnecessary_db_tables.py
+    Pass
+alembic/versions/813f9a704eb7_stack_request_coltypechange.py
+    Pass
+alembic/versions/b4fbc8e04c81_gh_usage_with_versions.py
+    Pass
+alembic/versions/a0433904c63b_analysis_requests.py
+    Pass
+alembic/versions/750621a9cd89_drop_server_tables.py
+    Pass
+alembic/versions/133cd5484609_add_es_marker.py
+    Pass
+alembic/versions/b19a6deb869d_stack_request_coltype_change.py
+    Pass
+alembic/versions/fc7ea2a7e386_analytics_tables.py
+    Pass
+alembic/versions/245b57b274c2_introduce_upstream_monitoring_flows.py
+    Pass
+alembic/versions/a31c98c74ea0_add_e_p_v.py
+    Pass
+alembic/versions/f8bb0efac483_nuget_ecosystem.py
+    Pass
+alembic/versions/3fd95b3a69f5_bye_reviews.py
+    Pass
+alembic/versions/47f4ce1e8d75_stack_analyses_request.py
+    Pass
+alembic/versions/2ff043a5af5b_make_ecosystem_name_unique.py
+    Pass
+alembic/versions/02b91e918b43_migrate_to_dynamic_control_flow.py
+    Pass
+alembic/versions/49fb7de6227f_removal_of_anitya.py
+    Pass
+alembic/versions/60b296cac700_add_similar_components_table.py
+    Pass
+alembic/versions/424427c5f988_relative_usage.py
+    Pass
+alembic/versions/79d88d57baa7_remove_analyses_column.py
+    Pass
+alembic/versions/cd05b43f27e5_add_synced2graph_boolean_column_to_.py
+    Pass
+alembic/versions/8302d3bb5f68_stackreq_team_result.py
+    Pass
+alembic/versions/01404498814b_create_epv_and_workerresult_indexes.py
+    Pass
+alembic/versions/7c643a1823db_index_on_external_request_id.py
+    Pass
+alembic/versions/20cf59abbda8_add_external_reqeust_id_to_workerresult.py
+    Pass
+alembic/versions/a46a17bfd29b_batches_versions_relation.py
+    Pass
+alembic/versions/a60f15a395e2_do_not_index_ecosystem_url.py
+    Pass
+alembic/versions/3eb32f202f93_removing_starttime_and_endtime.py
+    Pass
+alembic/versions/094ea67a2baf_add_index_for_synced2graph_column.py
+    Pass
+alembic/versions/da53445aabad_add_recommendation_feedback_py.py
+    Pass
+alembic/versions/963d3d929b19_analyses.py
+    Pass
+alembic/versions/5cf8c7dac1b6_remove_active_flag.py
+    Pass
+alembic/versions/6e7ff4c3177e_remove_batches.py
+    Pass
+alembic/versions/51cb05927271_downstream_map.py
+    Pass
+alembic/versions/21b3add12b10_initial_ref_stack_support.py
+    Pass
+alembic/versions/22a1cd66a9c6_batches_reviews.py
+    Pass
+alembic/env.py
+    Pass
+f8a_worker/object_cache.py
+    Pass
+f8a_worker/models.py
+    Pass
+f8a_worker/dispatcher/__init__.py
+    Pass
+f8a_worker/dispatcher/selective.py
+    Pass
+f8a_worker/dispatcher/trace.py
+    Pass
+f8a_worker/dispatcher/predicates.py
+    Pass
+f8a_worker/dispatcher/foreach.py
+    Pass
+f8a_worker/graphutils.py
+    Pass
+f8a_worker/__init__.py
+    Pass
+f8a_worker/utils.py
+    Pass
+f8a_worker/setup_celery.py
+    Pass
+f8a_worker/start.py
+    Pass
+f8a_worker/solver.py
+    Pass
+f8a_worker/process.py
+    Pass
+f8a_worker/manifests.py
+    Pass
+f8a_worker/base.py
+    Pass
+f8a_worker/storages/s3_mavenindex.py
+    Pass
+f8a_worker/storages/s3_data_base.py
+    Pass
+f8a_worker/storages/s3_crowd_source_tags.py
+    Pass
+f8a_worker/storages/s3_readme.py
+    Pass
+f8a_worker/storages/__init__.py
+    Pass
+f8a_worker/storages/s3_package_data.py
+    Pass
+f8a_worker/storages/s3_keywords_summary.py
+    Pass
+f8a_worker/storages/s3_manifests.py
+    Pass
+f8a_worker/storages/postgres_base.py
+    Pass
+f8a_worker/storages/s3_userintent.py
+    Pass
+f8a_worker/storages/s3_userprofilestore.py
+    Pass
+f8a_worker/storages/s3_description_repository.py
+    Pass
+f8a_worker/storages/package_postgres.py
+    Pass
+f8a_worker/storages/s3_temp_artifacts.py
+    Pass
+f8a_worker/storages/s3_bigquery.py
+    Pass
+f8a_worker/storages/s3_vulndb.py
+    Pass
+f8a_worker/storages/s3_artifacts.py
+    Pass
+f8a_worker/storages/s3_data.py
+    Pass
+f8a_worker/storages/s3_manual_tagging.py
+    Pass
+f8a_worker/storages/s3_gh_manifests.py
+    Pass
+f8a_worker/storages/postgres.py
+    Pass
+f8a_worker/storages/s3.py
+    Pass
+f8a_worker/schemas.py
+    Pass
+f8a_worker/enums.py
+    Pass
+f8a_worker/workers/finalize.py
+    Pass
+f8a_worker/workers/schemas/languages.py
+    Pass
+f8a_worker/workers/schemas/code_metrics.py
+    Pass
+f8a_worker/workers/schemas/source_licenses.py
+    Pass
+f8a_worker/workers/schemas/github_details.py
+    Pass
+f8a_worker/workers/schemas/security_issues.py
+    Pass
+f8a_worker/workers/schemas/__init__.py
+    Pass
+f8a_worker/workers/schemas/libraries_io.py
+    Pass
+f8a_worker/workers/schemas/metadata.py
+    Pass
+f8a_worker/workers/schemas/binary_data.py
+    Pass
+f8a_worker/workers/schemas/digests.py
+    Pass
+f8a_worker/workers/schemas/crypto_algorithms.py
+    Pass
+f8a_worker/workers/schemas/package_keywords_tagging.py
+    Pass
+f8a_worker/workers/schemas/keywords_tagging.py
+    Pass
+f8a_worker/workers/schemas/dependency_snapshot.py
+    Pass
+f8a_worker/workers/oscryptocatcher.py
+    Pass
+f8a_worker/workers/stackaggregator_v2.py
+    Pass
+f8a_worker/workers/graph_importer.py
+    Pass
+f8a_worker/workers/code_metrics.py
+    Pass
+f8a_worker/workers/bigquery_gh.py
+    Pass
+f8a_worker/workers/gh_metadata_result_collector.py
+    Pass
+f8a_worker/workers/bookkeeper.py
+    Pass
+f8a_worker/workers/manifest_keeper.py
+    Pass
+f8a_worker/workers/__init__.py
+    Pass
+f8a_worker/workers/libraries_io.py
+    Pass
+f8a_worker/workers/githuber.py
+    Pass
+f8a_worker/workers/binwalk.py
+    Pass
+f8a_worker/workers/csmock_worker.py
+    Pass
+f8a_worker/workers/linguist.py
+    Pass
+f8a_worker/workers/mercator.py
+    Pass
+f8a_worker/workers/cvedbsync.py
+    Pass
+f8a_worker/workers/digester.py
+    Pass
+f8a_worker/workers/license.py
+    Pass
+f8a_worker/workers/git_stats.py
+    Pass
+f8a_worker/workers/CVEchecker.py
+    Pass
+f8a_worker/workers/init_package_flow.py
+    Pass
+f8a_worker/workers/result_collector.py
+    Pass
+f8a_worker/workers/graphaggregator.py
+    Pass
+f8a_worker/workers/graph_sync.py
+    Pass
+f8a_worker/workers/keywords_summary.py
+    Pass
+f8a_worker/workers/stackaggregator.py
+    Pass
+f8a_worker/workers/keywords_tagging.py
+    Pass
+f8a_worker/workers/init_analysis_flow.py
+    Pass
+f8a_worker/workers/repository_description.py
+    Pass
+f8a_worker/workers/dependency_snapshot.py
+    Pass
+f8a_worker/workers/recommender.py
+    Pass
+f8a_worker/workers/gh_metadata_init.py
+    Pass
+f8a_worker/data_normalizer.py
+    Pass
+f8a_worker/errors.py
+    Pass
+f8a_worker/celery_settings.py
+    Pass
+f8a_worker/defaults.py
+    Pass
+tests/test_data_normalizer.py
+    Pass
+tests/test_schemas.py
+    Pass
+tests/test_process.py
+    Pass
+tests/__init__.py
+    Pass
+tests/data/schemas/generate.py
+    Pass
+tests/data/license/license.py
+    Pass
+tests/test_utils.py
+    Pass
+tests/test_solver.py
+    Pass
+tests/storages/__init__.py
+    Pass
+tests/storages/test_postgres.py
+    Pass
+tests/workers/test_binwalk.py
+    Pass
+tests/workers/test_recurse.py
+    Pass
+tests/workers/__init__.py
+    Pass
+tests/workers/test_oscryptocatcher.py
+    Pass
+tests/workers/_test_csmock.py
+    Pass
+tests/workers/test_licensecheck.py
+    Pass
+tests/workers/test_bigquery_gh.py
+    Pass
+tests/workers/test_linguist.py
+    Pass
+tests/workers/test_libraries_io.py
+    Pass
+tests/workers/test_cvecheck.py
+    Pass
+tests/workers/test_repository_description.py
+    Pass
+tests/workers/test_digester.py
+    Pass
+tests/workers/test_githuber.py
+    Pass
+tests/workers/test_mercator.py
+    Pass
+tests/conftest.py
+    Pass
+hack/queue_conf.py
+    Pass
+
+----------------------------------------------------
+Running Python linter against selected files:
+setup.py
+----------------------------------------------------
+setup.py
+    Pass
+All checks passed

@@ -1,0 +1,92 @@
+----------------------------------------------------
+Checking documentation strings in all sources stored
+in following directories:
+f8a_tagger
+----------------------------------------------------
+
+Using real prefix '/usr'
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/fabric8-analytics-tagger/venv/bin/python3
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/fabric8-analytics-tagger/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/fabric8-analytics-tagger/venv/bin/python3)
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages
+Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle)
+Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle)
+f8a_tagger/collectors/__init__.py
+0
+    Pass
+f8a_tagger/collectors/pypi.py
+0
+    Pass
+f8a_tagger/collectors/maven.py
+0
+    Pass
+f8a_tagger/collectors/npm.py
+0
+    Pass
+f8a_tagger/collectors/base.py
+0
+    Pass
+f8a_tagger/collectors/stackoverflow.py
+0
+    Pass
+f8a_tagger/lemmatizer.py
+0
+    Pass
+f8a_tagger/tokenizer.py
+0
+    Pass
+f8a_tagger/__init__.py
+0
+    Pass
+f8a_tagger/utils.py
+0
+    Pass
+f8a_tagger/keywords_chief.py
+0
+    Pass
+f8a_tagger/scoring.py
+0
+    Pass
+f8a_tagger/parsers/__init__.py
+0
+    Pass
+f8a_tagger/parsers/core_parser.py
+0
+    Pass
+f8a_tagger/parsers/parsers.py
+0
+    Pass
+f8a_tagger/parsers/abstract.py
+0
+    Pass
+f8a_tagger/stemmer.py
+0
+    Pass
+f8a_tagger/corpus.py
+0
+    Pass
+f8a_tagger/recipes.py
+0
+    Pass
+f8a_tagger/keywords_set.py
+0
+    Pass
+f8a_tagger/errors.py
+0
+    Pass
+f8a_tagger/defaults.py
+0
+    Pass
+
+----------------------------------------------------
+Checking documentation strings in the following files
+f8a_tagger_cli.py setup.py
+----------------------------------------------------
+f8a_tagger_cli.py
+0
+    Pass
+setup.py
+0
+    Pass
+All checks passed for 24 source files
