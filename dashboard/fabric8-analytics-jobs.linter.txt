@@ -88,4 +88,4 @@ f8a-jobs.py
     Pass
 setup.py
     Pass
-All checks passed
+All checks passed for 37 source files

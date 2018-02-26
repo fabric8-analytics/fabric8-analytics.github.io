@@ -62,4 +62,4 @@ f8a_tagger_cli.py
     Pass
 setup.py
     Pass
-All checks passed
+All checks passed for 24 source files

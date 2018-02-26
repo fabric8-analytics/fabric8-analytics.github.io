@@ -173,4 +173,4 @@ tests/unit_tests/test_kronos_gnosis_package_topic_model.py
     Pass
 tests/unit_tests/test_apollo_frequency_dict_generator.py
     Pass
-All checks passed
+All checks passed for 82 source files

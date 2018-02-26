@@ -51,4 +51,4 @@ tests/test_stack_license.py
     Pass
 tests/conftest.py
     Pass
-All checks passed
+All checks passed for 21 source files

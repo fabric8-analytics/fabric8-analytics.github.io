@@ -346,4 +346,4 @@ setup.py
 ----------------------------------------------------
 setup.py
     Pass
-All checks passed
+All checks passed for 166 source files

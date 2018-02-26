@@ -10,8 +10,8 @@ Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages
-Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle)
 Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle)
+Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle)
 alembic/versions/f5c853b83d41_add_api_requests_table.py
 0
     Pass
@@ -1007,11 +1007,11 @@ f8a_worker/workers/git_stats.py
 f8a_worker/workers/CVEchecker.py
 f8a_worker/workers/CVEchecker.py:31 in public method `get_cve_impact`:
         D102: Missing docstring in public method
-f8a_worker/workers/CVEchecker.py:93 in public method `query_url`:
+f8a_worker/workers/CVEchecker.py:96 in public method `query_url`:
         D102: Missing docstring in public method
-f8a_worker/workers/CVEchecker.py:104 in public method `query_ossindex_vulnerability_fromtill`:
+f8a_worker/workers/CVEchecker.py:107 in public method `query_ossindex_vulnerability_fromtill`:
         D102: Missing docstring in public method
-f8a_worker/workers/CVEchecker.py:348 in public method `execute`:
+f8a_worker/workers/CVEchecker.py:351 in public method `execute`:
         D102: Missing docstring in public method
 4
     Fail
