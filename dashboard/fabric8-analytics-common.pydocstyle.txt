@@ -1,7 +1,7 @@
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
-integration-tests ui-tests perf-tests dashboard reproducers load-tests
+integration-tests ui-tests perf-tests dashboard reproducers load-tests db-integrity-tests
 ----------------------------------------------------
 
 Using real prefix '/usr'
@@ -10,8 +10,8 @@ Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages
-Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle)
 Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle)
+Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle)
 integration-tests/features/src/schema_validator.py
 0
     Pass
@@ -189,4 +189,19 @@ load-tests/run_load_test.py
 load-tests/locust-test.py
 0
     Pass
-All checks passed for 59 source files
+db-integrity-tests/src/s3configuration.py
+0
+    Pass
+db-integrity-tests/src/cliargs.py
+0
+    Pass
+db-integrity-tests/src/main.py
+0
+    Pass
+db-integrity-tests/src/gremlin_configuration.py
+0
+    Pass
+db-integrity-tests/src/s3interface.py
+0
+    Pass
+All checks passed for 64 source files
