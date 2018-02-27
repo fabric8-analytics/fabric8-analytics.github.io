@@ -10,8 +10,8 @@ Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages
-Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle)
 Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle)
+Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle)
 alembic/versions/f5c853b83d41_add_api_requests_table.py
 0
     Pass
@@ -294,11 +294,11 @@ f8a_worker/__init__.py:1 at module level:
 1
     Fail
 f8a_worker/utils.py
-f8a_worker/utils.py:259 in public method `get_command_output`:
+f8a_worker/utils.py:243 in public method `get_command_output`:
         D402: First line should not be the function's "signature"
-f8a_worker/utils.py:344 in public class `ThreadPool`:
+f8a_worker/utils.py:328 in public class `ThreadPool`:
         D101: Missing docstring in public class
-f8a_worker/utils.py:369 in public method `join`:
+f8a_worker/utils.py:353 in public method `join`:
         D102: Missing docstring in public method
 3
     Fail
@@ -339,7 +339,7 @@ f8a_worker/base.py:77 in public method `create_test_instance`:
 f8a_worker/storages/s3_mavenindex.py
 f8a_worker/storages/s3_mavenindex.py:1 at module level:
         D100: Missing docstring in public module
-f8a_worker/storages/s3_mavenindex.py:9 in public class `S3MavenIndex`:
+f8a_worker/storages/s3_mavenindex.py:11 in public class `S3MavenIndex`:
         D101: Missing docstring in public class
 2
     Fail
@@ -458,7 +458,7 @@ f8a_worker/storages/s3_bigquery.py:6 in public class `S3BigQuery`:
 f8a_worker/storages/s3_vulndb.py
 f8a_worker/storages/s3_vulndb.py:1 at module level:
         D100: Missing docstring in public module
-f8a_worker/storages/s3_vulndb.py:10 in public class `S3VulnDB`:
+f8a_worker/storages/s3_vulndb.py:12 in public class `S3VulnDB`:
         D101: Missing docstring in public class
 2
     Fail
@@ -976,9 +976,9 @@ f8a_worker/workers/linguist.py
 0
     Pass
 f8a_worker/workers/mercator.py
-f8a_worker/workers/mercator.py:169 in public method `run_mercator_on_git_repo`:
+f8a_worker/workers/mercator.py:170 in public method `run_mercator_on_git_repo`:
         D102: Missing docstring in public method
-f8a_worker/workers/mercator.py:191 in public method `run_mercator`:
+f8a_worker/workers/mercator.py:192 in public method `run_mercator`:
         D102: Missing docstring in public method
 2
     Fail
@@ -1317,17 +1317,17 @@ tests/workers/test_libraries_io.py
 tests/workers/test_cvecheck.py
 tests/workers/test_cvecheck.py:1 at module level:
         D100: Missing docstring in public module
-tests/workers/test_cvecheck.py:12 in public class `TestCVEchecker`:
+tests/workers/test_cvecheck.py:13 in public class `TestCVEchecker`:
         D101: Missing docstring in public class
-tests/workers/test_cvecheck.py:17 in public method `test_get_cve_impact`:
+tests/workers/test_cvecheck.py:18 in public method `test_get_cve_impact`:
         D102: Missing docstring in public method
-tests/workers/test_cvecheck.py:24 in public method `test_npm_geddy`:
+tests/workers/test_cvecheck.py:25 in public method `test_npm_geddy`:
         D102: Missing docstring in public method
-tests/workers/test_cvecheck.py:57 in public method `test_maven_commons_collections`:
+tests/workers/test_cvecheck.py:58 in public method `test_maven_commons_collections`:
         D102: Missing docstring in public method
-tests/workers/test_cvecheck.py:117 in public method `test_python_mako`:
+tests/workers/test_cvecheck.py:118 in public method `test_python_mako`:
         D102: Missing docstring in public method
-tests/workers/test_cvecheck.py:276 in public method `test_nuget_system_net_http`:
+tests/workers/test_cvecheck.py:277 in public method `test_nuget_system_net_http`:
         D102: Missing docstring in public method
 7
     Fail
