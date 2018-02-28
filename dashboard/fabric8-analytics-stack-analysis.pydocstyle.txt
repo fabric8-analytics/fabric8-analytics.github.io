@@ -10,8 +10,8 @@ Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages
-Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle)
 Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle)
+Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle)
 analytics_platform/__init__.py
 0
     Pass
@@ -19,48 +19,8 @@ analytics_platform/kronos/src/recommendation_validator.py
 0
     Pass
 analytics_platform/kronos/src/kronos_online_scoring.py
-analytics_platform/kronos/src/kronos_online_scoring.py:1 at module level:
-        D100: Missing docstring in public module
-analytics_platform/kronos/src/kronos_online_scoring.py:12 in public function `load_user_eco_to_kronos_model_dict`:
-        D103: Missing docstring in public function
-analytics_platform/kronos/src/kronos_online_scoring.py:44 in public function `load_user_eco_to_kronos_model_dict_s3`:
-        D103: Missing docstring in public function
-analytics_platform/kronos/src/kronos_online_scoring.py:54 in public function `load_package_frequency_dict`:
-        D103: Missing docstring in public function
-analytics_platform/kronos/src/kronos_online_scoring.py:59 in public function `load_package_frequency_dict_s3`:
-        D103: Missing docstring in public function
-analytics_platform/kronos/src/kronos_online_scoring.py:67 in public function `get_sorted_companion_package_probabilities`:
-        D103: Missing docstring in public function
-analytics_platform/kronos/src/kronos_online_scoring.py:73 in public function `get_sorted_companion_intent_probabilities`:
-        D103: Missing docstring in public function
-analytics_platform/kronos/src/kronos_online_scoring.py:78 in public function `get_topics_for_manifest`:
-        D103: Missing docstring in public function
-analytics_platform/kronos/src/kronos_online_scoring.py:84 in public function `get_sorted_companion_node_probabilities`:
-        D103: Missing docstring in public function
-analytics_platform/kronos/src/kronos_online_scoring.py:105 in public function `get_eco_to_kronos_dependency_dict`:
-        D103: Missing docstring in public function
-analytics_platform/kronos/src/kronos_online_scoring.py:115 in public function `get_eco_to_cooccurrence_matrix_dict`:
-        D103: Missing docstring in public function
-analytics_platform/kronos/src/kronos_online_scoring.py:125 in public function `get_companion_package_dict`:
-        D103: Missing docstring in public function
-analytics_platform/kronos/src/kronos_online_scoring.py:131 in public function `generated_evidence_dict_list_and_potential_outlier_list`:
-        D103: Missing docstring in public function
-analytics_platform/kronos/src/kronos_online_scoring.py:186 in public function `get_clean_topics_for_package`:
-        D103: Missing docstring in public function
-analytics_platform/kronos/src/kronos_online_scoring.py:192 in public function `get_kronos_recommendation`:
-        D103: Missing docstring in public function
-analytics_platform/kronos/src/kronos_online_scoring.py:222 in public function `get_non_companion_packages`:
-        D103: Missing docstring in public function
-analytics_platform/kronos/src/kronos_online_scoring.py:233 in public function `get_observed_and_missing_package_list`:
-        D103: Missing docstring in public function
-analytics_platform/kronos/src/kronos_online_scoring.py:248 in public function `score_kronos`:
-        D103: Missing docstring in public function
-analytics_platform/kronos/src/kronos_online_scoring.py:311 in public function `get_alternate_packages_for_packages`:
-        D103: Missing docstring in public function
-analytics_platform/kronos/src/kronos_online_scoring.py:331 in public function `score_eco_user_package_dict`:
-        D103: Missing docstring in public function
-20
-    Fail
+0
+    Pass
 analytics_platform/kronos/src/__init__.py
 0
     Pass
@@ -95,42 +55,14 @@ analytics_platform/kronos/pgm/src/abstract_pgm.py
 0
     Pass
 analytics_platform/kronos/pgm/src/offline_training.py
-analytics_platform/kronos/pgm/src/offline_training.py:1 at module level:
-        D100: Missing docstring in public module
-analytics_platform/kronos/pgm/src/offline_training.py:11 in public function `load_eco_to_kronos_dependency_dict`:
-        D103: Missing docstring in public function
-analytics_platform/kronos/pgm/src/offline_training.py:27 in public function `load_eco_to_kronos_dependency_dict_s3`:
-        D103: Missing docstring in public function
-analytics_platform/kronos/pgm/src/offline_training.py:37 in public function `load_user_eco_to_co_occerrence_matrix_dict`:
-        D103: Missing docstring in public function
-analytics_platform/kronos/pgm/src/offline_training.py:68 in public function `train_and_save_kronos_list`:
-        D103: Missing docstring in public function
-analytics_platform/kronos/pgm/src/offline_training.py:91 in public function `train_and_save_kronos_list_s3`:
-        D103: Missing docstring in public function
-6
-    Fail
+0
+    Pass
 analytics_platform/kronos/pgm/src/__init__.py
 0
     Pass
 analytics_platform/kronos/pgm/src/pgm_pomegranate.py
-analytics_platform/kronos/pgm/src/pgm_pomegranate.py:1 at module level:
-        D100: Missing docstring in public module
-analytics_platform/kronos/pgm/src/pgm_pomegranate.py:15 in public method `__init__`:
-        D107: Missing docstring in __init__
-analytics_platform/kronos/pgm/src/pgm_pomegranate.py:19 in public method `model`:
-        D102: Missing docstring in public method
-analytics_platform/kronos/pgm/src/pgm_pomegranate.py:23 in public method `train`:
-        D102: Missing docstring in public method
-analytics_platform/kronos/pgm/src/pgm_pomegranate.py:30 in public method `save`:
-        D102: Missing docstring in public method
-analytics_platform/kronos/pgm/src/pgm_pomegranate.py:46 in public method `load`:
-        D102: Missing docstring in public method
-analytics_platform/kronos/pgm/src/pgm_pomegranate.py:80 in public method `score`:
-        D102: Missing docstring in public method
-analytics_platform/kronos/pgm/src/pgm_pomegranate.py:92 in public function `parallel_predict`:
-        D103: Missing docstring in public function
-8
-    Fail
+0
+    Pass
 analytics_platform/kronos/pgm/__init__.py
 0
     Pass
@@ -159,37 +91,11 @@ analytics_platform/kronos/gnosis/__init__.py
 0
     Pass
 analytics_platform/kronos/softnet/src/cooccurrence_matrix_generator.py
-analytics_platform/kronos/softnet/src/cooccurrence_matrix_generator.py:1 at module level:
-        D100: Missing docstring in public module
-analytics_platform/kronos/softnet/src/cooccurrence_matrix_generator.py:26 in public method `generate_cooccurrence_matrix`:
-        D102: Missing docstring in public method
-analytics_platform/kronos/softnet/src/cooccurrence_matrix_generator.py:46 in public method `save`:
-        D102: Missing docstring in public method
-analytics_platform/kronos/softnet/src/cooccurrence_matrix_generator.py:51 in public method `load`:
-        D102: Missing docstring in public method
-analytics_platform/kronos/softnet/src/cooccurrence_matrix_generator.py:55 in public method `get_matrix_dictionary`:
-        D102: Missing docstring in public method
-analytics_platform/kronos/softnet/src/cooccurrence_matrix_generator.py:59 in public method `get_component_class_occurrence`:
-        D102: Missing docstring in public method
-analytics_platform/kronos/softnet/src/cooccurrence_matrix_generator.py:68 in public method `get_intent_occurrence`:
-        D102: Missing docstring in public method
-7
-    Fail
+0
+    Pass
 analytics_platform/kronos/softnet/src/offline_training.py
-analytics_platform/kronos/softnet/src/offline_training.py:1 at module level:
-        D100: Missing docstring in public module
-analytics_platform/kronos/softnet/src/offline_training.py:12 in public function `load_eco_to_kronos_dependency_dict`:
-        D103: Missing docstring in public function
-analytics_platform/kronos/softnet/src/offline_training.py:26 in public function `generate_and_save_kronos_dependency`:
-        D103: Missing docstring in public function
-analytics_platform/kronos/softnet/src/offline_training.py:64 in public function `generate_and_save_kronos_dependency_s3`:
-        D103: Missing docstring in public function
-analytics_platform/kronos/softnet/src/offline_training.py:85 in public function `generate_and_save_cooccurrence_matrices`:
-        D103: Missing docstring in public function
-analytics_platform/kronos/softnet/src/offline_training.py:123 in public function `generate_and_save_cooccurrence_matrices_s3`:
-        D103: Missing docstring in public function
-6
-    Fail
+0
+    Pass
 analytics_platform/kronos/softnet/src/__init__.py
 0
     Pass
@@ -352,4 +258,4 @@ tests/unit_tests/test_kronos_gnosis_package_topic_model.py
 tests/unit_tests/test_apollo_frequency_dict_generator.py
 0
     Pass
-Documentation strings should be added and/or fixed in 5 source files out of 82 files
+All checks passed for 82 source files

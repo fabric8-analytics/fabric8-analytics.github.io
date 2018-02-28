@@ -21,20 +21,20 @@ Name                                                                           S
 /analytics_platform/kronos/pgm/__init__.py                                         0      0   100%
 /analytics_platform/kronos/pgm/src/__init__.py                                     0      0   100%
 /analytics_platform/kronos/pgm/src/abstract_pgm.py                                10      3    70%   14, 19, 24
-/analytics_platform/kronos/pgm/src/offline_training.py                            59     18    69%   28-34, 70-87, 93-107
+/analytics_platform/kronos/pgm/src/offline_training.py                            59     18    69%   32-38, 76-93, 99-113
 /analytics_platform/kronos/pgm/src/pgm_constants.py                               41      0   100%
-/analytics_platform/kronos/pgm/src/pgm_pomegranate.py                             51      8    84%   36-42, 51-54
+/analytics_platform/kronos/pgm/src/pgm_pomegranate.py                             51      8    84%   42-48, 58-61
 /analytics_platform/kronos/scripts/__init__.py                                     0      0   100%
 /analytics_platform/kronos/softnet/__init__.py                                     0      0   100%
 /analytics_platform/kronos/softnet/src/__init__.py                                 0      0   100%
-/analytics_platform/kronos/softnet/src/cooccurrence_matrix_generator.py           61      6    90%   60-65
+/analytics_platform/kronos/softnet/src/cooccurrence_matrix_generator.py           61      6    90%   66-71
 /analytics_platform/kronos/softnet/src/kronos_dependency_generator.py             71      1    99%   120
-/analytics_platform/kronos/softnet/src/offline_training.py                        63     43    32%   28-61, 65-79, 88-119, 124-138
+/analytics_platform/kronos/softnet/src/offline_training.py                        63     43    32%   32-65, 70-84, 94-125, 131-145
 /analytics_platform/kronos/softnet/src/softnet_constants.py                       31      0   100%
 /analytics_platform/kronos/src/__init__.py                                         0      0   100%
 /analytics_platform/kronos/src/config.py                                          15      0   100%
 /analytics_platform/kronos/src/kronos_offline_training.py                         47     47     0%   3-75
-/analytics_platform/kronos/src/kronos_online_scoring.py                          211     20    91%   45-51, 55, 60-64, 74-75, 95-98, 116-122, 150
+/analytics_platform/kronos/src/kronos_online_scoring.py                          211     20    91%   49-55, 60, 66-70, 82-83, 105-108, 128-134, 164
 /analytics_platform/kronos/src/recommendation_validator.py                        81      6    93%   29-34, 64, 80, 205
 /evaluation_platform/__init__.py                                                   0      0   100%
 /evaluation_platform/uranus/__init__.py                                            0      0   100%
