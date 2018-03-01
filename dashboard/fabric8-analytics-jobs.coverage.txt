@@ -12,7 +12,7 @@ Name                                                            Stmts   Miss  Co
 /f8a_jobs/f8a_jobs/handlers/aggregate_github_manifest_pkgs.py      63     55    13%   19-80, 89-93, 103-111, 122-145
 /f8a_jobs/f8a_jobs/handlers/aggregate_topics.py                    54     45    17%   17-26, 37-109
 /f8a_jobs/f8a_jobs/handlers/base.py                               115     73    37%   30-34, 44, 48-50, 58-64, 76-86, 96, 106-123, 127, 138-145, 155-169, 178-190, 208, 211, 223-229, 243-250, 254
-/f8a_jobs/f8a_jobs/handlers/book_keeping.py                        68     51    25%   18-27, 36-37, 42-54, 62-65, 76-96, 110-128, 137-154
+/f8a_jobs/f8a_jobs/handlers/book_keeping.py                        68     51    25%   18-27, 36-37, 42-54, 62-65, 76-98, 112-131, 140-157
 /f8a_jobs/f8a_jobs/handlers/clean_postgres.py                      94     83    12%   28-89, 92-152, 156-164
 /f8a_jobs/f8a_jobs/handlers/error.py                                6      2    67%   14-15
 /f8a_jobs/f8a_jobs/handlers/flow.py                                 8      5    38%   15-20

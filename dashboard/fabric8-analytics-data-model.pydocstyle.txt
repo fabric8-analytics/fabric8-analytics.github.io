@@ -36,9 +36,6 @@ src/graph_manager.py
 src/set_logging.py
 0
     Pass
-src/synchronization.py
-0
-    Pass
 src/data_importer.py
 0
     Pass
@@ -66,4 +63,4 @@ test/test_graph_manager.py
 test/test_graph_populator.py
 0
     Pass
-All checks passed for 18 source files
+All checks passed for 17 source files
