@@ -126,6 +126,15 @@ alembic/versions/a46a17bfd29b_batches_versions_relation.py
 alembic/versions/a60f15a395e2_do_not_index_ecosystem_url.py
 0
     Pass
+alembic/versions/967036f90ba1_gemini_model_py.py
+alembic/versions/967036f90ba1_gemini_model_py.py:1 at module level:
+        D400: First line should end with a period (not 'y')
+alembic/versions/967036f90ba1_gemini_model_py.py:19 in public function `upgrade`:
+        D103: Missing docstring in public function
+alembic/versions/967036f90ba1_gemini_model_py.py:30 in public function `downgrade`:
+        D103: Missing docstring in public function
+3
+    Fail
 alembic/versions/3eb32f202f93_removing_starttime_and_endtime.py
 0
     Pass
@@ -236,7 +245,9 @@ f8a_worker/models.py:347 in public class `APIRequests`:
         D101: Missing docstring in public class
 f8a_worker/models.py:398 in public class `RecommendationFeedback`:
         D101: Missing docstring in public class
-34
+f8a_worker/models.py:412 in public class `OSIORegisteredRepos`:
+        D101: Missing docstring in public class
+35
     Fail
 f8a_worker/dispatcher/__init__.py
 f8a_worker/dispatcher/__init__.py:1 at module level:
@@ -1411,4 +1422,4 @@ setup.py
 setup.py
 0
     Pass
-Documentation strings should be added and/or fixed in 92 source files out of 166 files
+Documentation strings should be added and/or fixed in 93 source files out of 167 files

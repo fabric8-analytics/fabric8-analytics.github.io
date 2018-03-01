@@ -1,6 +1,6 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-f8a_tagger
+f8a_tagger tests
 ----------------------------------------------------
 
 Using real prefix '/usr'
@@ -53,6 +53,12 @@ f8a_tagger/errors.py
     Pass
 f8a_tagger/defaults.py
     Pass
+tests/__init__.py
+    Pass
+tests/test_corpus.py
+    Pass
+tests/conftest.py
+    Pass
 
 ----------------------------------------------------
 Running Python linter against selected files:
@@ -62,4 +68,4 @@ f8a_tagger_cli.py
     Pass
 setup.py
     Pass
-All checks passed for 24 source files
+All checks passed for 27 source files
