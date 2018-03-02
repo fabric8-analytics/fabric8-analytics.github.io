@@ -10,8 +10,8 @@ Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages
-Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle)
 Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle)
+Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle)
 alembic/versions/f5c853b83d41_add_api_requests_table.py
 0
     Pass
@@ -311,7 +311,9 @@ f8a_worker/utils.py:328 in public class `ThreadPool`:
         D101: Missing docstring in public class
 f8a_worker/utils.py:353 in public method `join`:
         D102: Missing docstring in public method
-3
+f8a_worker/utils.py:653 in public function `add_maven_coords_to_set`:
+        D103: Missing docstring in public function
+4
     Fail
 f8a_worker/setup_celery.py
 f8a_worker/setup_celery.py:1 at module level:
@@ -917,6 +919,31 @@ f8a_worker/workers/graph_importer.py:20 in public method `execute`:
         D102: Missing docstring in public method
 3
     Fail
+f8a_worker/workers/dependency_parser.py
+f8a_worker/workers/dependency_parser.py:1 at module level:
+        D200: One-line docstring should fit on one line with quotes (found 4)
+f8a_worker/workers/dependency_parser.py:1 at module level:
+        D400: First line should end with a period (not 'D')
+f8a_worker/workers/dependency_parser.py:18 in public method `execute`:
+        D210: No whitespaces allowed surrounding docstring text
+f8a_worker/workers/dependency_parser.py:18 in public method `execute`:
+        D400: First line should end with a period (not 'd')
+f8a_worker/workers/dependency_parser.py:18 in public method `execute`:
+        D401: First line should be in imperative mood; try rephrasing (found 'Main')
+f8a_worker/workers/dependency_parser.py:29 in public method `extract_dependencies`:
+        D201: No blank lines allowed before function docstring (found 1)
+f8a_worker/workers/dependency_parser.py:29 in public method `extract_dependencies`:
+        D202: No blank lines allowed after function docstring (found 1)
+f8a_worker/workers/dependency_parser.py:29 in public method `extract_dependencies`:
+        D208: Docstring is over-indented
+f8a_worker/workers/dependency_parser.py:53 in public method `parse_maven_dependency_tree`:
+        D201: No blank lines allowed before function docstring (found 1)
+f8a_worker/workers/dependency_parser.py:53 in public method `parse_maven_dependency_tree`:
+        D208: Docstring is over-indented
+f8a_worker/workers/dependency_parser.py:53 in public method `parse_maven_dependency_tree`:
+        D401: First line should be in imperative mood ('Parse', not 'Parses')
+11
+    Fail
 f8a_worker/workers/code_metrics.py
 0
     Pass
@@ -1422,4 +1449,4 @@ setup.py
 setup.py
 0
     Pass
-Documentation strings should be added and/or fixed in 93 source files out of 167 files
+Documentation strings should be added and/or fixed in 94 source files out of 168 files
