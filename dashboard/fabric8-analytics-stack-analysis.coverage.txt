@@ -6,10 +6,10 @@ Name                                                                           S
 /analytics_platform/kronos/apollo/src/__init__.py                                  0      0   100%
 /analytics_platform/kronos/apollo/src/apollo_constants.py                          5      0   100%
 /analytics_platform/kronos/apollo/src/apollo_generate_frequency_dict.py           14      0   100%
-/analytics_platform/kronos/apollo/src/apollo_tag_prune.py                         52     35    33%   35, 46, 72-76, 87-112, 126-139
+/analytics_platform/kronos/apollo/src/apollo_tag_prune.py                         52     35    33%   35, 46, 72-76, 87-113, 127-140
 /analytics_platform/kronos/apollo/src/offline_training.py                         16     16     0%   3-41
 /analytics_platform/kronos/deployment/__init__.py                                  0      0   100%
-/analytics_platform/kronos/deployment/rest_api.py                                 98     98     0%   3-212
+/analytics_platform/kronos/deployment/rest_api.py                                 99     99     0%   3-212
 /analytics_platform/kronos/deployment/submit_training_job.py                      36     36     0%   12-179
 /analytics_platform/kronos/gnosis/__init__.py                                      0      0   100%
 /analytics_platform/kronos/gnosis/src/__init__.py                                  0      0   100%
@@ -34,7 +34,7 @@ Name                                                                           S
 /analytics_platform/kronos/src/__init__.py                                         0      0   100%
 /analytics_platform/kronos/src/config.py                                          15      0   100%
 /analytics_platform/kronos/src/kronos_offline_training.py                         47     47     0%   3-75
-/analytics_platform/kronos/src/kronos_online_scoring.py                          211     20    91%   49-55, 60, 66-70, 82-83, 105-108, 128-134, 164
+/analytics_platform/kronos/src/kronos_online_scoring.py                          210     20    90%   49-55, 60, 66-71, 83-84, 107-111, 132-138, 169
 /analytics_platform/kronos/src/recommendation_validator.py                        81      6    93%   29-34, 64, 80, 205
 /evaluation_platform/__init__.py                                                   0      0   100%
 /evaluation_platform/uranus/__init__.py                                            0      0   100%
@@ -58,7 +58,7 @@ Name                                                                           S
 /tagging_platform/helles/npm_tagger/get_version_info_for_missing_packages.py      31     31     0%   8-51
 /tagging_platform/helles/npm_tagger/pytextrank_textrank_scoring.py               162    162     0%   4-251
 /util/__init__.py                                                                  0      0   100%
-/util/analytics_platform_util.py                                                  33     10    70%   14-20, 39-42
+/util/analytics_platform_util.py                                                  35     11    69%   14-20, 39-42, 74
 /util/data_store/__init__.py                                                       0      0   100%
 /util/data_store/abstract_data_store.py                                           17      7    59%   12, 17, 22, 27, 32, 37, 42
 /util/data_store/graph_store.py                                                   13     13     0%   5-34
@@ -74,4 +74,4 @@ Name                                                                           S
 /util/softnet_util.py                                                             38      0   100%
 /util/util_constants.py                                                            1      0   100%
 ------------------------------------------------------------------------------------------------------------
-TOTAL                                                                           2115   1076    49%
+TOTAL                                                                           2117   1078    49%

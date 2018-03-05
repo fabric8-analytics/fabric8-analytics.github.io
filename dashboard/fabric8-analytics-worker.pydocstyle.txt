@@ -127,22 +127,14 @@ alembic/versions/a60f15a395e2_do_not_index_ecosystem_url.py
 0
     Pass
 alembic/versions/967036f90ba1_gemini_model_py.py
-alembic/versions/967036f90ba1_gemini_model_py.py:1 at module level:
-        D400: First line should end with a period (not 'y')
-alembic/versions/967036f90ba1_gemini_model_py.py:19 in public function `upgrade`:
-        D103: Missing docstring in public function
-alembic/versions/967036f90ba1_gemini_model_py.py:30 in public function `downgrade`:
-        D103: Missing docstring in public function
-3
-    Fail
+0
+    Pass
 alembic/versions/3eb32f202f93_removing_starttime_and_endtime.py
 0
     Pass
 alembic/versions/094ea67a2baf_add_index_for_synced2graph_column.py
-alembic/versions/094ea67a2baf_add_index_for_synced2graph_column.py:1 at module level:
-        D400: First line should end with a period (not 'n')
-1
-    Fail
+0
+    Pass
 alembic/versions/da53445aabad_add_recommendation_feedback_py.py
 0
     Pass
@@ -150,14 +142,8 @@ alembic/versions/963d3d929b19_analyses.py
 0
     Pass
 alembic/versions/5cf8c7dac1b6_remove_active_flag.py
-alembic/versions/5cf8c7dac1b6_remove_active_flag.py:1 at module level:
-        D400: First line should end with a period (not 'g')
-alembic/versions/5cf8c7dac1b6_remove_active_flag.py:19 in public function `upgrade`:
-        D103: Missing docstring in public function
-alembic/versions/5cf8c7dac1b6_remove_active_flag.py:25 in public function `downgrade`:
-        D103: Missing docstring in public function
-3
-    Fail
+0
+    Pass
 alembic/versions/6e7ff4c3177e_remove_batches.py
 0
     Pass
@@ -250,27 +236,17 @@ f8a_worker/models.py:412 in public class `OSIORegisteredRepos`:
 35
     Fail
 f8a_worker/dispatcher/__init__.py
-f8a_worker/dispatcher/__init__.py:1 at module level:
-        D104: Missing docstring in public package
-1
-    Fail
+0
+    Pass
 f8a_worker/dispatcher/selective.py
 0
     Pass
 f8a_worker/dispatcher/trace.py
-f8a_worker/dispatcher/trace.py:1 at module level:
-        D100: Missing docstring in public module
-f8a_worker/dispatcher/trace.py:24 in public function `trace_func`:
-        D103: Missing docstring in public function
-2
-    Fail
+0
+    Pass
 f8a_worker/dispatcher/predicates.py
-f8a_worker/dispatcher/predicates.py:1 at module level:
-        D100: Missing docstring in public module
-f8a_worker/dispatcher/predicates.py:8 in public function `isGhRepo`:
-        D103: Missing docstring in public function
-2
-    Fail
+0
+    Pass
 f8a_worker/dispatcher/foreach.py
 f8a_worker/dispatcher/foreach.py:1 at module level:
         D100: Missing docstring in public module
@@ -300,21 +276,11 @@ f8a_worker/graphutils.py:292 in public function `select_latest_version`:
 7
     Fail
 f8a_worker/__init__.py
-f8a_worker/__init__.py:1 at module level:
-        D104: Missing docstring in public package
-1
-    Fail
+0
+    Pass
 f8a_worker/utils.py
-f8a_worker/utils.py:243 in public method `get_command_output`:
-        D402: First line should not be the function's "signature"
-f8a_worker/utils.py:328 in public class `ThreadPool`:
-        D101: Missing docstring in public class
-f8a_worker/utils.py:353 in public method `join`:
-        D102: Missing docstring in public method
-f8a_worker/utils.py:653 in public function `add_maven_coords_to_set`:
-        D103: Missing docstring in public function
-4
-    Fail
+0
+    Pass
 f8a_worker/setup_celery.py
 f8a_worker/setup_celery.py:1 at module level:
         D100: Missing docstring in public module
@@ -323,10 +289,8 @@ f8a_worker/setup_celery.py:15 in public function `get_dispatcher_config_files`:
 2
     Fail
 f8a_worker/start.py
-f8a_worker/start.py:1 at module level:
-        D100: Missing docstring in public module
-1
-    Fail
+0
+    Pass
 f8a_worker/solver.py
 0
     Pass
@@ -334,10 +298,8 @@ f8a_worker/process.py
 0
     Pass
 f8a_worker/manifests.py
-f8a_worker/manifests.py:1 at module level:
-        D100: Missing docstring in public module
-1
-    Fail
+0
+    Pass
 f8a_worker/base.py
 f8a_worker/base.py:1 at module level:
         D100: Missing docstring in public module
@@ -1319,11 +1281,11 @@ tests/workers/_test_csmock.py:81 in public function `test_offline_csmock_worker`
 tests/workers/test_licensecheck.py
 tests/workers/test_licensecheck.py:1 at module level:
         D100: Missing docstring in public module
-tests/workers/test_licensecheck.py:22 in public class `TestLicenseCheck`:
+tests/workers/test_licensecheck.py:15 in public class `TestLicenseCheck`:
         D101: Missing docstring in public class
-tests/workers/test_licensecheck.py:25 in public method `test_error`:
+tests/workers/test_licensecheck.py:18 in public method `test_error`:
         D102: Missing docstring in public method
-tests/workers/test_licensecheck.py:36 in public method `test_execute`:
+tests/workers/test_licensecheck.py:29 in public method `test_execute`:
         D102: Missing docstring in public method
 4
     Fail
@@ -1363,9 +1325,9 @@ tests/workers/test_cvecheck.py:25 in public method `test_npm_geddy`:
         D102: Missing docstring in public method
 tests/workers/test_cvecheck.py:58 in public method `test_maven_commons_collections`:
         D102: Missing docstring in public method
-tests/workers/test_cvecheck.py:118 in public method `test_python_mako`:
+tests/workers/test_cvecheck.py:140 in public method `test_python_mako`:
         D102: Missing docstring in public method
-tests/workers/test_cvecheck.py:277 in public method `test_nuget_system_net_http`:
+tests/workers/test_cvecheck.py:294 in public method `test_nuget_system_net_http`:
         D102: Missing docstring in public method
 7
     Fail
@@ -1413,7 +1375,7 @@ tests/workers/test_mercator.py:26 in public method `test_execute_npm`:
         D102: Missing docstring in public method
 tests/workers/test_mercator.py:44 in public method `test_execute_maven`:
         D102: Missing docstring in public method
-tests/workers/test_mercator.py:71 in public method `test_execute_go`:
+tests/workers/test_mercator.py:69 in public method `test_execute_go`:
         D102: Missing docstring in public method
 7
     Fail
@@ -1449,4 +1411,4 @@ setup.py
 setup.py
 0
     Pass
-Documentation strings should be added and/or fixed in 94 source files out of 168 files
+Documentation strings should be added and/or fixed in 84 source files out of 168 files

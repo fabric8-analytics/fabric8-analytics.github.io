@@ -19,6 +19,11 @@ tests/test_rest_api.py
     Pass
 tests/__init__.py
     Pass
+tests/test_utils.py
+tests/test_utils.py:7:1: E302 expected 2 blank lines, found 1
+    Fail
+tests/conftest.py
+    Pass
 
 ----------------------------------------------------
 Running Python linter against selected files:
@@ -26,4 +31,4 @@ setup.py
 ----------------------------------------------------
 setup.py
     Pass
-All checks passed for 6 source files
+Linter fail, 1 source files out of 8 source files need to be fixed
