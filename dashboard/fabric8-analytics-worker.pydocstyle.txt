@@ -27,6 +27,9 @@ alembic/versions/0ff7fe2828a5_initial_revision.py
 alembic/versions/e48c7b4235aa_drop_analysisrequest_table.py
 0
     Pass
+alembic/versions/727aeeb88b2f_add_started_at_and_ended_at_to_.py
+0
+    Pass
 alembic/versions/be06b06767de_add_indexes_on_foreign_keys_in_.py
 0
     Pass
@@ -203,35 +206,35 @@ f8a_worker/models.py:229 in public method `to_dict`:
         D102: Missing docstring in public method
 f8a_worker/models.py:241 in public class `WorkerResult`:
         D101: Missing docstring in public class
-f8a_worker/models.py:258 in public method `ecosystem`:
+f8a_worker/models.py:260 in public method `ecosystem`:
         D102: Missing docstring in public method
-f8a_worker/models.py:262 in public method `package`:
+f8a_worker/models.py:264 in public method `package`:
         D102: Missing docstring in public method
-f8a_worker/models.py:266 in public method `version`:
+f8a_worker/models.py:268 in public method `version`:
         D102: Missing docstring in public method
-f8a_worker/models.py:270 in public class `Upstream`:
+f8a_worker/models.py:272 in public class `Upstream`:
         D101: Missing docstring in public class
-f8a_worker/models.py:283 in public method `ecosystem`:
+f8a_worker/models.py:285 in public method `ecosystem`:
         D102: Missing docstring in public method
-f8a_worker/models.py:287 in public class `PackageAnalysis`:
+f8a_worker/models.py:289 in public class `PackageAnalysis`:
         D101: Missing docstring in public class
-f8a_worker/models.py:298 in public method `ecosystem`:
+f8a_worker/models.py:300 in public method `ecosystem`:
         D102: Missing docstring in public method
-f8a_worker/models.py:302 in public method `raw_analyses`:
+f8a_worker/models.py:304 in public method `raw_analyses`:
         D102: Missing docstring in public method
-f8a_worker/models.py:310 in public class `PackageWorkerResult`:
+f8a_worker/models.py:312 in public class `PackageWorkerResult`:
         D101: Missing docstring in public class
-f8a_worker/models.py:326 in public method `ecosystem`:
+f8a_worker/models.py:330 in public method `ecosystem`:
         D102: Missing docstring in public method
-f8a_worker/models.py:330 in public method `package`:
+f8a_worker/models.py:334 in public method `package`:
         D102: Missing docstring in public method
-f8a_worker/models.py:334 in public class `StackAnalysisRequest`:
+f8a_worker/models.py:338 in public class `StackAnalysisRequest`:
         D101: Missing docstring in public class
-f8a_worker/models.py:347 in public class `APIRequests`:
+f8a_worker/models.py:351 in public class `APIRequests`:
         D101: Missing docstring in public class
-f8a_worker/models.py:398 in public class `RecommendationFeedback`:
+f8a_worker/models.py:402 in public class `RecommendationFeedback`:
         D101: Missing docstring in public class
-f8a_worker/models.py:412 in public class `OSIORegisteredRepos`:
+f8a_worker/models.py:416 in public class `OSIORegisteredRepos`:
         D101: Missing docstring in public class
 35
     Fail
@@ -1411,4 +1414,4 @@ setup.py
 setup.py
 0
     Pass
-Documentation strings should be added and/or fixed in 84 source files out of 168 files
+Documentation strings should be added and/or fixed in 84 source files out of 169 files
