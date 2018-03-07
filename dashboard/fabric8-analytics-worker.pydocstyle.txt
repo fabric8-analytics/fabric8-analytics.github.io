@@ -181,10 +181,8 @@ f8a_worker/dispatcher/predicates.py
 0
     Pass
 f8a_worker/dispatcher/foreach.py
-f8a_worker/dispatcher/foreach.py:104 in public function `iter_unknown_dependencies`:
-        D103: Missing docstring in public function
-1
-    Fail
+0
+    Pass
 f8a_worker/graphutils.py
 0
     Pass
@@ -420,16 +418,8 @@ f8a_worker/workers/repository_description.py
 0
     Pass
 f8a_worker/workers/unknown_dep_fetcher.py
-f8a_worker/workers/unknown_dep_fetcher.py:1 at module level:
-        D100: Missing docstring in public module
-f8a_worker/workers/unknown_dep_fetcher.py:8 in public class `UnknownDependencyFetcherTask`:
-        D101: Missing docstring in public class
-f8a_worker/workers/unknown_dep_fetcher.py:12 in public method `get_dependency_data`:
-        D102: Missing docstring in public method
-f8a_worker/workers/unknown_dep_fetcher.py:40 in public method `execute`:
-        D102: Missing docstring in public method
-4
-    Fail
+0
+    Pass
 f8a_worker/workers/dependency_snapshot.py
 0
     Pass
@@ -534,4 +524,4 @@ setup.py
 setup.py
 0
     Pass
-Documentation strings should be added and/or fixed in 2 source files out of 169 files
+All checks passed for 169 source files
