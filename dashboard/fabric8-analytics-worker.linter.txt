@@ -333,6 +333,8 @@ tests/workers/test_linguist.py
     Pass
 tests/workers/test_libraries_io.py
     Pass
+tests/workers/test_github_dependency_tree.py
+    Pass
 tests/workers/test_cvecheck.py
     Pass
 tests/workers/test_repository_description.py
@@ -354,4 +356,4 @@ setup.py
 ----------------------------------------------------
 setup.py
     Pass
-All checks passed for 170 source files
+All checks passed for 171 source files

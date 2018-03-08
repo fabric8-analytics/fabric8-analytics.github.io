@@ -19,7 +19,7 @@ Name                                                            Stmts   Miss  Co
 /f8a_jobs/f8a_jobs/handlers/github_manifests.py                    25     19    24%   19-51
 /f8a_jobs/f8a_jobs/handlers/github_most_starred.py                 95     80    16%   29-38, 41-46, 50-93, 111-121, 125-158
 /f8a_jobs/f8a_jobs/handlers/golang_popular_analyses.py             72     63    12%   15-29, 33-73, 78-90, 98-105
-/f8a_jobs/f8a_jobs/handlers/invoke_graph_sync.py                   58     39    33%   32-39, 42-49, 52-60, 73-100
+/f8a_jobs/f8a_jobs/handlers/invoke_graph_sync.py                   62     43    31%   32-42, 45-55, 58-66, 79-106
 /f8a_jobs/f8a_jobs/handlers/kronos_data_update.py                  75     62    17%   15-23, 36-39, 43-54, 58, 67-77, 85-96, 103-129
 /f8a_jobs/f8a_jobs/handlers/maven_popular_analyses.py             140    117    16%   25-27, 31-51, 59-92, 96-97, 101-111, 115-127, 130-192, 199-215
 /f8a_jobs/f8a_jobs/handlers/maven_releases.py                      60     50    17%   20-100
@@ -32,4 +32,4 @@ Name                                                            Stmts   Miss  Co
 /f8a_jobs/f8a_jobs/scheduler.py                                   131    131     0%   3-282
 /f8a_jobs/f8a_jobs/utils.py                                       122     80    34%   26-31, 36-42, 51, 61-62, 67-84, 92-107, 116-120, 125, 134-143, 149-156, 164-177, 188-211, 228-229
 ---------------------------------------------------------------------------------------------
-TOTAL                                                            1951   1578    19%
+TOTAL                                                            1955   1582    19%

@@ -65,6 +65,8 @@ f8a_jobs/handlers/selective_flow.py
     Pass
 f8a_jobs/handlers/aggregate_topics.py
     Pass
+f8a_jobs/handlers/invoke_graph_sync.py
+    Pass
 f8a_jobs/handlers/maven_releases.py
     Pass
 f8a_jobs/defaults.py
@@ -88,4 +90,4 @@ f8a-jobs.py
     Pass
 setup.py
     Pass
-All checks passed for 37 source files
+All checks passed for 38 source files

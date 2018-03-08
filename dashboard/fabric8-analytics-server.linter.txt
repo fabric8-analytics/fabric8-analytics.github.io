@@ -35,6 +35,8 @@ bayesian/api_v1.py
     Pass
 bayesian/exceptions.py
     Pass
+bayesian/license_extractor.py
+    Pass
 hack/check_api_schemas.py
     Pass
 hack/auth_test_fixtures/generate_auth_token.py
@@ -124,4 +126,4 @@ setup.py
 ----------------------------------------------------
 setup.py
     Pass
-All checks passed for 55 source files
+All checks passed for 56 source files
