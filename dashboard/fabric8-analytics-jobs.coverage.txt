@@ -2,7 +2,7 @@ Name                                                            Stmts   Miss  Co
 ---------------------------------------------------------------------------------------------
 /f8a_jobs/f8a_jobs/__init__.py                                      0      0   100%
 /f8a_jobs/f8a_jobs/analyses_report.py                              57     57     0%   3-120
-/f8a_jobs/f8a_jobs/api_v1.py                                      269    269     0%   3-517
+/f8a_jobs/f8a_jobs/api_v1.py                                      279    279     0%   3-539
 /f8a_jobs/f8a_jobs/auth.py                                          7      7     0%   3-24
 /f8a_jobs/f8a_jobs/defaults.py                                     22      0   100%
 /f8a_jobs/f8a_jobs/error.py                                         2      0   100%
@@ -32,4 +32,4 @@ Name                                                            Stmts   Miss  Co
 /f8a_jobs/f8a_jobs/scheduler.py                                   131    131     0%   3-282
 /f8a_jobs/f8a_jobs/utils.py                                       122     80    34%   26-31, 36-42, 51, 61-62, 67-84, 92-107, 116-120, 125, 134-143, 149-156, 164-177, 188-211, 228-229
 ---------------------------------------------------------------------------------------------
-TOTAL                                                            1956   1582    19%
+TOTAL                                                            1966   1592    19%
