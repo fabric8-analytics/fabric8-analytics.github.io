@@ -35,12 +35,16 @@ test/test_graph_properties.py
     Pass
 test/test_insertion_from_minio.py
     Pass
+test/test_init.py
+    Pass
 test/test_data_importer.py
     Pass
 test/test_s3_data_source.py
     Pass
 test/test_graph_manager.py
     Pass
+test/conftest.py
+    Pass
 test/test_graph_populator.py
     Pass
-All checks passed for 17 source files
+All checks passed for 19 source files
