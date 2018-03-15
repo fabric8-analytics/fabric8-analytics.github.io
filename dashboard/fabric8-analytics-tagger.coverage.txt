@@ -10,7 +10,7 @@ Name                                                   Stmts   Miss  Cover   Mis
 /root/payload/f8a_tagger/corpus.py                        48      0   100%
 /root/payload/f8a_tagger/defaults.py                       7      0   100%
 /root/payload/f8a_tagger/errors.py                         6      0   100%
-/root/payload/f8a_tagger/keywords_chief.py               134     26    81%   38, 77, 79, 83-86, 146-147, 162, 201-225
+/root/payload/f8a_tagger/keywords_chief.py               135      0   100%
 /root/payload/f8a_tagger/keywords_set.py                  16      0   100%
 /root/payload/f8a_tagger/lemmatizer.py                     5      1    80%   13
 /root/payload/f8a_tagger/parsers/__init__.py               2      0   100%
@@ -23,4 +23,4 @@ Name                                                   Stmts   Miss  Cover   Mis
 /root/payload/f8a_tagger/tokenizer.py                     93     74    20%   34-73, 79, 84, 91-99, 106-114, 123-138, 149-181
 /root/payload/f8a_tagger/utils.py                         71     51    28%   28-37, 47-75, 85-93, 102-112, 118-123, 128-137
 ------------------------------------------------------------------------------------
-TOTAL                                                    851    421    51%
+TOTAL                                                    852    395    54%

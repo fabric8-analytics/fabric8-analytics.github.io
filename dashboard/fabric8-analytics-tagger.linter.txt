@@ -57,21 +57,31 @@ tests/test_tokenizer.py
     Pass
 tests/test_errors.py
     Pass
+tests/test_init.py
+    Pass
 tests/test_keywords_chief.py
     Pass
 tests/test_recipes.py
+    Pass
+tests/test_pypi_collector.py
     Pass
 tests/test_lemmatizer.py
     Pass
 tests/test_scoring.py
     Pass
+tests/test_maven_collector.py
+    Pass
 tests/__init__.py
+    Pass
+tests/test_npm_collector.py
     Pass
 tests/test_utils.py
     Pass
 tests/test_stemmer.py
     Pass
 tests/test_corpus.py
+    Pass
+tests/test_stackoverflow_collector.py
     Pass
 tests/test_keywords_set.py
     Pass
@@ -86,4 +96,4 @@ f8a_tagger_cli.py
     Pass
 setup.py
     Pass
-All checks passed for 36 source files
+All checks passed for 41 source files

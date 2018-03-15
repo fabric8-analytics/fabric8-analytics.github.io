@@ -201,7 +201,13 @@ db-integrity-tests/src/main.py
 db-integrity-tests/src/gremlin_configuration.py
 0
     Pass
+db-integrity-tests/src/gremlin_query.py
+0
+    Pass
 db-integrity-tests/src/s3interface.py
 0
     Pass
-All checks passed for 64 source files
+db-integrity-tests/src/gremlin_interface.py
+0
+    Pass
+All checks passed for 66 source files
