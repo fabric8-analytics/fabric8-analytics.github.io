@@ -2,25 +2,25 @@ Name                                                   Stmts   Miss  Cover   Mis
 ------------------------------------------------------------------------------------
 /root/payload/f8a_tagger/__init__.py                      36     16    56%   30-55
 /root/payload/f8a_tagger/collectors/__init__.py            5      0   100%
-/root/payload/f8a_tagger/collectors/base.py               18      7    61%   21, 31, 39, 47-50
+/root/payload/f8a_tagger/collectors/base.py               18      4    78%   21, 31, 49-50
 /root/payload/f8a_tagger/collectors/maven.py              49     29    41%   32-78
-/root/payload/f8a_tagger/collectors/npm.py                 6      1    83%   12
-/root/payload/f8a_tagger/collectors/pypi.py               41     28    32%   24-61
-/root/payload/f8a_tagger/collectors/stackoverflow.py      34     22    35%   23-49
+/root/payload/f8a_tagger/collectors/npm.py                 6      0   100%
+/root/payload/f8a_tagger/collectors/pypi.py               41     12    71%   29, 37-43, 53-59
+/root/payload/f8a_tagger/collectors/stackoverflow.py      34      7    79%   28, 42-47
 /root/payload/f8a_tagger/corpus.py                        48      0   100%
 /root/payload/f8a_tagger/defaults.py                       7      0   100%
 /root/payload/f8a_tagger/errors.py                         6      0   100%
 /root/payload/f8a_tagger/keywords_chief.py               135      0   100%
 /root/payload/f8a_tagger/keywords_set.py                  16      0   100%
-/root/payload/f8a_tagger/lemmatizer.py                     5      1    80%   13
+/root/payload/f8a_tagger/lemmatizer.py                     5      0   100%
 /root/payload/f8a_tagger/parsers/__init__.py               2      0   100%
-/root/payload/f8a_tagger/parsers/abstract.py               5      1    80%   19
-/root/payload/f8a_tagger/parsers/core_parser.py           46     25    46%   72-84, 94-106, 115-124
-/root/payload/f8a_tagger/parsers/parsers.py               40     11    72%   26, 40, 54, 68, 85, 100, 115, 130, 145, 160, 175
-/root/payload/f8a_tagger/recipes.py                      129    100    22%   38-52, 64-70, 93-120, 140-156, 176-184, 195-207, 221-266, 278-289, 294, 299, 304
-/root/payload/f8a_tagger/scoring.py                       48     24    50%   33, 43-46, 56, 69, 89-99, 108-120, 133
-/root/payload/f8a_tagger/stemmer.py                       12      5    58%   25-30, 38
-/root/payload/f8a_tagger/tokenizer.py                     93     74    20%   34-73, 79, 84, 91-99, 106-114, 123-138, 149-181
-/root/payload/f8a_tagger/utils.py                         71     51    28%   28-37, 47-75, 85-93, 102-112, 118-123, 128-137
+/root/payload/f8a_tagger/parsers/abstract.py               4      0   100%
+/root/payload/f8a_tagger/parsers/core_parser.py           46      0   100%
+/root/payload/f8a_tagger/parsers/parsers.py               40      0   100%
+/root/payload/f8a_tagger/recipes.py                      129      5    96%   203-204, 207, 254, 262
+/root/payload/f8a_tagger/scoring.py                       47      1    98%   95
+/root/payload/f8a_tagger/stemmer.py                       12      0   100%
+/root/payload/f8a_tagger/tokenizer.py                     93     48    48%   45-48, 54, 60, 92-97, 107-112, 123-138, 149-181
+/root/payload/f8a_tagger/utils.py                         71     29    59%   30, 34, 63-69, 72-75, 85-93, 105, 118-123, 128-137
 ------------------------------------------------------------------------------------
-TOTAL                                                    852    395    54%
+TOTAL                                                    850    151    82%

@@ -59,6 +59,8 @@ tests/test_errors.py
     Pass
 tests/test_init.py
     Pass
+tests/test_parsers.py
+    Pass
 tests/test_keywords_chief.py
     Pass
 tests/test_recipes.py
@@ -83,6 +85,8 @@ tests/test_corpus.py
     Pass
 tests/test_stackoverflow_collector.py
     Pass
+tests/test_core_parser.py
+    Pass
 tests/test_keywords_set.py
     Pass
 tests/conftest.py
@@ -96,4 +100,4 @@ f8a_tagger_cli.py
     Pass
 setup.py
     Pass
-All checks passed for 41 source files
+All checks passed for 43 source files
