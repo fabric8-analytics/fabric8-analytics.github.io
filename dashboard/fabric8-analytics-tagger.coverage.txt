@@ -20,7 +20,7 @@ Name                                                   Stmts   Miss  Cover   Mis
 /root/payload/f8a_tagger/recipes.py                      129      5    96%   203-204, 207, 254, 262
 /root/payload/f8a_tagger/scoring.py                       47      1    98%   95
 /root/payload/f8a_tagger/stemmer.py                       12      0   100%
-/root/payload/f8a_tagger/tokenizer.py                     93     48    48%   45-48, 54, 60, 92-97, 107-112, 123-138, 149-181
+/root/payload/f8a_tagger/tokenizer.py                     93     43    54%   92-97, 107-112, 123-138, 149-181
 /root/payload/f8a_tagger/utils.py                         71     29    59%   30, 34, 63-69, 72-75, 85-93, 105, 118-123, 128-137
 ------------------------------------------------------------------------------------
-TOTAL                                                    850    151    82%
+TOTAL                                                    850    146    83%
