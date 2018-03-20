@@ -215,7 +215,7 @@ permalink: /repositories/
     var link = svg.append("g").selectAll(".link"),
         node = svg.append("g").selectAll(".node");
 
-    d3.json("/data/repository-metadata.json", function(error, classes) {
+		d3.json("{{ '/data/repository-metadata.json' | relative_url }}", function(error, classes) {
         if (error) throw error;
 
         var root = packageHierarchy(classes)
