@@ -4,5 +4,10 @@ layout: default
 permalink: /contribution/
 ---
 
-{% include maintanance.html %}
+<div class="inner">
+
+	{% capture contrib %}{% include CONTRIBUTING.md %}{% endcapture %}
+	{{ contrib | markdownify }}
+
+</div
 
