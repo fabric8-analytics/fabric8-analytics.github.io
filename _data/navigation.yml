@@ -13,14 +13,14 @@ main:
           url: /development/
           submenu:
 
+            - title: Contribution
+              url: /contribution/
+
             - title: Deployment
               url: /deployment/
 
             - title: Testing
               url: /testing/
-
-            - title: Contribution
-              url: /contribution/
 
         - title: Resources
           url: /resources/
