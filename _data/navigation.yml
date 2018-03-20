@@ -1,7 +1,7 @@
 banner:
     en:
         title: Fabric8 Analytics
-        description: Fabric8 Analytics landing page
+        description: Landing page
         url: /
 
 main:
@@ -25,14 +25,17 @@ main:
         - title: Resources
           url: /resources/
           submenu:
+              - title: Credential Guide
+                url: /resources/credentials/
+
               - title: Dashboard
                 url: /resources/dashboard/
 
+              - title: Glossary
+                url: /resources/glossary/
+
               - title: Learnings
                 url: /resources/learnings/
-
-              - title: Credential Guide
-                url: /resources/credentials/
 
         - title: FAQ
           url: /faq/
