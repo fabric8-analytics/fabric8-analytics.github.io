@@ -4,5 +4,21 @@ layout: default
 permalink: /repositories/
 ---
 
-{% include maintanance.html %}
+<div class="inner">
 
+	<h1> Repositories </h1>
+	<hr>
+
+	<ul>
+	{% for repo in site.data.repositories %}
+		<li>
+			<a href="https://github.com/{{ repo.github }}">
+				{{ repo.name }}
+			</a>
+		</li>
+	{% endfor %}
+	</ul>
+
+	{% include maintanance.html %}
+
+</div>

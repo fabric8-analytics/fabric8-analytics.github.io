@@ -1,36 +1,49 @@
-main:
-    - title: fabric8-analytics-stack-analysis
-      url: /fabric8-analytics/fabric8-analytics-stack-analysis
-      description: # TODO (think about connecting this to gh?)
-      http: "#" # TODO
+- name: fabric8-analytics-common
+  github: /fabric8-analytics/fabric8-analytics-common
+  description: |
+      Tests for Fabric8 Analytics core stream and dashboard for performance tests and tooling around it.
+  url: "#" # TODO
 
-    - title: fabric8-analytics-stack-analysis
-      url: /fabric8-analytics/fabric8-analytics-stack-analysis
-      description: # TODO (think about connecting this to gh?)
-      http: "#" # TODO
+- name: fabric8-analytics-server
+  github: /fabric8-analytics/fabric8-analytics-server
+  description: |
+      Core API services. The API microservice is reponsible for scheduling and serving analyses based on client requests.
+  url: "#" # TODO
 
-    - title: fabric8-analytics-stack-analysis
-      url: /fabric8-analytics/fabric8-analytics-stack-analysis
-      description: # TODO (think about connecting this to gh?)
-      http: "#" # TODO
+- name: fabric8-analytics-worker
+  github: /fabric8-analytics/fabric8-analytics-worker
+  description: |
+      Core library and services. Provides basic infrastrucutre for development of services and concrete implementation of services.
+  url: "#" # TODO
 
-    - title: fabric8-analytics-stack-analysis
-      url: /fabric8-analytics/fabric8-analytics-stack-analysis
-      description: # TODO (think about connecting this to gh?)
-      http: "#" # TODO
+- name: fabric8-analytics-jobs
+  github: /fabric8-analytics/fabric8-jobs
+  description: |
+      Single configuration point for core periodic and query specific jobs.
+  url: "#" # TODO
 
-    - title: fabric8-analytics-stack-analysis
-      url: /fabric8-analytics/fabric8-analytics-stack-analysis
-      description: # TODO (think about connecting this to gh?)
-      http: "#" # TODO
+- name: fabric8-analytics-deployment
+  github: /fabric8-analytics/fabric8-analytics-deployment
+  description: |
+      Deployment scripts and tools. Development and deployment documentation for developers and contributors.
+  url: "#" # TODO
 
-    - title: fabric8-analytics-stack-analysis
-      url: /fabric8-analytics/fabric8-analytics-stack-analysis
-      description: # TODO (think about connecting this to gh?)
-      http: "#" # TODO
+- name: fabric8-analytics-data-model
+  github: /fabric8-analytics/fabric8-analytics-data-model
+  description: |
+      Data related work - allows connecting to graphing engine, importing new data and exploring stored data.
+  url: "#" # TODO
 
-    - title: fabric8-analytics-stack-analysis
-      url: /fabric8-analytics/fabric8-analytics-stack-analysis
-      description: # TODO (think about connecting this to gh?)
-      http: "#" # TODO
+- name: fabric8-analytics-stack-analysis
+  github: /fabric8-analytics/fabric8-analytics-stack-analysis
+  description: |
+      Analytics base repository providing multiple platforms for data operations and inference.
+
+  url: "#" # TODO
+
+- name: f8a-server-backbone
+  github: /fabric8-analytics/f8a-server-backbone
+  description: |
+      Server backbone service for stack aggregation and recommendation. Interacts with Kronos service.
+  url: "#" # TODO
 
