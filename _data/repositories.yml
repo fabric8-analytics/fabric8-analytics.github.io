@@ -1,49 +1,51 @@
 - name: fabric8-analytics-common
+  nick: Common
   github: /fabric8-analytics/fabric8-analytics-common
-  description: |
-      Tests for Fabric8 Analytics core stream and dashboard for performance tests and tooling around it.
+  description: Tests for Fabric8 Analytics core stream and dashboard for performance tests and tooling around it.
   url: "#" # TODO
+  imports: null # TODO
 
 - name: fabric8-analytics-server
+  nick: Server
   github: /fabric8-analytics/fabric8-analytics-server
-  description: |
-      Core API services. The API microservice is reponsible for scheduling and serving analyses based on client requests.
+  description: Core API services. The API microservice is reponsible for scheduling and serving analyses based on client requests.
   url: "#" # TODO
+  imports: null # TODO
 
 - name: fabric8-analytics-worker
+  nick: Worker
   github: /fabric8-analytics/fabric8-analytics-worker
-  description: |
-      Core library and services. Provides basic infrastrucutre for development of services and concrete implementation of services.
+  description: Core library and services. Provides basic infrastrucutre for development of services and concrete implementation of services.
   url: "#" # TODO
 
 - name: fabric8-analytics-jobs
+  nick: Jobs
   github: /fabric8-analytics/fabric8-jobs
-  description: |
-      Single configuration point for core periodic and query specific jobs.
+  description: Single configuration point for core periodic and query specific jobs.
   url: "#" # TODO
 
 - name: fabric8-analytics-deployment
+  nick: Deployment
   github: /fabric8-analytics/fabric8-analytics-deployment
-  description: |
-      Deployment scripts and tools. Development and deployment documentation for developers and contributors.
+  description: Deployment scripts and tools. Development and deployment documentation for developers and contributors.
   url: "#" # TODO
 
 - name: fabric8-analytics-data-model
+  nick: Data Model
   github: /fabric8-analytics/fabric8-analytics-data-model
-  description: |
-      Data related work - allows connecting to graphing engine, importing new data and exploring stored data.
+  description: Data related work - allows connecting to graphing engine, importing new data and exploring stored data.
   url: "#" # TODO
 
 - name: fabric8-analytics-stack-analysis
+  nick: Stack Analysis
   github: /fabric8-analytics/fabric8-analytics-stack-analysis
-  description: |
-      Analytics base repository providing multiple platforms for data operations and inference.
+  description: Analytics base repository providing multiple platforms for data operations and inference.
 
   url: "#" # TODO
 
 - name: f8a-server-backbone
+  nick: Backbone
   github: /fabric8-analytics/f8a-server-backbone
-  description: |
-      Server backbone service for stack aggregation and recommendation. Interacts with Kronos service.
+  description: Server backbone service for stack aggregation and recommendation. Interacts with Kronos service.
   url: "#" # TODO
 

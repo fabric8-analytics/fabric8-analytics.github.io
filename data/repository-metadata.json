@@ -1,0 +1,20 @@
+---
+layout: none
+---
+[
+	{% for repo in site.data.repositories %}
+	{
+		"name": "{{ repo.name }}",
+		"nick": "{{ repo.nick }}",
+		"description": "{{ repo.description }}",
+		"github": "{{ repo.github }}",
+		"url": "{{ repo.url }}",
+		"imports": [{% for _repo in site.data.repositories %}
+			"{{ _repo.name }}"
+			{% if forloop.last == false %},{% endif %}
+			{% endfor %}
+		],
+		"meta": 1
+	}{% if forloop.last == false %},{% endif %}
+	{% endfor %}
+]
