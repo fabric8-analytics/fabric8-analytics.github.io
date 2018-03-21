@@ -6,7 +6,7 @@ layout: none
 	{
 		"name": "{{ repo.name }}",
 		"nick": "{{ repo.nick }}",
-		"description": "{{ repo.description }}",
+		"description": {{ repo.description | jsonify }},
 		"github": "{{ repo.github }}",
 		"url": "{{ repo.url }}",
 		"imports": [{% for _repo in site.data.repositories %}
