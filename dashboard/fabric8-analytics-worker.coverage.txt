@@ -12,7 +12,7 @@ Name                                                                 Stmts   Mis
 /f8a_worker/f8a_worker/dispatcher/trace.py                              13      2    85%   29, 36
 /f8a_worker/f8a_worker/enums.py                                          6      0   100%
 /f8a_worker/f8a_worker/errors.py                                         2      0   100%
-/f8a_worker/f8a_worker/graphutils.py                                   136    119    12%   24-49, 54-88, 93-162, 167-188, 193-206, 211-295, 302-315
+/f8a_worker/f8a_worker/graphutils.py                                   136    119    12%   24-50, 55-89, 94-163, 168-189, 194-207, 212-296, 303-316
 /f8a_worker/f8a_worker/manifests.py                                     52     24    54%   27, 53, 58-62, 67-72, 77-81, 86-92
 /f8a_worker/f8a_worker/models.py                                       255     76    70%   42-46, 53-57, 62-66, 71-84, 125-127, 150-154, 176-180, 203-208, 213-216, 221-237, 242-252, 256-264, 320, 338, 343-347, 372, 377
 /f8a_worker/f8a_worker/object_cache.py                                 147     75    49%   69-74, 81-87, 97, 104-107, 111-118, 128-130, 134-136, 143-144, 151-155, 162-164, 171-183, 190, 197, 204, 211, 218-228, 235, 242, 249-255, 262-269, 284, 289-291
@@ -20,7 +20,7 @@ Name                                                                 Stmts   Mis
 /f8a_worker/f8a_worker/schemas.py                                      208     42    80%   65-67, 92, 129, 142, 155, 172, 253, 266-267, 326-329, 333-348, 352-361, 371-374, 378-381
 /f8a_worker/f8a_worker/setup_celery.py                                  41     19    54%   22-24, 29, 34-35, 37, 48-52, 62-72
 /f8a_worker/f8a_worker/solver.py                                       528     83    84%   112, 129-147, 156, 164, 190, 196, 200, 214-224, 243, 249, 274-275, 279, 285, 318, 321-322, 337, 343-347, 353, 432-435, 448, 463, 488, 498-500, 511, 515, 537, 542, 565-566, 576, 620, 720, 725, 730, 750, 755, 793, 796-799, 811, 874, 997, 1009, 1014-1027
-/f8a_worker/f8a_worker/start.py                                         14     14     0%   3-22
+/f8a_worker/f8a_worker/start.py                                          6      6     0%   3-11
 /f8a_worker/f8a_worker/storages/__init__.py                             20      0   100%
 /f8a_worker/f8a_worker/storages/package_postgres.py                     85     64    25%   28-30, 33-36, 56-64, 74-87, 96-101, 110-120, 130-152, 163-187, 200-216
 /f8a_worker/f8a_worker/storages/postgres.py                            110     70    36%   63, 74-76, 82, 96-113, 124-138, 147-157, 166-171, 180-188, 197-203, 209-210, 219-255, 265-274
@@ -71,7 +71,7 @@ Name                                                                 Stmts   Mis
 /f8a_worker/f8a_worker/workers/license.py                               59      7    88%   39, 101-108
 /f8a_worker/f8a_worker/workers/linguist.py                              42     31    26%   49-66, 74-104
 /f8a_worker/f8a_worker/workers/manifest_keeper.py                       20     13    35%   21-39
-/f8a_worker/f8a_worker/workers/mercator.py                             148     88    41%   49-62, 65-152, 160, 176-195, 211-212, 217-219, 225
+/f8a_worker/f8a_worker/workers/mercator.py                             156     88    44%   49-62, 65-152, 160, 176-195, 220-221, 226-228, 234
 /f8a_worker/f8a_worker/workers/oscryptocatcher.py                       23     14    39%   22-44
 /f8a_worker/f8a_worker/workers/recommender.py                          475    413    13%   37-43, 47, 56, 61-63, 68-72, 76-87, 95, 99-115, 125-191, 196-206, 210-222, 227-235, 240-249, 259-285, 292-309, 323-395, 399-426, 431-439, 444-455, 463-464, 469, 474-480, 489-496, 501-507, 516-529, 534, 543-558, 562-596, 607-644, 649-663, 668-685, 690-743, 758-780, 784-949
 /f8a_worker/f8a_worker/workers/repository_description.py                36      2    94%   35, 49
@@ -94,4 +94,4 @@ Name                                                                 Stmts   Mis
 /f8a_worker/f8a_worker/workers/stackaggregator_v2.py                   181    162    10%   26-102, 119-135, 158-200, 212-223, 228-272, 277-291, 296-343, 348-379, 393-407
 /f8a_worker/f8a_worker/workers/unknown_dep_fetcher.py                   37     27    27%   18-44, 52-58
 --------------------------------------------------------------------------------------------------
-TOTAL                                                                 6796   2981    56%
+TOTAL                                                                 6796   2973    56%
