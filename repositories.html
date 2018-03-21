@@ -140,6 +140,7 @@ permalink: /repositories/
         background: rgba(0, 0, 0, 0.8);
         color: #fff;
         border-radius: 11px;
+        white-space: pre-wrap;
     }
 
     .d3-tip.animate-in {
@@ -178,6 +179,13 @@ permalink: /repositories/
         justify-content: center;
         text-align: center;
     }
+
+    .d3-tip h4 {
+        font: 300 23px "Helvetica Neue", Helvetica, Arial, sans-serif;
+        fill: #bbb;
+        text-align: center;
+    }
+
 </style>
 
 <!-- ---- -->
@@ -185,40 +193,40 @@ permalink: /repositories/
 <script src="{{ '/index.js' | relative_url }}"></script>
 <script>
 
-    var diameter = 960,
+    const diameter = 960,
         radius = diameter / 2,
-        innerRadius = radius - 120;
+        innerRadius = radius - 160;
 
-    var cluster = d3.cluster()
+    const cluster = d3.cluster()
         .size([360, innerRadius]);
 
-    var line = d3.radialLine()
+    const line = d3.radialLine()
         .curve(d3.curveBundle.beta(0.85))
         .radius(function(d) { return d.y; })
         .angle(function(d) { return d.x / 180 * Math.PI; });
 
-    var svg = d3.select("#repo_vis").append("svg")
+    const svg = d3.select("#repo_vis").append("svg")
         .attr("width", diameter)
         .attr("height", diameter)
         .append("g")
         .attr("transform", "translate(" + radius + "," + radius + ")");
 
-    var tip = d3.tip()
+    const tip = d3.tip()
         .attr('class', 'd3-tip')
         .offset([-10, 0])
         .html(function(d) {
-            return "<span>" + d.data.description + "</span>";
+            return "<span>" + d.data.name + "<br><br>" + d.data.description + "</span>";
         });
 
     svg.call(tip);
 
-    var link = svg.append("g").selectAll(".link"),
-        node = svg.append("g").selectAll(".node");
+    var link = svg.append("g").selectAll(".link");
+    var node = svg.append("g").selectAll(".node");
 
-		d3.json("{{ '/data/repository-metadata.json' | relative_url }}", function(error, classes) {
+    d3.json("{{ '/data/repository-metadata.json' | relative_url }}", function(error, classes) {
         if (error) throw error;
 
-        var root = packageHierarchy(classes)
+        let root = packageHierarchy(classes)
             .sum(function(d) { return d.meta; });
 
         cluster(root);
@@ -239,9 +247,9 @@ permalink: /repositories/
             .attr("text-anchor", function(d) { return d.x < 180 ? "start" : "end"; })
             .text(function(d) { return d.data.key; })
             .on("mouseover", mouseovered)
-            .on("mouseout", mouseouted);
+            .on("mouseout", mouseouted)
+            .on("click", (d) => console.log(d));
 
-        node.text.style.padding = "30px";
     });
 
     function mouseovered(d) {
@@ -277,10 +285,10 @@ permalink: /repositories/
 
     // Lazily construct the package hierarchy from class names.
     function packageHierarchy(classes) {
-        var map = {};
+        let map = {};
 
         function find(name, data) {
-            var node = map[name], i;
+            let node = map[name], i;
             if (!node) {
                 node = map[name] = data || {name: name, children: []};
                 if (name.length) {
@@ -301,7 +309,7 @@ permalink: /repositories/
 
     // Return a list of imports for the given array of nodes.
     function packageImports(nodes) {
-        var map = {},
+        let map = {},
             imports = [];
 
         // Compute a map from name to node.
