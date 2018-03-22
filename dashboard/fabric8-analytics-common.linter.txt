@@ -127,6 +127,8 @@ load-tests/run_load_test.py
     Pass
 load-tests/locust-test.py
     Pass
+db-integrity-tests/src/schema_validator.py
+    Pass
 db-integrity-tests/src/s3configuration.py
     Pass
 db-integrity-tests/src/cliargs.py
@@ -139,6 +141,12 @@ db-integrity-tests/src/gremlin_query.py
     Pass
 db-integrity-tests/src/s3interface.py
     Pass
+db-integrity-tests/src/csv_reporter.py
+    Pass
 db-integrity-tests/src/gremlin_interface.py
     Pass
-All checks passed for 66 source files
+db-integrity-tests/src/core_package_checker.py
+    Pass
+db-integrity-tests/src/checker.py
+    Pass
+All checks passed for 70 source files
