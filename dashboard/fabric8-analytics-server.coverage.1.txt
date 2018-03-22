@@ -1,0 +1,19 @@
+Name                                                   Stmts   Miss  Cover   Missing
+------------------------------------------------------------------------------------
+/bayesian/bayesian/__init__.py                            61     13    79%   61, 65-81
+/bayesian/bayesian/api_v1.py                             647    446    31%   80, 86-99, 105, 112-115, 125, 130, 135, 140, 145-179, 230, 248-252, 281-287, 300-327, 332-340, 352-437, 450-463, 477-491, 502-528, 539-555, 567-580, 584, 595-608, 619-642, 653-764, 769, 817, 822, 834-846, 861-971, 976, 987-1020, 1032-1125, 1144-1152, 1163-1189, 1200-1217, 1259
+/bayesian/bayesian/auth.py                               167    113    32%   24-47, 57-87, 96, 160-162, 166, 170-174, 183-188, 205-210, 226-237, 276-298, 308, 346-358, 362-365, 370-380
+/bayesian/bayesian/default_config.py                      20      0   100%
+/bayesian/bayesian/dependency_finder.py                   59     47    20%   21-28, 47-107
+/bayesian/bayesian/exceptions.py                           5      0   100%
+/bayesian/bayesian/generate_manifest.py                   42     34    19%   15-21, 25-43, 50-60, 64-71, 75
+/bayesian/bayesian/license_extractor.py                   40     31    22%   18-26, 31-63
+/bayesian/bayesian/repr_license_finder_go.py              75     60    20%   24-26, 30-52, 56-64, 68-100, 104-113
+/bayesian/bayesian/schemas/__init__.py                     4      0   100%
+/bayesian/bayesian/schemas/analyses_graphdb.py            40      0   100%
+/bayesian/bayesian/schemas/component_analyses.py          43      0   100%
+/bayesian/bayesian/schemas/stack_analyses.py             245      0   100%
+/bayesian/bayesian/schemas/version_range_resolver.py      18      0   100%
+/bayesian/bayesian/utils.py                              449    341    24%   49, 60-69, 74-78, 83-92, 107-121, 129-130, 146-147, 162-220, 228-260, 265-296, 301-313, 318-331, 342-343, 368-402, 408-434, 447-455, 463-482, 487-503, 508-525, 530-533, 538-543, 558-571, 575-600, 604-605, 618-624, 632-642, 651-658, 666-693, 698-756, 765-775, 780-782, 787-803, 811, 818, 824-827, 832
+------------------------------------------------------------------------------------
+TOTAL                                                   1915   1085    43%
