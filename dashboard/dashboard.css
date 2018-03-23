@@ -53,5 +53,5 @@ body { padding-top: 100px; }
   }
 
 .with-margin {
-    margin:1px;
+    //margin-bottom:1px;
 }
