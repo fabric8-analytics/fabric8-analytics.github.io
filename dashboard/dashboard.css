@@ -30,6 +30,14 @@ body { padding-top: 100px; }
 .error {
     color:#800000;
 }
+.ignored {
+    color:#404040;
+}
+
+.ci_status {
+    width:3ex;
+    display:inline-block;
+}
 
   /* Extra small devices (phones, less than 768px) */
   @media (max-width: 1200px) {
@@ -44,3 +52,6 @@ body { padding-top: 100px; }
     body { padding-top: 240px; }
   }
 
+.with-margin {
+    margin:1px;
+}
