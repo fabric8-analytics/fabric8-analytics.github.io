@@ -147,6 +147,9 @@ dashboard/src/ci_jobs.py
 dashboard/src/jobsapi.py
 0
     Pass
+dashboard/src/repositories.py
+0
+    Pass
 dashboard/src/perf_tests.py
 0
     Pass
@@ -162,6 +165,9 @@ dashboard/src/html_generator.py
 dashboard/src/config.py
 0
     Pass
+dashboard/src/source_files.py
+0
+    Pass
 dashboard/src/s3_configuration.py
 0
     Pass
@@ -169,6 +175,9 @@ dashboard/src/dashboard.py
 0
     Pass
 dashboard/src/smoke_tests.py
+0
+    Pass
+dashboard/src/progress_bar.py
 0
     Pass
 dashboard/src/coreapi.py
@@ -222,4 +231,4 @@ db-integrity-tests/src/core_package_checker.py
 db-integrity-tests/src/checker.py
 0
     Pass
-All checks passed for 70 source files
+All checks passed for 73 source files
