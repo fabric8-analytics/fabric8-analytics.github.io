@@ -99,6 +99,10 @@ dashboard/src/ci_jobs.py
     Pass
 dashboard/src/jobsapi.py
     Pass
+dashboard/src/unit_tests.py
+    Pass
+dashboard/src/cc.py
+    Pass
 dashboard/src/repositories.py
     Pass
 dashboard/src/perf_tests.py
@@ -135,6 +139,10 @@ load-tests/locust-test.py
     Pass
 db-integrity-tests/src/schema_validator.py
     Pass
+db-integrity-tests/src/utils.py
+    Pass
+db-integrity-tests/src/gremlin_checker.py
+    Pass
 db-integrity-tests/src/s3configuration.py
     Pass
 db-integrity-tests/src/cliargs.py
@@ -142,6 +150,8 @@ db-integrity-tests/src/cliargs.py
 db-integrity-tests/src/main.py
     Pass
 db-integrity-tests/src/gremlin_configuration.py
+    Pass
+db-integrity-tests/src/component_versions_checker.py
     Pass
 db-integrity-tests/src/gremlin_query.py
     Pass
@@ -155,4 +165,4 @@ db-integrity-tests/src/core_package_checker.py
     Pass
 db-integrity-tests/src/checker.py
     Pass
-All checks passed for 73 source files
+All checks passed for 78 source files

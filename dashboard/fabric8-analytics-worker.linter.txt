@@ -221,6 +221,8 @@ f8a_worker/workers/schemas/dependency_snapshot.py
     Pass
 f8a_worker/workers/oscryptocatcher.py
     Pass
+f8a_worker/workers/report_generation.py
+    Pass
 f8a_worker/workers/stackaggregator_v2.py
     Pass
 f8a_worker/workers/graph_importer.py
@@ -356,4 +358,4 @@ setup.py
 ----------------------------------------------------
 setup.py
     Pass
-All checks passed for 171 source files
+All checks passed for 172 source files
