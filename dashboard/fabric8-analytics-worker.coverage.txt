@@ -3,7 +3,7 @@ Name                                                                 Stmts   Mis
 /f8a_worker/f8a_worker/__init__.py                                       1      0   100%
 /f8a_worker/f8a_worker/base.py                                          54     20    63%   38, 48-80, 98, 110
 /f8a_worker/f8a_worker/celery_settings.py                               40     12    70%   21, 28, 32, 54-70, 80, 85, 91-150
-/f8a_worker/f8a_worker/data_normalizer.py                              383     66    83%   67, 130-135, 139-140, 202-211, 214-215, 217-220, 223, 255, 278, 343, 409-412, 418, 425, 429, 529, 554-556, 582-583, 600, 616, 619, 646-652, 656-687, 691
+/f8a_worker/f8a_worker/data_normalizer.py                              402     76    81%   67, 134-139, 143-146, 150, 189-190, 199-200, 216-226, 229-230, 232-235, 238, 241, 244, 276, 299, 364, 430-433, 439, 446, 450, 550, 575-577, 603-604, 621, 637, 640, 667-673, 677-708, 712
 /f8a_worker/f8a_worker/defaults.py                                      85     10    88%   94-96, 100-102, 131, 142, 144-147, 163, 166
 /f8a_worker/f8a_worker/dispatcher/__init__.py                            0      0   100%
 /f8a_worker/f8a_worker/dispatcher/foreach.py                            84     68    19%   13, 35-58, 64-88, 94-102, 108-131
@@ -95,4 +95,4 @@ Name                                                                 Stmts   Mis
 /f8a_worker/f8a_worker/workers/stackaggregator_v2.py                   181    162    10%   26-102, 119-135, 158-200, 212-223, 228-272, 277-291, 296-343, 348-379, 393-407
 /f8a_worker/f8a_worker/workers/unknown_dep_fetcher.py                   31     23    26%   15-40, 49-52
 --------------------------------------------------------------------------------------------------
-TOTAL                                                                 6905   3056    56%
+TOTAL                                                                 6924   3066    56%
