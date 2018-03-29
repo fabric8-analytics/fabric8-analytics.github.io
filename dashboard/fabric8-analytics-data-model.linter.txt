@@ -23,13 +23,15 @@ src/data_source/s3_data_source.py
     Pass
 src/graph_manager.py
     Pass
-src/data_importer.py
+src/config.py
     Pass
-src/sanitycheck.py
+src/data_importer.py
     Pass
 test/test_rest_api.py
     Pass
 test/test_graph_properties.py
+    Pass
+test/test_postgres_handler.py
     Pass
 test/test_insertion_from_minio.py
     Pass
@@ -45,4 +47,4 @@ test/conftest.py
     Pass
 test/test_graph_populator.py
     Pass
-All checks passed for 18 source files
+All checks passed for 19 source files
