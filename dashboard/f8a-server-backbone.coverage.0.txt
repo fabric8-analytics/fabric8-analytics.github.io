@@ -1,0 +1,9 @@
+Name                                    Stmts   Miss  Cover   Missing
+---------------------------------------------------------------------
+/root/payload/src/__init__.py               0      0   100%
+/root/payload/src/recommender.py          275    275     0%   65-621
+/root/payload/src/rest_api.py              66     66     0%   3-115
+/root/payload/src/stack_aggregator.py     204    204     0%   9-457
+/root/payload/src/utils.py                 84     59    30%   32-42, 46, 51-65, 70-156, 177-200, 206-211
+---------------------------------------------------------------------
+TOTAL                                     629    604     4%
