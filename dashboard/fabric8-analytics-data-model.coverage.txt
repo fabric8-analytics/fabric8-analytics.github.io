@@ -8,6 +8,6 @@ src/data_source/abstract_data_source.py       6      0   100%
 src/data_source/s3_data_source.py            36      7    81%   29-31, 38, 43, 53, 65-66
 src/graph_manager.py                         38      0   100%
 src/graph_populator.py                      176      1    99%   385
-src/rest_api.py                              97     21    78%   35-39, 97, 100-102, 113-115, 124, 143-157, 161
+src/rest_api.py                              96     15    84%   35-39, 97, 100-102, 113-115, 123, 154, 160
 -----------------------------------------------------------------------
-TOTAL                                       572     61    89%
+TOTAL                                       571     55    90%
