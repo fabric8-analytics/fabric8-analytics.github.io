@@ -47,4 +47,11 @@ test/conftest.py
     Pass
 test/test_graph_populator.py
     Pass
-All checks passed for 19 source files
+
+----------------------------------------------------
+Running Python linter against selected files:
+sanitycheck.py
+----------------------------------------------------
+sanitycheck.py
+    Pass
+All checks passed for 20 source files

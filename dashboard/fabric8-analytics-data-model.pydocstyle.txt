@@ -69,4 +69,12 @@ test/conftest.py
 test/test_graph_populator.py
 0
     Pass
-All checks passed for 19 source files
+
+----------------------------------------------------
+Checking documentation strings in the following files
+sanitycheck.py
+----------------------------------------------------
+sanitycheck.py
+0
+    Pass
+All checks passed for 20 source files

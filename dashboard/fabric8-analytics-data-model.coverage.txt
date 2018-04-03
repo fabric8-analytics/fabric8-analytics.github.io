@@ -5,9 +5,9 @@ src/config.py                                22      0   100%
 src/data_importer.py                        195     32    84%   86, 97, 120-131, 158, 177-178, 215-217, 264-266, 274-275, 282-295, 307, 312, 317, 322, 327, 343, 348, 353
 src/data_source/__init__.py                   0      0   100%
 src/data_source/abstract_data_source.py       6      0   100%
-src/data_source/s3_data_source.py            36      7    81%   29-31, 38, 43, 53, 65-66
+src/data_source/s3_data_source.py            36      2    94%   29-31
 src/graph_manager.py                         38      0   100%
 src/graph_populator.py                      176      1    99%   385
-src/rest_api.py                              96     15    84%   35-39, 97, 100-102, 113-115, 123, 154, 160
+src/rest_api.py                              97     15    85%   35-39, 97, 100-102, 113-115, 124, 155, 161
 -----------------------------------------------------------------------
-TOTAL                                       571     55    90%
+TOTAL                                       572     50    91%
