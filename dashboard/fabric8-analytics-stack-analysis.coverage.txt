@@ -39,16 +39,16 @@ Name                                                                           S
 /evaluation_platform/__init__.py                                                   0      0   100%
 /evaluation_platform/uranus/__init__.py                                            0      0   100%
 /evaluation_platform/uranus/deployment/__init__.py                                 0      0   100%
-/evaluation_platform/uranus/deployment/submit_evaluation_job.py                   36     36     0%   13-179
+/evaluation_platform/uranus/deployment/submit_evaluation_job.py                   36     27    25%   29-179
 /evaluation_platform/uranus/scripts/__init__.py                                    0      0   100%
 /evaluation_platform/uranus/src/__init__.py                                        0      0   100%
-/evaluation_platform/uranus/src/alternate_testing.py                              51     51     0%   3-116
-/evaluation_platform/uranus/src/companion_outlier_testing.py                      65     65     0%   4-153
-/evaluation_platform/uranus/src/evaluate_data.py                                  32     32     0%   4-68
-/evaluation_platform/uranus/src/generate_test_data.py                             83     83     0%   3-184
-/evaluation_platform/uranus/src/kronos_offline_evaluation.py                      24     24     0%   4-33
-/evaluation_platform/uranus/src/super_class.py                                    21     21     0%   4-48
-/evaluation_platform/uranus/src/uranus_constants.py                               11     11     0%   4-20
+/evaluation_platform/uranus/src/alternate_testing.py                              51     36    29%   24-27, 36, 45-58, 71-73, 85-116
+/evaluation_platform/uranus/src/companion_outlier_testing.py                      65     46    29%   36-44, 52-57, 64, 80, 93-96, 109-153
+/evaluation_platform/uranus/src/evaluate_data.py                                  32     21    34%   21-30, 36-38, 52-68
+/evaluation_platform/uranus/src/generate_test_data.py                             83     60    28%   32-37, 45-62, 70-82, 86-87, 91-97, 101-104, 115-117, 127-129, 140-143, 152-156, 164-184
+/evaluation_platform/uranus/src/kronos_offline_evaluation.py                      24     13    46%   18-33
+/evaluation_platform/uranus/src/super_class.py                                    21     10    52%   23-26, 33-36, 44-48
+/evaluation_platform/uranus/src/uranus_constants.py                               11      0   100%
 /tagging_platform/__init__.py                                                      0      0   100%
 /tagging_platform/helles/__init__.py                                               0      0   100%
 /tagging_platform/helles/deployment/__init__.py                                    0      0   100%
@@ -69,9 +69,9 @@ Name                                                                           S
 /util/error/error_codes.py                                                         2      0   100%
 /util/gnosis_util.py                                                              26      0   100%
 /util/http_client/__init__.py                                                      0      0   100%
-/util/http_client/request.py                                                      11     11     0%   3-20
+/util/http_client/request.py                                                      11      1    91%   17
 /util/pgm_util.py                                                                 16      0   100%
 /util/softnet_util.py                                                             38      0   100%
 /util/util_constants.py                                                            1      0   100%
 ------------------------------------------------------------------------------------------------------------
-TOTAL                                                                           2118   1025    52%
+TOTAL                                                                           2118    905    57%

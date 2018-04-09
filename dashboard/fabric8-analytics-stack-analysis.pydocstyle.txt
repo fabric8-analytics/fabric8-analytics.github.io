@@ -228,6 +228,15 @@ util/http_client/__init__.py
 util/http_client/request.py
 0
     Pass
+tests/unit_tests/test_uranus_deployment_submit_evaluation_job.py
+0
+    Pass
+tests/unit_tests/test_util_http_client_request.py
+0
+    Pass
+tests/unit_tests/test_uranus_evaluate_data.py
+0
+    Pass
 tests/unit_tests/test_kronos_gnosis_ref_arch.py
 0
     Pass
@@ -237,10 +246,22 @@ tests/unit_tests/__init__.py
 tests/unit_tests/test_kronos_pgm_pomegranate.py
 0
     Pass
+tests/unit_tests/test_uranus_generate_test_data.py
+0
+    Pass
+tests/unit_tests/test_uranus_alternate_testing.py
+0
+    Pass
 tests/unit_tests/test_kronos_softnet_kronos_dependency_generator.py
 0
     Pass
 tests/unit_tests/test_util_error_codes.py
+0
+    Pass
+tests/unit_tests/test_uranus_super_class.py
+0
+    Pass
+tests/unit_tests/test_uranus_kronos_offline_evaluation.py
 0
     Pass
 tests/unit_tests/test_apollo_tag_prune.py
@@ -255,7 +276,13 @@ tests/unit_tests/test_recommendation_validator.py
 tests/unit_tests/test_kronos_gnosis_package_topic_model.py
 0
     Pass
+tests/unit_tests/test_helles_npm_tagger.py
+0
+    Pass
+tests/unit_tests/test_uranus_companion_outlier_testing.py
+0
+    Pass
 tests/unit_tests/test_apollo_frequency_dict_generator.py
 0
     Pass
-All checks passed for 82 source files
+All checks passed for 91 source files
