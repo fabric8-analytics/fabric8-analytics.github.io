@@ -33,4 +33,6 @@ tests/test_stack_aggregator.py
     Pass
 tests/test_recommender.py
     Pass
+tests/conftest.py
+    Pass
 All checks passed
