@@ -71,6 +71,10 @@ f8a_jobs/handlers/maven_releases.py
     Pass
 f8a_jobs/defaults.py
     Pass
+tests/test_api_v1.py
+    Pass
+tests/test_auth.py
+    Pass
 tests/__init__.py
     Pass
 tests/test_utils.py
@@ -81,6 +85,8 @@ tests/handlers/__init__.py
     Pass
 tests/handlers/test_base_handler.py
     Pass
+tests/test_analyses_report.py
+    Pass
 
 ----------------------------------------------------
 Running Python linter against selected files:
@@ -90,4 +96,4 @@ f8a-jobs.py
     Pass
 setup.py
     Pass
-All checks passed for 38 source files
+All checks passed for 41 source files
