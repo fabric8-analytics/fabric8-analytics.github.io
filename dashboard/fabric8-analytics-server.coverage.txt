@@ -7,7 +7,7 @@ Name                                                   Stmts   Miss  Cover   Mis
 /bayesian/bayesian/dependency_finder.py                   59     47    20%   21-28, 47-107
 /bayesian/bayesian/exceptions.py                           5      0   100%
 /bayesian/bayesian/generate_manifest.py                   42     34    19%   15-21, 25-43, 50-60, 64-71, 75
-/bayesian/bayesian/license_extractor.py                   42     33    21%   18-26, 31-65
+/bayesian/bayesian/license_extractor.py                   40      0   100%
 /bayesian/bayesian/schemas/__init__.py                     4      0   100%
 /bayesian/bayesian/schemas/analyses_graphdb.py            40      0   100%
 /bayesian/bayesian/schemas/component_analyses.py          43      0   100%
@@ -15,4 +15,4 @@ Name                                                   Stmts   Miss  Cover   Mis
 /bayesian/bayesian/schemas/version_range_resolver.py      18      0   100%
 /bayesian/bayesian/utils.py                              453    329    27%   45, 56-65, 79-88, 103-117, 125-126, 158-216, 224-258, 263-294, 299-311, 316-329, 340-341, 366-400, 406-432, 445-453, 461-480, 485-501, 506-523, 528-531, 536-541, 556-569, 573-598, 602-603, 616-622, 630-640, 649-656, 664-691, 696-754, 763-773, 812-832, 840, 847, 853-856
 ------------------------------------------------------------------------------------
-TOTAL                                                   1833   1009    45%
+TOTAL                                                   1831    976    47%
