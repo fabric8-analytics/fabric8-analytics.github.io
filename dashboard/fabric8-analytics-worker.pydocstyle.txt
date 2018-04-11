@@ -10,8 +10,8 @@ Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages
-Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle)
 Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle)
+Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle)
 alembic/versions/f5c853b83d41_add_api_requests_table.py
 0
     Pass
@@ -198,6 +198,9 @@ f8a_worker/setup_celery.py
 f8a_worker/start.py
 0
     Pass
+f8a_worker/victims.py
+0
+    Pass
 f8a_worker/solver.py
 0
     Pass
@@ -381,6 +384,9 @@ f8a_worker/workers/mercator.py
 f8a_worker/workers/cvedbsync.py
 0
     Pass
+f8a_worker/workers/victims.py
+0
+    Pass
 f8a_worker/workers/digester.py
 0
     Pass
@@ -459,6 +465,9 @@ tests/__init__.py
 tests/data/schemas/generate.py
 0
     Pass
+tests/test_victims.py
+0
+    Pass
 tests/test_utils.py
 0
     Pass
@@ -490,6 +499,9 @@ tests/workers/test_licensecheck.py
 0
     Pass
 tests/workers/test_bigquery_gh.py
+0
+    Pass
+tests/workers/test_victims.py
 0
     Pass
 tests/workers/test_linguist.py
@@ -530,4 +542,4 @@ setup.py
 setup.py
 0
     Pass
-All checks passed for 171 source files
+All checks passed for 175 source files
