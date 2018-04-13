@@ -1,0 +1,40 @@
+----------------------------------------------------
+Checking documentation strings in all sources stored
+in following directories:
+gateway
+----------------------------------------------------
+
+Using real prefix '/usr'
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/fabric8-analytics-api-gateway/venv/bin/python3
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/fabric8-analytics-api-gateway/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/fabric8-analytics-api-gateway/venv/bin/python3)
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Collecting pydocstyle
+  Downloading pydocstyle-2.1.1-py3-none-any.whl
+Collecting snowballstemmer (from pydocstyle)
+  Downloading snowballstemmer-1.2.1-py2.py3-none-any.whl (64kB)
+Collecting six (from pydocstyle)
+  Downloading six-1.11.0-py2.py3-none-any.whl
+Installing collected packages: snowballstemmer, six, pydocstyle
+Successfully installed pydocstyle-2.1.1 six-1.11.0 snowballstemmer-1.2.1
+gateway/auth.py
+0
+    Pass
+gateway/__init__.py
+0
+    Pass
+gateway/api_v1.py
+0
+    Pass
+gateway/exceptions.py
+0
+    Pass
+gateway/defaults.py
+0
+    Pass
+
+----------------------------------------------------
+Checking documentation strings in the following files
+
+----------------------------------------------------
+All checks passed for 5 source files

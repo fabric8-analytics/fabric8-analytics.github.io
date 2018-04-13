@@ -1,0 +1,30 @@
+----------------------------------------------------
+Running Python linter against following directories:
+gateway
+----------------------------------------------------
+
+Using real prefix '/usr'
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/fabric8-analytics-api-gateway/venv/bin/python3
+Also creating executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/fabric8-analytics-api-gateway/venv/bin/python
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Collecting pycodestyle
+  Using cached pycodestyle-2.4.0-py2.py3-none-any.whl
+Installing collected packages: pycodestyle
+Successfully installed pycodestyle-2.4.0
+gateway/auth.py
+    Pass
+gateway/__init__.py
+    Pass
+gateway/api_v1.py
+    Pass
+gateway/exceptions.py
+    Pass
+gateway/defaults.py
+    Pass
+
+----------------------------------------------------
+Running Python linter against selected files:
+
+----------------------------------------------------
+All checks passed for 5 source files
