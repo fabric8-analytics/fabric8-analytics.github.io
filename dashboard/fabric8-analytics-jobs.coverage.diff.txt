@@ -1,0 +1,35 @@
+Name                                                            Stmts   Miss 	Name                                                            Stmts   Miss 
+-----------------------------------------------------------------------------	-----------------------------------------------------------------------------
+/f8a_jobs/f8a_jobs/__init__.py                                      0      0 	/f8a_jobs/f8a_jobs/__init__.py                                      0      0 
+/f8a_jobs/f8a_jobs/analyses_report.py                              57     57  |	/f8a_jobs/f8a_jobs/analyses_report.py                              57     41 
+/f8a_jobs/f8a_jobs/api_v1.py                                      274    274  |	/f8a_jobs/f8a_jobs/api_v1.py                                      269    180 
+/f8a_jobs/f8a_jobs/auth.py                                          7      7  |	/f8a_jobs/f8a_jobs/auth.py                                          7      1 
+/f8a_jobs/f8a_jobs/defaults.py                                     22      0 	/f8a_jobs/f8a_jobs/defaults.py                                     22      0 
+/f8a_jobs/f8a_jobs/error.py                                         2      0 	/f8a_jobs/f8a_jobs/error.py                                         2      0 
+/f8a_jobs/f8a_jobs/graph_sync.py                                   36     36  |	/f8a_jobs/f8a_jobs/graph_sync.py                                   36     26 
+/f8a_jobs/f8a_jobs/handlers/__init__.py                            19      0 	/f8a_jobs/f8a_jobs/handlers/__init__.py                            19      0 
+/f8a_jobs/f8a_jobs/handlers/aggregate_crowd_source_tags.py         79     53 	/f8a_jobs/f8a_jobs/handlers/aggregate_crowd_source_tags.py         79     53 
+/f8a_jobs/f8a_jobs/handlers/aggregate_github_manifest_pkgs.py      63     55 	/f8a_jobs/f8a_jobs/handlers/aggregate_github_manifest_pkgs.py      63     55 
+/f8a_jobs/f8a_jobs/handlers/aggregate_topics.py                    54     45 	/f8a_jobs/f8a_jobs/handlers/aggregate_topics.py                    54     45 
+/f8a_jobs/f8a_jobs/handlers/base.py                               115     73 	/f8a_jobs/f8a_jobs/handlers/base.py                               115     73 
+/f8a_jobs/f8a_jobs/handlers/book_keeping.py                        68     51 	/f8a_jobs/f8a_jobs/handlers/book_keeping.py                        68     51 
+/f8a_jobs/f8a_jobs/handlers/clean_postgres.py                      94     83 	/f8a_jobs/f8a_jobs/handlers/clean_postgres.py                      94     83 
+/f8a_jobs/f8a_jobs/handlers/error.py                                6      2 	/f8a_jobs/f8a_jobs/handlers/error.py                                6      2 
+/f8a_jobs/f8a_jobs/handlers/flow.py                                 8      5 	/f8a_jobs/f8a_jobs/handlers/flow.py                                 8      5 
+/f8a_jobs/f8a_jobs/handlers/github_manifests.py                    25     19 	/f8a_jobs/f8a_jobs/handlers/github_manifests.py                    25     19 
+/f8a_jobs/f8a_jobs/handlers/github_most_starred.py                 95     80 	/f8a_jobs/f8a_jobs/handlers/github_most_starred.py                 95     80 
+/f8a_jobs/f8a_jobs/handlers/golang_popular_analyses.py             72     63 	/f8a_jobs/f8a_jobs/handlers/golang_popular_analyses.py             72     63 
+/f8a_jobs/f8a_jobs/handlers/invoke_graph_sync.py                   62     43 	/f8a_jobs/f8a_jobs/handlers/invoke_graph_sync.py                   62     43 
+/f8a_jobs/f8a_jobs/handlers/kronos_data_update.py                  75     62 	/f8a_jobs/f8a_jobs/handlers/kronos_data_update.py                  75     62 
+/f8a_jobs/f8a_jobs/handlers/maven_popular_analyses.py             140    117 	/f8a_jobs/f8a_jobs/handlers/maven_popular_analyses.py             140    117 
+/f8a_jobs/f8a_jobs/handlers/maven_releases.py                      60     50 	/f8a_jobs/f8a_jobs/handlers/maven_releases.py                      60     50 
+/f8a_jobs/f8a_jobs/handlers/npm_popular_analyses.py                52     40 	/f8a_jobs/f8a_jobs/handlers/npm_popular_analyses.py                52     40 
+/f8a_jobs/f8a_jobs/handlers/nuget_popular_analyses.py              40     30 	/f8a_jobs/f8a_jobs/handlers/nuget_popular_analyses.py              40     30 
+/f8a_jobs/f8a_jobs/handlers/python_popular_analyses.py             59     44 	/f8a_jobs/f8a_jobs/handlers/python_popular_analyses.py             59     44 
+/f8a_jobs/f8a_jobs/handlers/selective_flow.py                       8      5 	/f8a_jobs/f8a_jobs/handlers/selective_flow.py                       8      5 
+/f8a_jobs/f8a_jobs/handlers/sync_to_graph.py                       29     22 	/f8a_jobs/f8a_jobs/handlers/sync_to_graph.py                       29     22 
+/f8a_jobs/f8a_jobs/models.py                                       87     60 	/f8a_jobs/f8a_jobs/models.py                                       87     60 
+/f8a_jobs/f8a_jobs/scheduler.py                                   131    131  |	/f8a_jobs/f8a_jobs/scheduler.py                                   131     95 
+/f8a_jobs/f8a_jobs/utils.py                                       122     80  |	/f8a_jobs/f8a_jobs/utils.py                                       122     78 
+-----------------------------------------------------------------------------	-----------------------------------------------------------------------------
+TOTAL                                                            1961   1587  |	TOTAL                                                            1956   1423 
