@@ -8,7 +8,7 @@ New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashbo
 Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/f8a-server-backbone/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/f8a-server-backbone/venv/bin/python3)
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Requirement already satisfied: pycodestyle in ./venv/lib/python3.6/site-packages
+Requirement already satisfied: pycodestyle in ./venv/lib/python3.6/site-packages (2.3.1)
 src/__init__.py
     Pass
 src/utils.py
