@@ -57,6 +57,9 @@ integration-tests/features/steps/three_scale.py
 integration-tests/features/steps/jobs_api.py
 0
     Pass
+integration-tests/features/steps/oc.py
+0
+    Pass
 integration-tests/features/steps/user_tag.py
 0
     Pass
@@ -246,4 +249,4 @@ db-integrity-tests/src/core_package_checker.py
 db-integrity-tests/src/checker.py
 0
     Pass
-All checks passed for 78 source files
+All checks passed for 79 source files

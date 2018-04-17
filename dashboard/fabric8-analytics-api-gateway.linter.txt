@@ -1,6 +1,6 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-gateway
+gateway tests
 ----------------------------------------------------
 
 Using real prefix '/usr'
@@ -19,9 +19,15 @@ gateway/errors.py
     Pass
 gateway/defaults.py
     Pass
+tests/test_api_v1.py
+    Pass
+tests/test_auth.py
+    Pass
+tests/test_defaults.py
+    Pass
 
 ----------------------------------------------------
 Running Python linter against selected files:
 
 ----------------------------------------------------
-All checks passed for 5 source files
+All checks passed for 8 source files

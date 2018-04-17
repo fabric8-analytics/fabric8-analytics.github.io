@@ -1,7 +1,7 @@
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
-gateway
+gateway tests
 ----------------------------------------------------
 
 Using real prefix '/usr'
@@ -27,9 +27,18 @@ gateway/errors.py
 gateway/defaults.py
 0
     Pass
+tests/test_api_v1.py
+0
+    Pass
+tests/test_auth.py
+0
+    Pass
+tests/test_defaults.py
+0
+    Pass
 
 ----------------------------------------------------
 Checking documentation strings in the following files
 
 ----------------------------------------------------
-All checks passed for 5 source files
+All checks passed for 8 source files
