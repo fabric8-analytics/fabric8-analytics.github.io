@@ -19,6 +19,8 @@ gateway/errors.py
     Pass
 gateway/defaults.py
     Pass
+tests/test_errors.py
+    Pass
 tests/test_api_v1.py
     Pass
 tests/test_auth.py
@@ -30,4 +32,4 @@ tests/test_defaults.py
 Running Python linter against selected files:
 
 ----------------------------------------------------
-All checks passed for 8 source files
+All checks passed for 9 source files
