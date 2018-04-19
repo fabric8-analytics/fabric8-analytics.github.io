@@ -5,13 +5,10 @@ src tests
 
 Using real prefix '/usr'
 New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/fabric8-analytics-nvd-toolkit/venv/bin/python3
-Also creating executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/fabric8-analytics-nvd-toolkit/venv/bin/python
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/fabric8-analytics-nvd-toolkit/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/fabric8-analytics-nvd-toolkit/venv/bin/python3)
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Collecting pycodestyle
-  Downloading https://files.pythonhosted.org/packages/e5/c6/ce130213489969aa58610042dff1d908c25c731c9575af6935c2dfad03aa/pycodestyle-2.4.0-py2.py3-none-any.whl (62kB)
-Installing collected packages: pycodestyle
-Successfully installed pycodestyle-2.4.0
+Requirement already satisfied: pycodestyle in ./venv/lib/python3.6/site-packages (2.4.0)
 src/toolkit/pipelines/train.py
     Pass
 src/toolkit/pipelines/predict.py
