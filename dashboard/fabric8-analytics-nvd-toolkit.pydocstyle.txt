@@ -10,8 +10,8 @@ Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (2.1.1)
-Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.11.0)
 Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.2.1)
+Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.11.0)
 src/toolkit/pipelines/train.py
 src/toolkit/pipelines/train.py:45 in public function `main`:
         D103: Missing docstring in public function
@@ -23,39 +23,21 @@ src/toolkit/pipelines/predict.py:36 in public function `main`:
 1
     Fail
 src/toolkit/pipelines/pipelines.py
-src/toolkit/pipelines/pipelines.py:12 in public function `get_preprocessing_pipeline`:
-        D202: No blank lines allowed after function docstring (found 1)
-src/toolkit/pipelines/pipelines.py:61 in public function `get_training_pipeline`:
-        D202: No blank lines allowed after function docstring (found 1)
-src/toolkit/pipelines/pipelines.py:95 in public function `get_prediction_pipeline`:
-        D202: No blank lines allowed after function docstring (found 1)
-src/toolkit/pipelines/pipelines.py:140 in public function `get_extraction_pipeline`:
-        D202: No blank lines allowed after function docstring (found 1)
-src/toolkit/pipelines/pipelines.py:181 in public function `extract_features`:
-        D202: No blank lines allowed after function docstring (found 1)
-src/toolkit/pipelines/pipelines.py:207 in public function `extract_labeled_features`:
-        D202: No blank lines allowed after function docstring (found 1)
-src/toolkit/pipelines/pipelines.py:207 in public function `extract_labeled_features`:
-        D205: 1 blank line required between summary line and description (found 0)
-src/toolkit/pipelines/pipelines.py:207 in public function `extract_labeled_features`:
-        D400: First line should end with a period (not 'g')
-8
-    Fail
+0
+    Pass
 src/toolkit/pipelines/__init__.py
 src/toolkit/pipelines/__init__.py:1 at module level:
         D104: Missing docstring in public package
 1
     Fail
 src/toolkit/pipelines/evaluation.py
-src/toolkit/pipelines/evaluation.py:22 in public class `BooleanAction`:
-        D204: 1 blank line required after class docstring (found 0)
-src/toolkit/pipelines/evaluation.py:24 in public method `__init__`:
+src/toolkit/pipelines/evaluation.py:25 in public method `__init__`:
         D107: Missing docstring in __init__
-src/toolkit/pipelines/evaluation.py:29 in public method `__call__`:
+src/toolkit/pipelines/evaluation.py:30 in public method `__call__`:
         D102: Missing docstring in public method
-src/toolkit/pipelines/evaluation.py:86 in public function `main`:
+src/toolkit/pipelines/evaluation.py:87 in public function `main`:
         D103: Missing docstring in public function
-4
+3
     Fail
 src/toolkit/__init__.py
 src/toolkit/__init__.py:1 at module level:
@@ -63,35 +45,17 @@ src/toolkit/__init__.py:1 at module level:
 1
     Fail
 src/toolkit/utils.py
-src/toolkit/utils.py:1 at module level:
-        D205: 1 blank line required between summary line and description (found 0)
-src/toolkit/utils.py:1 at module level:
-        D209: Multi-line docstring closing quotes should be on a separate line
-src/toolkit/utils.py:1 at module level:
-        D400: First line should end with a period (not 'n')
-src/toolkit/utils.py:20 in public method `__init__`:
+src/toolkit/utils.py:19 in public method `__init__`:
         D107: Missing docstring in __init__
-src/toolkit/utils.py:29 in public method `__get__`:
+src/toolkit/utils.py:28 in public method `__get__`:
         D105: Missing docstring in magic method
-src/toolkit/utils.py:36 in public method `__set__`:
+src/toolkit/utils.py:35 in public method `__set__`:
         D105: Missing docstring in magic method
-src/toolkit/utils.py:39 in public method `__delete__`:
+src/toolkit/utils.py:38 in public method `__delete__`:
         D105: Missing docstring in magic method
-src/toolkit/utils.py:43 in public function `has_reference`:
-        D205: 1 blank line required between summary line and description (found 0)
-src/toolkit/utils.py:43 in public function `has_reference`:
-        D400: First line should end with a period (not 'e')
-src/toolkit/utils.py:71 in public function `get_reference`:
-        D205: 1 blank line required between summary line and description (found 0)
-src/toolkit/utils.py:71 in public function `get_reference`:
-        D400: First line should end with a period (not ')')
-src/toolkit/utils.py:119 in public function `nvd_to_dataframe`:
-        D401: First line should be in imperative mood ('Create', not 'Creates')
-src/toolkit/utils.py:183 in public function `clear`:
-        D202: No blank lines allowed after function docstring (found 1)
-src/toolkit/utils.py:183 in public function `clear`:
+src/toolkit/utils.py:182 in public function `clear`:
         D401: First line should be in imperative mood ('Decorate', not 'Decorator')
-14
+5
     Fail
 src/toolkit/config.py
 0
@@ -102,64 +66,24 @@ src/toolkit/preprocessing/__init__.py:1 at module level:
 1
     Fail
 src/toolkit/preprocessing/handlers.py
-src/toolkit/preprocessing/handlers.py:13 in public class `StatusError`:
-        D101: Missing docstring in public class
-src/toolkit/preprocessing/handlers.py:22 in public class `GitHubHandler`:
-        D205: 1 blank line required between summary line and description (found 0)
-src/toolkit/preprocessing/handlers.py:22 in public class `GitHubHandler`:
-        D400: First line should end with a period (not 'y')
-src/toolkit/preprocessing/handlers.py:35 in public method `__init__`:
+src/toolkit/preprocessing/handlers.py:37 in public method `__init__`:
         D107: Missing docstring in __init__
-src/toolkit/preprocessing/handlers.py:45 in public method `pattern`:
-        D102: Missing docstring in public method
-src/toolkit/preprocessing/handlers.py:50 in public method `default_properties`:
-        D102: Missing docstring in public method
-src/toolkit/preprocessing/handlers.py:54 in public method `repository`:
-        D102: Missing docstring in public method
-src/toolkit/preprocessing/handlers.py:58 in public method `user`:
-        D102: Missing docstring in public method
-src/toolkit/preprocessing/handlers.py:62 in public method `project`:
-        D102: Missing docstring in public method
-src/toolkit/preprocessing/handlers.py:66 in public method `languages`:
-        D102: Missing docstring in public method
-src/toolkit/preprocessing/handlers.py:72 in public method `strip_src_url`:
-        D401: First line should be in imperative mood ('Strip', not 'Strips')
-src/toolkit/preprocessing/handlers.py:89 in public method `get_user_project`:
-        D401: First line should be in imperative mood ('Split', not 'Splits')
-12
+src/toolkit/preprocessing/handlers.py:47 in public method `pattern`:
+        D401: First line should be in imperative mood; try rephrasing (found 'Reference')
+src/toolkit/preprocessing/handlers.py:53 in public method `default_properties`:
+        D401: First line should be in imperative mood; try rephrasing (found 'Default')
+3
     Fail
 src/toolkit/preprocessing/preprocessors.py
 src/toolkit/preprocessing/preprocessors.py:41 in public method `__init__`:
         D107: Missing docstring in __init__
-src/toolkit/preprocessing/preprocessors.py:86 in public method `transform`:
-        D202: No blank lines allowed after function docstring (found 1)
-src/toolkit/preprocessing/preprocessors.py:189 in public method `__init__`:
+src/toolkit/preprocessing/preprocessors.py:191 in public method `__init__`:
         D107: Missing docstring in __init__
-src/toolkit/preprocessing/preprocessors.py:215 in public method `labels`:
-        D102: Missing docstring in public method
-src/toolkit/preprocessing/preprocessors.py:219 in public method `fit`:
-        D202: No blank lines allowed after function docstring (found 1)
-src/toolkit/preprocessing/preprocessors.py:234 in public method `transform`:
-        D202: No blank lines allowed after function docstring (found 1)
-src/toolkit/preprocessing/preprocessors.py:234 in public method `transform`:
-        D205: 1 blank line required between summary line and description (found 0)
-src/toolkit/preprocessing/preprocessors.py:234 in public method `transform`:
-        D209: Multi-line docstring closing quotes should be on a separate line
-src/toolkit/preprocessing/preprocessors.py:234 in public method `transform`:
-        D400: First line should end with a period (not 'd')
-src/toolkit/preprocessing/preprocessors.py:234 in public method `transform`:
-        D401: First line should be in imperative mood ('Transform', not 'Transforms')
+src/toolkit/preprocessing/preprocessors.py:217 in public method `labels`:
+        D401: First line should be in imperative mood ('Process', not 'Processed')
 src/toolkit/preprocessing/preprocessors.py:295 in public method `__init__`:
         D107: Missing docstring in __init__
-src/toolkit/preprocessing/preprocessors.py:333 in public method `inverse_transform`:
-        D202: No blank lines allowed after function docstring (found 1)
-src/toolkit/preprocessing/preprocessors.py:383 in public method `transform`:
-        D202: No blank lines allowed after function docstring (found 1)
-src/toolkit/preprocessing/preprocessors.py:427 in public method `tokenize`:
-        D202: No blank lines allowed after function docstring (found 1)
-src/toolkit/preprocessing/preprocessors.py:427 in public method `tokenize`:
-        D401: First line should be in imperative mood ('Perform', not 'Performs')
-15
+4
     Fail
 src/toolkit/__about__.py
 src/toolkit/__about__.py:1 at module level:
@@ -169,13 +93,7 @@ src/toolkit/__about__.py:1 at module level:
 src/toolkit/transformers/extractors.py
 src/toolkit/transformers/extractors.py:29 in public method `__init__`:
         D107: Missing docstring in __init__
-src/toolkit/transformers/extractors.py:113 in private method `_extract_features`:
-        D401: First line should be in imperative mood ('Feed', not 'Feeds')
-src/toolkit/transformers/extractors.py:147 in private method `update`:
-        D401: First line should be in imperative mood ('Update', not 'Updates')
-src/toolkit/transformers/extractors.py:167 in private method `feed`:
-        D401: First line should be in imperative mood ('Call', not 'Calls')
-4
+1
     Fail
 src/toolkit/transformers/__init__.py
 src/toolkit/transformers/__init__.py:1 at module level:
@@ -185,21 +103,7 @@ src/toolkit/transformers/__init__.py:1 at module level:
 src/toolkit/transformers/classifiers.py
 src/toolkit/transformers/classifiers.py:50 in public method `__init__`:
         D107: Missing docstring in __init__
-src/toolkit/transformers/classifiers.py:67 in public method `features`:
-        D102: Missing docstring in public method
-src/toolkit/transformers/classifiers.py:74 in public method `fit`:
-        D202: No blank lines allowed after function docstring (found 1)
-src/toolkit/transformers/classifiers.py:104 in public method `transform`:
-        D202: No blank lines allowed after function docstring (found 1)
-src/toolkit/transformers/classifiers.py:146 in public method `fit_predict`:
-        D401: First line should be in imperative mood ('Make', not 'Makes')
-src/toolkit/transformers/classifiers.py:228 in public method `show_most_informative_features`:
-        D102: Missing docstring in public method
-src/toolkit/transformers/classifiers.py:234 in public method `export`:
-        D401: First line should be in imperative mood ('Export', not 'Exports')
-src/toolkit/transformers/classifiers.py:379 in public function `precision`:
-        D202: No blank lines allowed after function docstring (found 1)
-8
+1
     Fail
 src/toolkit/transformers/hooks.py
 src/toolkit/transformers/hooks.py:31 in public method `__init__`:
@@ -210,74 +114,34 @@ src/toolkit/transformers/hooks.py:52 in public method `default_kwargs`:
         D102: Missing docstring in public method
 src/toolkit/transformers/hooks.py:55 in public method `__call__`:
         D102: Missing docstring in public method
-src/toolkit/transformers/hooks.py:60 in public method `get_current_hooks`:
-        D401: First line should be in imperative mood ('Return', not 'Returns')
-src/toolkit/transformers/hooks.py:65 in public method `get_current_keys`:
-        D401: First line should be in imperative mood ('Return', not 'Returns')
-6
+4
     Fail
 tests/test_preprocessors.py
-tests/test_preprocessors.py:208 in public method `test_init`:
-        D102: Missing docstring in public method
-tests/test_preprocessors.py:219 in public method `test_fit_transform`:
-        D400: First line should end with a period (not 'd')
-2
-    Fail
+0
+    Pass
 tests/test_pipelines.py
-tests/test_pipelines.py:134 in public method `test_evaluation`:
-        D400: First line should end with a period (not 's')
-tests/test_pipelines.py:163 in private function `_get_test_data`:
-        D209: Multi-line docstring closing quotes should be on a separate line
-2
-    Fail
+0
+    Pass
 tests/__init__.py
 tests/__init__.py:1 at module level:
         D104: Missing docstring in public package
 1
     Fail
 tests/test_utils.py
-tests/test_utils.py:73 in public method `test_find_`:
-        D102: Missing docstring in public method
-1
-    Fail
+0
+    Pass
 tests/test_handlers.py
-tests/test_handlers.py:33 in public method `test_strip_src_url`:
-        D205: 1 blank line required between summary line and description (found 0)
-tests/test_handlers.py:33 in public method `test_strip_src_url`:
-        D209: Multi-line docstring closing quotes should be on a separate line
-tests/test_handlers.py:33 in public method `test_strip_src_url`:
-        D400: First line should end with a period (not 's')
-tests/test_handlers.py:40 in public method `test_get_user_project`:
-        D205: 1 blank line required between summary line and description (found 0)
-tests/test_handlers.py:40 in public method `test_get_user_project`:
-        D209: Multi-line docstring closing quotes should be on a separate line
-tests/test_handlers.py:40 in public method `test_get_user_project`:
-        D400: First line should end with a period (not 'y')
-tests/test_handlers.py:48 in public method `test_languages`:
-        D102: Missing docstring in public method
-7
-    Fail
+0
+    Pass
 tests/test_hook.py
 0
     Pass
 tests/test_classifiers.py
-tests/test_classifiers.py:46 in public method `test_predict`:
-        D102: Missing docstring in public method
-tests/test_classifiers.py:68 in public method `test_fit_predict`:
-        D102: Missing docstring in public method
-tests/test_classifiers.py:182 in private function `_get_extracted_test_data`:
-        D209: Multi-line docstring closing quotes should be on a separate line
-3
-    Fail
+0
+    Pass
 tests/test_extractors.py
-tests/test_extractors.py:44 in public method `test_extract_features`:
-        D400: First line should end with a period (not 'd')
-tests/test_extractors.py:117 in public method `test_update`:
-        D202: No blank lines allowed after function docstring (found 1)
-tests/test_extractors.py:149 in private function `_get_preprocessed_test_data`:
-        D209: Multi-line docstring closing quotes should be on a separate line
-3
-    Fail
+0
+    Pass
 
 ----------------------------------------------------
 Checking documentation strings in the following files
@@ -288,4 +152,4 @@ setup.py:1 at module level:
         D100: Missing docstring in public module
 1
     Fail
-Documentation strings should be added and/or fixed in 23 source files out of 25 files
+Documentation strings should be added and/or fixed in 16 source files out of 25 files

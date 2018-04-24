@@ -22,23 +22,16 @@ src/toolkit/pipelines/evaluation.py
 src/toolkit/__init__.py
     Pass
 src/toolkit/utils.py
-src/toolkit/utils.py:154:101: E501 line too long (105 > 100 characters)
-    Fail
+    Pass
 src/toolkit/config.py
 src/toolkit/config.py:15:1: W391 blank line at end of file
     Fail
 src/toolkit/preprocessing/__init__.py
-src/toolkit/preprocessing/__init__.py:2:101: E501 line too long (104 > 100 characters)
-    Fail
+    Pass
 src/toolkit/preprocessing/handlers.py
-src/toolkit/preprocessing/handlers.py:31:29: W605 invalid escape sequence '\w'
-src/toolkit/preprocessing/handlers.py:31:38: W605 invalid escape sequence '\w'
-src/toolkit/preprocessing/handlers.py:31:48: W605 invalid escape sequence '\w'
-    Fail
+    Pass
 src/toolkit/preprocessing/preprocessors.py
-src/toolkit/preprocessing/preprocessors.py:219:101: E501 line too long (106 > 100 characters)
-src/toolkit/preprocessing/preprocessors.py:333:101: E501 line too long (101 > 100 characters)
-src/toolkit/preprocessing/preprocessors.py:349:101: E501 line too long (108 > 100 characters)
+src/toolkit/preprocessing/preprocessors.py:222:101: E501 line too long (106 > 100 characters)
     Fail
 src/toolkit/__about__.py
     Pass
@@ -47,18 +40,14 @@ src/toolkit/transformers/extractors.py
 src/toolkit/transformers/__init__.py
     Pass
 src/toolkit/transformers/classifiers.py
-src/toolkit/transformers/classifiers.py:74:101: E501 line too long (108 > 100 characters)
-src/toolkit/transformers/classifiers.py:125:101: E501 line too long (108 > 100 characters)
-src/toolkit/transformers/classifiers.py:146:101: E501 line too long (116 > 100 characters)
-src/toolkit/transformers/classifiers.py:151:101: E501 line too long (105 > 100 characters)
-src/toolkit/transformers/classifiers.py:152:101: E501 line too long (108 > 100 characters)
-src/toolkit/transformers/classifiers.py:276:101: E501 line too long (108 > 100 characters)
-src/toolkit/transformers/classifiers.py:299:13: E722 do not use bare 'except'
+src/toolkit/transformers/classifiers.py:75:101: E501 line too long (108 > 100 characters)
+src/toolkit/transformers/classifiers.py:144:101: E501 line too long (116 > 100 characters)
+src/toolkit/transformers/classifiers.py:300:13: E722 do not use bare 'except'
     Fail
 src/toolkit/transformers/hooks.py
     Pass
 tests/test_preprocessors.py
-tests/test_preprocessors.py:241:1: W391 blank line at end of file
+tests/test_preprocessors.py:242:1: W391 blank line at end of file
     Fail
 tests/test_pipelines.py
     Pass
@@ -82,4 +71,4 @@ setup.py
 setup.py
 setup.py:31:101: E501 line too long (102 > 100 characters)
     Fail
-Linter fail, 8 source files out of 25 source files need to be fixed
+Linter fail, 5 source files out of 25 source files need to be fixed

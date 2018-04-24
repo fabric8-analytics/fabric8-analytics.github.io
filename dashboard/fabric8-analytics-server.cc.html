@@ -1,0 +1,363 @@
+<pre>setup.py
+    <span style="color:#AA00AA">F </span>8:0 get_requirements - <span style="color:#00AA00">A (4)</span>
+tests/test_schemas.py
+    <span style="color:#00AAAA">C </span>10:0 TestGeneratedSchemas - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>16:4 TestGeneratedSchemas.test_dynamic_schemas_against_generated - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>30:0 TestSchemaSequence - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>34:4 TestSchemaSequence.test_no_two_consecutive_schemas_are_same - <span style="color:#00AA00">A (1)</span>
+tests/test_api_v1.py
+    <span style="color:#AA00AA">F </span>317:0 test_get_item_skip - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>223:4 TestApiV1Schemas.test_get_all_schemas - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>238:4 TestApiV1Schemas.test_get_schemas_by_collection - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>32:0 assert_pages - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>327:0 test_get_item_relative_limit - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>335:0 test_get_item_absolute_limit - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>343:0 test_get_items_for_page - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AA00">M </span>255:4 TestApiV1Schemas.test_get_schemas_by_collection_and_name - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AA00">M </span>286:4 TestApiV1Schemas.test_get_server_schemas - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AAAA">C </span>214:0 TestApiV1Schemas - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>271:4 TestApiV1Schemas.test_get_schema_by_collection_and_name_and_version - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>304:4 TestApiV1Schemas.test_get_worker_schemas - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AAAA">C </span>123:0 TestApiV1Root - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>154:4 TestApiV1Root.test_api_root - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>203:0 TestApiV1SystemVersion - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>207:4 TestApiV1SystemVersion.test_get_system_version - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>51:0 fill_analyses - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>111:0 fill_packages_for_paging - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>351:0 test_paginated - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>161:0 TestCommonEndpoints - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>165:4 TestCommonEndpoints.test_readiness - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>170:4 TestCommonEndpoints.test_liveness - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>175:4 TestCommonEndpoints.test_error - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>180:4 TestCommonEndpoints.test_system_version - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>185:4 TestCommonEndpoints.test_stack_analyses - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>190:4 TestCommonEndpoints.test_component_search - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>218:4 TestApiV1Schemas._check_schema_id - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>27:0 api_route_for - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>196:0 TestUser - <span style="color:#00AA00">A (1)</span>
+tests/test_auth.py
+    <span style="color:#AA00AA">F </span>7:0 test_decode_token - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>12:0 test_login_required - <span style="color:#00AA00">A (1)</span>
+tests/test_generate_manifest.py
+    <span style="color:#AA00AA">F </span>7:0 test_constructor - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>38:0 test_attributes - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>46:0 test_add_framework - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>69:0 test_xml_string - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>88:0 test_add_dependencies - <span style="color:#00AA00">A (2)</span>
+tests/test_utils.py
+    <span style="color:#AA00AA">F </span>162:0 test_version_info_tuple - <span style="color:#AA5500">C (11)</span>
+    <span style="color:#AA00AA">F </span>141:0 test_semantic_versioning - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#AA00AA">F </span>206:0 test_has_field - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>195:0 test_get_user_email - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>22:0 analyses - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>182:0 test_select_latest_version - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>214:0 test_is_valid - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>58:0 TestDoProjection - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>62:4 TestDoProjection.test_empty_projection - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>69:4 TestDoProjection.test_simple_projection - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>77:4 TestDoProjection.test_none_projection - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>84:4 TestDoProjection.test_nested_projection - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>93:4 TestDoProjection.test_combined_projection - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>102:4 TestDoProjection.test_three_level_fields - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>114:0 TestFetchFileFromGithub - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>119:4 TestFetchFileFromGithub.test_github_url_exist_or_not - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>124:4 TestFetchFileFromGithub.test_repo_with_file_exist - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>131:4 TestFetchFileFromGithub.test_repo_file_in_diff_branch - <span style="color:#00AA00">A (2)</span>
+tests/test_license_extractor.py
+    <span style="color:#AA00AA">F </span>65:0 test_extract_licenses - <span style="color:#AA5500">C (13)</span>
+    <span style="color:#AA00AA">F </span>25:0 test_get_license_synonyms - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>55:0 test_get_license_synonyms_wrong_response - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>97:0 test_extract_licenses_no_synonyms - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>106:0 test_extract_licenses_wrong_file - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>9:0 setUp - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>15:0 tearDown - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>20:0 current_app_logger - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>50:0 mocked_requests_get - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>42:0 _response - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>45:4 _response.__init__ - <span style="color:#00AA00">A (1)</span>
+tests/conftest.py
+    <span style="color:#AA00AA">F </span>12:0 someuser - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>20:0 auth_header - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>26:0 app - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>34:0 rdb - <span style="color:#00AA00">A (1)</span>
+bayesian/auth.py
+    <span style="color:#AA00AA">F </span>22:0 decode_token - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>214:0 check_permissions_or - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>191:0 check_permissions_and - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>367:4 User.get_by_token - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>177:0 _check_one_perm - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>111:0 LazyRowBasedPermission - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>158:4 LazyRowBasedPermission.__init__ - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>164:4 LazyRowBasedPermission.get_arg - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>168:4 LazyRowBasedPermission.__str__ - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>328:0 User - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>341:4 User.generate_auth_token - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>50:0 login_required - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>240:0 require_permissions - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>91:0 APIUser - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>94:4 APIUser.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>301:0 PermEnum - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>306:4 PermEnum.__str__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>311:0 Permission - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>318:0 Role - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>360:4 User.revoke_auth_token - <span style="color:#00AA00">A (1)</span>
+bayesian/dependency_finder.py
+    <span style="color:#00AA00">M </span>36:4 DependencyFinder.execute - <span style="color:#AA5500">C (19)</span>
+    <span style="color:#00AAAA">C </span>20:0 DependencyFinder - <span style="color:#AA5500">C (12)</span>
+    <span style="color:#00AA00">M </span>23:4 DependencyFinder._handle_external_deps - <span style="color:#00AA00">A (5)</span>
+bayesian/__init__.py
+    <span style="color:#AA00AA">F </span>20:0 setup_logging - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>35:0 create_app - <span style="color:#00AA00">A (1)</span>
+bayesian/utils.py
+    <span style="color:#AA00AA">F </span>159:0 generate_recommendation - <span style="color:#AA5500">C (12)</span>
+    <span style="color:#AA00AA">F </span>705:0 get_cve_data - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>123:0 do_projection - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>230:0 search_packages_from_graph - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>565:4 GithubRead.get_manifest_files - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>272:0 get_analyses_from_graph - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>343:0 get_system_version - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>374:0 get_next_component_from_graph - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>467:0 fetch_public_key - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>830:0 select_latest_version - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>857:0 fetch_file_from_github - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AA00">M </span>582:4 GithubRead.get_files_github_url - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AA00">M </span>669:4 RecommendationReason._companion_reason - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AAAA">C </span>446:0 JSONEncoderWithExtraTypes - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>454:4 JSONEncoderWithExtraTypes.default - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AAAA">C </span>555:0 GithubRead - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AAAA">C </span>617:0 RecommendationReason - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>653:4 RecommendationReason._check_usage_outlier - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>94:0 server_create_analysis - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>140:0 has_field - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>308:0 get_latest_analysis_for - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>325:0 get_latest_analysis_by_hash - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>494:0 retrieve_worker_results - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>515:0 retrieve_worker_result - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>537:0 get_item_from_list_by_key_value - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>787:0 convert_version_to_proper_semantic - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>620:4 RecommendationReason.add_reco_reason - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>635:4 RecommendationReason._alternate_reason - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>71:0 get_user_email - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>150:0 add_field - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>362:0 build_nested_schema_dict - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>414:0 set_tags_to_component - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>545:0 get_request_count - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>815:0 version_info_tuple - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>611:4 GithubRead.del_temp_files - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>46:0 get_recent_analyses - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>52:0 server_run_flow - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>80:0 server_create_component_bookkeeping - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>772:0 get_categories_data - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>881:0 is_valid - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>886:0 generate_content_hash - <span style="color:#00AA00">A (1)</span>
+bayesian/generate_manifest.py
+    <span style="color:#00AA00">M </span>62:4 PomXMLTemplate.add_dependencies - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>23:4 PomXMLTemplate.create - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>45:4 PomXMLTemplate.add_framework - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>10:0 PomXMLTemplate - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>13:4 PomXMLTemplate.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>73:4 PomXMLTemplate.xml_string - <span style="color:#00AA00">A (1)</span>
+bayesian/api_v1.py
+    <span style="color:#00AAAA">C </span>339:0 StackAnalysesGET - <span style="color:#AA5500">C (19)</span>
+    <span style="color:#00AA00">M </span>345:4 StackAnalysesGET.get - <span style="color:#AA5500">C (19)</span>
+    <span style="color:#00AAAA">C </span>1027:0 DepEditorAnalyses - <span style="color:#AA5500">C (17)</span>
+    <span style="color:#00AA00">M </span>1032:4 DepEditorAnalyses.post - <span style="color:#AA5500">C (17)</span>
+    <span style="color:#00AA00">M </span>646:4 StackAnalysesV2.post - <span style="color:#AA5500">C (16)</span>
+    <span style="color:#00AA00">M </span>854:4 StackAnalyses.post - <span style="color:#AA5500">C (14)</span>
+    <span style="color:#00AAAA">C </span>641:0 StackAnalysesV2 - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#00AAAA">C </span>849:0 StackAnalyses - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#00AAAA">C </span>1158:0 CategoryService - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#00AA00">M </span>1163:4 CategoryService.get - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#00AAAA">C </span>490:0 UserIntent - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>495:4 UserIntent.post - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AAAA">C </span>607:0 SetTagsToComponent - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>612:4 SetTagsToComponent.post - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>787:4 PublishedSchemas.get - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AAAA">C </span>1139:0 DepEditorCVEAnalyses - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AA00">M </span>1144:4 DepEditorCVEAnalyses.post - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>79:0 error - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AAAA">C </span>201:0 ResourceWithSchema - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>213:4 ResourceWithSchema.add_schema - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>234:4 ResourceWithSchema.dispatch_request - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AAAA">C </span>286:0 ComponentAnalyses - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>293:4 ComponentAnalyses.get - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AAAA">C </span>462:0 UserFeedback - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>470:4 UserFeedback.post - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AAAA">C </span>527:0 UserIntentGET - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>532:4 UserIntentGET.get - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>778:4 PublishedSchemas.__init__ - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AAAA">C </span>982:0 SubmitFeedback - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>987:4 SubmitFeedback.post - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>183:0 add_resource_no_matter_slashes - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>436:0 stack_analyses_debug - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>325:4 ComponentAnalyses.post - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>559:4 MasterTagsGET.get - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>583:0 GetNextComponent - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>588:4 GetNextComponent.post - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>768:0 PublishedSchemas - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>822:0 GenerateManifest - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>827:4 GenerateManifest.post - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>69:0 handle_http_error - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>270:0 ComponentSearch - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>275:4 ComponentSearch.get - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>554:0 MasterTagsGET - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>98:0 readiness - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>104:0 liveness - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>119:0 get_item_skip - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>124:0 get_item_relative_limit - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>129:0 get_item_absolute_limit - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>134:0 get_items_for_page - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>139:0 paginated - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>1231:0 api_404_handler - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>253:0 ApiEndpoints - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>256:4 ApiEndpoints.get - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>261:0 SystemVersion - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>264:4 SystemVersion.get - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>578:4 MasterTagsGET.__repr__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>762:4 StackAnalysesV2.get - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>805:4 PublishedSchemas._get_schema_url - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>810:4 PublishedSchemas.get_api_schema_url - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>815:4 PublishedSchemas.get_component_analysis_schema_url - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>976:4 StackAnalyses.get - <span style="color:#00AA00">A (1)</span>
+bayesian/exceptions.py
+    <span style="color:#00AAAA">C </span>4:0 HTTPError - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>16:4 HTTPError.__init__ - <span style="color:#00AA00">A (1)</span>
+bayesian/license_extractor.py
+    <span style="color:#AA00AA">F </span>29:0 extract_licenses - <span style="color:#AA5500">C (13)</span>
+    <span style="color:#AA00AA">F </span>15:0 get_license_synonyms - <span style="color:#00AA00">A (2)</span>
+bayesian/schemas/stack_analyses.py
+    <span style="color:#00AAAA">C </span>379:0 StackAnalysisResponse - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#00AAAA">C </span>224:0 ComponentInfo - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AAAA">C </span>154:4 RedHatUsage - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AAAA">C </span>339:0 StackAnalysisReport - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AAAA">C </span>22:0 BlackduckLicenseDetails - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>38:0 BlackduckSecurityDetails - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>119:0 GithubDetails - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>269:4 SimilarityAnalysis - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>282:4 SimilarStacks - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>58:0 BlackduckDetails - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>71:0 CVEDetail - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>85:4 Month - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>96:4 Year - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>107:4 GithubMetrics - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>136:4 RegisteredSRPM - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>175:4 Popularity - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>187:4 Usage - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>200:4 ComponentMetadataEngines - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>211:4 ComponentMetadata - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>258:4 InputStack - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>299:4 StackRecommendations - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>313:4 Recommendation - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>326:4 Metadata - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>367:0 StackAnalysisResult - <span style="color:#00AA00">A (1)</span>
+bayesian/schemas/component_analyses.py
+    <span style="color:#00AAAA">C </span>23:0 AnalysisSet - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AAAA">C </span>50:0 ComponentAnalysis - <span style="color:#00AA00">A (1)</span>
+bayesian/schemas/analyses_graphdb.py
+    <span style="color:#00AAAA">C </span>24:0 ResultInner - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AAAA">C </span>55:0 AnalysesGraphDB - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>11:0 ResultData - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>42:0 Status - <span style="color:#00AA00">A (1)</span>
+bayesian/schemas/version_range_resolver.py
+    <span style="color:#00AAAA">C </span>10:0 VersionResolutionDetail - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>24:0 VersionRangeResolver - <span style="color:#00AA00">A (1)</span>
+hack/check_api_schemas.py
+    <span style="color:#AA00AA">F </span>12:0 _get_analysis - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>21:0 get_analysis - <span style="color:#00AA00">A (1)</span>
+alembic/env.py
+    <span style="color:#AA00AA">F </span>64:0 run_migrations_online - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>44:0 run_migrations_offline - <span style="color:#00AA00">A (2)</span>
+alembic/versions/9d605c7725d8_add_app_stack_tables.py
+    <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>36:0 downgrade - <span style="color:#00AA00">A (1)</span>
+alembic/versions/76c5fd72744e_gh_usage_stats.py
+    <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>37:0 downgrade - <span style="color:#00AA00">A (1)</span>
+alembic/versions/0ff7fe2828a5_initial_revision.py
+    <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>24:0 downgrade - <span style="color:#00AA00">A (1)</span>
+alembic/versions/e48c7b4235aa_drop_analysisrequest_table.py
+    <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>28:0 downgrade - <span style="color:#00AA00">A (1)</span>
+alembic/versions/2bd5f6d0c8b0_introduce_stackreq_origin_flag.py
+    <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>27:0 downgrade - <span style="color:#00AA00">A (1)</span>
+alembic/versions/49c27b67936f_permissions.py
+    <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>35:0 downgrade - <span style="color:#00AA00">A (1)</span>
+alembic/versions/ea55c632ae8d_create_auth_data.py
+    <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>46:0 downgrade - <span style="color:#00AA00">A (1)</span>
+alembic/versions/813f9a704eb7_stack_request_coltypechange.py
+    <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>30:0 downgrade - <span style="color:#00AA00">A (1)</span>
+alembic/versions/b4fbc8e04c81_gh_usage_with_versions.py
+    <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>39:0 downgrade - <span style="color:#00AA00">A (1)</span>
+alembic/versions/a0433904c63b_analysis_requests.py
+    <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>38:0 downgrade - <span style="color:#00AA00">A (1)</span>
+alembic/versions/133cd5484609_add_es_marker.py
+    <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>30:0 downgrade - <span style="color:#00AA00">A (1)</span>
+alembic/versions/b19a6deb869d_stack_request_coltype_change.py
+    <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>32:0 downgrade - <span style="color:#00AA00">A (1)</span>
+alembic/versions/fc7ea2a7e386_analytics_tables.py
+    <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>43:0 downgrade - <span style="color:#00AA00">A (1)</span>
+alembic/versions/a31c98c74ea0_add_e_p_v.py
+    <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>94:0 downgrade - <span style="color:#00AA00">A (1)</span>
+alembic/versions/3fd95b3a69f5_bye_reviews.py
+    <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>27:0 downgrade - <span style="color:#00AA00">A (1)</span>
+alembic/versions/47f4ce1e8d75_stack_analyses_request.py
+    <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>33:0 downgrade - <span style="color:#00AA00">A (1)</span>
+alembic/versions/2ff043a5af5b_make_ecosystem_name_unique.py
+    <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>26:0 downgrade - <span style="color:#00AA00">A (1)</span>
+alembic/versions/02b91e918b43_migrate_to_dynamic_control_flow.py
+    <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>28:0 downgrade - <span style="color:#00AA00">A (1)</span>
+alembic/versions/60b296cac700_add_similar_components_table.py
+    <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>32:0 downgrade - <span style="color:#00AA00">A (1)</span>
+alembic/versions/424427c5f988_relative_usage.py
+    <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>26:0 downgrade - <span style="color:#00AA00">A (1)</span>
+alembic/versions/79d88d57baa7_remove_analyses_column.py
+    <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>27:0 downgrade - <span style="color:#00AA00">A (1)</span>
+alembic/versions/8302d3bb5f68_stackreq_team_result.py
+    <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>28:0 downgrade - <span style="color:#00AA00">A (1)</span>
+alembic/versions/20cf59abbda8_add_external_reqeust_id_to_workerresult.py
+    <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>27:0 downgrade - <span style="color:#00AA00">A (1)</span>
+alembic/versions/a46a17bfd29b_batches_versions_relation.py
+    <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>32:0 downgrade - <span style="color:#00AA00">A (1)</span>
+alembic/versions/3eb32f202f93_removing_starttime_and_endtime.py
+    <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>28:0 downgrade - <span style="color:#00AA00">A (1)</span>
+alembic/versions/963d3d929b19_analyses.py
+    <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>46:0 downgrade - <span style="color:#00AA00">A (1)</span>
+alembic/versions/6e7ff4c3177e_remove_batches.py
+    <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>28:0 downgrade - <span style="color:#00AA00">A (1)</span>
+alembic/versions/51cb05927271_downstream_map.py
+    <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>29:0 downgrade - <span style="color:#00AA00">A (1)</span>
+alembic/versions/21b3add12b10_initial_ref_stack_support.py
+    <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>34:0 downgrade - <span style="color:#00AA00">A (1)</span>
+alembic/versions/22a1cd66a9c6_batches_reviews.py
+    <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>40:0 downgrade - <span style="color:#00AA00">A (1)</span>
+
+307 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (2.9381107491856677)</span>
+</pre>

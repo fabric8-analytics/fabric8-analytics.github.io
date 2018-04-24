@@ -6,9 +6,12 @@
         <meta name="Author" content="Pavel Tisnovsky" />
         <meta name="Generator" content="Vim" />
         <meta http-equiv="Content-type"  content="text/html; charset=utf-8"/>
-	<link href="bootstrap.min.css" rel="stylesheet" type="text/css" />
-	<script src="bootstrap.min.js" type="text/javascript"></script>
-	<link href="dashboard.css" rel="stylesheet" type="text/css" />
+        <link href="bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="dashboard.css" rel="stylesheet" type="text/css" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
+        <script src="http://w3resource.com/twitter-bootstrap/twitter-bootstrap-v2/js/bootstrap-tooltip.js" type="text/javascript"></script>
+        <script src="http://w3resource.com/twitter-bootstrap/twitter-bootstrap-v2/js/bootstrap-popover.js" type="text/javascript"></script>
+        <script src="bootstrap.min.js" type="text/javascript"></script>
     </head>
     <body style="padding-top:70px">
         <div class="container" style="width:90%">
@@ -141,8 +144,27 @@
                 <div class="panel panel-primary">
                     <div class="panel-heading">Code quality</div>
                     <table class="table table-condensed table-hover table-bordered" rules="all">
-                        <tr><th>Repository</th><th colspan="2">Source files</th><th colspan="3">Linter results</th><th colspan="3">Pydocstyle results</th><th colspan="3">Code coverage</th><th>Overall status</th><th>Remark</th></tr>
-                        <tr><th>&nbsp;</th><th>Files</th><th>Total lines</th><th>Pass</th><th>Fail</th><th>Pass %</th><th>Pass</th><th>Fail</th><th>Pass %</th><th>Stmts.</th><th>Missed</th><th>Covered</th><th>&nbsp;</th><th>&nbsp;</th></tr>
+                        <tr>
+                            <th>Repository</th>
+                            <th colspan="2">Source files</th>
+                            <th colspan="3">Linter results</th>
+                            <th colspan="3">Pydocstyle results</th>
+                            <th colspan="3">Code coverage</th>
+                            <th colspan="3"><a href="#" rel="popover" onclick="return false;" id="cc" title="Cyclomatic Complexity" data-html="true" data-toggle="popover" data-placement="top" data-content="&lt;pre&gt;Score  Rank  Risk
+ 1 -  5   A   low - simple block
+ 6 - 10   B   low - well structured and stable block
+11 - 20   C   moderate - slightly complex block
+21 - 30   D   more than moderate - more complex block
+31 - 40   E   high - complex block, alarming
+41+       F   very high - error-prone, unstable block&lt;/pre&gt;">Cyclomatic<br />Complexity</a></th>
+                            <th colspan="3"><a href="#" rel="popover" onclick="return false;" id="mi" title="Maintainability Index" data-html="true" data-toggle="popover" data-placement="top" data-content="&lt;pre&gt;Score   Rank  Maintainability
+100 - 20  A   Very high
+ 19 - 10  B   Medium
+  9 -  0  C   Extremely low&lt;/pre&gt;">Maintainabi-<br />lity Index</a></th>
+                            <th>Overall status</th>
+                            <th>Remark</th>
+                        </tr>
+                        <tr><th>&nbsp;</th><th>Files</th><th>Total lines</th><th>Pass</th><th>Fail</th><th>Pass %</th><th>Pass</th><th>Fail</th><th>Pass %</th><th>Stmts.</th><th>Missed</th><th>Covered</th><th>D</th><th>E</th><th>F</th><th>A</th><th>B</th><th>C</th><th>&nbsp;</th><th>&nbsp;</th></tr>
                         <tr>
                             <td style="width:36ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-common">fabric8-analytics-common</a></td>
                             <td class="numeric" style="width:7ex"><a href="repository_fabric8-analytics-common.html">79</a></td>
@@ -168,7 +190,18 @@
                                 <td style="width:7ex">&nbsp;</td>
                                 <td style="width:7ex">&nbsp;</td>
                                 <td style="width:16ex">&nbsp;</td>
+
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">0</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">0</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">0</td>
+
+                            <td class="numeric ignored" style="width:3ex;padding-left:0px">79</td>
+
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">45</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">4</td>
+
                                 <td class="boolean error">&times;</td>
+
                             <td style="width:26ex">unit tests has not been setup<br></td>
                         <tr>
                             <td style="width:36ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-server">fabric8-analytics-server</a></td>
@@ -201,7 +234,18 @@
                                         </div>
                                     </a>
                                 </td>
+
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">0</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">0</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">0</td>
+
+                            <td class="numeric ignored" style="width:3ex;padding-left:0px">58</td>
+
+                                    <td class="numeric error" style="width:3ex;padding-left:0px">1</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">12</td>
+
                                 <td class="boolean error">&times;</td>
+
                             <td style="width:26ex">improve code coverage<br></td>
                         <tr>
                             <td style="width:36ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-worker">fabric8-analytics-worker</a></td>
@@ -225,8 +269,8 @@
                                     </div>
                                 </a>
                             </td>
-                                <td class="numeric ok" style="width:7ex">7185</td>
-                                <td class="numeric error" style="width:7ex">3185</td>
+                                <td class="numeric ok" style="width:7ex">7202</td>
+                                <td class="numeric error" style="width:7ex">3186</td>
                                 <td class="numeric" style="width:16ex">
                                     <a href="fabric8-analytics-worker.coverage.txt">
                                         <div class='progress-bar progress-bar-warning progress-bar-striped' style='width:62.6%'>
@@ -234,7 +278,18 @@
                                         </div>
                                     </a>
                                 </td>
+
+                                    <td class="numeric error" style="width:3ex;padding-left:0px">3</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">0</td>
+                                    <td class="numeric error" style="width:3ex;padding-left:0px">1</td>
+
+                            <td class="numeric ignored" style="width:3ex;padding-left:0px">177</td>
+
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">114</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">20</td>
+
                                 <td class="boolean ok">&#x2713;</td>
+
                             <td style="width:26ex">1 file ignored by pydocstyle<br></td>
                         <tr>
                             <td style="width:36ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-jobs">fabric8-analytics-jobs</a></td>
@@ -267,7 +322,18 @@
                                         </div>
                                     </a>
                                 </td>
+
+                                    <td class="numeric error" style="width:3ex;padding-left:0px">1</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">0</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">0</td>
+
+                            <td class="numeric ignored" style="width:3ex;padding-left:0px">41</td>
+
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">31</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">5</td>
+
                                 <td class="boolean error">&times;</td>
+
                             <td style="width:26ex">improve code coverage<br></td>
                         <tr>
                             <td style="width:36ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-tagger">fabric8-analytics-tagger</a></td>
@@ -300,7 +366,18 @@
                                         </div>
                                     </a>
                                 </td>
+
+                                    <td class="numeric error" style="width:3ex;padding-left:0px">3</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">0</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">0</td>
+
+                            <td class="numeric ignored" style="width:3ex;padding-left:0px">43</td>
+
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">31</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">9</td>
+
                                 <td class="boolean ok">&#x2713;</td>
+
                             <td style="width:26ex"></td>
                         <tr>
                             <td style="width:36ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-stack-analysis">fabric8-analytics-stack-analysis</a></td>
@@ -333,7 +410,18 @@
                                         </div>
                                     </a>
                                 </td>
+
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">0</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">0</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">0</td>
+
+                            <td class="numeric ignored" style="width:3ex;padding-left:0px">91</td>
+
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">17</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">3</td>
+
                                 <td class="boolean ok">&#x2713;</td>
+
                             <td style="width:26ex"></td>
                         <tr>
                             <td style="width:36ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-license-analysis">fabric8-analytics-license-analysis</a></td>
@@ -366,7 +454,18 @@
                                         </div>
                                     </a>
                                 </td>
+
+                                    <td class="numeric error" style="width:3ex;padding-left:0px">2</td>
+                                    <td class="numeric error" style="width:3ex;padding-left:0px">1</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">0</td>
+
+                            <td class="numeric ignored" style="width:3ex;padding-left:0px">23</td>
+
+                                    <td class="numeric error" style="width:3ex;padding-left:0px">1</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">8</td>
+
                                 <td class="boolean ok">&#x2713;</td>
+
                             <td style="width:26ex"></td>
                         <tr>
                             <td style="width:36ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-data-model">fabric8-analytics-data-model</a></td>
@@ -399,7 +498,18 @@
                                         </div>
                                     </a>
                                 </td>
+
+                                    <td class="numeric error" style="width:3ex;padding-left:0px">2</td>
+                                    <td class="numeric error" style="width:3ex;padding-left:0px">1</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">0</td>
+
+                            <td class="numeric ignored" style="width:3ex;padding-left:0px">20</td>
+
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">16</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">6</td>
+
                                 <td class="boolean ok">&#x2713;</td>
+
                             <td style="width:26ex"></td>
                         <tr>
                             <td style="width:36ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-recommender">fabric8-analytics-recommender</a></td>
@@ -426,7 +536,18 @@
                                 <td style="width:7ex">&nbsp;</td>
                                 <td style="width:7ex">&nbsp;</td>
                                 <td style="width:16ex">&nbsp;</td>
+
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">0</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">0</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">0</td>
+
+                            <td class="numeric ignored" style="width:3ex;padding-left:0px">16</td>
+
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">4</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">0</td>
+
                                 <td class="boolean error">&times;</td>
+
                             <td style="width:26ex">unit tests has not been setup<br></td>
                         <tr>
                             <td style="width:36ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-api-gateway">fabric8-analytics-api-gateway</a></td>
@@ -450,43 +571,59 @@
                                     </div>
                                 </a>
                             </td>
-                                <td class="numeric ok" style="width:7ex">182</td>
-                                <td class="numeric error" style="width:7ex">97</td>
-                                <td class="numeric" style="width:16ex">
-                                    <a href="fabric8-analytics-api-gateway.coverage.txt">
-                                        <div class='progress-bar progress-bar-warning progress-bar-striped' style='width:54.949999999999996%'>
-                                        47%
-                                        </div>
-                                    </a>
-                                </td>
+                                <td style="width:7ex">&nbsp;</td>
+                                <td style="width:7ex">&nbsp;</td>
+                                <td style="width:16ex">&nbsp;</td>
+
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">0</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">0</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">0</td>
+
+                            <td class="numeric ignored" style="width:3ex;padding-left:0px">9</td>
+
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">2</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">0</td>
+
                                 <td class="boolean error">&times;</td>
-                            <td style="width:26ex">improve code coverage<br></td>
+
+                            <td style="width:26ex">unit tests has not been setup<br></td>
                         <tr>
                             <td style="width:36ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-nvd-toolkit">fabric8-analytics-nvd-toolkit</a></td>
                             <td class="numeric" style="width:7ex"><a href="repository_fabric8-analytics-nvd-toolkit.html">25</a></td>
-                            <td class="numeric" style="width:7ex">3159</td>
-                            <td class="numeric ok" style="width:7ex">17</td>
-                            <td class="numeric error" style="width:7ex">8</td>
+                            <td class="numeric" style="width:7ex">3171</td>
+                            <td class="numeric ok" style="width:7ex">20</td>
+                            <td class="numeric error" style="width:7ex">5</td>
                             <td class="numeric" style="width:16ex">
                                 <a href="fabric8-analytics-nvd-toolkit.linter.txt">
-                                    <div class='progress-bar progress-bar-warning progress-bar-striped' style='width:72.8%'>
-                                    68%
+                                    <div class='progress-bar progress-bar-warning progress-bar-striped' style='width:83.0%'>
+                                    80%
                                     </div>
                                 </a>
                             </td>
-                            <td class="numeric ok" style="width:7ex">2</td>
-                            <td class="numeric error" style="width:7ex">23</td>
+                            <td class="numeric ok" style="width:7ex">9</td>
+                            <td class="numeric error" style="width:7ex">16</td>
                             <td class="numeric" style="width:16ex">
                                 <a href="fabric8-analytics-nvd-toolkit.pydocstyle.txt">
-                                    <div class='progress-bar progress-bar-danger progress-bar-striped' style='width:21.8%'>
-                                    8%
+                                    <div class='progress-bar progress-bar-warning progress-bar-striped' style='width:45.599999999999994%'>
+                                    36%
                                     </div>
                                 </a>
                             </td>
                                 <td style="width:7ex">&nbsp;</td>
                                 <td style="width:7ex">&nbsp;</td>
                                 <td style="width:16ex">&nbsp;</td>
+
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">0</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">0</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">0</td>
+
+                            <td class="numeric ignored" style="width:3ex;padding-left:0px">25</td>
+
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">11</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">3</td>
+
                                 <td class="boolean error">&times;</td>
+
                             <td style="width:26ex">unit tests has not been setup<br>linter failed<br>pydocstyle check failed<br></td>
                         <tr>
                             <td style="width:36ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-auth">fabric8-analytics-auth</a></td>
@@ -519,7 +656,18 @@
                                         </div>
                                     </a>
                                 </td>
+
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">0</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">0</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">0</td>
+
+                            <td class="numeric ignored" style="width:3ex;padding-left:0px">6</td>
+
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">1</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">0</td>
+
                                 <td class="boolean error">&times;</td>
+
                             <td style="width:26ex">improve code coverage<br></td>
                         <tr>
                             <td style="width:36ex"><a href="https://github.com/fabric8-analytics/fabric8-gemini-server">fabric8-gemini-server</a></td>
@@ -552,12 +700,23 @@
                                         </div>
                                     </a>
                                 </td>
+
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">0</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">0</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">0</td>
+
+                            <td class="numeric ignored" style="width:3ex;padding-left:0px">8</td>
+
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">2</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">0</td>
+
                                 <td class="boolean error">&times;</td>
+
                             <td style="width:26ex">improve code coverage<br></td>
                         <tr>
                             <td style="width:36ex"><a href="https://github.com/fabric8-analytics/f8a-server-backbone">f8a-server-backbone</a></td>
                             <td class="numeric" style="width:7ex"><a href="repository_f8a-server-backbone.html">13</a></td>
-                            <td class="numeric" style="width:7ex">1823</td>
+                            <td class="numeric" style="width:7ex">1841</td>
                             <td class="numeric ok" style="width:7ex">13</td>
                             <td class="numeric error" style="width:7ex">0</td>
                             <td class="numeric" style="width:16ex">
@@ -576,8 +735,8 @@
                                     </div>
                                 </a>
                             </td>
-                                <td class="numeric ok" style="width:7ex">679</td>
-                                <td class="numeric error" style="width:7ex">474</td>
+                                <td class="numeric ok" style="width:7ex">678</td>
+                                <td class="numeric error" style="width:7ex">473</td>
                                 <td class="numeric" style="width:16ex">
                                     <a href="f8a-server-backbone.coverage.txt">
                                         <div class='progress-bar progress-bar-warning progress-bar-striped' style='width:40.5%'>
@@ -585,7 +744,18 @@
                                         </div>
                                     </a>
                                 </td>
+
+                                    <td class="numeric error" style="width:3ex;padding-left:0px">1</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">0</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">0</td>
+
+                            <td class="numeric ignored" style="width:3ex;padding-left:0px">13</td>
+
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">12</td>
+                                    <td class="numeric ok" style="width:3ex;padding-left:0px">4</td>
+
                                 <td class="boolean error">&times;</td>
+
                             <td style="width:26ex">improve code coverage<br></td>
                     </table>
                 </div>
@@ -597,7 +767,7 @@
                             <td style="width:36ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-common">fabric8-analytics-common</a></td>
                                     <td style="width:10ex" class="boolean error">&times;</td>
                                     <td style="width:10ex">
-                                        <span class="ci_status boolean ok">&#x2713;</span>
+                                        <span class="ci_status boolean error">&times;</span>
                                     <a href='https://ci.centos.org/job/devtools-e2e-fabric8-analytics'>link</a>
                                     </td>
                                     <td style="width:10ex">
@@ -635,7 +805,7 @@
                                     <a href='https://ci.centos.org/job/devtools-fabric8-analytics-worker-f8a-build-master'>link</a>
                                     </td>
                                     <td style="width:10ex">
-                                        <span class="ci_status boolean ok">&#x2713;</span>
+                                        <span class="ci_status boolean error">&times;</span>
                                     <a href='https://ci.centos.org/job/devtools-fabric8-analytics-worker-fabric8-analytics'>link</a>
                                     </td>
                                     <td style="width:10ex">
@@ -643,7 +813,7 @@
                                     <a href='https://ci.centos.org/job/devtools-fabric8-analytics-worker-fabric8-analytics-pylint'>link</a>
                                     </td>
                                     <td style="width:10ex">
-                                        <span class="ci_status boolean ok">&#x2713;</span>
+                                        <span class="ci_status boolean error">&times;</span>
                                     <a href='https://ci.centos.org/job/devtools-fabric8-analytics-worker-fabric8-analytics-pydoc'>link</a>
                                     </td>
                         </tr>
@@ -654,7 +824,7 @@
                                     <a href='https://ci.centos.org/job/devtools-fabric8-analytics-jobs-f8a-build-master'>link</a>
                                     </td>
                                     <td style="width:10ex">
-                                        <span class="ci_status boolean ok">&#x2713;</span>
+                                        <span class="ci_status boolean error">?</span>
                                     <a href='https://ci.centos.org/job/devtools-fabric8-analytics-jobs-fabric8-analytics'>link</a>
                                     </td>
                                     <td style="width:10ex">
@@ -756,11 +926,11 @@
                             <td style="width:36ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-api-gateway">fabric8-analytics-api-gateway</a></td>
                                     <td style="width:10ex" class="boolean error">&times;</td>
                                     <td style="width:10ex">
-                                        <span class="ci_status boolean error">&times;</span>
+                                        <span class="ci_status boolean ok">&#x2713;</span>
                                     <a href='https://ci.centos.org/job/devtools-fabric8-analytics-api-gateway-fabric8-analytics'>link</a>
                                     </td>
                                     <td style="width:10ex">
-                                        <span class="ci_status boolean error">&times;</span>
+                                        <span class="ci_status boolean ok">&#x2713;</span>
                                     <a href='https://ci.centos.org/job/devtools-fabric8-analytics-api-gateway-fabric8-analytics-pylint'>link</a>
                                     </td>
                                     <td style="width:10ex">
@@ -836,8 +1006,13 @@
             </div>
             <div style='height:100px'></div>
             <div>Author: Pavel Tisnovsky &lt;<a href="mailto:ptisnovs@redhat.com">ptisnovs@redhat.com</a>&gt;</div>
-            <div>Generated on: 2018-04-23 09:50:28</div>
+            <div>Generated on: 2018-04-24 12:06:55</div>
         </div>
+        <script type="text/javascript">
+        $(function () {
+            $('[data-toggle="popover"]').popover()
+        })
+        </script>
     </body>
 </html>
 
