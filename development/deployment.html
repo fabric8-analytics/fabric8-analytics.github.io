@@ -4,5 +4,13 @@ layout: default
 permalink: /deployment/
 ---
 
+
+<div class="inner">
+
+	{% capture credentials %}{% include DEPLOYMENT.md %}{% endcapture %}
+	{{ credentials | markdownify }}
+
+</div
+
 {% include maintanance.html %}
 
