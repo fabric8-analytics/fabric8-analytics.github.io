@@ -1,7 +1,7 @@
 <pre>dashboard/src/results.py
     <span style="color:#00AAAA">C </span>7:0 Results - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>10:4 Results.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>42:4 Results.__repr__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>44:4 Results.__repr__ - <span style="color:#00AA00">A (1)</span>
 dashboard/src/configuration.py
     <span style="color:#00AAAA">C </span>6:0 Configuration - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>9:4 Configuration.__init__ - <span style="color:#00AA00">A (1)</span>
@@ -82,35 +82,40 @@ dashboard/src/s3_configuration.py
     <span style="color:#00AAAA">C </span>5:0 S3Configuration - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>8:4 S3Configuration.__init__ - <span style="color:#00AA00">A (1)</span>
 dashboard/src/dashboard.py
-    <span style="color:#AA00AA">F </span>216:0 update_overall_status - <span style="color:#AA5500">C (16)</span>
-    <span style="color:#AA00AA">F </span>171:0 parse_linter_results - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>344:0 prepare_data_for_repositories - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>439:0 main - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>269:0 update_overall_status - <span style="color:#AA5500">C (20)</span>
+    <span style="color:#AA00AA">F </span>191:0 parse_linter_results - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>407:0 prepare_data_for_repositories - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>241:0 parse_cyclomatic_complexity - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>506:0 main - <span style="color:#00AA00">B (6)</span>
     <span style="color:#AA00AA">F </span>59:0 check_system - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>428:0 production_smoketests_status - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>286:0 export_into_csv - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>402:0 jobs_as_dict - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>420:0 read_job_statuses - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>495:0 production_smoketests_status - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>256:0 parse_maintainability_index - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>349:0 export_into_csv - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>469:0 jobs_as_dict - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>487:0 read_job_statuses - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>29:0 check_environment_variable - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>41:0 check_environment_variables - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>141:0 clone_or_fetch_repository - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>162:0 percentage - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>278:0 cleanup_repository - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>380:0 read_jobs_statuses - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>386:0 store_jobs_statuses - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>182:0 percentage - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>341:0 cleanup_repository - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>447:0 read_jobs_statuses - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>453:0 store_jobs_statuses - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>120:0 is_repository_cloned - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>125:0 clone_repository - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>134:0 fetch_repository - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>149:0 run_pylint - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>155:0 run_docstyle_check - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>206:0 parse_pylint_results - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>211:0 parse_docstyle_results - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>271:0 delete_work_files - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>315:0 prepare_data_for_liveness_table - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>333:0 prepare_data_for_sla_table - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>392:0 jenkins_api_query_job_statuses - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>397:0 jenkins_api_query_build_statuses - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>407:0 read_ci_jobs_statuses - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>162:0 run_cyclomatic_complexity_tool - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>172:0 run_maintainability_index - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>226:0 parse_pylint_results - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>231:0 parse_docstyle_results - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>236:0 prepare_radon_results - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>334:0 delete_work_files - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>378:0 prepare_data_for_liveness_table - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>396:0 prepare_data_for_sla_table - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>459:0 jenkins_api_query_job_statuses - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>464:0 jenkins_api_query_build_statuses - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>474:0 read_ci_jobs_statuses - <span style="color:#00AA00">A (1)</span>
 dashboard/src/smoke_tests.py
     <span style="color:#00AA00">M </span>41:4 SmokeTests.read_ci_results - <span style="color:#00AA00">A (4)</span>
     <span style="color:#00AA00">M </span>34:4 SmokeTests.read_logs - <span style="color:#00AA00">A (3)</span>
@@ -432,49 +437,50 @@ integration-tests/features/steps/s3_interface.py
 integration-tests/features/steps/stack_analysis.py
     <span style="color:#AA00AA">F </span>32:0 wait_for_stack_analysis_completion - <span style="color:#00AA00">B (8)</span>
     <span style="color:#AA00AA">F </span>164:0 check_stack_analyses_response - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>359:0 replaces_component - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>516:0 check_security_issue_existence - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>554:0 check_dependency - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>572:0 check_analyzed_dependency - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>368:0 replaces_component - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>525:0 check_security_issue_existence - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>563:0 check_dependency - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>581:0 check_analyzed_dependency - <span style="color:#00AA00">B (7)</span>
     <span style="color:#AA00AA">F </span>223:0 check_outlier_probability - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>281:0 check_licenses - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>378:0 stack_analysis_check_replaces - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>425:0 perform_alternate_components_validation - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>472:0 check_security_node - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>537:0 check_security_issue_nonexistence - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>590:0 check_all_analyzed_dependency - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>626:0 check_stack_analysis_id - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>642:0 validate_topic_list - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>290:0 check_licenses - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>387:0 stack_analysis_check_replaces - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>434:0 perform_alternate_components_validation - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>481:0 check_security_node - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>546:0 check_security_issue_nonexistence - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>599:0 check_all_analyzed_dependency - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>635:0 check_stack_analysis_id - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>651:0 validate_topic_list - <span style="color:#00AA00">A (5)</span>
     <span style="color:#AA00AA">F </span>25:0 contains_alternate_node - <span style="color:#00AA00">A (4)</span>
     <span style="color:#AA00AA">F </span>214:0 check_outlier_probability_threshold_value - <span style="color:#00AA00">A (4)</span>
     <span style="color:#AA00AA">F </span>109:0 stack_analysis_endpoint - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>326:0 stack_analysis_check_companion_packages - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>371:0 find_replacements - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>463:0 check_cvss_value - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>504:0 get_analyzed_components - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>335:0 stack_analysis_check_companion_packages - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>380:0 find_replacements - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>472:0 check_cvss_value - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>513:0 get_analyzed_components - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>90:0 send_manifest_to_stack_analysis - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>260:0 check_outlier_count - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>269:0 check_outlier_validity - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>297:0 stack_analysis_check_licenses - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>307:0 get_attribute_values - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>341:0 verify_stack_level_field_presence - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>281:0 check_companion_count - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>306:0 stack_analysis_check_licenses - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>316:0 get_attribute_values - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>350:0 verify_stack_level_field_presence - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>397:0 stack_analysis_check_replaces_count - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>454:0 stack_analysis_validate_alternate_components - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>615:0 check_stack_analyses_request_id - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>359:0 verify_stack_level_field_presence - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>406:0 stack_analysis_check_replaces_count - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>463:0 stack_analysis_validate_alternate_components - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>624:0 check_stack_analyses_request_id - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>78:0 perform_valid_manifest_post - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>125:0 npm_manifest_stack_analysis - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>138:0 python_manifest_stack_analysis - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>151:0 maven_manifest_stack_analysis - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>202:0 download_and_parse_outlier_probability_threshold_value - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>249:0 stack_analysis_check_outliers - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>312:0 get_analyzed_packages - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>319:0 get_companion_packages - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>413:0 get_user_components - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>419:0 get_alternate_components - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>492:0 stack_analysis_check_security_node_for_dependencies - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>498:0 stack_analysis_check_security_node_for_alternate_components - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>605:0 check_stack_analyses_request_id - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>321:0 get_analyzed_packages - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>328:0 get_companion_packages - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>422:0 get_user_components - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>428:0 get_alternate_components - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>501:0 stack_analysis_check_security_node_for_dependencies - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>507:0 stack_analysis_check_security_node_for_alternate_components - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>614:0 check_stack_analyses_request_id - <span style="color:#00AA00">A (1)</span>
 integration-tests/features/steps/common.py
     <span style="color:#AA00AA">F </span>132:0 check_analysis_result - <span style="color:#AA5500">C (13)</span>
     <span style="color:#AA00AA">F </span>177:0 find_value_under_the_path - <span style="color:#00AA00">B (6)</span>
@@ -831,6 +837,6 @@ perf-tests/src/gremlin_package_generator.py
     <span style="color:#00AA00">M </span>55:4 GremlinPackageGenerator.package_generator_for_ecosystem - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>65:4 GremlinPackageGenerator.package_version_generator_for_ecosystem - <span style="color:#00AA00">A (2)</span>
 
-758 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (2.321899736147757)</span>
+764 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (2.329842931937173)</span>
 </pre>
