@@ -1,0 +1,38 @@
+<pre>src/graph_populator.py
+    <span style="color:#00AA00">M </span>48:4 GraphPopulator.construct_version_query - <span style="color:#AA0000">E (31)</span>
+    <span style="color:#00AA00">M </span>197:4 GraphPopulator.construct_package_query - <span style="color:#AA5500">D (21)</span>
+    <span style="color:#00AAAA">C </span>13:0 GraphPopulator - <span style="color:#AA5500">C (13)</span>
+    <span style="color:#00AA00">M </span>362:4 GraphPopulator.create_query_string - <span style="color:#00AA00">B (6)</span>
+src/rest_api.py
+    <span style="color:#AA00AA">F </span>145:0 handle_properties - <span style="color:#AA5500">C (13)</span>
+    <span style="color:#AA00AA">F </span>114:0 selective_ingest - <span style="color:#00AA00">B (6)</span>
+src/data_importer.py
+    <span style="color:#AA00AA">F </span>60:0 _import_keys_from_s3_http - <span style="color:#AA5500">C (16)</span>
+    <span style="color:#AA00AA">F </span>161:0 import_epv_http - <span style="color:#AA5500">C (11)</span>
+    <span style="color:#00AA00">M </span>297:4 PostgresHandler._generate_fetch_query - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#00AA00">M </span>245:4 PostgresHandler.fetch_pending_epvs - <span style="color:#00AA00">B (6)</span>
+src/data_source/s3_data_source.py
+    <span style="color:#00AA00">M </span>49:4 S3DataSource.list_files - <span style="color:#00AA00">B (7)</span>
+test/test_rest_api.py
+    <span style="color:#AA00AA">F </span>74:0 test_selective_ingest_empty - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>40:0 test_sync_all - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>54:0 test_ingest_to_graph - <span style="color:#00AA00">B (6)</span>
+test/test_insertion_from_minio.py
+    <span style="color:#AA00AA">F </span>36:0 test_create_minio_bucket - <span style="color:#00AA00">B (6)</span>
+test/test_data_importer.py
+    <span style="color:#AA00AA">F </span>14:0 test_parse_int_or_none_for_integer_input_overflows - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#AA00AA">F </span>37:0 test_parse_int_or_none_for_string_input - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>47:0 test_parse_int_or_none_for_unicode_string_input - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>28:0 test_parse_int_or_none_for_float_input - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>57:0 test_parse_int_or_none_for_invalid_input - <span style="color:#00AA00">B (6)</span>
+test/test_s3_data_source.py
+    <span style="color:#AA00AA">F </span>23:0 test_list_files - <span style="color:#00AA00">B (7)</span>
+test/test_graph_populator.py
+    <span style="color:#AA00AA">F </span>12:0 test_sanitize_text_for_query - <span style="color:#AA5500">D (21)</span>
+    <span style="color:#AA00AA">F </span>40:0 test_sanitize_text_for_query_for_unicode_input - <span style="color:#AA5500">C (17)</span>
+    <span style="color:#AA00AA">F </span>78:0 test_construct_version_query - <span style="color:#AA5500">C (11)</span>
+    <span style="color:#AA00AA">F </span>169:0 test_construct_package_query - <span style="color:#00AA00">B (7)</span>
+
+25 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#AA5500">C (10.44)</span>
+</pre>

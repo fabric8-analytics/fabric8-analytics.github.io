@@ -1,0 +1,43 @@
+<pre>f8a_worker/utils.py
+    <span style="color:#AA00AA">F </span>522:0 parse_gh_repo - <span style="color:#AA5500">C (11)</span>
+f8a_worker/solver.py
+    <span style="color:#00AAAA">C </span>655:0 NugetDependencyParser - <span style="color:#AA5500">C (12)</span>
+    <span style="color:#00AA00">M </span>658:4 NugetDependencyParser.parse - <span style="color:#AA5500">C (12)</span>
+f8a_worker/data_normalizer.py
+    <span style="color:#00AA00">M </span>110:4 DataNormalizer._handle_javascript - <span style="color:#AA0000">F (49)</span>
+    <span style="color:#00AA00">M </span>548:4 DataNormalizer._handle_dotnet_solution - <span style="color:#AA5500">C (17)</span>
+    <span style="color:#00AA00">M </span>417:4 DataNormalizer._handle_rubygems - <span style="color:#AA5500">C (15)</span>
+f8a_worker/storages/s3.py
+    <span style="color:#00AA00">M </span>24:4 AmazonS3.__init__ - <span style="color:#AA5500">C (13)</span>
+f8a_worker/workers/stackaggregator_v2.py
+    <span style="color:#AA00AA">F </span>138:0 _extract_unknown_licenses - <span style="color:#AA5500">C (11)</span>
+f8a_worker/workers/mercator.py
+    <span style="color:#00AA00">M </span>65:4 MercatorTask._merge_python_items - <span style="color:#AA5500">D (29)</span>
+    <span style="color:#00AA00">M </span>199:4 MercatorTask.run_mercator - <span style="color:#AA5500">C (19)</span>
+f8a_worker/workers/cvedbsync.py
+    <span style="color:#00AA00">M </span>12:4 CVEDBSyncTask.components_to_scan - <span style="color:#AA5500">C (12)</span>
+f8a_worker/workers/CVEchecker.py
+    <span style="color:#00AA00">M </span>190:4 CVEcheckerTask._run_owasp_dep_check - <span style="color:#AA5500">D (24)</span>
+    <span style="color:#00AA00">M </span>332:4 CVEcheckerTask._python_scan - <span style="color:#AA5500">C (12)</span>
+    <span style="color:#00AA00">M </span>42:4 CVEcheckerTask.get_cve_impact - <span style="color:#AA5500">C (11)</span>
+f8a_worker/workers/graphaggregator.py
+    <span style="color:#00AA00">M </span>34:4 GraphAggregatorTask.execute - <span style="color:#AA5500">C (18)</span>
+    <span style="color:#00AAAA">C </span>16:0 GraphAggregatorTask - <span style="color:#AA5500">C (12)</span>
+f8a_worker/workers/keywords_summary.py
+    <span style="color:#00AA00">M </span>43:4 KeywordsSummaryTask._threshold_found_keywords - <span style="color:#AA5500">C (14)</span>
+f8a_worker/workers/recommender.py
+    <span style="color:#00AA00">M </span>311:4 GraphDB.filter_versions - <span style="color:#AA5500">D (22)</span>
+    <span style="color:#00AA00">M </span>782:4 RecommendationV2Task.execute - <span style="color:#AA5500">C (14)</span>
+f8a_worker/workers/schemas/metadata.py
+    <span style="color:#00AAAA">C </span>130:0 MetadataDict - <span style="color:#AA5500">C (11)</span>
+tests/workers/_test_csmock.py
+    <span style="color:#AA00AA">F </span>58:0 test_csmock_worker - <span style="color:#AA5500">C (12)</span>
+tests/workers/test_linguist.py
+    <span style="color:#00AAAA">C </span>19:0 TestLinguist - <span style="color:#AA5500">C (13)</span>
+    <span style="color:#00AA00">M </span>23:4 TestLinguist.test_execute - <span style="color:#AA5500">C (13)</span>
+tests/workers/test_mercator.py
+    <span style="color:#00AA00">M </span>50:4 TestMercator.test_execute_maven - <span style="color:#AA5500">C (11)</span>
+
+24 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#AA5500">C (16.125)</span>
+</pre>

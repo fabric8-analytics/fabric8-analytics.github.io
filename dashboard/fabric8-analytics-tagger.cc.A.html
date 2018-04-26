@@ -1,0 +1,320 @@
+<pre>f8a_tagger_cli.py
+    <span style="color:#AA00AA">F </span>133:0 cli_diff - <span style="color:#AA5500">D (21)</span>
+    <span style="color:#AA00AA">F </span>27:0 _print_result - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#AA00AA">F </span>56:0 cli_lookup - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>111:0 cli_aggregate - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>46:0 cli - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>94:0 cli_collect - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>181:0 cli_reckon - <span style="color:#00AA00">A (1)</span>
+setup.py
+    <span style="color:#AA00AA">F </span>14:0 get_requirements - <span style="color:#00AA00">A (2)</span>
+tests/test_tokenizer.py
+    <span style="color:#AA00AA">F </span>18:0 test_stopwords_reading - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>56:0 test_remove_stopwords_method - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>117:0 test_lemmatize_method - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>181:0 test_stem_method - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>38:0 test_raw_stopwords_property - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>48:0 test_regexp_stopwords_property - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>12:0 test_initial_state - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>219:0 test_tokenize - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>236:0 test_tokenize_error_handling - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>209:0 sent_tokenize_mock - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>214:0 word_tokenize_mock - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>231:0 sent_tokenize_mock_2 - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>81:0 CustomLemmatizer - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>84:4 CustomLemmatizer.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>88:4 CustomLemmatizer.lemmatize - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>93:0 CustomLemmatizer2 - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>96:4 CustomLemmatizer2.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>100:4 CustomLemmatizer2.lemmatize - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>105:0 CustomLemmatizer3 - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>108:4 CustomLemmatizer3.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>112:4 CustomLemmatizer3.lemmatize - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>145:0 CustomStemmer - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>148:4 CustomStemmer.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>152:4 CustomStemmer.stem - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>157:0 CustomStemmer2 - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>160:4 CustomStemmer2.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>164:4 CustomStemmer2.stem - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>169:0 CustomStemmer3 - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>172:4 CustomStemmer3.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>176:4 CustomStemmer3.stem - <span style="color:#00AA00">A (1)</span>
+tests/test_init.py
+    <span style="color:#AA00AA">F </span>27:0 test_prepare_negative - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>9:0 test_prepare - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>22:0 mocked_requests_get - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>14:0 _response - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>16:4 _response.__init__ - <span style="color:#00AA00">A (1)</span>
+tests/test_parsers.py
+    <span style="color:#AA00AA">F </span>7:0 test_initial_states - <span style="color:#AA5500">C (12)</span>
+    <span style="color:#AA00AA">F </span>59:0 test_html_parser - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>43:0 test_text_parser - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>51:0 test_markdown_parser - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>70:0 test_restructuredtext_parser - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>78:0 test_asciidoc_parser - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>87:0 test_textile_parser - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>96:0 test_rdoc_parser - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>105:0 test_org_parser - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>114:0 test_creole_parser - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>123:0 test_mediawiki_parser - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>132:0 test_pod_parser - <span style="color:#00AA00">A (2)</span>
+tests/test_keywords_chief.py
+    <span style="color:#AA00AA">F </span>128:0 test_keywords_property - <span style="color:#AA5500">C (11)</span>
+    <span style="color:#AA00AA">F </span>263:0 test_filter_keywords - <span style="color:#AA5500">C (11)</span>
+    <span style="color:#AA00AA">F </span>320:0 test_matches_keyword_pattern_negative - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#AA00AA">F </span>278:0 test_compute_synonyms - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#AA00AA">F </span>248:0 test_extract_keywords - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>34:0 test_keyword_file_check - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>10:0 test_initial_state - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>193:0 test_get_synonyms_method_positive - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>303:0 test_is_keyword_negative - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>312:0 test_matches_keyword_pattern_positive - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>53:0 test_keyword_loading_from_bytestream - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>154:0 test_get_keywords_count_method - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>166:0 test_get_average_occurence_count_method - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>178:0 test_compute_ngram_size_method - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>202:0 test_get_synonyms_method_negative - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>230:0 test_get_keyword_method_negative - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>20:0 test_custom_keyword_file_loading - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>77:0 test_custom_lemmatizer - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>98:0 test_custom_stemmer - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>119:0 test_synonyms_detection - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>210:0 test_get_keyword_method_positive - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>296:0 test_is_keyword_positive - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>28:0 test_non_existing_keyword_file_loading - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>239:0 test_get_keyword_special_cases - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>65:0 CustomLemmatizer - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>68:4 CustomLemmatizer.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>72:4 CustomLemmatizer.lemmatize - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>86:0 CustomStemmer - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>89:4 CustomStemmer.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>93:4 CustomStemmer.stem - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>107:0 UpdatedCustomStemmer - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>110:4 UpdatedCustomStemmer.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>114:4 UpdatedCustomStemmer.stem - <span style="color:#00AA00">A (1)</span>
+tests/test_recipes.py
+    <span style="color:#AA00AA">F </span>126:0 test_aggregate - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#AA00AA">F </span>76:0 test_lookup_readme_wrong_input - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>102:0 test_prepare_lookup - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>9:0 test_get_registered_stemmers - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>16:0 test_get_registered_scorers - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>24:0 test_get_registered_collectors - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>32:0 test_reckon - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>39:0 test_lookup_text - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>50:0 test_lookup_file - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>117:0 test_perform_lookup - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>154:0 test_collect - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>66:0 test_lookup_readme_proper_input - <span style="color:#00AA00">A (1)</span>
+tests/test_pypi_collector.py
+    <span style="color:#AA00AA">F </span>10:0 test_initial_state - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>26:0 mocked_requests_get - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>62:0 test_execute_method_negative - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>71:0 mocked_requests_get_3 - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>85:0 test_execute_method_negative2 - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>42:0 ___test_original_execute_method - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>49:0 test_execute_method - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>57:0 mocked_requests_get_2 - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>16:0 _response - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>18:4 _response.__init__ - <span style="color:#00AA00">A (1)</span>
+tests/test_lemmatizer.py
+    <span style="color:#AA00AA">F </span>9:0 test_get_lemmatizer - <span style="color:#00AA00">A (2)</span>
+tests/test_scoring.py
+    <span style="color:#AA00AA">F </span>39:0 test_relative_usage_scoring - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>27:0 test_count_scoring - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>9:0 test_get_registered_scorers - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>18:0 test_get_scoring - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>56:0 test_tfid_scoring - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>67:0 test_scoring_func - <span style="color:#00AA00">A (2)</span>
+tests/test_maven_collector.py
+    <span style="color:#AA00AA">F </span>16:0 test_execute_method - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>10:0 test_initial_state - <span style="color:#00AA00">A (2)</span>
+tests/test_npm_collector.py
+    <span style="color:#AA00AA">F </span>7:0 test_initial_state - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>13:0 test_execute_method - <span style="color:#00AA00">A (2)</span>
+tests/test_utils.py
+    <span style="color:#AA00AA">F </span>8:0 test_iter_files - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>25:0 test_iter_files_negative - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>55:0 test_get_files_dir - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>71:0 test_cwd - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>78:0 test_progressbarsize - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>40:0 test_json_dumps - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>50:0 path_home_mock - <span style="color:#00AA00">A (1)</span>
+tests/test_stemmer.py
+    <span style="color:#AA00AA">F </span>9:0 test_get_stemmer_positive - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>21:0 test_get_stemmer_negative - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>33:0 test_get_registered_stemmers - <span style="color:#00AA00">A (3)</span>
+tests/test_corpus.py
+    <span style="color:#AA00AA">F </span>72:0 test_load_json_method - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>57:0 test_load_pickle_method - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>17:0 test_add_method - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>9:0 test_initial_state - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>30:0 test_get_memory_usage_method - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>39:0 test_dump_pickle_method - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>48:0 test_dump_json_method - <span style="color:#00AA00">A (2)</span>
+tests/test_stackoverflow_collector.py
+    <span style="color:#AA00AA">F </span>15:0 test_execute_method - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>67:0 test_execute_method_negative2 - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>92:0 test_execute_method_negative3 - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>9:0 test_initial_state - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>43:0 test_execute_method_negative1 - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>56:0 mocked_add - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>80:0 mocked_add_2 - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>32:0 mocked_requests_1 - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>24:0 _response - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>26:4 _response.__init__ - <span style="color:#00AA00">A (1)</span>
+tests/test_core_parser.py
+    <span style="color:#AA00AA">F </span>12:0 test_parse_method - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>78:0 test_parse_readme_json_method_negative - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>33:0 test_parse_file_method_positive - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>44:0 test_parse_file_method_negative - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>56:0 test_parse_file_method_json_fallback - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>67:0 test_parse_readme_json_method_positive - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>7:0 test_initial_state - <span style="color:#00AA00">A (1)</span>
+tests/test_keywords_set.py
+    <span style="color:#AA00AA">F </span>14:0 test_add_method - <span style="color:#AA5500">C (14)</span>
+    <span style="color:#AA00AA">F </span>51:0 test_union_method - <span style="color:#AA5500">C (13)</span>
+    <span style="color:#AA00AA">F </span>81:0 test_union_method_and_occurrence_count_1 - <span style="color:#AA5500">C (13)</span>
+    <span style="color:#AA00AA">F </span>109:0 test_union_method_and_occurrence_count_2 - <span style="color:#AA5500">C (13)</span>
+    <span style="color:#AA00AA">F </span>137:0 test_union_method_for_overlapping_data - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>157:0 test_union_method_for_empty_data - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>40:0 test_occurrence_counting - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>7:0 test_initial_state - <span style="color:#00AA00">A (3)</span>
+f8a_tagger/lemmatizer.py
+    <span style="color:#00AAAA">C </span>7:0 Lemmatizer - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>10:4 Lemmatizer.get_lemmatizer - <span style="color:#00AA00">A (1)</span>
+f8a_tagger/tokenizer.py
+    <span style="color:#00AA00">M </span>24:4 Tokenizer.__init__ - <span style="color:#AA5500">C (14)</span>
+    <span style="color:#00AA00">M </span>143:4 Tokenizer.tokenize - <span style="color:#AA5500">C (12)</span>
+    <span style="color:#00AAAA">C </span>18:0 Tokenizer - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>116:4 Tokenizer.remove_stopwords - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>86:4 Tokenizer._lemmatize - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AA00">M </span>101:4 Tokenizer._stem - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AA00">M </span>81:4 Tokenizer.regexp_stopwords - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>76:4 Tokenizer.raw_stopwords - <span style="color:#00AA00">A (1)</span>
+f8a_tagger/__init__.py
+    <span style="color:#AA00AA">F </span>25:0 prepare - <span style="color:#00AA00">A (2)</span>
+f8a_tagger/utils.py
+    <span style="color:#AA00AA">F </span>40:0 iter_files - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#AA00AA">F </span>22:0 _get_remote_resource - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>126:0 get_files_dir - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>78:0 json_dumps - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>96:0 progressbarize - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>115:0 cwd - <span style="color:#00AA00">A (1)</span>
+f8a_tagger/keywords_chief.py
+    <span style="color:#00AA00">M </span>23:4 KeywordsChief.__init__ - <span style="color:#AA5500">D (23)</span>
+    <span style="color:#00AA00">M </span>149:4 KeywordsChief.get_keyword - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#00AA00">M </span>88:4 KeywordsChief.keywords - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#00AA00">M </span>192:4 KeywordsChief.filter_keyword - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AAAA">C </span>16:0 KeywordsChief - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AA00">M </span>123:4 KeywordsChief.compute_ngram_size - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AA00">M </span>176:4 KeywordsChief.extract_keywords - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>227:4 KeywordsChief.compute_synonyms - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>115:4 KeywordsChief.get_average_occurrence_count - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>138:4 KeywordsChief.get_synonyms - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>254:4 KeywordsChief.matches_keyword_pattern - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>111:4 KeywordsChief.get_keywords_count - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>246:4 KeywordsChief.is_keyword - <span style="color:#00AA00">A (1)</span>
+f8a_tagger/scoring.py
+    <span style="color:#00AAAA">C </span>71:0 RelativeUsageScoring - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>74:4 RelativeUsageScoring._scoring_func - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>100:4 RelativeUsageScoring.score - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>17:4 Scoring.register_scoring - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>35:4 Scoring.get_scoring - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>12:0 Scoring - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>27:4 Scoring.get_registered_scorers - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>48:4 Scoring.score - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>58:0 CountScoring - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>61:4 CountScoring.score - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>122:0 TfIdfScoring - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>125:4 TfIdfScoring.score - <span style="color:#00AA00">A (1)</span>
+f8a_tagger/stemmer.py
+    <span style="color:#00AAAA">C </span>9:0 Stemmer - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>18:4 Stemmer.get_stemmer - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>32:4 Stemmer.get_registered_stemmers - <span style="color:#00AA00">A (1)</span>
+f8a_tagger/corpus.py
+    <span style="color:#00AA00">M </span>21:4 Corpus.get_memory_usage - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>53:4 Corpus.dump_pickle - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>63:4 Corpus.dump_json - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>74:4 Corpus.load_pickle - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>91:4 Corpus.load_json - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>13:0 Corpus - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>16:4 Corpus.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>34:4 Corpus.get_size - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>42:4 Corpus.add - <span style="color:#00AA00">A (1)</span>
+f8a_tagger/recipes.py
+    <span style="color:#AA00AA">F </span>210:0 aggregate - <span style="color:#AA5500">D (21)</span>
+    <span style="color:#AA00AA">F </span>25:0 _prepare_lookup - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>73:0 lookup_file - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>187:0 collect - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>123:0 lookup_readme - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>269:0 reckon - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>55:0 _perform_lookup - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>159:0 lookup_text - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>292:0 get_registered_collectors - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>297:0 get_registered_stemmers - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>302:0 get_registered_scorers - <span style="color:#00AA00">A (1)</span>
+f8a_tagger/keywords_set.py
+    <span style="color:#00AA00">M </span>24:4 KeywordsSet.union - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>5:0 KeywordsSet - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>17:4 KeywordsSet.add - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>8:4 KeywordsSet.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>12:4 KeywordsSet.keywords - <span style="color:#00AA00">A (1)</span>
+f8a_tagger/errors.py
+    <span style="color:#00AAAA">C </span>5:0 StemmerNotFoundError - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>9:0 InvalidInputError - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>13:0 RemoteResourceMissingError - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>17:0 RemoteDependencyMissingError - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>21:0 InstallPrepareError - <span style="color:#00AA00">A (1)</span>
+f8a_tagger/collectors/pypi.py
+    <span style="color:#00AAAA">C </span>16:0 PypiCollector - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#00AA00">M </span>22:4 PypiCollector.execute - <span style="color:#00AA00">B (9)</span>
+f8a_tagger/collectors/maven.py
+    <span style="color:#00AAAA">C </span>25:0 MavenCollector - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#00AA00">M </span>30:4 MavenCollector.execute - <span style="color:#00AA00">B (10)</span>
+f8a_tagger/collectors/npm.py
+    <span style="color:#00AAAA">C </span>7:0 NpmCollector - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>10:4 NpmCollector.execute - <span style="color:#00AA00">A (1)</span>
+f8a_tagger/collectors/base.py
+    <span style="color:#00AA00">M </span>23:4 CollectorBase.register_collector - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>41:4 CollectorBase.get_collector_class - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>7:0 CollectorBase - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>12:4 CollectorBase.execute - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>36:4 CollectorBase.get_registered_collectors - <span style="color:#00AA00">A (1)</span>
+f8a_tagger/collectors/stackoverflow.py
+    <span style="color:#00AAAA">C </span>16:0 StackOverflowCollector - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#00AA00">M </span>21:4 StackOverflowCollector.execute - <span style="color:#00AA00">B (8)</span>
+f8a_tagger/parsers/core_parser.py
+    <span style="color:#00AA00">M </span>86:4 CoreParser.parse_readme_json - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AA00">M </span>108:4 CoreParser.parse_file - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AAAA">C </span>23:0 CoreParser - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>64:4 CoreParser.parse - <span style="color:#00AA00">A (3)</span>
+f8a_tagger/parsers/parsers.py
+    <span style="color:#00AAAA">C </span>15:0 TextParser - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>18:4 TextParser.parse - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>29:0 MarkdownParser - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>32:4 MarkdownParser.parse - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>43:0 HtmlParser - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>46:4 HtmlParser.parse - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>57:0 ReStructuredTextParser - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>60:4 ReStructuredTextParser.parse - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>74:0 AsciidocParser - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>77:4 AsciidocParser.parse - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>88:0 TextileParser - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>91:4 TextileParser.parse - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>103:0 RdocParser - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>106:4 RdocParser.parse - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>118:0 OrgParser - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>121:4 OrgParser.parse - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>133:0 CreoleParser - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>136:4 CreoleParser.parse - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>148:0 MediawikiParser - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>151:4 MediawikiParser.parse - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>163:0 PodParser - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>166:4 PodParser.parse - <span style="color:#00AA00">A (1)</span>
+f8a_tagger/parsers/abstract.py
+    <span style="color:#00AAAA">C </span>7:0 AbstractParser - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>10:4 AbstractParser.parse - <span style="color:#00AA00">A (1)</span>
+
+279 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (3.207885304659498)</span>
+</pre>

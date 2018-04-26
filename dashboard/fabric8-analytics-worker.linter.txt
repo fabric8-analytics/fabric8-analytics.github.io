@@ -281,8 +281,6 @@ f8a_worker/workers/stackaggregator.py
     Pass
 f8a_worker/workers/keywords_tagging.py
     Pass
-f8a_worker/workers/gemini_report_notifier.py
-    Pass
 f8a_worker/workers/init_analysis_flow.py
     Pass
 f8a_worker/workers/repository_description.py
@@ -368,4 +366,4 @@ setup.py
 ----------------------------------------------------
 setup.py
     Pass
-All checks passed for 177 source files
+All checks passed for 176 source files
