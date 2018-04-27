@@ -5,7 +5,7 @@ Name                                                   Stmts   Miss  Cover   Mis
 /root/payload/f8a_tagger/collectors/base.py               18      4    78%   21, 31, 49-50
 /root/payload/f8a_tagger/collectors/maven.py              49     23    53%   43-78
 /root/payload/f8a_tagger/collectors/npm.py                 6      0   100%
-/root/payload/f8a_tagger/collectors/pypi.py               41      0   100%
+/root/payload/f8a_tagger/collectors/pypi.py               41     12    71%   45-59
 /root/payload/f8a_tagger/collectors/stackoverflow.py      34      0   100%
 /root/payload/f8a_tagger/corpus.py                        48      0   100%
 /root/payload/f8a_tagger/defaults.py                       7      0   100%
@@ -23,4 +23,4 @@ Name                                                   Stmts   Miss  Cover   Mis
 /root/payload/f8a_tagger/tokenizer.py                     96      0   100%
 /root/payload/f8a_tagger/utils.py                         71      1    99%   34
 ------------------------------------------------------------------------------------
-TOTAL                                                    853     34    96%
+TOTAL                                                    853     46    95%

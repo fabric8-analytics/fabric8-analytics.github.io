@@ -2,7 +2,7 @@ Name                                      Stmts   Miss  Cover   Missing					Name
 -----------------------------------------------------------------------					-----------------------------------------------------------------------
 src/__init__.py                               2      0   100%						src/__init__.py                               2      0   100%
 src/config.py                                22      0   100%						src/config.py                                22      0   100%
-src/data_importer.py                        195     32    84%   86, 97, 120-131, 158, 177-178, 215-21 |	src/data_importer.py                        195     32    84%   86, 97, 120-131, 158, 177-178, 215-21
+src/data_importer.py                        195     32    84%   86, 97, 120-131, 158, 177-178, 215-21	src/data_importer.py                        195     32    84%   86, 97, 120-131, 158, 177-178, 215-21
 src/data_source/__init__.py                   0      0   100%						src/data_source/__init__.py                   0      0   100%
 src/data_source/abstract_data_source.py       6      0   100%						src/data_source/abstract_data_source.py       6      0   100%
 src/data_source/s3_data_source.py            36      2    94%   29-31					src/data_source/s3_data_source.py            36      2    94%   29-31
