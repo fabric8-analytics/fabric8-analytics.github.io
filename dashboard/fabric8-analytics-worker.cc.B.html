@@ -14,11 +14,11 @@ f8a_worker/utils.py
 f8a_worker/setup_celery.py
     <span style="color:#AA00AA">F </span>17:0 get_dispatcher_config_files - <span style="color:#00AA00">B (7)</span>
 f8a_worker/victims.py
-    <span style="color:#00AA00">M </span>131:4 VictimsDB.is_version_affected - <span style="color:#00AA00">B (10)</span>
-    <span style="color:#00AA00">M </span>159:4 VictimsDB._build_from_git - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>50:4 VictimsDB._read_db - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>64:4 VictimsDB.get_vulnerable_java_packages - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>91:4 VictimsDB.get_package_versions - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>228:4 VictimsDB.is_version_affected - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#00AA00">M </span>88:4 VictimsDB._read_db - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#00AA00">M </span>256:4 VictimsDB._build_from_git - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>116:4 VictimsDB.get_details_for_ecosystem - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>164:4 VictimsDB._get_maven_versions - <span style="color:#00AA00">B (6)</span>
 f8a_worker/solver.py
     <span style="color:#00AAAA">C </span>655:0 NugetDependencyParser - <span style="color:#AA5500">C (12)</span>
     <span style="color:#00AA00">M </span>658:4 NugetDependencyParser.parse - <span style="color:#AA5500">C (12)</span>
@@ -35,7 +35,7 @@ f8a_worker/process.py
     <span style="color:#00AA00">M </span>271:4 IndianaJones.download_file - <span style="color:#00AA00">B (8)</span>
     <span style="color:#00AA00">M </span>302:4 IndianaJones.fetch_maven_artifact - <span style="color:#00AA00">B (7)</span>
 f8a_worker/base.py
-    <span style="color:#00AA00">M </span>40:4 BaseTask.run - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>42:4 BaseTask.run - <span style="color:#00AA00">B (7)</span>
 f8a_worker/schemas.py
     <span style="color:#00AA00">M </span>236:4 BundledDynamicSchemaLibrary._load_all_schema_refs - <span style="color:#00AA00">B (8)</span>
     <span style="color:#AA00AA">F </span>367:0 get_schema_ref - <span style="color:#00AA00">B (6)</span>
@@ -54,8 +54,8 @@ f8a_worker/data_normalizer.py
 f8a_worker/dispatcher/foreach.py
     <span style="color:#AA00AA">F </span>32:0 iter_dependencies_analysis - <span style="color:#00AA00">B (6)</span>
 f8a_worker/storages/postgres_base.py
-    <span style="color:#00AA00">M </span>33:4 PostgresBase.__init__ - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>82:4 PostgresBase.retrieve - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>35:4 PostgresBase.__init__ - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>84:4 PostgresBase.retrieve - <span style="color:#00AA00">B (6)</span>
 f8a_worker/storages/package_postgres.py
     <span style="color:#00AA00">M </span>32:4 PackagePostgres._create_result_entry - <span style="color:#00AA00">B (7)</span>
 f8a_worker/storages/postgres.py
@@ -71,8 +71,8 @@ f8a_worker/workers/stackaggregator_v2.py
     <span style="color:#AA00AA">F </span>346:0 get_dependency_data - <span style="color:#00AA00">B (8)</span>
     <span style="color:#AA00AA">F </span>294:0 aggregate_stack_data - <span style="color:#00AA00">B (6)</span>
 f8a_worker/workers/dependency_parser.py
-    <span style="color:#00AA00">M </span>34:4 GithubDependencyTreeTask.extract_dependencies - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>112:4 GithubDependencyTreeTask.get_npm_dependencies - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>35:4 GithubDependencyTreeTask.extract_dependencies - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#00AA00">M </span>117:4 GithubDependencyTreeTask.get_npm_dependencies - <span style="color:#00AA00">B (7)</span>
 f8a_worker/workers/code_metrics.py
     <span style="color:#00AA00">M </span>136:4 CodeMetricsTask._normalize_javancss_output - <span style="color:#00AA00">B (10)</span>
     <span style="color:#00AA00">M </span>277:4 CodeMetricsTask.python_mccabe - <span style="color:#00AA00">B (7)</span>
@@ -96,7 +96,7 @@ f8a_worker/workers/cvedbsync.py
     <span style="color:#00AA00">M </span>12:4 CVEDBSyncTask.components_to_scan - <span style="color:#AA5500">C (12)</span>
     <span style="color:#00AAAA">C </span>9:0 CVEDBSyncTask - <span style="color:#00AA00">B (8)</span>
 f8a_worker/workers/victims.py
-    <span style="color:#00AA00">M </span>73:4 VictimsCheck.mark_in_graph - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#00AA00">M </span>75:4 VictimsCheck.mark_in_graph - <span style="color:#00AA00">B (10)</span>
 f8a_worker/workers/license.py
     <span style="color:#00AA00">M </span>18:4 LicenseCheckTask.process_output - <span style="color:#00AA00">B (6)</span>
 f8a_worker/workers/git_stats.py
@@ -104,11 +104,9 @@ f8a_worker/workers/git_stats.py
     <span style="color:#00AA00">M </span>110:4 GitStats._compute_stats - <span style="color:#00AA00">B (7)</span>
     <span style="color:#00AA00">M </span>35:4 GitStats._get_average_changes - <span style="color:#00AA00">B (6)</span>
 f8a_worker/workers/CVEchecker.py
-    <span style="color:#00AA00">M </span>190:4 CVEcheckerTask._run_owasp_dep_check - <span style="color:#AA5500">D (24)</span>
-    <span style="color:#00AA00">M </span>332:4 CVEcheckerTask._python_scan - <span style="color:#AA5500">C (12)</span>
-    <span style="color:#00AA00">M </span>42:4 CVEcheckerTask.get_cve_impact - <span style="color:#AA5500">C (11)</span>
-    <span style="color:#00AA00">M </span>146:4 CVEcheckerTask._query_ossindex - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>122:4 CVEcheckerTask.query_ossindex_vulnerability_fromtill - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>32:4 CVEcheckerTask.get_cve_impact - <span style="color:#AA5500">C (11)</span>
+    <span style="color:#00AA00">M </span>136:4 CVEcheckerTask._query_ossindex - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>112:4 CVEcheckerTask.query_ossindex_vulnerability_fromtill - <span style="color:#00AA00">B (6)</span>
 f8a_worker/workers/init_package_flow.py
     <span style="color:#00AA00">M </span>100:4 InitPackageFlow.execute - <span style="color:#00AA00">B (6)</span>
 f8a_worker/workers/result_collector.py
@@ -183,8 +181,7 @@ tests/workers/test_libraries_io.py
     <span style="color:#00AA00">M </span>15:4 TestLibrariesIoTask.test_execute - <span style="color:#00AA00">B (9)</span>
     <span style="color:#00AAAA">C </span>11:0 TestLibrariesIoTask - <span style="color:#00AA00">B (6)</span>
 tests/workers/test_cvecheck.py
-    <span style="color:#00AA00">M </span>251:4 TestCVEchecker.test_nuget_system_net_http - <span style="color:#00AA00">B (10)</span>
-    <span style="color:#00AA00">M </span>163:4 TestCVEchecker.test_python_salt - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>128:4 TestCVEchecker.test_nuget_system_net_http - <span style="color:#00AA00">B (10)</span>
 tests/workers/test_digester.py
     <span style="color:#00AAAA">C </span>21:0 TestDigester - <span style="color:#00AA00">B (10)</span>
     <span style="color:#00AA00">M </span>25:4 TestDigester.test_execute - <span style="color:#00AA00">B (10)</span>
@@ -195,6 +192,6 @@ tests/workers/test_mercator.py
     <span style="color:#00AA00">M </span>50:4 TestMercator.test_execute_maven - <span style="color:#AA5500">C (11)</span>
     <span style="color:#00AA00">M </span>89:4 TestMercator.test_execute_go_glide - <span style="color:#00AA00">B (7)</span>
 
-138 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">B (9.0)</span>
+135 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">B (8.91851851851852)</span>
 </pre>
