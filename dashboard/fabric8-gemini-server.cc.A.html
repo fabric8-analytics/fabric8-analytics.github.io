@@ -10,7 +10,11 @@ tests/test_utils.py
 tests/conftest.py
     <span style="color:#AA00AA">F </span>14:0 client - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>21:0 create_database - <span style="color:#00AA00">A (1)</span>
+src/auth.py
+    <span style="color:#AA00AA">F </span>13:0 decode_token - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>41:0 login_required - <span style="color:#00AA00">A (1)</span>
 src/utils.py
+    <span style="color:#AA00AA">F </span>243:0 fetch_public_key - <span style="color:#00AA00">A (5)</span>
     <span style="color:#00AA00">M </span>186:4 DatabaseIngestion.get_info - <span style="color:#00AA00">A (5)</span>
     <span style="color:#00AAAA">C </span>136:0 DatabaseIngestion - <span style="color:#00AA00">A (4)</span>
     <span style="color:#00AA00">M </span>158:4 DatabaseIngestion.store_record - <span style="color:#00AA00">A (4)</span>
@@ -26,12 +30,16 @@ src/utils.py
     <span style="color:#00AA00">M </span>31:4 Postgres.__init__ - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>51:4 Postgres.session - <span style="color:#00AA00">A (1)</span>
 src/rest_api.py
-    <span style="color:#AA00AA">F </span>34:0 register - <span style="color:#00AA00">B (10)</span>
-    <span style="color:#AA00AA">F </span>132:0 report - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>14:0 readiness - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>20:0 liveness - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>26:0 scan - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>36:0 register - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#AA00AA">F </span>135:0 report - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>16:0 readiness - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>22:0 liveness - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>28:0 scan - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>167:0 handle_error - <span style="color:#00AA00">A (1)</span>
+src/exceptions.py
+    <span style="color:#00AAAA">C </span>4:0 HTTPError - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>16:4 HTTPError.__init__ - <span style="color:#00AA00">A (1)</span>
 
-27 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (2.6296296296296298)</span>
+33 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (2.6363636363636362)</span>
 </pre>
