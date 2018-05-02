@@ -51,6 +51,8 @@ integration-tests/features/steps/stack_analysis.py
     Pass
 integration-tests/features/steps/common.py
     Pass
+integration-tests/features/steps/gemini.py
+    Pass
 integration-tests/features/steps/authorization.py
     Pass
 integration-tests/features/steps/backbone_api.py
@@ -167,4 +169,4 @@ db-integrity-tests/src/core_package_checker.py
     Pass
 db-integrity-tests/src/checker.py
     Pass
-All checks passed for 79 source files
+All checks passed for 80 source files
