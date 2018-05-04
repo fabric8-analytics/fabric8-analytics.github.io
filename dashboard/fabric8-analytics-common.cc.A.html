@@ -253,14 +253,28 @@ integration-tests/features/src/attribute_checks.py
     <span style="color:#AA00AA">F </span>35:0 check_uuid - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>103:0 release_string - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>158:0 get_details_node - <span style="color:#00AA00">A (1)</span>
+integration-tests/features/src/schemas/predicates.py
+    <span style="color:#AA00AA">F </span>28:0 posint_p - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>37:0 negint_p - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>46:0 posint_zero_p - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>55:0 negint_zero_p - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>64:0 posfloat_p - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>73:0 posfloat_zero_p - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>82:0 negfloat_p - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>91:0 negfloat_zero_p - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>9:0 string_p - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>15:0 timestamp_p - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>100:0 md5_p - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>110:0 sha1_p - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>120:0 sha256_p - <span style="color:#00AA00">A (2)</span>
 integration-tests/features/steps/s3_package_analysis.py
-    <span style="color:#AA00AA">F </span>199:0 wait_for_job_toplevel_file - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>205:0 wait_for_job_toplevel_file - <span style="color:#00AA00">A (5)</span>
     <span style="color:#AA00AA">F </span>99:0 check_recent_package_version_publication - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>158:0 read_core_package_data_from_bucket - <span style="color:#00AA00">A (4)</span>
     <span style="color:#AA00AA">F </span>47:0 check_weight_for_word_in_keywords_tagging - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>71:0 check_latest_package_version_publication - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>158:0 read_core_package_data_from_bucket - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>178:0 check_package_toplevel_file - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>239:0 check_new_timestamps - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>184:0 check_package_toplevel_file - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>245:0 check_new_timestamps - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>25:0 check_empty_github_details - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>119:0 check_releases_count - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>130:0 check_dependent_repositories_count - <span style="color:#00AA00">A (2)</span>
@@ -269,7 +283,7 @@ integration-tests/features/steps/s3_package_analysis.py
     <span style="color:#AA00AA">F </span>32:0 check_keywords_tagging_file - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>60:0 check_libraries_io_file - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>93:0 _get_releases_node_from_libraries_io - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>227:0 remember_timestamps_from_job_toplevel_data - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>233:0 remember_timestamps_from_job_toplevel_data - <span style="color:#00AA00">A (1)</span>
 integration-tests/features/steps/gremlin.py
     <span style="color:#AA00AA">F </span>189:0 package_data_timestamp_comparison_with_remembered_time - <span style="color:#00AA00">B (6)</span>
     <span style="color:#AA00AA">F </span>512:0 test_libio_related_properties - <span style="color:#00AA00">B (6)</span>
@@ -321,6 +335,7 @@ integration-tests/features/steps/gremlin.py
     <span style="color:#AA00AA">F </span>548:0 test_vertex_label - <span style="color:#00AA00">A (1)</span>
 integration-tests/features/steps/s3_component_analysis.py
     <span style="color:#AA00AA">F </span>8:0 check_component_core_data - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>312:0 read_core_data_from_bucket - <span style="color:#00AA00">A (4)</span>
     <span style="color:#AA00AA">F </span>75:0 _node_items_to_check - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>94:0 check_unexpected_items_in_node - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>171:0 check_component_digest_metadata_value - <span style="color:#00AA00">A (3)</span>
@@ -335,7 +350,6 @@ integration-tests/features/steps/s3_component_analysis.py
     <span style="color:#AA00AA">F </span>252:0 check_project_description - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>275:0 check_component_security_issues_data - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>304:0 check_package_license - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>312:0 read_core_data_from_bucket - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>86:0 check_expected_items_in_node - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>117:0 check_component_dependency_snapshot_data - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>156:0 check_component_digest_data - <span style="color:#00AA00">A (1)</span>
@@ -848,6 +862,6 @@ perf-tests/src/gremlin_package_generator.py
     <span style="color:#00AA00">M </span>55:4 GremlinPackageGenerator.package_generator_for_ecosystem - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>65:4 GremlinPackageGenerator.package_version_generator_for_ecosystem - <span style="color:#00AA00">A (2)</span>
 
-774 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (2.3191214470284236)</span>
+787 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (2.327827191867853)</span>
 </pre>
