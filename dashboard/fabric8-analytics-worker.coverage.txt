@@ -3,10 +3,10 @@ Name                                                                 Stmts   Mis
 /f8a_worker/f8a_worker/__init__.py                                       1      0   100%
 /f8a_worker/f8a_worker/base.py                                          55     20    64%   40, 50-83, 101, 113
 /f8a_worker/f8a_worker/celery_settings.py                               40     12    70%   21, 28, 32, 54-70, 80, 85, 91-150
-/f8a_worker/f8a_worker/data_normalizer.py                              402     72    82%   137-140, 144-147, 151, 190-191, 200-201, 217-227, 230-231, 236, 239, 242, 245, 278, 301, 366, 433-436, 442, 449, 453, 554, 579-581, 607-608, 625, 641, 644, 671-677, 681-712, 716
+/f8a_worker/f8a_worker/data_normalizer.py                              424     74    83%   137-140, 144-147, 151, 190-191, 200-201, 217-227, 230-231, 236, 239, 242, 245, 278, 301, 366, 433-436, 442, 449, 453, 571, 575, 585, 610-612, 638-639, 656, 673, 676, 703-709, 713-744, 748
 /f8a_worker/f8a_worker/defaults.py                                      85     12    86%   94-96, 100-102, 131, 142, 144-147, 163, 166, 179-180
 /f8a_worker/f8a_worker/dispatcher/__init__.py                            0      0   100%
-/f8a_worker/f8a_worker/dispatcher/foreach.py                            84     68    19%   13, 35-58, 64-88, 94-102, 108-131
+/f8a_worker/f8a_worker/dispatcher/foreach.py                            83     67    19%   13, 35-58, 64-88, 94-102, 108-132
 /f8a_worker/f8a_worker/dispatcher/predicates.py                         11      7    36%   12-19
 /f8a_worker/f8a_worker/dispatcher/selective.py                          12      9    25%   19-43
 /f8a_worker/f8a_worker/dispatcher/trace.py                              13      2    85%   29, 36
@@ -97,4 +97,4 @@ Name                                                                 Stmts   Mis
 /f8a_worker/f8a_worker/workers/unknown_dep_fetcher.py                   37     29    22%   15-50, 59-62
 /f8a_worker/f8a_worker/workers/victims.py                               54     17    69%   19-30, 59-73, 94-95
 --------------------------------------------------------------------------------------------------
-TOTAL                                                                 7156   3143    56%
+TOTAL                                                                 7177   3144    56%
