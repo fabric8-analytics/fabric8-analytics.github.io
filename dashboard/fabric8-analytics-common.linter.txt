@@ -9,11 +9,27 @@ Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: pycodestyle in ./venv/lib/python3.6/site-packages (2.3.1)
+integration-tests/features/src/schemas/component_security_issues.py
+    Pass
+integration-tests/features/src/schemas/component_digests.py
+    Pass
+integration-tests/features/src/schemas/component_dependency_snapshot.py
+    Pass
 integration-tests/features/src/schemas/__init__.py
+    Pass
+integration-tests/features/src/schemas/component_metadata.py
     Pass
 integration-tests/features/src/schemas/predicates.py
     Pass
+integration-tests/features/src/schemas/component_code_metrics.py
+    Pass
 integration-tests/features/src/schemas/common.py
+    Pass
+integration-tests/features/src/schemas/component_toplevel.py
+    Pass
+integration-tests/features/src/schemas/component_keywords_tagging.py
+    Pass
+integration-tests/features/src/schemas/component_source_licenses.py
     Pass
 integration-tests/features/src/schema_validator.py
     Pass
@@ -177,4 +193,4 @@ db-integrity-tests/src/core_package_checker.py
     Pass
 db-integrity-tests/src/checker.py
     Pass
-All checks passed for 84 source files
+All checks passed for 92 source files

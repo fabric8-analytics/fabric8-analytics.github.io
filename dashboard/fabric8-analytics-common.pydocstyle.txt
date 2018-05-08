@@ -12,13 +12,37 @@ Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-co
 Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (2.1.1)
 Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.2.1)
 Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.11.0)
+integration-tests/features/src/schemas/component_security_issues.py
+0
+    Pass
+integration-tests/features/src/schemas/component_digests.py
+0
+    Pass
+integration-tests/features/src/schemas/component_dependency_snapshot.py
+0
+    Pass
 integration-tests/features/src/schemas/__init__.py
+0
+    Pass
+integration-tests/features/src/schemas/component_metadata.py
 0
     Pass
 integration-tests/features/src/schemas/predicates.py
 0
     Pass
+integration-tests/features/src/schemas/component_code_metrics.py
+0
+    Pass
 integration-tests/features/src/schemas/common.py
+0
+    Pass
+integration-tests/features/src/schemas/component_toplevel.py
+0
+    Pass
+integration-tests/features/src/schemas/component_keywords_tagging.py
+0
+    Pass
+integration-tests/features/src/schemas/component_source_licenses.py
 0
     Pass
 integration-tests/features/src/schema_validator.py
@@ -264,4 +288,4 @@ db-integrity-tests/src/core_package_checker.py
 db-integrity-tests/src/checker.py
 0
     Pass
-All checks passed for 84 source files
+All checks passed for 92 source files
