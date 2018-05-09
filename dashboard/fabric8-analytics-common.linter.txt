@@ -15,6 +15,8 @@ integration-tests/features/src/schemas/component_digests.py
     Pass
 integration-tests/features/src/schemas/component_dependency_snapshot.py
     Pass
+integration-tests/features/src/schemas/package_github_details.py
+    Pass
 integration-tests/features/src/schemas/__init__.py
     Pass
 integration-tests/features/src/schemas/component_metadata.py
@@ -27,7 +29,15 @@ integration-tests/features/src/schemas/common.py
     Pass
 integration-tests/features/src/schemas/component_toplevel.py
     Pass
+integration-tests/features/src/schemas/package_toplevel.py
+    Pass
+integration-tests/features/src/schemas/package_keywords_tagging.py
+    Pass
 integration-tests/features/src/schemas/component_keywords_tagging.py
+    Pass
+integration-tests/features/src/schemas/package_git_stats.py
+    Pass
+integration-tests/features/src/schemas/package_libraries_io.py
     Pass
 integration-tests/features/src/schemas/component_source_licenses.py
     Pass
@@ -193,4 +203,4 @@ db-integrity-tests/src/core_package_checker.py
     Pass
 db-integrity-tests/src/checker.py
     Pass
-All checks passed for 92 source files
+All checks passed for 97 source files
