@@ -30,32 +30,33 @@ f8a_worker/solver.py
     <span style="color:#00AA00">M </span>334:4 GolangReleasesFetcher.fetch_releases - <span style="color:#00AA00">B (6)</span>
     <span style="color:#00AA00">M </span>556:4 NpmDependencyParser._parse_npm - <span style="color:#00AA00">B (6)</span>
 f8a_worker/process.py
-    <span style="color:#00AA00">M </span>490:4 IndianaJones.fetch_artifact - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#00AA00">M </span>497:4 IndianaJones.fetch_artifact - <span style="color:#00AA00">B (10)</span>
     <span style="color:#00AA00">M </span>44:4 Git.clone - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#00AA00">M </span>271:4 IndianaJones.download_file - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#00AA00">M </span>302:4 IndianaJones.fetch_maven_artifact - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>277:4 IndianaJones.download_file - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#00AA00">M </span>308:4 IndianaJones.fetch_maven_artifact - <span style="color:#00AA00">B (7)</span>
 f8a_worker/base.py
-    <span style="color:#00AA00">M </span>42:4 BaseTask.run - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>66:4 BaseTask.run - <span style="color:#00AA00">B (9)</span>
 f8a_worker/schemas.py
     <span style="color:#00AA00">M </span>236:4 BundledDynamicSchemaLibrary._load_all_schema_refs - <span style="color:#00AA00">B (8)</span>
     <span style="color:#AA00AA">F </span>367:0 get_schema_ref - <span style="color:#00AA00">B (6)</span>
     <span style="color:#AA00AA">F </span>407:0 assert_no_two_consecutive_schemas_are_same - <span style="color:#00AA00">B (6)</span>
 f8a_worker/data_normalizer.py
-    <span style="color:#00AA00">M </span>110:4 DataNormalizer._handle_javascript - <span style="color:#AA0000">F (49)</span>
-    <span style="color:#00AA00">M </span>581:4 DataNormalizer._handle_dotnet_solution - <span style="color:#AA5500">C (17)</span>
-    <span style="color:#00AA00">M </span>418:4 DataNormalizer._handle_rubygems - <span style="color:#AA5500">C (15)</span>
-    <span style="color:#00AA00">M </span>315:4 DataNormalizer._handle_python_dist - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#00AA00">M </span>711:4 DataNormalizer.main - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#00AA00">M </span>110:4 DataNormalizer._handle_javascript - <span style="color:#AA0000">F (50)</span>
+    <span style="color:#00AA00">M </span>585:4 DataNormalizer._handle_dotnet_solution - <span style="color:#AA5500">C (17)</span>
+    <span style="color:#00AA00">M </span>422:4 DataNormalizer._handle_rubygems - <span style="color:#AA5500">C (15)</span>
+    <span style="color:#00AA00">M </span>319:4 DataNormalizer._handle_python_dist - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#00AA00">M </span>715:4 DataNormalizer.main - <span style="color:#00AA00">B (9)</span>
     <span style="color:#00AAAA">C </span>22:0 DataNormalizer - <span style="color:#00AA00">B (7)</span>
     <span style="color:#00AA00">M </span>27:4 DataNormalizer.transform_keys - <span style="color:#00AA00">B (7)</span>
     <span style="color:#00AA00">M </span>76:4 DataNormalizer._are_tests_implemented - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>361:4 DataNormalizer._handle_java - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>281:4 DataNormalizer._split_keywords - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>365:4 DataNormalizer._handle_java - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>285:4 DataNormalizer._split_keywords - <span style="color:#00AA00">B (6)</span>
 f8a_worker/dispatcher/foreach.py
     <span style="color:#AA00AA">F </span>32:0 iter_dependencies_analysis - <span style="color:#00AA00">B (6)</span>
 f8a_worker/storages/postgres_base.py
     <span style="color:#00AA00">M </span>35:4 PostgresBase.__init__ - <span style="color:#00AA00">B (7)</span>
     <span style="color:#00AA00">M </span>84:4 PostgresBase.retrieve - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>131:4 PostgresBase.store_error - <span style="color:#00AA00">B (6)</span>
 f8a_worker/storages/package_postgres.py
     <span style="color:#00AA00">M </span>32:4 PackagePostgres._create_result_entry - <span style="color:#00AA00">B (7)</span>
 f8a_worker/storages/postgres.py
@@ -146,12 +147,12 @@ f8a_worker/workers/schemas/metadata.py
     <span style="color:#00AAAA">C </span>130:0 MetadataDict - <span style="color:#AA5500">C (11)</span>
     <span style="color:#00AAAA">C </span>218:0 MercatorResult - <span style="color:#00AA00">B (8)</span>
 tests/test_data_normalizer.py
-    <span style="color:#00AA00">M </span>278:4 TestDataNormalizer.test_get_outermost_items - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>280:4 TestDataNormalizer.test_get_outermost_items - <span style="color:#00AA00">B (6)</span>
 tests/test_schemas.py
     <span style="color:#00AA00">M </span>74:4 TestSchemaLibrary.test_bundled_dynamic_schema_lookup - <span style="color:#00AA00">B (9)</span>
     <span style="color:#00AAAA">C </span>40:0 TestSchemaLibrary - <span style="color:#00AA00">B (6)</span>
 tests/test_process.py
-    <span style="color:#00AA00">M </span>46:4 TestIndianaJones.test_fetch_npm_specific - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>49:4 TestIndianaJones.test_fetch_npm_specific - <span style="color:#00AA00">B (7)</span>
 tests/test_victims.py
     <span style="color:#AA00AA">F </span>13:0 test_get_vulnerable_java_packages - <span style="color:#00AA00">B (7)</span>
 tests/test_utils.py
@@ -192,6 +193,6 @@ tests/workers/test_mercator.py
     <span style="color:#00AA00">M </span>50:4 TestMercator.test_execute_maven - <span style="color:#AA5500">C (11)</span>
     <span style="color:#00AA00">M </span>90:4 TestMercator.test_execute_go_glide - <span style="color:#00AA00">B (7)</span>
 
-135 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">B (8.911111111111111)</span>
+136 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">B (8.911764705882353)</span>
 </pre>
