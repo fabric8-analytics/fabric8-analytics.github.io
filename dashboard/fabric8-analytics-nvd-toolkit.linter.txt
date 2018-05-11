@@ -34,8 +34,7 @@ src/toolkit/preprocessing/__init__.py
 src/toolkit/preprocessing/handlers.py
     Pass
 src/toolkit/preprocessing/preprocessors.py
-src/toolkit/preprocessing/preprocessors.py:222:101: E501 line too long (106 > 100 characters)
-    Fail
+    Pass
 src/toolkit/__about__.py
     Pass
 src/toolkit/transformers/extractors.py
@@ -43,15 +42,11 @@ src/toolkit/transformers/extractors.py
 src/toolkit/transformers/__init__.py
     Pass
 src/toolkit/transformers/classifiers.py
-src/toolkit/transformers/classifiers.py:75:101: E501 line too long (108 > 100 characters)
-src/toolkit/transformers/classifiers.py:150:101: E501 line too long (116 > 100 characters)
-src/toolkit/transformers/classifiers.py:314:13: E722 do not use bare 'except'
-    Fail
+    Pass
 src/toolkit/transformers/hooks.py
     Pass
 tests/test_preprocessors.py
-tests/test_preprocessors.py:236:1: W391 blank line at end of file
-    Fail
+    Pass
 tests/test_scripts.py
     Pass
 tests/test_pipelines.py
@@ -76,6 +71,5 @@ Running Python linter against selected files:
 setup.py
 ----------------------------------------------------
 setup.py
-setup.py:33:101: E501 line too long (102 > 100 characters)
-    Fail
-Linter fail, 4 source files out of 29 source files need to be fixed
+    Pass
+All checks passed for 29 source files

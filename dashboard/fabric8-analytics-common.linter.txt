@@ -137,6 +137,8 @@ dashboard/src/ci_jobs.py
     Pass
 dashboard/src/jobsapi.py
     Pass
+dashboard/src/charts.py
+    Pass
 dashboard/src/unit_tests.py
     Pass
 dashboard/src/cc.py
@@ -203,4 +205,4 @@ db-integrity-tests/src/core_package_checker.py
     Pass
 db-integrity-tests/src/checker.py
     Pass
-All checks passed for 97 source files
+All checks passed for 98 source files

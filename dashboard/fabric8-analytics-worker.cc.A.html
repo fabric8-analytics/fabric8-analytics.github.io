@@ -251,21 +251,21 @@ f8a_worker/solver.py
     <span style="color:#00AA00">M </span>774:4 Solver.release_fetcher - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>965:4 MavenSolver.is_version_range - <span style="color:#00AA00">A (1)</span>
 f8a_worker/process.py
-    <span style="color:#00AA00">M </span>497:4 IndianaJones.fetch_artifact - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#00AA00">M </span>503:4 IndianaJones.fetch_artifact - <span style="color:#00AA00">B (10)</span>
     <span style="color:#00AA00">M </span>44:4 Git.clone - <span style="color:#00AA00">B (9)</span>
     <span style="color:#00AA00">M </span>277:4 IndianaJones.download_file - <span style="color:#00AA00">B (8)</span>
     <span style="color:#00AA00">M </span>308:4 IndianaJones.fetch_maven_artifact - <span style="color:#00AA00">B (7)</span>
     <span style="color:#00AA00">M </span>209:4 Archive.extract - <span style="color:#00AA00">A (5)</span>
     <span style="color:#00AA00">M </span>153:4 Git.archive - <span style="color:#00AA00">A (4)</span>
     <span style="color:#00AAAA">C </span>274:0 IndianaJones - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>418:4 IndianaJones.fetch_pypi_artifact - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>452:4 IndianaJones.fetch_rubygems_artifact - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>342:4 IndianaJones.fetch_npm_artifact - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>424:4 IndianaJones.fetch_pypi_artifact - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>458:4 IndianaJones.fetch_rubygems_artifact - <span style="color:#00AA00">A (4)</span>
     <span style="color:#00AA00">M </span>30:4 Git.config - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AA00">M </span>115:4 Git.rev_parse - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AA00">M </span>175:4 Git.reset - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AA00">M </span>183:4 Git.ls_remote - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AA00">M </span>232:4 Archive.extract_zip - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>342:4 IndianaJones.fetch_npm_artifact - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AAAA">C </span>23:0 Git - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>98:4 Git.commit - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>128:4 Git.add - <span style="color:#00AA00">A (2)</span>
@@ -273,8 +273,8 @@ f8a_worker/process.py
     <span style="color:#00AA00">M </span>222:4 Archive.zip_file - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>256:4 Archive.extract_gem - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>301:4 IndianaJones.get_revision - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>401:4 IndianaJones.fetch_nuget_artifact - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>478:4 IndianaJones.fetch_scm_artifact - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>407:4 IndianaJones.fetch_nuget_artifact - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>484:4 IndianaJones.fetch_scm_artifact - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>26:4 Git.__init__ - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>87:4 Git.create_git - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>108:4 Git.log - <span style="color:#00AA00">A (1)</span>
@@ -920,18 +920,19 @@ tests/test_schemas.py
     <span style="color:#00AAAA">C </span>137:0 TestSchemaSequence - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>141:4 TestSchemaSequence.test_no_two_consecutive_schemas_are_same - <span style="color:#00AA00">A (1)</span>
 tests/test_process.py
-    <span style="color:#00AA00">M </span>49:4 TestIndianaJones.test_fetch_npm_specific - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>30:4 TestGit.test_clone - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AAAA">C </span>46:0 TestIndianaJones - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>77:4 TestIndianaJones.test_fetch_pypi_specific - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>92:4 TestIndianaJones.test_fetch_rubygems_specific - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>106:4 TestIndianaJones.test_fetch_maven_specific - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>122:4 TestIndianaJones.test_fetch_nuget_specific - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>136:4 TestIndianaJones.test_fetch_go_specific - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AAAA">C </span>14:0 TestGit - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>154:0 TestArchive - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>157:4 TestArchive.test_for_archive_create_by_root - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>17:4 TestGit.test_git_add_and_commit_everything_with_dotgit - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>52:4 TestIndianaJones.test_fetch_npm_specific - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>33:4 TestGit.test_clone - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AAAA">C </span>49:0 TestIndianaJones - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>94:4 TestIndianaJones.test_fetch_pypi_specific - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>109:4 TestIndianaJones.test_fetch_rubygems_specific - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>123:4 TestIndianaJones.test_fetch_maven_specific - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>139:4 TestIndianaJones.test_fetch_nuget_specific - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>153:4 TestIndianaJones.test_fetch_go_specific - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AAAA">C </span>17:0 TestGit - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>171:0 TestArchive - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>174:4 TestArchive.test_for_archive_create_by_root - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>80:4 TestIndianaJones.test_fetch_version_range_npm_specific - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>20:4 TestGit.test_git_add_and_commit_everything_with_dotgit - <span style="color:#00AA00">A (1)</span>
 tests/test_victims.py
     <span style="color:#AA00AA">F </span>13:0 test_get_vulnerable_java_packages - <span style="color:#00AA00">B (7)</span>
     <span style="color:#AA00AA">F </span>6:0 test_java_vulnerabilities - <span style="color:#00AA00">A (4)</span>
@@ -1218,6 +1219,6 @@ alembic/versions/22a1cd66a9c6_batches_reviews.py
     <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>40:0 downgrade - <span style="color:#00AA00">A (1)</span>
 
-1052 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (3.0161596958174903)</span>
+1053 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (3.016144349477683)</span>
 </pre>
