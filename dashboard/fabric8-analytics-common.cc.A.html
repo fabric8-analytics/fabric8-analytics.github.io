@@ -38,11 +38,11 @@ dashboard/src/charts.py
     <span style="color:#AA00AA">F </span>78:0 generate_cyclomatic_complexity_chart - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>88:0 generate_maintainability_index_chart - <span style="color:#00AA00">A (1)</span>
 dashboard/src/unit_tests.py
-    <span style="color:#AA00AA">F </span>42:0 read_unit_test_coverage - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#AA00AA">F </span>65:0 read_unit_test_coverage_for_week - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>34:0 write_unit_test_coverage - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>11:0 unit_test_coverage_ok - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>19:0 parse_unit_test_statistic - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>45:0 read_unit_test_coverage - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#AA00AA">F </span>68:0 read_unit_test_coverage_for_week - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>37:0 write_unit_test_coverage - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>13:0 unit_test_coverage_ok - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>22:0 parse_unit_test_statistic - <span style="color:#00AA00">A (2)</span>
 dashboard/src/cc.py
     <span style="color:#AA00AA">F </span>51:0 prepare_data_for_repositories - <span style="color:#00AA00">A (4)</span>
     <span style="color:#AA00AA">F </span>68:0 update_coverage_threshold_pass - <span style="color:#00AA00">A (4)</span>
@@ -78,14 +78,16 @@ dashboard/src/html_generator.py
     <span style="color:#AA00AA">F </span>13:0 generate_details_page_for_repository - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>33:0 generate_charts_page_for_repository - <span style="color:#00AA00">A (2)</span>
 dashboard/src/config.py
-    <span style="color:#00AA00">M </span>53:4 Config.get_code_coverage_threshold_for_project - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>6:0 Config - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>53:4 Config.get_code_coverage_threshold - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AA00">M </span>20:4 Config.get_project_url - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>30:4 Config.get_sprint_plan_url - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>41:4 Config.get_list_of_issues_url - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>64:4 Config.get_repolist - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>72:4 Config.get_repolist - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>6:0 Config - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>11:4 Config.__init__ - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>16:4 Config.get_sprint - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>64:4 Config.get_code_coverage_threshold_for_project - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>68:4 Config.get_overall_code_coverage_threshold - <span style="color:#00AA00">A (1)</span>
 dashboard/src/source_files.py
     <span style="color:#AA00AA">F </span>16:0 get_source_files - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>6:0 parse_line_count - <span style="color:#00AA00">A (2)</span>
@@ -98,14 +100,14 @@ dashboard/src/dashboard.py
     <span style="color:#AA00AA">F </span>454:0 prepare_data_for_repositories - <span style="color:#00AA00">B (8)</span>
     <span style="color:#AA00AA">F </span>282:0 compute_status - <span style="color:#00AA00">B (7)</span>
     <span style="color:#AA00AA">F </span>254:0 parse_cyclomatic_complexity - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>553:0 main - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>559:0 main - <span style="color:#00AA00">B (6)</span>
     <span style="color:#AA00AA">F </span>60:0 check_system - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>542:0 production_smoketests_status - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>543:0 production_smoketests_status - <span style="color:#00AA00">A (5)</span>
     <span style="color:#AA00AA">F </span>269:0 parse_maintainability_index - <span style="color:#00AA00">A (4)</span>
     <span style="color:#AA00AA">F </span>318:0 remark_unit_test_coverage - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>396:0 export_into_csv - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>516:0 jobs_as_dict - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>534:0 read_job_statuses - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>517:0 jobs_as_dict - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>535:0 read_job_statuses - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>30:0 check_environment_variable - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>42:0 check_environment_variables - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>142:0 clone_or_fetch_repository - <span style="color:#00AA00">A (2)</span>
@@ -116,8 +118,9 @@ dashboard/src/dashboard.py
     <span style="color:#AA00AA">F </span>301:0 remark_docstyle - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>308:0 remark_linter_vs_docstyle - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>388:0 cleanup_repository - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>494:0 read_jobs_statuses - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>500:0 store_jobs_statuses - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>495:0 read_jobs_statuses - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>501:0 store_jobs_statuses - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>554:0 get_code_coverage_threshold - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>121:0 is_repository_cloned - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>126:0 clone_repository - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>135:0 fetch_repository - <span style="color:#00AA00">A (1)</span>
@@ -129,9 +132,9 @@ dashboard/src/dashboard.py
     <span style="color:#AA00AA">F </span>381:0 delete_work_files - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>425:0 prepare_data_for_liveness_table - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>443:0 prepare_data_for_sla_table - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>506:0 jenkins_api_query_job_statuses - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>511:0 jenkins_api_query_build_statuses - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>521:0 read_ci_jobs_statuses - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>507:0 jenkins_api_query_job_statuses - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>512:0 jenkins_api_query_build_statuses - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>522:0 read_ci_jobs_statuses - <span style="color:#00AA00">A (1)</span>
 dashboard/src/smoke_tests.py
     <span style="color:#00AA00">M </span>41:4 SmokeTests.read_ci_results - <span style="color:#00AA00">A (4)</span>
     <span style="color:#00AA00">M </span>34:4 SmokeTests.read_logs - <span style="color:#00AA00">A (3)</span>
@@ -901,6 +904,6 @@ perf-tests/src/gremlin_package_generator.py
     <span style="color:#00AA00">M </span>55:4 GremlinPackageGenerator.package_generator_for_ecosystem - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>65:4 GremlinPackageGenerator.package_version_generator_for_ecosystem - <span style="color:#00AA00">A (2)</span>
 
-824 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (2.3021844660194173)</span>
+827 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (2.2974607013301087)</span>
 </pre>

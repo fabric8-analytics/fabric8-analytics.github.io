@@ -24,9 +24,12 @@ tests/__init__.py
 
 ----------------------------------------------------
 Checking documentation strings in the following files
-setup.py
+setup.py __init__.py
 ----------------------------------------------------
 setup.py
 0
     Pass
-All checks passed for 4 source files
+__init__.py
+0
+    Pass
+All checks passed for 5 source files

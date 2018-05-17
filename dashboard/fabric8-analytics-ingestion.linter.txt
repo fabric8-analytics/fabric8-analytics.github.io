@@ -20,7 +20,9 @@ tests/__init__.py
 
 ----------------------------------------------------
 Running Python linter against selected files:
-setup.py
+setup.py __init__.py
 ----------------------------------------------------
 setup.py
+    Pass
+__init__.py
     Pass
