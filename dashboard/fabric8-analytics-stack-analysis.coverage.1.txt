@@ -56,7 +56,7 @@ Name                                                                           S
 /tagging_platform/helles/npm_tagger/__init__.py                                    0      0   100%
 /tagging_platform/helles/npm_tagger/get_descriptions_from_s3.py                   34     25    26%   22-57
 /tagging_platform/helles/npm_tagger/get_version_info_for_missing_packages.py      31     22    29%   21-51
-/tagging_platform/helles/npm_tagger/pytextrank_textrank_scoring.py               162    126    22%   34-41, 46-51, 66-105, 110-162, 168-182, 188-189, 194-199, 204-213, 218-220, 225-232, 237-246, 251
+/tagging_platform/helles/npm_tagger/pytextrank_textrank_scoring.py               162    126    22%   34-41, 46-51, 67-106, 112-164, 170-184, 190-191, 196-201, 206-215, 220-222, 227-234, 239-248, 253
 /util/__init__.py                                                                  0      0   100%
 /util/analytics_platform_util.py                                                  35     11    69%   14-20, 39-42, 74
 /util/data_store/__init__.py                                                       0      0   100%
