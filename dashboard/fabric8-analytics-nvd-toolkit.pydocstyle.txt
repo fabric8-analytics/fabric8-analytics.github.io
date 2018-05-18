@@ -58,6 +58,9 @@ src/toolkit/transformers/__init__.py
 src/toolkit/transformers/classifiers.py
 0
     Pass
+src/toolkit/transformers/feature_hooks.py
+0
+    Pass
 src/toolkit/transformers/hooks.py
 0
     Pass
@@ -79,7 +82,13 @@ tests/test_utils.py
 tests/test_handlers.py
 0
     Pass
+tests/test_extras.py
+0
+    Pass
 tests/test_hook.py
+0
+    Pass
+tests/test_feature_hooks.py
 0
     Pass
 tests/test_ecos.py
@@ -99,4 +108,4 @@ setup.py
 setup.py
 0
     Pass
-All checks passed for 30 source files
+All checks passed for 33 source files

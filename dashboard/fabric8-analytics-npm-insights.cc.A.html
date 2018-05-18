@@ -1,0 +1,81 @@
+<pre>tests/unit_tests/test_PMFRecommendation.py
+    <span style="color:#00AAAA">C </span>26:0 TestPMFRecommendation - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>29:4 TestPMFRecommendation.setUp - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>34:4 TestPMFRecommendation.test__find_closest_user_in_training_set - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>47:4 TestPMFRecommendation.test__sigmoid - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>51:4 TestPMFRecommendation.test_predict - <span style="color:#00AA00">A (1)</span>
+recommendation_engine/flask_predict.py
+    <span style="color:#AA00AA">F </span>51:0 recommendation - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>39:0 liveness - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>45:0 readiness - <span style="color:#00AA00">A (1)</span>
+recommendation_engine/predictor/abstract_recommender.py
+    <span style="color:#00AAAA">C </span>25:0 AbstractRecommender - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>30:4 AbstractRecommender.predict - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>35:4 AbstractRecommender.filter_recommendations - <span style="color:#00AA00">A (1)</span>
+recommendation_engine/predictor/online_recommendation.py
+    <span style="color:#00AA00">M </span>112:4 PMFRecommendation.predict - <span style="color:#AA5500">C (11)</span>
+    <span style="color:#00AA00">M </span>94:4 PMFRecommendation._find_closest_user_in_training_set - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AAAA">C </span>36:0 PMFRecommendation - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>78:4 PMFRecommendation._map_package_id_to_name - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>85:4 PMFRecommendation._map_package_name_to_id - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>45:4 PMFRecommendation.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>66:4 PMFRecommendation._load_model_output_matrices - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>89:4 PMFRecommendation._load_package_id_to_name_map - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>109:4 PMFRecommendation._sigmoid - <span style="color:#00AA00">A (1)</span>
+recommendation_engine/data_store/local_filesystem.py
+    <span style="color:#00AA00">M </span>48:4 LocalFileSystem.list_files - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>64:4 LocalFileSystem.read_generic_file - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>69:4 LocalFileSystem.read_json_file - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>74:4 LocalFileSystem.read_all_json_files - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>83:4 LocalFileSystem.write_json_file - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>97:4 LocalFileSystem.load_matlab_multi_matrix - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>34:0 LocalFileSystem - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>37:4 LocalFileSystem.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>44:4 LocalFileSystem.get_name - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>60:4 LocalFileSystem.remove_json_file - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>89:4 LocalFileSystem.upload_file - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>93:4 LocalFileSystem.download_file - <span style="color:#00AA00">A (1)</span>
+recommendation_engine/data_store/abstract_data_store.py
+    <span style="color:#00AAAA">C </span>24:0 AbstractDataStore - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>27:4 AbstractDataStore.get_name - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>32:4 AbstractDataStore.list_files - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>37:4 AbstractDataStore.read_json_file - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>42:4 AbstractDataStore.read_all_json_files - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>47:4 AbstractDataStore.write_json_file - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>52:4 AbstractDataStore.upload_file - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>57:4 AbstractDataStore.download_file - <span style="color:#00AA00">A (1)</span>
+recommendation_engine/data_store/s3_data_store.py
+    <span style="color:#00AA00">M </span>76:4 S3DataStore.list_files - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>119:4 S3DataStore.iterate_bucket_items - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>146:4 S3DataStore.upload_folder_to_s3 - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>137:4 S3DataStore.list_folders - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>38:0 S3DataStore - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>41:4 S3DataStore.__init__ - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>94:4 S3DataStore.read_all_json_files - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>160:4 S3DataStore.load_matlab_multi_matrix - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>62:4 S3DataStore.get_name - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>66:4 S3DataStore.read_json_file - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>70:4 S3DataStore.read_generic_file - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>103:4 S3DataStore.write_json_file - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>109:4 S3DataStore.upload_file - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>114:4 S3DataStore.download_file - <span style="color:#00AA00">A (1)</span>
+recommendation_engine/utils/fileutils.py
+    <span style="color:#AA00AA">F </span>24:0 load_rating - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>43:0 save_temporary_local_file - <span style="color:#00AA00">A (2)</span>
+recommendation_engine/config/params_scoring.py
+    <span style="color:#00AAAA">C </span>22:0 ScoringParams - <span style="color:#00AA00">A (1)</span>
+recommendation_engine/model/pmf_prediction.py
+    <span style="color:#00AAAA">C </span>27:0 PMFScoring - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>40:4 PMFScoring.predict_transform - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>33:4 PMFScoring.__init__ - <span style="color:#00AA00">A (1)</span>
+locustfiles/locustfile.py
+    <span style="color:#00AAAA">C </span>26:0 StackAnalysisUserBehaviour - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>30:4 StackAnalysisUserBehaviour.on_start - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>34:4 StackAnalysisUserBehaviour.trigger_stack_analysis_five_package_stack - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>43:0 StackAnalysisUserLocust - <span style="color:#00AA00">A (1)</span>
+deployment/submit_emr_job.py
+    <span style="color:#AA00AA">F </span>34:0 submit_job - <span style="color:#00AA00">A (2)</span>
+
+65 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (1.7846153846153847)</span>
+</pre>

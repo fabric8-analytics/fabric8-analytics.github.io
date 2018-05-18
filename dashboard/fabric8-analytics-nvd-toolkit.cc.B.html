@@ -1,28 +1,38 @@
-<pre>src/toolkit/utils.py
-    <span style="color:#AA00AA">F </span>62:0 has_reference - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#AA00AA">F </span>89:0 get_reference - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#AA00AA">F </span>137:0 nvd_to_dataframe - <span style="color:#00AA00">B (9)</span>
+<pre>tests/test_preprocessors.py
+    <span style="color:#00AA00">M </span>81:4 TestNLTKPreprocessor.test_tokenize - <span style="color:#00AA00">B (8)</span>
+src/toolkit/utils.py
+    <span style="color:#AA00AA">F </span>82:0 has_reference - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#AA00AA">F </span>109:0 get_reference - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#AA00AA">F </span>157:0 nvd_to_dataframe - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#AA00AA">F </span>62:0 check_attributes - <span style="color:#00AA00">B (7)</span>
 src/toolkit/pipelines/evaluation.py
-    <span style="color:#AA00AA">F </span>77:0 main - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>77:0 main - <span style="color:#00AA00">B (7)</span>
 src/toolkit/scripts/get_packages_by_commit.py
     <span style="color:#AA00AA">F </span>70:0 main - <span style="color:#00AA00">B (6)</span>
 src/toolkit/preprocessing/ecos.py
-    <span style="color:#00AA00">M </span>150:4 Maven.find_pom_files - <span style="color:#00AA00">B (10)</span>
-    <span style="color:#00AAAA">C </span>122:0 Maven - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>175:4 Maven.get_package_from_spec - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>152:4 Maven.find_pom_files - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#00AAAA">C </span>124:0 Maven - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>177:4 Maven.get_package_from_spec - <span style="color:#00AA00">B (6)</span>
 src/toolkit/preprocessing/preprocessors.py
-    <span style="color:#00AA00">M </span>446:4 NLTKPreprocessor.tokenize - <span style="color:#AA5500">C (14)</span>
-    <span style="color:#00AA00">M </span>41:4 NVDFeedPreprocessor.__init__ - <span style="color:#AA5500">C (11)</span>
-    <span style="color:#00AA00">M </span>242:4 LabelPreprocessor.transform - <span style="color:#AA5500">C (11)</span>
-    <span style="color:#00AA00">M </span>401:4 NLTKPreprocessor.transform - <span style="color:#00AA00">B (10)</span>
-    <span style="color:#00AA00">M </span>302:4 NLTKPreprocessor.__init__ - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#00AA00">M </span>364:4 NLTKPreprocessor.fit - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>129:4 NVDFeedPreprocessor._get_cve_attributes - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AAAA">C </span>281:0 NLTKPreprocessor - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>517:4 NLTKPreprocessor.tokenize - <span style="color:#AA5500">C (14)</span>
+    <span style="color:#00AA00">M </span>298:4 LabelPreprocessor.transform - <span style="color:#AA5500">C (11)</span>
+    <span style="color:#00AA00">M </span>162:4 NVDFeedPreprocessor._validate_attributes - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#00AA00">M </span>472:4 NLTKPreprocessor.transform - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#00AA00">M </span>238:4 LabelPreprocessor.fit - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#00AAAA">C </span>185:0 LabelPreprocessor - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>373:4 NLTKPreprocessor.__init__ - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>127:4 NVDFeedPreprocessor._get_cve_attributes - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>207:4 LabelPreprocessor.__init__ - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AAAA">C </span>338:0 NLTKPreprocessor - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>429:4 NLTKPreprocessor.fit - <span style="color:#00AA00">B (6)</span>
+src/toolkit/transformers/extractors.py
+    <span style="color:#00AA00">M </span>91:4 FeatureExtractor.transform - <span style="color:#00AA00">B (6)</span>
 src/toolkit/transformers/classifiers.py
-    <span style="color:#00AA00">M </span>153:4 NBClassifier.fit_predict - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#AA00AA">F </span>327:0 cross_validate - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>155:4 NBClassifier.fit_predict - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#AA00AA">F </span>329:0 cross_validate - <span style="color:#00AA00">B (7)</span>
+src/toolkit/transformers/feature_hooks.py
+    <span style="color:#AA00AA">F </span>36:0 __vendor_product_match - <span style="color:#00AA00">B (9)</span>
 
-18 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">B (8.38888888888889)</span>
+25 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">B (8.0)</span>
 </pre>
