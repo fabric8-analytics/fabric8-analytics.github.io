@@ -4,4 +4,99 @@ in following directories:
 src tests
 ----------------------------------------------------
 
-checking alias `python3.6` ... [1m[32m OK (B[m
+src/toolkit/pipelines/train.py
+0
+    Pass
+src/toolkit/pipelines/predict.py
+0
+    Pass
+src/toolkit/pipelines/pipelines.py
+0
+    Pass
+src/toolkit/pipelines/__init__.py
+0
+    Pass
+src/toolkit/pipelines/evaluation.py
+0
+    Pass
+src/toolkit/__init__.py
+0
+    Pass
+src/toolkit/utils.py
+0
+    Pass
+src/toolkit/config.py
+0
+    Pass
+src/toolkit/scripts/get_packages_by_commit.py
+0
+    Pass
+src/toolkit/scripts/__init__.py
+0
+    Pass
+src/toolkit/preprocessing/ecos.py
+0
+    Pass
+src/toolkit/preprocessing/__init__.py
+0
+    Pass
+src/toolkit/preprocessing/handlers.py
+0
+    Pass
+src/toolkit/preprocessing/preprocessors.py
+0
+    Pass
+src/toolkit/__about__.py
+0
+    Pass
+src/toolkit/transformers/extractors.py
+0
+    Pass
+src/toolkit/transformers/__init__.py
+0
+    Pass
+src/toolkit/transformers/classifiers.py
+0
+    Pass
+src/toolkit/transformers/hooks.py
+0
+    Pass
+tests/test_preprocessors.py
+0
+    Pass
+tests/test_scripts.py
+0
+    Pass
+tests/test_pipelines.py
+0
+    Pass
+tests/__init__.py
+0
+    Pass
+tests/test_utils.py
+0
+    Pass
+tests/test_handlers.py
+0
+    Pass
+tests/test_hook.py
+0
+    Pass
+tests/test_ecos.py
+0
+    Pass
+tests/test_classifiers.py
+0
+    Pass
+tests/test_extractors.py
+0
+    Pass
+
+----------------------------------------------------
+Checking documentation strings in the following files
+setup.py
+----------------------------------------------------
+setup.py
+0
+    Pass
+All checks passed for 30 source files

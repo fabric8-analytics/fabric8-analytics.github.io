@@ -3,12 +3,12 @@ Running Python linter against following directories:
 src tests
 ----------------------------------------------------
 
-Using real prefix '/usr'
+Using base prefix '/usr'
 New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/fabric8-gemini-server/venv/bin/python3
 Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/fabric8-gemini-server/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/fabric8-gemini-server/venv/bin/python3)
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Requirement already satisfied: pycodestyle in ./venv/lib/python3.6/site-packages (2.3.1)
+Requirement already satisfied: pycodestyle in ./venv/lib/python3.6/site-packages (2.4.0)
 src/auth.py
     Pass
 src/__init__.py
