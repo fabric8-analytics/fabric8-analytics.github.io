@@ -1,11 +1,12 @@
 <pre>f8a_tagger_cli.py
-    <span style="color:#AA00AA">F </span>133:0 cli_diff - <span style="color:#AA5500">D (21)</span>
+    <span style="color:#AA00AA">F </span>133:0 find_diffs - <span style="color:#AA5500">C (18)</span>
     <span style="color:#AA00AA">F </span>27:0 _print_result - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#AA00AA">F </span>164:0 cli_diff - <span style="color:#00AA00">A (4)</span>
     <span style="color:#AA00AA">F </span>56:0 cli_lookup - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>111:0 cli_aggregate - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>46:0 cli - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>94:0 cli_collect - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>182:0 cli_reckon - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>189:0 cli_reckon - <span style="color:#00AA00">A (1)</span>
 setup.py
     <span style="color:#AA00AA">F </span>14:0 get_requirements - <span style="color:#00AA00">A (2)</span>
 tests/test_tokenizer.py
@@ -201,19 +202,20 @@ f8a_tagger/utils.py
     <span style="color:#AA00AA">F </span>96:0 progressbarize - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>115:0 cwd - <span style="color:#00AA00">A (1)</span>
 f8a_tagger/keywords_chief.py
-    <span style="color:#00AA00">M </span>23:4 KeywordsChief.__init__ - <span style="color:#AA5500">D (23)</span>
-    <span style="color:#00AA00">M </span>150:4 KeywordsChief.get_keyword - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#00AA00">M </span>89:4 KeywordsChief.keywords - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#00AA00">M </span>193:4 KeywordsChief.filter_keyword - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>23:4 KeywordsChief.__init__ - <span style="color:#AA5500">C (18)</span>
+    <span style="color:#00AA00">M </span>153:4 KeywordsChief.get_keyword - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#00AA00">M </span>92:4 KeywordsChief.keywords - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#00AA00">M </span>82:4 KeywordsChief.read_keyword_file - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>196:4 KeywordsChief.filter_keyword - <span style="color:#00AA00">B (6)</span>
     <span style="color:#00AAAA">C </span>16:0 KeywordsChief - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>124:4 KeywordsChief.compute_ngram_size - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>177:4 KeywordsChief.extract_keywords - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>228:4 KeywordsChief.compute_synonyms - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>116:4 KeywordsChief.get_average_occurrence_count - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>139:4 KeywordsChief.get_synonyms - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>255:4 KeywordsChief.matches_keyword_pattern - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>112:4 KeywordsChief.get_keywords_count - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>247:4 KeywordsChief.is_keyword - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>127:4 KeywordsChief.compute_ngram_size - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AA00">M </span>180:4 KeywordsChief.extract_keywords - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>231:4 KeywordsChief.compute_synonyms - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>119:4 KeywordsChief.get_average_occurrence_count - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>142:4 KeywordsChief.get_synonyms - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>258:4 KeywordsChief.matches_keyword_pattern - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>115:4 KeywordsChief.get_keywords_count - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>250:4 KeywordsChief.is_keyword - <span style="color:#00AA00">A (1)</span>
 f8a_tagger/scoring.py
     <span style="color:#00AAAA">C </span>71:0 RelativeUsageScoring - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AA00">M </span>74:4 RelativeUsageScoring._scoring_func - <span style="color:#00AA00">A (3)</span>
@@ -242,17 +244,18 @@ f8a_tagger/corpus.py
     <span style="color:#00AA00">M </span>34:4 Corpus.get_size - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>42:4 Corpus.add - <span style="color:#00AA00">A (1)</span>
 f8a_tagger/recipes.py
-    <span style="color:#AA00AA">F </span>210:0 aggregate - <span style="color:#AA5500">D (21)</span>
+    <span style="color:#AA00AA">F </span>216:0 aggregate - <span style="color:#AA5500">C (20)</span>
     <span style="color:#AA00AA">F </span>25:0 _prepare_lookup - <span style="color:#00AA00">B (6)</span>
     <span style="color:#AA00AA">F </span>73:0 lookup_file - <span style="color:#00AA00">B (6)</span>
     <span style="color:#AA00AA">F </span>187:0 collect - <span style="color:#00AA00">A (5)</span>
     <span style="color:#AA00AA">F </span>123:0 lookup_readme - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>270:0 reckon - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>274:0 reckon - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>55:0 _perform_lookup - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>159:0 lookup_text - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>293:0 get_registered_collectors - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>298:0 get_registered_stemmers - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>303:0 get_registered_scorers - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>210:0 check_input_keywords_file - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>297:0 get_registered_collectors - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>302:0 get_registered_stemmers - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>307:0 get_registered_scorers - <span style="color:#00AA00">A (1)</span>
 f8a_tagger/keywords_set.py
     <span style="color:#00AA00">M </span>24:4 KeywordsSet.union - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AAAA">C </span>5:0 KeywordsSet - <span style="color:#00AA00">A (2)</span>
@@ -315,6 +318,6 @@ f8a_tagger/parsers/abstract.py
     <span style="color:#00AAAA">C </span>7:0 AbstractParser - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>10:4 AbstractParser.parse - <span style="color:#00AA00">A (1)</span>
 
-279 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (3.2222222222222223)</span>
+282 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (3.198581560283688)</span>
 </pre>
