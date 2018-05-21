@@ -1,0 +1,18 @@
+<footer class="inner" style="margin-top: 75px;">
+  <div class="footer-buttons">
+	  <a href="https://chat.openshift.io/developers/channels/fabric8-analytics" id='contact-community' class="button"><span style="background: transparent url({{ 'assets/images/organization.png' | absolute_url }}) 12px 50% no-repeat;"> Community</span></a>
+	  {% if site.github.is_project_page %}
+		  <a href="{{ site.github.repository_url }}" id="view-on-github" class="button"><span>View on GitHub</span></a>
+	  {% else %}
+		  <a href="{{ site.github.owner_url }}" id="view-on-github" class="button"><span>View on GitHub</span></a>
+		{% endif %}
+  </div>
+  <div class="footer-note">
+	  <span aria-label="Made with love by GitHub and friends">
+			<a href="" class="">Made with :heart: by :octocat:s and friends</a>
+	  </span>  
+	  
+	  <p>&copy; {{ site.time | date: '%Y' }} {{ site.name }} {{ site.data.ui-text[site.locale].powered_by }} <a href="http://jekyllrb.com" rel="nofollow" class="">Jekyll</a>
+	  </p>
+  </div>
+</footer>

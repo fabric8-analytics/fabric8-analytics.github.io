@@ -1,0 +1,26 @@
+---
+layout: none
+---
+[{% for repo in site.data.repositories %}
+	{
+		"name": "{{ repo.name }}",
+		"nick": "{{ repo.nick }}",
+		"description": {{ repo.description | jsonify }},
+		"github": "{{ repo.github }}",
+		"url": "{{ repo.url }}",
+		"imports": [{% for _repo in repo.imports %}
+			{% if _repo == null %}{% break %}{% endif %}
+			{% if _repo == "all" %}
+				{% for _all_repo in site.data.repositories %}
+					{% if _all_repo != _repo %}
+						"{{ _all_repo.name }}"{% if forloop.last == false %},{% endif %}
+					{% endif %}
+				{% endfor %}
+			{% else %}
+				"{{ _repo }}"{% if forloop.last == false %},{% endif %}
+			{% endif %}
+			{% endfor %}
+		],
+		"meta": 1
+	}{% if forloop.last == false %},{% endif %}
+{% endfor %}]

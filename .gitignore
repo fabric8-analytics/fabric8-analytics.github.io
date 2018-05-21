@@ -1,0 +1,6 @@
+# folders to ignore
+_site/
+
+
+# files to ignore
+**/*.swp

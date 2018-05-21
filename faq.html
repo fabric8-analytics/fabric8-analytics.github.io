@@ -1,0 +1,13 @@
+---
+ref: faq
+layout: default
+permalink: /faq/
+---
+
+<div class="inner">
+
+	{% capture faq %}{% include FAQ.md %}{% endcapture %}
+	{{ faq | markdownify }}
+
+</div>
+
