@@ -1,35 +1,36 @@
+- name: fabric8-analytics-auth
+  nick: Auth
+  github: /fabric8-analytics/fabric8-analytics-auth
+  description: Authentication utilities for Fabric8 Analytics flask applications
+  url: "#" # TODO
+  imports: null # TODO
+
+
+- name: fabric8-analytics-api-gateway
+  nick: API Gateway
+  github: /fabric8-analytics/fabric8-analytics-api-gateway
+  description: Gateway for API requests.
+  url: "#" # TODO
+  imports: null # TODO
+
+
 - name: fabric8-analytics-common
   nick: Common
   github: /fabric8-analytics/fabric8-analytics-common
   description: |
       Tests and setup tools for Fabric8 Analytics core stream, also contains dashboard for performance tests and tooling around it.
-
       Start with this repository.
   url: "#" # TODO
   imports: "all"
 
-- name: fabric8-analytics-server
-  nick: Server
-  github: /fabric8-analytics/fabric8-analytics-server
-  description: Core API services. The API microservice is reponsible for scheduling and serving analyses based on client requests.
-  url: "#" # TODO
-  imports:
-      - fabric8-analytics-worker
 
-- name: fabric8-analytics-worker
-  nick: Worker
-  github: /fabric8-analytics/fabric8-analytics-worker
-  description: Core library and services. Provides basic infrastrucutre for development of services and concrete implementation of services.
+- name: fabric8-analytics-data-model
+  nick: Data Model
+  github: /fabric8-analytics/fabric8-analytics-data-model
+  description: Data related work - allows connecting to graphing engine, importing new data and exploring stored data.
   url: "#" # TODO
   imports: null # TODO
 
-- name: fabric8-analytics-jobs
-  nick: Jobs
-  github: /fabric8-analytics/fabric8-jobs
-  description: Single configuration point for core periodic and query specific jobs.
-  url: "#" # TODO
-  imports:
-      - fabric8-analytics-worker
 
 - name: fabric8-analytics-deployment
   nick: Deployment
@@ -42,48 +43,6 @@
       - fabric8-analytics-jobs
       - fabric8-analytics-data-model
 
-- name: fabric8-analytics-data-model
-  nick: Data Model
-  github: /fabric8-analytics/fabric8-analytics-data-model
-  description: Data related work - allows connecting to graphing engine, importing new data and exploring stored data.
-  url: "#" # TODO
-  imports: null # TODO
-
-- name: fabric8-analytics-stack-analysis
-  nick: Stack Analysis
-  github: /fabric8-analytics/fabric8-analytics-stack-analysis
-  description: Analytics base repository providing multiple platforms for data operations and inference.
-  url: "#" # TODO
-  imports: null # TODO
-
-- name: fabric8-analytics-license-analysis
-  nick: License Analysis
-  github: /fabric8-analytics/fabric8-analytics-license-analysis
-  description: Stack license related analysation, ie. unknown and conflicting licenses and stack level license.
-  url: "#" # TODO
-  imports: null # TODO
-
-- name: f8a-server-backbone
-  nick: Backbone
-  github: /fabric8-analytics/f8a-server-backbone
-  description: Server backbone service for stack aggregation and recommendation. Interacts with Kronos service
-  url: "#" # TODO
-  imports:
-      - fabric8-analytics-worker
-
-- name: fabric8-analytics-api-gateway
-  nick: API Gateway
-  github: /fabric8-analytics/fabric8-analytics-api-gateway
-  description: Gateway for API requests.
-  url: "#" # TODO
-  imports: null # TODO
-
-- name: fabric8-analytics-auth
-  nick: Auth
-  github: /fabric8-analytics/fabric8-analytics-auth
-  description: Authentication utilities for Fabric8 Analytics flask applications
-  url: "#" # TODO
-  imports: null # TODO
 
 - name: fabric8-gemini-server
   nick: Gemini Server
@@ -93,10 +52,77 @@
   imports:
       - fabric8-analytics-worker
 
+
+- name: fabric8-analytics-license-analysis
+  nick: License Analysis
+  github: /fabric8-analytics/fabric8-analytics-license-analysis
+  description: Stack license related analysation, ie. unknown and conflicting licenses and stack level license.
+  url: "#" # TODO
+  imports: null # TODO
+
+
+- name: fabric8-analytics-npm-insights
+  nick: NPM Insights
+  github: /fabric8-analytics/fabric8-analytics-npm-insights
+  description: This repository contains the code for the model that serves the companion recommendations for NPM
+  url: "#" # TODO
+  imports: null # TODO
+
 - name: fabric8-analytics-nvd-toolkit
   nick: NVD Toolkit
   github: /fabric8-analytics/fabric8-analytics-nvd-toolkit
   description:  Tools for processing National Vulnerability Database feeds.
+  url: "#" # TODO
+  imports: null # TODO
+
+
+- name: fabric8-analytics-jobs
+  nick: Jobs
+  github: /fabric8-analytics/fabric8-jobs
+  description: Single configuration point for core periodic and query specific jobs.
+  url: "#" # TODO
+  imports:
+      - fabric8-analytics-worker
+
+
+- name: fabric8-analytics-server
+  nick: Server
+  github: /fabric8-analytics/fabric8-analytics-server
+  description: Core API services. The API microservice is reponsible for scheduling and serving analyses based on client requests.
+  url: "#" # TODO
+  imports:
+      - fabric8-analytics-worker
+
+
+- name: f8a-server-backbone
+  nick: Server Backbone
+  github: /fabric8-analytics/f8a-server-backbone
+  description: Server backbone service for stack aggregation and recommendation. Interacts with Kronos service
+  url: "#" # TODO
+  imports:
+      - fabric8-analytics-worker
+
+
+- name: fabric8-analytics-stack-analysis
+  nick: Stack Analysis
+  github: /fabric8-analytics/fabric8-analytics-stack-analysis
+  description: Analytics base repository providing multiple platforms for data operations and inference.
+  url: "#" # TODO
+  imports: null # TODO
+
+
+- name: fabric8-analytics-version-comparator
+  nick: Version Comparator
+  github: /fabric8-analytics/fabric8-analytics-version-comparator
+  description: Tool to compare maven versions.
+  url: "#" # TODO
+  imports: null # TODO
+
+
+- name: fabric8-analytics-worker
+  nick: Worker
+  github: /fabric8-analytics/fabric8-analytics-worker
+  description: Core library and services. Provides basic infrastrucutre for development of services and concrete implementation of services.
   url: "#" # TODO
   imports: null # TODO
 
