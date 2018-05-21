@@ -71,7 +71,7 @@ Once you no longer need the Analytics deployment, run
 
 <br>
 
- ## Stack Analyses - Kronos
+## Stack Analyses - Kronos
 
  You might want to deploy stack analyses localy as well (although that's not what we typicaly do, since it requires some data in order to perform, OpenShift is a better solution ;)).
  In order to to that, you should clone the [fabric8-analytics-stack-analysis](https://github.com/fabric8-analytics/fabric8-analytics-stack-analysis) repository.
