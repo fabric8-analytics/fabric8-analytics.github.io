@@ -43,5 +43,5 @@ exclude:
 #   - vendor/ruby/
 #
 # METADATA
-is_project_page: false
+is_project_page: true
 
