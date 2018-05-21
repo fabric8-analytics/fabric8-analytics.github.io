@@ -28,7 +28,9 @@ Start by cloning or forking the [fabric8-analytics-deployement](https://github.c
  and start setting things up.
 
 ---
- > **Proceed further only with `env.sh` file set up (see [credentials](/resources/credentials)) !**
+
+ > Proceed further only with `env.sh` file set up (see [credentials](/resources/credentials)) !
+
 ---
 
 Now you can log in with the [oc tool](https://www.openshift.org/download.html).
@@ -71,7 +73,7 @@ Once you no longer need the Analytics deployment, run
 
 <br>
 
-## Stack Analyses - Kronos
+#### Stack Analyses - Kronos
 
  You might want to deploy stack analyses localy as well (although that's not what we typicaly do, since it requires some data in order to perform, OpenShift is a better solution ;)).
  In order to to that, you should clone the [fabric8-analytics-stack-analysis](https://github.com/fabric8-analytics/fabric8-analytics-stack-analysis) repository.

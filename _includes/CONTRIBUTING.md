@@ -23,10 +23,10 @@ propose changes to this document in a pull request.
 
 Core Reviewers are:
 
-* Michal Srb <msrb@redhat.com>
 * Marek Cermak <macermak@redhat.com>
-* Tomas Hrcka <thrcka@redhat.com>
+* Michal Srb <msrb@redhat.com>
 * Pavel Tisnovsky <ptisnovs@redhat.com>
+* Tomas Hrcka <thrcka@redhat.com>
 
 Before you submit your pull request consider the following guidelines:
 
@@ -48,7 +48,7 @@ Before you submit your pull request consider the following guidelines:
     ```
 
 * When opening a pull request, select the `master` branch as a base.
-* Mark your pull request with **[WIP]** (Work In Progress) to get feedback but prevent merging (`e.g. [WIP] Update CONTRIBUTING.md`)
+* Mark your pull request with `[WIP]` (Work In Progress) to get feedback but prevent merging (`e.g. [WIP] Update CONTRIBUTING.md`)
 * If we suggest changes then:
 
   * Make the required updates
