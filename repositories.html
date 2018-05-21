@@ -42,45 +42,6 @@ permalink: /repositories/
         }
     }
 
-
-    @keyframes fadeOut {
-        0% {
-            opacity: 1;
-            transform: scale(1);
-        }
-        50% {
-            opacity: .7;
-            transform: scale(.7);
-        }
-        70% {
-            opacity: .3;
-            transform: scale(.3);
-        }
-        100% {
-            opacity: 0;
-            transform: scale(0);
-        }
-    }
-
-    @-webkit-keyframes fadeOut {
-        0% {
-            opacity: 1;
-            transform: scale(1);
-        }
-        50% {
-            opacity: .7;
-            transform: scale(.7);
-        }
-        70% {
-            opacity: .3;
-            transform: scale(.3);
-        }
-        100% {
-            opacity: 0;
-            transform: scale(0);
-        }
-    }
-
     #repo_vis {
         display: flex;
         justify-content: center;
@@ -143,15 +104,14 @@ permalink: /repositories/
         white-space: pre-wrap;
     }
 
-    .d3-tip.animate-in {
-        animation: fadeIn 0.5s ease-out;
-        -webkit-animation: fadeIn 0.5s ease-out;
-    }
+    /*.d3-tip.animate-in {*/
+        /*animation: fadeIn 0.5s ease-in;*/
+        /*-webkit-animation: fadeIn 0.5s ease-in;*/
+    /*}*/
 
-    .d3-tip.animate-out {
-        animation: fadeOut 2s ease-out;
-        animation-delay: 1s;
-        -webkit-animation: fadeOut 2s ease-out;
+    .d3-tip.animate {
+        animation: fadeIn 0.5s ease-in;
+        -webkit-animation: fadeIn 0.5s ease-in;
     }
 
     /* Creates a small triangle extender for the tooltip */
@@ -212,7 +172,7 @@ permalink: /repositories/
         .attr("transform", "translate(" + radius + "," + radius + ")");
 
     const tip = d3.tip()
-        .attr('class', 'd3-tip')
+        .attr('class', 'd3-tip animate')
         .offset([-10, 0])
         .html(function(d) {
             return "<span>" + d.data.name + "<br><br>" + d.data.description + "</span>";
@@ -248,7 +208,7 @@ permalink: /repositories/
             .text(function(d) { return d.data.key; })
             .on("mouseover", mouseovered)
             .on("mouseout", mouseouted)
-            .on("click", (d) => console.log(d));
+            .on("click", (d) => window.location = "https://github.com/" + d.data.github);
 
     });
 
@@ -266,7 +226,6 @@ permalink: /repositories/
             .classed("node--target", function(n) { return n.target; })
             .classed("node--source", function(n) { return n.source; });
 
-        tip.attr('class', 'd3-tip animate-in');
         tip.show(d);
     }
 
@@ -279,8 +238,7 @@ permalink: /repositories/
             .classed("node--target", false)
             .classed("node--source", false);
 
-        tip.attr('class', 'd3-tip animate-out');
-        tip.hide(d);
+//        tip.hide()
     }
 
     // Lazily construct the package hierarchy from class names.
