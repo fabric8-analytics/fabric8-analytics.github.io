@@ -35,7 +35,7 @@ main:
                 url: /resources/learnings/
 
         - title: Dashboard
-          url: /resources/dashboard/
+          url: /dashboard/dashboard.html
 
         - title: FAQ
           url: /faq/

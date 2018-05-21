@@ -1,0 +1,74 @@
+<pre>src/server/recommender_service.py
+    <span style="color:#00AAAA">C </span>8:0 RecommenderService - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>15:4 RecommenderService.generate_recommendations_for - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>35:4 RecommenderService._get_stack_values - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>11:4 RecommenderService.__init__ - <span style="color:#00AA00">A (1)</span>
+src/server/ghazab_app.py
+    <span style="color:#AA00AA">F </span>35:0 list_routes - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>74:0 get_recommendation - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>52:0 not_found - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>58:0 index - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>64:0 apis_index - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>89:0 get_recommendation_for - <span style="color:#00AA00">A (1)</span>
+src/models/similarity_with_frequent_patterns/scoring/db.py
+    <span style="color:#AA00AA">F </span>17:0 get_reference_stacks_from_graph - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#AA00AA">F </span>68:0 get_input_stacks_vectors_from_graph - <span style="color:#00AA00">B (7)</span>
+src/models/similarity_with_frequent_patterns/scoring/entities/entities.py
+    <span style="color:#00AA00">M </span>64:4 AppStack.has_dependencies - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>41:4 AppStack.read_from_dict - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>21:0 AppStack - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>33:4 AppStack.read_from_file - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>92:0 Version - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>95:4 Version.__init__ - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>137:4 SimilarStack.__cmp__ - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>10:0 default_json_decoder - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>15:0 User - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>24:4 AppStack.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>59:4 AppStack.has_version_val - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>70:4 AppStack.return_json - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>75:0 Dependency - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>78:4 Dependency.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>84:0 VersionSpec - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>87:4 VersionSpec.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>103:0 Recommendations - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>106:4 Recommendations.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>112:4 Recommendations.return_json - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>117:0 SimilarStack - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>120:4 SimilarStack.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>133:4 SimilarStack.__repr__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>142:4 SimilarStack.getKey - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>146:4 SimilarStack.return_json - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>151:0 PackageGuidance - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>154:4 PackageGuidance.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>161:0 StackActivity - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>164:4 StackActivity.__init__ - <span style="color:#00AA00">A (1)</span>
+src/models/similarity_with_frequent_patterns/scoring/similarity/semvercomp.py
+    <span style="color:#00AA00">M </span>30:4 RelativeSimilarity.getspecs - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#00AAAA">C </span>9:0 RelativeSimilarity - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AA00">M </span>16:4 RelativeSimilarity.compareversion - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>12:4 RelativeSimilarity.__init__ - <span style="color:#00AA00">A (1)</span>
+src/models/similarity_with_frequent_patterns/scoring/similarity/relativesimilarity.py
+    <span style="color:#00AA00">M </span>113:4 RelativeSimilarity.find_relative_similarity - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#00AA00">M </span>50:4 RelativeSimilarity.getp_value_graph - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AA00">M </span>76:4 RelativeSimilarity.downstream_boosting - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AAAA">C </span>12:0 RelativeSimilarity - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>26:4 RelativeSimilarity.relative_similarity - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>38:4 RelativeSimilarity.get_refstack_component_list - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>94:4 RelativeSimilarity.filter_package - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>19:4 RelativeSimilarity.compare_version - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>15:4 RelativeSimilarity.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>89:4 RelativeSimilarity.compute_modified_jaccard_similarity - <span style="color:#00AA00">A (1)</span>
+src/models/similarity_with_frequent_patterns/training/gen_ref_stacks.py
+    <span style="color:#AA00AA">F </span>25:0 extract_ecosystem - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>30:0 map_package_versions - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>43:0 freqItemsetToRefStack - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>70:0 fire_gremlin - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>103:0 main - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>83:0 gremlin_str_pkg_version - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>89:0 gremlin_str_ref_stack - <span style="color:#00AA00">A (1)</span>
+src/deployment/spark_aws/submit_training_job.py
+    <span style="color:#AA00AA">F </span>18:0 run - <span style="color:#00AA00">A (2)</span>
+
+62 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (2.274193548387097)</span>
+</pre>

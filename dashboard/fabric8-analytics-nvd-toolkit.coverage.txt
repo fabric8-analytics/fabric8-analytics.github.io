@@ -1,0 +1,24 @@
+Name                                            Stmts   Miss  Cover   Missing
+-----------------------------------------------------------------------------
+src/toolkit/__about__.py                            9      0   100%
+src/toolkit/__init__.py                             5      0   100%
+src/toolkit/config.py                               5      0   100%
+src/toolkit/pipelines/__init__.py                   3      0   100%
+src/toolkit/pipelines/evaluation.py                53      4    92%   83, 109-111, 151
+src/toolkit/pipelines/pipelines.py                 32      0   100%
+src/toolkit/pipelines/predict.py                   25      1    96%   71
+src/toolkit/pipelines/train.py                     40      3    92%   80, 143, 147
+src/toolkit/preprocessing/__init__.py               2      0   100%
+src/toolkit/preprocessing/ecos.py                  91      7    92%   57, 62, 164, 200-203
+src/toolkit/preprocessing/handlers.py              99      4    96%   84, 134, 143, 188
+src/toolkit/preprocessing/preprocessors.py        173     17    90%   134, 165, 173, 217, 221, 225, 235, 273, 277, 293, 311, 324, 463-465, 513, 530-532
+src/toolkit/scripts/__init__.py                     0      0   100%
+src/toolkit/scripts/get_packages_by_commit.py      53      7    87%   90-96, 158, 167
+src/toolkit/transformers/__init__.py                3      0   100%
+src/toolkit/transformers/classifiers.py           132     20    85%   61, 141, 187, 191, 202, 208, 251-254, 265, 296-306, 367, 373, 376, 416
+src/toolkit/transformers/extractors.py             97      2    98%   45, 191
+src/toolkit/transformers/feature_hooks.py          55      2    96%   72-73
+src/toolkit/transformers/hooks.py                  27      1    96%   69
+src/toolkit/utils.py                              104     16    85%   21, 40, 48, 50, 55, 59, 199, 204-208, 223-226, 245-246
+-----------------------------------------------------------------------------
+TOTAL                                            1008     84    92%

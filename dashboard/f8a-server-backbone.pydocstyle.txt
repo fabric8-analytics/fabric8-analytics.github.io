@@ -1,0 +1,54 @@
+----------------------------------------------------
+Checking documentation strings in all sources stored
+in following directories:
+src tests
+----------------------------------------------------
+
+Using base prefix '/usr'
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/f8a-server-backbone/venv/bin/python3
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/f8a-server-backbone/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/f8a-server-backbone/venv/bin/python3)
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (2.1.1)
+Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.2.1)
+Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.11.0)
+src/__init__.py
+0
+    Pass
+src/utils.py
+0
+    Pass
+src/rest_api.py
+0
+    Pass
+src/stack_aggregator.py
+0
+    Pass
+src/dependency_editor.py
+0
+    Pass
+src/recommender.py
+0
+    Pass
+tests/test_rest_api.py
+0
+    Pass
+tests/__init__.py
+0
+    Pass
+tests/test_dependency_editor.py
+0
+    Pass
+tests/test_utils.py
+0
+    Pass
+tests/test_stack_aggregator.py
+0
+    Pass
+tests/test_recommender.py
+0
+    Pass
+tests/conftest.py
+0
+    Pass
+All checks passed for 13 source files

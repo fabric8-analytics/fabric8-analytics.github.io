@@ -1,0 +1,267 @@
+<pre>f8a-jobs.py
+    <span style="color:#AA00AA">F </span>89:0 api_v1 - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>24:0 SafeJSONEncoder - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>27:4 SafeJSONEncoder.default - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>37:0 init_logging - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>82:0 base_url - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>102:0 initjobs - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>113:0 runserver - <span style="color:#00AA00">A (1)</span>
+setup.py
+    <span style="color:#AA00AA">F </span>9:0 get_requirements - <span style="color:#00AA00">A (2)</span>
+tests/test_api_v1.py
+    <span style="color:#00AAAA">C </span>8:0 TestApiV1Functions - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>11:4 TestApiV1Functions.setup_method - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>15:4 TestApiV1Functions.teardown_method - <span style="color:#00AA00">A (1)</span>
+tests/test_auth.py
+    <span style="color:#00AAAA">C </span>8:0 TestAuthFunctions - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>11:4 TestAuthFunctions.setup_method - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>15:4 TestAuthFunctions.teardown_method - <span style="color:#00AA00">A (1)</span>
+tests/test_utils.py
+    <span style="color:#00AA00">M </span>19:4 TestUtilFunctions.test_parse_dates - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>8:0 TestUtilFunctions - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>11:4 TestUtilFunctions.setup_method - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>15:4 TestUtilFunctions.teardown_method - <span style="color:#00AA00">A (1)</span>
+tests/test_analyses_report.py
+    <span style="color:#00AAAA">C </span>8:0 TestAnalysesReport - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>11:4 TestAnalysesReport.setup_method - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>15:4 TestAnalysesReport.teardown_method - <span style="color:#00AA00">A (1)</span>
+tests/handlers/test_crowd_source_tag.py
+    <span style="color:#00AA00">M </span>39:4 TestCrowdSourceTags.test_filter_user_tags_double_pkg - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AAAA">C </span>8:0 TestCrowdSourceTags - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>11:4 TestCrowdSourceTags.test_filter_user_tags_single_pkg - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>25:4 TestCrowdSourceTags.test_filter_user_tags_multiple_user_tags - <span style="color:#00AA00">A (3)</span>
+tests/handlers/test_base_handler.py
+    <span style="color:#00AAAA">C </span>7:0 TestAnalysesBaseHandler - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>10:4 TestAnalysesBaseHandler.test_parse_count - <span style="color:#00AA00">A (2)</span>
+f8a_jobs/auth.py
+    <span style="color:#AA00AA">F </span>21:0 get_github_oauth_token - <span style="color:#00AA00">A (1)</span>
+f8a_jobs/models.py
+    <span style="color:#00AA00">M </span>54:4 JobToken.verify - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>88:4 JobToken._invalidate_tokens - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AA00">M </span>136:4 JobToken.get_info - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AAAA">C </span>31:0 JobToken - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>109:4 JobToken.store_token - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>19:0 create_models - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>25:0 get_session - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>43:4 JobToken.to_dict - <span style="color:#00AA00">A (1)</span>
+f8a_jobs/scheduler.py
+    <span style="color:#00AA00">M </span>88:4 Scheduler.schedule_job - <span style="color:#AA5500">D (25)</span>
+    <span style="color:#00AAAA">C </span>30:0 Scheduler - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#00AA00">M </span>208:4 Scheduler.register_default_jobs - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>243:0 job_execute - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>59:4 Scheduler.get_scheduler - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>73:4 Scheduler.get_paused_scheduler - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>275:0 uses_scheduler - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>24:0 ScheduleJobError - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>55:4 Scheduler.__init__ - <span style="color:#00AA00">A (1)</span>
+f8a_jobs/utils.py
+    <span style="color:#AA00AA">F </span>180:0 purge_queues - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>65:0 job2raw_dict - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>214:0 parse_dates - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>128:0 _get_queues - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>24:0 get_service_state_str - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>34:0 get_job_state_str - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>161:0 construct_queue_attributes - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>110:0 is_organization_member - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>45:0 is_failed_job - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>54:0 is_failed_job_handler_name - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>87:0 requires_auth - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>123:0 get_gh_token - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>146:0 requires_aws_sqs_access - <span style="color:#00AA00">A (1)</span>
+f8a_jobs/error.py
+    <span style="color:#00AAAA">C </span>4:0 TokenExpired - <span style="color:#00AA00">A (1)</span>
+f8a_jobs/analyses_report.py
+    <span style="color:#AA00AA">F </span>10:0 _add_query_datetime_constrains - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>78:0 construct_analyses_report - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>35:0 _count - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>22:0 _get_base_query - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>43:0 _get_finished_analyses_count - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>48:0 _get_unfinished_analyses_count - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>53:0 _get_unique_analyses_count - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>58:0 _get_unique_finished_analyses_count - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>63:0 _get_packages_count - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>68:0 _get_finished_packages_count - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>73:0 _get_versions_count - <span style="color:#00AA00">A (1)</span>
+f8a_jobs/api_v1.py
+    <span style="color:#AA00AA">F </span>149:0 get_jobs - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#AA00AA">F </span>46:0 authorized - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>92:0 put_service_state - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>132:0 put_jobs - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>120:0 delete_clean_failed - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>37:0 logout - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>109:0 delete_jobs - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>190:0 post_schedule_job - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>203:0 post_show_select_query - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>216:0 post_expand_filter_query - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>227:0 get_analyses_report - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>237:0 get_queue_attributes - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>248:0 get_gh_tokens_rate_limits - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>279:0 post_analyses - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>292:0 github_most_starred - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>325:0 post_clean_postgres - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>357:0 post_queue_purge - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>31:0 generate_token - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>85:0 get_service_state - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>173:0 get_readiness - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>178:0 get_liveness - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>265:0 post_flow_scheduling - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>272:0 post_selective_flow_scheduling - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>304:0 github_manifests - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>311:0 aggregate_crowd_source_tags - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>318:0 aggregate_github_manifest_pkgs - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>336:0 post_sync_to_graph - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>343:0 post_invoke_graph_sync - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>350:0 post_aggregate_topics - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>367:0 post_maven_releases - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>374:0 get_maven_releases - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>381:0 put_maven_releases - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>389:0 bookkeeping_all - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>396:0 bookkeeping_ecosystem - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>403:0 bookkeeping_ecosystem_package - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>410:0 bookkeeping_epv - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>417:0 bookkeeping_upstreams_all - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>424:0 bookkeeping_upstreams_ecosystem - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>431:0 bookkeeping_upstreams_ecosystem_package - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>438:0 post_kronos_data_update - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>446:0 retrieve_graphsync_all - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>453:0 retrieve_graphsync_ecosystem - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>460:0 retrieve_graphsync_ecosystem_package - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>471:0 retrieve_graphsync_epv - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>484:0 invoke_graphsync_all - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>491:0 invoke_graphsync_ecosystem - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>498:0 invoke_graphsync_ecosystem_package - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>509:0 invoke_graphsync_epv - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>521:0 post_run_victims_check - <span style="color:#00AA00">A (1)</span>
+f8a_jobs/graph_sync.py
+    <span style="color:#AA00AA">F </span>14:0 _api_call - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>27:0 fetch_pending - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>40:0 invoke_sync - <span style="color:#00AA00">A (3)</span>
+f8a_jobs/handlers/aggregate_crowd_source_tags.py
+    <span style="color:#00AA00">M </span>14:4 AggregateCrowdSourceTags.execute - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>114:4 AggregateCrowdSourceTags._update_tags_from_graph - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>148:4 AggregateCrowdSourceTags.filter_user_tags - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>11:0 AggregateCrowdSourceTags - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>48:4 AggregateCrowdSourceTags._execute_query - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>75:4 AggregateCrowdSourceTags._set_user_tags_query - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>95:4 AggregateCrowdSourceTags._set_usercount_query - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>40:4 AggregateCrowdSourceTags._get_graph_url - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>60:4 AggregateCrowdSourceTags._get_usertags_query - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>166:4 AggregateCrowdSourceTags.process_tags - <span style="color:#00AA00">A (1)</span>
+f8a_jobs/handlers/npm_popular_analyses.py
+    <span style="color:#00AA00">M </span>35:4 NpmPopularAnalyses._use_npm_registry - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AAAA">C </span>9:0 NpmPopularAnalyses - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>16:4 NpmPopularAnalyses._schedule_from_npm_registry - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>66:4 NpmPopularAnalyses._use_npm_popular - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>80:4 NpmPopularAnalyses.do_execute - <span style="color:#00AA00">A (2)</span>
+f8a_jobs/handlers/maven_popular_analyses.py
+    <span style="color:#00AA00">M </span>53:4 MavenPopularAnalyses._projects_from - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#00AA00">M </span>129:4 MavenPopularAnalyses._use_maven_index_checker - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#00AA00">M </span>29:4 MavenPopularAnalyses._find_versions - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>194:4 MavenPopularAnalyses.do_execute - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AAAA">C </span>17:0 MavenPopularAnalyses - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>99:4 MavenPopularAnalyses._top_categories_projects - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>113:4 MavenPopularAnalyses._top_tags_projects - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>23:4 MavenPopularAnalyses.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>94:4 MavenPopularAnalyses._top_projects - <span style="color:#00AA00">A (1)</span>
+f8a_jobs/handlers/github_manifests.py
+    <span style="color:#00AAAA">C </span>8:0 GitHubManifests - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>13:4 GitHubManifests.execute - <span style="color:#00AA00">B (6)</span>
+f8a_jobs/handlers/github_most_starred.py
+    <span style="color:#00AA00">M </span>48:4 GitHubMostStarred.get_most_starred_repositories - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>123:4 GitHubMostStarred.do_execute - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>40:4 GitHubMostStarred._get_stars_filter - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AAAA">C </span>10:0 GitHubMostStarred - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>95:4 GitHubMostStarred.execute - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>27:4 GitHubMostStarred.__init__ - <span style="color:#00AA00">A (1)</span>
+f8a_jobs/handlers/error.py
+    <span style="color:#00AAAA">C </span>8:0 ErrorHandler - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>11:4 ErrorHandler.execute - <span style="color:#00AA00">A (1)</span>
+f8a_jobs/handlers/nuget_popular_analyses.py
+    <span style="color:#00AA00">M </span>17:4 NugetPopularAnalyses._scrape_nuget_org - <span style="color:#AA5500">C (14)</span>
+    <span style="color:#00AAAA">C </span>11:0 NugetPopularAnalyses - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#00AA00">M </span>60:4 NugetPopularAnalyses.do_execute - <span style="color:#00AA00">A (1)</span>
+f8a_jobs/handlers/flow.py
+    <span style="color:#00AAAA">C </span>6:0 FlowScheduling - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>9:4 FlowScheduling.execute - <span style="color:#00AA00">A (4)</span>
+f8a_jobs/handlers/python_popular_analyses.py
+    <span style="color:#00AA00">M </span>58:4 PythonPopularAnalyses._use_pypi_ranking - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AAAA">C </span>12:0 PythonPopularAnalyses - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>18:4 PythonPopularAnalyses._parse_version_stats - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>41:4 PythonPopularAnalyses._use_pypi_xml_rpc - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>96:4 PythonPopularAnalyses.do_execute - <span style="color:#00AA00">A (2)</span>
+f8a_jobs/handlers/sync_to_graph.py
+    <span style="color:#00AAAA">C </span>10:0 SyncToGraph - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>15:4 SyncToGraph.execute - <span style="color:#00AA00">B (7)</span>
+f8a_jobs/handlers/kronos_data_update.py
+    <span style="color:#00AA00">M </span>98:4 KronosDataUpdater._processing - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#00AA00">M </span>79:4 KronosDataUpdater._append_package_topic - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AAAA">C </span>10:0 KronosDataUpdater - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>62:4 KronosDataUpdater._append_manifest - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>13:4 KronosDataUpdater.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>25:4 KronosDataUpdater.execute - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>41:4 KronosDataUpdater._generate_query - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>56:4 KronosDataUpdater._execute_query - <span style="color:#00AA00">A (1)</span>
+f8a_jobs/handlers/aggregate_github_manifest_pkgs.py
+    <span style="color:#00AA00">M </span>11:4 AggregateGitHubManifestPackages.execute - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#00AAAA">C </span>8:0 AggregateGitHubManifestPackages - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>113:4 AggregateGitHubManifestPackages._create_manifest_entry - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>82:4 AggregateGitHubManifestPackages._create_tagger_list - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>95:4 AggregateGitHubManifestPackages._create_data_structure - <span style="color:#00AA00">A (1)</span>
+f8a_jobs/handlers/clean_postgres.py
+    <span style="color:#00AA00">M </span>27:4 CleanPostgres._clean_package_version_data - <span style="color:#AA5500">C (15)</span>
+    <span style="color:#00AA00">M </span>92:4 CleanPostgres._clean_package_data - <span style="color:#AA5500">C (15)</span>
+    <span style="color:#00AAAA">C </span>12:0 CleanPostgres - <span style="color:#AA5500">C (11)</span>
+    <span style="color:#00AA00">M </span>156:4 CleanPostgres.execute - <span style="color:#00AA00">A (2)</span>
+f8a_jobs/handlers/book_keeping.py
+    <span style="color:#00AA00">M </span>136:4 BookKeeping.retrieve_bookkeeping_upstreams - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>69:4 BookKeeping.retrieve_bookkeeping_for_ecosystem_package - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>31:0 BookKeeping - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>39:4 BookKeeping.retrieve_bookkeeping_all - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>104:4 BookKeeping.retrieve_bookkeeping_for_epv - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>13:0 handle_sqlalchemy - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>34:4 BookKeeping.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>56:4 BookKeeping.retrieve_bookkeeping_for_ecosystem - <span style="color:#00AA00">A (1)</span>
+f8a_jobs/handlers/base.py
+    <span style="color:#00AA00">M </span>192:4 AnalysesBaseHandler.parse_count - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#00AA00">M </span>147:4 AnalysesBaseHandler.ecosystem2handler_name - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>215:4 AnalysesBaseHandler.check_arguments - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>66:4 BaseHandler.run_selinon_flow_selective - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>98:4 BaseHandler.expand_filter_query - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>130:0 AnalysesBaseHandler - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>23:0 BaseHandler - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>46:4 BaseHandler._init_celery - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>52:4 BaseHandler.run_selinon_flow - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>89:4 BaseHandler.is_filter_query - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>171:4 AnalysesBaseHandler.analyses_selinon_flow - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>231:4 AnalysesBaseHandler.execute - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>28:4 BaseHandler.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>36:4 BaseHandler.construct_select_query - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>125:4 BaseHandler.execute - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>136:4 AnalysesBaseHandler.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>252:4 AnalysesBaseHandler.do_execute - <span style="color:#00AA00">A (1)</span>
+f8a_jobs/handlers/golang_popular_analyses.py
+    <span style="color:#00AA00">M </span>31:4 GolangPopularAnalyses._popular_packages - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#00AA00">M </span>14:4 GolangPopularAnalyses._get_latest_commit - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AAAA">C </span>8:0 GolangPopularAnalyses - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>76:4 GolangPopularAnalyses._packages - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>93:4 GolangPopularAnalyses.do_execute - <span style="color:#00AA00">A (3)</span>
+f8a_jobs/handlers/selective_flow.py
+    <span style="color:#00AAAA">C </span>6:0 SelectiveFlowScheduling - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>9:4 SelectiveFlowScheduling.execute - <span style="color:#00AA00">A (4)</span>
+f8a_jobs/handlers/aggregate_topics.py
+    <span style="color:#00AA00">M </span>28:4 AggregateTopics.execute - <span style="color:#AA5500">C (11)</span>
+    <span style="color:#00AAAA">C </span>13:0 AggregateTopics - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>16:4 AggregateTopics._store_topics - <span style="color:#00AA00">A (1)</span>
+f8a_jobs/handlers/invoke_graph_sync.py
+    <span style="color:#00AA00">M </span>68:4 InvokeGraphSync.execute - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AAAA">C </span>11:0 InvokeGraphSync - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>31:4 InvokeGraphSync._fetch_all_counts - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>44:4 InvokeGraphSync._fetch_package_versions - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>57:4 InvokeGraphSync._perform_sync - <span style="color:#00AA00">A (2)</span>
+f8a_jobs/handlers/maven_releases.py
+    <span style="color:#00AAAA">C </span>15:0 MavenReleasesAnalyses - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#00AA00">M </span>18:4 MavenReleasesAnalyses.execute - <span style="color:#00AA00">B (8)</span>
+
+227 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (3.0616740088105727)</span>
+</pre>

@@ -1,0 +1,77 @@
+<pre>dashboard/src/unit_tests.py
+    <span style="color:#AA00AA">F </span>45:0 read_unit_test_coverage - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#AA00AA">F </span>68:0 read_unit_test_coverage_for_week - <span style="color:#00AA00">B (6)</span>
+dashboard/src/perf_tests.py
+    <span style="color:#00AA00">M </span>57:4 PerfTests.compute_stat_for_result_set - <span style="color:#00AA00">B (8)</span>
+dashboard/src/dashboard.py
+    <span style="color:#AA00AA">F </span>329:0 update_overall_status - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#AA00AA">F </span>204:0 parse_linter_results - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>454:0 prepare_data_for_repositories - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>282:0 compute_status - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>254:0 parse_cyclomatic_complexity - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>559:0 main - <span style="color:#00AA00">B (6)</span>
+integration-tests/features/environment.py
+    <span style="color:#AA00AA">F </span>197:0 _wait_for_system - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#AA00AA">F </span>448:0 before_all - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>591:0 after_scenario - <span style="color:#00AA00">B (6)</span>
+integration-tests/features/src/json_utils.py
+    <span style="color:#AA00AA">F </span>60:0 check_id_value_in_json_response - <span style="color:#00AA00">B (6)</span>
+integration-tests/features/src/s3interface.py
+    <span style="color:#00AA00">M </span>27:4 S3Interface.connect - <span style="color:#00AA00">B (7)</span>
+integration-tests/features/src/attribute_checks.py
+    <span style="color:#AA00AA">F </span>47:0 check_timestamp - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>165:0 check_cve_value - <span style="color:#00AA00">B (6)</span>
+integration-tests/features/steps/gremlin.py
+    <span style="color:#AA00AA">F </span>189:0 package_data_timestamp_comparison_with_remembered_time - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>512:0 test_libio_related_properties - <span style="color:#00AA00">B (6)</span>
+integration-tests/features/steps/server_api.py
+    <span style="color:#AA00AA">F </span>49:0 check_versions - <span style="color:#00AA00">B (6)</span>
+integration-tests/features/steps/jobs_api.py
+    <span style="color:#AA00AA">F </span>354:0 check_job_api_tokens_information - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#AA00AA">F </span>49:0 check_job_debug_analyses_report - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>317:0 find_job - <span style="color:#00AA00">B (7)</span>
+integration-tests/features/steps/user_tag.py
+    <span style="color:#AA00AA">F </span>103:0 check_get_next_untagged_component_response - <span style="color:#00AA00">B (9)</span>
+integration-tests/features/steps/component_analysis.py
+    <span style="color:#AA00AA">F </span>91:0 finish_analysis_for_component - <span style="color:#00AA00">B (6)</span>
+integration-tests/features/steps/stack_analysis.py
+    <span style="color:#AA00AA">F </span>32:0 wait_for_stack_analysis_completion - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>164:0 check_stack_analyses_response - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>368:0 replaces_component - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>525:0 check_security_issue_existence - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>563:0 check_dependency - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>581:0 check_analyzed_dependency - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>223:0 check_outlier_probability - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>290:0 check_licenses - <span style="color:#00AA00">B (6)</span>
+integration-tests/features/steps/backbone_api.py
+    <span style="color:#AA00AA">F </span>50:0 verify_database_entry - <span style="color:#00AA00">B (6)</span>
+db-integrity-tests/src/s3configuration.py
+    <span style="color:#00AAAA">C </span>7:0 S3Configuration - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>10:4 S3Configuration.__init__ - <span style="color:#00AA00">B (6)</span>
+db-integrity-tests/src/component_versions_checker.py
+    <span style="color:#00AA00">M </span>90:4 ComponentVersionsChecker.check_core_data - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>261:4 ComponentVersionsChecker.check_security_issues - <span style="color:#00AA00">B (6)</span>
+db-integrity-tests/src/s3interface.py
+    <span style="color:#00AA00">M </span>160:4 S3Interface.read_packages_from_bucket_for_ecosystem - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>195:4 S3Interface.read_object_list - <span style="color:#00AA00">B (6)</span>
+db-integrity-tests/src/checker.py
+    <span style="color:#00AA00">M </span>42:4 Checker.check_timestamp - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>77:4 Checker.check_cve_value - <span style="color:#00AA00">B (6)</span>
+perf-tests/src/jobsapi.py
+    <span style="color:#00AA00">M </span>106:4 JobsApi.wait_for_component_analysis - <span style="color:#00AA00">B (6)</span>
+perf-tests/src/perf-tests.py
+    <span style="color:#AA00AA">F </span>444:0 run_sequenced_benchmark - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#AA00AA">F </span>597:0 run_benchmarks - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#AA00AA">F </span>212:0 run_analysis_concurrent_benchmark - <span style="color:#00AA00">B (7)</span>
+perf-tests/src/benchmarks.py
+    <span style="color:#AA00AA">F </span>7:0 measure - <span style="color:#00AA00">B (7)</span>
+perf-tests/src/s3interface.py
+    <span style="color:#00AA00">M </span>26:4 S3Interface.connect - <span style="color:#00AA00">B (7)</span>
+perf-tests/src/coreapi.py
+    <span style="color:#00AA00">M </span>115:4 CoreApi.wait_for_stack_analysis - <span style="color:#00AA00">B (10)</span>
+perf-tests/src/graph.py
+    <span style="color:#AA00AA">F </span>60:0 create_component_analysis_timing_graph - <span style="color:#00AA00">B (7)</span>
+
+49 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">B (7.122448979591836)</span>
+</pre>

@@ -1,0 +1,198 @@
+<pre>f8a_worker/graphutils.py
+    <span style="color:#AA00AA">F </span>58:0 get_stack_popularity_data_graph - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>215:0 create_package_dict - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>28:0 get_stack_usage_data_graph - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>304:0 select_latest_version - <span style="color:#00AA00">B (6)</span>
+f8a_worker/utils.py
+    <span style="color:#AA00AA">F </span>522:0 parse_gh_repo - <span style="color:#AA5500">C (11)</span>
+    <span style="color:#00AA00">M </span>182:4 TimedCommand.run - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#00AA00">M </span>422:4 MavenCoordinates.to_str - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#AA00AA">F </span>246:0 get_command_output - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>281:0 get_all_files_from - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>506:0 usage_rank2str - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>632:0 get_response - <span style="color:#00AA00">B (6)</span>
+f8a_worker/setup_celery.py
+    <span style="color:#AA00AA">F </span>17:0 get_dispatcher_config_files - <span style="color:#00AA00">B (7)</span>
+f8a_worker/victims.py
+    <span style="color:#00AA00">M </span>228:4 VictimsDB.is_version_affected - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#00AA00">M </span>88:4 VictimsDB._read_db - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#00AA00">M </span>256:4 VictimsDB._build_from_git - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>116:4 VictimsDB.get_details_for_ecosystem - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>164:4 VictimsDB._get_maven_versions - <span style="color:#00AA00">B (6)</span>
+f8a_worker/solver.py
+    <span style="color:#00AAAA">C </span>655:0 NugetDependencyParser - <span style="color:#AA5500">C (12)</span>
+    <span style="color:#00AA00">M </span>658:4 NugetDependencyParser.parse - <span style="color:#AA5500">C (12)</span>
+    <span style="color:#00AA00">M </span>779:4 Solver.solve - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#00AA00">M </span>598:4 NpmDependencyParser.restrict_versions - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#AA00AA">F </span>986:0 get_ecosystem_solver - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>1013:0 get_ecosystem_parser - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>261:4 NugetReleasesFetcher.scrape_versions_from_nuget_org - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>334:4 GolangReleasesFetcher.fetch_releases - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>556:4 NpmDependencyParser._parse_npm - <span style="color:#00AA00">B (6)</span>
+f8a_worker/process.py
+    <span style="color:#00AA00">M </span>503:4 IndianaJones.fetch_artifact - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#00AA00">M </span>44:4 Git.clone - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#00AA00">M </span>277:4 IndianaJones.download_file - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#00AA00">M </span>308:4 IndianaJones.fetch_maven_artifact - <span style="color:#00AA00">B (7)</span>
+f8a_worker/base.py
+    <span style="color:#00AA00">M </span>66:4 BaseTask.run - <span style="color:#00AA00">B (9)</span>
+f8a_worker/schemas.py
+    <span style="color:#00AA00">M </span>236:4 BundledDynamicSchemaLibrary._load_all_schema_refs - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>367:0 get_schema_ref - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>407:0 assert_no_two_consecutive_schemas_are_same - <span style="color:#00AA00">B (6)</span>
+f8a_worker/data_normalizer.py
+    <span style="color:#00AA00">M </span>110:4 DataNormalizer._handle_javascript - <span style="color:#AA0000">F (50)</span>
+    <span style="color:#00AA00">M </span>585:4 DataNormalizer._handle_dotnet_solution - <span style="color:#AA5500">C (17)</span>
+    <span style="color:#00AA00">M </span>422:4 DataNormalizer._handle_rubygems - <span style="color:#AA5500">C (15)</span>
+    <span style="color:#00AA00">M </span>319:4 DataNormalizer._handle_python_dist - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#00AA00">M </span>715:4 DataNormalizer.main - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#00AAAA">C </span>22:0 DataNormalizer - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>27:4 DataNormalizer.transform_keys - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>76:4 DataNormalizer._are_tests_implemented - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>365:4 DataNormalizer._handle_java - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>285:4 DataNormalizer._split_keywords - <span style="color:#00AA00">B (6)</span>
+f8a_worker/dispatcher/foreach.py
+    <span style="color:#AA00AA">F </span>32:0 iter_dependencies_analysis - <span style="color:#00AA00">B (6)</span>
+f8a_worker/storages/postgres_base.py
+    <span style="color:#00AA00">M </span>35:4 PostgresBase.__init__ - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>84:4 PostgresBase.retrieve - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>131:4 PostgresBase.store_error - <span style="color:#00AA00">B (6)</span>
+f8a_worker/storages/package_postgres.py
+    <span style="color:#00AA00">M </span>32:4 PackagePostgres._create_result_entry - <span style="color:#00AA00">B (7)</span>
+f8a_worker/storages/postgres.py
+    <span style="color:#00AA00">M </span>36:4 BayesianPostgres._create_result_entry - <span style="color:#00AA00">B (7)</span>
+f8a_worker/storages/s3.py
+    <span style="color:#00AA00">M </span>24:4 AmazonS3.__init__ - <span style="color:#AA5500">C (13)</span>
+    <span style="color:#00AA00">M </span>90:4 AmazonS3._create_bucket - <span style="color:#00AA00">B (7)</span>
+f8a_worker/workers/report_generation.py
+    <span style="color:#00AA00">M </span>55:4 ReportGenerationTask._get_dependency_data - <span style="color:#00AA00">B (7)</span>
+f8a_worker/workers/stackaggregator_v2.py
+    <span style="color:#AA00AA">F </span>138:0 _extract_unknown_licenses - <span style="color:#AA5500">C (11)</span>
+    <span style="color:#AA00AA">F </span>227:0 perform_license_analysis - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>347:0 get_dependency_data - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>295:0 aggregate_stack_data - <span style="color:#00AA00">B (6)</span>
+f8a_worker/workers/dependency_parser.py
+    <span style="color:#00AA00">M </span>35:4 GithubDependencyTreeTask.extract_dependencies - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#00AA00">M </span>117:4 GithubDependencyTreeTask.get_npm_dependencies - <span style="color:#00AA00">B (7)</span>
+f8a_worker/workers/code_metrics.py
+    <span style="color:#00AA00">M </span>136:4 CodeMetricsTask._normalize_javancss_output - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#00AA00">M </span>277:4 CodeMetricsTask.python_mccabe - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>338:4 CodeMetricsTask.execute - <span style="color:#00AA00">B (6)</span>
+f8a_worker/workers/bigquery_gh.py
+    <span style="color:#00AA00">M </span>197:4 BigQueryProject.execute_query - <span style="color:#00AA00">B (8)</span>
+f8a_worker/workers/gh_metadata_result_collector.py
+    <span style="color:#00AAAA">C </span>11:0 GitHubManifestMetadataResultCollector - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#00AA00">M </span>20:4 GitHubManifestMetadataResultCollector.run - <span style="color:#00AA00">B (9)</span>
+f8a_worker/workers/bookkeeper.py
+    <span style="color:#00AA00">M </span>16:4 BookkeeperTask.store_user_node - <span style="color:#00AA00">B (7)</span>
+f8a_worker/workers/githuber.py
+    <span style="color:#00AA00">M </span>70:4 GithubTask.execute - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>143:4 GitReadmeCollectorTask._get_github_readme - <span style="color:#00AA00">B (6)</span>
+f8a_worker/workers/mercator.py
+    <span style="color:#00AA00">M </span>65:4 MercatorTask._merge_python_items - <span style="color:#AA5500">D (29)</span>
+    <span style="color:#00AA00">M </span>200:4 MercatorTask.run_mercator - <span style="color:#AA5500">C (19)</span>
+    <span style="color:#00AAAA">C </span>41:0 MercatorTask - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#00AA00">M </span>49:4 MercatorTask._parse_requires_txt - <span style="color:#00AA00">B (6)</span>
+f8a_worker/workers/cvedbsync.py
+    <span style="color:#00AA00">M </span>12:4 CVEDBSyncTask.components_to_scan - <span style="color:#AA5500">C (12)</span>
+    <span style="color:#00AAAA">C </span>9:0 CVEDBSyncTask - <span style="color:#00AA00">B (8)</span>
+f8a_worker/workers/victims.py
+    <span style="color:#00AA00">M </span>75:4 VictimsCheck.mark_in_graph - <span style="color:#00AA00">B (10)</span>
+f8a_worker/workers/license.py
+    <span style="color:#00AA00">M </span>18:4 LicenseCheckTask.process_output - <span style="color:#00AA00">B (6)</span>
+f8a_worker/workers/git_stats.py
+    <span style="color:#00AA00">M </span>129:4 GitStats.execute - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#00AA00">M </span>110:4 GitStats._compute_stats - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>35:4 GitStats._get_average_changes - <span style="color:#00AA00">B (6)</span>
+f8a_worker/workers/CVEchecker.py
+    <span style="color:#00AA00">M </span>32:4 CVEcheckerTask.get_cve_impact - <span style="color:#AA5500">C (11)</span>
+    <span style="color:#00AA00">M </span>137:4 CVEcheckerTask._query_ossindex - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>113:4 CVEcheckerTask.query_ossindex_vulnerability_fromtill - <span style="color:#00AA00">B (6)</span>
+f8a_worker/workers/init_package_flow.py
+    <span style="color:#00AA00">M </span>100:4 InitPackageFlow.execute - <span style="color:#00AA00">B (6)</span>
+f8a_worker/workers/result_collector.py
+    <span style="color:#00AAAA">C </span>8:0 _ResultCollectorBase - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>15:4 _ResultCollectorBase.do_run - <span style="color:#00AA00">B (6)</span>
+f8a_worker/workers/graphaggregator.py
+    <span style="color:#00AA00">M </span>34:4 GraphAggregatorTask.execute - <span style="color:#AA5500">C (18)</span>
+    <span style="color:#00AAAA">C </span>16:0 GraphAggregatorTask - <span style="color:#AA5500">C (12)</span>
+f8a_worker/workers/keywords_summary.py
+    <span style="color:#00AA00">M </span>43:4 KeywordsSummaryTask._threshold_found_keywords - <span style="color:#AA5500">C (14)</span>
+f8a_worker/workers/stackaggregator.py
+    <span style="color:#00AA00">M </span>64:4 StackAggregatorTask._get_stack_popularity_data - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#00AA00">M </span>104:4 StackAggregatorTask._get_stack_metadata - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#00AA00">M </span>27:4 StackAggregatorTask._get_stack_usage_data - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#00AAAA">C </span>22:0 StackAggregatorTask - <span style="color:#00AA00">B (7)</span>
+f8a_worker/workers/keywords_tagging.py
+    <span style="color:#00AA00">M </span>165:4 PackageKeywordsTaggingTask._package_level_keywords - <span style="color:#00AA00">B (7)</span>
+f8a_worker/workers/init_analysis_flow.py
+    <span style="color:#00AA00">M </span>20:4 InitAnalysisFlow.execute - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#00AA00">M </span>101:4 InitAnalysisFlow._download_source_jar - <span style="color:#00AA00">B (6)</span>
+f8a_worker/workers/unknown_dep_fetcher.py
+    <span style="color:#00AA00">M </span>13:4 UnknownDependencyFetcherTask.get_dependency_data - <span style="color:#00AA00">B (6)</span>
+f8a_worker/workers/dependency_snapshot.py
+    <span style="color:#00AA00">M </span>40:4 DependencySnapshotTask._resolve_dependency - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#00AAAA">C </span>17:0 DependencySnapshotTask - <span style="color:#00AA00">B (6)</span>
+f8a_worker/workers/recommender.py
+    <span style="color:#00AA00">M </span>311:4 GraphDB.filter_versions - <span style="color:#AA5500">D (22)</span>
+    <span style="color:#00AA00">M </span>783:4 RecommendationV2Task.execute - <span style="color:#AA5500">C (14)</span>
+    <span style="color:#00AAAA">C </span>747:0 RecommendationV2Task - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#AA00AA">F </span>689:0 apply_license_filter - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#00AA00">M </span>117:4 GraphDB.get_topmost_ref_stack - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#00AA00">M </span>561:4 RelativeSimilarity.find_relative_similarity - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#00AA00">M </span>429:4 GraphDB.get_topics_for_alt - <span style="color:#00AA00">B (6)</span>
+f8a_worker/workers/schemas/github_details.py
+    <span style="color:#00AAAA">C </span>83:0 GithubDetail - <span style="color:#00AA00">B (6)</span>
+f8a_worker/workers/schemas/metadata.py
+    <span style="color:#00AAAA">C </span>130:0 MetadataDict - <span style="color:#AA5500">C (11)</span>
+    <span style="color:#00AAAA">C </span>218:0 MercatorResult - <span style="color:#00AA00">B (8)</span>
+tests/test_data_normalizer.py
+    <span style="color:#00AA00">M </span>280:4 TestDataNormalizer.test_get_outermost_items - <span style="color:#00AA00">B (6)</span>
+tests/test_schemas.py
+    <span style="color:#00AA00">M </span>74:4 TestSchemaLibrary.test_bundled_dynamic_schema_lookup - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#00AAAA">C </span>40:0 TestSchemaLibrary - <span style="color:#00AA00">B (6)</span>
+tests/test_process.py
+    <span style="color:#00AA00">M </span>52:4 TestIndianaJones.test_fetch_npm_specific - <span style="color:#00AA00">B (7)</span>
+tests/test_victims.py
+    <span style="color:#AA00AA">F </span>13:0 test_get_vulnerable_java_packages - <span style="color:#00AA00">B (7)</span>
+tests/test_utils.py
+    <span style="color:#00AA00">M </span>33:4 TestUtilFunctions.test_get_all_files_from - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>146:4 TestMavenCoordinates.test_from_str - <span style="color:#00AA00">B (6)</span>
+tests/test_solver.py
+    <span style="color:#00AA00">M </span>306:4 TestFetcher.test_f8a_fetcher - <span style="color:#00AA00">B (9)</span>
+tests/workers/test_binwalk.py
+    <span style="color:#00AAAA">C </span>17:0 TestBinwalk - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#00AA00">M </span>21:4 TestBinwalk.test_execute - <span style="color:#00AA00">B (8)</span>
+tests/workers/test_oscryptocatcher.py
+    <span style="color:#00AAAA">C </span>14:0 TestOSCryptoCatcher - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#00AA00">M </span>18:4 TestOSCryptoCatcher.test_ssl_py - <span style="color:#00AA00">B (9)</span>
+tests/workers/_test_csmock.py
+    <span style="color:#AA00AA">F </span>58:0 test_csmock_worker - <span style="color:#AA5500">C (12)</span>
+    <span style="color:#AA00AA">F </span>87:0 test_offline_csmock_worker - <span style="color:#00AA00">B (8)</span>
+tests/workers/test_licensecheck.py
+    <span style="color:#00AA00">M </span>30:4 TestLicenseCheck.test_execute - <span style="color:#00AA00">B (7)</span>
+tests/workers/test_bigquery_gh.py
+    <span style="color:#00AA00">M </span>22:4 TestBigQueryGH.test_process_results - <span style="color:#00AA00">B (6)</span>
+tests/workers/test_victims.py
+    <span style="color:#AA00AA">F </span>7:0 test_get_vulnerable_packages - <span style="color:#00AA00">B (8)</span>
+tests/workers/test_linguist.py
+    <span style="color:#00AAAA">C </span>19:0 TestLinguist - <span style="color:#AA5500">C (13)</span>
+    <span style="color:#00AA00">M </span>23:4 TestLinguist.test_execute - <span style="color:#AA5500">C (13)</span>
+tests/workers/test_libraries_io.py
+    <span style="color:#00AA00">M </span>15:4 TestLibrariesIoTask.test_execute - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#00AAAA">C </span>11:0 TestLibrariesIoTask - <span style="color:#00AA00">B (6)</span>
+tests/workers/test_cvecheck.py
+    <span style="color:#00AA00">M </span>128:4 TestCVEchecker.test_nuget_system_net_http - <span style="color:#00AA00">B (10)</span>
+tests/workers/test_digester.py
+    <span style="color:#00AAAA">C </span>21:0 TestDigester - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#00AA00">M </span>25:4 TestDigester.test_execute - <span style="color:#00AA00">B (10)</span>
+tests/workers/test_githuber.py
+    <span style="color:#00AAAA">C </span>10:0 TestGithuber - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#00AA00">M </span>14:4 TestGithuber.test_execute - <span style="color:#00AA00">B (10)</span>
+tests/workers/test_mercator.py
+    <span style="color:#00AA00">M </span>50:4 TestMercator.test_execute_maven - <span style="color:#AA5500">C (11)</span>
+    <span style="color:#00AA00">M </span>90:4 TestMercator.test_execute_go_glide - <span style="color:#00AA00">B (7)</span>
+
+136 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">B (8.911764705882353)</span>
+</pre>

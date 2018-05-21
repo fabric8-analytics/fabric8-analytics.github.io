@@ -1,0 +1,26 @@
+Name                                                   Stmts   Miss  Cover   Missing
+------------------------------------------------------------------------------------
+/root/payload/f8a_tagger/__init__.py                      36      0   100%
+/root/payload/f8a_tagger/collectors/__init__.py            5      0   100%
+/root/payload/f8a_tagger/collectors/base.py               18      4    78%   21, 31, 49-50
+/root/payload/f8a_tagger/collectors/maven.py              49     23    53%   43-78
+/root/payload/f8a_tagger/collectors/npm.py                 6      0   100%
+/root/payload/f8a_tagger/collectors/pypi.py               45      0   100%
+/root/payload/f8a_tagger/collectors/stackoverflow.py      34      0   100%
+/root/payload/f8a_tagger/corpus.py                        48      0   100%
+/root/payload/f8a_tagger/defaults.py                       7      0   100%
+/root/payload/f8a_tagger/errors.py                         6      0   100%
+/root/payload/f8a_tagger/keywords_chief.py               137      0   100%
+/root/payload/f8a_tagger/keywords_set.py                  16      0   100%
+/root/payload/f8a_tagger/lemmatizer.py                     5      0   100%
+/root/payload/f8a_tagger/parsers/__init__.py               2      0   100%
+/root/payload/f8a_tagger/parsers/abstract.py               4      0   100%
+/root/payload/f8a_tagger/parsers/core_parser.py           46      0   100%
+/root/payload/f8a_tagger/parsers/parsers.py               40      0   100%
+/root/payload/f8a_tagger/recipes.py                      131      5    96%   203-204, 207, 259, 267
+/root/payload/f8a_tagger/scoring.py                       47      1    98%   95
+/root/payload/f8a_tagger/stemmer.py                       12      0   100%
+/root/payload/f8a_tagger/tokenizer.py                     96      0   100%
+/root/payload/f8a_tagger/utils.py                         71      1    99%   34
+------------------------------------------------------------------------------------
+TOTAL                                                    861     34    96%

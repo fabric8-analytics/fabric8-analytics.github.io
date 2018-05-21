@@ -1,0 +1,197 @@
+----------------------------------------------------
+Checking documentation strings in all sources stored
+in following directories:
+bayesian hack tests alembic
+----------------------------------------------------
+
+Using base prefix '/usr'
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/fabric8-analytics-server/venv/bin/python3
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/fabric8-analytics-server/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/fabric8-analytics-server/venv/bin/python3)
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (2.1.1)
+Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.11.0)
+Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.2.1)
+bayesian/schemas/stack_analyses.py
+0
+    Pass
+bayesian/schemas/__init__.py
+0
+    Pass
+bayesian/schemas/component_analyses.py
+0
+    Pass
+bayesian/schemas/analyses_graphdb.py
+0
+    Pass
+bayesian/schemas/version_range_resolver.py
+0
+    Pass
+bayesian/auth.py
+0
+    Pass
+bayesian/dependency_finder.py
+0
+    Pass
+bayesian/default_config.py
+0
+    Pass
+bayesian/__init__.py
+0
+    Pass
+bayesian/utils.py
+0
+    Pass
+bayesian/generate_manifest.py
+0
+    Pass
+bayesian/api_v1.py
+0
+    Pass
+bayesian/exceptions.py
+0
+    Pass
+bayesian/license_extractor.py
+0
+    Pass
+hack/check_api_schemas.py
+0
+    Pass
+hack/auth_test_fixtures/generate_auth_token.py
+0
+    Pass
+tests/test_schemas.py
+0
+    Pass
+tests/appconfig.py
+0
+    Pass
+tests/test_api_v1.py
+0
+    Pass
+tests/test_auth.py
+0
+    Pass
+tests/test_generate_manifest.py
+0
+    Pass
+tests/__init__.py
+0
+    Pass
+tests/test_depencency_finder.py
+0
+    Pass
+tests/data/schemas/generate.py
+0
+    Pass
+tests/test_utils.py
+0
+    Pass
+tests/test_license_extractor.py
+0
+    Pass
+tests/conftest.py
+0
+    Pass
+alembic/versions/9d605c7725d8_add_app_stack_tables.py
+0
+    Pass
+alembic/versions/76c5fd72744e_gh_usage_stats.py
+0
+    Pass
+alembic/versions/0ff7fe2828a5_initial_revision.py
+0
+    Pass
+alembic/versions/e48c7b4235aa_drop_analysisrequest_table.py
+0
+    Pass
+alembic/versions/2bd5f6d0c8b0_introduce_stackreq_origin_flag.py
+0
+    Pass
+alembic/versions/49c27b67936f_permissions.py
+0
+    Pass
+alembic/versions/ea55c632ae8d_create_auth_data.py
+0
+    Pass
+alembic/versions/813f9a704eb7_stack_request_coltypechange.py
+0
+    Pass
+alembic/versions/b4fbc8e04c81_gh_usage_with_versions.py
+0
+    Pass
+alembic/versions/a0433904c63b_analysis_requests.py
+0
+    Pass
+alembic/versions/133cd5484609_add_es_marker.py
+0
+    Pass
+alembic/versions/b19a6deb869d_stack_request_coltype_change.py
+0
+    Pass
+alembic/versions/fc7ea2a7e386_analytics_tables.py
+0
+    Pass
+alembic/versions/a31c98c74ea0_add_e_p_v.py
+0
+    Pass
+alembic/versions/3fd95b3a69f5_bye_reviews.py
+0
+    Pass
+alembic/versions/47f4ce1e8d75_stack_analyses_request.py
+0
+    Pass
+alembic/versions/2ff043a5af5b_make_ecosystem_name_unique.py
+0
+    Pass
+alembic/versions/02b91e918b43_migrate_to_dynamic_control_flow.py
+0
+    Pass
+alembic/versions/60b296cac700_add_similar_components_table.py
+0
+    Pass
+alembic/versions/424427c5f988_relative_usage.py
+0
+    Pass
+alembic/versions/79d88d57baa7_remove_analyses_column.py
+0
+    Pass
+alembic/versions/8302d3bb5f68_stackreq_team_result.py
+0
+    Pass
+alembic/versions/20cf59abbda8_add_external_reqeust_id_to_workerresult.py
+0
+    Pass
+alembic/versions/a46a17bfd29b_batches_versions_relation.py
+0
+    Pass
+alembic/versions/3eb32f202f93_removing_starttime_and_endtime.py
+0
+    Pass
+alembic/versions/963d3d929b19_analyses.py
+0
+    Pass
+alembic/versions/6e7ff4c3177e_remove_batches.py
+0
+    Pass
+alembic/versions/51cb05927271_downstream_map.py
+0
+    Pass
+alembic/versions/21b3add12b10_initial_ref_stack_support.py
+0
+    Pass
+alembic/versions/22a1cd66a9c6_batches_reviews.py
+0
+    Pass
+alembic/env.py
+0
+    Pass
+
+----------------------------------------------------
+Checking documentation strings in the following files
+setup.py
+----------------------------------------------------
+setup.py
+0
+    Pass
+All checks passed for 59 source files

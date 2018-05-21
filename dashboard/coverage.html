@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Fabric8-analytics QA dashboard code coverage</title>
+        <meta name="Author" content="Pavel Tisnovsky" />
+        <meta name="Generator" content="Vim" />
+        <meta http-equiv="Content-type"  content="text/html; charset=utf-8"/>
+	<link href="bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<script src="bootstrap.min.js" type="text/javascript"></script>
+	<link href="dashboard.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body style="padding-top:70px">
+        <div class="container" style="width:90%">
+            <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                <div class="container-fluid"><div class="row">
+                    <div class="col-md-4">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="/">Fabric8-analytics QA dashboard code coverage</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="panel panel-primary">
+                <div class="panel-heading">Code quality</div>
+                <table class="table table-condensed table-hover table-bordered" rules="all">
+                    <tr><th>Repository</th><th colspan="2">Source files</th><th colspan="3">Code coverage</th><th>Overall status</th><th>Diff</th><th colspan=2">Goal</th></tr>
+                    <tr><th>&nbsp;</th><th>Files</th><th>Total lines</th><th>Stmts.</th><th>Missed</th><th>Covered</th><th>&nbsp;</th><th>&nbsp;</th><th>Threshold</th><th>Pass?</th></tr>
+                    <tr>
+                        <td style="width:36ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-common">fabric8-analytics-common</a><br />&nbsp;</td>
+                        <td class="numeric" style="width:7ex"><a href="repository_fabric8-analytics-common.html">98</a><br />&nbsp;</td>
+                        <td class="numeric" style="width:7ex">11804<br />&nbsp;</td>
+                            <td style="width:7ex">&nbsp;</td>
+                            <td style="width:7ex">&nbsp;</td>
+                            <td style="width:16ex">&nbsp;</td>
+                            <td class="boolean ignored">?</td>
+                            <td style="width:10ex"><a href="fabric8-analytics-common.coverage.diff.txt">diff</a></td>
+                        <td class="numeric" style="width:5ex">
+                        </td>
+                            <td style="width:5ex">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="width:36ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-server">fabric8-analytics-server</a><br />&nbsp;</td>
+                        <td class="numeric" style="width:7ex"><a href="repository_fabric8-analytics-server.html">59</a><br />&nbsp;</td>
+                        <td class="numeric" style="width:7ex">6031<br />&nbsp;</td>
+                            <td class="numeric ok" style="width:7ex">
+                                1901<br />
+                                1898
+                            </td>
+                            <td class="numeric error" style="width:7ex">
+                                958<br />
+                                955
+                            </td>
+                            <td class="numeric" style="width:16ex">
+                                <a href="fabric8-analytics-server.coverage.0.txt">
+                                    <div class='progress-bar progress-bar-warning progress-bar-striped' style='width:57.5%'>
+                                    50%
+                                    </div>
+                                </a><br />
+                                <div style="margin-bottom:2px"></div>
+                                <a href="fabric8-analytics-server.coverage.1.txt">
+                                    <div class='progress-bar progress-bar-warning progress-bar-striped' style='width:57.5%'>
+                                    50%
+                                    </div>
+                                </a>
+                            </td>
+                            <td class="boolean ignored">=<br />the same</td>
+                            <td style="width:10ex"><a href="fabric8-analytics-server.coverage.diff.txt">diff</a></td>
+                        <td class="numeric" style="width:5ex">
+                                90 %
+                        </td>
+                                <td class="boolean error">no</td>
+                    </tr>
+                    <tr>
+                        <td style="width:36ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-worker">fabric8-analytics-worker</a><br />&nbsp;</td>
+                        <td class="numeric" style="width:7ex"><a href="repository_fabric8-analytics-worker.html">176</a><br />&nbsp;</td>
+                        <td class="numeric" style="width:7ex">19290<br />&nbsp;</td>
+                            <td class="numeric ok" style="width:7ex">
+                                7197<br />
+                                7197
+                            </td>
+                            <td class="numeric error" style="width:7ex">
+                                3152<br />
+                                3154
+                            </td>
+                            <td class="numeric" style="width:16ex">
+                                <a href="fabric8-analytics-worker.coverage.0.txt">
+                                    <div class='progress-bar progress-bar-warning progress-bar-striped' style='width:62.6%'>
+                                    56%
+                                    </div>
+                                </a><br />
+                                <div style="margin-bottom:2px"></div>
+                                <a href="fabric8-analytics-worker.coverage.1.txt">
+                                    <div class='progress-bar progress-bar-warning progress-bar-striped' style='width:62.6%'>
+                                    56%
+                                    </div>
+                                </a>
+                            </td>
+                            <td class="boolean ignored">=<br />the same</td>
+                            <td style="width:10ex"><a href="fabric8-analytics-worker.coverage.diff.txt">diff</a></td>
+                        <td class="numeric" style="width:5ex">
+                                90 %
+                        </td>
+                                <td class="boolean error">no</td>
+                    </tr>
+                    <tr>
+                        <td style="width:36ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-jobs">fabric8-analytics-jobs</a><br />&nbsp;</td>
+                        <td class="numeric" style="width:7ex"><a href="repository_fabric8-analytics-jobs.html">41</a><br />&nbsp;</td>
+                        <td class="numeric" style="width:7ex">4035<br />&nbsp;</td>
+                            <td class="numeric ok" style="width:7ex">
+                                1961<br />
+                                1961
+                            </td>
+                            <td class="numeric error" style="width:7ex">
+                                1426<br />
+                                1426
+                            </td>
+                            <td class="numeric" style="width:16ex">
+                                <a href="fabric8-analytics-jobs.coverage.0.txt">
+                                    <div class='progress-bar progress-bar-warning progress-bar-striped' style='width:37.95%'>
+                                    27%
+                                    </div>
+                                </a><br />
+                                <div style="margin-bottom:2px"></div>
+                                <a href="fabric8-analytics-jobs.coverage.1.txt">
+                                    <div class='progress-bar progress-bar-warning progress-bar-striped' style='width:37.95%'>
+                                    27%
+                                    </div>
+                                </a>
+                            </td>
+                            <td class="boolean ignored">=<br />the same</td>
+                            <td style="width:10ex"><a href="fabric8-analytics-jobs.coverage.diff.txt">diff</a></td>
+                        <td class="numeric" style="width:5ex">
+                                90 %
+                        </td>
+                                <td class="boolean error">no</td>
+                    </tr>
+                    <tr>
+                        <td style="width:36ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-tagger">fabric8-analytics-tagger</a><br />&nbsp;</td>
+                        <td class="numeric" style="width:7ex"><a href="repository_fabric8-analytics-tagger.html">43</a><br />&nbsp;</td>
+                        <td class="numeric" style="width:7ex">4053<br />&nbsp;</td>
+                            <td class="numeric ok" style="width:7ex">
+                                857<br />
+                                861
+                            </td>
+                            <td class="numeric error" style="width:7ex">
+                                34<br />
+                                34
+                            </td>
+                            <td class="numeric" style="width:16ex">
+                                <a href="fabric8-analytics-tagger.coverage.0.txt">
+                                    <div class='progress-bar progress-bar-success progress-bar-striped' style='width:96.6%'>
+                                    96%
+                                    </div>
+                                </a><br />
+                                <div style="margin-bottom:2px"></div>
+                                <a href="fabric8-analytics-tagger.coverage.1.txt">
+                                    <div class='progress-bar progress-bar-success progress-bar-striped' style='width:96.6%'>
+                                    96%
+                                    </div>
+                                </a>
+                            </td>
+                            <td class="boolean ignored">=<br />the same</td>
+                            <td style="width:10ex"><a href="fabric8-analytics-tagger.coverage.diff.txt">diff</a></td>
+                        <td class="numeric" style="width:5ex">
+                                90 %
+                        </td>
+                                <td class="boolean ok">yes</td>
+                    </tr>
+                    <tr>
+                        <td style="width:36ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-stack-analysis">fabric8-analytics-stack-analysis</a><br />&nbsp;</td>
+                        <td class="numeric" style="width:7ex"><a href="repository_fabric8-analytics-stack-analysis.html">91</a><br />&nbsp;</td>
+                        <td class="numeric" style="width:7ex">5493<br />&nbsp;</td>
+                            <td class="numeric ok" style="width:7ex">
+                                2118<br />
+                                2118
+                            </td>
+                            <td class="numeric error" style="width:7ex">
+                                905<br />
+                                905
+                            </td>
+                            <td class="numeric" style="width:16ex">
+                                <a href="fabric8-analytics-stack-analysis.coverage.0.txt">
+                                    <div class='progress-bar progress-bar-warning progress-bar-striped' style='width:63.449999999999996%'>
+                                    57%
+                                    </div>
+                                </a><br />
+                                <div style="margin-bottom:2px"></div>
+                                <a href="fabric8-analytics-stack-analysis.coverage.1.txt">
+                                    <div class='progress-bar progress-bar-warning progress-bar-striped' style='width:63.449999999999996%'>
+                                    57%
+                                    </div>
+                                </a>
+                            </td>
+                            <td class="boolean ignored">=<br />the same</td>
+                            <td style="width:10ex"><a href="fabric8-analytics-stack-analysis.coverage.diff.txt">diff</a></td>
+                        <td class="numeric" style="width:5ex">
+                                90 %
+                        </td>
+                                <td class="boolean error">no</td>
+                    </tr>
+                    <tr>
+                        <td style="width:36ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-license-analysis">fabric8-analytics-license-analysis</a><br />&nbsp;</td>
+                        <td class="numeric" style="width:7ex"><a href="repository_fabric8-analytics-license-analysis.html">24</a><br />&nbsp;</td>
+                        <td class="numeric" style="width:7ex">3138<br />&nbsp;</td>
+                            <td class="numeric ok" style="width:7ex">
+                                868<br />
+                                868
+                            </td>
+                            <td class="numeric error" style="width:7ex">
+                                219<br />
+                                219
+                            </td>
+                            <td class="numeric" style="width:16ex">
+                                <a href="fabric8-analytics-license-analysis.coverage.0.txt">
+                                    <div class='progress-bar progress-bar-warning progress-bar-striped' style='width:78.75%'>
+                                    75%
+                                    </div>
+                                </a><br />
+                                <div style="margin-bottom:2px"></div>
+                                <a href="fabric8-analytics-license-analysis.coverage.1.txt">
+                                    <div class='progress-bar progress-bar-warning progress-bar-striped' style='width:78.75%'>
+                                    75%
+                                    </div>
+                                </a>
+                            </td>
+                            <td class="boolean ignored">=<br />the same</td>
+                            <td style="width:10ex"><a href="fabric8-analytics-license-analysis.coverage.diff.txt">diff</a></td>
+                        <td class="numeric" style="width:5ex">
+                                90 %
+                        </td>
+                                <td class="boolean error">no</td>
+                    </tr>
+                    <tr>
+                        <td style="width:36ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-data-model">fabric8-analytics-data-model</a><br />&nbsp;</td>
+                        <td class="numeric" style="width:7ex"><a href="repository_fabric8-analytics-data-model.html">20</a><br />&nbsp;</td>
+                        <td class="numeric" style="width:7ex">2132<br />&nbsp;</td>
+                            <td class="numeric ok" style="width:7ex">
+                                619<br />
+                                619
+                            </td>
+                            <td class="numeric error" style="width:7ex">
+                                54<br />
+                                54
+                            </td>
+                            <td class="numeric" style="width:16ex">
+                                <a href="fabric8-analytics-data-model.coverage.0.txt">
+                                    <div class='progress-bar progress-bar-success progress-bar-striped' style='width:92.35%'>
+                                    91%
+                                    </div>
+                                </a><br />
+                                <div style="margin-bottom:2px"></div>
+                                <a href="fabric8-analytics-data-model.coverage.1.txt">
+                                    <div class='progress-bar progress-bar-success progress-bar-striped' style='width:92.35%'>
+                                    91%
+                                    </div>
+                                </a>
+                            </td>
+                            <td class="boolean ignored">=<br />the same</td>
+                            <td style="width:10ex"><a href="fabric8-analytics-data-model.coverage.diff.txt">diff</a></td>
+                        <td class="numeric" style="width:5ex">
+                                90 %
+                        </td>
+                                <td class="boolean ok">yes</td>
+                    </tr>
+                    <tr>
+                        <td style="width:36ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-recommender">fabric8-analytics-recommender</a><br />&nbsp;</td>
+                        <td class="numeric" style="width:7ex"><a href="repository_fabric8-analytics-recommender.html">16</a><br />&nbsp;</td>
+                        <td class="numeric" style="width:7ex">987<br />&nbsp;</td>
+                            <td style="width:7ex">&nbsp;</td>
+                            <td style="width:7ex">&nbsp;</td>
+                            <td style="width:16ex">&nbsp;</td>
+                            <td class="boolean ignored">?</td>
+                            <td style="width:10ex"><a href="fabric8-analytics-recommender.coverage.diff.txt">diff</a></td>
+                        <td class="numeric" style="width:5ex">
+                        </td>
+                            <td style="width:5ex">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="width:36ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-api-gateway">fabric8-analytics-api-gateway</a><br />&nbsp;</td>
+                        <td class="numeric" style="width:7ex"><a href="repository_fabric8-analytics-api-gateway.html">9</a><br />&nbsp;</td>
+                        <td class="numeric" style="width:7ex">351<br />&nbsp;</td>
+                            <td class="numeric ok" style="width:7ex">
+                                182<br />
+                                182
+                            </td>
+                            <td class="numeric error" style="width:7ex">
+                                97<br />
+                                97
+                            </td>
+                            <td class="numeric" style="width:16ex">
+                                <a href="fabric8-analytics-api-gateway.coverage.0.txt">
+                                    <div class='progress-bar progress-bar-warning progress-bar-striped' style='width:54.949999999999996%'>
+                                    47%
+                                    </div>
+                                </a><br />
+                                <div style="margin-bottom:2px"></div>
+                                <a href="fabric8-analytics-api-gateway.coverage.1.txt">
+                                    <div class='progress-bar progress-bar-warning progress-bar-striped' style='width:54.949999999999996%'>
+                                    47%
+                                    </div>
+                                </a>
+                            </td>
+                            <td class="boolean ignored">=<br />the same</td>
+                            <td style="width:10ex"><a href="fabric8-analytics-api-gateway.coverage.diff.txt">diff</a></td>
+                        <td class="numeric" style="width:5ex">
+                                90 %
+                        </td>
+                                <td class="boolean error">no</td>
+                    </tr>
+                    <tr>
+                        <td style="width:36ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-nvd-toolkit">fabric8-analytics-nvd-toolkit</a><br />&nbsp;</td>
+                        <td class="numeric" style="width:7ex"><a href="repository_fabric8-analytics-nvd-toolkit.html">30</a><br />&nbsp;</td>
+                        <td class="numeric" style="width:7ex">4063<br />&nbsp;</td>
+                            <td class="numeric ok" style="width:7ex">
+                                1008<br />
+                                1008
+                            </td>
+                            <td class="numeric error" style="width:7ex">
+                                84<br />
+                                84
+                            </td>
+                            <td class="numeric" style="width:16ex">
+                                <a href="fabric8-analytics-nvd-toolkit.coverage.0.txt">
+                                    <div class='progress-bar progress-bar-success progress-bar-striped' style='width:93.2%'>
+                                    92%
+                                    </div>
+                                </a><br />
+                                <div style="margin-bottom:2px"></div>
+                                <a href="fabric8-analytics-nvd-toolkit.coverage.1.txt">
+                                    <div class='progress-bar progress-bar-success progress-bar-striped' style='width:93.2%'>
+                                    92%
+                                    </div>
+                                </a>
+                            </td>
+                            <td class="boolean ignored">=<br />the same</td>
+                            <td style="width:10ex"><a href="fabric8-analytics-nvd-toolkit.coverage.diff.txt">diff</a></td>
+                        <td class="numeric" style="width:5ex">
+                                90 %
+                        </td>
+                                <td class="boolean ok">yes</td>
+                    </tr>
+                    <tr>
+                        <td style="width:36ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-auth">fabric8-analytics-auth</a><br />&nbsp;</td>
+                        <td class="numeric" style="width:7ex"><a href="repository_fabric8-analytics-auth.html">6</a><br />&nbsp;</td>
+                        <td class="numeric" style="width:7ex">174<br />&nbsp;</td>
+                            <td class="numeric ok" style="width:7ex">
+                                84<br />
+                                84
+                            </td>
+                            <td class="numeric error" style="width:7ex">
+                                65<br />
+                                65
+                            </td>
+                            <td class="numeric" style="width:16ex">
+                                <a href="fabric8-analytics-auth.coverage.0.txt">
+                                    <div class='progress-bar progress-bar-danger progress-bar-striped' style='width:34.55%'>
+                                    23%
+                                    </div>
+                                </a><br />
+                                <div style="margin-bottom:2px"></div>
+                                <a href="fabric8-analytics-auth.coverage.1.txt">
+                                    <div class='progress-bar progress-bar-danger progress-bar-striped' style='width:34.55%'>
+                                    23%
+                                    </div>
+                                </a>
+                            </td>
+                            <td class="boolean ignored">=<br />the same</td>
+                            <td style="width:10ex"><a href="fabric8-analytics-auth.coverage.diff.txt">diff</a></td>
+                        <td class="numeric" style="width:5ex">
+                                90 %
+                        </td>
+                                <td class="boolean error">no</td>
+                    </tr>
+                    <tr>
+                        <td style="width:36ex"><a href="https://github.com/fabric8-analytics/fabric8-gemini-server">fabric8-gemini-server</a><br />&nbsp;</td>
+                        <td class="numeric" style="width:7ex"><a href="repository_fabric8-gemini-server.html">10</a><br />&nbsp;</td>
+                        <td class="numeric" style="width:7ex">683<br />&nbsp;</td>
+                            <td class="numeric ok" style="width:7ex">
+                                269<br />
+                                269
+                            </td>
+                            <td class="numeric error" style="width:7ex">
+                                170<br />
+                                170
+                            </td>
+                            <td class="numeric" style="width:16ex">
+                                <a href="fabric8-gemini-server.coverage.0.txt">
+                                    <div class='progress-bar progress-bar-warning progress-bar-striped' style='width:46.45%'>
+                                    37%
+                                    </div>
+                                </a><br />
+                                <div style="margin-bottom:2px"></div>
+                                <a href="fabric8-gemini-server.coverage.1.txt">
+                                    <div class='progress-bar progress-bar-warning progress-bar-striped' style='width:46.45%'>
+                                    37%
+                                    </div>
+                                </a>
+                            </td>
+                            <td class="boolean ignored">=<br />the same</td>
+                            <td style="width:10ex"><a href="fabric8-gemini-server.coverage.diff.txt">diff</a></td>
+                        <td class="numeric" style="width:5ex">
+                                90 %
+                        </td>
+                                <td class="boolean error">no</td>
+                    </tr>
+                    <tr>
+                        <td style="width:36ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-version-comparator">fabric8-analytics-version-comparator</a><br />&nbsp;</td>
+                        <td class="numeric" style="width:7ex"><a href="repository_fabric8-analytics-version-comparator.html">8</a><br />&nbsp;</td>
+                        <td class="numeric" style="width:7ex">747<br />&nbsp;</td>
+                            <td style="width:7ex">&nbsp;</td>
+                            <td style="width:7ex">&nbsp;</td>
+                            <td style="width:16ex">&nbsp;</td>
+                            <td class="boolean ignored">?</td>
+                            <td style="width:10ex"><a href="fabric8-analytics-version-comparator.coverage.diff.txt">diff</a></td>
+                        <td class="numeric" style="width:5ex">
+                                90 %
+                        </td>
+                            <td style="width:5ex">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="width:36ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-ingestion">fabric8-analytics-ingestion</a><br />&nbsp;</td>
+                        <td class="numeric" style="width:7ex"><a href="repository_fabric8-analytics-ingestion.html">5</a><br />&nbsp;</td>
+                        <td class="numeric" style="width:7ex">149<br />&nbsp;</td>
+                            <td style="width:7ex">&nbsp;</td>
+                            <td style="width:7ex">&nbsp;</td>
+                            <td style="width:16ex">&nbsp;</td>
+                            <td class="boolean ignored">?</td>
+                            <td style="width:10ex"><a href="fabric8-analytics-ingestion.coverage.diff.txt">diff</a></td>
+                        <td class="numeric" style="width:5ex">
+                                90 %
+                        </td>
+                            <td style="width:5ex">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="width:36ex"><a href="https://github.com/fabric8-analytics/f8a-server-backbone">f8a-server-backbone</a><br />&nbsp;</td>
+                        <td class="numeric" style="width:7ex"><a href="repository_f8a-server-backbone.html">13</a><br />&nbsp;</td>
+                        <td class="numeric" style="width:7ex">1845<br />&nbsp;</td>
+                            <td class="numeric ok" style="width:7ex">
+                                678<br />
+                                678
+                            </td>
+                            <td class="numeric error" style="width:7ex">
+                                473<br />
+                                473
+                            </td>
+                            <td class="numeric" style="width:16ex">
+                                <a href="f8a-server-backbone.coverage.0.txt">
+                                    <div class='progress-bar progress-bar-warning progress-bar-striped' style='width:40.5%'>
+                                    30%
+                                    </div>
+                                </a><br />
+                                <div style="margin-bottom:2px"></div>
+                                <a href="f8a-server-backbone.coverage.1.txt">
+                                    <div class='progress-bar progress-bar-warning progress-bar-striped' style='width:40.5%'>
+                                    30%
+                                    </div>
+                                </a>
+                            </td>
+                            <td class="boolean ignored">=<br />the same</td>
+                            <td style="width:10ex"><a href="f8a-server-backbone.coverage.diff.txt">diff</a></td>
+                        <td class="numeric" style="width:5ex">
+                                90 %
+                        </td>
+                                <td class="boolean error">no</td>
+                    </tr>
+                </table>
+            </div>
+            <div style='height:100px'></div>
+            <div>Author: Pavel Tisnovsky &lt;<a href="mailto:ptisnovs@redhat.com">ptisnovs@redhat.com</a>&gt;</div>
+            <div>Generated on: 2018-05-18 13:47:07</div>
+        </div>
+    </body>
+</html>
+
