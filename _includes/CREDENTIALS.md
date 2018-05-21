@@ -1,10 +1,11 @@
 # Credential Guide
+---
 
 <br>
 
 ## Bayesian
 
-Yes, that's our project :) And you still have no access to DSaas and Bayesian, submit a request to the [GitLab].\
+Yes, that's our project :) And you still have no access to DSaas and Bayesian, submit a request to the [GitLab].
 [Here](https://gitlab.cee.redhat.com/dtsd/housekeeping/issues/1024) is an example of the form of the request.
 
 <br>
@@ -20,6 +21,7 @@ You should request the access at the GitLab. [Here](https://gitlab.cee.redhat.co
 ## [GitHub]
 
 1) [GitHub] account
+
 2) Two factor authentication
 
 You need to set up two factor authentication on [GitHub] for security purposes. You can find the settings on the [Git Hub Security](https://github.com/settings/security) page.
@@ -41,10 +43,10 @@ Request the [AWS] acces on [GitLab]. [Here](https://gitlab.cee.redhat.com/dtsd/h
 
 Head to the [AWS website](https://console.aws.amazon.com/) and log in with your login details.
 In the sub-menu on the left, go to the `Users` tab, click to your name there.
-A new sub-window appears. The tab you are looking for is called `Security Credentials`.\
+A new sub-window appears. The tab you are looking for is called `Security Credentials`.
 There you can create your Access Key ID, which we refer to in the environment files as `AWS_ACCESS_KEY_ID`
 
-To create an access key, choose `Create Access Key`. Then choose `Download Credentials` to save the access key ID and secret access key to a CSV file on your computer. Store the file in a secure location. **WARNING: You will not have access to the secret access key again after this dialog box closes.**\
+To create an access key, choose `Create Access Key`. Then choose `Download Credentials` to save the access key ID and secret access key to a CSV file on your computer. Store the file in a secure location. **WARNING: You will not have access to the secret access key again after this dialog box closes.**
 After you have downloaded the CSV file, choose `Close`.
 
 For more information take a look at the [AWS guide](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html?icmpid=docs_iam_console).
@@ -72,7 +74,9 @@ An OpenShift.io API token is required in order to make recommendations when acce
 
 ## Libraries.io
 
-It is pretty easy to set up Librearies.io credentials. Just jump to the official site.
+It is pretty easy to set up Librearies.io credentials. Just jump to the official site. It can be synced with your [GitHub] account.
+Once that is done, head to the `Settings` and there should be the `API Key`.
+In the environment file, you can find it as a `LIBRARIES_IO_TOKEN`.
 
 <br>
 
@@ -112,7 +116,7 @@ These are two env variables called `GITHUB_OAUTH_CONSUMER_KEY` and `GITHUB_OAUTH
 
 ---
 
-And that's it ... now you should be able to deploy the application to the [Dev Cluster]. You can now proceed with the [deployment guide](./DEPLOYMENT.md).
+And that's it ... now you should be able to deploy the application to the [Dev Cluster]. You can now proceed with the [deployment guide](/deployment).
 
 
 [AWS]:(https://aws.amazon.com/)

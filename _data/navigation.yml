@@ -28,14 +28,14 @@ main:
               - title: Credential Guide
                 url: /resources/credentials/
 
-              - title: Dashboard
-                url: /resources/dashboard/
-
               - title: Glossary
                 url: /resources/glossary/
 
               - title: Learnings
                 url: /resources/learnings/
+
+        - title: Dashboard
+          url: /resources/dashboard/
 
         - title: FAQ
           url: /faq/
