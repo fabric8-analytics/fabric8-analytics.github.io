@@ -1,7 +1,7 @@
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
-recommendation_engine tests
+recommendation_engine locustfiles deployment tests
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -63,7 +63,13 @@ recommendation_engine/model/__init__.py
 recommendation_engine/model/pmf_prediction.py
 0
     Pass
+locustfiles/locustfile.py
+0
+    Pass
+deployment/submit_emr_job.py
+0
+    Pass
 tests/unit_tests/test_PMFRecommendation.py
 0
     Pass
-All checks passed for 18 source files
+All checks passed for 20 source files
