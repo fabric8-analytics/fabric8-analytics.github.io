@@ -1,5 +1,7 @@
 git add *.html
 git add *.txt
+git add *.png
+git add *.gif
 git status
 message="Dashboard `date +%Y-%m-%d`"
 echo $message
