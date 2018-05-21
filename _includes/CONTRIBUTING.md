@@ -1,7 +1,7 @@
 # Contributing to Fabric8-Analytics
 ---
 
-:+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
+> First off, thanks for taking the time to contribute!
 
 The following is a set of guidelines (not rules) for contributing to Fabric8-Analytics,
 which is hosted in the [Fabric8-Analytics Organization](https://github.com/fabric8-analytics/) on Github.
