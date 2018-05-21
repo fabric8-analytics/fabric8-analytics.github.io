@@ -6,14 +6,15 @@
 
       Start with this repository.
   url: "#" # TODO
-  imports: null # TODO
+  imports: "all"
 
 - name: fabric8-analytics-server
   nick: Server
   github: /fabric8-analytics/fabric8-analytics-server
   description: Core API services. The API microservice is reponsible for scheduling and serving analyses based on client requests.
   url: "#" # TODO
-  imports: null # TODO
+  imports:
+      - fabric8-analytics-worker
 
 - name: fabric8-analytics-worker
   nick: Worker
@@ -27,14 +28,19 @@
   github: /fabric8-analytics/fabric8-jobs
   description: Single configuration point for core periodic and query specific jobs.
   url: "#" # TODO
-  imports: null # TODO
+  imports:
+      - fabric8-analytics-worker
 
 - name: fabric8-analytics-deployment
   nick: Deployment
   github: /fabric8-analytics/fabric8-analytics-deployment
   description: Deployment scripts and tools. Development and deployment documentation for developers and contributors.
   url: "#" # TODO
-  imports: null # TODO
+  imports:
+      - fabric8-analytics-worker
+      - fabric8-analytics-server
+      - fabric8-analytics-jobs
+      - fabric8-analytics-data-model
 
 - name: fabric8-analytics-data-model
   nick: Data Model
@@ -62,7 +68,8 @@
   github: /fabric8-analytics/f8a-server-backbone
   description: Server backbone service for stack aggregation and recommendation. Interacts with Kronos service
   url: "#" # TODO
-  imports: null # TODO
+  imports:
+      - fabric8-analytics-worker
 
 - name: fabric8-analytics-api-gateway
   nick: API Gateway
@@ -82,6 +89,14 @@
   nick: Gemini Server
   github: /fabric8-analytics/fabric8-gemini-server
   description: Fabric8-server analytics powered services to initiate and report the readiness of all registered services
+  url: "#" # TODO
+  imports:
+      - fabric8-analytics-worker
+
+- name: fabric8-analytics-nvd-toolkit
+  nick: NVD Toolkit
+  github: /fabric8-analytics/fabric8-analytics-nvd-toolkit
+  description:  Tools for processing National Vulnerability Database feeds.
   url: "#" # TODO
   imports: null # TODO
 

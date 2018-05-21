@@ -8,10 +8,14 @@ which is hosted in the [Fabric8-Analytics Organization](https://github.com/fabri
 These are just guidelines, not rules, use your best judgment and feel free to
 propose changes to this document in a pull request.
 
+<br>
+
 ## Submitting Issues
 
 * You can create an issue on any repo under [fabric8-analytics Github org](https://github.com/fabric8-analytics), include as many details as possible with your report
 * Include the behavior you expected and maybe other places you've seen that behavior
+
+<br>
 
 ## Submitting a Pull Request
 
@@ -19,12 +23,10 @@ propose changes to this document in a pull request.
 
 Core Reviewers are:
 
-* Fridolin Pokorny <fridolin@redhat.com>
-* Jiri Popelka <jpopelka@redhat.com>
 * Michal Srb <msrb@redhat.com>
-* Pavel Odvody <podvody@redhat.com>
-* Slavek Kabrda <bkabrda@redhat.com>
+* Marek Cermak <macermak@redhat.com>
 * Tomas Hrcka <thrcka@redhat.com>
+* Pavel Tisnovsky <ptisnovs@redhat.com>
 
 Before you submit your pull request consider the following guidelines:
 
@@ -46,11 +48,15 @@ Before you submit your pull request consider the following guidelines:
     ```
 
 * When opening a pull request, select the `master` branch as a base.
-* Mark your pull request with **[WIP]** (Work In Progress) to get feedback but prevent merging (e.g. [WIP] Update CONTRIBUTING.md)
+* Mark your pull request with **[WIP]** (Work In Progress) to get feedback but prevent merging (`e.g. [WIP] Update CONTRIBUTING.md`)
 * If we suggest changes then:
+
   * Make the required updates
+
   * Push changes to git (this will update your Pull Request):
+
     * You can add new commit
+
     * Or rebase your branch and force push to your Github repository:
 
     ```shell
@@ -58,37 +64,49 @@ Before you submit your pull request consider the following guidelines:
     git push -f origin bug/my-fix-branch
     ```
 
-That's it! Thank you for your contribution!
+<br>
 
-### Merge Rules
+#### Merge Rules
 
 * Include unit or integration tests for the capability you have implemented
 * Include documentation for the capability you have implemented
 * If you are fixing an issue, include the issue number you are fixing
 * Python code should follow [PEP8](https://www.python.org/dev/peps/pep-0008/) conventions
 
-## Git Commit Messages
+#### Git Commit Messages
 
 * Use the present tense ("Add feature" not "Added feature")
 * Use the imperative mood ("Move cursor to..." not "Moves cursor to...")
 * Reference issues and pull requests liberally
 
+<br>
+
 ## Implementation details
 
-### API
+#### API
 
 * Use hyphenation over underscore or camelCase (i.e. `/my-awesome-endpoint`)
+
 * Any API change requires [RAML](http://raml.org/) documentation to be created or updated (otherwise the change will not be merged)
+
 * Provide extensive examples for input and output
+
 * Payload transferred over API should be in JSON format (exceptions are possible - for example while transferring files) and has to be documented with [JSON Schema](http://json-schema.org/) and [JSL](https://jsl.readthedocs.io/en/latest/tutorial.html), see existing schemas for [workers](https://github.com/fabric8-analytics/fabric8-analytics-worker/tree/master/cucoslib/workers/schemas/) and [server](https://github.com/fabric8-analytics/fabric8-analytics-server/tree/master/bayesian/schemas)
 
-### Language
+#### Language
 
 * Use Python 3 where possible with potential exceptions:
- * Ecosystem (Node.js, Ruby...) specific features which require parsing of the non-Python code
- * Specific use case where Python does not provide needed functionality, library, framework... - needs strong justification and approval from tech leads
 
-### Deployment
+  * Ecosystem (Node.js, Ruby...) specific features which require parsing of the non-Python code
+
+  * Specific use case where Python does not provide needed functionality, library, framework... - needs strong justification and approval from tech leads
+
+#### Deployment
 
 * [OpenShift](https://www.openshift.com/) is our default and preferred way how to run Fabric8-Analytics
+
 * In case you are adding a new service make sure you provide a [Dockerfile](https://docs.docker.com/engine/reference/builder/) and [OpenShift configs](https://docs.openshift.com/enterprise/3.0/architecture/core_concepts/pods_and_services.html)
+
+<br>
+
+> That's it! Thank you for your contribution!
