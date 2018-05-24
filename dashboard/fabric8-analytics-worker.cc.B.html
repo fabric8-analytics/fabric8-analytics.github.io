@@ -4,13 +4,13 @@
     <span style="color:#AA00AA">F </span>28:0 get_stack_usage_data_graph - <span style="color:#00AA00">B (6)</span>
     <span style="color:#AA00AA">F </span>304:0 select_latest_version - <span style="color:#00AA00">B (6)</span>
 f8a_worker/utils.py
-    <span style="color:#AA00AA">F </span>522:0 parse_gh_repo - <span style="color:#AA5500">C (11)</span>
-    <span style="color:#00AA00">M </span>182:4 TimedCommand.run - <span style="color:#00AA00">B (10)</span>
-    <span style="color:#00AA00">M </span>422:4 MavenCoordinates.to_str - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#AA00AA">F </span>246:0 get_command_output - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>281:0 get_all_files_from - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>506:0 usage_rank2str - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>632:0 get_response - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>437:0 parse_gh_repo - <span style="color:#AA5500">C (11)</span>
+    <span style="color:#00AA00">M </span>97:4 TimedCommand.run - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#00AA00">M </span>337:4 MavenCoordinates.to_str - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#AA00AA">F </span>161:0 get_command_output - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>196:0 get_all_files_from - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>421:0 usage_rank2str - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>547:0 get_response - <span style="color:#00AA00">B (6)</span>
 f8a_worker/setup_celery.py
     <span style="color:#AA00AA">F </span>17:0 get_dispatcher_config_files - <span style="color:#00AA00">B (7)</span>
 f8a_worker/victims.py
@@ -74,12 +74,6 @@ f8a_worker/workers/stackaggregator_v2.py
 f8a_worker/workers/dependency_parser.py
     <span style="color:#00AA00">M </span>35:4 GithubDependencyTreeTask.extract_dependencies - <span style="color:#00AA00">B (9)</span>
     <span style="color:#00AA00">M </span>117:4 GithubDependencyTreeTask.get_npm_dependencies - <span style="color:#00AA00">B (7)</span>
-f8a_worker/workers/code_metrics.py
-    <span style="color:#00AA00">M </span>136:4 CodeMetricsTask._normalize_javancss_output - <span style="color:#00AA00">B (10)</span>
-    <span style="color:#00AA00">M </span>277:4 CodeMetricsTask.python_mccabe - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>338:4 CodeMetricsTask.execute - <span style="color:#00AA00">B (6)</span>
-f8a_worker/workers/bigquery_gh.py
-    <span style="color:#00AA00">M </span>197:4 BigQueryProject.execute_query - <span style="color:#00AA00">B (8)</span>
 f8a_worker/workers/gh_metadata_result_collector.py
     <span style="color:#00AAAA">C </span>11:0 GitHubManifestMetadataResultCollector - <span style="color:#00AA00">B (9)</span>
     <span style="color:#00AA00">M </span>20:4 GitHubManifestMetadataResultCollector.run - <span style="color:#00AA00">B (9)</span>
@@ -160,19 +154,8 @@ tests/test_utils.py
     <span style="color:#00AA00">M </span>146:4 TestMavenCoordinates.test_from_str - <span style="color:#00AA00">B (6)</span>
 tests/test_solver.py
     <span style="color:#00AA00">M </span>306:4 TestFetcher.test_f8a_fetcher - <span style="color:#00AA00">B (9)</span>
-tests/workers/test_binwalk.py
-    <span style="color:#00AAAA">C </span>17:0 TestBinwalk - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#00AA00">M </span>21:4 TestBinwalk.test_execute - <span style="color:#00AA00">B (8)</span>
-tests/workers/test_oscryptocatcher.py
-    <span style="color:#00AAAA">C </span>14:0 TestOSCryptoCatcher - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#00AA00">M </span>18:4 TestOSCryptoCatcher.test_ssl_py - <span style="color:#00AA00">B (9)</span>
-tests/workers/_test_csmock.py
-    <span style="color:#AA00AA">F </span>58:0 test_csmock_worker - <span style="color:#AA5500">C (12)</span>
-    <span style="color:#AA00AA">F </span>87:0 test_offline_csmock_worker - <span style="color:#00AA00">B (8)</span>
 tests/workers/test_licensecheck.py
     <span style="color:#00AA00">M </span>30:4 TestLicenseCheck.test_execute - <span style="color:#00AA00">B (7)</span>
-tests/workers/test_bigquery_gh.py
-    <span style="color:#00AA00">M </span>22:4 TestBigQueryGH.test_process_results - <span style="color:#00AA00">B (6)</span>
 tests/workers/test_victims.py
     <span style="color:#AA00AA">F </span>7:0 test_get_vulnerable_packages - <span style="color:#00AA00">B (8)</span>
 tests/workers/test_linguist.py
@@ -193,6 +176,6 @@ tests/workers/test_mercator.py
     <span style="color:#00AA00">M </span>50:4 TestMercator.test_execute_maven - <span style="color:#AA5500">C (11)</span>
     <span style="color:#00AA00">M </span>90:4 TestMercator.test_execute_go_glide - <span style="color:#00AA00">B (7)</span>
 
-136 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">B (8.911764705882353)</span>
+125 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">B (8.968)</span>
 </pre>

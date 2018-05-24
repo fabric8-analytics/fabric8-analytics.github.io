@@ -51,6 +51,9 @@ alembic/versions/ea55c632ae8d_create_auth_data.py
 alembic/versions/d62464ca17ae_introduce_error_flag_for_worker_results.py
 0
     Pass
+alembic/versions/43360d9467b9_drop_bigquery_results_table.py
+0
+    Pass
 alembic/versions/ddb09a7d6633_delete_unnecessary_db_tables.py
 0
     Pass
@@ -255,9 +258,6 @@ f8a_worker/storages/package_postgres.py
 f8a_worker/storages/s3_temp_artifacts.py
 0
     Pass
-f8a_worker/storages/s3_bigquery.py
-0
-    Pass
 f8a_worker/storages/s3_vulndb.py
 0
     Pass
@@ -291,9 +291,6 @@ f8a_worker/workers/finalize.py
 f8a_worker/workers/schemas/languages.py
 0
     Pass
-f8a_worker/workers/schemas/code_metrics.py
-0
-    Pass
 f8a_worker/workers/schemas/source_licenses.py
 0
     Pass
@@ -312,9 +309,6 @@ f8a_worker/workers/schemas/libraries_io.py
 f8a_worker/workers/schemas/metadata.py
 0
     Pass
-f8a_worker/workers/schemas/binary_data.py
-0
-    Pass
 f8a_worker/workers/schemas/digests.py
 0
     Pass
@@ -330,9 +324,6 @@ f8a_worker/workers/schemas/keywords_tagging.py
 f8a_worker/workers/schemas/dependency_snapshot.py
 0
     Pass
-f8a_worker/workers/oscryptocatcher.py
-0
-    Pass
 f8a_worker/workers/report_generation.py
 0
     Pass
@@ -343,12 +334,6 @@ f8a_worker/workers/graph_importer.py
 0
     Pass
 f8a_worker/workers/dependency_parser.py
-0
-    Pass
-f8a_worker/workers/code_metrics.py
-0
-    Pass
-f8a_worker/workers/bigquery_gh.py
 0
     Pass
 f8a_worker/workers/gh_metadata_result_collector.py
@@ -367,12 +352,6 @@ f8a_worker/workers/libraries_io.py
 0
     Pass
 f8a_worker/workers/githuber.py
-0
-    Pass
-f8a_worker/workers/binwalk.py
-0
-    Pass
-f8a_worker/workers/csmock_worker.py
 0
     Pass
 f8a_worker/workers/linguist.py
@@ -480,25 +459,13 @@ tests/storages/__init__.py
 tests/storages/test_postgres.py
 0
     Pass
-tests/workers/test_binwalk.py
-0
-    Pass
 tests/workers/test_recurse.py
 0
     Pass
 tests/workers/__init__.py
 0
     Pass
-tests/workers/test_oscryptocatcher.py
-0
-    Pass
-tests/workers/_test_csmock.py
-0
-    Pass
 tests/workers/test_licensecheck.py
-0
-    Pass
-tests/workers/test_bigquery_gh.py
 0
     Pass
 tests/workers/test_victims.py
@@ -542,4 +509,4 @@ setup.py
 setup.py
 0
     Pass
-All checks passed for 175 source files
+All checks passed for 164 source files

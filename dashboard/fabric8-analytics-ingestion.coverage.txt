@@ -1,11 +1,7 @@
 Name              Stmts   Miss  Cover   Missing
 -----------------------------------------------
 src/__init__.py       1      1     0%   18
-src/defaults.py      14     14     0%   18-58
-src/enums.py          7      7     0%   18-34
-src/errors.py         3      3     0%   18-25
-src/models.py        94     94     0%   18-175
-src/rest_api.py      14     14     0%   18-47
-src/utils.py          7      0   100%
+src/rest_api.py      12     12     0%   18-40
+src/utils.py          1      0   100%
 -----------------------------------------------
-TOTAL               140    133     5%
+TOTAL                14     13     7%

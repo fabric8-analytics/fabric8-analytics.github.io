@@ -35,6 +35,8 @@ alembic/versions/ea55c632ae8d_create_auth_data.py
     Pass
 alembic/versions/d62464ca17ae_introduce_error_flag_for_worker_results.py
     Pass
+alembic/versions/43360d9467b9_drop_bigquery_results_table.py
+    Pass
 alembic/versions/ddb09a7d6633_delete_unnecessary_db_tables.py
     Pass
 alembic/versions/813f9a704eb7_stack_request_coltypechange.py
@@ -171,8 +173,6 @@ f8a_worker/storages/package_postgres.py
     Pass
 f8a_worker/storages/s3_temp_artifacts.py
     Pass
-f8a_worker/storages/s3_bigquery.py
-    Pass
 f8a_worker/storages/s3_vulndb.py
     Pass
 f8a_worker/storages/s3_artifacts.py
@@ -195,8 +195,6 @@ f8a_worker/workers/finalize.py
     Pass
 f8a_worker/workers/schemas/languages.py
     Pass
-f8a_worker/workers/schemas/code_metrics.py
-    Pass
 f8a_worker/workers/schemas/source_licenses.py
     Pass
 f8a_worker/workers/schemas/github_details.py
@@ -209,8 +207,6 @@ f8a_worker/workers/schemas/libraries_io.py
     Pass
 f8a_worker/workers/schemas/metadata.py
     Pass
-f8a_worker/workers/schemas/binary_data.py
-    Pass
 f8a_worker/workers/schemas/digests.py
     Pass
 f8a_worker/workers/schemas/crypto_algorithms.py
@@ -221,8 +217,6 @@ f8a_worker/workers/schemas/keywords_tagging.py
     Pass
 f8a_worker/workers/schemas/dependency_snapshot.py
     Pass
-f8a_worker/workers/oscryptocatcher.py
-    Pass
 f8a_worker/workers/report_generation.py
     Pass
 f8a_worker/workers/stackaggregator_v2.py
@@ -230,10 +224,6 @@ f8a_worker/workers/stackaggregator_v2.py
 f8a_worker/workers/graph_importer.py
     Pass
 f8a_worker/workers/dependency_parser.py
-    Pass
-f8a_worker/workers/code_metrics.py
-    Pass
-f8a_worker/workers/bigquery_gh.py
     Pass
 f8a_worker/workers/gh_metadata_result_collector.py
     Pass
@@ -246,10 +236,6 @@ f8a_worker/workers/__init__.py
 f8a_worker/workers/libraries_io.py
     Pass
 f8a_worker/workers/githuber.py
-    Pass
-f8a_worker/workers/binwalk.py
-    Pass
-f8a_worker/workers/csmock_worker.py
     Pass
 f8a_worker/workers/linguist.py
     Pass
@@ -323,19 +309,11 @@ tests/storages/__init__.py
     Pass
 tests/storages/test_postgres.py
     Pass
-tests/workers/test_binwalk.py
-    Pass
 tests/workers/test_recurse.py
     Pass
 tests/workers/__init__.py
     Pass
-tests/workers/test_oscryptocatcher.py
-    Pass
-tests/workers/_test_csmock.py
-    Pass
 tests/workers/test_licensecheck.py
-    Pass
-tests/workers/test_bigquery_gh.py
     Pass
 tests/workers/test_victims.py
     Pass
@@ -366,4 +344,4 @@ setup.py
 ----------------------------------------------------
 setup.py
     Pass
-All checks passed for 176 source files
+All checks passed for 165 source files
