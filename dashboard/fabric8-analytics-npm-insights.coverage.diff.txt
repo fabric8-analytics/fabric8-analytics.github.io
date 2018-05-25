@@ -1,0 +1,21 @@
+Name                                                        Stmts   Miss  Cover   Missing		Name                                                        Stmts   Miss  Cover   Missing
+-----------------------------------------------------------------------------------------		-----------------------------------------------------------------------------------------
+/recommendation_engine/__init__.py                              0      0   100%				/recommendation_engine/__init__.py                              0      0   100%
+/recommendation_engine/config/__init__.py                       0      0   100%				/recommendation_engine/config/__init__.py                       0      0   100%
+/recommendation_engine/config/cloud_constants.py                8      8     0%   3-28			/recommendation_engine/config/cloud_constants.py                8      8     0%   3-28
+/recommendation_engine/config/params_scoring.py                 5      0   100%				/recommendation_engine/config/params_scoring.py                 5      0   100%
+/recommendation_engine/config/path_constants.py                 8      0   100%				/recommendation_engine/config/path_constants.py                 8      0   100%
+/recommendation_engine/data_store/__init__.py                   0      0   100%				/recommendation_engine/data_store/__init__.py                   0      0   100%
+/recommendation_engine/data_store/abstract_data_store.py       18      7    61%   30, 35, 40, 45, 50,	/recommendation_engine/data_store/abstract_data_store.py       18      7    61%   30, 35, 40, 45, 50,
+/recommendation_engine/data_store/local_filesystem.py          53     23    57%   46, 50-58, 62, 76-8	/recommendation_engine/data_store/local_filesystem.py          53     23    57%   46, 50-58, 62, 76-8
+/recommendation_engine/data_store/s3_data_store.py             86     86     0%   3-172			/recommendation_engine/data_store/s3_data_store.py             86     86     0%   3-172
+/recommendation_engine/flask_predict.py                        23     23     0%   3-70			/recommendation_engine/flask_predict.py                        23     23     0%   3-70
+/recommendation_engine/model/__init__.py                        0      0   100%				/recommendation_engine/model/__init__.py                        0      0   100%
+/recommendation_engine/model/pmf_prediction.py                 15      1    93%   57			/recommendation_engine/model/pmf_prediction.py                 15      1    93%   57
+/recommendation_engine/predictor/__init__.py                    0      0   100%				/recommendation_engine/predictor/__init__.py                    0      0   100%
+/recommendation_engine/predictor/abstract_recommender.py        8      2    75%   33, 38		/recommendation_engine/predictor/abstract_recommender.py        8      2    75%   33, 38
+/recommendation_engine/predictor/online_recommendation.py      92      4    96%   83, 87, 135-136	/recommendation_engine/predictor/online_recommendation.py      92      4    96%   83, 87, 135-136
+/recommendation_engine/utils/__init__.py                        0      0   100%				/recommendation_engine/utils/__init__.py                        0      0   100%
+/recommendation_engine/utils/fileutils.py                      14      3    79%   36, 50-51		/recommendation_engine/utils/fileutils.py                      14      3    79%   36, 50-51
+-----------------------------------------------------------------------------------------		-----------------------------------------------------------------------------------------
+TOTAL                                                         330    157    52%				TOTAL                                                         330    157    52%
