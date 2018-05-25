@@ -2,10 +2,41 @@
     <span style="color:#AA00AA">F </span>25:0 get_requirements - <span style="color:#00AA00">A (4)</span>
 tests/test_utils.py
     <span style="color:#AA00AA">F </span>8:0 test_dummy - <span style="color:#00AA00">A (1)</span>
-src/rest_api.py
+f8a_ingestion/models.py
+    <span style="color:#00AA00">M </span>78:4 BayesianModelMixin.get_or_create - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AAAA">C </span>44:0 BayesianModelMixin - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>60:4 BayesianModelMixin._by_attrs - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>35:0 create_db_scoped_session - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>53:4 BayesianModelMixin.to_dict - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>70:4 BayesianModelMixin.by_id - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>122:4 Ecosystem.by_name - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>131:0 Package - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>145:4 Package.by_name - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>155:0 Version - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>166:4 Version.by_identifier - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>99:0 Ecosystem - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>111:4 Ecosystem.backend - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>115:4 Ecosystem.backend - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>119:4 Ecosystem.is_backed_by - <span style="color:#00AA00">A (1)</span>
+f8a_ingestion/rest_api.py
     <span style="color:#AA00AA">F </span>28:0 readiness - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>34:0 liveness - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>40:0 ingest - <span style="color:#00AA00">A (1)</span>
+f8a_ingestion/enums.py
+    <span style="color:#00AAAA">C </span>23:0 EcosystemBackend - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>32:0 SortOrder - <span style="color:#00AA00">A (1)</span>
+f8a_ingestion/errors.py
+    <span style="color:#00AAAA">C </span>21:0 F8AConfigurationException - <span style="color:#00AA00">A (1)</span>
+f8a_ingestion/defaults.py
+    <span style="color:#00AAAA">C </span>31:0 F8AConfiguration - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>34:4 F8AConfiguration._make_postgres_string - <span style="color:#00AA00">A (1)</span>
+alembic/env.py
+    <span style="color:#AA00AA">F </span>55:0 run_migrations_online - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>35:0 run_migrations_offline - <span style="color:#00AA00">A (2)</span>
+alembic/versions/08e80e7760f9_initial_migration.py
+    <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>53:0 downgrade - <span style="color:#00AA00">A (1)</span>
 
-4 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (1.75)</span>
+29 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (1.7241379310344827)</span>
 </pre>

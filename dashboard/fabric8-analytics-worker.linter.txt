@@ -193,8 +193,6 @@ f8a_worker/enums.py
     Pass
 f8a_worker/workers/finalize.py
     Pass
-f8a_worker/workers/schemas/languages.py
-    Pass
 f8a_worker/workers/schemas/source_licenses.py
     Pass
 f8a_worker/workers/schemas/github_details.py
@@ -236,8 +234,6 @@ f8a_worker/workers/__init__.py
 f8a_worker/workers/libraries_io.py
     Pass
 f8a_worker/workers/githuber.py
-    Pass
-f8a_worker/workers/linguist.py
     Pass
 f8a_worker/workers/mercator.py
     Pass
@@ -317,8 +313,6 @@ tests/workers/test_licensecheck.py
     Pass
 tests/workers/test_victims.py
     Pass
-tests/workers/test_linguist.py
-    Pass
 tests/workers/test_libraries_io.py
     Pass
 tests/workers/test_github_dependency_tree.py
@@ -344,4 +338,4 @@ setup.py
 ----------------------------------------------------
 setup.py
     Pass
-All checks passed for 165 source files
+All checks passed for 162 source files
