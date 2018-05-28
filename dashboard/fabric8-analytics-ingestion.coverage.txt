@@ -1,7 +1,11 @@
-Name              Stmts   Miss  Cover   Missing
------------------------------------------------
-src/__init__.py       1      1     0%   18
-src/rest_api.py      12     12     0%   18-40
-src/utils.py          1      0   100%
------------------------------------------------
-TOTAL                14     13     7%
+Name                        Stmts   Miss  Cover   Missing
+---------------------------------------------------------
+f8a_ingestion/__init__.py       1      1     0%   18
+f8a_ingestion/defaults.py      16     16     0%   18-61
+f8a_ingestion/enums.py          7      7     0%   18-39
+f8a_ingestion/errors.py         2      2     0%   18-21
+f8a_ingestion/models.py        92     92     0%   18-174
+f8a_ingestion/rest_api.py      16     16     0%   18-46
+f8a_ingestion/utils.py          7      0   100%
+---------------------------------------------------------
+TOTAL                         141    134     5%

@@ -1,7 +1,7 @@
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
-f8a_ingestion tests
+f8a_ingestion tests alembic
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -10,36 +10,34 @@ Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (2.1.1)
-Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.11.0)
 Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.2.1)
+Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.11.0)
 f8a_ingestion/models.py
 f8a_ingestion/models.py:35 in public function `create_db_scoped_session`:
         D103: Missing docstring in public function
-f8a_ingestion/models.py:44 in public class `BayesianModelMixin`:
-        D205: 1 blank line required between summary line and description (found 0)
-f8a_ingestion/models.py:53 in public method `to_dict`:
+f8a_ingestion/models.py:54 in public method `to_dict`:
         D102: Missing docstring in public method
-f8a_ingestion/models.py:71 in public method `by_id`:
+f8a_ingestion/models.py:72 in public method `by_id`:
         D102: Missing docstring in public method
-f8a_ingestion/models.py:79 in public method `get_or_create`:
+f8a_ingestion/models.py:80 in public method `get_or_create`:
         D102: Missing docstring in public method
-f8a_ingestion/models.py:99 in public class `Ecosystem`:
+f8a_ingestion/models.py:100 in public class `Ecosystem`:
         D101: Missing docstring in public class
-f8a_ingestion/models.py:112 in public method `backend`:
+f8a_ingestion/models.py:113 in public method `backend`:
         D102: Missing docstring in public method
-f8a_ingestion/models.py:119 in public method `is_backed_by`:
+f8a_ingestion/models.py:120 in public method `is_backed_by`:
         D102: Missing docstring in public method
-f8a_ingestion/models.py:123 in public method `by_name`:
+f8a_ingestion/models.py:124 in public method `by_name`:
         D102: Missing docstring in public method
-f8a_ingestion/models.py:131 in public class `Package`:
+f8a_ingestion/models.py:132 in public class `Package`:
         D101: Missing docstring in public class
-f8a_ingestion/models.py:146 in public method `by_name`:
+f8a_ingestion/models.py:147 in public method `by_name`:
         D102: Missing docstring in public method
-f8a_ingestion/models.py:155 in public class `Version`:
+f8a_ingestion/models.py:156 in public class `Version`:
         D101: Missing docstring in public class
-f8a_ingestion/models.py:167 in public method `by_identifier`:
+f8a_ingestion/models.py:169 in public method `by_identifier`:
         D102: Missing docstring in public method
-13
+12
     Fail
 f8a_ingestion/__init__.py
 0
@@ -51,14 +49,8 @@ f8a_ingestion/rest_api.py
 0
     Pass
 f8a_ingestion/enums.py
-f8a_ingestion/enums.py:1 at module level:
-        D400: First line should end with a period (not 'e')
-f8a_ingestion/enums.py:23 in public class `EcosystemBackend`:
-        D101: Missing docstring in public class
-f8a_ingestion/enums.py:32 in public class `SortOrder`:
-        D101: Missing docstring in public class
-3
-    Fail
+0
+    Pass
 f8a_ingestion/errors.py
 0
     Pass
@@ -69,6 +61,12 @@ tests/__init__.py
 0
     Pass
 tests/test_utils.py
+0
+    Pass
+alembic/versions/08e80e7760f9_initial_migration.py
+0
+    Pass
+alembic/env.py
 0
     Pass
 
@@ -82,4 +80,4 @@ setup.py
 __init__.py
 0
     Pass
-Documentation strings should be added and/or fixed in 2 source files out of 11 files
+Documentation strings should be added and/or fixed in 1 source files out of 13 files

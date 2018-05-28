@@ -1,6 +1,6 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-f8a_ingestion tests
+f8a_ingestion tests alembic
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -10,8 +10,7 @@ Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: pycodestyle in ./venv/lib/python3.6/site-packages (2.4.0)
 f8a_ingestion/models.py
-f8a_ingestion/models.py:166:5: E301 expected 1 blank line, found 0
-    Fail
+    Pass
 f8a_ingestion/__init__.py
     Pass
 f8a_ingestion/utils.py
@@ -19,22 +18,19 @@ f8a_ingestion/utils.py
 f8a_ingestion/rest_api.py
     Pass
 f8a_ingestion/enums.py
-f8a_ingestion/enums.py:23:1: E302 expected 2 blank lines, found 1
-f8a_ingestion/enums.py:34:19: W292 no newline at end of file
-    Fail
+    Pass
 f8a_ingestion/errors.py
-f8a_ingestion/errors.py:22:60: W292 no newline at end of file
-    Fail
+    Pass
 f8a_ingestion/defaults.py
-f8a_ingestion/defaults.py:54:5: E303 too many blank lines (2)
-f8a_ingestion/defaults.py:58:1: E305 expected 2 blank lines after class or function definition, found 1
-f8a_ingestion/defaults.py:58:35: W292 no newline at end of file
-    Fail
+    Pass
 tests/__init__.py
     Pass
 tests/test_utils.py
-tests/test_utils.py:12:1: E305 expected 2 blank lines after class or function definition, found 1
-    Fail
+    Pass
+alembic/versions/08e80e7760f9_initial_migration.py
+    Pass
+alembic/env.py
+    Pass
 
 ----------------------------------------------------
 Running Python linter against selected files:
@@ -44,3 +40,4 @@ setup.py
     Pass
 __init__.py
     Pass
+All checks passed for 13 source files
