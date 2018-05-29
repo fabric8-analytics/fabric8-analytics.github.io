@@ -1,11 +1,11 @@
 Name                        Stmts   Miss  Cover   Missing
 ---------------------------------------------------------
 f8a_ingestion/__init__.py       1      1     0%   18
-f8a_ingestion/defaults.py      16     16     0%   18-61
-f8a_ingestion/enums.py          7      7     0%   18-39
-f8a_ingestion/errors.py         2      2     0%   18-21
-f8a_ingestion/models.py        92     92     0%   18-174
-f8a_ingestion/rest_api.py      16     16     0%   18-46
-f8a_ingestion/utils.py          7      0   100%
+f8a_ingestion/defaults.py      16      0   100%
+f8a_ingestion/enums.py          7      0   100%
+f8a_ingestion/errors.py         2      0   100%
+f8a_ingestion/models.py        91     45    51%   38, 55-59, 63-69, 73-77, 81-94, 113, 117, 120, 124-128, 148-152, 169-173
+f8a_ingestion/rest_api.py      46     46     0%   18-91
+f8a_ingestion/utils.py         76     59    22%   33-36, 40-44, 47-58, 65-76, 87-97, 105-122, 130-150
 ---------------------------------------------------------
-TOTAL                         141    134     5%
+TOTAL                         239    151    37%
