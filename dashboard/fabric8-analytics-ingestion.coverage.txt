@@ -5,7 +5,7 @@ f8a_ingestion/defaults.py      16      0   100%
 f8a_ingestion/enums.py          7      0   100%
 f8a_ingestion/errors.py         2      0   100%
 f8a_ingestion/models.py        91     45    51%   38, 55-59, 63-69, 73-77, 81-94, 113, 117, 120, 124-128, 148-152, 169-173
-f8a_ingestion/rest_api.py      46     46     0%   18-91
-f8a_ingestion/utils.py         76     59    22%   33-36, 40-44, 47-58, 65-76, 87-97, 105-122, 130-150
+f8a_ingestion/rest_api.py      44     44     0%   18-90
+f8a_ingestion/utils.py         76     59    22%   34-38, 42-53, 61-71, 76-80, 92-102, 110-128, 136-156
 ---------------------------------------------------------
-TOTAL                         239    151    37%
+TOTAL                         237    149    37%
