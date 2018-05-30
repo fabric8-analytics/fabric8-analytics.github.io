@@ -15,9 +15,13 @@ f8a_auth/f8a_auth.py
     Pass
 f8a_auth/errors.py
     Pass
+tests/test_errors_class.py
+    Pass
 tests/test_user_class.py
     Pass
 tests/tests.py
+    Pass
+tests/test_token_handling.py
     Pass
 
 ----------------------------------------------------
@@ -26,4 +30,4 @@ setup.py
 ----------------------------------------------------
 setup.py
     Pass
-All checks passed for 6 source files
+All checks passed for 8 source files

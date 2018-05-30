@@ -4,13 +4,12 @@
     <span style="color:#AA00AA">F </span>28:0 get_stack_usage_data_graph - <span style="color:#00AA00">B (6)</span>
     <span style="color:#AA00AA">F </span>304:0 select_latest_version - <span style="color:#00AA00">B (6)</span>
 f8a_worker/utils.py
-    <span style="color:#AA00AA">F </span>437:0 parse_gh_repo - <span style="color:#AA5500">C (11)</span>
+    <span style="color:#AA00AA">F </span>421:0 parse_gh_repo - <span style="color:#AA5500">C (11)</span>
     <span style="color:#00AA00">M </span>97:4 TimedCommand.run - <span style="color:#00AA00">B (10)</span>
     <span style="color:#00AA00">M </span>337:4 MavenCoordinates.to_str - <span style="color:#00AA00">B (9)</span>
     <span style="color:#AA00AA">F </span>161:0 get_command_output - <span style="color:#00AA00">B (8)</span>
     <span style="color:#AA00AA">F </span>196:0 get_all_files_from - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>421:0 usage_rank2str - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>547:0 get_response - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>531:0 get_response - <span style="color:#00AA00">B (6)</span>
 f8a_worker/setup_celery.py
     <span style="color:#AA00AA">F </span>17:0 get_dispatcher_config_files - <span style="color:#00AA00">B (7)</span>
 f8a_worker/victims.py
@@ -66,11 +65,6 @@ f8a_worker/storages/s3.py
     <span style="color:#00AA00">M </span>90:4 AmazonS3._create_bucket - <span style="color:#00AA00">B (7)</span>
 f8a_worker/workers/report_generation.py
     <span style="color:#00AA00">M </span>55:4 ReportGenerationTask._get_dependency_data - <span style="color:#00AA00">B (7)</span>
-f8a_worker/workers/stackaggregator_v2.py
-    <span style="color:#AA00AA">F </span>138:0 _extract_unknown_licenses - <span style="color:#AA5500">C (11)</span>
-    <span style="color:#AA00AA">F </span>227:0 perform_license_analysis - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>347:0 get_dependency_data - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>295:0 aggregate_stack_data - <span style="color:#00AA00">B (6)</span>
 f8a_worker/workers/dependency_parser.py
     <span style="color:#00AA00">M </span>35:4 GithubDependencyTreeTask.extract_dependencies - <span style="color:#00AA00">B (9)</span>
     <span style="color:#00AA00">M </span>117:4 GithubDependencyTreeTask.get_npm_dependencies - <span style="color:#00AA00">B (7)</span>
@@ -112,11 +106,6 @@ f8a_worker/workers/graphaggregator.py
     <span style="color:#00AAAA">C </span>16:0 GraphAggregatorTask - <span style="color:#AA5500">C (12)</span>
 f8a_worker/workers/keywords_summary.py
     <span style="color:#00AA00">M </span>43:4 KeywordsSummaryTask._threshold_found_keywords - <span style="color:#AA5500">C (14)</span>
-f8a_worker/workers/stackaggregator.py
-    <span style="color:#00AA00">M </span>64:4 StackAggregatorTask._get_stack_popularity_data - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#00AA00">M </span>104:4 StackAggregatorTask._get_stack_metadata - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#00AA00">M </span>27:4 StackAggregatorTask._get_stack_usage_data - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#00AAAA">C </span>22:0 StackAggregatorTask - <span style="color:#00AA00">B (7)</span>
 f8a_worker/workers/keywords_tagging.py
     <span style="color:#00AA00">M </span>165:4 PackageKeywordsTaggingTask._package_level_keywords - <span style="color:#00AA00">B (7)</span>
 f8a_worker/workers/init_analysis_flow.py
@@ -127,14 +116,6 @@ f8a_worker/workers/unknown_dep_fetcher.py
 f8a_worker/workers/dependency_snapshot.py
     <span style="color:#00AA00">M </span>40:4 DependencySnapshotTask._resolve_dependency - <span style="color:#00AA00">B (9)</span>
     <span style="color:#00AAAA">C </span>17:0 DependencySnapshotTask - <span style="color:#00AA00">B (6)</span>
-f8a_worker/workers/recommender.py
-    <span style="color:#00AA00">M </span>311:4 GraphDB.filter_versions - <span style="color:#AA5500">D (22)</span>
-    <span style="color:#00AA00">M </span>783:4 RecommendationV2Task.execute - <span style="color:#AA5500">C (14)</span>
-    <span style="color:#00AAAA">C </span>747:0 RecommendationV2Task - <span style="color:#00AA00">B (10)</span>
-    <span style="color:#AA00AA">F </span>689:0 apply_license_filter - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#00AA00">M </span>117:4 GraphDB.get_topmost_ref_stack - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#00AA00">M </span>561:4 RelativeSimilarity.find_relative_similarity - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#00AA00">M </span>429:4 GraphDB.get_topics_for_alt - <span style="color:#00AA00">B (6)</span>
 f8a_worker/workers/schemas/github_details.py
     <span style="color:#00AAAA">C </span>83:0 GithubDetail - <span style="color:#00AA00">B (6)</span>
 f8a_worker/workers/schemas/metadata.py
@@ -173,6 +154,6 @@ tests/workers/test_mercator.py
     <span style="color:#00AA00">M </span>50:4 TestMercator.test_execute_maven - <span style="color:#AA5500">C (11)</span>
     <span style="color:#00AA00">M </span>90:4 TestMercator.test_execute_go_glide - <span style="color:#00AA00">B (7)</span>
 
-123 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">B (8.902439024390244)</span>
+107 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">B (8.83177570093458)</span>
 </pre>

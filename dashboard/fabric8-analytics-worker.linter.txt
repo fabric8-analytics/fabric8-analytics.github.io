@@ -217,8 +217,6 @@ f8a_worker/workers/schemas/dependency_snapshot.py
     Pass
 f8a_worker/workers/report_generation.py
     Pass
-f8a_worker/workers/stackaggregator_v2.py
-    Pass
 f8a_worker/workers/graph_importer.py
     Pass
 f8a_worker/workers/dependency_parser.py
@@ -226,8 +224,6 @@ f8a_worker/workers/dependency_parser.py
 f8a_worker/workers/gh_metadata_result_collector.py
     Pass
 f8a_worker/workers/bookkeeper.py
-    Pass
-f8a_worker/workers/manifest_keeper.py
     Pass
 f8a_worker/workers/__init__.py
     Pass
@@ -259,8 +255,6 @@ f8a_worker/workers/graph_sync.py
     Pass
 f8a_worker/workers/keywords_summary.py
     Pass
-f8a_worker/workers/stackaggregator.py
-    Pass
 f8a_worker/workers/keywords_tagging.py
     Pass
 f8a_worker/workers/init_analysis_flow.py
@@ -270,8 +264,6 @@ f8a_worker/workers/repository_description.py
 f8a_worker/workers/unknown_dep_fetcher.py
     Pass
 f8a_worker/workers/dependency_snapshot.py
-    Pass
-f8a_worker/workers/recommender.py
     Pass
 f8a_worker/workers/gh_metadata_init.py
     Pass
@@ -338,4 +330,4 @@ setup.py
 ----------------------------------------------------
 setup.py
     Pass
-All checks passed for 162 source files
+All checks passed for 158 source files

@@ -10,8 +10,8 @@ Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (2.1.1)
-Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.11.0)
 Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.2.1)
+Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.11.0)
 alembic/versions/f5c853b83d41_add_api_requests_table.py
 0
     Pass
@@ -324,9 +324,6 @@ f8a_worker/workers/schemas/dependency_snapshot.py
 f8a_worker/workers/report_generation.py
 0
     Pass
-f8a_worker/workers/stackaggregator_v2.py
-0
-    Pass
 f8a_worker/workers/graph_importer.py
 0
     Pass
@@ -337,9 +334,6 @@ f8a_worker/workers/gh_metadata_result_collector.py
 0
     Pass
 f8a_worker/workers/bookkeeper.py
-0
-    Pass
-f8a_worker/workers/manifest_keeper.py
 0
     Pass
 f8a_worker/workers/__init__.py
@@ -387,9 +381,6 @@ f8a_worker/workers/graph_sync.py
 f8a_worker/workers/keywords_summary.py
 0
     Pass
-f8a_worker/workers/stackaggregator.py
-0
-    Pass
 f8a_worker/workers/keywords_tagging.py
 0
     Pass
@@ -403,9 +394,6 @@ f8a_worker/workers/unknown_dep_fetcher.py
 0
     Pass
 f8a_worker/workers/dependency_snapshot.py
-0
-    Pass
-f8a_worker/workers/recommender.py
 0
     Pass
 f8a_worker/workers/gh_metadata_init.py
@@ -500,4 +488,4 @@ setup.py
 setup.py
 0
     Pass
-All checks passed for 161 source files
+All checks passed for 157 source files
