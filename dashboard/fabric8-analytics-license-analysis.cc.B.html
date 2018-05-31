@@ -1,4 +1,6 @@
-<pre>tests/test_local_filesystem.py
+<pre>tests/test_s3_data_store.py
+    <span style="color:#AA00AA">F </span>62:0 test_list_files_mocked_s3 - <span style="color:#AA5500">C (11)</span>
+tests/test_local_filesystem.py
     <span style="color:#AA00AA">F </span>40:0 test_list_files - <span style="color:#00AA00">B (10)</span>
     <span style="color:#AA00AA">F </span>89:0 test_read_all_json_files - <span style="color:#00AA00">B (7)</span>
     <span style="color:#AA00AA">F </span>103:0 test_write_json_file - <span style="color:#00AA00">B (6)</span>
@@ -6,32 +8,39 @@ tests/test_directed_graph.py
     <span style="color:#AA00AA">F </span>257:0 test_iterator - <span style="color:#AA5500">C (15)</span>
     <span style="color:#AA00AA">F </span>224:0 test_find_common_reachable_vertex - <span style="color:#AA5500">C (13)</span>
 tests/test_license_analysis.py
-    <span style="color:#AA00AA">F </span>19:0 test_compute_representative_license_successful - <span style="color:#AA0000">E (31)</span>
-    <span style="color:#AA00AA">F </span>285:0 test_check_compatibility - <span style="color:#AA5500">D (28)</span>
-    <span style="color:#AA00AA">F </span>249:0 test_check_compatibility_input_sanity_checks - <span style="color:#AA5500">C (16)</span>
-    <span style="color:#AA00AA">F </span>183:0 test_compute_representative_license_conflict_3 - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#AA00AA">F </span>164:0 test_compute_representative_license_conflict_2 - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>203:0 test_compute_representative_license_repeating_licenses - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>97:0 test_compute_representative_license_unknown - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>146:0 test_compute_representative_license_conflict_1 - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>114:0 test_compute_representative_license_no_conflict - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>346:0 test_check_compatibility - <span style="color:#AA5500">C (17)</span>
+    <span style="color:#AA00AA">F </span>266:0 test_check_compatibility_input_sanity_checks - <span style="color:#AA5500">C (16)</span>
+    <span style="color:#AA00AA">F </span>81:0 test_compute_representative_license_outlier_licenses - <span style="color:#AA5500">C (13)</span>
+    <span style="color:#AA00AA">F </span>47:0 test_compute_representative_license_one_license - <span style="color:#AA5500">C (11)</span>
+    <span style="color:#AA00AA">F </span>19:0 test_compute_representative_license_no_licenses - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#AA00AA">F </span>200:0 test_compute_representative_license_conflict_3 - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#AA00AA">F </span>181:0 test_compute_representative_license_conflict_2 - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>220:0 test_compute_representative_license_repeating_licenses - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>114:0 test_compute_representative_license_unknown - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>163:0 test_compute_representative_license_conflict_1 - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>321:0 test_check_compatibility_all_permissive_licenses - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>131:0 test_compute_representative_license_no_conflict - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>302:0 test_check_compatibility_some_unknown_licenses - <span style="color:#00AA00">B (6)</span>
 tests/test_vertex.py
     <span style="color:#AA00AA">F </span>46:0 test_properties - <span style="color:#00AA00">B (6)</span>
 tests/test_stack_license.py
+    <span style="color:#AA00AA">F </span>334:0 test_extract_component_details - <span style="color:#AA5500">C (17)</span>
     <span style="color:#AA00AA">F </span>11:0 test_input_sanity_checks - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#AA00AA">F </span>513:0 test_extract_user_stack_package_licenses - <span style="color:#00AA00">B (9)</span>
     <span style="color:#AA00AA">F </span>220:0 test_check_compatibility - <span style="color:#00AA00">B (8)</span>
     <span style="color:#AA00AA">F </span>249:0 test_check_compatibility_conflicts - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>559:0 test_select_latest_version - <span style="color:#00AA00">B (8)</span>
 src/auth.py
-    <span style="color:#AA00AA">F </span>14:0 decode_token - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>25:0 decode_token - <span style="color:#00AA00">B (7)</span>
 src/directed_graph.py
     <span style="color:#00AA00">M </span>106:4 DirectedGraph.find_common_reachable_vertices - <span style="color:#00AA00">B (8)</span>
 src/stack_license.py
-    <span style="color:#00AA00">M </span>133:4 StackLicenseAnalyzer.compute_stack_license - <span style="color:#AA5500">D (24)</span>
-    <span style="color:#00AA00">M </span>406:4 StackLicenseAnalyzer._extract_unknown_licenses - <span style="color:#AA5500">C (11)</span>
+    <span style="color:#00AA00">M </span>158:4 StackLicenseAnalyzer.compute_stack_license - <span style="color:#AA5500">C (18)</span>
+    <span style="color:#00AA00">M </span>414:4 StackLicenseAnalyzer._extract_unknown_licenses - <span style="color:#AA5500">C (11)</span>
     <span style="color:#00AA00">M </span>74:4 StackLicenseAnalyzer._check_compatibility - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#00AA00">M </span>310:4 StackLicenseAnalyzer.get_dependency_data - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#00AA00">M </span>352:4 StackLicenseAnalyzer.extract_user_stack_package_licenses - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#00AAAA">C </span>61:0 StackLicenseAnalyzer - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>318:4 StackLicenseAnalyzer.get_dependency_data - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#00AA00">M </span>360:4 StackLicenseAnalyzer.extract_user_stack_package_licenses - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#00AAAA">C </span>61:0 StackLicenseAnalyzer - <span style="color:#00AA00">B (6)</span>
 src/license_analysis.py
     <span style="color:#00AA00">M </span>431:4 LicenseAnalyzer.compute_representative_license - <span style="color:#AA5500">C (17)</span>
     <span style="color:#00AA00">M </span>552:4 LicenseAnalyzer.check_compatibility - <span style="color:#AA5500">C (16)</span>
@@ -43,6 +52,6 @@ src/util/data_store/local_filesystem.py
 src/util/data_store/s3_data_store.py
     <span style="color:#00AA00">M </span>33:4 S3DataStore.list_files - <span style="color:#00AA00">B (10)</span>
 
-33 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#AA5500">C (11.090909090909092)</span>
+41 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">B (9.951219512195122)</span>
 </pre>

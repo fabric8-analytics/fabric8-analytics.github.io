@@ -212,10 +212,10 @@ integration-tests/features/src/utils.py
     <span style="color:#AA00AA">F </span>26:0 which - <span style="color:#00AA00">A (5)</span>
     <span style="color:#AA00AA">F </span>7:0 download_file_from_url - <span style="color:#00AA00">A (4)</span>
     <span style="color:#AA00AA">F </span>41:0 oc_login - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>62:0 oc_delete_pods - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>16:0 split_comma_separated_list - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>21:0 is_exe - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>62:0 oc_delete_pods - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>90:0 oc_run_command - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>93:0 oc_run_command - <span style="color:#00AA00">A (1)</span>
 integration-tests/features/src/graph_db_query.py
     <span style="color:#00AAAA">C </span>4:0 Query - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>7:4 Query.__init__ - <span style="color:#00AA00">A (1)</span>
@@ -393,17 +393,18 @@ integration-tests/features/steps/s3_component_analysis.py
     <span style="color:#AA00AA">F </span>204:0 check_component_metadata_data - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>294:0 check_component_source_licenses_data - <span style="color:#00AA00">A (1)</span>
 integration-tests/features/steps/server_api.py
-    <span style="color:#AA00AA">F </span>49:0 check_versions - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>39:0 check_ecosystems - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>61:0 check_endpoint_in_paths - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>70:0 check_schema_existence - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>11:0 access_url - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>17:0 access_url_with_authorization_token - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>24:0 check_submit_feedback - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>82:0 check_schema_existence_api_call - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>89:0 check_schema_existence_component_analyses - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>96:0 check_schema_version - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>103:0 check_valid_schema - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>63:0 check_versions - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>53:0 check_ecosystems - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>18:0 access_url_repeatedly - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>75:0 check_endpoint_in_paths - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>84:0 check_schema_existence - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>12:0 access_url - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>31:0 access_url_with_authorization_token - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>38:0 check_submit_feedback - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>96:0 check_schema_existence_api_call - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>103:0 check_schema_existence_component_analyses - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>110:0 check_schema_version - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>117:0 check_valid_schema - <span style="color:#00AA00">A (1)</span>
 integration-tests/features/steps/three_scale.py
     <span style="color:#AA00AA">F </span>75:0 validate_result_post_registration - <span style="color:#00AA00">A (4)</span>
     <span style="color:#AA00AA">F </span>26:0 get_data - <span style="color:#00AA00">A (2)</span>
@@ -447,13 +448,23 @@ integration-tests/features/steps/jobs_api.py
     <span style="color:#AA00AA">F </span>382:0 generate_job_id_prefix - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>388:0 perform_kerberized_request - <span style="color:#00AA00">A (1)</span>
 integration-tests/features/steps/oc.py
-    <span style="color:#AA00AA">F </span>30:0 oc_got_user_name_p - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>57:0 oc_deployment_exist - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>13:0 check_oc_command - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>20:0 oc_show_status - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>46:0 check_status_of_all_deployments - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>69:0 check_status_of_service - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>80:0 oc_service_exist - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>167:0 oc_wait_for_service_restart - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>31:0 oc_got_user_name_p - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>58:0 oc_deployment_exist - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>134:0 get_pod_states - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>147:0 oc_pods_in_state - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>158:0 oc_pods_in_state_negative - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>14:0 check_oc_command - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>21:0 oc_show_status - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>47:0 check_status_of_all_deployments - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>70:0 check_status_of_service - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>81:0 oc_service_exist - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>101:0 oc_get_pods_for_service - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>113:0 oc_number_of_pods - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>89:0 selector_for_service - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>94:0 oc_delete_selected_pods - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>122:0 get_pod_phase - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>128:0 is_pod - <span style="color:#00AA00">A (1)</span>
 integration-tests/features/steps/user_tag.py
     <span style="color:#AA00AA">F </span>103:0 check_get_next_untagged_component_response - <span style="color:#00AA00">B (9)</span>
     <span style="color:#AA00AA">F </span>55:0 check_master_tag_list_response_json - <span style="color:#00AA00">A (3)</span>
@@ -538,15 +549,16 @@ integration-tests/features/steps/stack_analysis.py
     <span style="color:#AA00AA">F </span>507:0 stack_analysis_check_security_node_for_alternate_components - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>614:0 check_stack_analyses_request_id - <span style="color:#00AA00">A (1)</span>
 integration-tests/features/steps/common.py
-    <span style="color:#AA00AA">F </span>170:0 check_analyzers_with_standard_schema - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>202:0 validate_analysis_result - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>162:0 check_incomplete_analysis_result - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>221:0 compare_value_from_json - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>177:0 check_analyzers_with_standard_schema - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>209:0 validate_analysis_result - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>169:0 check_incomplete_analysis_result - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>228:0 compare_value_from_json - <span style="color:#00AA00">A (4)</span>
     <span style="color:#AA00AA">F </span>52:0 get_tgt_in_service - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>192:0 check_analysis_result - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>230:0 find_value_under_the_path - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>240:0 find_null_value_under_the_path - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>249:0 find_timestamp_value_under_the_path - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>105:0 check_status_code_for_all_calls - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>199:0 check_analysis_result - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>237:0 find_value_under_the_path - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>247:0 find_null_value_under_the_path - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>256:0 find_timestamp_value_under_the_path - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>38:0 running_system - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>45:0 does_data_directory_exists - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>74:0 check_json_empty_response - <span style="color:#00AA00">A (2)</span>
@@ -554,17 +566,17 @@ integration-tests/features/steps/common.py
     <span style="color:#AA00AA">F </span>87:0 check_json_nempty_response_from_s3 - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>93:0 check_json_nonempty_response_from_s3 - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>99:0 check_status_code - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>105:0 check_json_response_contains_key - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>111:0 check_json_value_under_key - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>137:0 check_timestamp_under_path - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>157:0 check_datetime - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>181:0 check_complete_analysis_result - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>112:0 check_json_response_contains_key - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>118:0 check_json_value_under_key - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>144:0 check_timestamp_under_path - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>164:0 check_datetime - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>188:0 check_complete_analysis_result - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>32:0 initial_state - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>117:0 check_id_in_json_response - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>127:0 check_timestamp_in_json_attribute - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>150:0 pause_scenario_execution - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>259:0 read_json_file - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>265:0 read_json_file_for_s3 - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>124:0 check_id_in_json_response - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>134:0 check_timestamp_in_json_attribute - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>157:0 pause_scenario_execution - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>266:0 read_json_file - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>272:0 read_json_file_for_s3 - <span style="color:#00AA00">A (1)</span>
 integration-tests/features/steps/gemini.py
     <span style="color:#AA00AA">F </span>33:0 call_backbone_api - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>15:0 running_gemini_api - <span style="color:#00AA00">A (1)</span>
@@ -907,6 +919,6 @@ perf-tests/src/gremlin_package_generator.py
     <span style="color:#00AA00">M </span>55:4 GremlinPackageGenerator.package_generator_for_ecosystem - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>65:4 GremlinPackageGenerator.package_version_generator_for_ecosystem - <span style="color:#00AA00">A (2)</span>
 
-830 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (2.3)</span>
+842 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (2.3004750593824226)</span>
 </pre>

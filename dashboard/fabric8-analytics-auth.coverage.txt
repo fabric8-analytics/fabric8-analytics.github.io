@@ -2,6 +2,6 @@ Name                                 Stmts   Miss  Cover   Missing
 ------------------------------------------------------------------
 /root/payload/f8a_auth/__init__.py       0      0   100%
 /root/payload/f8a_auth/errors.py         5      0   100%
-/root/payload/f8a_auth/f8a_auth.py      83     50    40%   23-42, 47, 69-72, 76-79, 84, 89-123
+/root/payload/f8a_auth/f8a_auth.py      84     51    39%   23-42, 47, 69-72, 76-79, 84, 89-124
 ------------------------------------------------------------------
-TOTAL                                   88     50    43%
+TOTAL                                   89     51    43%

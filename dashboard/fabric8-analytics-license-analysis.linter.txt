@@ -37,6 +37,10 @@ src/license_analysis.py
     Pass
 tests/test_s3_data_store.py
     Pass
+tests/s3_mocks.py
+    Pass
+tests/test_errors_class.py
+    Pass
 tests/test_local_filesystem.py
     Pass
 tests/test_api_v1.py
@@ -55,6 +59,12 @@ tests/synonyms/__init__.py
     Pass
 tests/test_stack_license.py
     Pass
+tests/test_token_handling.py
+    Pass
+tests/test_api_user_class.py
+    Pass
 tests/conftest.py
     Pass
-All checks passed for 24 source files
+tests/pandas_mocks.py
+    Pass
+All checks passed for 29 source files
