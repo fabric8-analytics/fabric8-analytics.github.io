@@ -167,6 +167,8 @@ dashboard/src/progress_bar.py
     Pass
 dashboard/src/coreapi.py
     Pass
+dashboard/src/git_utils.py
+    Pass
 reproducers/issue1934.py
     Pass
 reproducers/issue1619.py
@@ -205,4 +207,4 @@ db-integrity-tests/src/core_package_checker.py
     Pass
 db-integrity-tests/src/checker.py
     Pass
-All checks passed for 98 source files
+All checks passed for 99 source files
