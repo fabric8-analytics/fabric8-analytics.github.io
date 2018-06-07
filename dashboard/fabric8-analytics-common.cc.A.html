@@ -40,11 +40,12 @@ dashboard/src/charts.py
     <span style="color:#AA00AA">F </span>78:0 generate_cyclomatic_complexity_chart - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>88:0 generate_maintainability_index_chart - <span style="color:#00AA00">A (1)</span>
 dashboard/src/unit_tests.py
-    <span style="color:#AA00AA">F </span>45:0 read_unit_test_coverage - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#AA00AA">F </span>68:0 read_unit_test_coverage_for_week - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>50:0 read_unit_test_coverage - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>73:0 read_unit_test_coverage_for_week - <span style="color:#00AA00">A (5)</span>
     <span style="color:#AA00AA">F </span>37:0 write_unit_test_coverage - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>13:0 unit_test_coverage_ok - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>22:0 parse_unit_test_statistic - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>45:0 line_with_unit_test_summary - <span style="color:#00AA00">A (2)</span>
 dashboard/src/cc.py
     <span style="color:#AA00AA">F </span>51:0 prepare_data_for_repositories - <span style="color:#00AA00">A (4)</span>
     <span style="color:#AA00AA">F </span>68:0 update_coverage_threshold_pass - <span style="color:#00AA00">A (4)</span>
@@ -90,6 +91,7 @@ dashboard/src/config.py
     <span style="color:#00AA00">M </span>16:4 Config.get_sprint - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>64:4 Config.get_code_coverage_threshold_for_project - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>68:4 Config.get_overall_code_coverage_threshold - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>78:4 Config.get_repo_with_history_data - <span style="color:#00AA00">A (1)</span>
 dashboard/src/source_files.py
     <span style="color:#AA00AA">F </span>16:0 get_source_files - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>6:0 parse_line_count - <span style="color:#00AA00">A (2)</span>
@@ -151,6 +153,20 @@ dashboard/src/coreapi.py
     <span style="color:#00AAAA">C </span>6:0 CoreApi - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>9:4 CoreApi.__init__ - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>13:4 CoreApi.authorization - <span style="color:#00AA00">A (1)</span>
+dashboard/src/cc_history.py
+    <span style="color:#AA00AA">F </span>36:0 read_summary - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>64:0 read_code_coverage_history - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>94:0 compute_covered - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>103:0 setup_ticks - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>132:0 draw_graph - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>170:0 generate_graph_with_overall_coverage - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>49:0 get_commit_date - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>84:0 get_values_as_str - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>89:0 get_values_as_int - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>192:0 main - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>58:0 get_filename_with_coverage - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>117:0 plot_all_series_to_graph - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>179:0 prepare_hist_repository - <span style="color:#00AA00">A (1)</span>
 dashboard/src/git_utils.py
     <span style="color:#AA00AA">F </span>7:0 update_repository_name - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>61:0 read_all_commits - <span style="color:#00AA00">A (3)</span>
@@ -925,6 +941,6 @@ perf-tests/src/gremlin_package_generator.py
     <span style="color:#00AA00">M </span>55:4 GremlinPackageGenerator.package_generator_for_ecosystem - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>65:4 GremlinPackageGenerator.package_version_generator_for_ecosystem - <span style="color:#00AA00">A (2)</span>
 
-847 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (2.3010625737898467)</span>
+862 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (2.2981438515081205)</span>
 </pre>
