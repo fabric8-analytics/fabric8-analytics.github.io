@@ -1,18 +1,18 @@
 Name                                                       Stmts   Miss  Cover   Missing		Name                                                       Stmts   Miss  Cover   Missing
 ----------------------------------------------------------------------------------------		----------------------------------------------------------------------------------------
 /root/payload/src/__init__.py                                  0      0   100%				/root/payload/src/__init__.py                                  0      0   100%
-/root/payload/src/auth.py                                     57     43    25%   16-39, 46-77, 86     |	/root/payload/src/auth.py                                     66     25    62%   22, 57, 68-97
+/root/payload/src/auth.py                                     66     25    62%   22, 57, 68-97		/root/payload/src/auth.py                                     66     25    62%   22, 57, 68-97
 /root/payload/src/config.py                                   10      0   100%				/root/payload/src/config.py                                   10      0   100%
 /root/payload/src/directed_graph.py                           87      0   100%				/root/payload/src/directed_graph.py                           87      0   100%
-/root/payload/src/exceptions.py                                5      3    40%   18-20		      |	/root/payload/src/exceptions.py                                5      0   100%
+/root/payload/src/exceptions.py                                5      0   100%				/root/payload/src/exceptions.py                                5      0   100%
 /root/payload/src/license_analysis.py                        273      0   100%				/root/payload/src/license_analysis.py                        273      0   100%
-/root/payload/src/rest_api.py                                 34      8    76%   15-16, 21-22, 60-66, |	/root/payload/src/rest_api.py                                 34      5    85%   15-16, 21-22, 70
-/root/payload/src/stack_license.py                           269    124    54%   23-28, 33-35, 40-58, |	/root/payload/src/stack_license.py                           273     33    88%   23-28, 380, 398, 402
+/root/payload/src/rest_api.py                                 34      5    85%   15-16, 21-22, 70	/root/payload/src/rest_api.py                                 34      5    85%   15-16, 21-22, 70
+/root/payload/src/stack_license.py                           273     33    88%   23-28, 380, 398, 402 |	/root/payload/src/stack_license.py                           276     33    88%   23-28, 383, 401, 405
 /root/payload/src/util/__init__.py                             0      0   100%				/root/payload/src/util/__init__.py                             0      0   100%
 /root/payload/src/util/data_store/__init__.py                  0      0   100%				/root/payload/src/util/data_store/__init__.py                  0      0   100%
 /root/payload/src/util/data_store/abstract_data_store.py      10      0   100%				/root/payload/src/util/data_store/abstract_data_store.py      10      0   100%
 /root/payload/src/util/data_store/local_filesystem.py         44      0   100%				/root/payload/src/util/data_store/local_filesystem.py         44      0   100%
-/root/payload/src/util/data_store/s3_data_store.py            61     25    59%   41-59, 73, 77-78, 82 |	/root/payload/src/util/data_store/s3_data_store.py            61      0   100%
+/root/payload/src/util/data_store/s3_data_store.py            61      0   100%				/root/payload/src/util/data_store/s3_data_store.py            61      0   100%
 /root/payload/src/utils.py                                    18     16    11%   7-29			/root/payload/src/utils.py                                    18     16    11%   7-29
 ----------------------------------------------------------------------------------------		----------------------------------------------------------------------------------------
-TOTAL                                                        868    219    75%			      |	TOTAL                                                        881     79    91%
+TOTAL                                                        881     79    91%			      |	TOTAL                                                        884     79    91%

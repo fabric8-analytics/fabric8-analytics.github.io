@@ -2,7 +2,7 @@ Name                                                        Stmts   Miss  Cover 
 -----------------------------------------------------------------------------------------		-----------------------------------------------------------------------------------------
 /recommendation_engine/__init__.py                              0      0   100%				/recommendation_engine/__init__.py                              0      0   100%
 /recommendation_engine/config/__init__.py                       0      0   100%				/recommendation_engine/config/__init__.py                       0      0   100%
-/recommendation_engine/config/cloud_constants.py                8      8     0%   3-28		      |	/recommendation_engine/config/cloud_constants.py                8      0   100%
+/recommendation_engine/config/cloud_constants.py                8      0   100%				/recommendation_engine/config/cloud_constants.py                8      0   100%
 /recommendation_engine/config/params_scoring.py                 5      0   100%				/recommendation_engine/config/params_scoring.py                 5      0   100%
 /recommendation_engine/config/path_constants.py                 8      0   100%				/recommendation_engine/config/path_constants.py                 8      0   100%
 /recommendation_engine/data_store/__init__.py                   0      0   100%				/recommendation_engine/data_store/__init__.py                   0      0   100%
@@ -18,4 +18,4 @@ Name                                                        Stmts   Miss  Cover 
 /recommendation_engine/utils/__init__.py                        0      0   100%				/recommendation_engine/utils/__init__.py                        0      0   100%
 /recommendation_engine/utils/fileutils.py                      14      3    79%   36, 50-51		/recommendation_engine/utils/fileutils.py                      14      3    79%   36, 50-51
 -----------------------------------------------------------------------------------------		-----------------------------------------------------------------------------------------
-TOTAL                                                         330    157    52%			      |	TOTAL                                                         330    149    55%
+TOTAL                                                         330    149    55%				TOTAL                                                         330    149    55%
