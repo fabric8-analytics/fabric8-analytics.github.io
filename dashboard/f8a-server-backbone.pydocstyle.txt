@@ -24,9 +24,6 @@ src/rest_api.py
 src/stack_aggregator.py
 0
     Pass
-src/dependency_editor.py
-0
-    Pass
 src/recommender.py
 0
     Pass
@@ -34,9 +31,6 @@ tests/test_rest_api.py
 0
     Pass
 tests/__init__.py
-0
-    Pass
-tests/test_dependency_editor.py
 0
     Pass
 tests/test_utils.py
@@ -51,4 +45,4 @@ tests/test_recommender.py
 tests/conftest.py
 0
     Pass
-All checks passed for 13 source files
+All checks passed for 11 source files

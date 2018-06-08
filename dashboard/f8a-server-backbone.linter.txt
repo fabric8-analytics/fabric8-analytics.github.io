@@ -17,15 +17,11 @@ src/rest_api.py
     Pass
 src/stack_aggregator.py
     Pass
-src/dependency_editor.py
-    Pass
 src/recommender.py
     Pass
 tests/test_rest_api.py
     Pass
 tests/__init__.py
-    Pass
-tests/test_dependency_editor.py
     Pass
 tests/test_utils.py
     Pass
