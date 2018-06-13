@@ -24,7 +24,7 @@ Name                                                                 Stmts   Mis
 /f8a_worker/f8a_worker/storages/__init__.py                             19      0   100%
 /f8a_worker/f8a_worker/storages/package_postgres.py                     85     64    25%   28-30, 33-36, 56-64, 74-87, 96-101, 110-120, 130-152, 163-187, 200-216
 /f8a_worker/f8a_worker/storages/postgres.py                            110     70    36%   63, 74-76, 82, 96-113, 124-138, 147-157, 166-171, 180-188, 197-203, 209-210, 219-255, 265-274
-/f8a_worker/f8a_worker/storages/postgres_base.py                        93     26    72%   43, 49, 54, 93-97, 115, 121, 147-168, 173
+/f8a_worker/f8a_worker/storages/postgres_base.py                        91     24    74%   43, 49, 54, 93-97, 115, 121, 143-162, 167
 /f8a_worker/f8a_worker/storages/s3.py                                  122     48    61%   58, 68, 78-88, 94-108, 123-127, 148-149, 153, 157, 162, 189, 196, 207-208, 216, 220, 228-236, 241-244, 248-256
 /f8a_worker/f8a_worker/storages/s3_artifacts.py                          4      0   100%
 /f8a_worker/f8a_worker/storages/s3_crowd_source_tags.py                 12      7    42%   12, 16-18, 22-24
@@ -42,7 +42,7 @@ Name                                                                 Stmts   Mis
 /f8a_worker/f8a_worker/storages/s3_userintent.py                        19     14    26%   11-16, 20-23, 27-31
 /f8a_worker/f8a_worker/storages/s3_userprofilestore.py                   8      4    50%   12-15
 /f8a_worker/f8a_worker/storages/s3_vulndb.py                            54     36    33%   28-39, 43-51, 55-61, 65-69, 73-79
-/f8a_worker/f8a_worker/utils.py                                        301     51    83%   34-47, 82-83, 93, 114-117, 136-145, 178, 219-221, 313, 360, 399, 407, 412, 482, 494-497, 503-508, 513-519, 524-528, 546, 550-552
+/f8a_worker/f8a_worker/utils.py                                        301     50    83%   34-47, 82-83, 93, 114-117, 136-145, 178, 219-221, 313, 360, 399, 407, 412, 482, 494-497, 503-508, 513-519, 524-528, 546, 552
 /f8a_worker/f8a_worker/victims.py                                      199     52    74%   102-103, 114, 128-132, 158-162, 191, 200-211, 215-226, 235, 245-246, 262-287, 301, 304-306, 316-317
 /f8a_worker/f8a_worker/workers/CVEchecker.py                           127     26    80%   43, 85, 117-135, 149-152, 165-166, 174-176, 196, 221
 /f8a_worker/f8a_worker/workers/__init__.py                              27      0   100%
@@ -54,7 +54,7 @@ Name                                                                 Stmts   Mis
 /f8a_worker/f8a_worker/workers/finalize.py                              26     17    35%   15-27, 39-48
 /f8a_worker/f8a_worker/workers/gh_metadata_init.py                      14      9    36%   17-28
 /f8a_worker/f8a_worker/workers/gh_metadata_result_collector.py          38     30    21%   22-65
-/f8a_worker/f8a_worker/workers/git_stats.py                             77     58    25%   27-33, 42-57, 67-78, 87-92, 101-108, 118-119, 135-164
+/f8a_worker/f8a_worker/workers/git_stats.py                             78     58    26%   28-34, 43-58, 68-79, 88-93, 102-109, 119-120, 136-165
 /f8a_worker/f8a_worker/workers/githuber.py                             100     42    58%   44-46, 53-55, 63-68, 82-85, 90-92, 97-99, 145-164, 168-177
 /f8a_worker/f8a_worker/workers/graph_importer.py                        25     14    44%   30-64
 /f8a_worker/f8a_worker/workers/graph_sync.py                            24     20    17%   16-44
@@ -65,7 +65,7 @@ Name                                                                 Stmts   Mis
 /f8a_worker/f8a_worker/workers/keywords_tagging.py                     116     84    28%   45-66, 73-93, 103-105, 109, 122-140, 148-156, 169-219, 227-234
 /f8a_worker/f8a_worker/workers/libraries_io.py                          23      1    96%   34
 /f8a_worker/f8a_worker/workers/license.py                               59      7    88%   39, 101-108
-/f8a_worker/f8a_worker/workers/mercator.py                             151     63    58%   50-63, 72, 76-78, 81, 87-88, 92-106, 112, 114, 122-123, 131-148, 163, 179-198, 215-216, 223, 229
+/f8a_worker/f8a_worker/workers/mercator.py                             152     63    59%   51-64, 73, 77-79, 82, 88-89, 93-107, 113, 115, 123-124, 132-149, 164, 180-199, 216-217, 224, 232
 /f8a_worker/f8a_worker/workers/report_generation.py                     75     64    15%   22-39, 48-53, 56-98, 106-115
 /f8a_worker/f8a_worker/workers/repository_description.py                38      3    92%   35, 53, 60
 /f8a_worker/f8a_worker/workers/result_collector.py                      37     28    24%   17-42, 50-58, 69-76
@@ -83,4 +83,4 @@ Name                                                                 Stmts   Mis
 /f8a_worker/f8a_worker/workers/unknown_dep_fetcher.py                   37     29    22%   15-50, 59-62
 /f8a_worker/f8a_worker/workers/victims.py                               54     17    69%   19-30, 59-73, 94-95
 --------------------------------------------------------------------------------------------------
-TOTAL                                                                 5797   2093    64%
+TOTAL                                                                 5797   2090    64%
