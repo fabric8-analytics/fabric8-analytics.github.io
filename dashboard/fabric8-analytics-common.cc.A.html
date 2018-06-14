@@ -6,6 +6,22 @@ dashboard/src/configuration.py
     <span style="color:#00AAAA">C </span>6:0 Configuration - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>9:4 Configuration.__init__ - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>15:4 Configuration.__repr__ - <span style="color:#00AA00">A (1)</span>
+dashboard/src/jacoco_to_codecov.py
+    <span style="color:#00AA00">M </span>45:4 ProjectCoverageReport.read_csv - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>82:4 ProjectCoverageReport.convert_code_coverage_report - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>6:0 format_coverage_line - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>38:0 ProjectCoverageReport - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>77:4 ProjectCoverageReport.read_java_classes - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>92:4 ProjectCoverageReport.compute_total - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>14:0 compute_coverage - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>106:0 main - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>19:0 JavaClassCoverageReport - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>22:4 JavaClassCoverageReport.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>32:4 JavaClassCoverageReport.__str__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>41:4 ProjectCoverageReport.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>57:4 ProjectCoverageReport.write_horizontal_rule - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>63:4 ProjectCoverageReport.write_coverage_report_header - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>70:4 ProjectCoverageReport.write_coverage_report_summary - <span style="color:#00AA00">A (1)</span>
 dashboard/src/api.py
     <span style="color:#00AA00">M </span>16:4 Api.is_api_running - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AA00">M </span>26:4 Api.add_slash - <span style="color:#00AA00">A (3)</span>
@@ -40,12 +56,17 @@ dashboard/src/charts.py
     <span style="color:#AA00AA">F </span>78:0 generate_cyclomatic_complexity_chart - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>88:0 generate_maintainability_index_chart - <span style="color:#00AA00">A (1)</span>
 dashboard/src/unit_tests.py
-    <span style="color:#AA00AA">F </span>50:0 read_unit_test_coverage - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>73:0 read_unit_test_coverage_for_week - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>37:0 write_unit_test_coverage - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>13:0 unit_test_coverage_ok - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>22:0 parse_unit_test_statistic - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>45:0 line_with_unit_test_summary - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>86:0 read_unit_test_coverage - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#AA00AA">F </span>124:0 read_unit_test_coverage_for_week - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>50:0 write_unit_test_coverage - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>58:0 write_unit_test_coverage_as_csv - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>81:0 line_with_unit_test_summary - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>14:0 unit_test_coverage_ok - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>23:0 parse_unit_test_statistic - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>71:0 line_with_jacoco_test_footer - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>76:0 line_with_unit_test_header - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>38:0 compute_jacoco_test_statistic - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>66:0 line_with_jacoco_test_header - <span style="color:#00AA00">A (1)</span>
 dashboard/src/cc.py
     <span style="color:#AA00AA">F </span>51:0 prepare_data_for_repositories - <span style="color:#00AA00">A (4)</span>
     <span style="color:#AA00AA">F </span>68:0 update_coverage_threshold_pass - <span style="color:#00AA00">A (4)</span>
@@ -99,42 +120,42 @@ dashboard/src/s3_configuration.py
     <span style="color:#00AAAA">C </span>5:0 S3Configuration - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>8:4 S3Configuration.__init__ - <span style="color:#00AA00">A (1)</span>
 dashboard/src/dashboard.py
-    <span style="color:#AA00AA">F </span>302:0 update_overall_status - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#AA00AA">F </span>309:0 update_overall_status - <span style="color:#00AA00">B (9)</span>
     <span style="color:#AA00AA">F </span>177:0 parse_linter_results - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>427:0 prepare_data_for_repositories - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>255:0 compute_status - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>227:0 parse_cyclomatic_complexity - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>534:0 main - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>436:0 prepare_data_for_repositories - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>258:0 compute_status - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>230:0 parse_cyclomatic_complexity - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>543:0 main - <span style="color:#00AA00">B (6)</span>
     <span style="color:#AA00AA">F </span>61:0 check_system - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>518:0 production_smoketests_status - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>242:0 parse_maintainability_index - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>291:0 remark_unit_test_coverage - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>369:0 export_into_csv - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>492:0 jobs_as_dict - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>510:0 read_job_statuses - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>527:0 production_smoketests_status - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>245:0 parse_maintainability_index - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>270:0 remark_linter - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>279:0 remark_docstyle - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>298:0 remark_unit_test_coverage - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>378:0 export_into_csv - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>501:0 jobs_as_dict - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>519:0 read_job_statuses - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>31:0 check_environment_variable - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>43:0 check_environment_variables - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>139:0 run_cyclomatic_complexity_tool - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>155:0 run_maintainability_index - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>168:0 percentage - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>267:0 remark_linter - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>274:0 remark_docstyle - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>281:0 remark_linter_vs_docstyle - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>361:0 cleanup_repository - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>470:0 read_jobs_statuses - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>476:0 store_jobs_statuses - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>529:0 get_code_coverage_threshold - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>288:0 remark_linter_vs_docstyle - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>370:0 cleanup_repository - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>479:0 read_jobs_statuses - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>485:0 store_jobs_statuses - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>538:0 get_code_coverage_threshold - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>122:0 run_pylint - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>130:0 run_docstyle_check - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>212:0 parse_pylint_results - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>217:0 parse_docstyle_results - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>222:0 prepare_radon_results - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>354:0 delete_work_files - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>398:0 prepare_data_for_liveness_table - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>416:0 prepare_data_for_sla_table - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>482:0 jenkins_api_query_job_statuses - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>487:0 jenkins_api_query_build_statuses - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>497:0 read_ci_jobs_statuses - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>215:0 parse_pylint_results - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>220:0 parse_docstyle_results - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>225:0 prepare_radon_results - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>363:0 delete_work_files - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>407:0 prepare_data_for_liveness_table - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>425:0 prepare_data_for_sla_table - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>491:0 jenkins_api_query_job_statuses - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>496:0 jenkins_api_query_build_statuses - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>506:0 read_ci_jobs_statuses - <span style="color:#00AA00">A (1)</span>
 dashboard/src/smoke_tests.py
     <span style="color:#00AA00">M </span>41:4 SmokeTests.read_ci_results - <span style="color:#00AA00">A (4)</span>
     <span style="color:#00AA00">M </span>34:4 SmokeTests.read_logs - <span style="color:#00AA00">A (3)</span>
@@ -941,6 +962,6 @@ perf-tests/src/gremlin_package_generator.py
     <span style="color:#00AA00">M </span>55:4 GremlinPackageGenerator.package_generator_for_ecosystem - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>65:4 GremlinPackageGenerator.package_version_generator_for_ecosystem - <span style="color:#00AA00">A (2)</span>
 
-862 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (2.2981438515081205)</span>
+882 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (2.2879818594104306)</span>
 </pre>

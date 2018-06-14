@@ -129,6 +129,8 @@ dashboard/src/results.py
     Pass
 dashboard/src/configuration.py
     Pass
+dashboard/src/jacoco_to_codecov.py
+    Pass
 dashboard/src/sla.py
     Pass
 dashboard/src/api.py
@@ -209,4 +211,4 @@ db-integrity-tests/src/core_package_checker.py
     Pass
 db-integrity-tests/src/checker.py
     Pass
-All checks passed for 100 source files
+All checks passed for 101 source files
