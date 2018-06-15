@@ -41,8 +41,8 @@ Fabric8-analytics code coverage report
 |fabric8-analytics-auth              |8    |373        |previous|91    |45    |51%    |=             |90 %     |no   |
 |                                    |     |           |current |91    |45    |51%    |the same      |         |     |
 |------------------------------------+-----+-----------+--------+------+------+-------+--------------+---------+-----|
-|fabric8-gemini-server               |12   |1138       |previous|269   |90    |67%    |✓             |90 %     |no   |
-|                                    |     |           |current |288   |46    |84%    |better        |         |     |
+|fabric8-gemini-server               |12   |1138       |previous|269   |90    |67%    |✓             |90 %     |yes  |
+|                                    |     |           |current |244   |7     |97%    |better        |         |     |
 |------------------------------------+-----+-----------+--------+------+------+-------+--------------+---------+-----|
 |fabric8-analytics-version-comparator|8    |744        |previous|178   |0     |100%   |=             |90 %     |yes  |
 |                                    |     |           |current |178   |0     |100%   |the same      |         |     |
@@ -61,4 +61,4 @@ Fabric8-analytics code coverage report
 +--------------------------------------------------------------------------------------------------------------------+
 
 Author: Pavel Tisnovsky <ptisnovs@redhat.com>
-Generated on: 2018-06-15 14:02:34
+Generated on: 2018-06-15 16:06:41

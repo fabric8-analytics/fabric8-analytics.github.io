@@ -3,7 +3,7 @@ Name                Stmts   Miss  Cover   Missing
 src/__init__.py         2      0   100%
 src/auth.py            29      2    93%   30, 43
 src/exceptions.py       5      0   100%
-src/rest_api.py       110     34    69%   147-177, 189-214
-src/utils.py          142     10    93%   53, 99-100, 240, 272-276, 301
+src/rest_api.py        72      0   100%
+src/utils.py          136      5    96%   53, 99-100, 240, 292
 -------------------------------------------------
-TOTAL                 288     46    84%
+TOTAL                 244      7    97%
