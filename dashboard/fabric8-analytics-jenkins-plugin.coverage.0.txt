@@ -1,0 +1,19 @@
+Name                                                                             Stmts Miss  Cover   Missing
+------------------------------------------------------------------------------------------------------------
+com.redhat.jenkins.plugins.bayesian/User                                             5    5     0%
+com.redhat.jenkins.plugins.bayesian/Bayesian                                        99   99     0%
+com.redhat.jenkins.plugins.bayesian/BayesianAnalysisStep                             7    7     0%
+com.redhat.jenkins.plugins.bayesian/BayesianStepResponse                            19   19     0%
+com.redhat.jenkins.plugins.bayesian/DnsFiddler                                      12   12     0%
+com.redhat.jenkins.plugins.bayesian/BayesianResponse                                10   10     0%
+com.redhat.jenkins.plugins.bayesian/User.Attributes                                  4    4     0%
+com.redhat.jenkins.plugins.bayesian/Utils                                           44   44     0%
+com.redhat.jenkins.plugins.bayesian/BayesianAnalysisStep.DescriptorImpl              4    4     0%
+com.redhat.jenkins.plugins.bayesian/Utils.new ArrayList() {...}                      3    3     0%
+com.redhat.jenkins.plugins.bayesian/BayesianAnalysisStep.Execution                  25   25     0%
+com.redhat.jenkins.plugins.bayesian/BayesianException                                6    6     0%
+com.redhat.jenkins.plugins.bayesian/Utils.new ArrayList() {...}                      4    4     0%
+com.redhat.jenkins.plugins.bayesian/Utils.new ArrayList() {...}                      3    3     0%
+com.redhat.jenkins.plugins.bayesian/User.Data                                        5    5     0%
+------------------------------------------------------------------------------------------------------------
+TOTAL                                                                              250  250     0%

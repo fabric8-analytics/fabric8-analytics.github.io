@@ -1,0 +1,19 @@
+Name                                                                             Stmts Miss  Cover   	Name                                                                             Stmts Miss  Cover   
+-----------------------------------------------------------------------------------------------------	-----------------------------------------------------------------------------------------------------
+com.redhat.jenkins.plugins.bayesian/User                                             5    5     0%    |	com.redhat.jenkins.plugins.bayesian/User                                             5    2    60%
+com.redhat.jenkins.plugins.bayesian/Bayesian                                        99   99     0%    |	com.redhat.jenkins.plugins.bayesian/Bayesian                                        99   18    81%
+com.redhat.jenkins.plugins.bayesian/BayesianAnalysisStep                             7    7     0%    |	com.redhat.jenkins.plugins.bayesian/BayesianAnalysisStep                             7    1    85%
+com.redhat.jenkins.plugins.bayesian/BayesianStepResponse                            19   19     0%    |	com.redhat.jenkins.plugins.bayesian/BayesianStepResponse                            19   11    42%
+com.redhat.jenkins.plugins.bayesian/DnsFiddler                                      12   12     0%    |	com.redhat.jenkins.plugins.bayesian/DnsFiddler                                      12    6    50%
+com.redhat.jenkins.plugins.bayesian/BayesianResponse                                10   10     0%    |	com.redhat.jenkins.plugins.bayesian/BayesianResponse                                10    8    20%
+com.redhat.jenkins.plugins.bayesian/User.Attributes                                  4    4     0%    |	com.redhat.jenkins.plugins.bayesian/User.Attributes                                  4    2    50%
+com.redhat.jenkins.plugins.bayesian/Utils                                           44   44     0%    |	com.redhat.jenkins.plugins.bayesian/Utils                                           44    9    79%
+com.redhat.jenkins.plugins.bayesian/BayesianAnalysisStep.DescriptorImpl              4    4     0%    |	com.redhat.jenkins.plugins.bayesian/BayesianAnalysisStep.DescriptorImpl              4    0   100%
+com.redhat.jenkins.plugins.bayesian/Utils.new ArrayList() {...}                      3    3     0%    |	com.redhat.jenkins.plugins.bayesian/Utils.new ArrayList() {...}                      3    0   100%
+com.redhat.jenkins.plugins.bayesian/BayesianAnalysisStep.Execution                  25   25     0%    |	com.redhat.jenkins.plugins.bayesian/BayesianAnalysisStep.Execution                  25    8    68%
+com.redhat.jenkins.plugins.bayesian/BayesianException                                6    6     0%	com.redhat.jenkins.plugins.bayesian/BayesianException                                6    6     0%
+com.redhat.jenkins.plugins.bayesian/Utils.new ArrayList() {...}                      4    4     0%    |	com.redhat.jenkins.plugins.bayesian/Utils.new ArrayList() {...}                      4    0   100%
+com.redhat.jenkins.plugins.bayesian/Utils.new ArrayList() {...}                      3    3     0%    |	com.redhat.jenkins.plugins.bayesian/Utils.new ArrayList() {...}                      3    0   100%
+com.redhat.jenkins.plugins.bayesian/User.Data                                        5    5     0%    |	com.redhat.jenkins.plugins.bayesian/User.Data                                        5    3    40%
+-----------------------------------------------------------------------------------------------------	-----------------------------------------------------------------------------------------------------
+TOTAL                                                                              250  250     0%    |	TOTAL                                                                              250   74    70%
