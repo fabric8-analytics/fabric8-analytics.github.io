@@ -1,12 +1,19 @@
 <pre>setup.py
     <span style="color:#AA00AA">F </span>8:0 get_requirements - <span style="color:#00AA00">A (4)</span>
 tests/test_version_comparator.py
-    <span style="color:#AA00AA">F </span>121:0 test_parse_version - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#AA00AA">F </span>147:0 test_parse_item - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>26:0 check_version_order - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>34:0 check_version_different_order - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>42:0 check_version_equal - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>50:0 test_comparisons - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>253:0 test_parse_version - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#AA00AA">F </span>122:0 test_lt_operator - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>144:0 test_gt_operator - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>279:0 test_parse_item - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>103:0 test_eq_operator - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>26:0 check_version_order - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>43:0 check_version_different_order - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>60:0 check_version_equal - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>77:0 test_init - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>89:0 test_repr - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>97:0 test_str - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>237:0 test_comparisons_wrong_type - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>166:0 test_comparisons - <span style="color:#00AA00">A (1)</span>
 tests/test_item_object.py
     <span style="color:#AA00AA">F </span>100:0 test_string_item_compare_to - <span style="color:#00AA00">B (9)</span>
     <span style="color:#AA00AA">F </span>49:0 test_integer_item_compare_to - <span style="color:#00AA00">B (7)</span>
@@ -18,11 +25,16 @@ tests/test_item_object.py
     <span style="color:#AA00AA">F </span>84:0 test_string_item_constructor - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>92:0 test_string_item_constructor_aliases - <span style="color:#00AA00">A (1)</span>
 f8a_version_comparator/comparable_version.py
-    <span style="color:#00AA00">M </span>37:4 ComparableVersion.parse_version - <span style="color:#AA5500">C (13)</span>
-    <span style="color:#00AAAA">C </span>25:0 ComparableVersion - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>28:4 ComparableVersion.__init__ - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>102:4 ComparableVersion.parse_item - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>110:4 ComparableVersion.compare_to - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>88:4 ComparableVersion.parse_version - <span style="color:#AA5500">C (13)</span>
+    <span style="color:#00AAAA">C </span>27:0 ComparableVersion - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>162:4 ComparableVersion.compare_to - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>30:4 ComparableVersion.__init__ - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>58:4 ComparableVersion.__eq__ - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>68:4 ComparableVersion.__lt__ - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>78:4 ComparableVersion.__gt__ - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>153:4 ComparableVersion.parse_item - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>45:4 ComparableVersion.__repr__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>52:4 ComparableVersion.__str__ - <span style="color:#00AA00">A (1)</span>
 f8a_version_comparator/item_object.py
     <span style="color:#00AA00">M </span>171:4 ListItem.compare_to - <span style="color:#AA5500">C (12)</span>
     <span style="color:#00AA00">M </span>42:4 IntegerItem.compare_to - <span style="color:#00AA00">B (6)</span>
@@ -48,6 +60,6 @@ f8a_version_comparator/base.py
     <span style="color:#00AAAA">C </span>23:0 Item - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>26:4 Item.compare_to - <span style="color:#00AA00">A (1)</span>
 
-43 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (3.4186046511627906)</span>
+55 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (3.4363636363636365)</span>
 </pre>

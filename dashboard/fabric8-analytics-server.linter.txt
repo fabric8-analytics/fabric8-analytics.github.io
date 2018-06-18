@@ -29,6 +29,8 @@ bayesian/__init__.py
     Pass
 bayesian/utils.py
     Pass
+bayesian/manifest_models.py
+    Pass
 bayesian/generate_manifest.py
     Pass
 bayesian/api_v1.py
@@ -42,6 +44,8 @@ hack/check_api_schemas.py
 hack/auth_test_fixtures/generate_auth_token.py
     Pass
 tests/test_schemas.py
+    Pass
+tests/test_manifest_models.py
     Pass
 tests/appconfig.py
     Pass
@@ -132,4 +136,4 @@ setup.py
 ----------------------------------------------------
 setup.py
     Pass
-All checks passed for 59 source files
+All checks passed for 61 source files

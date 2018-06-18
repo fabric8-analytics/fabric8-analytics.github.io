@@ -42,6 +42,9 @@ bayesian/__init__.py
 bayesian/utils.py
 0
     Pass
+bayesian/manifest_models.py
+0
+    Pass
 bayesian/generate_manifest.py
 0
     Pass
@@ -61,6 +64,9 @@ hack/auth_test_fixtures/generate_auth_token.py
 0
     Pass
 tests/test_schemas.py
+0
+    Pass
+tests/test_manifest_models.py
 0
     Pass
 tests/appconfig.py
@@ -194,4 +200,4 @@ setup.py
 setup.py
 0
     Pass
-All checks passed for 59 source files
+All checks passed for 61 source files
