@@ -31,4 +31,4 @@ tests/test_recommender.py
     Pass
 tests/conftest.py
     Pass
-All checks passed
+All checks passed for 11 source files

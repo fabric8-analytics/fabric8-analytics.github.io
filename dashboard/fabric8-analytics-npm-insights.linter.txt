@@ -43,9 +43,9 @@ recommendation_engine/model/__init__.py
     Pass
 recommendation_engine/model/pmf_prediction.py
     Pass
-locustfiles/locustfile.py
-    Pass
 deployment/submit_emr_job.py
+    Pass
+tests/load_tests/locustfile.py
     Pass
 tests/unit_tests/test_PMFRecommendation.py
     Pass
