@@ -2,7 +2,7 @@ Name                                                            Stmts   Miss  Co
 ---------------------------------------------------------------------------------------------		---------------------------------------------------------------------------------------------
 /f8a_jobs/f8a_jobs/__init__.py                                      0      0   100%			/f8a_jobs/f8a_jobs/__init__.py                                      0      0   100%
 /f8a_jobs/f8a_jobs/analyses_report.py                              57     41    28%   11-19, 26-32, 3	/f8a_jobs/f8a_jobs/analyses_report.py                              57     41    28%   11-19, 26-32, 3
-/f8a_jobs/f8a_jobs/api_v1.py                                      278    184    34%   36, 42-46, 51-8	/f8a_jobs/f8a_jobs/api_v1.py                                      278    184    34%   36, 42-46, 51-8
+/f8a_jobs/f8a_jobs/api_v1.py                                      278    184    34%   36, 42-46, 51-8 |	/f8a_jobs/f8a_jobs/api_v1.py                                      274    183    33%   33, 39-43, 48-8
 /f8a_jobs/f8a_jobs/auth.py                                          7      1    86%   24		/f8a_jobs/f8a_jobs/auth.py                                          7      1    86%   24
 /f8a_jobs/f8a_jobs/defaults.py                                     22      0   100%			/f8a_jobs/f8a_jobs/defaults.py                                     22      0   100%
 /f8a_jobs/f8a_jobs/error.py                                         2      0   100%			/f8a_jobs/f8a_jobs/error.py                                         2      0   100%
@@ -32,4 +32,4 @@ Name                                                            Stmts   Miss  Co
 /f8a_jobs/f8a_jobs/scheduler.py                                   131     95    27%   57, 65-71, 81-8	/f8a_jobs/f8a_jobs/scheduler.py                                   131     95    27%   57, 65-71, 81-8
 /f8a_jobs/f8a_jobs/utils.py                                       122     78    36%   26-31, 36-42, 5	/f8a_jobs/f8a_jobs/utils.py                                       122     78    36%   26-31, 36-42, 5
 ---------------------------------------------------------------------------------------------		---------------------------------------------------------------------------------------------
-TOTAL                                                            1965   1427    27%			TOTAL                                                            1965   1427    27%
+TOTAL                                                            1965   1427    27%		      |	TOTAL                                                            1961   1426    27%
