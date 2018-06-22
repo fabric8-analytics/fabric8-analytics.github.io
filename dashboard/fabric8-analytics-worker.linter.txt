@@ -15,6 +15,8 @@ alembic/versions/9d605c7725d8_add_app_stack_tables.py
     Pass
 alembic/versions/76c5fd72744e_gh_usage_stats.py
     Pass
+alembic/versions/c23ff3124920_fix_ecosystem_data.py
+    Pass
 alembic/versions/0ff7fe2828a5_initial_revision.py
     Pass
 alembic/versions/e48c7b4235aa_drop_analysisrequest_table.py
@@ -36,6 +38,8 @@ alembic/versions/ea55c632ae8d_create_auth_data.py
 alembic/versions/d62464ca17ae_introduce_error_flag_for_worker_results.py
     Pass
 alembic/versions/43360d9467b9_drop_bigquery_results_table.py
+    Pass
+alembic/versions/c3ea37a6ebc5_add_redhat_maven_ecosystem.py
     Pass
 alembic/versions/ddb09a7d6633_delete_unnecessary_db_tables.py
     Pass
@@ -330,4 +334,4 @@ setup.py
 ----------------------------------------------------
 setup.py
     Pass
-All checks passed for 158 source files
+All checks passed for 160 source files

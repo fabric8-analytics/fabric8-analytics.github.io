@@ -42,10 +42,10 @@ Name                                                                 Stmts   Mis
 /f8a_worker/f8a_worker/storages/s3_userintent.py                        19     14    26%   11-16, 20-23, 27-31
 /f8a_worker/f8a_worker/storages/s3_userprofilestore.py                   8      4    50%   12-15
 /f8a_worker/f8a_worker/storages/s3_vulndb.py                            54     36    33%   28-39, 43-51, 55-61, 65-69, 73-79
-/f8a_worker/f8a_worker/utils.py                                        301     51    83%   34-47, 82-83, 93, 114-117, 136-145, 178, 222-224, 316, 363, 402, 410, 415, 485, 497-500, 506-511, 516-522, 527-531, 549, 553-555
+/f8a_worker/f8a_worker/utils.py                                        301     50    83%   34-47, 82-83, 93, 114-117, 136-145, 178, 222-224, 316, 363, 402, 410, 415, 485, 497-500, 506-511, 516-522, 527-531, 549, 555
 /f8a_worker/f8a_worker/victims.py                                      199     52    74%   102-103, 114, 128-132, 158-162, 192, 201-212, 216-227, 236, 246-247, 263-288, 302, 305-307, 317-318
 /f8a_worker/f8a_worker/workers/CVEchecker.py                           127     26    80%   43, 85, 117-135, 149-152, 165-166, 174-176, 196, 221
-/f8a_worker/f8a_worker/workers/__init__.py                              28      0   100%
+/f8a_worker/f8a_worker/workers/__init__.py                              27      0   100%
 /f8a_worker/f8a_worker/workers/bookkeeper.py                            38     29    24%   18-62, 70-80
 /f8a_worker/f8a_worker/workers/cvedbsync.py                             44     37    16%   23-67, 76-89
 /f8a_worker/f8a_worker/workers/dependency_parser.py                    130     42    68%   61-66, 84, 159-162, 199-235, 244-269
@@ -81,7 +81,6 @@ Name                                                                 Stmts   Mis
 /f8a_worker/f8a_worker/workers/schemas/security_issues.py               56      0   100%
 /f8a_worker/f8a_worker/workers/schemas/source_licenses.py               82      0   100%
 /f8a_worker/f8a_worker/workers/unknown_dep_fetcher.py                   37     29    22%   15-50, 59-62
-/f8a_worker/f8a_worker/workers/user_notifier.py                          9      4    56%   18-22
 /f8a_worker/f8a_worker/workers/victims.py                               54     17    69%   19-30, 59-73, 94-95
 --------------------------------------------------------------------------------------------------
-TOTAL                                                                 5816   2099    64%
+TOTAL                                                                 5806   2094    64%
