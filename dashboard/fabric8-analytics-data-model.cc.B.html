@@ -1,16 +1,17 @@
 <pre>src/graph_populator.py
-    <span style="color:#00AA00">M </span>48:4 GraphPopulator.construct_version_query - <span style="color:#AA0000">E (31)</span>
-    <span style="color:#00AA00">M </span>198:4 GraphPopulator.construct_package_query - <span style="color:#AA5500">D (21)</span>
-    <span style="color:#00AAAA">C </span>13:0 GraphPopulator - <span style="color:#AA5500">C (13)</span>
-    <span style="color:#00AA00">M </span>364:4 GraphPopulator.create_query_string - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>92:4 GraphPopulator.construct_version_query - <span style="color:#AA0000">E (31)</span>
+    <span style="color:#00AA00">M </span>242:4 GraphPopulator.construct_package_query - <span style="color:#AA5500">D (21)</span>
+    <span style="color:#00AAAA">C </span>13:0 GraphPopulator - <span style="color:#AA5500">C (11)</span>
+    <span style="color:#00AA00">M </span>408:4 GraphPopulator.create_query_string - <span style="color:#00AA00">B (6)</span>
 src/rest_api.py
-    <span style="color:#AA00AA">F </span>145:0 handle_properties - <span style="color:#AA5500">C (13)</span>
-    <span style="color:#AA00AA">F </span>114:0 selective_ingest - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>169:0 handle_properties - <span style="color:#AA5500">C (13)</span>
+    <span style="color:#AA00AA">F </span>138:0 selective_ingest - <span style="color:#00AA00">B (6)</span>
 src/data_importer.py
     <span style="color:#AA00AA">F </span>60:0 _import_keys_from_s3_http - <span style="color:#AA5500">C (16)</span>
     <span style="color:#AA00AA">F </span>162:0 import_epv_http - <span style="color:#AA5500">C (11)</span>
-    <span style="color:#00AA00">M </span>299:4 PostgresHandler._generate_fetch_query - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#00AA00">M </span>247:4 PostgresHandler.fetch_pending_epvs - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>339:4 PostgresHandler._generate_fetch_query - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>237:0 create_graph_nodes - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>287:4 PostgresHandler.fetch_pending_epvs - <span style="color:#00AA00">B (6)</span>
 src/data_source/s3_data_source.py
     <span style="color:#00AA00">M </span>49:4 S3DataSource.list_files - <span style="color:#00AA00">B (7)</span>
 test/test_rest_api.py
@@ -33,6 +34,6 @@ test/test_graph_populator.py
     <span style="color:#AA00AA">F </span>80:0 test_construct_version_query - <span style="color:#AA5500">C (15)</span>
     <span style="color:#AA00AA">F </span>176:0 test_construct_package_query - <span style="color:#00AA00">B (7)</span>
 
-25 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#AA5500">C (10.6)</span>
+26 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#AA5500">C (10.346153846153847)</span>
 </pre>
