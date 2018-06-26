@@ -1,0 +1,40 @@
+----------------------------------------------------
+Running Python linter against following directories:
+deployments src tests perf_tests PoC_code
+----------------------------------------------------
+
+Using base prefix '/usr'
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-hpf-insights/venv/bin/python3
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-hpf-insights/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-hpf-insights/venv/bin/python3)
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Requirement already satisfied: pycodestyle in ./venv/lib/python3.6/site-packages (2.4.0)
+deployments/__init__.py
+    Pass
+src/data_store/__init__.py
+    Pass
+src/data_store/abstract_data_store.py
+    Pass
+src/data_store/local_data_store.py
+    Pass
+src/data_store/s3_data_store.py
+    Pass
+src/__init__.py
+    Pass
+src/flask_endpoint.py
+    Pass
+src/scoring/__init__.py
+    Pass
+src/scoring/hpf_scoring.py
+    Pass
+src/training/__init__.py
+    Pass
+tests/__init__.py
+    Pass
+perf_tests/__init__.py
+    Pass
+perf_tests/locust_tests.py
+    Pass
+PoC_code/__init__.py
+    Pass
+All checks passed for 14 source files
