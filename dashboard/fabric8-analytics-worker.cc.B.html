@@ -13,10 +13,10 @@ f8a_worker/utils.py
 f8a_worker/setup_celery.py
     <span style="color:#AA00AA">F </span>17:0 get_dispatcher_config_files - <span style="color:#00AA00">B (7)</span>
 f8a_worker/victims.py
-    <span style="color:#00AA00">M </span>167:4 VictimsDB.is_version_affected - <span style="color:#00AA00">B (10)</span>
-    <span style="color:#00AA00">M </span>88:4 VictimsDB._read_db - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#00AA00">M </span>195:4 VictimsDB._build_from_git - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>116:4 VictimsDB.get_details_for_ecosystem - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>169:4 VictimsDB.is_version_affected - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#00AA00">M </span>197:4 VictimsDB._build_from_git - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>118:4 VictimsDB.get_details_for_ecosystem - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>280:4 FilteredVictimsDB._register_cve - <span style="color:#00AA00">B (6)</span>
 f8a_worker/solver.py
     <span style="color:#00AAAA">C </span>644:0 NugetDependencyParser - <span style="color:#AA5500">C (12)</span>
     <span style="color:#00AA00">M </span>647:4 NugetDependencyParser.parse - <span style="color:#AA5500">C (12)</span>
@@ -84,7 +84,7 @@ f8a_worker/workers/cvedbsync.py
     <span style="color:#00AA00">M </span>12:4 CVEDBSyncTask.components_to_scan - <span style="color:#AA5500">C (12)</span>
     <span style="color:#00AAAA">C </span>9:0 CVEDBSyncTask - <span style="color:#00AA00">B (8)</span>
 f8a_worker/workers/victims.py
-    <span style="color:#00AA00">M </span>78:4 VictimsCheck.mark_in_graph - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#00AA00">M </span>89:4 VictimsCheck.mark_in_graph - <span style="color:#00AA00">B (10)</span>
 f8a_worker/workers/license.py
     <span style="color:#00AA00">M </span>18:4 LicenseCheckTask.process_output - <span style="color:#00AA00">B (6)</span>
 f8a_worker/workers/git_stats.py
@@ -128,12 +128,12 @@ tests/test_schemas.py
 tests/test_process.py
     <span style="color:#00AA00">M </span>51:4 TestIndianaJones.test_fetch_npm_specific - <span style="color:#00AA00">B (7)</span>
 tests/test_victims.py
-    <span style="color:#AA00AA">F </span>13:0 test_get_vulnerable_java_packages - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>20:0 test_get_vulnerable_java_packages - <span style="color:#00AA00">B (7)</span>
 tests/test_utils.py
     <span style="color:#00AA00">M </span>33:4 TestUtilFunctions.test_get_all_files_from - <span style="color:#00AA00">B (6)</span>
     <span style="color:#00AA00">M </span>146:4 TestMavenCoordinates.test_from_str - <span style="color:#00AA00">B (6)</span>
 tests/test_solver.py
-    <span style="color:#00AA00">M </span>302:4 TestFetcher.test_f8a_fetcher - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#00AA00">M </span>315:4 TestFetcher.test_f8a_fetcher - <span style="color:#00AA00">B (9)</span>
 tests/workers/test_licensecheck.py
     <span style="color:#00AA00">M </span>30:4 TestLicenseCheck.test_execute - <span style="color:#00AA00">B (7)</span>
 tests/workers/test_victims.py
@@ -154,5 +154,5 @@ tests/workers/test_mercator.py
     <span style="color:#00AA00">M </span>90:4 TestMercator.test_execute_go_glide - <span style="color:#00AA00">B (7)</span>
 
 106 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">B (8.858490566037736)</span>
+Average complexity: <span style="color:#00AA00">B (8.839622641509434)</span>
 </pre>
