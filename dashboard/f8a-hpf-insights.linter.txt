@@ -31,10 +31,16 @@ src/training/__init__.py
     Pass
 tests/__init__.py
     Pass
+tests/unit_tests/__init__.py
+    Pass
+tests/unit_tests/test_local_datastore.py
+    Pass
+tests/unit_tests/test_scoring_helper.py
+    Pass
 perf_tests/__init__.py
     Pass
 perf_tests/locust_tests.py
     Pass
 PoC_code/__init__.py
     Pass
-All checks passed for 14 source files
+All checks passed for 17 source files
