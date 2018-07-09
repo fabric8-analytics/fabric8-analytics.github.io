@@ -1,8 +1,8 @@
 Name                                                                             Stmts Miss  Cover   	Name                                                                             Stmts Miss  Cover   
 -----------------------------------------------------------------------------------------------------	-----------------------------------------------------------------------------------------------------
 com.redhat.jenkins.plugins.bayesian/User                                             5    2    60%	com.redhat.jenkins.plugins.bayesian/User                                             5    2    60%
-com.redhat.jenkins.plugins.bayesian/Bayesian                                        99   18    81%	com.redhat.jenkins.plugins.bayesian/Bayesian                                        99   18    81%
-com.redhat.jenkins.plugins.bayesian/BayesianAnalysisStep                             7    1    85%	com.redhat.jenkins.plugins.bayesian/BayesianAnalysisStep                             7    1    85%
+com.redhat.jenkins.plugins.bayesian/Bayesian                                        99   18    81%    |	com.redhat.jenkins.plugins.bayesian/Bayesian                                       104   20    80%
+com.redhat.jenkins.plugins.bayesian/BayesianAnalysisStep                             7    1    85%    |	com.redhat.jenkins.plugins.bayesian/BayesianAnalysisStep                            10    3    70%
 com.redhat.jenkins.plugins.bayesian/BayesianStepResponse                            19   11    42%	com.redhat.jenkins.plugins.bayesian/BayesianStepResponse                            19   11    42%
 com.redhat.jenkins.plugins.bayesian/DnsFiddler                                      12    6    50%	com.redhat.jenkins.plugins.bayesian/DnsFiddler                                      12    6    50%
 com.redhat.jenkins.plugins.bayesian/BayesianResponse                                10    8    20%	com.redhat.jenkins.plugins.bayesian/BayesianResponse                                10    8    20%
@@ -10,10 +10,10 @@ com.redhat.jenkins.plugins.bayesian/User.Attributes                             
 com.redhat.jenkins.plugins.bayesian/Utils                                           44    9    79%	com.redhat.jenkins.plugins.bayesian/Utils                                           44    9    79%
 com.redhat.jenkins.plugins.bayesian/BayesianAnalysisStep.DescriptorImpl              4    0   100%	com.redhat.jenkins.plugins.bayesian/BayesianAnalysisStep.DescriptorImpl              4    0   100%
 com.redhat.jenkins.plugins.bayesian/Utils.new ArrayList() {...}                      3    0   100%	com.redhat.jenkins.plugins.bayesian/Utils.new ArrayList() {...}                      3    0   100%
-com.redhat.jenkins.plugins.bayesian/BayesianAnalysisStep.Execution                  25    8    68%	com.redhat.jenkins.plugins.bayesian/BayesianAnalysisStep.Execution                  25    8    68%
+com.redhat.jenkins.plugins.bayesian/BayesianAnalysisStep.Execution                  25    8    68%    |	com.redhat.jenkins.plugins.bayesian/BayesianAnalysisStep.Execution                  26    8    69%
 com.redhat.jenkins.plugins.bayesian/BayesianException                                6    6     0%	com.redhat.jenkins.plugins.bayesian/BayesianException                                6    6     0%
 com.redhat.jenkins.plugins.bayesian/Utils.new ArrayList() {...}                      4    0   100%	com.redhat.jenkins.plugins.bayesian/Utils.new ArrayList() {...}                      4    0   100%
 com.redhat.jenkins.plugins.bayesian/Utils.new ArrayList() {...}                      3    0   100%	com.redhat.jenkins.plugins.bayesian/Utils.new ArrayList() {...}                      3    0   100%
 com.redhat.jenkins.plugins.bayesian/User.Data                                        5    3    40%	com.redhat.jenkins.plugins.bayesian/User.Data                                        5    3    40%
 -----------------------------------------------------------------------------------------------------	-----------------------------------------------------------------------------------------------------
-TOTAL                                                                              250   74    70%	TOTAL                                                                              250   74    70%
+TOTAL                                                                              250   74    70%    |	TOTAL                                                                              259   78    69%
