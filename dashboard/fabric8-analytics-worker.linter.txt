@@ -237,6 +237,8 @@ f8a_worker/workers/libraries_io.py
     Pass
 f8a_worker/workers/githuber.py
     Pass
+f8a_worker/workers/repo_dependency_finder.py
+    Pass
 f8a_worker/workers/mercator.py
     Pass
 f8a_worker/workers/cvedbsync.py
@@ -244,6 +246,8 @@ f8a_worker/workers/cvedbsync.py
 f8a_worker/workers/victims.py
     Pass
 f8a_worker/workers/digester.py
+    Pass
+f8a_worker/workers/user_notifier.py
     Pass
 f8a_worker/workers/license.py
     Pass
@@ -336,4 +340,4 @@ setup.py
 ----------------------------------------------------
 setup.py
     Pass
-All checks passed for 161 source files
+All checks passed for 163 source files

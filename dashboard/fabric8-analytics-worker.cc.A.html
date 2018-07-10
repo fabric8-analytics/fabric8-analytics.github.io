@@ -556,15 +556,15 @@ f8a_worker/workers/graph_importer.py
     <span style="color:#00AAAA">C </span>8:0 GraphImporterTask - <span style="color:#00AA00">A (5)</span>
     <span style="color:#00AA00">M </span>24:4 GraphImporterTask.execute - <span style="color:#00AA00">A (5)</span>
 f8a_worker/workers/dependency_parser.py
-    <span style="color:#00AA00">M </span>35:4 GithubDependencyTreeTask.extract_dependencies - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#00AA00">M </span>117:4 GithubDependencyTreeTask.get_npm_dependencies - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>192:4 GithubDependencyTreeTask.get_go_glide_dependencies - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>237:4 GithubDependencyTreeTask.get_go_pkg_dependencies - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AA00">M </span>35:4 GithubDependencyTreeTask.extract_dependencies - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#00AA00">M </span>118:4 GithubDependencyTreeTask.get_npm_dependencies - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>193:4 GithubDependencyTreeTask.get_go_glide_dependencies - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AA00">M </span>238:4 GithubDependencyTreeTask.get_go_pkg_dependencies - <span style="color:#00AA00">A (5)</span>
     <span style="color:#00AAAA">C </span>15:0 GithubDependencyTreeTask - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>69:4 GithubDependencyTreeTask.get_maven_dependencies - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>88:4 GithubDependencyTreeTask.parse_maven_dependency_tree - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>167:4 GithubDependencyTreeTask.get_python_dependencies - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>271:4 GithubDependencyTreeTask.change_package_lock_to_shrinkwrap - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>70:4 GithubDependencyTreeTask.get_maven_dependencies - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>89:4 GithubDependencyTreeTask.parse_maven_dependency_tree - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>168:4 GithubDependencyTreeTask.get_python_dependencies - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>272:4 GithubDependencyTreeTask.change_package_lock_to_shrinkwrap - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>20:4 GithubDependencyTreeTask.execute - <span style="color:#00AA00">A (1)</span>
 f8a_worker/workers/gh_metadata_result_collector.py
     <span style="color:#00AAAA">C </span>11:0 GitHubManifestMetadataResultCollector - <span style="color:#00AA00">B (9)</span>
@@ -587,6 +587,12 @@ f8a_worker/workers/githuber.py
     <span style="color:#00AA00">M </span>61:4 GithubTask._get_repo_name - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>166:4 GitReadmeCollectorTask.run - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>31:4 GithubTask.create_test_instance - <span style="color:#00AA00">A (1)</span>
+f8a_worker/workers/repo_dependency_finder.py
+    <span style="color:#00AA00">M </span>138:4 RepoDependencyFinderTask.generate_report - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#00AAAA">C </span>13:0 RepoDependencyFinderTask - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AA00">M </span>18:4 RepoDependencyFinderTask.execute - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AA00">M </span>56:4 RepoDependencyFinderTask.create_repo_node_and_get_cve - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>96:4 RepoDependencyFinderTask.get_cve - <span style="color:#00AA00">A (4)</span>
 f8a_worker/workers/mercator.py
     <span style="color:#00AA00">M </span>66:4 MercatorTask._merge_python_items - <span style="color:#AA5500">D (29)</span>
     <span style="color:#00AA00">M </span>201:4 MercatorTask.run_mercator - <span style="color:#AA5500">C (19)</span>
@@ -610,6 +616,11 @@ f8a_worker/workers/digester.py
     <span style="color:#00AA00">M </span>33:4 DigesterTask.compute_ssdeep - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>44:4 DigesterTask.compute_digests - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>61:4 DigesterTask.execute - <span style="color:#00AA00">A (1)</span>
+f8a_worker/workers/user_notifier.py
+    <span style="color:#00AA00">M </span>13:4 UserNotificationTask.send_notification - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AAAA">C </span>10:0 UserNotificationTask - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>37:4 UserNotificationTask.generate_notification - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>61:4 UserNotificationTask.execute - <span style="color:#00AA00">A (2)</span>
 f8a_worker/workers/license.py
     <span style="color:#00AA00">M </span>18:4 LicenseCheckTask.process_output - <span style="color:#00AA00">B (6)</span>
     <span style="color:#00AAAA">C </span>12:0 LicenseCheckTask - <span style="color:#00AA00">A (4)</span>
@@ -1094,6 +1105,6 @@ alembic/versions/22a1cd66a9c6_batches_reviews.py
     <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>40:0 downgrade - <span style="color:#00AA00">A (1)</span>
 
-943 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (2.8303287380699893)</span>
+952 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (2.8434873949579833)</span>
 </pre>
