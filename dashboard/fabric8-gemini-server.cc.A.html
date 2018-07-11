@@ -10,9 +10,6 @@ tests/test_rest_api.py
     <span style="color:#AA00AA">F </span>110:0 test_register_endpoint_2 - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>163:0 test_register_endpoint_5 - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>171:0 test_register_endpoint_6 - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>183:0 test_scan_endpoint - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>191:0 test_drop_endpoint - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>199:0 test_notify_endpoint - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>34:0 api_route_for - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>39:0 get_json_from_response - <span style="color:#00AA00">A (1)</span>
 tests/test_errors_class.py
@@ -63,12 +60,13 @@ tests/conftest.py
     <span style="color:#AA00AA">F </span>13:0 client - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>20:0 create_database - <span style="color:#00AA00">A (1)</span>
 src/auth.py
-    <span style="color:#AA00AA">F </span>13:0 decode_token - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>41:0 get_token_from_auth_header - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>46:0 get_audiences - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>51:0 login_required - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>14:0 decode_token - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>84:0 init_auth_sa_token - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>42:0 get_token_from_auth_header - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>47:0 get_audiences - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>52:0 login_required - <span style="color:#00AA00">A (1)</span>
 src/utils.py
-    <span style="color:#AA00AA">F </span>270:0 fetch_public_key - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>282:0 fetch_public_key - <span style="color:#00AA00">A (5)</span>
     <span style="color:#00AA00">M </span>213:4 DatabaseIngestion.get_info - <span style="color:#00AA00">A (5)</span>
     <span style="color:#00AAAA">C </span>165:0 DatabaseIngestion - <span style="color:#00AA00">A (4)</span>
     <span style="color:#00AA00">M </span>185:4 DatabaseIngestion.store_record - <span style="color:#00AA00">A (4)</span>
@@ -85,22 +83,23 @@ src/utils.py
     <span style="color:#AA00AA">F </span>159:0 get_one_result_from_osio_registered_repos - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>243:0 server_run_flow - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>260:0 scan_repo - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>270:0 alert_user - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AAAA">C </span>28:0 Postgres - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>31:4 Postgres.__init__ - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>51:4 Postgres.session - <span style="color:#00AA00">A (1)</span>
 src/rest_api.py
-    <span style="color:#AA00AA">F </span>28:0 register - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>106:0 report - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>138:0 user_repo_scan - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>162:0 notify_user - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>186:0 drop - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>16:0 readiness - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>22:0 liveness - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>210:0 handle_error - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>37:0 register - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>147:0 user_repo_scan - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>188:0 notify_user - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>115:0 report - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>231:0 drop - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>25:0 readiness - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>31:0 liveness - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>255:0 handle_error - <span style="color:#00AA00">A (1)</span>
 src/exceptions.py
     <span style="color:#00AAAA">C </span>4:0 HTTPError - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>16:4 HTTPError.__init__ - <span style="color:#00AA00">A (1)</span>
 
-92 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (2.2282608695652173)</span>
+91 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (2.2857142857142856)</span>
 </pre>

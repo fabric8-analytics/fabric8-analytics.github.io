@@ -4,12 +4,12 @@
     <span style="color:#AA00AA">F </span>28:0 get_stack_usage_data_graph - <span style="color:#00AA00">B (6)</span>
     <span style="color:#AA00AA">F </span>304:0 select_latest_version - <span style="color:#00AA00">B (6)</span>
 f8a_worker/utils.py
-    <span style="color:#AA00AA">F </span>423:0 parse_gh_repo - <span style="color:#AA5500">C (11)</span>
-    <span style="color:#00AA00">M </span>96:4 TimedCommand.run - <span style="color:#00AA00">B (10)</span>
-    <span style="color:#00AA00">M </span>339:4 MavenCoordinates.to_str - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#AA00AA">F </span>160:0 get_command_output - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>198:0 get_all_files_from - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>533:0 get_response - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>424:0 parse_gh_repo - <span style="color:#AA5500">C (11)</span>
+    <span style="color:#00AA00">M </span>97:4 TimedCommand.run - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#00AA00">M </span>340:4 MavenCoordinates.to_str - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#AA00AA">F </span>161:0 get_command_output - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>199:0 get_all_files_from - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>536:0 get_response - <span style="color:#00AA00">B (6)</span>
 f8a_worker/setup_celery.py
     <span style="color:#AA00AA">F </span>17:0 get_dispatcher_config_files - <span style="color:#00AA00">B (7)</span>
 f8a_worker/victims.py
@@ -50,15 +50,15 @@ f8a_worker/data_normalizer.py
     <span style="color:#00AA00">M </span>365:4 DataNormalizer._handle_java - <span style="color:#00AA00">B (7)</span>
     <span style="color:#00AA00">M </span>285:4 DataNormalizer._split_keywords - <span style="color:#00AA00">B (6)</span>
 f8a_worker/dispatcher/foreach.py
-    <span style="color:#AA00AA">F </span>32:0 iter_dependencies_analysis - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>39:0 iter_dependencies_analysis - <span style="color:#00AA00">B (6)</span>
 f8a_worker/storages/postgres_base.py
     <span style="color:#00AA00">M </span>35:4 PostgresBase.__init__ - <span style="color:#00AA00">B (7)</span>
     <span style="color:#00AA00">M </span>84:4 PostgresBase.retrieve - <span style="color:#00AA00">B (6)</span>
     <span style="color:#00AA00">M </span>131:4 PostgresBase.store_error - <span style="color:#00AA00">B (6)</span>
 f8a_worker/storages/package_postgres.py
-    <span style="color:#00AA00">M </span>32:4 PackagePostgres._create_result_entry - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>34:4 PackagePostgres._create_result_entry - <span style="color:#00AA00">B (7)</span>
 f8a_worker/storages/postgres.py
-    <span style="color:#00AA00">M </span>36:4 BayesianPostgres._create_result_entry - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>38:4 BayesianPostgres._create_result_entry - <span style="color:#00AA00">B (7)</span>
 f8a_worker/storages/s3.py
     <span style="color:#00AA00">M </span>24:4 AmazonS3.__init__ - <span style="color:#AA5500">C (13)</span>
     <span style="color:#00AA00">M </span>90:4 AmazonS3._create_bucket - <span style="color:#00AA00">B (7)</span>
@@ -83,12 +83,12 @@ f8a_worker/workers/mercator.py
     <span style="color:#00AAAA">C </span>42:0 MercatorTask - <span style="color:#00AA00">B (10)</span>
     <span style="color:#00AA00">M </span>50:4 MercatorTask._parse_requires_txt - <span style="color:#00AA00">B (6)</span>
 f8a_worker/workers/cvedbsync.py
-    <span style="color:#00AA00">M </span>12:4 CVEDBSyncTask.components_to_scan - <span style="color:#AA5500">C (12)</span>
-    <span style="color:#00AAAA">C </span>9:0 CVEDBSyncTask - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#00AA00">M </span>13:4 CVEDBSyncTask.components_to_scan - <span style="color:#AA5500">C (12)</span>
+    <span style="color:#00AAAA">C </span>10:0 CVEDBSyncTask - <span style="color:#00AA00">B (8)</span>
 f8a_worker/workers/victims.py
     <span style="color:#00AA00">M </span>89:4 VictimsCheck.mark_in_graph - <span style="color:#00AA00">B (10)</span>
 f8a_worker/workers/license.py
-    <span style="color:#00AA00">M </span>18:4 LicenseCheckTask.process_output - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>21:4 LicenseCheckTask.process_output - <span style="color:#00AA00">B (6)</span>
 f8a_worker/workers/git_stats.py
     <span style="color:#00AA00">M </span>133:4 GitStats.execute - <span style="color:#00AA00">B (8)</span>
     <span style="color:#00AA00">M </span>114:4 GitStats._compute_stats - <span style="color:#00AA00">B (7)</span>
@@ -111,7 +111,7 @@ f8a_worker/workers/keywords_tagging.py
     <span style="color:#00AA00">M </span>165:4 PackageKeywordsTaggingTask._package_level_keywords - <span style="color:#00AA00">B (7)</span>
 f8a_worker/workers/init_analysis_flow.py
     <span style="color:#00AA00">M </span>20:4 InitAnalysisFlow.execute - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#00AA00">M </span>101:4 InitAnalysisFlow._download_source_jar - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>105:4 InitAnalysisFlow._download_source_jar - <span style="color:#00AA00">B (6)</span>
 f8a_worker/workers/unknown_dep_fetcher.py
     <span style="color:#00AA00">M </span>13:4 UnknownDependencyFetcherTask.get_dependency_data - <span style="color:#00AA00">B (6)</span>
 f8a_worker/workers/dependency_snapshot.py
