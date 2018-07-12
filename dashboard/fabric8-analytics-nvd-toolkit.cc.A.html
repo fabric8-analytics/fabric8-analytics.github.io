@@ -77,8 +77,10 @@ tests/test_feature_hooks.py
     <span style="color:#00AA00">M </span>12:4 TestFeatureHooks.test_has_uppercase_hook - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>31:4 TestFeatureHooks.test_is_alnum_hook - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>117:4 TestFeatureHooks.test_ver_follows_hook - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>136:4 TestFeatureHooks.test_ver_pos_hook - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>157:4 TestFeatureHooks.test_word_len_hook - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>137:4 TestFeatureHooks.test_ver_precedes_hook - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>157:4 TestFeatureHooks.test_ver_pos_hook - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>178:4 TestFeatureHooks.test_word_len_hook - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>199:4 TestFeatureHooks.test_word_in_dict_hook - <span style="color:#00AA00">A (1)</span>
 tests/test_ecos.py
     <span style="color:#00AA00">M </span>38:4 TestMaven.test_get_package_from_spec - <span style="color:#00AA00">A (5)</span>
     <span style="color:#00AA00">M </span>58:4 TestMaven.test_get_package_from_spec_exception - <span style="color:#00AA00">A (5)</span>
@@ -131,13 +133,13 @@ src/toolkit/pipelines/predict.py
     <span style="color:#AA00AA">F </span>41:0 main - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>17:0 parse_args - <span style="color:#00AA00">A (1)</span>
 src/toolkit/pipelines/pipelines.py
+    <span style="color:#AA00AA">F </span>266:0 extract_features - <span style="color:#00AA00">A (4)</span>
     <span style="color:#AA00AA">F </span>19:0 get_preprocessing_pipeline - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>112:0 get_full_training_pipeline - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>303:0 extract_labeled_features - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>322:0 extract_labeled_features - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>78:0 get_training_pipeline - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>179:0 get_prediction_pipeline - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>223:0 get_extraction_pipeline - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>266:0 extract_features - <span style="color:#00AA00">A (1)</span>
 src/toolkit/pipelines/evaluation.py
     <span style="color:#AA00AA">F </span>77:0 main - <span style="color:#00AA00">B (7)</span>
     <span style="color:#AA00AA">F </span>23:0 parse_args - <span style="color:#00AA00">A (1)</span>
@@ -246,12 +248,14 @@ src/toolkit/transformers/classifiers.py
     <span style="color:#AA00AA">F </span>414:0 weighted_precision - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>109:4 NBClassifier.transform - <span style="color:#00AA00">A (1)</span>
 src/toolkit/transformers/feature_hooks.py
-    <span style="color:#AA00AA">F </span>36:0 __vendor_product_match - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#AA00AA">F </span>81:0 __ver_follows - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>95:0 __ver_pos - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>14:0 __has_uppercase - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>111:0 __word_len - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>25:0 __is_alnum - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>40:0 __vendor_product_match - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#AA00AA">F </span>85:0 __ver_follows - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>99:0 __ver_precedes - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>113:0 __ver_pos - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>18:0 __has_uppercase - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>136:0 __word_len - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>29:0 __is_alnum - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>129:0 __word_in_dict - <span style="color:#00AA00">A (1)</span>
 src/toolkit/transformers/hooks.py
     <span style="color:#00AA00">M </span>31:4 Hook.__init__ - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AA00">M </span>71:4 Hook.get_current_keys - <span style="color:#00AA00">A (2)</span>
@@ -263,6 +267,6 @@ src/toolkit/transformers/hooks.py
     <span style="color:#00AA00">M </span>66:4 Hook.get_current_hooks - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>76:4 Hook.clear_current_instances - <span style="color:#00AA00">A (1)</span>
 
-240 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (2.441666666666667)</span>
+244 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (2.44672131147541)</span>
 </pre>
