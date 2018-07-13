@@ -5,7 +5,7 @@ src/toolkit/__init__.py                             5      0   100%					src/tool
 src/toolkit/config.py                               5      0   100%					src/toolkit/config.py                               5      0   100%
 src/toolkit/pipelines/__init__.py                   3      0   100%					src/toolkit/pipelines/__init__.py                   3      0   100%
 src/toolkit/pipelines/evaluation.py                53      4    92%   83, 109-111, 151			src/toolkit/pipelines/evaluation.py                53      4    92%   83, 109-111, 151
-src/toolkit/pipelines/pipelines.py                 32      0   100%					src/toolkit/pipelines/pipelines.py                 32      0   100%
+src/toolkit/pipelines/pipelines.py                 32      0   100%				      |	src/toolkit/pipelines/pipelines.py                 34      1    97%   301
 src/toolkit/pipelines/predict.py                   25      1    96%   71				src/toolkit/pipelines/predict.py                   25      1    96%   71
 src/toolkit/pipelines/train.py                     40      3    92%   80, 143, 147			src/toolkit/pipelines/train.py                     40      3    92%   80, 143, 147
 src/toolkit/preprocessing/__init__.py               2      0   100%					src/toolkit/preprocessing/__init__.py               2      0   100%
@@ -17,8 +17,8 @@ src/toolkit/scripts/get_packages_by_commit.py      53      7    87%   90-96, 158
 src/toolkit/transformers/__init__.py                3      0   100%					src/toolkit/transformers/__init__.py                3      0   100%
 src/toolkit/transformers/classifiers.py           132     20    85%   61, 141, 187, 191, 202, 208, 25	src/toolkit/transformers/classifiers.py           132     20    85%   61, 141, 187, 191, 202, 208, 25
 src/toolkit/transformers/extractors.py             97      2    98%   45, 191				src/toolkit/transformers/extractors.py             97      2    98%   45, 191
-src/toolkit/transformers/feature_hooks.py          55      2    96%   72-73			      |	src/toolkit/transformers/feature_hooks.py          54      2    96%   71-72
+src/toolkit/transformers/feature_hooks.py          54      2    96%   71-72			      |	src/toolkit/transformers/feature_hooks.py          67      2    97%   75-76
 src/toolkit/transformers/hooks.py                  27      1    96%   69				src/toolkit/transformers/hooks.py                  27      1    96%   69
 src/toolkit/utils.py                              104     16    85%   21, 40, 48, 50, 55, 59, 199, 20	src/toolkit/utils.py                              104     16    85%   21, 40, 48, 50, 55, 59, 199, 20
 -----------------------------------------------------------------------------				-----------------------------------------------------------------------------
-TOTAL                                            1008     84    92%				      |	TOTAL                                            1007     84    92%
+TOTAL                                            1007     84    92%				      |	TOTAL                                            1022     85    92%

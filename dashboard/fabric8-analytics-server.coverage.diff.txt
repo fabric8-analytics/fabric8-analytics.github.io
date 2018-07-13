@@ -1,19 +1,19 @@
 Name                                                   Stmts   Miss  Cover   Missing			Name                                                   Stmts   Miss  Cover   Missing
 ------------------------------------------------------------------------------------			------------------------------------------------------------------------------------
 /bayesian/bayesian/__init__.py                            61     13    79%   61, 65-81			/bayesian/bayesian/__init__.py                            61     13    79%   61, 65-81
-/bayesian/bayesian/api_v1.py                             602    392    35%   76, 88-95, 111, 143-173, |	/bayesian/bayesian/api_v1.py                             635    423    33%   78, 90-97, 113, 145-175,
+/bayesian/bayesian/api_v1.py                             635    423    33%   78, 90-97, 113, 145-175, |	/bayesian/bayesian/api_v1.py                             635    423    33%   78, 90-97, 113, 145-175,
 /bayesian/bayesian/auth.py                               180    109    39%   27-46, 51-64, 75, 86, 89	/bayesian/bayesian/auth.py                               180    109    39%   27-46, 51-64, 75, 86, 89
-/bayesian/bayesian/default_config.py                      22      0   100%			      |	/bayesian/bayesian/default_config.py                      23      0   100%
+/bayesian/bayesian/default_config.py                      23      0   100%				/bayesian/bayesian/default_config.py                      23      0   100%
 /bayesian/bayesian/dependency_finder.py                   77     62    19%   26-34, 40-118		/bayesian/bayesian/dependency_finder.py                   77     62    19%   26-34, 40-118
 /bayesian/bayesian/exceptions.py                           5      0   100%				/bayesian/bayesian/exceptions.py                           5      0   100%
 /bayesian/bayesian/generate_manifest.py                   42      0   100%				/bayesian/bayesian/generate_manifest.py                   42      0   100%
 /bayesian/bayesian/license_extractor.py                   42      0   100%				/bayesian/bayesian/license_extractor.py                   42      0   100%
-/bayesian/bayesian/manifest_models.py                    116     23    80%   35, 54-56, 105-107, 115- |	/bayesian/bayesian/manifest_models.py                    136     42    69%   35, 54-56, 69-92, 137-13
+/bayesian/bayesian/manifest_models.py                    136     42    69%   35, 54-56, 69-92, 137-13	/bayesian/bayesian/manifest_models.py                    136     42    69%   35, 54-56, 69-92, 137-13
 /bayesian/bayesian/schemas/__init__.py                     4      0   100%				/bayesian/bayesian/schemas/__init__.py                     4      0   100%
 /bayesian/bayesian/schemas/analyses_graphdb.py            40      0   100%				/bayesian/bayesian/schemas/analyses_graphdb.py            40      0   100%
 /bayesian/bayesian/schemas/component_analyses.py          43      0   100%				/bayesian/bayesian/schemas/component_analyses.py          43      0   100%
 /bayesian/bayesian/schemas/stack_analyses.py             245      0   100%				/bayesian/bayesian/schemas/stack_analyses.py             245      0   100%
 /bayesian/bayesian/schemas/version_range_resolver.py      18      0   100%				/bayesian/bayesian/schemas/version_range_resolver.py      18      0   100%
-/bayesian/bayesian/utils.py                              544    376    31%   50, 61-70, 84-93, 108-12 |	/bayesian/bayesian/utils.py                              560    388    31%   53, 64-73, 87-96, 111-12
+/bayesian/bayesian/utils.py                              560    388    31%   53, 64-73, 87-96, 111-12	/bayesian/bayesian/utils.py                              560    388    31%   53, 64-73, 87-96, 111-12
 ------------------------------------------------------------------------------------			------------------------------------------------------------------------------------
-TOTAL                                                   2041    975    52%			      |	TOTAL                                                   2111   1037    51%
+TOTAL                                                   2111   1037    51%				TOTAL                                                   2111   1037    51%
