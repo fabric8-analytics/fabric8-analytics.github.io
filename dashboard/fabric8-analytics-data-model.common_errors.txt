@@ -1,0 +1,69 @@
+Using base prefix '/usr'
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-data-model/venv/bin/python3
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-data-model/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-data-model/venv/bin/python3)
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2.0.0)
+----------------------------------------------------
+Checking source files for common errors in following
+directories:
+src test
+----------------------------------------------------
+
+src/graph_populator.py
+    Pass
+src/__init__.py
+    Pass
+src/rest_api.py
+src/rest_api.py:5: 'flask.redirect' imported but unused
+src/rest_api.py:5: 'flask.make_response' imported but unused
+src/rest_api.py:23: undefined name 'reload'
+    Fail
+src/data_source/__init__.py
+    Pass
+src/data_source/abstract_data_source.py
+    Pass
+src/data_source/s3_data_source.py
+    Pass
+src/graph_manager.py
+    Pass
+src/config.py
+    Pass
+src/data_importer.py
+    Pass
+test/test_rest_api.py
+    Pass
+test/test_graph_properties.py
+test/test_graph_properties.py:3: 'json' imported but unused
+test/test_graph_properties.py:4: 'requests' imported but unused
+    Fail
+test/test_postgres_handler.py
+    Pass
+test/test_insertion_from_minio.py
+test/test_insertion_from_minio.py:14: 'pytest' imported but unused
+    Fail
+test/test_init.py
+test/test_init.py:4: 'pytest' imported but unused
+    Fail
+test/test_data_importer.py
+test/test_data_importer.py:4: 'pytest' imported but unused
+test/test_data_importer.py:77: undefined name 'test_parse_int_or_none_for_integer_input_overflow'
+    Fail
+test/test_s3_data_source.py
+test/test_s3_data_source.py:56: local variable 'data' is assigned to but never used
+    Fail
+test/test_graph_manager.py
+    Pass
+test/conftest.py
+    Pass
+test/test_graph_populator.py
+test/test_graph_populator.py:5: 'json' imported but unused
+    Fail
+----------------------------------------------------
+Checking following source files for common errors:
+sanitycheck.py
+----------------------------------------------------
+
+sanitycheck.py
+    Pass
+7 source files out of 20 files needs to be checked and fixed

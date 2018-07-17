@@ -1,0 +1,33 @@
+----------------------------------------------------
+Checking source files for dead code and unused imports
+in following directories:
+gateway tests
+----------------------------------------------------
+
+Using base prefix '/usr'
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-api-gateway/venv/bin/python3
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-api-gateway/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-api-gateway/venv/bin/python3)
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages (0.28)
+gateway/auth.py
+    Pass
+gateway/__init__.py
+    Pass
+gateway/api_v1.py
+gateway/api_v1.py:79: unused variable 'kwargs' (100% confidence)
+    Fail
+gateway/errors.py
+    Pass
+gateway/defaults.py
+    Pass
+tests/test_errors.py
+tests/test_errors.py:3: unused import 'unittest' (90% confidence)
+    Fail
+tests/test_api_v1.py
+    Pass
+tests/test_auth.py
+    Pass
+tests/test_defaults.py
+    Pass
+2 source files out of 9 files seems to contain dead code and/or unused imports

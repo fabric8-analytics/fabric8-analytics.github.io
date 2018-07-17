@@ -150,6 +150,14 @@
                             <th colspan="3">Linter results</th>
                             <th colspan="3">Pydocstyle results</th>
                             <th colspan="3">Code coverage</th>
+                            <th colspan="1" style="width:8ex"><a href="#" rel="popover" onclick="return false;" id="dc" title="Dead Code" data-html="true" data-toggle="popover" data-placement="top" data-content="
+This column displays information about unused code found in the repository.<br/><br/>
+Please note that due to Python's dynamic nature, static code analyzers are likely to miss some dead code. Also, code that is only called implicitly may be reported as unused.<br/><br/>
+Because of this potential problems, only code detected with more than 90% of confidence is reported.">Dead code</a></th>
+                            <th colspan="1" style="width:8ex"><a href="#" rel="popover" onclick="return false;" id="dc" title="Common issues" data-html="true" data-toggle="popover" data-placement="top" data-content="
+This column displays common issues and errors found in the source code by the Pyflakes tool.<br/><br/>
+Please note that only semantical problems are reported; problems with style are displayed on the Linter results column.
+                            ">Common issues</a></th>
                             <th colspan="6"><a href="#" rel="popover" onclick="return false;" id="cc" title="Cyclomatic Complexity" data-html="true" data-toggle="popover" data-placement="top" data-content="&lt;pre&gt;Score  Rank  Risk
  1 -  5   A   low - simple block
  6 - 10   B   low - well structured and stable block
@@ -166,9 +174,9 @@
 &lt;ol&gt;&lt;li&gt;Source is 100% correct according to linter&lt;/li&gt;&lt;li&gt;Source is 100% correct according to docstyle checker&lt;/li&gt;&lt;li&gt;Code coverage &gt; 50%&lt;/li&gt;&lt;li&gt;Cyclomatic complexity in ranks A-C for all blocks&lt;/li&gt;&lt;li&gt;Maintainabity Index in rank A for all source files&lt;/li&gt;&lt;/ol&gt;">Overall<br />status</a></th>
                             <th>Remark</th>
                         </tr>
-                        <tr><th>&nbsp;</th><th>Files</th><th>Total lines</th><th>Pass</th><th>Fail</th><th>Pass %</th><th>Pass</th><th>Fail</th><th>Pass %</th><th>Stmts.</th><th>Missed</th><th>Covered</th><th>A</th><th>B</th><th>C</th><th>D</th><th>E</th><th>F</th><th>A</th><th>B</th><th>C</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th></tr>
+                        <tr><th>&nbsp;</th><th>Files</th><th>Total lines</th><th>Pass</th><th>Fail</th><th>Pass %</th><th>Pass</th><th>Fail</th><th>Pass %</th><th>Stmts.</th><th>Missed</th><th>Covered</th><th>&nbsp;</th><th>&nbsp;</th><th>A</th><th>B</th><th>C</th><th>D</th><th>E</th><th>F</th><th>A</th><th>B</th><th>C</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th></tr>
                         <tr>
-                            <td style="width:34ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-common">fabric8-analytics-common</a></td>
+                            <td style="width:33ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-common">fabric8-analytics-common</a></td>
                             <td class="numeric" style="width:7ex"><a href="repository_fabric8-analytics-common.html">101</a></td>
                             <td class="numeric" style="width:7ex">12597</td>
                                 <td class="numeric ok" style="width:6ex">101</td>
@@ -193,6 +201,10 @@
                                 <td style="width:7ex">&nbsp;</td>
                                 <td style="width:16ex">&nbsp;</td>
 
+                                    <td class="numeric error"><a href="fabric8-analytics-common.dead_code.txt" class="numeric error">41</a></td>
+
+                                    <td class="numeric error"><a href="fabric8-analytics-common.common_errors.txt" class="numeric error">60</a></td>
+
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-common.cc.A.html" class="numeric ignored">836</a></td>
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-common.cc.B.html" class="numeric ignored">50</a></td>
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-common.cc.C.html" class="numeric ignored">0</a></td>
@@ -209,9 +221,10 @@
                             <td><a href="charts_fabric8-analytics-common.html"><img src="line_chart.gif" alt="Charts for the fabric8-analytics-common repository" /></a></td>
                                 <td class="boolean error" style="width:6ex;">&times;</td>
 
-                            <td style="width:26ex">unit tests has not been setup<br></td>
+                                <td class="remark_todo" style="width:27ex"><ol><li>unit tests has not been setup</li><li>remove dead code</li><li>fix common errors</li></ol></td>
+                        </tr>
                         <tr>
-                            <td style="width:34ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-server">fabric8-analytics-server</a></td>
+                            <td style="width:33ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-server">fabric8-analytics-server</a></td>
                             <td class="numeric" style="width:7ex"><a href="repository_fabric8-analytics-server.html">61</a></td>
                             <td class="numeric" style="width:7ex">6639</td>
                                 <td class="numeric ok" style="width:6ex">61</td>
@@ -242,6 +255,10 @@
                                     </a>
                                 </td>
 
+                                <td class="ignored" style="text-align:right">&times;</td>
+
+                                <td class="ignored" style="text-align:right">&times;</td>
+
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-server.cc.A.html" class="numeric ignored">308</a></td>
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-server.cc.B.html" class="numeric ignored">26</a></td>
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-server.cc.C.html" class="numeric ignored">12</a></td>
@@ -258,9 +275,10 @@
                             <td><a href="charts_fabric8-analytics-server.html"><img src="line_chart.gif" alt="Charts for the fabric8-analytics-server repository" /></a></td>
                                 <td class="boolean error" style="width:6ex;">&times;</td>
 
-                            <td style="width:26ex">improve code coverage<br>improve maintainability index<br></td>
+                                <td class="remark_todo" style="width:27ex"><ol><li>improve code coverage</li><li>improve maintainability index</li><li>setup dead code detection tool</li><li>setup common errors detection tool</li></ol></td>
+                        </tr>
                         <tr>
-                            <td style="width:34ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-worker">fabric8-analytics-worker</a></td>
+                            <td style="width:33ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-worker">fabric8-analytics-worker</a></td>
                             <td class="numeric" style="width:7ex"><a href="repository_fabric8-analytics-worker.html">163</a></td>
                             <td class="numeric" style="width:7ex">16624</td>
                                 <td class="numeric ok" style="width:6ex">163</td>
@@ -291,6 +309,10 @@
                                     </a>
                                 </td>
 
+                                <td class="ignored" style="text-align:right">&times;</td>
+
+                                <td class="ignored" style="text-align:right">&times;</td>
+
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-worker.cc.A.html" class="numeric ignored">845</a></td>
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-worker.cc.B.html" class="numeric ignored">91</a></td>
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-worker.cc.C.html" class="numeric ignored">14</a></td>
@@ -307,9 +329,10 @@
                             <td><a href="charts_fabric8-analytics-worker.html"><img src="line_chart.gif" alt="Charts for the fabric8-analytics-worker repository" /></a></td>
                                 <td class="boolean error" style="width:6ex;">&times;</td>
 
-                            <td style="width:26ex">improve code coverage<br>1 file ignored by pydocstyle<br>reduce cyclomatic complexity<br></td>
+                                <td class="remark_todo" style="width:27ex"><ol><li>improve code coverage</li><li>1 file ignored by pydocstyle</li><li>reduce cyclomatic complexity</li><li>setup dead code detection tool</li><li>setup common errors detection tool</li></ol></td>
+                        </tr>
                         <tr>
-                            <td style="width:34ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-jobs">fabric8-analytics-jobs</a></td>
+                            <td style="width:33ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-jobs">fabric8-analytics-jobs</a></td>
                             <td class="numeric" style="width:7ex"><a href="repository_fabric8-analytics-jobs.html">41</a></td>
                             <td class="numeric" style="width:7ex">4042</td>
                                 <td class="numeric ok" style="width:6ex">41</td>
@@ -340,6 +363,10 @@
                                     </a>
                                 </td>
 
+                                    <td class="numeric error"><a href="fabric8-analytics-jobs.dead_code.txt" class="numeric error">9</a></td>
+
+                                    <td class="numeric error"><a href="fabric8-analytics-jobs.common_errors.txt" class="numeric error">7</a></td>
+
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-jobs.cc.A.html" class="numeric ignored">190</a></td>
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-jobs.cc.B.html" class="numeric ignored">31</a></td>
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-jobs.cc.C.html" class="numeric ignored">5</a></td>
@@ -356,9 +383,10 @@
                             <td><a href="charts_fabric8-analytics-jobs.html"><img src="line_chart.gif" alt="Charts for the fabric8-analytics-jobs repository" /></a></td>
                                 <td class="boolean error" style="width:6ex;">&times;</td>
 
-                            <td style="width:26ex">improve code coverage<br>reduce cyclomatic complexity<br></td>
+                                <td class="remark_todo" style="width:27ex"><ol><li>improve code coverage</li><li>reduce cyclomatic complexity</li><li>remove dead code</li><li>fix common errors</li></ol></td>
+                        </tr>
                         <tr>
-                            <td style="width:34ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-tagger">fabric8-analytics-tagger</a></td>
+                            <td style="width:33ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-tagger">fabric8-analytics-tagger</a></td>
                             <td class="numeric" style="width:7ex"><a href="repository_fabric8-analytics-tagger.html">43</a></td>
                             <td class="numeric" style="width:7ex">4053</td>
                                 <td class="numeric ok" style="width:6ex">43</td>
@@ -389,6 +417,10 @@
                                     </a>
                                 </td>
 
+                                    <td class="numeric error"><a href="fabric8-analytics-tagger.dead_code.txt" class="numeric error">18</a></td>
+
+                                    <td class="numeric error"><a href="fabric8-analytics-tagger.common_errors.txt" class="numeric error">21</a></td>
+
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-tagger.cc.A.html" class="numeric ignored">238</a></td>
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-tagger.cc.B.html" class="numeric ignored">30</a></td>
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-tagger.cc.C.html" class="numeric ignored">14</a></td>
@@ -403,11 +435,12 @@
                                     <td class="numeric ok" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-tagger.mi.C.html" class="numeric ok">0</a></td>
 
                             <td><a href="charts_fabric8-analytics-tagger.html"><img src="line_chart.gif" alt="Charts for the fabric8-analytics-tagger repository" /></a></td>
-                                <td class="boolean ok" style="width:6ex;">&#x2713;</td>
+                                <td class="boolean error" style="width:6ex;">&times;</td>
 
-                            <td style="width:26ex"></td>
+                                <td class="remark_todo" style="width:27ex"><ol><li>remove dead code</li><li>fix common errors</li></ol></td>
+                        </tr>
                         <tr>
-                            <td style="width:34ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-stack-analysis">fabric8-analytics-stack-analysis</a></td>
+                            <td style="width:33ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-stack-analysis">fabric8-analytics-stack-analysis</a></td>
                             <td class="numeric" style="width:7ex"><a href="repository_fabric8-analytics-stack-analysis.html">91</a></td>
                             <td class="numeric" style="width:7ex">5493</td>
                                 <td class="numeric ok" style="width:6ex">91</td>
@@ -438,6 +471,10 @@
                                     </a>
                                 </td>
 
+                                <td class="ignored" style="text-align:right">&times;</td>
+
+                                <td class="ignored" style="text-align:right">&times;</td>
+
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-stack-analysis.cc.A.html" class="numeric ignored">255</a></td>
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-stack-analysis.cc.B.html" class="numeric ignored">17</a></td>
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-stack-analysis.cc.C.html" class="numeric ignored">3</a></td>
@@ -454,9 +491,10 @@
                             <td><a href="charts_fabric8-analytics-stack-analysis.html"><img src="line_chart.gif" alt="Charts for the fabric8-analytics-stack-analysis repository" /></a></td>
                                 <td class="boolean error" style="width:6ex;">&times;</td>
 
-                            <td style="width:26ex">improve code coverage<br></td>
+                                <td class="remark_todo" style="width:27ex"><ol><li>improve code coverage</li><li>setup dead code detection tool</li><li>setup common errors detection tool</li></ol></td>
+                        </tr>
                         <tr>
-                            <td style="width:34ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-license-analysis">fabric8-analytics-license-analysis</a></td>
+                            <td style="width:33ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-license-analysis">fabric8-analytics-license-analysis</a></td>
                             <td class="numeric" style="width:7ex"><a href="repository_fabric8-analytics-license-analysis.html">29</a></td>
                             <td class="numeric" style="width:7ex">3789</td>
                                 <td class="numeric ok" style="width:6ex">29</td>
@@ -487,6 +525,10 @@
                                     </a>
                                 </td>
 
+                                    <td class="numeric error"><a href="fabric8-analytics-license-analysis.dead_code.txt" class="numeric error">14</a></td>
+
+                                    <td class="numeric error"><a href="fabric8-analytics-license-analysis.common_errors.txt" class="numeric error">10</a></td>
+
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-license-analysis.cc.A.html" class="numeric ignored">210</a></td>
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-license-analysis.cc.B.html" class="numeric ignored">27</a></td>
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-license-analysis.cc.C.html" class="numeric ignored">14</a></td>
@@ -503,9 +545,10 @@
                             <td><a href="charts_fabric8-analytics-license-analysis.html"><img src="line_chart.gif" alt="Charts for the fabric8-analytics-license-analysis repository" /></a></td>
                                 <td class="boolean error" style="width:6ex;">&times;</td>
 
-                            <td style="width:26ex">improve maintainability index<br></td>
+                                <td class="remark_todo" style="width:27ex"><ol><li>improve maintainability index</li><li>remove dead code</li><li>fix common errors</li></ol></td>
+                        </tr>
                         <tr>
-                            <td style="width:34ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-data-model">fabric8-analytics-data-model</a></td>
+                            <td style="width:33ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-data-model">fabric8-analytics-data-model</a></td>
                             <td class="numeric" style="width:7ex"><a href="repository_fabric8-analytics-data-model.html">20</a></td>
                             <td class="numeric" style="width:7ex">2407</td>
                                 <td class="numeric ok" style="width:6ex">20</td>
@@ -536,6 +579,10 @@
                                     </a>
                                 </td>
 
+                                    <td class="numeric error"><a href="fabric8-analytics-data-model.dead_code.txt" class="numeric error">7</a></td>
+
+                                    <td class="numeric error"><a href="fabric8-analytics-data-model.common_errors.txt" class="numeric error">7</a></td>
+
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-data-model.cc.A.html" class="numeric ignored">67</a></td>
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-data-model.cc.B.html" class="numeric ignored">18</a></td>
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-data-model.cc.C.html" class="numeric ignored">6</a></td>
@@ -552,9 +599,10 @@
                             <td><a href="charts_fabric8-analytics-data-model.html"><img src="line_chart.gif" alt="Charts for the fabric8-analytics-data-model repository" /></a></td>
                                 <td class="boolean error" style="width:6ex;">&times;</td>
 
-                            <td style="width:26ex">reduce cyclomatic complexity<br></td>
+                                <td class="remark_todo" style="width:27ex"><ol><li>reduce cyclomatic complexity</li><li>remove dead code</li><li>fix common errors</li></ol></td>
+                        </tr>
                         <tr>
-                            <td style="width:34ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-recommender">fabric8-analytics-recommender</a></td>
+                            <td style="width:33ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-recommender">fabric8-analytics-recommender</a></td>
                             <td class="numeric" style="width:7ex"><a href="repository_fabric8-analytics-recommender.html">16</a></td>
                             <td class="numeric" style="width:7ex">987</td>
                                 <td class="numeric ok" style="width:6ex">16</td>
@@ -579,6 +627,10 @@
                                 <td style="width:7ex">&nbsp;</td>
                                 <td style="width:16ex">&nbsp;</td>
 
+                                    <td class="numeric error"><a href="fabric8-analytics-recommender.dead_code.txt" class="numeric error">4</a></td>
+
+                                    <td class="numeric error"><a href="fabric8-analytics-recommender.common_errors.txt" class="numeric error">7</a></td>
+
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-recommender.cc.A.html" class="numeric ignored">58</a></td>
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-recommender.cc.B.html" class="numeric ignored">4</a></td>
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-recommender.cc.C.html" class="numeric ignored">0</a></td>
@@ -595,9 +647,10 @@
                             <td><a href="charts_fabric8-analytics-recommender.html"><img src="line_chart.gif" alt="Charts for the fabric8-analytics-recommender repository" /></a></td>
                                 <td class="boolean error" style="width:6ex;">&times;</td>
 
-                            <td style="width:26ex">unit tests has not been setup<br></td>
+                                <td class="remark_todo" style="width:27ex"><ol><li>unit tests has not been setup</li><li>remove dead code</li><li>fix common errors</li></ol></td>
+                        </tr>
                         <tr>
-                            <td style="width:34ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-api-gateway">fabric8-analytics-api-gateway</a></td>
+                            <td style="width:33ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-api-gateway">fabric8-analytics-api-gateway</a></td>
                             <td class="numeric" style="width:7ex"><a href="repository_fabric8-analytics-api-gateway.html">9</a></td>
                             <td class="numeric" style="width:7ex">378</td>
                                 <td class="numeric ok" style="width:6ex">9</td>
@@ -628,6 +681,10 @@
                                     </a>
                                 </td>
 
+                                    <td class="numeric error"><a href="fabric8-analytics-api-gateway.dead_code.txt" class="numeric error">2</a></td>
+
+                                    <td class="numeric error"><a href="fabric8-analytics-api-gateway.common_errors.txt" class="numeric error">1</a></td>
+
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-api-gateway.cc.A.html" class="numeric ignored">23</a></td>
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-api-gateway.cc.B.html" class="numeric ignored">1</a></td>
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-api-gateway.cc.C.html" class="numeric ignored">0</a></td>
@@ -644,9 +701,10 @@
                             <td><a href="charts_fabric8-analytics-api-gateway.html"><img src="line_chart.gif" alt="Charts for the fabric8-analytics-api-gateway repository" /></a></td>
                                 <td class="boolean error" style="width:6ex;">&times;</td>
 
-                            <td style="width:26ex">improve code coverage<br></td>
+                                <td class="remark_todo" style="width:27ex"><ol><li>improve code coverage</li><li>remove dead code</li><li>fix common errors</li></ol></td>
+                        </tr>
                         <tr>
-                            <td style="width:34ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-nvd-toolkit">fabric8-analytics-nvd-toolkit</a></td>
+                            <td style="width:33ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-nvd-toolkit">fabric8-analytics-nvd-toolkit</a></td>
                             <td class="numeric" style="width:7ex"><a href="repository_fabric8-analytics-nvd-toolkit.html">33</a></td>
                             <td class="numeric" style="width:7ex">5014</td>
                                 <td class="numeric ok" style="width:6ex">33</td>
@@ -677,6 +735,10 @@
                                     </a>
                                 </td>
 
+                                <td class="ignored" style="text-align:right">&times;</td>
+
+                                <td class="ignored" style="text-align:right">&times;</td>
+
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-nvd-toolkit.cc.A.html" class="numeric ignored">219</a></td>
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-nvd-toolkit.cc.B.html" class="numeric ignored">23</a></td>
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-nvd-toolkit.cc.C.html" class="numeric ignored">2</a></td>
@@ -693,9 +755,10 @@
                             <td><a href="charts_fabric8-analytics-nvd-toolkit.html"><img src="line_chart.gif" alt="Charts for the fabric8-analytics-nvd-toolkit repository" /></a></td>
                                 <td class="boolean ok" style="width:6ex;">&#x2713;</td>
 
-                            <td style="width:26ex"></td>
+                                <td class="remark_todo" style="width:27ex"><ol><li>setup dead code detection tool</li><li>setup common errors detection tool</li></ol></td>
+                        </tr>
                         <tr>
-                            <td style="width:34ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-auth">fabric8-analytics-auth</a></td>
+                            <td style="width:33ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-auth">fabric8-analytics-auth</a></td>
                             <td class="numeric" style="width:7ex"><a href="repository_fabric8-analytics-auth.html">8</a></td>
                             <td class="numeric" style="width:7ex">373</td>
                                 <td class="numeric ok" style="width:6ex">8</td>
@@ -726,6 +789,10 @@
                                     </a>
                                 </td>
 
+                                    <td class="numeric error"><a href="fabric8-analytics-auth.dead_code.txt" class="numeric error">5</a></td>
+
+                                    <td class="numeric error"><a href="fabric8-analytics-auth.common_errors.txt" class="numeric error">5</a></td>
+
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-auth.cc.A.html" class="numeric ignored">28</a></td>
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-auth.cc.B.html" class="numeric ignored">1</a></td>
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-auth.cc.C.html" class="numeric ignored">0</a></td>
@@ -742,9 +809,10 @@
                             <td><a href="charts_fabric8-analytics-auth.html"><img src="line_chart.gif" alt="Charts for the fabric8-analytics-auth repository" /></a></td>
                                 <td class="boolean error" style="width:6ex;">&times;</td>
 
-                            <td style="width:26ex">improve code coverage<br></td>
+                                <td class="remark_todo" style="width:27ex"><ol><li>improve code coverage</li><li>remove dead code</li><li>fix common errors</li></ol></td>
+                        </tr>
                         <tr>
-                            <td style="width:34ex"><a href="https://github.com/fabric8-analytics/fabric8-gemini-server">fabric8-gemini-server</a></td>
+                            <td style="width:33ex"><a href="https://github.com/fabric8-analytics/fabric8-gemini-server">fabric8-gemini-server</a></td>
                             <td class="numeric" style="width:7ex"><a href="repository_fabric8-gemini-server.html">12</a></td>
                             <td class="numeric" style="width:7ex">1335</td>
                                 <td class="numeric ok" style="width:6ex">12</td>
@@ -775,6 +843,10 @@
                                     </a>
                                 </td>
 
+                                    <td class="numeric error"><a href="fabric8-gemini-server.dead_code.txt" class="numeric error">2</a></td>
+
+                                    <td class="numeric error"><a href="fabric8-gemini-server.common_errors.txt" class="numeric error">6</a></td>
+
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-gemini-server.cc.A.html" class="numeric ignored">87</a></td>
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-gemini-server.cc.B.html" class="numeric ignored">4</a></td>
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-gemini-server.cc.C.html" class="numeric ignored">0</a></td>
@@ -789,11 +861,12 @@
                                     <td class="numeric ok" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-gemini-server.mi.C.html" class="numeric ok">0</a></td>
 
                             <td><a href="charts_fabric8-gemini-server.html"><img src="line_chart.gif" alt="Charts for the fabric8-gemini-server repository" /></a></td>
-                                <td class="boolean ok" style="width:6ex;">&#x2713;</td>
+                                <td class="boolean error" style="width:6ex;">&times;</td>
 
-                            <td style="width:26ex"></td>
+                                <td class="remark_todo" style="width:27ex"><ol><li>remove dead code</li><li>fix common errors</li></ol></td>
+                        </tr>
                         <tr>
-                            <td style="width:34ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-version-comparator">fabric8-analytics-version-comparator</a></td>
+                            <td style="width:33ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-version-comparator">fabric8-analytics-version-comparator</a></td>
                             <td class="numeric" style="width:7ex"><a href="repository_fabric8-analytics-version-comparator.html">8</a></td>
                             <td class="numeric" style="width:7ex">956</td>
                                 <td class="numeric ok" style="width:6ex">8</td>
@@ -824,6 +897,10 @@
                                     </a>
                                 </td>
 
+                                <td class="ignored" style="text-align:right">&times;</td>
+
+                                <td class="ignored" style="text-align:right">&times;</td>
+
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-version-comparator.cc.A.html" class="numeric ignored">45</a></td>
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-version-comparator.cc.B.html" class="numeric ignored">8</a></td>
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-version-comparator.cc.C.html" class="numeric ignored">2</a></td>
@@ -840,9 +917,10 @@
                             <td><a href="charts_fabric8-analytics-version-comparator.html"><img src="line_chart.gif" alt="Charts for the fabric8-analytics-version-comparator repository" /></a></td>
                                 <td class="boolean ok" style="width:6ex;">&#x2713;</td>
 
-                            <td style="width:26ex"></td>
+                                <td class="remark_todo" style="width:27ex"><ol><li>setup dead code detection tool</li><li>setup common errors detection tool</li></ol></td>
+                        </tr>
                         <tr>
-                            <td style="width:34ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-ingestion">fabric8-analytics-ingestion</a></td>
+                            <td style="width:33ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-ingestion">fabric8-analytics-ingestion</a></td>
                             <td class="numeric" style="width:7ex"><a href="repository_fabric8-analytics-ingestion.html">12</a></td>
                             <td class="numeric" style="width:7ex">801</td>
                                 <td class="numeric ok" style="width:6ex">12</td>
@@ -873,6 +951,10 @@
                                     </a>
                                 </td>
 
+                                    <td class="numeric error"><a href="fabric8-analytics-ingestion.dead_code.txt" class="numeric error">3</a></td>
+
+                                    <td class="numeric error"><a href="fabric8-analytics-ingestion.common_errors.txt" class="numeric error">3</a></td>
+
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-ingestion.cc.A.html" class="numeric ignored">35</a></td>
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-ingestion.cc.B.html" class="numeric ignored">1</a></td>
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-ingestion.cc.C.html" class="numeric ignored">0</a></td>
@@ -889,9 +971,10 @@
                             <td><a href="charts_fabric8-analytics-ingestion.html"><img src="line_chart.gif" alt="Charts for the fabric8-analytics-ingestion repository" /></a></td>
                                 <td class="boolean error" style="width:6ex;">&times;</td>
 
-                            <td style="width:26ex">improve code coverage<br></td>
+                                <td class="remark_todo" style="width:27ex"><ol><li>improve code coverage</li><li>remove dead code</li><li>fix common errors</li></ol></td>
+                        </tr>
                         <tr>
-                            <td style="width:34ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-npm-insights">fabric8-analytics-npm-insights</a></td>
+                            <td style="width:33ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-npm-insights">fabric8-analytics-npm-insights</a></td>
                             <td class="numeric" style="width:7ex"><a href="repository_fabric8-analytics-npm-insights.html">23</a></td>
                             <td class="numeric" style="width:7ex">1023</td>
                                 <td class="numeric ok" style="width:6ex">23</td>
@@ -922,6 +1005,10 @@
                                     </a>
                                 </td>
 
+                                    <td class="numeric error"><a href="fabric8-analytics-npm-insights.dead_code.txt" class="numeric error">5</a></td>
+
+                                    <td class="numeric error"><a href="fabric8-analytics-npm-insights.common_errors.txt" class="numeric error">3</a></td>
+
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-npm-insights.cc.A.html" class="numeric ignored">54</a></td>
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-npm-insights.cc.B.html" class="numeric ignored">0</a></td>
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-npm-insights.cc.C.html" class="numeric ignored">1</a></td>
@@ -936,11 +1023,12 @@
                                     <td class="numeric ok" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-npm-insights.mi.C.html" class="numeric ok">0</a></td>
 
                             <td><a href="charts_fabric8-analytics-npm-insights.html"><img src="line_chart.gif" alt="Charts for the fabric8-analytics-npm-insights repository" /></a></td>
-                                <td class="boolean ok" style="width:6ex;">&#x2713;</td>
+                                <td class="boolean error" style="width:6ex;">&times;</td>
 
-                            <td style="width:26ex"></td>
+                                <td class="remark_todo" style="width:27ex"><ol><li>remove dead code</li><li>fix common errors</li></ol></td>
+                        </tr>
                         <tr>
-                            <td style="width:34ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-jenkins-plugin">fabric8-analytics-jenkins-plugin</a></td>
+                            <td style="width:33ex"><a href="https://github.com/fabric8-analytics/fabric8-analytics-jenkins-plugin">fabric8-analytics-jenkins-plugin</a></td>
                             <td class="numeric" style="width:7ex"><a href="repository_fabric8-analytics-jenkins-plugin.html">9</a></td>
                             <td class="numeric" style="width:7ex">834</td>
                                 <td class="na" style="width:6ex">N/A</td>
@@ -959,6 +1047,10 @@
                                     </a>
                                 </td>
 
+                                <td class="ignored" style="text-align:right">&times;</td>
+
+                                <td class="ignored" style="text-align:right">&times;</td>
+
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-jenkins-plugin.cc.A.html" class="numeric ignored">0</a></td>
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-jenkins-plugin.cc.B.html" class="numeric ignored">0</a></td>
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-jenkins-plugin.cc.C.html" class="numeric ignored">0</a></td>
@@ -975,9 +1067,10 @@
                             <td><a href="charts_fabric8-analytics-jenkins-plugin.html"><img src="line_chart.gif" alt="Charts for the fabric8-analytics-jenkins-plugin repository" /></a></td>
                                 <td class="boolean error" style="width:6ex;">&times;</td>
 
-                            <td style="width:26ex">linter is not setup<br>docstyle checker is not setup<br>improve code coverage<br></td>
+                                <td class="remark_todo" style="width:27ex"><ol><li>linter is not setup</li><li>docstyle checker is not setup</li><li>improve code coverage</li><li>setup dead code detection tool</li><li>setup common errors detection tool</li></ol></td>
+                        </tr>
                         <tr>
-                            <td style="width:34ex"><a href="https://github.com/fabric8-analytics/f8a-server-backbone">f8a-server-backbone</a></td>
+                            <td style="width:33ex"><a href="https://github.com/fabric8-analytics/f8a-server-backbone">f8a-server-backbone</a></td>
                             <td class="numeric" style="width:7ex"><a href="repository_f8a-server-backbone.html">11</a></td>
                             <td class="numeric" style="width:7ex">2044</td>
                                 <td class="numeric ok" style="width:6ex">11</td>
@@ -1008,6 +1101,10 @@
                                     </a>
                                 </td>
 
+                                    <td class="numeric error"><a href="f8a-server-backbone.dead_code.txt" class="numeric error">6</a></td>
+
+                                    <td class="numeric error"><a href="f8a-server-backbone.common_errors.txt" class="numeric error">5</a></td>
+
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="f8a-server-backbone.cc.A.html" class="numeric ignored">56</a></td>
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="f8a-server-backbone.cc.B.html" class="numeric ignored">12</a></td>
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="f8a-server-backbone.cc.C.html" class="numeric ignored">4</a></td>
@@ -1024,9 +1121,10 @@
                             <td><a href="charts_f8a-server-backbone.html"><img src="line_chart.gif" alt="Charts for the f8a-server-backbone repository" /></a></td>
                                 <td class="boolean error" style="width:6ex;">&times;</td>
 
-                            <td style="width:26ex">improve code coverage<br>reduce cyclomatic complexity<br></td>
+                                <td class="remark_todo" style="width:27ex"><ol><li>improve code coverage</li><li>reduce cyclomatic complexity</li><li>remove dead code</li><li>fix common errors</li></ol></td>
+                        </tr>
                         <tr>
-                            <td style="width:34ex"><a href="https://github.com/fabric8-analytics/f8a-hpf-insights">f8a-hpf-insights</a></td>
+                            <td style="width:33ex"><a href="https://github.com/fabric8-analytics/f8a-hpf-insights">f8a-hpf-insights</a></td>
                             <td class="numeric" style="width:7ex"><a href="repository_f8a-hpf-insights.html">17</a></td>
                             <td class="numeric" style="width:7ex">688</td>
                                 <td class="numeric ok" style="width:6ex">17</td>
@@ -1057,6 +1155,10 @@
                                     </a>
                                 </td>
 
+                                    <td class="numeric error"><a href="f8a-hpf-insights.dead_code.txt" class="numeric error">4</a></td>
+
+                                    <td class="numeric error"><a href="f8a-hpf-insights.common_errors.txt" class="numeric error">2</a></td>
+
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="f8a-hpf-insights.cc.A.html" class="numeric ignored">56</a></td>
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="f8a-hpf-insights.cc.B.html" class="numeric ignored">0</a></td>
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="f8a-hpf-insights.cc.C.html" class="numeric ignored">0</a></td>
@@ -1073,7 +1175,8 @@
                             <td><a href="charts_f8a-hpf-insights.html"><img src="line_chart.gif" alt="Charts for the f8a-hpf-insights repository" /></a></td>
                                 <td class="boolean error" style="width:6ex;">&times;</td>
 
-                            <td style="width:26ex">improve code coverage<br></td>
+                                <td class="remark_todo" style="width:27ex"><ol><li>improve code coverage</li><li>remove dead code</li><li>fix common errors</li></ol></td>
+                        </tr>
                     </table>
                 </div>
                 <div class="panel panel-primary">
@@ -1352,7 +1455,7 @@
             </div>
             <div style='height:100px'></div>
             <div>Author: Pavel Tisnovsky &lt;<a href="mailto:ptisnovs@redhat.com">ptisnovs@redhat.com</a>&gt;</div>
-            <div>Generated on: 2018-07-16 08:54:54</div>
+            <div>Generated on: 2018-07-17 07:53:23</div>
         </div>
         <script type="text/javascript">
         $(function () {

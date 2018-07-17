@@ -1,0 +1,43 @@
+----------------------------------------------------
+Checking source files for common errors in following
+directories:
+src tests
+----------------------------------------------------
+
+Using base prefix '/usr'
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-server-backbone/venv/bin/python3
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-server-backbone/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-server-backbone/venv/bin/python3)
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2.0.0)
+src/__init__.py
+    Pass
+src/utils.py
+    Pass
+src/rest_api.py
+    Pass
+src/stack_aggregator.py
+    Pass
+src/recommender.py
+src/recommender.py:73: 'semantic_version as sv' imported but unused
+    Fail
+tests/test_rest_api.py
+tests/test_rest_api.py:52: redefinition of unused 'get_json_from_response' from line 42
+tests/test_rest_api.py:69: local variable 'json_data' is assigned to but never used
+    Fail
+tests/__init__.py
+    Pass
+tests/test_utils.py
+tests/test_utils.py:11: 'unittest.TestCase' imported but unused
+    Fail
+tests/test_stack_aggregator.py
+tests/test_stack_aggregator.py:3: 'unittest.TestCase' imported but unused
+tests/test_stack_aggregator.py:164: redefinition of unused 'test_aggregate_stack_data' from line 30
+    Fail
+tests/test_recommender.py
+    Pass
+tests/conftest.py
+tests/conftest.py:3: 'os' imported but unused
+tests/conftest.py:5: 'flask.current_app' imported but unused
+    Fail
+5 source files out of 11 files needs to be checked and fixed

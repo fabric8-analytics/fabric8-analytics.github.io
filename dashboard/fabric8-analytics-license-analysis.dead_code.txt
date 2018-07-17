@@ -1,0 +1,128 @@
+----------------------------------------------------
+Checking source files for dead code and unused imports
+in following directories:
+src tests
+----------------------------------------------------
+
+Using base prefix '/usr'
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-license-analysis/venv/bin/python3
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-license-analysis/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-license-analysis/venv/bin/python3)
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages (0.28)
+src/auth.py
+    Pass
+src/util/data_store/__init__.py
+    Pass
+src/util/data_store/local_filesystem.py
+src/util/data_store/local_filesystem.py:62: unused variable 'src' (100% confidence)
+src/util/data_store/local_filesystem.py:62: unused variable 'target' (100% confidence)
+src/util/data_store/local_filesystem.py:67: unused variable 'src' (100% confidence)
+src/util/data_store/local_filesystem.py:67: unused variable 'target' (100% confidence)
+src/util/data_store/local_filesystem.py:87: unused variable 'cls' (100% confidence)
+    Fail
+src/util/data_store/abstract_data_store.py
+src/util/data_store/abstract_data_store.py:14: unused variable 'max_count' (100% confidence)
+src/util/data_store/abstract_data_store.py:14: unused variable 'prefix' (100% confidence)
+src/util/data_store/abstract_data_store.py:18: unused variable 'filename' (100% confidence)
+src/util/data_store/abstract_data_store.py:26: unused variable 'contents' (100% confidence)
+src/util/data_store/abstract_data_store.py:26: unused variable 'filename' (100% confidence)
+src/util/data_store/abstract_data_store.py:30: unused variable 'src' (100% confidence)
+src/util/data_store/abstract_data_store.py:30: unused variable 'target' (100% confidence)
+src/util/data_store/abstract_data_store.py:34: unused variable 'src' (100% confidence)
+src/util/data_store/abstract_data_store.py:34: unused variable 'target' (100% confidence)
+    Fail
+src/util/data_store/s3_data_store.py
+src/util/data_store/s3_data_store.py:90: unused variable 'index_col' (100% confidence)
+    Fail
+src/util/__init__.py
+    Pass
+src/directed_graph.py
+    Pass
+src/__init__.py
+    Pass
+src/utils.py
+    Pass
+src/rest_api.py
+src/rest_api.py:11: unused import 'decode_token' (90% confidence)
+    Fail
+src/stack_license.py
+    Pass
+src/exceptions.py
+    Pass
+src/license_analysis.py
+    Pass
+tests/test_s3_data_store.py
+tests/test_s3_data_store.py:5: unused import 'os' (90% confidence)
+tests/test_s3_data_store.py:8: unused import 'MockedS3Data' (90% confidence)
+tests/test_s3_data_store.py:8: unused import 'MockedS3Objects' (90% confidence)
+tests/test_s3_data_store.py:92: unused variable 'mocked_object' (100% confidence)
+tests/test_s3_data_store.py:136: unused variable 'mocked_df' (100% confidence)
+    Fail
+tests/s3_mocks.py
+tests/s3_mocks.py:28: unused variable 'Body' (100% confidence)
+tests/s3_mocks.py:40: unused variable 'bucket_name' (100% confidence)
+tests/s3_mocks.py:40: unused variable 'filename' (100% confidence)
+tests/s3_mocks.py:58: unused variable 'Prefix' (100% confidence)
+    Fail
+tests/test_errors_class.py
+tests/test_errors_class.py:3: unused import 'unittest' (90% confidence)
+    Fail
+tests/test_local_filesystem.py
+tests/test_local_filesystem.py:3: unused import 'pytest' (90% confidence)
+    Fail
+tests/test_api_v1.py
+tests/test_api_v1.py:4: unused import 'os' (90% confidence)
+tests/test_api_v1.py:5: unused import 'urlparse' (90% confidence)
+tests/test_api_v1.py:7: unused import 'current_app' (90% confidence)
+tests/test_api_v1.py:7: unused import 'url_for' (90% confidence)
+tests/test_api_v1.py:9: unused import 'requests' (90% confidence)
+    Fail
+tests/__init__.py
+    Pass
+tests/test_directed_graph.py
+    Pass
+tests/test_license_analysis.py
+tests/test_license_analysis.py:245: unused variable 'prop_name' (100% confidence)
+tests/test_license_analysis.py:252: unused variable 'mocking_object' (100% confidence)
+    Fail
+tests/license_graph/__init__.py
+    Pass
+tests/test_vertex.py
+    Pass
+tests/synonyms/__init__.py
+    Pass
+tests/test_stack_license.py
+tests/test_stack_license.py:180: unused variable 'mocking_object' (100% confidence)
+tests/test_stack_license.py:394: unused variable 'url' (100% confidence)
+tests/test_stack_license.py:417: unused variable 'mock_get_session_retry' (100% confidence)
+tests/test_stack_license.py:432: unused variable 'mock_get_session_retry' (100% confidence)
+tests/test_stack_license.py:452: unused variable 'mock_get_session_retry' (100% confidence)
+tests/test_stack_license.py:472: unused variable 'mock_get_session_retry' (100% confidence)
+tests/test_stack_license.py:487: unused variable 'mock_get_session_retry' (100% confidence)
+tests/test_stack_license.py:514: unused variable 'mock_get_session_retry' (100% confidence)
+    Fail
+tests/test_token_handling.py
+tests/test_token_handling.py:3: unused import 'unittest' (90% confidence)
+tests/test_token_handling.py:12: unused variable 'module' (100% confidence)
+tests/test_token_handling.py:34: unused variable 'module' (100% confidence)
+tests/test_token_handling.py:39: unused variable 'app' (100% confidence)
+tests/test_token_handling.py:44: unused variable 'app' (100% confidence)
+tests/test_token_handling.py:49: unused variable 'app' (100% confidence)
+tests/test_token_handling.py:71: unused variable 'mocked_fetch_public_key' (100% confidence)
+tests/test_token_handling.py:78: unused variable 'mocked_fetch_public_key' (100% confidence)
+tests/test_token_handling.py:86: unused variable 'mocked_fetch_public_key' (100% confidence)
+tests/test_token_handling.py:94: unused variable 'mocked_fetch_public_key' (100% confidence)
+tests/test_token_handling.py:102: unused variable 'mocked_fetch_public_key' (100% confidence)
+tests/test_token_handling.py:110: unused variable 'mocked_fetch_public_key' (100% confidence)
+    Fail
+tests/test_api_user_class.py
+tests/test_api_user_class.py:3: unused import 'unittest' (90% confidence)
+    Fail
+tests/conftest.py
+tests/conftest.py:3: unused import 'os' (90% confidence)
+tests/conftest.py:5: unused import 'current_app' (90% confidence)
+    Fail
+tests/pandas_mocks.py
+    Pass
+14 source files out of 29 files seems to contain dead code and/or unused imports

@@ -1,0 +1,68 @@
+----------------------------------------------------
+Checking source files for dead code and unused imports
+in following directories:
+deployments src tests perf_tests PoC_code
+----------------------------------------------------
+
+Using base prefix '/usr'
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-hpf-insights/venv/bin/python3
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-hpf-insights/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-hpf-insights/venv/bin/python3)
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages (0.28)
+deployments/__init__.py
+    Pass
+src/data_store/__init__.py
+    Pass
+src/data_store/abstract_data_store.py
+src/data_store/abstract_data_store.py:15: unused variable 'max_count' (100% confidence)
+src/data_store/abstract_data_store.py:15: unused variable 'prefix' (100% confidence)
+src/data_store/abstract_data_store.py:20: unused variable 'filename' (100% confidence)
+src/data_store/abstract_data_store.py:30: unused variable 'contents' (100% confidence)
+src/data_store/abstract_data_store.py:30: unused variable 'filename' (100% confidence)
+src/data_store/abstract_data_store.py:35: unused variable 'src' (100% confidence)
+src/data_store/abstract_data_store.py:35: unused variable 'target' (100% confidence)
+src/data_store/abstract_data_store.py:40: unused variable 'src' (100% confidence)
+src/data_store/abstract_data_store.py:40: unused variable 'target' (100% confidence)
+    Fail
+src/data_store/local_data_store.py
+src/data_store/local_data_store.py:21: unused variable 'max_count' (100% confidence)
+src/data_store/local_data_store.py:21: unused variable 'prefix' (100% confidence)
+src/data_store/local_data_store.py:62: unused variable 'src' (100% confidence)
+src/data_store/local_data_store.py:62: unused variable 'target' (100% confidence)
+src/data_store/local_data_store.py:66: unused variable 'src' (100% confidence)
+src/data_store/local_data_store.py:66: unused variable 'target' (100% confidence)
+    Fail
+src/data_store/s3_data_store.py
+    Pass
+src/__init__.py
+    Pass
+src/flask_endpoint.py
+    Pass
+src/scoring/__init__.py
+    Pass
+src/scoring/hpf_scoring.py
+src/scoring/hpf_scoring.py:12: unused import 'defaultdict' (90% confidence)
+src/scoring/hpf_scoring.py:13: unused import 'c' (90% confidence)
+src/scoring/hpf_scoring.py:13: unused import 'c_c' (90% confidence)
+src/scoring/hpf_scoring.py:13: unused import 'd_c' (90% confidence)
+    Fail
+src/training/__init__.py
+    Pass
+tests/__init__.py
+    Pass
+tests/unit_tests/__init__.py
+    Pass
+tests/unit_tests/test_local_datastore.py
+    Pass
+tests/unit_tests/test_scoring_helper.py
+    Pass
+perf_tests/__init__.py
+    Pass
+perf_tests/locust_tests.py
+perf_tests/locust_tests.py:4: unused import 'events' (90% confidence)
+perf_tests/locust_tests.py:4: unused import 'web' (90% confidence)
+    Fail
+PoC_code/__init__.py
+    Pass
+4 source files out of 17 files seems to contain dead code and/or unused imports

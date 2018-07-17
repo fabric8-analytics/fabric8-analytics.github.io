@@ -1,0 +1,138 @@
+----------------------------------------------------
+Checking source files for dead code and unused imports
+in following directories:
+f8a_jobs tests
+----------------------------------------------------
+
+Using base prefix '/usr'
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-jobs/venv/bin/python3
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-jobs/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-jobs/venv/bin/python3)
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages (0.28)
+f8a_jobs/auth.py
+    Pass
+f8a_jobs/models.py
+    Pass
+f8a_jobs/scheduler.py
+    Pass
+f8a_jobs/__init__.py
+    Pass
+f8a_jobs/utils.py
+    Pass
+f8a_jobs/error.py
+    Pass
+f8a_jobs/analyses_report.py
+    Pass
+f8a_jobs/api_v1.py
+f8a_jobs/api_v1.py:11: unused import 'run_flow' (90% confidence)
+    Fail
+f8a_jobs/graph_sync.py
+    Pass
+f8a_jobs/handlers/aggregate_crowd_source_tags.py
+    Pass
+f8a_jobs/handlers/npm_popular_analyses.py
+    Pass
+f8a_jobs/handlers/maven_popular_analyses.py
+    Pass
+f8a_jobs/handlers/github_manifests.py
+    Pass
+f8a_jobs/handlers/__init__.py
+f8a_jobs/handlers/__init__.py:3: unused import 'AggregateCrowdSourceTags' (90% confidence)
+f8a_jobs/handlers/__init__.py:4: unused import 'AggregateGitHubManifestPackages' (90% confidence)
+f8a_jobs/handlers/__init__.py:5: unused import 'AggregateTopics' (90% confidence)
+f8a_jobs/handlers/__init__.py:6: unused import 'BookKeeping' (90% confidence)
+f8a_jobs/handlers/__init__.py:7: unused import 'CleanPostgres' (90% confidence)
+f8a_jobs/handlers/__init__.py:8: unused import 'ErrorHandler' (90% confidence)
+f8a_jobs/handlers/__init__.py:9: unused import 'FlowScheduling' (90% confidence)
+f8a_jobs/handlers/__init__.py:10: unused import 'GitHubMostStarred' (90% confidence)
+f8a_jobs/handlers/__init__.py:11: unused import 'GitHubManifests' (90% confidence)
+f8a_jobs/handlers/__init__.py:12: unused import 'GolangPopularAnalyses' (90% confidence)
+f8a_jobs/handlers/__init__.py:13: unused import 'KronosDataUpdater' (90% confidence)
+f8a_jobs/handlers/__init__.py:14: unused import 'MavenPopularAnalyses' (90% confidence)
+f8a_jobs/handlers/__init__.py:15: unused import 'MavenReleasesAnalyses' (90% confidence)
+f8a_jobs/handlers/__init__.py:16: unused import 'NpmPopularAnalyses' (90% confidence)
+f8a_jobs/handlers/__init__.py:17: unused import 'NugetPopularAnalyses' (90% confidence)
+f8a_jobs/handlers/__init__.py:18: unused import 'PythonPopularAnalyses' (90% confidence)
+f8a_jobs/handlers/__init__.py:19: unused import 'SelectiveFlowScheduling' (90% confidence)
+f8a_jobs/handlers/__init__.py:20: unused import 'SyncToGraph' (90% confidence)
+f8a_jobs/handlers/__init__.py:21: unused import 'InvokeGraphSync' (90% confidence)
+    Fail
+f8a_jobs/handlers/github_most_starred.py
+f8a_jobs/handlers/github_most_starred.py:95: unused variable 'popular' (100% confidence)
+    Fail
+f8a_jobs/handlers/error.py
+f8a_jobs/handlers/error.py:11: unused variable 'exc_str' (100% confidence)
+f8a_jobs/handlers/error.py:11: unused variable 'exc_traceback' (100% confidence)
+f8a_jobs/handlers/error.py:11: unused variable 'failed_handler_kwargs' (100% confidence)
+f8a_jobs/handlers/error.py:11: unused variable 'failed_job_handler' (100% confidence)
+    Fail
+f8a_jobs/handlers/nuget_popular_analyses.py
+    Pass
+f8a_jobs/handlers/flow.py
+    Pass
+f8a_jobs/handlers/python_popular_analyses.py
+    Pass
+f8a_jobs/handlers/sync_to_graph.py
+    Pass
+f8a_jobs/handlers/kronos_data_update.py
+f8a_jobs/handlers/kronos_data_update.py:4: unused import 'SQLAlchemyError' (90% confidence)
+    Fail
+f8a_jobs/handlers/aggregate_github_manifest_pkgs.py
+    Pass
+f8a_jobs/handlers/clean_postgres.py
+    Pass
+f8a_jobs/handlers/book_keeping.py
+    Pass
+f8a_jobs/handlers/base.py
+    Pass
+f8a_jobs/handlers/golang_popular_analyses.py
+    Pass
+f8a_jobs/handlers/selective_flow.py
+    Pass
+f8a_jobs/handlers/aggregate_topics.py
+    Pass
+f8a_jobs/handlers/invoke_graph_sync.py
+    Pass
+f8a_jobs/handlers/maven_releases.py
+    Pass
+f8a_jobs/defaults.py
+    Pass
+tests/test_api_v1.py
+tests/test_api_v1.py:3: unused import 'pytest' (90% confidence)
+tests/test_api_v1.py:11: unused variable 'method' (100% confidence)
+tests/test_api_v1.py:15: unused variable 'method' (100% confidence)
+    Fail
+tests/test_auth.py
+tests/test_auth.py:3: unused import 'pytest' (90% confidence)
+tests/test_auth.py:11: unused variable 'method' (100% confidence)
+tests/test_auth.py:15: unused variable 'method' (100% confidence)
+    Fail
+tests/__init__.py
+    Pass
+tests/test_utils.py
+tests/test_utils.py:11: unused variable 'method' (100% confidence)
+tests/test_utils.py:15: unused variable 'method' (100% confidence)
+    Fail
+tests/handlers/test_crowd_source_tag.py
+    Pass
+tests/handlers/__init__.py
+    Pass
+tests/handlers/test_base_handler.py
+    Pass
+tests/test_analyses_report.py
+tests/test_analyses_report.py:3: unused import 'pytest' (90% confidence)
+tests/test_analyses_report.py:11: unused variable 'method' (100% confidence)
+tests/test_analyses_report.py:15: unused variable 'method' (100% confidence)
+    Fail
+----------------------------------------------------
+Checking following source files for dead code and
+unused imports:
+f8a-jobs.py setup.py
+----------------------------------------------------
+
+f8a-jobs.py
+    Pass
+setup.py
+    Pass
+9 source files out of 41 files seems to contain dead code and/or unused imports

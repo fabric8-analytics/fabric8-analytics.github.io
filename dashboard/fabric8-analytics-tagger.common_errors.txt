@@ -1,0 +1,259 @@
+Using base prefix '/usr'
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-tagger/venv/bin/python3
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-tagger/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-tagger/venv/bin/python3)
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2.0.0)
+----------------------------------------------------
+Checking source files for common errors in following
+directories:
+f8a_tagger tests
+----------------------------------------------------
+
+f8a_tagger/collectors/__init__.py
+f8a_tagger/collectors/__init__.py:3: '.base.CollectorBase' imported but unused
+f8a_tagger/collectors/__init__.py:4: '.maven.MavenCollector' imported but unused
+f8a_tagger/collectors/__init__.py:5: '.npm.NpmCollector' imported but unused
+f8a_tagger/collectors/__init__.py:6: '.pypi.PypiCollector' imported but unused
+f8a_tagger/collectors/__init__.py:7: '.stackoverflow.StackOverflowCollector' imported but unused
+    Fail
+f8a_tagger/collectors/pypi.py
+    Pass
+f8a_tagger/collectors/maven.py
+    Pass
+f8a_tagger/collectors/npm.py
+    Pass
+f8a_tagger/collectors/base.py
+    Pass
+f8a_tagger/collectors/stackoverflow.py
+    Pass
+f8a_tagger/lemmatizer.py
+    Pass
+f8a_tagger/tokenizer.py
+    Pass
+f8a_tagger/__init__.py
+f8a_tagger/__init__.py:10: '.corpus.Corpus' imported but unused
+f8a_tagger/__init__.py:12: '.keywords_chief.KeywordsChief' imported but unused
+f8a_tagger/__init__.py:13: '.recipes.aggregate' imported but unused
+f8a_tagger/__init__.py:14: '.recipes.collect' imported but unused
+f8a_tagger/__init__.py:15: '.recipes.get_registered_collectors' imported but unused
+f8a_tagger/__init__.py:16: '.recipes.get_registered_scorers' imported but unused
+f8a_tagger/__init__.py:17: '.recipes.get_registered_stemmers' imported but unused
+f8a_tagger/__init__.py:18: '.recipes.lookup_file' imported but unused
+f8a_tagger/__init__.py:19: '.recipes.lookup_readme' imported but unused
+f8a_tagger/__init__.py:20: '.recipes.lookup_text' imported but unused
+f8a_tagger/__init__.py:21: '.recipes.reckon' imported but unused
+f8a_tagger/__init__.py:22: '.tokenizer.Tokenizer' imported but unused
+    Fail
+f8a_tagger/utils.py
+    Pass
+f8a_tagger/keywords_chief.py
+    Pass
+f8a_tagger/scoring.py
+    Pass
+f8a_tagger/parsers/__init__.py
+f8a_tagger/parsers/__init__.py:4: '.core_parser.CoreParser' imported but unused
+    Fail
+f8a_tagger/parsers/core_parser.py
+    Pass
+f8a_tagger/parsers/parsers.py
+    Pass
+f8a_tagger/parsers/abstract.py
+    Pass
+f8a_tagger/stemmer.py
+    Pass
+f8a_tagger/corpus.py
+    Pass
+f8a_tagger/recipes.py
+    Pass
+f8a_tagger/keywords_set.py
+    Pass
+f8a_tagger/errors.py
+    Pass
+f8a_tagger/defaults.py
+    Pass
+tests/test_tokenizer.py
+tests/test_tokenizer.py:4: 'from unittest.mock import *' used; unable to detect undefined names
+tests/test_tokenizer.py:34: local variable 'e' is assigned to but never used
+tests/test_tokenizer.py:219: 'patch' may be undefined, or defined from star imports: unittest.mock
+tests/test_tokenizer.py:220: 'patch' may be undefined, or defined from star imports: unittest.mock
+tests/test_tokenizer.py:236: 'patch' may be undefined, or defined from star imports: unittest.mock
+tests/test_tokenizer.py:243: local variable 'e' is assigned to but never used
+    Fail
+tests/test_errors.py
+tests/test_errors.py:3: 'pytest' imported but unused
+tests/test_errors.py:4: 'from f8a_tagger.errors import *' used; unable to detect undefined names
+tests/test_errors.py:4: 'f8a_tagger.errors.*' imported but unused
+    Fail
+tests/test_init.py
+tests/test_init.py:4: 'from unittest.mock import *' used; unable to detect undefined names
+tests/test_init.py:5: 'from f8a_tagger import *' used; unable to detect undefined names
+tests/test_init.py:11: 'prepare' may be undefined, or defined from star imports: f8a_tagger, unittest.mock
+tests/test_init.py:27: 'patch' may be undefined, or defined from star imports: f8a_tagger, unittest.mock
+tests/test_init.py:30: local variable 'e' is assigned to but never used
+tests/test_init.py:31: 'prepare' may be undefined, or defined from star imports: f8a_tagger, unittest.mock
+    Fail
+tests/test_parsers.py
+tests/test_parsers.py:4: 'from f8a_tagger.parsers.parsers import *' used; unable to detect undefined names
+tests/test_parsers.py:9: 'TextParser' may be undefined, or defined from star imports: f8a_tagger.parsers.parsers
+tests/test_parsers.py:12: 'MarkdownParser' may be undefined, or defined from star imports: f8a_tagger.parsers.parsers
+tests/test_parsers.py:15: 'HtmlParser' may be undefined, or defined from star imports: f8a_tagger.parsers.parsers
+tests/test_parsers.py:18: 'ReStructuredTextParser' may be undefined, or defined from star imports: f8a_tagger.parsers.parsers
+tests/test_parsers.py:21: 'AsciidocParser' may be undefined, or defined from star imports: f8a_tagger.parsers.parsers
+tests/test_parsers.py:24: 'TextileParser' may be undefined, or defined from star imports: f8a_tagger.parsers.parsers
+tests/test_parsers.py:27: 'RdocParser' may be undefined, or defined from star imports: f8a_tagger.parsers.parsers
+tests/test_parsers.py:30: 'OrgParser' may be undefined, or defined from star imports: f8a_tagger.parsers.parsers
+tests/test_parsers.py:33: 'CreoleParser' may be undefined, or defined from star imports: f8a_tagger.parsers.parsers
+tests/test_parsers.py:36: 'MediawikiParser' may be undefined, or defined from star imports: f8a_tagger.parsers.parsers
+tests/test_parsers.py:39: 'PodParser' may be undefined, or defined from star imports: f8a_tagger.parsers.parsers
+tests/test_parsers.py:45: 'TextParser' may be undefined, or defined from star imports: f8a_tagger.parsers.parsers
+tests/test_parsers.py:53: 'MarkdownParser' may be undefined, or defined from star imports: f8a_tagger.parsers.parsers
+tests/test_parsers.py:61: 'HtmlParser' may be undefined, or defined from star imports: f8a_tagger.parsers.parsers
+tests/test_parsers.py:72: 'ReStructuredTextParser' may be undefined, or defined from star imports: f8a_tagger.parsers.parsers
+tests/test_parsers.py:80: 'AsciidocParser' may be undefined, or defined from star imports: f8a_tagger.parsers.parsers
+tests/test_parsers.py:83: local variable 'e' is assigned to but never used
+tests/test_parsers.py:89: 'TextileParser' may be undefined, or defined from star imports: f8a_tagger.parsers.parsers
+tests/test_parsers.py:92: local variable 'e' is assigned to but never used
+tests/test_parsers.py:98: 'RdocParser' may be undefined, or defined from star imports: f8a_tagger.parsers.parsers
+tests/test_parsers.py:101: local variable 'e' is assigned to but never used
+tests/test_parsers.py:107: 'OrgParser' may be undefined, or defined from star imports: f8a_tagger.parsers.parsers
+tests/test_parsers.py:110: local variable 'e' is assigned to but never used
+tests/test_parsers.py:116: 'CreoleParser' may be undefined, or defined from star imports: f8a_tagger.parsers.parsers
+tests/test_parsers.py:119: local variable 'e' is assigned to but never used
+tests/test_parsers.py:125: 'MediawikiParser' may be undefined, or defined from star imports: f8a_tagger.parsers.parsers
+tests/test_parsers.py:128: local variable 'e' is assigned to but never used
+tests/test_parsers.py:134: 'PodParser' may be undefined, or defined from star imports: f8a_tagger.parsers.parsers
+tests/test_parsers.py:137: local variable 'e' is assigned to but never used
+    Fail
+tests/test_keywords_chief.py
+tests/test_keywords_chief.py:30: local variable 'e' is assigned to but never used
+tests/test_keywords_chief.py:31: local variable 'keywordsChief' is assigned to but never used
+tests/test_keywords_chief.py:49: local variable 'e' is assigned to but never used
+tests/test_keywords_chief.py:50: local variable 'keywordsChief3' is assigned to but never used
+    Fail
+tests/test_recipes.py
+tests/test_recipes.py:4: 'from unittest.mock import *' used; unable to detect undefined names
+tests/test_recipes.py:39: 'patch' may be undefined, or defined from star imports: unittest.mock
+tests/test_recipes.py:46: local variable 'e' is assigned to but never used
+tests/test_recipes.py:50: 'patch' may be undefined, or defined from star imports: unittest.mock
+tests/test_recipes.py:63: local variable 'result' is assigned to but never used
+tests/test_recipes.py:66: 'patch' may be undefined, or defined from star imports: unittest.mock
+tests/test_recipes.py:73: local variable 'results' is assigned to but never used
+tests/test_recipes.py:98: local variable 'e' is assigned to but never used
+tests/test_recipes.py:117: 'patch' may be undefined, or defined from star imports: unittest.mock
+tests/test_recipes.py:156: local variable 'e' is assigned to but never used
+    Fail
+tests/test_pypi_collector.py
+tests/test_pypi_collector.py:4: 'from unittest.mock import *' used; unable to detect undefined names
+tests/test_pypi_collector.py:7: 'from f8a_tagger.collectors.pypi import *' used; unable to detect undefined names
+tests/test_pypi_collector.py:12: 'PypiCollector' may be undefined, or defined from star imports: f8a_tagger.collectors.pypi, unittest.mock
+tests/test_pypi_collector.py:28: 'PypiCollector' may be undefined, or defined from star imports: f8a_tagger.collectors.pypi, unittest.mock
+tests/test_pypi_collector.py:45: 'PypiCollector' may be undefined, or defined from star imports: f8a_tagger.collectors.pypi, unittest.mock
+tests/test_pypi_collector.py:47: local variable 'keywords' is assigned to but never used
+tests/test_pypi_collector.py:50: 'patch' may be undefined, or defined from star imports: f8a_tagger.collectors.pypi, unittest.mock
+tests/test_pypi_collector.py:53: 'PypiCollector' may be undefined, or defined from star imports: f8a_tagger.collectors.pypi, unittest.mock
+tests/test_pypi_collector.py:55: local variable 'keywords' is assigned to but never used
+tests/test_pypi_collector.py:63: 'patch' may be undefined, or defined from star imports: f8a_tagger.collectors.pypi, unittest.mock
+tests/test_pypi_collector.py:66: 'PypiCollector' may be undefined, or defined from star imports: f8a_tagger.collectors.pypi, unittest.mock
+tests/test_pypi_collector.py:68: local variable 'e' is assigned to but never used
+tests/test_pypi_collector.py:69: local variable 'keywords' is assigned to but never used
+tests/test_pypi_collector.py:74: 'PypiCollector' may be undefined, or defined from star imports: f8a_tagger.collectors.pypi, unittest.mock
+tests/test_pypi_collector.py:86: 'patch' may be undefined, or defined from star imports: f8a_tagger.collectors.pypi, unittest.mock
+tests/test_pypi_collector.py:89: 'PypiCollector' may be undefined, or defined from star imports: f8a_tagger.collectors.pypi, unittest.mock
+tests/test_pypi_collector.py:91: local variable 'e' is assigned to but never used
+tests/test_pypi_collector.py:94: local variable 'keywords' is assigned to but never used
+    Fail
+tests/test_lemmatizer.py
+tests/test_lemmatizer.py:3: 'pytest' imported but unused
+tests/test_lemmatizer.py:4: 'from f8a_tagger.lemmatizer import *' used; unable to detect undefined names
+tests/test_lemmatizer.py:11: 'Lemmatizer' may be undefined, or defined from star imports: f8a_tagger.lemmatizer
+    Fail
+tests/test_scoring.py
+tests/test_scoring.py:5: 'f8a_tagger.keywords_set.KeywordsSet' imported but unused
+tests/test_scoring.py:6: 'from f8a_tagger.scoring import *' used; unable to detect undefined names
+tests/test_scoring.py:11: 'Scoring' may be undefined, or defined from star imports: f8a_tagger.scoring
+tests/test_scoring.py:20: 'Scoring' may be undefined, or defined from star imports: f8a_tagger.scoring
+tests/test_scoring.py:23: local variable 'e' is assigned to but never used
+tests/test_scoring.py:24: 'Scoring' may be undefined, or defined from star imports: f8a_tagger.scoring
+tests/test_scoring.py:29: 'Scoring' may be undefined, or defined from star imports: f8a_tagger.scoring
+tests/test_scoring.py:41: 'Scoring' may be undefined, or defined from star imports: f8a_tagger.scoring
+tests/test_scoring.py:58: 'Scoring' may be undefined, or defined from star imports: f8a_tagger.scoring
+tests/test_scoring.py:63: local variable 'e' is assigned to but never used
+tests/test_scoring.py:69: 'RelativeUsageScoring' may be undefined, or defined from star imports: f8a_tagger.scoring
+    Fail
+tests/test_maven_collector.py
+tests/test_maven_collector.py:25: local variable 'e' is assigned to but never used
+tests/test_maven_collector.py:28: local variable 'e' is assigned to but never used
+    Fail
+tests/__init__.py
+    Pass
+tests/test_npm_collector.py
+tests/test_npm_collector.py:18: local variable 'e' is assigned to but never used
+    Fail
+tests/test_utils.py
+tests/test_utils.py:4: 'from f8a_tagger.utils import *' used; unable to detect undefined names
+tests/test_utils.py:5: 'from unittest.mock import *' used; unable to detect undefined names
+tests/test_utils.py:10: 'iter_files' may be undefined, or defined from star imports: f8a_tagger.utils, unittest.mock
+tests/test_utils.py:13: 'iter_files' may be undefined, or defined from star imports: f8a_tagger.utils, unittest.mock
+tests/test_utils.py:18: 'iter_files' may be undefined, or defined from star imports: f8a_tagger.utils, unittest.mock
+tests/test_utils.py:21: 'iter_files' may be undefined, or defined from star imports: f8a_tagger.utils, unittest.mock
+tests/test_utils.py:28: 'iter_files' may be undefined, or defined from star imports: f8a_tagger.utils, unittest.mock
+tests/test_utils.py:32: 'iter_files' may be undefined, or defined from star imports: f8a_tagger.utils, unittest.mock
+tests/test_utils.py:35: local variable 'e' is assigned to but never used
+tests/test_utils.py:36: 'iter_files' may be undefined, or defined from star imports: f8a_tagger.utils, unittest.mock
+tests/test_utils.py:46: 'json_dumps' may be undefined, or defined from star imports: f8a_tagger.utils, unittest.mock
+tests/test_utils.py:57: 'get_files_dir' may be undefined, or defined from star imports: f8a_tagger.utils, unittest.mock
+tests/test_utils.py:73: 'cwd' may be undefined, or defined from star imports: f8a_tagger.utils, unittest.mock
+tests/test_utils.py:81: 'progressbarize' may be undefined, or defined from star imports: f8a_tagger.utils, unittest.mock
+tests/test_utils.py:84: 'progressbarize' may be undefined, or defined from star imports: f8a_tagger.utils, unittest.mock
+tests/test_utils.py:93: 'test_get_files_dir_older_python' may be undefined, or defined from star imports: f8a_tagger.utils, unittest.mock
+    Fail
+tests/test_stemmer.py
+tests/test_stemmer.py:4: 'from f8a_tagger.stemmer import *' used; unable to detect undefined names
+tests/test_stemmer.py:11: 'Stemmer' may be undefined, or defined from star imports: f8a_tagger.stemmer
+tests/test_stemmer.py:14: 'Stemmer' may be undefined, or defined from star imports: f8a_tagger.stemmer
+tests/test_stemmer.py:17: 'Stemmer' may be undefined, or defined from star imports: f8a_tagger.stemmer
+tests/test_stemmer.py:23: 'StemmerNotFoundError' may be undefined, or defined from star imports: f8a_tagger.stemmer
+tests/test_stemmer.py:24: 'Stemmer' may be undefined, or defined from star imports: f8a_tagger.stemmer
+tests/test_stemmer.py:26: 'StemmerNotFoundError' may be undefined, or defined from star imports: f8a_tagger.stemmer
+tests/test_stemmer.py:27: 'Stemmer' may be undefined, or defined from star imports: f8a_tagger.stemmer
+tests/test_stemmer.py:29: 'StemmerNotFoundError' may be undefined, or defined from star imports: f8a_tagger.stemmer
+tests/test_stemmer.py:30: 'Stemmer' may be undefined, or defined from star imports: f8a_tagger.stemmer
+tests/test_stemmer.py:30: local variable 'stemmer' is assigned to but never used
+tests/test_stemmer.py:35: 'Stemmer' may be undefined, or defined from star imports: f8a_tagger.stemmer
+    Fail
+tests/test_corpus.py
+tests/test_corpus.py:86: local variable 'e' is assigned to but never used
+    Fail
+tests/test_stackoverflow_collector.py
+tests/test_stackoverflow_collector.py:4: 'from unittest.mock import *' used; unable to detect undefined names
+tests/test_stackoverflow_collector.py:43: 'patch' may be undefined, or defined from star imports: unittest.mock
+tests/test_stackoverflow_collector.py:48: local variable 'e' is assigned to but never used
+tests/test_stackoverflow_collector.py:49: local variable 'keywords' is assigned to but never used
+tests/test_stackoverflow_collector.py:67: 'patch' may be undefined, or defined from star imports: unittest.mock
+tests/test_stackoverflow_collector.py:92: 'patch' may be undefined, or defined from star imports: unittest.mock
+    Fail
+tests/test_core_parser.py
+tests/test_core_parser.py:9: local variable 'c' is assigned to but never used
+tests/test_core_parser.py:29: local variable 'e' is assigned to but never used
+tests/test_core_parser.py:52: local variable 'e' is assigned to but never used
+tests/test_core_parser.py:53: local variable 'parsed' is assigned to but never used
+tests/test_core_parser.py:94: local variable 'e' is assigned to but never used
+tests/test_core_parser.py:95: local variable 'parsed' is assigned to but never used
+    Fail
+tests/test_keywords_set.py
+tests/test_keywords_set.py:3: 'pytest' imported but unused
+    Fail
+tests/conftest.py
+    Pass
+----------------------------------------------------
+Checking following source files for common errors:
+f8a_tagger_cli.py setup.py
+----------------------------------------------------
+
+f8a_tagger_cli.py
+    Pass
+setup.py
+setup.py:9: 'setuptools.command.install.install' imported but unused
+    Fail
+21 source files out of 43 files needs to be checked and fixed

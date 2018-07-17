@@ -1,0 +1,972 @@
+----------------------------------------------------
+Checking source files for common errors in following
+directories:
+integration-tests ui-tests perf-tests dashboard reproducers load-tests db-integrity-tests
+----------------------------------------------------
+
+Using base prefix '/usr'
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-common/venv/bin/python3
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-common/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-common/venv/bin/python3)
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2.0.0)
+integration-tests/features/src/schemas/component_security_issues.py
+integration-tests/features/src/schemas/component_security_issues.py:3: 'pytest_voluptuous.Partial' imported but unused
+integration-tests/features/src/schemas/component_security_issues.py:3: 'pytest_voluptuous.Exact' imported but unused
+integration-tests/features/src/schemas/component_security_issues.py:4: 'voluptuous.Invalid' imported but unused
+integration-tests/features/src/schemas/component_security_issues.py:4: 'voluptuous.Url' imported but unused
+integration-tests/features/src/schemas/component_security_issues.py:5: 'voluptuous.validators.All' imported but unused
+integration-tests/features/src/schemas/component_security_issues.py:5: 'voluptuous.validators.Length' imported but unused
+integration-tests/features/src/schemas/component_security_issues.py:7: 'from .predicates import *' used; unable to detect undefined names
+integration-tests/features/src/schemas/component_security_issues.py:8: 'from .common import *' used; unable to detect undefined names
+integration-tests/features/src/schemas/component_security_issues.py:44: 'AUDIT' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/component_security_issues.py:47: 'STATUS' may be undefined, or defined from star imports: .common, .predicates
+    Fail
+integration-tests/features/src/schemas/component_digests.py
+integration-tests/features/src/schemas/component_digests.py:3: 'pytest_voluptuous.Partial' imported but unused
+integration-tests/features/src/schemas/component_digests.py:3: 'pytest_voluptuous.Exact' imported but unused
+integration-tests/features/src/schemas/component_digests.py:4: 'voluptuous.Invalid' imported but unused
+integration-tests/features/src/schemas/component_digests.py:4: 'voluptuous.Url' imported but unused
+integration-tests/features/src/schemas/component_digests.py:5: 'voluptuous.validators.All' imported but unused
+integration-tests/features/src/schemas/component_digests.py:5: 'voluptuous.validators.Length' imported but unused
+integration-tests/features/src/schemas/component_digests.py:7: 'from .predicates import *' used; unable to detect undefined names
+integration-tests/features/src/schemas/component_digests.py:8: 'from .common import *' used; unable to detect undefined names
+integration-tests/features/src/schemas/component_digests.py:90: 'md5_p' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/component_digests.py:101: 'AUDIT' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/component_digests.py:105: 'STATUS' may be undefined, or defined from star imports: .common, .predicates
+    Fail
+integration-tests/features/src/schemas/component_dependency_snapshot.py
+integration-tests/features/src/schemas/component_dependency_snapshot.py:3: 'pytest_voluptuous.Partial' imported but unused
+integration-tests/features/src/schemas/component_dependency_snapshot.py:3: 'pytest_voluptuous.Exact' imported but unused
+integration-tests/features/src/schemas/component_dependency_snapshot.py:4: 'voluptuous.Invalid' imported but unused
+integration-tests/features/src/schemas/component_dependency_snapshot.py:4: 'voluptuous.Url' imported but unused
+integration-tests/features/src/schemas/component_dependency_snapshot.py:5: 'voluptuous.validators.All' imported but unused
+integration-tests/features/src/schemas/component_dependency_snapshot.py:5: 'voluptuous.validators.Length' imported but unused
+integration-tests/features/src/schemas/component_dependency_snapshot.py:7: 'from .predicates import *' used; unable to detect undefined names
+integration-tests/features/src/schemas/component_dependency_snapshot.py:8: 'from .common import *' used; unable to detect undefined names
+integration-tests/features/src/schemas/component_dependency_snapshot.py:85: 'ECOSYSTEM' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/component_dependency_snapshot.py:87: 'timestamp_p' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/component_dependency_snapshot.py:95: 'AUDIT' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/component_dependency_snapshot.py:98: 'STATUS' may be undefined, or defined from star imports: .common, .predicates
+    Fail
+integration-tests/features/src/schemas/package_github_details.py
+integration-tests/features/src/schemas/package_github_details.py:3: 'pytest_voluptuous.Partial' imported but unused
+integration-tests/features/src/schemas/package_github_details.py:3: 'pytest_voluptuous.Exact' imported but unused
+integration-tests/features/src/schemas/package_github_details.py:4: 'voluptuous.Invalid' imported but unused
+integration-tests/features/src/schemas/package_github_details.py:4: 'voluptuous.Optional' imported but unused
+integration-tests/features/src/schemas/package_github_details.py:5: 'voluptuous.validators.All' imported but unused
+integration-tests/features/src/schemas/package_github_details.py:5: 'voluptuous.validators.Length' imported but unused
+integration-tests/features/src/schemas/package_github_details.py:7: 'from .predicates import *' used; unable to detect undefined names
+integration-tests/features/src/schemas/package_github_details.py:8: 'from .common import *' used; unable to detect undefined names
+integration-tests/features/src/schemas/package_github_details.py:75: 'posint_zero_p' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/package_github_details.py:76: 'posint_zero_p' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/package_github_details.py:87: 'posint_zero_p' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/package_github_details.py:88: 'posint_zero_p' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/package_github_details.py:90: 'posint_zero_p' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/package_github_details.py:91: 'posint_zero_p' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/package_github_details.py:92: 'posint_zero_p' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/package_github_details.py:98: 'AUDIT' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/package_github_details.py:101: 'STATUS' may be undefined, or defined from star imports: .common, .predicates
+    Fail
+integration-tests/features/src/schemas/__init__.py
+    Pass
+integration-tests/features/src/schemas/component_metadata.py
+integration-tests/features/src/schemas/component_metadata.py:3: 'pytest_voluptuous.Partial' imported but unused
+integration-tests/features/src/schemas/component_metadata.py:3: 'pytest_voluptuous.Exact' imported but unused
+integration-tests/features/src/schemas/component_metadata.py:4: 'voluptuous.Invalid' imported but unused
+integration-tests/features/src/schemas/component_metadata.py:5: 'voluptuous.validators.All' imported but unused
+integration-tests/features/src/schemas/component_metadata.py:5: 'voluptuous.validators.Length' imported but unused
+integration-tests/features/src/schemas/component_metadata.py:7: 'from .predicates import *' used; unable to detect undefined names
+integration-tests/features/src/schemas/component_metadata.py:8: 'from .common import *' used; unable to detect undefined names
+integration-tests/features/src/schemas/component_metadata.py:96: 'AUDIT' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/component_metadata.py:99: 'STATUS' may be undefined, or defined from star imports: .common, .predicates
+    Fail
+integration-tests/features/src/schemas/predicates.py
+integration-tests/features/src/schemas/predicates.py:24: local variable 'e' is assigned to but never used
+    Fail
+integration-tests/features/src/schemas/component_code_metrics.py
+integration-tests/features/src/schemas/component_code_metrics.py:3: 'pytest_voluptuous.Partial' imported but unused
+integration-tests/features/src/schemas/component_code_metrics.py:3: 'pytest_voluptuous.Exact' imported but unused
+integration-tests/features/src/schemas/component_code_metrics.py:4: 'voluptuous.Invalid' imported but unused
+integration-tests/features/src/schemas/component_code_metrics.py:4: 'voluptuous.Url' imported but unused
+integration-tests/features/src/schemas/component_code_metrics.py:5: 'voluptuous.validators.All' imported but unused
+integration-tests/features/src/schemas/component_code_metrics.py:5: 'voluptuous.validators.Length' imported but unused
+integration-tests/features/src/schemas/component_code_metrics.py:7: 'from .predicates import *' used; unable to detect undefined names
+integration-tests/features/src/schemas/component_code_metrics.py:8: 'from .common import *' used; unable to detect undefined names
+integration-tests/features/src/schemas/component_code_metrics.py:86: 'posint_p' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/component_code_metrics.py:87: 'posint_p' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/component_code_metrics.py:88: 'posint_p' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/component_code_metrics.py:89: 'posint_p' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/component_code_metrics.py:90: 'posint_p' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/component_code_metrics.py:97: 'AUDIT' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/component_code_metrics.py:100: 'STATUS' may be undefined, or defined from star imports: .common, .predicates
+    Fail
+integration-tests/features/src/schemas/common.py
+    Pass
+integration-tests/features/src/schemas/component_toplevel.py
+integration-tests/features/src/schemas/component_toplevel.py:3: 'pytest_voluptuous.Partial' imported but unused
+integration-tests/features/src/schemas/component_toplevel.py:3: 'pytest_voluptuous.Exact' imported but unused
+integration-tests/features/src/schemas/component_toplevel.py:4: 'voluptuous.Invalid' imported but unused
+integration-tests/features/src/schemas/component_toplevel.py:4: 'voluptuous.Url' imported but unused
+integration-tests/features/src/schemas/component_toplevel.py:5: 'voluptuous.validators.All' imported but unused
+integration-tests/features/src/schemas/component_toplevel.py:5: 'voluptuous.validators.Length' imported but unused
+integration-tests/features/src/schemas/component_toplevel.py:7: 'from .predicates import *' used; unable to detect undefined names
+integration-tests/features/src/schemas/component_toplevel.py:8: 'from .common import *' used; unable to detect undefined names
+integration-tests/features/src/schemas/component_toplevel.py:56: 'AUDIT' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/component_toplevel.py:59: 'ECOSYSTEM' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/component_toplevel.py:60: 'timestamp_p' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/component_toplevel.py:61: 'timestamp_p' may be undefined, or defined from star imports: .common, .predicates
+    Fail
+integration-tests/features/src/schemas/package_toplevel.py
+integration-tests/features/src/schemas/package_toplevel.py:3: 'pytest_voluptuous.Partial' imported but unused
+integration-tests/features/src/schemas/package_toplevel.py:3: 'pytest_voluptuous.Exact' imported but unused
+integration-tests/features/src/schemas/package_toplevel.py:4: 'voluptuous.Invalid' imported but unused
+integration-tests/features/src/schemas/package_toplevel.py:4: 'voluptuous.Url' imported but unused
+integration-tests/features/src/schemas/package_toplevel.py:4: 'voluptuous.Any' imported but unused
+integration-tests/features/src/schemas/package_toplevel.py:4: 'voluptuous.Optional' imported but unused
+integration-tests/features/src/schemas/package_toplevel.py:5: 'voluptuous.validators.All' imported but unused
+integration-tests/features/src/schemas/package_toplevel.py:5: 'voluptuous.validators.Length' imported but unused
+integration-tests/features/src/schemas/package_toplevel.py:7: 'from .predicates import *' used; unable to detect undefined names
+integration-tests/features/src/schemas/package_toplevel.py:8: 'from .common import *' used; unable to detect undefined names
+integration-tests/features/src/schemas/package_toplevel.py:39: 'posint_p' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/package_toplevel.py:40: 'posint_p' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/package_toplevel.py:41: 'timestamp_p' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/package_toplevel.py:42: 'timestamp_p' may be undefined, or defined from star imports: .common, .predicates
+    Fail
+integration-tests/features/src/schemas/package_keywords_tagging.py
+integration-tests/features/src/schemas/package_keywords_tagging.py:3: 'pytest_voluptuous.Partial' imported but unused
+integration-tests/features/src/schemas/package_keywords_tagging.py:3: 'pytest_voluptuous.Exact' imported but unused
+integration-tests/features/src/schemas/package_keywords_tagging.py:4: 'voluptuous.Invalid' imported but unused
+integration-tests/features/src/schemas/package_keywords_tagging.py:4: 'voluptuous.Url' imported but unused
+integration-tests/features/src/schemas/package_keywords_tagging.py:4: 'voluptuous.Optional' imported but unused
+integration-tests/features/src/schemas/package_keywords_tagging.py:5: 'voluptuous.validators.All' imported but unused
+integration-tests/features/src/schemas/package_keywords_tagging.py:5: 'voluptuous.validators.Length' imported but unused
+integration-tests/features/src/schemas/package_keywords_tagging.py:7: 'from .predicates import *' used; unable to detect undefined names
+integration-tests/features/src/schemas/package_keywords_tagging.py:8: 'from .common import *' used; unable to detect undefined names
+integration-tests/features/src/schemas/package_keywords_tagging.py:103: 'AUDIT' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/package_keywords_tagging.py:106: 'STATUS' may be undefined, or defined from star imports: .common, .predicates
+    Fail
+integration-tests/features/src/schemas/component_keywords_tagging.py
+integration-tests/features/src/schemas/component_keywords_tagging.py:3: 'pytest_voluptuous.Partial' imported but unused
+integration-tests/features/src/schemas/component_keywords_tagging.py:3: 'pytest_voluptuous.Exact' imported but unused
+integration-tests/features/src/schemas/component_keywords_tagging.py:4: 'voluptuous.Invalid' imported but unused
+integration-tests/features/src/schemas/component_keywords_tagging.py:4: 'voluptuous.Url' imported but unused
+integration-tests/features/src/schemas/component_keywords_tagging.py:5: 'voluptuous.validators.All' imported but unused
+integration-tests/features/src/schemas/component_keywords_tagging.py:5: 'voluptuous.validators.Length' imported but unused
+integration-tests/features/src/schemas/component_keywords_tagging.py:7: 'from .predicates import *' used; unable to detect undefined names
+integration-tests/features/src/schemas/component_keywords_tagging.py:8: 'from .common import *' used; unable to detect undefined names
+integration-tests/features/src/schemas/component_keywords_tagging.py:48: 'AUDIT' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/component_keywords_tagging.py:51: 'STATUS' may be undefined, or defined from star imports: .common, .predicates
+    Fail
+integration-tests/features/src/schemas/package_git_stats.py
+integration-tests/features/src/schemas/package_git_stats.py:3: 'pytest_voluptuous.Partial' imported but unused
+integration-tests/features/src/schemas/package_git_stats.py:3: 'pytest_voluptuous.Exact' imported but unused
+integration-tests/features/src/schemas/package_git_stats.py:4: 'voluptuous.Invalid' imported but unused
+integration-tests/features/src/schemas/package_git_stats.py:4: 'voluptuous.Url' imported but unused
+integration-tests/features/src/schemas/package_git_stats.py:5: 'voluptuous.validators.All' imported but unused
+integration-tests/features/src/schemas/package_git_stats.py:5: 'voluptuous.validators.Length' imported but unused
+integration-tests/features/src/schemas/package_git_stats.py:7: 'from .predicates import *' used; unable to detect undefined names
+integration-tests/features/src/schemas/package_git_stats.py:8: 'from .common import *' used; unable to detect undefined names
+integration-tests/features/src/schemas/package_git_stats.py:78: 'posint_zero_p' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/package_git_stats.py:79: 'posint_zero_p' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/package_git_stats.py:80: 'posint_p' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/package_git_stats.py:81: 'posint_p' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/package_git_stats.py:82: 'posfloat_p' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/package_git_stats.py:96: 'AUDIT' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/package_git_stats.py:99: 'STATUS' may be undefined, or defined from star imports: .common, .predicates
+    Fail
+integration-tests/features/src/schemas/package_libraries_io.py
+integration-tests/features/src/schemas/package_libraries_io.py:3: 'pytest_voluptuous.Partial' imported but unused
+integration-tests/features/src/schemas/package_libraries_io.py:3: 'pytest_voluptuous.Exact' imported but unused
+integration-tests/features/src/schemas/package_libraries_io.py:4: 'voluptuous.Invalid' imported but unused
+integration-tests/features/src/schemas/package_libraries_io.py:4: 'voluptuous.Url' imported but unused
+integration-tests/features/src/schemas/package_libraries_io.py:4: 'voluptuous.Optional' imported but unused
+integration-tests/features/src/schemas/package_libraries_io.py:5: 'voluptuous.validators.All' imported but unused
+integration-tests/features/src/schemas/package_libraries_io.py:5: 'voluptuous.validators.Length' imported but unused
+integration-tests/features/src/schemas/package_libraries_io.py:7: 'from .predicates import *' used; unable to detect undefined names
+integration-tests/features/src/schemas/package_libraries_io.py:8: 'from .common import *' used; unable to detect undefined names
+integration-tests/features/src/schemas/package_libraries_io.py:96: 'AUDIT' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/package_libraries_io.py:99: 'STATUS' may be undefined, or defined from star imports: .common, .predicates
+    Fail
+integration-tests/features/src/schemas/component_source_licenses.py
+integration-tests/features/src/schemas/component_source_licenses.py:3: 'pytest_voluptuous.Partial' imported but unused
+integration-tests/features/src/schemas/component_source_licenses.py:3: 'pytest_voluptuous.Exact' imported but unused
+integration-tests/features/src/schemas/component_source_licenses.py:4: 'voluptuous.Invalid' imported but unused
+integration-tests/features/src/schemas/component_source_licenses.py:5: 'voluptuous.validators.All' imported but unused
+integration-tests/features/src/schemas/component_source_licenses.py:5: 'voluptuous.validators.Length' imported but unused
+integration-tests/features/src/schemas/component_source_licenses.py:7: 'from .predicates import *' used; unable to detect undefined names
+integration-tests/features/src/schemas/component_source_licenses.py:8: 'from .common import *' used; unable to detect undefined names
+integration-tests/features/src/schemas/component_source_licenses.py:81: 'posint_p' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/component_source_licenses.py:86: 'posint_p' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/component_source_licenses.py:87: 'posint_zero_p' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/component_source_licenses.py:88: 'posint_p' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/component_source_licenses.py:89: 'posint_p' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/component_source_licenses.py:120: 'posint_p' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/component_source_licenses.py:121: 'posint_zero_p' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/component_source_licenses.py:122: 'posint_zero_p' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/component_source_licenses.py:123: 'posint_zero_p' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/component_source_licenses.py:124: 'posint_zero_p' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/component_source_licenses.py:125: 'posint_p' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/component_source_licenses.py:129: 'posint_p' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/component_source_licenses.py:135: 'posint_zero_p' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/component_source_licenses.py:148: 'posint_p' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/component_source_licenses.py:155: 'AUDIT' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/component_source_licenses.py:158: 'STATUS' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/component_source_licenses.py:164: 'AUDIT' may be undefined, or defined from star imports: .common, .predicates
+integration-tests/features/src/schemas/component_source_licenses.py:167: 'STATUS' may be undefined, or defined from star imports: .common, .predicates
+    Fail
+integration-tests/features/src/schema_validator.py
+    Pass
+integration-tests/features/src/parsing.py
+integration-tests/features/src/parsing.py:8: undefined name 'datetime'
+    Fail
+integration-tests/features/src/utils.py
+    Pass
+integration-tests/features/src/graph_db_query.py
+    Pass
+integration-tests/features/src/MockedResponse.py
+    Pass
+integration-tests/features/src/json_utils.py
+integration-tests/features/src/json_utils.py:5: 'from src.attribute_checks import *' used; unable to detect undefined names
+integration-tests/features/src/json_utils.py:39: 'check_timestamp' may be undefined, or defined from star imports: src.attribute_checks
+integration-tests/features/src/json_utils.py:53: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks
+integration-tests/features/src/json_utils.py:57: 'check_uuid' may be undefined, or defined from star imports: src.attribute_checks
+integration-tests/features/src/json_utils.py:72: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks
+    Fail
+integration-tests/features/src/authorization_tokens.py
+    Pass
+integration-tests/features/src/s3interface.py
+    Pass
+integration-tests/features/src/attribute_checks.py
+    Pass
+integration-tests/features/steps/schema_checks.py
+integration-tests/features/steps/schema_checks.py:3: 'behave.given' imported but unused
+integration-tests/features/steps/schema_checks.py:3: 'behave.when' imported but unused
+integration-tests/features/steps/schema_checks.py:59: redefinition of unused 'check_component_metadata_schema' from line 24
+    Fail
+integration-tests/features/steps/s3_package_analysis.py
+integration-tests/features/steps/s3_package_analysis.py:2: 'behave.given' imported but unused
+integration-tests/features/steps/s3_package_analysis.py:3: 'from src.attribute_checks import *' used; unable to detect undefined names
+integration-tests/features/steps/s3_package_analysis.py:4: 'from src.s3interface import *' used; unable to detect undefined names
+integration-tests/features/steps/s3_package_analysis.py:5: 'boto3' imported but unused
+integration-tests/features/steps/s3_package_analysis.py:6: 'botocore' imported but unused
+integration-tests/features/steps/s3_package_analysis.py:16: 'check_audit_metadata' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:17: 'check_release_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:18: 'check_status_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:20: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:21: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:23: 'check_schema_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:29: 'get_details_node' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:39: 'check_audit_metadata' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:40: 'check_release_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:41: 'check_status_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:43: 'get_details_node' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:44: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:45: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:51: 'S3Interface' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:54: 'get_details_node' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:55: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:57: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:67: 'check_audit_metadata' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:68: 'check_release_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:69: 'check_status_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:77: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:79: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:80: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:95: 'get_details_node' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:97: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:106: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:108: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:125: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:134: 'get_details_node' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:136: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:138: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:148: 'get_details_node' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:150: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:152: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:169: 'S3Interface' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:171: 'S3Interface' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:172: 'S3Interface' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:191: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:194: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:197: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:199: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:200: 'check_timestamp' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:202: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:203: 'check_timestamp' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:231: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:232: 'check_timestamp' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:234: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:235: 'check_timestamp' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:237: 'parse_timestamp' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:238: 'parse_timestamp' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:239: 'parse_timestamp' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:240: 'parse_timestamp' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:261: 'S3Interface' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:263: 'datetime' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:263: 'datetime' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:266: 'datetime' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:266: 'datetime' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:277: 'ClientError' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_package_analysis.py:277: local variable 'e' is assigned to but never used
+    Fail
+integration-tests/features/steps/gremlin.py
+integration-tests/features/steps/gremlin.py:2: 'os' imported but unused
+integration-tests/features/steps/gremlin.py:6: 'behave.given' imported but unused
+integration-tests/features/steps/gremlin.py:7: 'urllib.parse.urljoin' imported but unused
+integration-tests/features/steps/gremlin.py:10: 'from src.json_utils import *' used; unable to detect undefined names
+integration-tests/features/steps/gremlin.py:60: redefinition of unused 'gremlin_find_package' from line 45
+integration-tests/features/steps/gremlin.py:115: 'check_request_id_value_in_json_response' may be undefined, or defined from star imports: src.json_utils
+integration-tests/features/steps/gremlin.py:146: 'check_and_get_attribute' may be undefined, or defined from star imports: src.json_utils
+integration-tests/features/steps/gremlin.py:185: 'check_and_get_attribute' may be undefined, or defined from star imports: src.json_utils
+integration-tests/features/steps/gremlin.py:199: 'check_and_get_attribute' may be undefined, or defined from star imports: src.json_utils
+integration-tests/features/steps/gremlin.py:200: 'check_and_get_attribute' may be undefined, or defined from star imports: src.json_utils
+integration-tests/features/steps/gremlin.py:201: 'check_and_get_attribute' may be undefined, or defined from star imports: src.json_utils
+integration-tests/features/steps/gremlin.py:211: 'check_and_get_attribute' may be undefined, or defined from star imports: src.json_utils
+integration-tests/features/steps/gremlin.py:212: 'check_and_get_attribute' may be undefined, or defined from star imports: src.json_utils
+integration-tests/features/steps/gremlin.py:213: 'check_and_get_attribute' may be undefined, or defined from star imports: src.json_utils
+integration-tests/features/steps/gremlin.py:219: 'check_and_get_attribute' may be undefined, or defined from star imports: src.json_utils
+integration-tests/features/steps/gremlin.py:220: 'check_and_get_attribute' may be undefined, or defined from star imports: src.json_utils
+integration-tests/features/steps/gremlin.py:221: 'check_and_get_attribute' may be undefined, or defined from star imports: src.json_utils
+integration-tests/features/steps/gremlin.py:222: 'check_and_get_attribute' may be undefined, or defined from star imports: src.json_utils
+integration-tests/features/steps/gremlin.py:233: 'check_and_get_attribute' may be undefined, or defined from star imports: src.json_utils
+integration-tests/features/steps/gremlin.py:234: 'check_and_get_attribute' may be undefined, or defined from star imports: src.json_utils
+integration-tests/features/steps/gremlin.py:235: 'check_and_get_attribute' may be undefined, or defined from star imports: src.json_utils
+integration-tests/features/steps/gremlin.py:250: 'check_attribute_presence' may be undefined, or defined from star imports: src.json_utils
+integration-tests/features/steps/gremlin.py:272: 'check_attribute_presence' may be undefined, or defined from star imports: src.json_utils
+integration-tests/features/steps/gremlin.py:313: 'check_and_get_attribute' may be undefined, or defined from star imports: src.json_utils
+integration-tests/features/steps/gremlin.py:316: 'check_and_get_attribute' may be undefined, or defined from star imports: src.json_utils
+integration-tests/features/steps/gremlin.py:323: 'check_and_get_attribute' may be undefined, or defined from star imports: src.json_utils
+integration-tests/features/steps/gremlin.py:375: 'check_and_get_attribute' may be undefined, or defined from star imports: src.json_utils
+integration-tests/features/steps/gremlin.py:378: 'check_and_get_attribute' may be undefined, or defined from star imports: src.json_utils
+integration-tests/features/steps/gremlin.py:393: 'check_and_get_attribute' may be undefined, or defined from star imports: src.json_utils
+integration-tests/features/steps/gremlin.py:393: local variable 'labelValue' is assigned to but never used
+integration-tests/features/steps/gremlin.py:396: 'check_and_get_attribute' may be undefined, or defined from star imports: src.json_utils
+integration-tests/features/steps/gremlin.py:430: 'check_and_get_attribute' may be undefined, or defined from star imports: src.json_utils
+integration-tests/features/steps/gremlin.py:431: 'check_and_get_attribute' may be undefined, or defined from star imports: src.json_utils
+integration-tests/features/steps/gremlin.py:442: 'check_and_get_attribute' may be undefined, or defined from star imports: src.json_utils
+integration-tests/features/steps/gremlin.py:444: 'check_and_get_attribute' may be undefined, or defined from star imports: src.json_utils
+integration-tests/features/steps/gremlin.py:550: local variable 'value' is assigned to but never used
+integration-tests/features/steps/gremlin.py:560: 'check_and_get_attribute' may be undefined, or defined from star imports: src.json_utils
+integration-tests/features/steps/gremlin.py:563: 'check_cve_value' may be undefined, or defined from star imports: src.json_utils
+    Fail
+integration-tests/features/steps/s3_component_analysis.py
+integration-tests/features/steps/s3_component_analysis.py:2: 'behave.given' imported but unused
+integration-tests/features/steps/s3_component_analysis.py:3: 'from src.attribute_checks import *' used; unable to detect undefined names
+integration-tests/features/steps/s3_component_analysis.py:4: 'from src.s3interface import *' used; unable to detect undefined names
+integration-tests/features/steps/s3_component_analysis.py:6: 'boto3' imported but unused
+integration-tests/features/steps/s3_component_analysis.py:7: 'botocore' imported but unused
+integration-tests/features/steps/s3_component_analysis.py:47: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:48: 'check_timestamp' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:50: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:51: 'check_timestamp' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:53: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:57: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:61: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:65: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:66: 'release_string' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:73: 'check_attributes_presence' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:83: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:94: 'check_attributes_presence' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:115: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:126: 'check_audit_metadata' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:127: 'check_release_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:128: 'check_schema_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:129: 'check_status_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:130: 'check_summary_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:138: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:139: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:150: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:151: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:152: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:165: 'check_audit_metadata' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:166: 'check_release_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:167: 'check_schema_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:168: 'check_status_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:169: 'check_summary_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:171: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:178: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:181: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:196: 'check_audit_metadata' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:197: 'check_release_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:200: 'check_status_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:201: 'check_summary_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:210: 'check_audit_metadata' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:211: 'check_release_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:212: 'check_schema_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:213: 'check_status_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:214: 'check_summary_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:220: 'get_details_node' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:221: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:229: 'get_details_node' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:230: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:231: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:239: 'get_details_node' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:240: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:241: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:249: 'get_details_node' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:250: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:258: 'get_details_node' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:259: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:267: 'get_details_node' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:268: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:269: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:284: 'check_audit_metadata' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:285: 'check_release_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:286: 'check_schema_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:287: 'check_status_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:288: 'check_summary_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:290: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:300: 'check_audit_metadata' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:301: 'check_release_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:302: 'check_schema_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:303: 'check_status_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:304: 'check_summary_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:310: 'get_details_node' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:311: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:320: 'S3Interface' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:322: 'S3Interface' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:323: 'S3Interface' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:349: 'S3Interface' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:351: 'datetime' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:351: 'datetime' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:354: 'datetime' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:354: 'datetime' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:365: 'ClientError' may be undefined, or defined from star imports: src.attribute_checks, src.s3interface
+integration-tests/features/steps/s3_component_analysis.py:365: local variable 'e' is assigned to but never used
+    Fail
+integration-tests/features/steps/server_api.py
+integration-tests/features/steps/server_api.py:2: 'behave.given' imported but unused
+integration-tests/features/steps/server_api.py:6: 'from src.utils import *' used; unable to detect undefined names
+integration-tests/features/steps/server_api.py:7: 'from src.authorization_tokens import *' used; unable to detect undefined names
+integration-tests/features/steps/server_api.py:8: 'from src.attribute_checks import *' used; unable to detect undefined names
+integration-tests/features/steps/server_api.py:9: 'from src.schema_validator import *' used; unable to detect undefined names
+integration-tests/features/steps/server_api.py:35: 'authorization' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.schema_validator, src.utils
+integration-tests/features/steps/server_api.py:49: 'authorization' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.schema_validator, src.utils
+integration-tests/features/steps/server_api.py:66: 'split_comma_separated_list' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.schema_validator, src.utils
+integration-tests/features/steps/server_api.py:79: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.schema_validator, src.utils
+integration-tests/features/steps/server_api.py:89: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.schema_validator, src.utils
+integration-tests/features/steps/server_api.py:90: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.schema_validator, src.utils
+integration-tests/features/steps/server_api.py:92: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.schema_validator, src.utils
+integration-tests/features/steps/server_api.py:93: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.schema_validator, src.utils
+integration-tests/features/steps/server_api.py:114: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.schema_validator, src.utils
+integration-tests/features/steps/server_api.py:121: 'validate_schema' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.schema_validator, src.utils
+    Fail
+integration-tests/features/steps/three_scale.py
+integration-tests/features/steps/three_scale.py:11: 'from src.attribute_checks import *' used; unable to detect undefined names
+integration-tests/features/steps/three_scale.py:12: 'from src.authorization_tokens import *' used; unable to detect undefined names
+integration-tests/features/steps/three_scale.py:29: 'authorization' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens
+integration-tests/features/steps/three_scale.py:82: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens
+integration-tests/features/steps/three_scale.py:83: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens
+integration-tests/features/steps/three_scale.py:85: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens
+    Fail
+integration-tests/features/steps/jobs_api.py
+integration-tests/features/steps/jobs_api.py:8: 'from src.parsing import *' used; unable to detect undefined names
+integration-tests/features/steps/jobs_api.py:9: 'from src.utils import *' used; unable to detect undefined names
+integration-tests/features/steps/jobs_api.py:10: 'from src.authorization_tokens import *' used; unable to detect undefined names
+integration-tests/features/steps/jobs_api.py:30: 'jobs_api_authorization' may be undefined, or defined from star imports: src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/jobs_api.py:42: 'parse_token_clause' may be undefined, or defined from star imports: src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/jobs_api.py:44: 'jobs_api_authorization' may be undefined, or defined from star imports: src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/jobs_api.py:56: 'check_timestamp' may be undefined, or defined from star imports: src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/jobs_api.py:73: 'parse_token_clause' may be undefined, or defined from star imports: src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/jobs_api.py:81: 'authorization' may be undefined, or defined from star imports: src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/jobs_api.py:118: 'jobs_api_authorization' may be undefined, or defined from star imports: src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/jobs_api.py:133: 'parse_token_clause' may be undefined, or defined from star imports: src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/jobs_api.py:158: 'parse_token_clause' may be undefined, or defined from star imports: src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/jobs_api.py:170: 'parse_token_clause' may be undefined, or defined from star imports: src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/jobs_api.py:172: 'jobs_api_authorization' may be undefined, or defined from star imports: src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/jobs_api.py:183: 'parse_token_clause' may be undefined, or defined from star imports: src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/jobs_api.py:185: 'jobs_api_authorization' may be undefined, or defined from star imports: src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/jobs_api.py:197: 'parse_token_clause' may be undefined, or defined from star imports: src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/jobs_api.py:201: 'jobs_api_authorization' may be undefined, or defined from star imports: src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/jobs_api.py:211: 'parse_token_clause' may be undefined, or defined from star imports: src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/jobs_api.py:213: 'jobs_api_authorization' may be undefined, or defined from star imports: src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/jobs_api.py:224: 'parse_token_clause' may be undefined, or defined from star imports: src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/jobs_api.py:226: 'jobs_api_authorization' may be undefined, or defined from star imports: src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/jobs_api.py:259: 'parse_token_clause' may be undefined, or defined from star imports: src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/jobs_api.py:267: 'jobs_api_authorization' may be undefined, or defined from star imports: src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/jobs_api.py:276: local variable 'jobs' is assigned to but never used
+integration-tests/features/steps/jobs_api.py:284: 'jobs' may be undefined, or defined from star imports: src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/jobs_api.py:288: redefinition of unused 'check_jobs' from line 280
+integration-tests/features/steps/jobs_api.py:295: redefinition of unused 'check_jobs' from line 288
+integration-tests/features/steps/jobs_api.py:371: 'check_job_token_attributes' may be undefined, or defined from star imports: src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/jobs_api.py:379: 'check_job_token_attributes' may be undefined, or defined from star imports: src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/jobs_api.py:385: 'uuid' may be undefined, or defined from star imports: src.authorization_tokens, src.parsing, src.utils
+    Fail
+integration-tests/features/steps/oc.py
+integration-tests/features/steps/oc.py:5: 'from src.utils import *' used; unable to detect undefined names
+integration-tests/features/steps/oc.py:6: 'from src.attribute_checks import *' used; unable to detect undefined names
+integration-tests/features/steps/oc.py:17: 'which' may be undefined, or defined from star imports: src.attribute_checks, src.utils
+integration-tests/features/steps/oc.py:25: 'oc_run_command' may be undefined, or defined from star imports: src.attribute_checks, src.utils
+integration-tests/features/steps/oc.py:26: local variable 'e' is assigned to but never used
+integration-tests/features/steps/oc.py:51: 'oc_run_command' may be undefined, or defined from star imports: src.attribute_checks, src.utils
+integration-tests/features/steps/oc.py:53: local variable 'e' is assigned to but never used
+integration-tests/features/steps/oc.py:61: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.utils
+integration-tests/features/steps/oc.py:63: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.utils
+integration-tests/features/steps/oc.py:64: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.utils
+integration-tests/features/steps/oc.py:74: 'oc_run_command' may be undefined, or defined from star imports: src.attribute_checks, src.utils
+integration-tests/features/steps/oc.py:76: local variable 'e' is assigned to but never used
+integration-tests/features/steps/oc.py:84: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.utils
+integration-tests/features/steps/oc.py:85: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.utils
+integration-tests/features/steps/oc.py:98: 'oc_delete_pods' may be undefined, or defined from star imports: src.attribute_checks, src.utils
+integration-tests/features/steps/oc.py:106: 'oc_run_command' may be undefined, or defined from star imports: src.attribute_checks, src.utils
+integration-tests/features/steps/oc.py:108: local variable 'e' is assigned to but never used
+integration-tests/features/steps/oc.py:117: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.utils
+integration-tests/features/steps/oc.py:124: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.utils
+integration-tests/features/steps/oc.py:125: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.utils
+integration-tests/features/steps/oc.py:130: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.utils
+integration-tests/features/steps/oc.py:137: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.utils
+integration-tests/features/steps/oc.py:140: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.utils
+integration-tests/features/steps/oc.py:141: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.utils
+integration-tests/features/steps/oc.py:163: 'name' may be undefined, or defined from star imports: src.attribute_checks, src.utils
+    Fail
+integration-tests/features/steps/user_tag.py
+integration-tests/features/steps/user_tag.py:10: 'from src.parsing import *' used; unable to detect undefined names
+integration-tests/features/steps/user_tag.py:11: 'from src.utils import *' used; unable to detect undefined names
+integration-tests/features/steps/user_tag.py:12: 'from src.authorization_tokens import *' used; unable to detect undefined names
+integration-tests/features/steps/user_tag.py:32: 'authorization' may be undefined, or defined from star imports: src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/user_tag.py:80: 'authorization' may be undefined, or defined from star imports: src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/user_tag.py:137: 'authorization' may be undefined, or defined from star imports: src.authorization_tokens, src.parsing, src.utils
+    Fail
+integration-tests/features/steps/component_analysis.py
+integration-tests/features/steps/component_analysis.py:7: 'from src.parsing import *' used; unable to detect undefined names
+integration-tests/features/steps/component_analysis.py:8: 'from src.utils import *' used; unable to detect undefined names
+integration-tests/features/steps/component_analysis.py:9: 'from src.authorization_tokens import *' used; unable to detect undefined names
+integration-tests/features/steps/component_analysis.py:32: 'authorization' may be undefined, or defined from star imports: src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/component_analysis.py:56: 'parse_token_clause' may be undefined, or defined from star imports: src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/component_analysis.py:59: 'authorization' may be undefined, or defined from star imports: src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/component_analysis.py:104: 'parse_token_clause' may be undefined, or defined from star imports: src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/component_analysis.py:110: 'authorization' may be undefined, or defined from star imports: src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/component_analysis.py:117: 'time' may be undefined, or defined from star imports: src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/component_analysis.py:126: 'split_comma_separated_list' may be undefined, or defined from star imports: src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/component_analysis.py:176: redefinition of unused 'check_component_analysis_nonexistence' from line 163
+    Fail
+integration-tests/features/steps/s3_interface.py
+integration-tests/features/steps/s3_interface.py:2: 'from src.s3interface import *' used; unable to detect undefined names
+integration-tests/features/steps/s3_interface.py:5: 'when' may be undefined, or defined from star imports: src.s3interface
+integration-tests/features/steps/s3_interface.py:15: 'then' may be undefined, or defined from star imports: src.s3interface
+    Fail
+integration-tests/features/steps/stack_analysis.py
+integration-tests/features/steps/stack_analysis.py:6: 'behave.given' imported but unused
+integration-tests/features/steps/stack_analysis.py:10: 'from src.attribute_checks import *' used; unable to detect undefined names
+integration-tests/features/steps/stack_analysis.py:11: 'from src.parsing import *' used; unable to detect undefined names
+integration-tests/features/steps/stack_analysis.py:12: 'from src.utils import *' used; unable to detect undefined names
+integration-tests/features/steps/stack_analysis.py:13: 'from src.json_utils import *' used; unable to detect undefined names
+integration-tests/features/steps/stack_analysis.py:14: 'from src.authorization_tokens import *' used; unable to detect undefined names
+integration-tests/features/steps/stack_analysis.py:48: 'parse_token_clause' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:58: 'authorization' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:103: 'authorization' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:133: 'parse_token_clause' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:146: 'parse_token_clause' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:159: 'parse_token_clause' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:209: 'download_file_from_url' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:210: 'parse_float_value_from_text_stream' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:256: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:265: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:275: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:286: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:309: 'split_comma_separated_list' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:311: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:324: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:331: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:355: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:359: redefinition of unused 'verify_stack_level_field_presence' from line 350
+integration-tests/features/steps/stack_analysis.py:364: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:391: 'context' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:393: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:411: 'context' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:413: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:425: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:431: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:446: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:448: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:452: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:455: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:486: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:490: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:493: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:494: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:497: 'check_cve_value' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:519: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:532: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:535: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:553: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:570: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:588: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:602: 'split_comma_separated_list' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:606: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:621: 'check_id_value_in_json_response' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:624: redefinition of unused 'check_stack_analyses_request_id' from line 614
+integration-tests/features/steps/stack_analysis.py:630: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:643: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:656: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:661: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:663: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+    Fail
+integration-tests/features/steps/common.py
+integration-tests/features/steps/common.py:2: 'string' imported but unused
+integration-tests/features/steps/common.py:4: 'json' imported but unused
+integration-tests/features/steps/common.py:7: 're' imported but unused
+integration-tests/features/steps/common.py:10: 'urllib.parse.urljoin' imported but unused
+integration-tests/features/steps/common.py:13: 'uuid' imported but unused
+integration-tests/features/steps/common.py:15: 'botocore' imported but unused
+integration-tests/features/steps/common.py:16: 'botocore.exceptions.ClientError' imported but unused
+integration-tests/features/steps/common.py:17: 'from src.attribute_checks import *' used; unable to detect undefined names
+integration-tests/features/steps/common.py:18: 'from src.MockedResponse import *' used; unable to detect undefined names
+integration-tests/features/steps/common.py:19: 'from src.s3interface import *' used; unable to detect undefined names
+integration-tests/features/steps/common.py:20: 'from src.utils import *' used; unable to detect undefined names
+integration-tests/features/steps/common.py:21: 'from src.json_utils import *' used; unable to detect undefined names
+integration-tests/features/steps/common.py:22: 'from src.parsing import *' used; unable to detect undefined names
+integration-tests/features/steps/common.py:23: 'from src.authorization_tokens import *' used; unable to detect undefined names
+integration-tests/features/steps/common.py:78: 'is_empty_json_response' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
+integration-tests/features/steps/common.py:84: 'is_empty_json_response' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
+integration-tests/features/steps/common.py:90: 'is_empty_json_response_from_s3' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
+integration-tests/features/steps/common.py:96: 'is_empty_json_response_from_s3' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
+integration-tests/features/steps/common.py:131: 'check_id_value_in_json_response' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
+integration-tests/features/steps/common.py:141: 'check_timestamp_in_json_response' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
+integration-tests/features/steps/common.py:153: 'get_value_using_path' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
+integration-tests/features/steps/common.py:154: 'check_timestamp' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
+integration-tests/features/steps/common.py:180: 'context' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
+integration-tests/features/steps/common.py:183: 'context' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
+integration-tests/features/steps/common.py:191: 'context' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
+integration-tests/features/steps/common.py:193: 'context' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
+integration-tests/features/steps/common.py:242: 'get_value_using_path' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
+integration-tests/features/steps/common.py:252: 'get_value_using_path' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
+integration-tests/features/steps/common.py:261: 'get_value_using_path' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
+integration-tests/features/steps/common.py:263: 'check_timestamp' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
+integration-tests/features/steps/common.py:269: 'MockedResponse' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
+integration-tests/features/steps/common.py:275: 'MockedResponse' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
+    Fail
+integration-tests/features/steps/gemini.py
+integration-tests/features/steps/gemini.py:6: 'json' imported but unused
+integration-tests/features/steps/gemini.py:8: 'behave.then' imported but unused
+integration-tests/features/steps/gemini.py:10: 'from src.parsing import *' used; unable to detect undefined names
+integration-tests/features/steps/gemini.py:11: 'from src.json_utils import *' used; unable to detect undefined names
+integration-tests/features/steps/gemini.py:12: 'from src.authorization_tokens import *' used; unable to detect undefined names
+integration-tests/features/steps/gemini.py:27: redefinition of unused 'set_git_url' from line 21
+integration-tests/features/steps/gemini.py:37: 'parse_token_clause' may be undefined, or defined from star imports: src.authorization_tokens, src.json_utils, src.parsing
+integration-tests/features/steps/gemini.py:40: 'authorization' may be undefined, or defined from star imports: src.authorization_tokens, src.json_utils, src.parsing
+    Fail
+integration-tests/features/steps/authorization.py
+integration-tests/features/steps/authorization.py:13: undefined name 'then'
+integration-tests/features/steps/authorization.py:19: undefined name 'then'
+integration-tests/features/steps/authorization.py:25: undefined name 'when'
+integration-tests/features/steps/authorization.py:40: undefined name 'when'
+integration-tests/features/steps/authorization.py:64: undefined name 'then'
+integration-tests/features/steps/authorization.py:68: undefined name 'json'
+    Fail
+integration-tests/features/steps/backbone_api.py
+integration-tests/features/steps/backbone_api.py:11: 'urllib.parse.urljoin' imported but unused
+integration-tests/features/steps/backbone_api.py:13: 'from src.json_utils import *' used; unable to detect undefined names
+integration-tests/features/steps/backbone_api.py:14: 'from src.authorization_tokens import *' used; unable to detect undefined names
+integration-tests/features/steps/backbone_api.py:47: 'check_id_value_in_json_response' may be undefined, or defined from star imports: src.authorization_tokens, src.json_utils
+    Fail
+integration-tests/features/environment.py
+integration-tests/features/environment.py:12: 'sys' imported but unused
+integration-tests/features/environment.py:191: undefined name 'context'
+    Fail
+integration-tests/hack/json2pom.py
+    Pass
+ui-tests/test.py
+ui-tests/test.py:84: local variable 'localtime' is assigned to but never used
+    Fail
+perf-tests/src/api.py
+perf-tests/src/api.py:3: 'os' imported but unused
+    Fail
+perf-tests/src/jobsapi.py
+perf-tests/src/jobsapi.py:2: 'from api import *' used; unable to detect undefined names
+perf-tests/src/jobsapi.py:6: 'botocore' imported but unused
+perf-tests/src/jobsapi.py:8: 'from componentgenerator import *' used; unable to detect undefined names
+perf-tests/src/jobsapi.py:11: 'Api' may be undefined, or defined from star imports: api, componentgenerator
+perf-tests/src/jobsapi.py:17: 'ComponentGenerator' may be undefined, or defined from star imports: api, componentgenerator
+perf-tests/src/jobsapi.py:40: 'requests' may be undefined, or defined from star imports: api, componentgenerator
+perf-tests/src/jobsapi.py:54: 'requests' may be undefined, or defined from star imports: api, componentgenerator
+perf-tests/src/jobsapi.py:60: 'requests' may be undefined, or defined from star imports: api, componentgenerator
+perf-tests/src/jobsapi.py:87: 'ecosystem' may be undefined, or defined from star imports: api, componentgenerator
+perf-tests/src/jobsapi.py:88: 'component' may be undefined, or defined from star imports: api, componentgenerator
+perf-tests/src/jobsapi.py:89: 'version' may be undefined, or defined from star imports: api, componentgenerator
+perf-tests/src/jobsapi.py:131: local variable 'e' is assigned to but never used
+    Fail
+perf-tests/src/duration.py
+    Pass
+perf-tests/src/componentgenerator.py
+    Pass
+perf-tests/src/cliargs.py
+    Pass
+perf-tests/src/perf-tests.py
+perf-tests/src/perf-tests.py:3: 'json' imported but unused
+perf-tests/src/perf-tests.py:5: 'datetime' imported but unused
+perf-tests/src/perf-tests.py:6: 'subprocess' imported but unused
+perf-tests/src/perf-tests.py:11: 'pprint' imported but unused
+perf-tests/src/perf-tests.py:14: 'from coreapi import *' used; unable to detect undefined names
+perf-tests/src/perf-tests.py:15: 'from jobsapi import *' used; unable to detect undefined names
+perf-tests/src/perf-tests.py:16: 'from gremlin_api import *' used; unable to detect undefined names
+perf-tests/src/perf-tests.py:19: 'from s3interface import *' used; unable to detect undefined names
+perf-tests/src/perf-tests.py:20: 'measurements' imported but unused
+perf-tests/src/perf-tests.py:21: 'from duration import *' used; unable to detect undefined names
+perf-tests/src/perf-tests.py:23: 'from cliargs import *' used; unable to detect undefined names
+perf-tests/src/perf-tests.py:392: 'Duration' may be undefined, or defined from star imports: cliargs, coreapi, duration, gremlin_api, jobsapi, s3interface
+perf-tests/src/perf-tests.py:411: redefinition of unused 'measurements' from line 20
+perf-tests/src/perf-tests.py:417: redefinition of unused 'measurements' from line 20
+perf-tests/src/perf-tests.py:432: redefinition of unused 'measurements' from line 20
+perf-tests/src/perf-tests.py:466: redefinition of unused 'measurements' from line 20
+perf-tests/src/perf-tests.py:673: 'cli_parser' may be undefined, or defined from star imports: cliargs, coreapi, duration, gremlin_api, jobsapi, s3interface
+perf-tests/src/perf-tests.py:688: 'CoreApi' may be undefined, or defined from star imports: cliargs, coreapi, duration, gremlin_api, jobsapi, s3interface
+perf-tests/src/perf-tests.py:689: 'JobsApi' may be undefined, or defined from star imports: cliargs, coreapi, duration, gremlin_api, jobsapi, s3interface
+perf-tests/src/perf-tests.py:690: 'GremlinApi' may be undefined, or defined from star imports: cliargs, coreapi, duration, gremlin_api, jobsapi, s3interface
+perf-tests/src/perf-tests.py:692: 'S3Interface' may be undefined, or defined from star imports: cliargs, coreapi, duration, gremlin_api, jobsapi, s3interface
+    Fail
+perf-tests/src/measurements.py
+perf-tests/src/measurements.py:3: 'from s3interface import *' used; unable to detect undefined names
+perf-tests/src/measurements.py:4: 'from duration import *' used; unable to detect undefined names
+perf-tests/src/measurements.py:5: 'from botocore.exceptions import *' used; unable to detect undefined names
+perf-tests/src/measurements.py:16: 'Duration' may be undefined, or defined from star imports: botocore.exceptions, duration, s3interface
+perf-tests/src/measurements.py:29: 'Duration' may be undefined, or defined from star imports: botocore.exceptions, duration, s3interface
+perf-tests/src/measurements.py:30: 'ClientError' may be undefined, or defined from star imports: botocore.exceptions, duration, s3interface
+perf-tests/src/measurements.py:45: 'Duration' may be undefined, or defined from star imports: botocore.exceptions, duration, s3interface
+perf-tests/src/measurements.py:54: 'Duration' may be undefined, or defined from star imports: botocore.exceptions, duration, s3interface
+perf-tests/src/measurements.py:55: 'ClientError' may be undefined, or defined from star imports: botocore.exceptions, duration, s3interface
+    Fail
+perf-tests/src/gremlin_api.py
+perf-tests/src/gremlin_api.py:6: 'from api import *' used; unable to detect undefined names
+perf-tests/src/gremlin_api.py:8: 'from gremlin_package_generator import *' used; unable to detect undefined names
+perf-tests/src/gremlin_api.py:9: 'from gremlin_query import *' used; unable to detect undefined names
+perf-tests/src/gremlin_api.py:12: 'Api' may be undefined, or defined from star imports: api, gremlin_package_generator, gremlin_query
+perf-tests/src/gremlin_api.py:19: 'GremlinPackageGenerator' may be undefined, or defined from star imports: api, gremlin_package_generator, gremlin_query
+perf-tests/src/gremlin_api.py:20: 'GremlinPackageGenerator' may be undefined, or defined from star imports: api, gremlin_package_generator, gremlin_query
+perf-tests/src/gremlin_api.py:98: 'GremlinQuery' may be undefined, or defined from star imports: api, gremlin_package_generator, gremlin_query
+perf-tests/src/gremlin_api.py:103: 'GremlinQuery' may be undefined, or defined from star imports: api, gremlin_package_generator, gremlin_query
+perf-tests/src/gremlin_api.py:129: 'e' may be undefined, or defined from star imports: api, gremlin_package_generator, gremlin_query
+perf-tests/src/gremlin_api.py:130: 'e' may be undefined, or defined from star imports: api, gremlin_package_generator, gremlin_query
+    Fail
+perf-tests/src/gremlin_query.py
+    Pass
+perf-tests/src/benchmarks.py
+    Pass
+perf-tests/src/s3interface.py
+perf-tests/src/s3interface.py:110: undefined name 'ClientError'
+    Fail
+perf-tests/src/coreapi.py
+perf-tests/src/coreapi.py:4: 'from api import *' used; unable to detect undefined names
+perf-tests/src/coreapi.py:10: 'Api' may be undefined, or defined from star imports: api
+perf-tests/src/coreapi.py:44: 'requests' may be undefined, or defined from star imports: api
+perf-tests/src/coreapi.py:79: 'os' may be undefined, or defined from star imports: api
+perf-tests/src/coreapi.py:80: 'os' may be undefined, or defined from star imports: api
+perf-tests/src/coreapi.py:108: 'requests' may be undefined, or defined from star imports: api
+perf-tests/src/coreapi.py:122: 'requests' may be undefined, or defined from star imports: api
+perf-tests/src/coreapi.py:149: 'requests' may be undefined, or defined from star imports: api
+perf-tests/src/coreapi.py:181: 'requests' may be undefined, or defined from star imports: api
+    Fail
+perf-tests/src/graph.py
+perf-tests/src/graph.py:229: local variable 'labels' is assigned to but never used
+perf-tests/src/graph.py:239: local variable 'labels' is assigned to but never used
+    Fail
+perf-tests/src/gremlin_package_generator.py
+    Pass
+dashboard/src/results.py
+    Pass
+dashboard/src/configuration.py
+dashboard/src/configuration.py:2: 'from server_configuration import *' used; unable to detect undefined names
+dashboard/src/configuration.py:3: 'from s3_configuration import *' used; unable to detect undefined names
+dashboard/src/configuration.py:11: 'ServerConfiguration' may be undefined, or defined from star imports: s3_configuration, server_configuration
+dashboard/src/configuration.py:12: 'ServerConfiguration' may be undefined, or defined from star imports: s3_configuration, server_configuration
+dashboard/src/configuration.py:13: 'S3Configuration' may be undefined, or defined from star imports: s3_configuration, server_configuration
+    Fail
+dashboard/src/jacoco_to_codecov.py
+    Pass
+dashboard/src/sla.py
+    Pass
+dashboard/src/api.py
+dashboard/src/api.py:3: 'os' imported but unused
+    Fail
+dashboard/src/ci_jobs.py
+    Pass
+dashboard/src/jobsapi.py
+dashboard/src/jobsapi.py:2: 'from api import *' used; unable to detect undefined names
+dashboard/src/jobsapi.py:3: 'time' imported but unused
+dashboard/src/jobsapi.py:4: 'datetime' imported but unused
+dashboard/src/jobsapi.py:5: 'json' imported but unused
+dashboard/src/jobsapi.py:8: 'Api' may be undefined, or defined from star imports: api
+dashboard/src/jobsapi.py:22: 'requests' may be undefined, or defined from star imports: api
+    Fail
+dashboard/src/charts.py
+dashboard/src/charts.py:7: 'numpy as np' imported but unused
+    Fail
+dashboard/src/unit_tests.py
+dashboard/src/unit_tests.py:5: 'from progress_bar import *' used; unable to detect undefined names
+dashboard/src/unit_tests.py:6: 'from jacoco_to_codecov import *' used; unable to detect undefined names
+dashboard/src/unit_tests.py:44: 'progress_bar_class' may be undefined, or defined from star imports: jacoco_to_codecov, progress_bar
+dashboard/src/unit_tests.py:45: 'progress_bar_width' may be undefined, or defined from star imports: jacoco_to_codecov, progress_bar
+dashboard/src/unit_tests.py:53: 'ProjectCoverageReport' may be undefined, or defined from star imports: jacoco_to_codecov, progress_bar
+dashboard/src/unit_tests.py:59: 'progress_bar_class' may be undefined, or defined from star imports: jacoco_to_codecov, progress_bar
+dashboard/src/unit_tests.py:60: 'progress_bar_width' may be undefined, or defined from star imports: jacoco_to_codecov, progress_bar
+dashboard/src/unit_tests.py:137: 'ProjectCoverageReport' may be undefined, or defined from star imports: jacoco_to_codecov, progress_bar
+dashboard/src/unit_tests.py:157: local variable 'e' is assigned to but never used
+    Fail
+dashboard/src/cc.py
+dashboard/src/cc.py:4: 'os' imported but unused
+dashboard/src/cc.py:5: 'sys' imported but unused
+dashboard/src/cc.py:7: 'shutil' imported but unused
+dashboard/src/cc.py:8: 're' imported but unused
+dashboard/src/cc.py:11: 'from source_files import *' used; unable to detect undefined names
+dashboard/src/cc.py:12: 'from unit_tests import *' used; unable to detect undefined names
+dashboard/src/cc.py:13: 'from config import *' used; unable to detect undefined names
+dashboard/src/cc.py:61: 'get_source_files' may be undefined, or defined from star imports: config, source_files, unit_tests
+dashboard/src/cc.py:66: 'read_unit_test_coverage_for_week' may be undefined, or defined from star imports: config, source_files, unit_tests
+dashboard/src/cc.py:82: 'read_unit_test_coverage_for_week' may be undefined, or defined from star imports: config, source_files, unit_tests
+dashboard/src/cc.py:108: local variable 'e' is assigned to but never used
+dashboard/src/cc.py:120: local variable 'e' is assigned to but never used
+dashboard/src/cc.py:147: 'Config' may be undefined, or defined from star imports: config, source_files, unit_tests
+    Fail
+dashboard/src/repositories.py
+    Pass
+dashboard/src/perf_tests.py
+    Pass
+dashboard/src/cliargs.py
+    Pass
+dashboard/src/server_configuration.py
+    Pass
+dashboard/src/html_generator.py
+    Pass
+dashboard/src/config.py
+    Pass
+dashboard/src/source_files.py
+    Pass
+dashboard/src/s3_configuration.py
+    Pass
+dashboard/src/dashboard.py
+dashboard/src/dashboard.py:3: 'time' imported but unused
+dashboard/src/dashboard.py:10: 're' imported but unused
+dashboard/src/dashboard.py:14: 'from coreapi import *' used; unable to detect undefined names
+dashboard/src/dashboard.py:15: 'from jobsapi import *' used; unable to detect undefined names
+dashboard/src/dashboard.py:16: 'from configuration import *' used; unable to detect undefined names
+dashboard/src/dashboard.py:17: 'from results import *' used; unable to detect undefined names
+dashboard/src/dashboard.py:18: 'from html_generator import *' used; unable to detect undefined names
+dashboard/src/dashboard.py:19: 'from perf_tests import *' used; unable to detect undefined names
+dashboard/src/dashboard.py:20: 'from smoke_tests import *' used; unable to detect undefined names
+dashboard/src/dashboard.py:21: 'from sla import *' used; unable to detect undefined names
+dashboard/src/dashboard.py:22: 'from ci_jobs import *' used; unable to detect undefined names
+dashboard/src/dashboard.py:23: 'from cliargs import *' used; unable to detect undefined names
+dashboard/src/dashboard.py:24: 'from config import *' used; unable to detect undefined names
+dashboard/src/dashboard.py:26: 'from progress_bar import *' used; unable to detect undefined names
+dashboard/src/dashboard.py:27: 'from source_files import *' used; unable to detect undefined names
+dashboard/src/dashboard.py:28: 'from unit_tests import *' used; unable to detect undefined names
+dashboard/src/dashboard.py:29: 'from charts import *' used; unable to detect undefined names
+dashboard/src/dashboard.py:30: 'from git_utils import *' used; unable to detect undefined names
+dashboard/src/dashboard.py:228: 'progress_bar_class' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:229: 'progress_bar_width' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:282: 'unit_test_coverage_ok' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:318: 'unit_test_coverage_ok' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:426: 'Configuration' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:428: 'CoreApi' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:429: 'JobsApi' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:432: 'CoreApi' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:433: 'JobsApi' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:436: 'SmokeTests' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:444: 'PerfTests' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:450: 'SLA' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:466: 'clone_or_fetch_repository' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:474: 'get_source_files' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:496: 'read_unit_test_coverage' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:586: 'Config' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:587: 'cli_parser' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:606: 'Results' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:621: 'CIJobs' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:649: 'generate_dashboard' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:650: 'generate_charts' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+    Fail
+dashboard/src/smoke_tests.py
+dashboard/src/smoke_tests.py:2: 'csv' imported but unused
+    Fail
+dashboard/src/progress_bar.py
+    Pass
+dashboard/src/coreapi.py
+dashboard/src/coreapi.py:2: 'from api import *' used; unable to detect undefined names
+dashboard/src/coreapi.py:3: 'time' imported but unused
+dashboard/src/coreapi.py:6: 'Api' may be undefined, or defined from star imports: api
+dashboard/src/coreapi.py:20: 'requests' may be undefined, or defined from star imports: api
+    Fail
+dashboard/src/cc_history.py
+dashboard/src/cc_history.py:11: 'os' imported but unused
+dashboard/src/cc_history.py:19: 'repositories.Repositories' imported but unused
+dashboard/src/cc_history.py:20: 'from config import *' used; unable to detect undefined names
+dashboard/src/cc_history.py:45: local variable 'e' is assigned to but never used
+dashboard/src/cc_history.py:194: 'Config' may be undefined, or defined from star imports: config
+    Fail
+dashboard/src/git_utils.py
+    Pass
+reproducers/issue1934.py
+reproducers/issue1934.py:3: 'os' imported but unused
+reproducers/issue1934.py:4: 'sys' imported but unused
+reproducers/issue1934.py:22: local variable 'e' is assigned to but never used
+    Fail
+reproducers/issue1619.py
+reproducers/issue1619.py:20: local variable 'x' is assigned to but never used
+reproducers/issue1619.py:21: local variable 'e' is assigned to but never used
+    Fail
+reproducers/issue2012.py
+reproducers/issue2012.py:3: 'os' imported but unused
+reproducers/issue2012.py:4: 'sys' imported but unused
+reproducers/issue2012.py:34: local variable 'e' is assigned to but never used
+    Fail
+load-tests/run_load_test.py
+load-tests/run_load_test.py:20: local variable 'e' is assigned to but never used
+load-tests/run_load_test.py:26: local variable 'e' is assigned to but never used
+    Fail
+load-tests/locust-test.py
+    Pass
+db-integrity-tests/src/schema_validator.py
+    Pass
+db-integrity-tests/src/utils.py
+    Pass
+db-integrity-tests/src/gremlin_checker.py
+    Pass
+db-integrity-tests/src/s3configuration.py
+    Pass
+db-integrity-tests/src/cliargs.py
+    Pass
+db-integrity-tests/src/main.py
+db-integrity-tests/src/main.py:4: 're' imported but unused
+db-integrity-tests/src/main.py:10: 'from cliargs import *' used; unable to detect undefined names
+db-integrity-tests/src/main.py:11: 'from utils import *' used; unable to detect undefined names
+db-integrity-tests/src/main.py:13: 'from schema_validator import *' used; unable to detect undefined names
+db-integrity-tests/src/main.py:84: 'store_list' may be undefined, or defined from star imports: cliargs, schema_validator, utils
+db-integrity-tests/src/main.py:85: 'store_list' may be undefined, or defined from star imports: cliargs, schema_validator, utils
+db-integrity-tests/src/main.py:129: local variable 'all_jsons' is assigned to but never used
+db-integrity-tests/src/main.py:175: 'cli_parser' may be undefined, or defined from star imports: cliargs, schema_validator, utils
+    Fail
+db-integrity-tests/src/gremlin_configuration.py
+    Pass
+db-integrity-tests/src/component_versions_checker.py
+db-integrity-tests/src/component_versions_checker.py:56: local variable 'e' is assigned to but never used
+db-integrity-tests/src/component_versions_checker.py:149: local variable 'e' is assigned to but never used
+db-integrity-tests/src/component_versions_checker.py:166: local variable 'details' is assigned to but never used
+db-integrity-tests/src/component_versions_checker.py:181: local variable 'e' is assigned to but never used
+db-integrity-tests/src/component_versions_checker.py:202: local variable 'e' is assigned to but never used
+db-integrity-tests/src/component_versions_checker.py:221: local variable 'e' is assigned to but never used
+db-integrity-tests/src/component_versions_checker.py:238: local variable 'e' is assigned to but never used
+db-integrity-tests/src/component_versions_checker.py:253: local variable 'details' is assigned to but never used
+db-integrity-tests/src/component_versions_checker.py:256: local variable 'e' is assigned to but never used
+db-integrity-tests/src/component_versions_checker.py:278: local variable 'e' is assigned to but never used
+db-integrity-tests/src/component_versions_checker.py:294: local variable 'e' is assigned to but never used
+db-integrity-tests/src/component_versions_checker.py:312: local variable 'e' is assigned to but never used
+    Fail
+db-integrity-tests/src/gremlin_query.py
+    Pass
+db-integrity-tests/src/s3interface.py
+db-integrity-tests/src/s3interface.py:8: 's3configuration.S3Configuration' imported but unused
+    Fail
+db-integrity-tests/src/csv_reporter.py
+    Pass
+db-integrity-tests/src/gremlin_interface.py
+    Pass
+db-integrity-tests/src/core_package_checker.py
+db-integrity-tests/src/core_package_checker.py:62: local variable 'e' is assigned to but never used
+db-integrity-tests/src/core_package_checker.py:80: local variable 'e' is assigned to but never used
+db-integrity-tests/src/core_package_checker.py:94: local variable 'e' is assigned to but never used
+db-integrity-tests/src/core_package_checker.py:110: local variable 'e' is assigned to but never used
+db-integrity-tests/src/core_package_checker.py:132: local variable 'e' is assigned to but never used
+    Fail
+db-integrity-tests/src/checker.py
+    Pass
+60 source files out of 101 files needs to be checked and fixed

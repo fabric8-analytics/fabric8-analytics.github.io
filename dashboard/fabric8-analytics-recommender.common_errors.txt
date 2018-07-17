@@ -1,0 +1,60 @@
+----------------------------------------------------
+Checking source files for common errors in following
+directories:
+src
+----------------------------------------------------
+
+Using base prefix '/usr'
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-recommender/venv/bin/python3
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-recommender/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-recommender/venv/bin/python3)
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2.0.0)
+src/server/unittest/__init__.py
+    Pass
+src/server/recommender_service.py
+src/server/recommender_service.py:3: 'json' imported but unused
+    Fail
+src/server/__init__.py
+    Pass
+src/server/ghazab_app.py
+src/server/ghazab_app.py:16: redefinition of unused 'app' from line 13
+src/server/ghazab_app.py:22: undefined name 'reload'
+    Fail
+src/models/similarity_with_frequent_patterns/__init__.py
+    Pass
+src/models/similarity_with_frequent_patterns/scoring/__init__.py
+src/models/similarity_with_frequent_patterns/scoring/__init__.py:6: redefinition of unused 'app' from line 4
+    Fail
+src/models/similarity_with_frequent_patterns/scoring/entities/__init__.py
+    Pass
+src/models/similarity_with_frequent_patterns/scoring/entities/entities.py
+    Pass
+src/models/similarity_with_frequent_patterns/scoring/similarity/__init__.py
+    Pass
+src/models/similarity_with_frequent_patterns/scoring/similarity/semvercomp.py
+src/models/similarity_with_frequent_patterns/scoring/similarity/semvercomp.py:20: undefined name 'SemverComp'
+src/models/similarity_with_frequent_patterns/scoring/similarity/semvercomp.py:24: undefined name 'Version'
+    Fail
+src/models/similarity_with_frequent_patterns/scoring/similarity/relativesimilarity.py
+src/models/similarity_with_frequent_patterns/scoring/similarity/relativesimilarity.py:53: local variable 'distancevalue' is assigned to but never used
+src/models/similarity_with_frequent_patterns/scoring/similarity/relativesimilarity.py:119: local variable 'boosted_score_list' is assigned to but never used
+src/models/similarity_with_frequent_patterns/scoring/similarity/relativesimilarity.py:127: local variable 'refstack_component_set' is assigned to but never used
+    Fail
+src/models/similarity_with_frequent_patterns/scoring/db.py
+src/models/similarity_with_frequent_patterns/scoring/db.py:5: 'flask.g' imported but unused
+src/models/similarity_with_frequent_patterns/scoring/db.py:7: 'psycopg2' imported but unused
+    Fail
+src/models/similarity_with_frequent_patterns/training/gen_ref_stacks.py
+src/models/similarity_with_frequent_patterns/training/gen_ref_stacks.py:7: 'pyspark.sql.Row' imported but unused
+src/models/similarity_with_frequent_patterns/training/gen_ref_stacks.py:9: 'operator.add' imported but unused
+src/models/similarity_with_frequent_patterns/training/gen_ref_stacks.py:13: 'random' imported but unused
+src/models/similarity_with_frequent_patterns/training/gen_ref_stacks.py:132: local variable 'sqlContext' is assigned to but never used
+    Fail
+src/models/__init__.py
+    Pass
+src/deployment/spark_aws/job_scheduler.py
+    Pass
+src/deployment/spark_aws/submit_training_job.py
+    Pass
+7 source files out of 16 files needs to be checked and fixed

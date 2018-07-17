@@ -1,0 +1,67 @@
+----------------------------------------------------
+Checking source files for dead code and unused imports
+in following directories:
+src tests
+----------------------------------------------------
+
+Using base prefix '/usr'
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-gemini-server/venv/bin/python3
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-gemini-server/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-gemini-server/venv/bin/python3)
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Collecting vulture
+  Using cached https://files.pythonhosted.org/packages/7f/b1/30ff55d65dae78efaedb3eac3316d3ccbf0a7f1d5f4b2f10b5784a2db585/vulture-0.28-py2.py3-none-any.whl
+Installing collected packages: vulture
+Successfully installed vulture-0.28
+src/auth.py
+    Pass
+src/__init__.py
+    Pass
+src/utils.py
+    Pass
+src/rest_api.py
+    Pass
+src/exceptions.py
+    Pass
+tests/test_rest_api.py
+    Pass
+tests/test_errors_class.py
+    Pass
+tests/test_auth.py
+tests/test_auth.py:10: unused variable 'module' (100% confidence)
+tests/test_auth.py:32: unused variable 'module' (100% confidence)
+tests/test_auth.py:37: unused variable 'app' (100% confidence)
+tests/test_auth.py:42: unused variable 'app' (100% confidence)
+tests/test_auth.py:47: unused variable 'app' (100% confidence)
+tests/test_auth.py:69: unused variable 'mocked_fetch_public_key' (100% confidence)
+tests/test_auth.py:76: unused variable 'mocked_fetch_public_key' (100% confidence)
+tests/test_auth.py:84: unused variable 'mocked_fetch_public_key' (100% confidence)
+tests/test_auth.py:92: unused variable 'mocked_fetch_public_key' (100% confidence)
+tests/test_auth.py:100: unused variable 'mocked_fetch_public_key' (100% confidence)
+tests/test_auth.py:108: unused variable 'mocked_fetch_public_key' (100% confidence)
+    Fail
+tests/__init__.py
+    Pass
+tests/test_utils.py
+tests/test_utils.py:51: unused variable 'query' (100% confidence)
+tests/test_utils.py:59: unused variable 'b' (100% confidence)
+tests/test_utils.py:68: unused variable 'b' (100% confidence)
+tests/test_utils.py:68: unused variable 'c' (100% confidence)
+tests/test_utils.py:107: unused variable 'b' (100% confidence)
+tests/test_utils.py:160: unused variable 'b' (100% confidence)
+tests/test_utils.py:178: unused variable 'args' (100% confidence)
+tests/test_utils.py:178: unused variable 'kwargs' (100% confidence)
+tests/test_utils.py:183: unused variable 'args' (100% confidence)
+tests/test_utils.py:183: unused variable 'kwargs' (100% confidence)
+    Fail
+tests/conftest.py
+    Pass
+----------------------------------------------------
+Checking following source files for dead code and
+unused imports:
+setup.py
+----------------------------------------------------
+
+setup.py
+    Pass
+2 source files out of 12 files seems to contain dead code and/or unused imports
