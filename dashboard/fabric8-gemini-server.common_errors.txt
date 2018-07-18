@@ -3,10 +3,7 @@ New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashbo
 Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-gemini-server/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-gemini-server/venv/bin/python3)
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Collecting pyflakes
-  Using cached https://files.pythonhosted.org/packages/44/98/af7a72c9a543b1487d92813c648cb9b9adfbc96faef5455d60f4439aa99b/pyflakes-2.0.0-py2.py3-none-any.whl
-Installing collected packages: pyflakes
-Successfully installed pyflakes-2.0.0
+Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2.0.0)
 ----------------------------------------------------
 Checking source files for common errors in following
 directories:

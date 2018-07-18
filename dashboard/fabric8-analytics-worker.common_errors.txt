@@ -1,0 +1,421 @@
+Using base prefix '/usr'
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-worker/venv/bin/python3
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-worker/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-worker/venv/bin/python3)
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2.0.0)
+----------------------------------------------------
+Checking source files for common errors in following
+directories:
+alembic f8a_worker tests hack
+----------------------------------------------------
+
+alembic/versions/f5c853b83d41_add_api_requests_table.py
+    Pass
+alembic/versions/9d605c7725d8_add_app_stack_tables.py
+    Pass
+alembic/versions/76c5fd72744e_gh_usage_stats.py
+    Pass
+alembic/versions/c23ff3124920_fix_ecosystem_data.py
+    Pass
+alembic/versions/0ff7fe2828a5_initial_revision.py
+alembic/versions/0ff7fe2828a5_initial_revision.py:15: 'alembic.op' imported but unused
+alembic/versions/0ff7fe2828a5_initial_revision.py:16: 'sqlalchemy as sa' imported but unused
+    Fail
+alembic/versions/e48c7b4235aa_drop_analysisrequest_table.py
+    Pass
+alembic/versions/35180d0f1ced_fix_pypi_url.py
+    Pass
+alembic/versions/727aeeb88b2f_add_started_at_and_ended_at_to_.py
+    Pass
+alembic/versions/be06b06767de_add_indexes_on_foreign_keys_in_.py
+alembic/versions/be06b06767de_add_indexes_on_foreign_keys_in_.py:16: 'sqlalchemy as sa' imported but unused
+    Fail
+alembic/versions/2bd5f6d0c8b0_introduce_stackreq_origin_flag.py
+    Pass
+alembic/versions/e2762a61d34c_upstream_url_can_be_null.py
+    Pass
+alembic/versions/49c27b67936f_permissions.py
+    Pass
+alembic/versions/33b719488061_add_col_dep_snapshot.py
+    Pass
+alembic/versions/ea55c632ae8d_create_auth_data.py
+    Pass
+alembic/versions/d62464ca17ae_introduce_error_flag_for_worker_results.py
+    Pass
+alembic/versions/43360d9467b9_drop_bigquery_results_table.py
+    Pass
+alembic/versions/c3ea37a6ebc5_add_redhat_maven_ecosystem.py
+    Pass
+alembic/versions/ddb09a7d6633_delete_unnecessary_db_tables.py
+    Pass
+alembic/versions/813f9a704eb7_stack_request_coltypechange.py
+    Pass
+alembic/versions/b4fbc8e04c81_gh_usage_with_versions.py
+    Pass
+alembic/versions/a0433904c63b_analysis_requests.py
+    Pass
+alembic/versions/750621a9cd89_drop_server_tables.py
+    Pass
+alembic/versions/133cd5484609_add_es_marker.py
+    Pass
+alembic/versions/b19a6deb869d_stack_request_coltype_change.py
+alembic/versions/b19a6deb869d_stack_request_coltype_change.py:16: 'sqlalchemy as sa' imported but unused
+alembic/versions/b19a6deb869d_stack_request_coltype_change.py:17: 'sqlalchemy.dialects.postgresql' imported but unused
+    Fail
+alembic/versions/fc7ea2a7e386_analytics_tables.py
+    Pass
+alembic/versions/245b57b274c2_introduce_upstream_monitoring_flows.py
+    Pass
+alembic/versions/a31c98c74ea0_add_e_p_v.py
+    Pass
+alembic/versions/f8bb0efac483_nuget_ecosystem.py
+    Pass
+alembic/versions/3fd95b3a69f5_bye_reviews.py
+    Pass
+alembic/versions/47f4ce1e8d75_stack_analyses_request.py
+    Pass
+alembic/versions/2ff043a5af5b_make_ecosystem_name_unique.py
+alembic/versions/2ff043a5af5b_make_ecosystem_name_unique.py:16: 'sqlalchemy as sa' imported but unused
+    Fail
+alembic/versions/02b91e918b43_migrate_to_dynamic_control_flow.py
+    Pass
+alembic/versions/49fb7de6227f_removal_of_anitya.py
+    Pass
+alembic/versions/60b296cac700_add_similar_components_table.py
+    Pass
+alembic/versions/424427c5f988_relative_usage.py
+    Pass
+alembic/versions/79d88d57baa7_remove_analyses_column.py
+    Pass
+alembic/versions/cd05b43f27e5_add_synced2graph_boolean_column_to_.py
+    Pass
+alembic/versions/8302d3bb5f68_stackreq_team_result.py
+    Pass
+alembic/versions/01404498814b_create_epv_and_workerresult_indexes.py
+alembic/versions/01404498814b_create_epv_and_workerresult_indexes.py:16: 'sqlalchemy as sa' imported but unused
+    Fail
+alembic/versions/7c643a1823db_index_on_external_request_id.py
+alembic/versions/7c643a1823db_index_on_external_request_id.py:16: 'sqlalchemy as sa' imported but unused
+    Fail
+alembic/versions/20cf59abbda8_add_external_reqeust_id_to_workerresult.py
+    Pass
+alembic/versions/a46a17bfd29b_batches_versions_relation.py
+    Pass
+alembic/versions/a60f15a395e2_do_not_index_ecosystem_url.py
+alembic/versions/a60f15a395e2_do_not_index_ecosystem_url.py:16: 'sqlalchemy as sa' imported but unused
+    Fail
+alembic/versions/967036f90ba1_gemini_model_py.py
+    Pass
+alembic/versions/3eb32f202f93_removing_starttime_and_endtime.py
+    Pass
+alembic/versions/094ea67a2baf_add_index_for_synced2graph_column.py
+alembic/versions/094ea67a2baf_add_index_for_synced2graph_column.py:16: 'sqlalchemy as sa' imported but unused
+    Fail
+alembic/versions/da53445aabad_add_recommendation_feedback_py.py
+    Pass
+alembic/versions/963d3d929b19_analyses.py
+    Pass
+alembic/versions/5cf8c7dac1b6_remove_active_flag.py
+    Pass
+alembic/versions/6e7ff4c3177e_remove_batches.py
+    Pass
+alembic/versions/51cb05927271_downstream_map.py
+    Pass
+alembic/versions/21b3add12b10_initial_ref_stack_support.py
+    Pass
+alembic/versions/22a1cd66a9c6_batches_reviews.py
+    Pass
+alembic/env.py
+    Pass
+f8a_worker/object_cache.py
+    Pass
+f8a_worker/models.py
+    Pass
+f8a_worker/dispatcher/__init__.py
+    Pass
+f8a_worker/dispatcher/selective.py
+    Pass
+f8a_worker/dispatcher/trace.py
+    Pass
+f8a_worker/dispatcher/predicates.py
+f8a_worker/dispatcher/predicates.py:5: 'from selinon.predicates import *' used; unable to detect undefined names
+f8a_worker/dispatcher/predicates.py:5: 'selinon.predicates.*' imported but unused
+    Fail
+f8a_worker/dispatcher/foreach.py
+    Pass
+f8a_worker/graphutils.py
+    Pass
+f8a_worker/__init__.py
+    Pass
+f8a_worker/utils.py
+    Pass
+f8a_worker/setup_celery.py
+    Pass
+f8a_worker/start.py
+    Pass
+f8a_worker/victims.py
+    Pass
+f8a_worker/solver.py
+    Pass
+f8a_worker/process.py
+    Pass
+f8a_worker/manifests.py
+    Pass
+f8a_worker/base.py
+    Pass
+f8a_worker/storages/s3_mavenindex.py
+    Pass
+f8a_worker/storages/s3_data_base.py
+    Pass
+f8a_worker/storages/s3_crowd_source_tags.py
+    Pass
+f8a_worker/storages/s3_readme.py
+    Pass
+f8a_worker/storages/__init__.py
+f8a_worker/storages/__init__.py:5: '.postgres.BayesianPostgres' imported but unused
+f8a_worker/storages/__init__.py:6: '.package_postgres.PackagePostgres' imported but unused
+f8a_worker/storages/__init__.py:7: '.s3.AmazonS3' imported but unused
+f8a_worker/storages/__init__.py:8: '.s3_artifacts.S3Artifacts' imported but unused
+f8a_worker/storages/__init__.py:9: '.s3_temp_artifacts.S3TempArtifacts' imported but unused
+f8a_worker/storages/__init__.py:10: '.s3_data.S3Data' imported but unused
+f8a_worker/storages/__init__.py:11: '.s3_package_data.S3PackageData' imported but unused
+f8a_worker/storages/__init__.py:12: '.s3_manifests.S3Manifests' imported but unused
+f8a_worker/storages/__init__.py:13: '.s3_mavenindex.S3MavenIndex' imported but unused
+f8a_worker/storages/__init__.py:14: '.s3_vulndb.S3VulnDB' imported but unused
+f8a_worker/storages/__init__.py:15: '.s3_readme.S3Readme' imported but unused
+f8a_worker/storages/__init__.py:16: '.s3_gh_manifests.S3GitHubManifestMetadata' imported but unused
+f8a_worker/storages/__init__.py:17: '.s3_userprofilestore.S3UserProfileStore' imported but unused
+f8a_worker/storages/__init__.py:18: '.s3_description_repository.S3RepositoryDescription' imported but unused
+f8a_worker/storages/__init__.py:19: '.s3_keywords_summary.S3KeywordsSummary' imported but unused
+f8a_worker/storages/__init__.py:20: '.s3_userintent.S3UserIntent' imported but unused
+f8a_worker/storages/__init__.py:21: '.s3_manual_tagging.S3ManualTagging' imported but unused
+f8a_worker/storages/__init__.py:22: '.s3_crowd_source_tags.S3CrowdSourceTags' imported but unused
+    Fail
+f8a_worker/storages/s3_package_data.py
+    Pass
+f8a_worker/storages/s3_keywords_summary.py
+    Pass
+f8a_worker/storages/s3_manifests.py
+    Pass
+f8a_worker/storages/postgres_base.py
+    Pass
+f8a_worker/storages/s3_userintent.py
+    Pass
+f8a_worker/storages/s3_userprofilestore.py
+    Pass
+f8a_worker/storages/s3_description_repository.py
+    Pass
+f8a_worker/storages/package_postgres.py
+    Pass
+f8a_worker/storages/s3_temp_artifacts.py
+    Pass
+f8a_worker/storages/s3_vulndb.py
+    Pass
+f8a_worker/storages/s3_artifacts.py
+    Pass
+f8a_worker/storages/s3_data.py
+    Pass
+f8a_worker/storages/s3_manual_tagging.py
+    Pass
+f8a_worker/storages/s3_gh_manifests.py
+    Pass
+f8a_worker/storages/postgres.py
+    Pass
+f8a_worker/storages/s3.py
+    Pass
+f8a_worker/schemas.py
+    Pass
+f8a_worker/enums.py
+    Pass
+f8a_worker/workers/finalize.py
+    Pass
+f8a_worker/workers/schemas/source_licenses.py
+    Pass
+f8a_worker/workers/schemas/github_details.py
+    Pass
+f8a_worker/workers/schemas/security_issues.py
+    Pass
+f8a_worker/workers/schemas/__init__.py
+    Pass
+f8a_worker/workers/schemas/libraries_io.py
+    Pass
+f8a_worker/workers/schemas/metadata.py
+    Pass
+f8a_worker/workers/schemas/digests.py
+    Pass
+f8a_worker/workers/schemas/crypto_algorithms.py
+    Pass
+f8a_worker/workers/schemas/package_keywords_tagging.py
+    Pass
+f8a_worker/workers/schemas/keywords_tagging.py
+    Pass
+f8a_worker/workers/schemas/dependency_snapshot.py
+    Pass
+f8a_worker/workers/report_generation.py
+    Pass
+f8a_worker/workers/graph_importer.py
+    Pass
+f8a_worker/workers/dependency_parser.py
+    Pass
+f8a_worker/workers/gh_metadata_result_collector.py
+    Pass
+f8a_worker/workers/bookkeeper.py
+    Pass
+f8a_worker/workers/__init__.py
+f8a_worker/workers/__init__.py:3: 'f8a_worker.workers.CVEchecker.CVEcheckerTask' imported but unused
+f8a_worker/workers/__init__.py:4: 'f8a_worker.workers.bookkeeper.BookkeeperTask' imported but unused
+f8a_worker/workers/__init__.py:5: 'f8a_worker.workers.cvedbsync.CVEDBSyncTask' imported but unused
+f8a_worker/workers/__init__.py:6: 'f8a_worker.workers.dependency_parser.GithubDependencyTreeTask' imported but unused
+f8a_worker/workers/__init__.py:7: 'f8a_worker.workers.dependency_snapshot.DependencySnapshotTask' imported but unused
+f8a_worker/workers/__init__.py:8: 'f8a_worker.workers.digester.DigesterTask' imported but unused
+f8a_worker/workers/__init__.py:9: 'f8a_worker.workers.finalize.FinalizeTask' imported but unused
+f8a_worker/workers/__init__.py:9: 'f8a_worker.workers.finalize.PackageFinalizeTask' imported but unused
+f8a_worker/workers/__init__.py:10: 'f8a_worker.workers.gh_metadata_init.InitGitHubManifestMetadata' imported but unused
+f8a_worker/workers/__init__.py:11: 'f8a_worker.workers.gh_metadata_result_collector.GitHubManifestMetadataResultCollector' imported but unused
+f8a_worker/workers/__init__.py:12: 'f8a_worker.workers.git_stats.GitStats' imported but unused
+f8a_worker/workers/__init__.py:13: 'f8a_worker.workers.githuber.GithubTask' imported but unused
+f8a_worker/workers/__init__.py:13: 'f8a_worker.workers.githuber.GitReadmeCollectorTask' imported but unused
+f8a_worker/workers/__init__.py:14: 'f8a_worker.workers.graph_importer.GraphImporterTask' imported but unused
+f8a_worker/workers/__init__.py:15: 'f8a_worker.workers.graph_sync.GraphSyncTask' imported but unused
+f8a_worker/workers/__init__.py:16: 'f8a_worker.workers.graphaggregator.GraphAggregatorTask' imported but unused
+f8a_worker/workers/__init__.py:17: 'f8a_worker.workers.init_analysis_flow.InitAnalysisFlow' imported but unused
+f8a_worker/workers/__init__.py:18: 'f8a_worker.workers.init_package_flow.InitPackageFlow' imported but unused
+f8a_worker/workers/__init__.py:19: 'f8a_worker.workers.keywords_summary.KeywordsSummaryTask' imported but unused
+f8a_worker/workers/__init__.py:20: 'f8a_worker.workers.keywords_tagging.KeywordsTaggingTask' imported but unused
+f8a_worker/workers/__init__.py:21: 'f8a_worker.workers.keywords_tagging.PackageKeywordsTaggingTask' imported but unused
+f8a_worker/workers/__init__.py:22: 'f8a_worker.workers.libraries_io.LibrariesIoTask' imported but unused
+f8a_worker/workers/__init__.py:23: 'f8a_worker.workers.license.LicenseCheckTask' imported but unused
+f8a_worker/workers/__init__.py:24: 'f8a_worker.workers.mercator.MercatorTask' imported but unused
+f8a_worker/workers/__init__.py:25: 'f8a_worker.workers.report_generation.ReportGenerationTask' imported but unused
+f8a_worker/workers/__init__.py:26: 'f8a_worker.workers.repository_description.RepositoryDescCollectorTask' imported but unused
+f8a_worker/workers/__init__.py:27: 'f8a_worker.workers.result_collector.ResultCollector' imported but unused
+f8a_worker/workers/__init__.py:27: 'f8a_worker.workers.result_collector.PackageResultCollector' imported but unused
+f8a_worker/workers/__init__.py:28: 'f8a_worker.workers.unknown_dep_fetcher.UnknownDependencyFetcherTask' imported but unused
+f8a_worker/workers/__init__.py:29: 'f8a_worker.workers.victims.VictimsCheck' imported but unused
+f8a_worker/workers/__init__.py:30: 'f8a_worker.workers.user_notifier.UserNotificationTask' imported but unused
+f8a_worker/workers/__init__.py:31: 'f8a_worker.workers.repo_dependency_finder.RepoDependencyFinderTask' imported but unused
+    Fail
+f8a_worker/workers/libraries_io.py
+    Pass
+f8a_worker/workers/githuber.py
+    Pass
+f8a_worker/workers/repo_dependency_finder.py
+f8a_worker/workers/repo_dependency_finder.py:40: local variable 'e' is assigned to but never used
+f8a_worker/workers/repo_dependency_finder.py:50: local variable 'e' is assigned to but never used
+    Fail
+f8a_worker/workers/mercator.py
+    Pass
+f8a_worker/workers/cvedbsync.py
+    Pass
+f8a_worker/workers/victims.py
+    Pass
+f8a_worker/workers/digester.py
+    Pass
+f8a_worker/workers/user_notifier.py
+    Pass
+f8a_worker/workers/license.py
+    Pass
+f8a_worker/workers/git_stats.py
+    Pass
+f8a_worker/workers/CVEchecker.py
+    Pass
+f8a_worker/workers/init_package_flow.py
+    Pass
+f8a_worker/workers/result_collector.py
+    Pass
+f8a_worker/workers/graphaggregator.py
+    Pass
+f8a_worker/workers/graph_sync.py
+    Pass
+f8a_worker/workers/keywords_summary.py
+    Pass
+f8a_worker/workers/keywords_tagging.py
+    Pass
+f8a_worker/workers/init_analysis_flow.py
+    Pass
+f8a_worker/workers/repository_description.py
+    Pass
+f8a_worker/workers/unknown_dep_fetcher.py
+    Pass
+f8a_worker/workers/dependency_snapshot.py
+f8a_worker/workers/dependency_snapshot.py:71: local variable 'e' is assigned to but never used
+    Fail
+f8a_worker/workers/gh_metadata_init.py
+    Pass
+f8a_worker/data_normalizer.py
+    Pass
+f8a_worker/errors.py
+    Pass
+f8a_worker/celery_settings.py
+f8a_worker/celery_settings.py:118: dictionary key 'selinon' repeated with different values
+f8a_worker/celery_settings.py:123: dictionary key 'selinon' repeated with different values
+    Fail
+f8a_worker/defaults.py
+f8a_worker/defaults.py:11: 'selinon.StoragePool' imported but unused
+    Fail
+tests/test_data_normalizer.py
+    Pass
+tests/test_schemas.py
+    Pass
+tests/test_process.py
+tests/test_process.py:85: local variable 'excinfo' is assigned to but never used
+tests/test_process.py:86: local variable 'cache_path' is assigned to but never used
+    Fail
+tests/__init__.py
+    Pass
+tests/data/schemas/generate.py
+    Pass
+tests/data/license/license.py
+    Pass
+tests/test_victims.py
+    Pass
+tests/test_utils.py
+    Pass
+tests/test_solver.py
+    Pass
+tests/storages/__init__.py
+    Pass
+tests/storages/test_postgres.py
+    Pass
+tests/workers/test_recurse.py
+    Pass
+tests/workers/__init__.py
+    Pass
+tests/workers/test_licensecheck.py
+    Pass
+tests/workers/test_victims.py
+    Pass
+tests/workers/test_libraries_io.py
+    Pass
+tests/workers/test_github_dependency_tree.py
+    Pass
+tests/workers/test_cvecheck.py
+tests/workers/test_cvecheck.py:4: 'flexmock.flexmock' imported but unused
+tests/workers/test_cvecheck.py:5: 'pathlib.Path' imported but unused
+tests/workers/test_cvecheck.py:8: 'f8a_worker.object_cache.EPVCache' imported but unused
+    Fail
+tests/workers/test_repository_description.py
+    Pass
+tests/workers/test_digester.py
+tests/workers/test_digester.py:9: redefinition of unused 'pytest' from line 6
+tests/workers/test_digester.py:11: 'f8a_worker.enums.EcosystemBackend' imported but unused
+tests/workers/test_digester.py:12: 'f8a_worker.models.Ecosystem' imported but unused
+    Fail
+tests/workers/test_githuber.py
+    Pass
+tests/workers/test_mercator.py
+    Pass
+tests/conftest.py
+    Pass
+hack/queue_conf.py
+hack/queue_conf.py:8: 'time.sleep' imported but unused
+    Fail
+----------------------------------------------------
+Checking following source files for common errors:
+setup.py
+----------------------------------------------------
+
+setup.py
+    Pass
+19 source files out of 163 files needs to be checked and fixed

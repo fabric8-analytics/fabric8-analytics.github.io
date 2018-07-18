@@ -1,0 +1,64 @@
+Using base prefix '/usr'
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-version-comparator/venv/bin/python3
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-version-comparator/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-version-comparator/venv/bin/python3)
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2.0.0)
+----------------------------------------------------
+Checking source files for common errors in following
+directories:
+f8a_version_comparator tests
+----------------------------------------------------
+
+f8a_version_comparator/__init__.py
+    Pass
+f8a_version_comparator/comparable_version.py
+    Pass
+f8a_version_comparator/item_object.py
+    Pass
+f8a_version_comparator/base.py
+    Pass
+tests/__init__.py
+    Pass
+tests/test_version_comparator.py
+tests/test_version_comparator.py:86: local variable '_' is assigned to but never used
+tests/test_version_comparator.py:296: local variable 'e' is assigned to but never used
+tests/test_version_comparator.py:297: local variable 'p3' is assigned to but never used
+    Fail
+tests/test_item_object.py
+tests/test_item_object.py:22: 'from f8a_version_comparator.item_object import *' used; unable to detect undefined names
+tests/test_item_object.py:27: 'IntegerItem' may be undefined, or defined from star imports: f8a_version_comparator.item_object
+tests/test_item_object.py:38: 'IntegerItem' may be undefined, or defined from star imports: f8a_version_comparator.item_object
+tests/test_item_object.py:38: local variable 'i1' is assigned to but never used
+tests/test_item_object.py:42: 'IntegerItem' may be undefined, or defined from star imports: f8a_version_comparator.item_object
+tests/test_item_object.py:42: local variable 'i2' is assigned to but never used
+tests/test_item_object.py:45: local variable 'e' is assigned to but never used
+tests/test_item_object.py:46: 'IntegerItem' may be undefined, or defined from star imports: f8a_version_comparator.item_object
+tests/test_item_object.py:46: local variable 'i3' is assigned to but never used
+tests/test_item_object.py:51: 'IntegerItem' may be undefined, or defined from star imports: f8a_version_comparator.item_object
+tests/test_item_object.py:52: 'IntegerItem' may be undefined, or defined from star imports: f8a_version_comparator.item_object
+tests/test_item_object.py:56: 'StringItem' may be undefined, or defined from star imports: f8a_version_comparator.item_object
+tests/test_item_object.py:59: 'ListItem' may be undefined, or defined from star imports: f8a_version_comparator.item_object
+tests/test_item_object.py:65: local variable 'e' is assigned to but never used
+tests/test_item_object.py:71: 'StringItem' may be undefined, or defined from star imports: f8a_version_comparator.item_object
+tests/test_item_object.py:80: 'StringItem' may be undefined, or defined from star imports: f8a_version_comparator.item_object
+tests/test_item_object.py:102: 'StringItem' may be undefined, or defined from star imports: f8a_version_comparator.item_object
+tests/test_item_object.py:103: 'IntegerItem' may be undefined, or defined from star imports: f8a_version_comparator.item_object
+tests/test_item_object.py:110: 'StringItem' may be undefined, or defined from star imports: f8a_version_comparator.item_object
+tests/test_item_object.py:113: 'StringItem' may be undefined, or defined from star imports: f8a_version_comparator.item_object
+tests/test_item_object.py:118: 'ListItem' may be undefined, or defined from star imports: f8a_version_comparator.item_object
+tests/test_item_object.py:124: local variable 'e' is assigned to but never used
+tests/test_item_object.py:130: 'ListItem' may be undefined, or defined from star imports: f8a_version_comparator.item_object
+tests/test_item_object.py:132: 'IntegerItem' may be undefined, or defined from star imports: f8a_version_comparator.item_object
+tests/test_item_object.py:135: 'StringItem' may be undefined, or defined from star imports: f8a_version_comparator.item_object
+tests/test_item_object.py:138: 'ListItem' may be undefined, or defined from star imports: f8a_version_comparator.item_object
+tests/test_item_object.py:142: local variable 'e' is assigned to but never used
+    Fail
+----------------------------------------------------
+Checking following source files for common errors:
+setup.py
+----------------------------------------------------
+
+setup.py
+    Pass
+2 source files out of 8 files needs to be checked and fixed

@@ -13,15 +13,8 @@ f8a_auth tests
 f8a_auth/__init__.py
     Pass
 f8a_auth/f8a_auth.py
-f8a_auth/f8a_auth.py:3: 'datetime' imported but unused
-f8a_auth/f8a_auth.py:4: 'enum' imported but unused
-f8a_auth/f8a_auth.py:8: 'flask_security.current_user' imported but unused
-f8a_auth/f8a_auth.py:9: 'requests.post' imported but unused
-f8a_auth/f8a_auth.py:10: 'itsdangerous.BadSignature' imported but unused
-f8a_auth/f8a_auth.py:10: 'itsdangerous.SignatureExpired' imported but unused
-f8a_auth/f8a_auth.py:10: 'itsdangerous.TimedJSONWebSignatureSerializer' imported but unused
-f8a_auth/f8a_auth.py:118: undefined name 'APIUser'
-f8a_auth/f8a_auth.py:123: undefined name 'APIUser'
+f8a_auth/f8a_auth.py:119: redefinition of unused 'get_audiences' from line 43
+f8a_auth/f8a_auth.py:186: redefinition of unused 'fetch_public_key' from line 16
     Fail
 f8a_auth/errors.py
     Pass

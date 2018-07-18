@@ -12,7 +12,8 @@ Requirement already satisfied: pycodestyle in ./venv/lib/python3.6/site-packages
 f8a_auth/__init__.py
     Pass
 f8a_auth/f8a_auth.py
-    Pass
+f8a_auth/f8a_auth.py:240:1: W391 blank line at end of file
+    Fail
 f8a_auth/errors.py
     Pass
 tests/test_errors_class.py
@@ -30,4 +31,4 @@ setup.py
 ----------------------------------------------------
 setup.py
     Pass
-All checks passed for 8 source files
+Linter fail, 1 source files out of 8 source files need to be fixed

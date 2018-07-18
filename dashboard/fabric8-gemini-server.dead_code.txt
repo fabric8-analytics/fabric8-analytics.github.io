@@ -9,10 +9,7 @@ New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashbo
 Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-gemini-server/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-gemini-server/venv/bin/python3)
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Collecting vulture
-  Using cached https://files.pythonhosted.org/packages/7f/b1/30ff55d65dae78efaedb3eac3316d3ccbf0a7f1d5f4b2f10b5784a2db585/vulture-0.28-py2.py3-none-any.whl
-Installing collected packages: vulture
-Successfully installed vulture-0.28
+Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages (0.28)
 src/auth.py
     Pass
 src/__init__.py

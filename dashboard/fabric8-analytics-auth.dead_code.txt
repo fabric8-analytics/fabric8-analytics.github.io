@@ -13,14 +13,7 @@ Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages (0.
 f8a_auth/__init__.py
     Pass
 f8a_auth/f8a_auth.py
-f8a_auth/f8a_auth.py:3: unused import 'datetime' (90% confidence)
-f8a_auth/f8a_auth.py:4: unused import 'enum' (90% confidence)
-f8a_auth/f8a_auth.py:8: unused import 'current_user' (90% confidence)
-f8a_auth/f8a_auth.py:9: unused import 'post' (90% confidence)
-f8a_auth/f8a_auth.py:10: unused import 'BadSignature' (90% confidence)
-f8a_auth/f8a_auth.py:10: unused import 'SignatureExpired' (90% confidence)
-f8a_auth/f8a_auth.py:10: unused import 'TimedJSONWebSignatureSerializer' (90% confidence)
-    Fail
+    Pass
 f8a_auth/errors.py
     Pass
 tests/test_errors_class.py
@@ -56,4 +49,4 @@ setup.py
 
 setup.py
     Pass
-5 source files out of 8 files seems to contain dead code and/or unused imports
+4 source files out of 8 files seems to contain dead code and/or unused imports

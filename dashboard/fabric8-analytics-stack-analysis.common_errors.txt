@@ -1,0 +1,253 @@
+----------------------------------------------------
+Checking source files for common errors in following
+directories:
+analytics_platform tagging_platform evaluation_platform util tests
+----------------------------------------------------
+
+Using base prefix '/usr'
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-stack-analysis/venv/bin/python3
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-stack-analysis/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-stack-analysis/venv/bin/python3)
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2.0.0)
+analytics_platform/__init__.py
+    Pass
+analytics_platform/kronos/src/recommendation_validator.py
+    Pass
+analytics_platform/kronos/src/kronos_online_scoring.py
+    Pass
+analytics_platform/kronos/src/__init__.py
+    Pass
+analytics_platform/kronos/src/kronos_offline_training.py
+    Pass
+analytics_platform/kronos/apollo/src/offline_training.py
+    Pass
+analytics_platform/kronos/apollo/src/__init__.py
+    Pass
+analytics_platform/kronos/apollo/src/apollo_constants.py
+    Pass
+analytics_platform/kronos/apollo/src/apollo_tag_prune.py
+analytics_platform/kronos/apollo/src/apollo_tag_prune.py:3: 'analytics_platform.kronos.src.config' imported but unused
+    Fail
+analytics_platform/kronos/apollo/src/apollo_generate_frequency_dict.py
+    Pass
+analytics_platform/kronos/apollo/__init__.py
+    Pass
+analytics_platform/kronos/__init__.py
+    Pass
+analytics_platform/kronos/pgm/src/pgm_constants.py
+    Pass
+analytics_platform/kronos/pgm/src/abstract_pgm.py
+    Pass
+analytics_platform/kronos/pgm/src/offline_training.py
+analytics_platform/kronos/pgm/src/offline_training.py:3: 'sys' imported but unused
+analytics_platform/kronos/pgm/src/offline_training.py:4: 'time' imported but unused
+    Fail
+analytics_platform/kronos/pgm/src/__init__.py
+    Pass
+analytics_platform/kronos/pgm/src/pgm_pomegranate.py
+    Pass
+analytics_platform/kronos/pgm/__init__.py
+    Pass
+analytics_platform/kronos/scripts/__init__.py
+    Pass
+analytics_platform/kronos/gnosis/src/gnosis_package_topic_model.py
+    Pass
+analytics_platform/kronos/gnosis/src/offline_training.py
+analytics_platform/kronos/gnosis/src/offline_training.py:3: 'sys' imported but unused
+analytics_platform/kronos/gnosis/src/offline_training.py:4: 'time' imported but unused
+    Fail
+analytics_platform/kronos/gnosis/src/__init__.py
+    Pass
+analytics_platform/kronos/gnosis/src/gnosis_constants.py
+    Pass
+analytics_platform/kronos/gnosis/src/gnosis_ref_arch.py
+    Pass
+analytics_platform/kronos/gnosis/src/abstract_gnosis.py
+    Pass
+analytics_platform/kronos/gnosis/__init__.py
+    Pass
+analytics_platform/kronos/softnet/src/cooccurrence_matrix_generator.py
+analytics_platform/kronos/softnet/src/cooccurrence_matrix_generator.py:5: 'time' imported but unused
+    Fail
+analytics_platform/kronos/softnet/src/offline_training.py
+    Pass
+analytics_platform/kronos/softnet/src/__init__.py
+    Pass
+analytics_platform/kronos/softnet/src/kronos_dependency_generator.py
+    Pass
+analytics_platform/kronos/softnet/src/softnet_constants.py
+    Pass
+analytics_platform/kronos/softnet/__init__.py
+    Pass
+analytics_platform/kronos/deployment/__init__.py
+    Pass
+analytics_platform/kronos/deployment/rest_api.py
+    Pass
+analytics_platform/kronos/deployment/submit_training_job.py
+    Pass
+tagging_platform/__init__.py
+    Pass
+tagging_platform/helles/__init__.py
+    Pass
+tagging_platform/helles/npm_tagger/get_descriptions_from_s3.py
+tagging_platform/helles/npm_tagger/get_descriptions_from_s3.py:10: 'json' imported but unused
+    Fail
+tagging_platform/helles/npm_tagger/pytextrank_textrank_scoring.py
+    Pass
+tagging_platform/helles/npm_tagger/__init__.py
+    Pass
+tagging_platform/helles/npm_tagger/get_version_info_for_missing_packages.py
+tagging_platform/helles/npm_tagger/get_version_info_for_missing_packages.py:10: 'json' imported but unused
+    Fail
+tagging_platform/helles/deployment/submit_npm_tagging_job.py
+    Pass
+tagging_platform/helles/deployment/__init__.py
+    Pass
+evaluation_platform/__init__.py
+    Pass
+evaluation_platform/uranus/src/generate_test_data.py
+evaluation_platform/uranus/src/generate_test_data.py:11: 'time' imported but unused
+evaluation_platform/uranus/src/generate_test_data.py:49: local variable 'user_category' is assigned to but never used
+    Fail
+evaluation_platform/uranus/src/super_class.py
+evaluation_platform/uranus/src/super_class.py:4: 'time' imported but unused
+evaluation_platform/uranus/src/super_class.py:7: 'analytics_platform.kronos.src.config.AWS_S3_ACCESS_KEY_ID' imported but unused
+evaluation_platform/uranus/src/super_class.py:7: 'analytics_platform.kronos.src.config.AWS_S3_SECRET_ACCESS_KEY' imported but unused
+evaluation_platform/uranus/src/super_class.py:13: 'util.data_store.s3_data_store.S3DataStore' imported but unused
+evaluation_platform/uranus/src/super_class.py:14: 'util.analytics_platform_util.get_path_names' imported but unused
+    Fail
+evaluation_platform/uranus/src/companion_outlier_testing.py
+evaluation_platform/uranus/src/companion_outlier_testing.py:4: 'itertools.combinations' imported but unused
+    Fail
+evaluation_platform/uranus/src/evaluate_data.py
+    Pass
+evaluation_platform/uranus/src/__init__.py
+    Pass
+evaluation_platform/uranus/src/uranus_constants.py
+    Pass
+evaluation_platform/uranus/src/alternate_testing.py
+    Pass
+evaluation_platform/uranus/src/kronos_offline_evaluation.py
+evaluation_platform/uranus/src/kronos_offline_evaluation.py:9: 'util.data_store.s3_data_store.S3DataStore' imported but unused
+evaluation_platform/uranus/src/kronos_offline_evaluation.py:10: 'util.analytics_platform_util.get_path_names' imported but unused
+    Fail
+evaluation_platform/uranus/__init__.py
+    Pass
+evaluation_platform/uranus/scripts/__init__.py
+    Pass
+evaluation_platform/uranus/deployment/__init__.py
+    Pass
+evaluation_platform/uranus/deployment/submit_evaluation_job.py
+    Pass
+util/softnet_util.py
+    Pass
+util/data_store/__init__.py
+    Pass
+util/data_store/local_filesystem.py
+    Pass
+util/data_store/abstract_data_store.py
+    Pass
+util/data_store/s3_data_store.py
+    Pass
+util/data_store/graph_store.py
+util/data_store/graph_store.py:6: 'json' imported but unused
+    Fail
+util/error/__init__.py
+    Pass
+util/error/analytics_exception.py
+util/error/analytics_exception.py:3: 'util.error.error_codes' imported but unused
+    Fail
+util/error/error_codes.py
+    Pass
+util/analytics_platform_util.py
+    Pass
+util/__init__.py
+    Pass
+util/util_constants.py
+    Pass
+util/gnosis_util.py
+    Pass
+util/pgm_util.py
+    Pass
+util/http_client/__init__.py
+    Pass
+util/http_client/request.py
+    Pass
+tests/unit_tests/test_uranus_deployment_submit_evaluation_job.py
+tests/unit_tests/test_uranus_deployment_submit_evaluation_job.py:3: 'pytest' imported but unused
+tests/unit_tests/test_uranus_deployment_submit_evaluation_job.py:5: 'from evaluation_platform.uranus.deployment.submit_evaluation_job import *' used; unable to detect undefined names
+tests/unit_tests/test_uranus_deployment_submit_evaluation_job.py:5: 'evaluation_platform.uranus.deployment.submit_evaluation_job.*' imported but unused
+    Fail
+tests/unit_tests/test_util_http_client_request.py
+tests/unit_tests/test_util_http_client_request.py:3: 'pytest' imported but unused
+tests/unit_tests/test_util_http_client_request.py:4: 'requests' imported but unused
+tests/unit_tests/test_util_http_client_request.py:6: 'from util.http_client.request import *' used; unable to detect undefined names
+tests/unit_tests/test_util_http_client_request.py:12: 'post' may be undefined, or defined from star imports: util.http_client.request
+    Fail
+tests/unit_tests/test_uranus_evaluate_data.py
+tests/unit_tests/test_uranus_evaluate_data.py:3: 'pytest' imported but unused
+tests/unit_tests/test_uranus_evaluate_data.py:5: 'from evaluation_platform.uranus.src.evaluate_data import *' used; unable to detect undefined names
+tests/unit_tests/test_uranus_evaluate_data.py:5: 'evaluation_platform.uranus.src.evaluate_data.*' imported but unused
+    Fail
+tests/unit_tests/test_kronos_gnosis_ref_arch.py
+tests/unit_tests/test_kronos_gnosis_ref_arch.py:3: 'analytics_platform.kronos.src.config' imported but unused
+    Fail
+tests/unit_tests/__init__.py
+    Pass
+tests/unit_tests/test_kronos_pgm_pomegranate.py
+    Pass
+tests/unit_tests/test_uranus_generate_test_data.py
+tests/unit_tests/test_uranus_generate_test_data.py:3: 'pytest' imported but unused
+tests/unit_tests/test_uranus_generate_test_data.py:5: 'from evaluation_platform.uranus.src.generate_test_data import *' used; unable to detect undefined names
+tests/unit_tests/test_uranus_generate_test_data.py:5: 'evaluation_platform.uranus.src.generate_test_data.*' imported but unused
+    Fail
+tests/unit_tests/test_uranus_alternate_testing.py
+tests/unit_tests/test_uranus_alternate_testing.py:3: 'pytest' imported but unused
+tests/unit_tests/test_uranus_alternate_testing.py:5: 'from evaluation_platform.uranus.src.alternate_testing import *' used; unable to detect undefined names
+tests/unit_tests/test_uranus_alternate_testing.py:5: 'evaluation_platform.uranus.src.alternate_testing.*' imported but unused
+    Fail
+tests/unit_tests/test_kronos_softnet_kronos_dependency_generator.py
+tests/unit_tests/test_kronos_softnet_kronos_dependency_generator.py:3: 'analytics_platform.kronos.src.config' imported but unused
+    Fail
+tests/unit_tests/test_util_error_codes.py
+    Pass
+tests/unit_tests/test_uranus_super_class.py
+tests/unit_tests/test_uranus_super_class.py:3: 'pytest' imported but unused
+tests/unit_tests/test_uranus_super_class.py:5: 'from evaluation_platform.uranus.src.super_class import *' used; unable to detect undefined names
+tests/unit_tests/test_uranus_super_class.py:5: 'evaluation_platform.uranus.src.super_class.*' imported but unused
+    Fail
+tests/unit_tests/test_uranus_kronos_offline_evaluation.py
+tests/unit_tests/test_uranus_kronos_offline_evaluation.py:3: 'pytest' imported but unused
+tests/unit_tests/test_uranus_kronos_offline_evaluation.py:5: 'from evaluation_platform.uranus.src.kronos_offline_evaluation import *' used; unable to detect undefined names
+tests/unit_tests/test_uranus_kronos_offline_evaluation.py:5: 'evaluation_platform.uranus.src.kronos_offline_evaluation.*' imported but unused
+    Fail
+tests/unit_tests/test_apollo_tag_prune.py
+tests/unit_tests/test_apollo_tag_prune.py:3: 'analytics_platform.kronos.src.config' imported but unused
+    Fail
+tests/unit_tests/test_kronos_softnet_cooccurrence_matrix_generator.py
+tests/unit_tests/test_kronos_softnet_cooccurrence_matrix_generator.py:3: 'pandas.util.testing.assert_frame_equal' imported but unused
+tests/unit_tests/test_kronos_softnet_cooccurrence_matrix_generator.py:5: 'analytics_platform.kronos.src.config' imported but unused
+    Fail
+tests/unit_tests/test_recommendation_validator.py
+    Pass
+tests/unit_tests/test_kronos_gnosis_package_topic_model.py
+tests/unit_tests/test_kronos_gnosis_package_topic_model.py:3: 'analytics_platform.kronos.src.config' imported but unused
+    Fail
+tests/unit_tests/test_helles_npm_tagger.py
+tests/unit_tests/test_helles_npm_tagger.py:3: 'pytest' imported but unused
+tests/unit_tests/test_helles_npm_tagger.py:5: 'from tagging_platform.helles.npm_tagger.get_descriptions_from_s3 import *' used; unable to detect undefined names
+tests/unit_tests/test_helles_npm_tagger.py:5: 'tagging_platform.helles.npm_tagger.get_descriptions_from_s3.*' imported but unused
+tests/unit_tests/test_helles_npm_tagger.py:6: 'from tagging_platform.helles.npm_tagger.get_version_info_for_missing_packages import *' used; unable to detect undefined names
+tests/unit_tests/test_helles_npm_tagger.py:6: 'tagging_platform.helles.npm_tagger.get_version_info_for_missing_packages.*' imported but unused
+tests/unit_tests/test_helles_npm_tagger.py:7: 'from tagging_platform.helles.npm_tagger.pytextrank_textrank_scoring import *' used; unable to detect undefined names
+tests/unit_tests/test_helles_npm_tagger.py:7: 'tagging_platform.helles.npm_tagger.pytextrank_textrank_scoring.*' imported but unused
+    Fail
+tests/unit_tests/test_uranus_companion_outlier_testing.py
+tests/unit_tests/test_uranus_companion_outlier_testing.py:3: 'pytest' imported but unused
+tests/unit_tests/test_uranus_companion_outlier_testing.py:5: 'from evaluation_platform.uranus.src.companion_outlier_testing import *' used; unable to detect undefined names
+tests/unit_tests/test_uranus_companion_outlier_testing.py:5: 'evaluation_platform.uranus.src.companion_outlier_testing.*' imported but unused
+    Fail
+tests/unit_tests/test_apollo_frequency_dict_generator.py
+    Pass
+26 source files out of 91 files needs to be checked and fixed
