@@ -244,6 +244,10 @@ dashboard/src/results.py
     Pass
 dashboard/src/configuration.py
     Pass
+dashboard/src/dc_ce_history.py
+dashboard/src/dc_ce_history.py:8: unused import 'Repositories' (90% confidence)
+dashboard/src/dc_ce_history.py:11: unused import 'unit_tests' (90% confidence)
+    Fail
 dashboard/src/jacoco_to_codecov.py
     Pass
 dashboard/src/sla.py
@@ -298,10 +302,11 @@ dashboard/src/coreapi.py
 dashboard/src/coreapi.py:3: unused import 'time' (90% confidence)
     Fail
 dashboard/src/cc_history.py
-dashboard/src/cc_history.py:11: unused import 'os' (90% confidence)
-dashboard/src/cc_history.py:19: unused import 'Repositories' (90% confidence)
+dashboard/src/cc_history.py:11: unused import 'Repositories' (90% confidence)
     Fail
 dashboard/src/git_utils.py
+    Pass
+dashboard/src/history_generator.py
     Pass
 reproducers/issue1934.py
 reproducers/issue1934.py:3: unused import 'os' (90% confidence)
@@ -349,4 +354,4 @@ db-integrity-tests/src/core_package_checker.py
     Pass
 db-integrity-tests/src/checker.py
     Pass
-41 source files out of 101 files seems to contain dead code and/or unused imports
+42 source files out of 103 files seems to contain dead code and/or unused imports

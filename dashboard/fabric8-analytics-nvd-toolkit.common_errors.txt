@@ -1,3 +1,115 @@
-Using base prefix '/usr'
-New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-nvd-toolkit/venv/bin/python3
-Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages
+----------------------------------------------------
+Checking source files for common errors in following
+directories:
+src tests
+----------------------------------------------------
+
+src/toolkit/pipelines/train.py
+    Pass
+src/toolkit/pipelines/predict.py
+    Pass
+src/toolkit/pipelines/pipelines.py
+    Pass
+src/toolkit/pipelines/__init__.py
+src/toolkit/pipelines/__init__.py:14: 'toolkit.pipelines.pipelines.get_preprocessing_pipeline' imported but unused
+src/toolkit/pipelines/__init__.py:14: 'toolkit.pipelines.pipelines.get_training_pipeline' imported but unused
+src/toolkit/pipelines/__init__.py:14: 'toolkit.pipelines.pipelines.get_full_training_pipeline' imported but unused
+src/toolkit/pipelines/__init__.py:14: 'toolkit.pipelines.pipelines.get_prediction_pipeline' imported but unused
+src/toolkit/pipelines/__init__.py:14: 'toolkit.pipelines.pipelines.extract_features' imported but unused
+src/toolkit/pipelines/__init__.py:14: 'toolkit.pipelines.pipelines.extract_labeled_features' imported but unused
+src/toolkit/pipelines/__init__.py:22: 'toolkit.pipelines.train.FEATURE_HOOKS' imported but unused
+    Fail
+src/toolkit/pipelines/evaluation.py
+    Pass
+src/toolkit/__init__.py
+src/toolkit/__init__.py:3: 'toolkit.config' imported but unused
+src/toolkit/__init__.py:4: 'toolkit.transformers' imported but unused
+src/toolkit/__init__.py:5: 'toolkit.preprocessing' imported but unused
+src/toolkit/__init__.py:6: 'toolkit.pipelines' imported but unused
+src/toolkit/__init__.py:7: 'toolkit.utils' imported but unused
+    Fail
+src/toolkit/utils.py
+src/toolkit/utils.py:244: local variable 'ret_values' is assigned to but never used
+src/toolkit/utils.py:245: local variable 'exc' is assigned to but never used
+    Fail
+src/toolkit/config.py
+    Pass
+src/toolkit/scripts/get_packages_by_commit.py
+    Pass
+src/toolkit/scripts/__init__.py
+    Pass
+src/toolkit/preprocessing/ecos.py
+    Pass
+src/toolkit/preprocessing/__init__.py
+src/toolkit/preprocessing/__init__.py:3: 'toolkit.preprocessing.handlers.GitHubHandler' imported but unused
+src/toolkit/preprocessing/__init__.py:4: 'toolkit.preprocessing.preprocessors.NVDFeedPreprocessor' imported but unused
+src/toolkit/preprocessing/__init__.py:4: 'toolkit.preprocessing.preprocessors.LabelPreprocessor' imported but unused
+src/toolkit/preprocessing/__init__.py:4: 'toolkit.preprocessing.preprocessors.NLTKPreprocessor' imported but unused
+    Fail
+src/toolkit/preprocessing/handlers.py
+    Pass
+src/toolkit/preprocessing/preprocessors.py
+    Pass
+src/toolkit/__about__.py
+    Pass
+src/toolkit/transformers/extractors.py
+    Pass
+src/toolkit/transformers/__init__.py
+src/toolkit/transformers/__init__.py:3: 'toolkit.transformers.classifiers.NBClassifier' imported but unused
+src/toolkit/transformers/__init__.py:3: 'toolkit.transformers.classifiers.cross_validate' imported but unused
+src/toolkit/transformers/__init__.py:4: 'toolkit.transformers.extractors.FeatureExtractor' imported but unused
+src/toolkit/transformers/__init__.py:5: 'toolkit.transformers.hooks.Hook' imported but unused
+    Fail
+src/toolkit/transformers/classifiers.py
+src/toolkit/transformers/classifiers.py:390: local variable '_' is assigned to but never used
+    Fail
+src/toolkit/transformers/feature_hooks.py
+    Pass
+src/toolkit/transformers/hooks.py
+    Pass
+tests/test_preprocessors.py
+tests/test_preprocessors.py:77: local variable '_' is assigned to but never used
+tests/test_preprocessors.py:123: local variable '_' is assigned to but never used
+tests/test_preprocessors.py:170: local variable '_' is assigned to but never used
+tests/test_preprocessors.py:192: local variable '_' is assigned to but never used
+tests/test_preprocessors.py:279: local variable '_' is assigned to but never used
+    Fail
+tests/test_scripts.py
+    Pass
+tests/test_pipelines.py
+    Pass
+tests/__init__.py
+    Pass
+tests/test_utils.py
+tests/test_utils.py:115: local variable '_' is assigned to but never used
+    Fail
+tests/test_handlers.py
+tests/test_handlers.py:67: local variable '_' is assigned to but never used
+tests/test_handlers.py:76: local variable '_' is assigned to but never used
+    Fail
+tests/test_extras.py
+    Pass
+tests/test_hook.py
+tests/test_hook.py:21: local variable '_' is assigned to but never used
+    Fail
+tests/test_feature_hooks.py
+    Pass
+tests/test_ecos.py
+tests/test_ecos.py:7: 'xml.etree.ElementTree' imported but unused
+    Fail
+tests/test_classifiers.py
+    Pass
+tests/test_extractors.py
+tests/test_extractors.py:71: local variable 'test_labels' is assigned to but never used
+tests/test_extractors.py:92: local variable '_' is assigned to but never used
+tests/test_extractors.py:104: local variable '_' is assigned to but never used
+    Fail
+----------------------------------------------------
+Checking following source files for common errors:
+setup.py
+----------------------------------------------------
+
+setup.py
+    Pass
+12 source files out of 33 files needs to be checked and fixed

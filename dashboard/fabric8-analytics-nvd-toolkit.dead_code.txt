@@ -4,6 +4,127 @@ in following directories:
 src tests
 ----------------------------------------------------
 
-Using base prefix '/usr'
-New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-nvd-toolkit/venv/bin/python3
-Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages
+src/toolkit/pipelines/train.py
+    Pass
+src/toolkit/pipelines/predict.py
+    Pass
+src/toolkit/pipelines/pipelines.py
+    Pass
+src/toolkit/pipelines/__init__.py
+src/toolkit/pipelines/__init__.py:14: unused import 'extract_features' (90% confidence)
+src/toolkit/pipelines/__init__.py:14: unused import 'extract_labeled_features' (90% confidence)
+src/toolkit/pipelines/__init__.py:14: unused import 'get_full_training_pipeline' (90% confidence)
+src/toolkit/pipelines/__init__.py:14: unused import 'get_prediction_pipeline' (90% confidence)
+src/toolkit/pipelines/__init__.py:14: unused import 'get_preprocessing_pipeline' (90% confidence)
+src/toolkit/pipelines/__init__.py:14: unused import 'get_training_pipeline' (90% confidence)
+src/toolkit/pipelines/__init__.py:22: unused import 'FEATURE_HOOKS' (90% confidence)
+    Fail
+src/toolkit/pipelines/evaluation.py
+    Pass
+src/toolkit/__init__.py
+src/toolkit/__init__.py:3: unused import 'config' (90% confidence)
+src/toolkit/__init__.py:4: unused import 'transformers' (90% confidence)
+src/toolkit/__init__.py:5: unused import 'preprocessing' (90% confidence)
+src/toolkit/__init__.py:6: unused import 'pipelines' (90% confidence)
+src/toolkit/__init__.py:7: unused import 'utils' (90% confidence)
+    Fail
+src/toolkit/utils.py
+src/toolkit/utils.py:19: unused variable 'parser' (100% confidence)
+src/toolkit/utils.py:45: unused variable 'instance' (100% confidence)
+src/toolkit/utils.py:53: unused variable 'inst' (100% confidence)
+src/toolkit/utils.py:53: unused variable 'value' (100% confidence)
+src/toolkit/utils.py:57: unused variable 'inst' (100% confidence)
+    Fail
+src/toolkit/config.py
+    Pass
+src/toolkit/scripts/get_packages_by_commit.py
+    Pass
+src/toolkit/scripts/__init__.py
+    Pass
+src/toolkit/preprocessing/ecos.py
+    Pass
+src/toolkit/preprocessing/__init__.py
+src/toolkit/preprocessing/__init__.py:3: unused import 'GitHubHandler' (90% confidence)
+src/toolkit/preprocessing/__init__.py:4: unused import 'LabelPreprocessor' (90% confidence)
+src/toolkit/preprocessing/__init__.py:4: unused import 'NLTKPreprocessor' (90% confidence)
+src/toolkit/preprocessing/__init__.py:4: unused import 'NVDFeedPreprocessor' (90% confidence)
+    Fail
+src/toolkit/preprocessing/handlers.py
+src/toolkit/preprocessing/handlers.py:157: unused variable 'exc_tb' (100% confidence)
+src/toolkit/preprocessing/handlers.py:157: unused variable 'exc_type' (100% confidence)
+src/toolkit/preprocessing/handlers.py:157: unused variable 'exc_val' (100% confidence)
+    Fail
+src/toolkit/preprocessing/preprocessors.py
+    Pass
+src/toolkit/__about__.py
+    Pass
+src/toolkit/transformers/extractors.py
+src/toolkit/transformers/extractors.py:229: unused variable 'kwargs' (100% confidence)
+src/toolkit/transformers/extractors.py:241: unused variable 'kwargs' (100% confidence)
+src/toolkit/transformers/extractors.py:253: unused variable 'kwargs' (100% confidence)
+src/toolkit/transformers/extractors.py:265: unused variable 'kwargs' (100% confidence)
+    Fail
+src/toolkit/transformers/__init__.py
+src/toolkit/transformers/__init__.py:3: unused import 'cross_validate' (90% confidence)
+src/toolkit/transformers/__init__.py:3: unused import 'NBClassifier' (90% confidence)
+src/toolkit/transformers/__init__.py:4: unused import 'FeatureExtractor' (90% confidence)
+src/toolkit/transformers/__init__.py:5: unused import 'Hook' (90% confidence)
+    Fail
+src/toolkit/transformers/classifiers.py
+src/toolkit/transformers/classifiers.py:414: unused variable 'weights' (100% confidence)
+src/toolkit/transformers/classifiers.py:414: unused variable 'y_pred' (100% confidence)
+src/toolkit/transformers/classifiers.py:414: unused variable 'y_true' (100% confidence)
+    Fail
+src/toolkit/transformers/feature_hooks.py
+src/toolkit/transformers/feature_hooks.py:18: unused variable 'kwargs' (100% confidence)
+src/toolkit/transformers/feature_hooks.py:29: unused variable 'kwargs' (100% confidence)
+src/toolkit/transformers/feature_hooks.py:44: unused variable 'kwargs' (100% confidence)
+src/toolkit/transformers/feature_hooks.py:85: unused variable 'kwargs' (100% confidence)
+src/toolkit/transformers/feature_hooks.py:99: unused variable 'kwargs' (100% confidence)
+src/toolkit/transformers/feature_hooks.py:113: unused variable 'kwargs' (100% confidence)
+src/toolkit/transformers/feature_hooks.py:129: unused variable 'kwargs' (100% confidence)
+src/toolkit/transformers/feature_hooks.py:136: unused variable 'kwargs' (100% confidence)
+    Fail
+src/toolkit/transformers/hooks.py
+    Pass
+tests/test_preprocessors.py
+tests/test_preprocessors.py:301: unused variable 'p' (100% confidence)
+    Fail
+tests/test_scripts.py
+    Pass
+tests/test_pipelines.py
+    Pass
+tests/__init__.py
+    Pass
+tests/test_utils.py
+    Pass
+tests/test_handlers.py
+    Pass
+tests/test_extras.py
+    Pass
+tests/test_hook.py
+    Pass
+tests/test_feature_hooks.py
+    Pass
+tests/test_ecos.py
+tests/test_ecos.py:7: unused import 'ElementTree' (90% confidence)
+    Fail
+tests/test_classifiers.py
+    Pass
+tests/test_extractors.py
+tests/test_extractors.py:41: unused variable 't' (100% confidence)
+tests/test_extractors.py:41: unused variable 'w' (100% confidence)
+tests/test_extractors.py:85: unused variable 's' (100% confidence)
+tests/test_extractors.py:85: unused variable 't' (100% confidence)
+tests/test_extractors.py:85: unused variable 'w' (100% confidence)
+    Fail
+----------------------------------------------------
+Checking following source files for dead code and
+unused imports:
+setup.py
+----------------------------------------------------
+
+setup.py
+    Pass
+12 source files out of 33 files seems to contain dead code and/or unused imports

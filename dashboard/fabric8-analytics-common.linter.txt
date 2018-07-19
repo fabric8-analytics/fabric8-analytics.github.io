@@ -129,6 +129,8 @@ dashboard/src/results.py
     Pass
 dashboard/src/configuration.py
     Pass
+dashboard/src/dc_ce_history.py
+    Pass
 dashboard/src/jacoco_to_codecov.py
     Pass
 dashboard/src/sla.py
@@ -173,6 +175,8 @@ dashboard/src/cc_history.py
     Pass
 dashboard/src/git_utils.py
     Pass
+dashboard/src/history_generator.py
+    Pass
 reproducers/issue1934.py
     Pass
 reproducers/issue1619.py
@@ -211,4 +215,4 @@ db-integrity-tests/src/core_package_checker.py
     Pass
 db-integrity-tests/src/checker.py
     Pass
-All checks passed for 101 source files
+All checks passed for 103 source files
