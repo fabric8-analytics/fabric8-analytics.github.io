@@ -91,6 +91,8 @@ integration-tests/features/steps/authorization.py
     Pass
 integration-tests/features/steps/backbone_api.py
     Pass
+integration-tests/features/steps/license_analysis.py
+    Pass
 integration-tests/features/environment.py
     Pass
 integration-tests/hack/json2pom.py
@@ -215,4 +217,4 @@ db-integrity-tests/src/core_package_checker.py
     Pass
 db-integrity-tests/src/checker.py
     Pass
-All checks passed for 103 source files
+All checks passed for 104 source files

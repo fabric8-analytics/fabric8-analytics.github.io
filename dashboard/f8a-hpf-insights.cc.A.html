@@ -1,15 +1,17 @@
-<pre>tests/unit_tests/test_local_datastore.py
+<pre>tests/unit_tests/test_scoring_hpf_scoring.py
+    <span style="color:#AA00AA">F </span>8:0 test_basic_object - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>19:0 test_model_details - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>31:0 test_get_sizeof - <span style="color:#00AA00">A (2)</span>
+tests/unit_tests/test_local_datastore.py
     <span style="color:#AA00AA">F </span>6:0 test_local_datastore - <span style="color:#00AA00">A (3)</span>
-tests/unit_tests/test_scoring_helper.py
-    <span style="color:#AA00AA">F </span>5:0 test_get_sizeof - <span style="color:#00AA00">A (2)</span>
 src/flask_endpoint.py
-    <span style="color:#AA00AA">F </span>74:0 hpf_scoring - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>73:0 hpf_scoring - <span style="color:#00AA00">A (4)</span>
     <span style="color:#AA00AA">F </span>16:0 setup_logging - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>51:0 list_routes - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>107:0 hpf_model_details - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>56:0 heart_beat - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>62:0 liveness - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>68:0 readiness - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>50:0 list_routes - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>106:0 hpf_model_details - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>55:0 heart_beat - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>61:0 liveness - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>67:0 readiness - <span style="color:#00AA00">A (1)</span>
 src/data_store/abstract_data_store.py
     <span style="color:#00AAAA">C </span>6:0 AbstractDataStore - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>9:4 AbstractDataStore.get_name - <span style="color:#00AA00">A (1)</span>
@@ -46,16 +48,16 @@ src/data_store/s3_data_store.py
     <span style="color:#00AA00">M </span>72:4 S3DataStore.upload_file - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>77:4 S3DataStore.download_file - <span style="color:#00AA00">A (1)</span>
 src/scoring/hpf_scoring.py
-    <span style="color:#00AA00">M </span>104:4 HPFScoring.predict - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>136:4 HPFScoring.match_manifest - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>151:4 HPFScoring.folding_in - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>72:4 HPFScoring.loadS3 - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>27:0 HPFScoring - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>170:4 HPFScoring.normalize_result - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>181:4 HPFScoring.filter_recommendation - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>30:4 HPFScoring.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>50:4 HPFScoring._getsizeof - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>58:4 HPFScoring.model_details - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>106:4 HPFScoring.predict - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>138:4 HPFScoring.match_manifest - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>153:4 HPFScoring.folding_in - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>74:4 HPFScoring.loadS3 - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>28:0 HPFScoring - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>31:4 HPFScoring.__init__ - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>172:4 HPFScoring.normalize_result - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>183:4 HPFScoring.filter_recommendation - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>52:4 HPFScoring._getsizeof - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>60:4 HPFScoring.model_details - <span style="color:#00AA00">A (1)</span>
 perf_tests/locust_tests.py
     <span style="color:#AA00AA">F </span>82:0 get_packages - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AAAA">C </span>89:0 HPFInsightsBehaviour - <span style="color:#00AA00">A (1)</span>
@@ -63,6 +65,6 @@ perf_tests/locust_tests.py
     <span style="color:#00AA00">M </span>96:4 HPFInsightsBehaviour.trigger_companion_recommendation_random_stack_len - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AAAA">C </span>107:0 HPFInsightsLocust - <span style="color:#00AA00">A (1)</span>
 
-56 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (1.7857142857142858)</span>
+58 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (1.9137931034482758)</span>
 </pre>

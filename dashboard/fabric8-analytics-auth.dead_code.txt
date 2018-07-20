@@ -1,7 +1,7 @@
 ----------------------------------------------------
 Checking source files for dead code and unused imports
 in following directories:
-f8a_auth tests
+fabric8a_auth tests
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -10,23 +10,21 @@ Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages (0.28)
-f8a_auth/__init__.py
+fabric8a_auth/fabric8a_auth.py
     Pass
-f8a_auth/f8a_auth.py
+fabric8a_auth/__init__.py
     Pass
-f8a_auth/errors.py
+fabric8a_auth/errors.py
     Pass
 tests/test_errors_class.py
 tests/test_errors_class.py:3: unused import 'unittest' (90% confidence)
     Fail
+tests/__init__.py
+    Pass
 tests/test_user_class.py
 tests/test_user_class.py:3: unused import 'unittest' (90% confidence)
     Fail
-tests/tests.py
-tests/tests.py:3: unused import 'unittest' (90% confidence)
-    Fail
 tests/test_token_handling.py
-tests/test_token_handling.py:3: unused import 'unittest' (90% confidence)
 tests/test_token_handling.py:12: unused variable 'module' (100% confidence)
 tests/test_token_handling.py:34: unused variable 'module' (100% confidence)
 tests/test_token_handling.py:39: unused variable 'app' (100% confidence)
@@ -49,4 +47,4 @@ setup.py
 
 setup.py
     Pass
-4 source files out of 8 files seems to contain dead code and/or unused imports
+3 source files out of 8 files seems to contain dead code and/or unused imports

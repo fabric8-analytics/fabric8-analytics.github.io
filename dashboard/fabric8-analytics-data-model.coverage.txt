@@ -7,7 +7,7 @@ src/data_source/__init__.py                   0      0   100%
 src/data_source/abstract_data_source.py       6      0   100%
 src/data_source/s3_data_source.py            36      2    94%   29-31
 src/graph_manager.py                         38      0   100%
-src/graph_populator.py                      192      2    99%   58, 437
+src/graph_populator.py                      192      2    99%   67, 455
 src/rest_api.py                             150     10    93%   82, 85-87, 163, 199, 205, 239-242, 277
 -----------------------------------------------------------------------
 TOTAL                                       650     34    95%

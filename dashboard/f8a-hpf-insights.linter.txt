@@ -31,11 +31,11 @@ src/training/__init__.py
     Pass
 tests/__init__.py
     Pass
+tests/unit_tests/test_scoring_hpf_scoring.py
+    Pass
 tests/unit_tests/__init__.py
     Pass
 tests/unit_tests/test_local_datastore.py
-    Pass
-tests/unit_tests/test_scoring_helper.py
     Pass
 perf_tests/__init__.py
     Pass

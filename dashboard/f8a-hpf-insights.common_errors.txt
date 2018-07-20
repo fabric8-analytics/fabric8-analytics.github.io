@@ -29,19 +29,20 @@ src/scoring/__init__.py
 src/scoring/hpf_scoring.py
 src/scoring/hpf_scoring.py:10: redefinition of unused 'os' from line 5
 src/scoring/hpf_scoring.py:12: 'collections.defaultdict' imported but unused
-src/scoring/hpf_scoring.py:13: 'src.config.c' imported but unused
-src/scoring/hpf_scoring.py:13: 'src.config.c_c' imported but unused
-src/scoring/hpf_scoring.py:13: 'src.config.d_c' imported but unused
+src/scoring/hpf_scoring.py:14: 'src.config.c' imported but unused
+src/scoring/hpf_scoring.py:14: 'src.config.c_c' imported but unused
+src/scoring/hpf_scoring.py:14: 'src.config.d_c' imported but unused
     Fail
 src/training/__init__.py
     Pass
 tests/__init__.py
     Pass
+tests/unit_tests/test_scoring_hpf_scoring.py
+tests/unit_tests/test_scoring_hpf_scoring.py:5: 'tensorflow as tf' imported but unused
+    Fail
 tests/unit_tests/__init__.py
     Pass
 tests/unit_tests/test_local_datastore.py
-    Pass
-tests/unit_tests/test_scoring_helper.py
     Pass
 perf_tests/__init__.py
     Pass
@@ -51,4 +52,4 @@ perf_tests/locust_tests.py:4: 'locust.web' imported but unused
     Fail
 PoC_code/__init__.py
     Pass
-2 source files out of 17 files needs to be checked and fixed
+3 source files out of 17 files needs to be checked and fixed

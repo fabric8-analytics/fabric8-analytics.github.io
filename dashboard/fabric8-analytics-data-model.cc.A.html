@@ -1,15 +1,17 @@
-<pre>sanitycheck.py
+<pre>populate_schema.py
+    <span style="color:#AA00AA">F </span>13:0 run - <span style="color:#00AA00">A (2)</span>
+sanitycheck.py
     <span style="color:#AA00AA">F </span>36:0 main - <span style="color:#00AA00">A (4)</span>
     <span style="color:#AA00AA">F </span>17:0 test_http_connection - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>31:0 time_remaining - <span style="color:#00AA00">A (1)</span>
 src/graph_populator.py
-    <span style="color:#00AA00">M </span>92:4 GraphPopulator.construct_version_query - <span style="color:#AA0000">E (32)</span>
-    <span style="color:#00AA00">M </span>248:4 GraphPopulator.construct_package_query - <span style="color:#AA5500">D (21)</span>
+    <span style="color:#00AA00">M </span>101:4 GraphPopulator.construct_version_query - <span style="color:#AA0000">E (32)</span>
+    <span style="color:#00AA00">M </span>261:4 GraphPopulator.construct_package_query - <span style="color:#AA5500">D (21)</span>
     <span style="color:#00AAAA">C </span>13:0 GraphPopulator - <span style="color:#AA5500">C (12)</span>
-    <span style="color:#00AA00">M </span>414:4 GraphPopulator.create_query_string - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>432:4 GraphPopulator.create_query_string - <span style="color:#00AA00">B (6)</span>
     <span style="color:#00AA00">M </span>16:4 GraphPopulator.construct_graph_nodes - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>60:4 GraphPopulator.sanitize_text_for_query - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>80:4 GraphPopulator.correct_license_splitting - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>69:4 GraphPopulator.sanitize_text_for_query - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>89:4 GraphPopulator.correct_license_splitting - <span style="color:#00AA00">A (3)</span>
 src/rest_api.py
     <span style="color:#AA00AA">F </span>168:0 handle_properties - <span style="color:#AA5500">C (13)</span>
     <span style="color:#AA00AA">F </span>137:0 selective_ingest - <span style="color:#00AA00">B (6)</span>
@@ -109,6 +111,6 @@ test/test_graph_populator.py
     <span style="color:#AA00AA">F </span>63:0 test_correct_license_splitting - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>250:0 test_create_query_string - <span style="color:#00AA00">A (1)</span>
 
-94 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (4.702127659574468)</span>
+95 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (4.673684210526316)</span>
 </pre>

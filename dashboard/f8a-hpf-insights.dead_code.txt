@@ -43,19 +43,20 @@ src/scoring/__init__.py
     Pass
 src/scoring/hpf_scoring.py
 src/scoring/hpf_scoring.py:12: unused import 'defaultdict' (90% confidence)
-src/scoring/hpf_scoring.py:13: unused import 'c' (90% confidence)
-src/scoring/hpf_scoring.py:13: unused import 'c_c' (90% confidence)
-src/scoring/hpf_scoring.py:13: unused import 'd_c' (90% confidence)
+src/scoring/hpf_scoring.py:14: unused import 'c' (90% confidence)
+src/scoring/hpf_scoring.py:14: unused import 'c_c' (90% confidence)
+src/scoring/hpf_scoring.py:14: unused import 'd_c' (90% confidence)
     Fail
 src/training/__init__.py
     Pass
 tests/__init__.py
     Pass
+tests/unit_tests/test_scoring_hpf_scoring.py
+tests/unit_tests/test_scoring_hpf_scoring.py:5: unused import 'tf' (90% confidence)
+    Fail
 tests/unit_tests/__init__.py
     Pass
 tests/unit_tests/test_local_datastore.py
-    Pass
-tests/unit_tests/test_scoring_helper.py
     Pass
 perf_tests/__init__.py
     Pass
@@ -65,4 +66,4 @@ perf_tests/locust_tests.py:4: unused import 'web' (90% confidence)
     Fail
 PoC_code/__init__.py
     Pass
-4 source files out of 17 files seems to contain dead code and/or unused imports
+5 source files out of 17 files seems to contain dead code and/or unused imports

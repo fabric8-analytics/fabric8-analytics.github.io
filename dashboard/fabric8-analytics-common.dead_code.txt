@@ -196,6 +196,11 @@ integration-tests/features/steps/authorization.py
 integration-tests/features/steps/backbone_api.py
 integration-tests/features/steps/backbone_api.py:11: unused import 'urljoin' (90% confidence)
     Fail
+integration-tests/features/steps/license_analysis.py
+integration-tests/features/steps/license_analysis.py:4: unused import 'given' (90% confidence)
+integration-tests/features/steps/license_analysis.py:4: unused import 'then' (90% confidence)
+integration-tests/features/steps/license_analysis.py:5: unused import 'urljoin' (90% confidence)
+    Fail
 integration-tests/features/environment.py
     Pass
 integration-tests/hack/json2pom.py
@@ -354,4 +359,4 @@ db-integrity-tests/src/core_package_checker.py
     Pass
 db-integrity-tests/src/checker.py
     Pass
-42 source files out of 103 files seems to contain dead code and/or unused imports
+43 source files out of 104 files seems to contain dead code and/or unused imports

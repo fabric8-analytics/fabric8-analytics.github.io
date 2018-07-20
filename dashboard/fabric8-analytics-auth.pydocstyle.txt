@@ -1,7 +1,7 @@
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
-f8a_auth tests
+fabric8a_auth tests
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -10,26 +10,28 @@ Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (2.1.1)
-Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.11.0)
 Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.2.1)
-f8a_auth/__init__.py
+Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.11.0)
+fabric8a_auth/fabric8a_auth.py
+fabric8a_auth/fabric8a_auth.py:1 at module level:
+        D400: First line should end with a period (not 's')
+fabric8a_auth/fabric8a_auth.py:213 in public method `__init__`:
+        D107: Missing docstring in __init__
+2
+    Fail
+fabric8a_auth/__init__.py
 0
     Pass
-f8a_auth/f8a_auth.py
-f8a_auth/f8a_auth.py:1 at module level:
-        D400: First line should end with a period (not 's')
-1
-    Fail
-f8a_auth/errors.py
+fabric8a_auth/errors.py
 0
     Pass
 tests/test_errors_class.py
 0
     Pass
-tests/test_user_class.py
+tests/__init__.py
 0
     Pass
-tests/tests.py
+tests/test_user_class.py
 0
     Pass
 tests/test_token_handling.py

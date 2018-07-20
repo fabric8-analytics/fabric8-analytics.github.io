@@ -7,55 +7,43 @@ Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2
 ----------------------------------------------------
 Checking source files for common errors in following
 directories:
-f8a_auth tests
+fabric8a_auth tests
 ----------------------------------------------------
 
-f8a_auth/__init__.py
-    Pass
-f8a_auth/f8a_auth.py
-f8a_auth/f8a_auth.py:119: redefinition of unused 'get_audiences' from line 43
-f8a_auth/f8a_auth.py:186: redefinition of unused 'fetch_public_key' from line 16
+fabric8a_auth/fabric8a_auth.py
+fabric8a_auth/fabric8a_auth.py:91: redefinition of unused 'get_audiences' from line 15
     Fail
-f8a_auth/errors.py
+fabric8a_auth/__init__.py
+    Pass
+fabric8a_auth/errors.py
     Pass
 tests/test_errors_class.py
 tests/test_errors_class.py:3: 'unittest' imported but unused
 tests/test_errors_class.py:17: local variable 'e' is assigned to but never used
     Fail
+tests/__init__.py
+    Pass
 tests/test_user_class.py
 tests/test_user_class.py:3: 'unittest' imported but unused
     Fail
-tests/tests.py
-tests/tests.py:3: 'unittest' imported but unused
-    Fail
 tests/test_token_handling.py
-tests/test_token_handling.py:3: 'unittest' imported but unused
-tests/test_token_handling.py:5: 'from unittest.mock import *' used; unable to detect undefined names
-tests/test_token_handling.py:9: 'from f8a_auth import *' used; unable to detect undefined names
-tests/test_token_handling.py:69: 'patch' may be undefined, or defined from star imports: f8a_auth, unittest.mock
-tests/test_token_handling.py:70: 'patch' may be undefined, or defined from star imports: f8a_auth, unittest.mock
-tests/test_token_handling.py:73: 'decode_token' may be undefined, or defined from star imports: f8a_auth, unittest.mock
-tests/test_token_handling.py:76: 'patch' may be undefined, or defined from star imports: f8a_auth, unittest.mock
-tests/test_token_handling.py:77: 'patch' may be undefined, or defined from star imports: f8a_auth, unittest.mock
-tests/test_token_handling.py:81: 'decode_token' may be undefined, or defined from star imports: f8a_auth, unittest.mock
-tests/test_token_handling.py:84: 'patch' may be undefined, or defined from star imports: f8a_auth, unittest.mock
-tests/test_token_handling.py:85: 'patch' may be undefined, or defined from star imports: f8a_auth, unittest.mock
-tests/test_token_handling.py:89: 'decode_token' may be undefined, or defined from star imports: f8a_auth, unittest.mock
-tests/test_token_handling.py:92: 'patch' may be undefined, or defined from star imports: f8a_auth, unittest.mock
-tests/test_token_handling.py:93: 'patch' may be undefined, or defined from star imports: f8a_auth, unittest.mock
-tests/test_token_handling.py:97: 'decode_token' may be undefined, or defined from star imports: f8a_auth, unittest.mock
-tests/test_token_handling.py:100: 'patch' may be undefined, or defined from star imports: f8a_auth, unittest.mock
-tests/test_token_handling.py:101: 'patch' may be undefined, or defined from star imports: f8a_auth, unittest.mock
-tests/test_token_handling.py:105: 'decode_token' may be undefined, or defined from star imports: f8a_auth, unittest.mock
-tests/test_token_handling.py:108: 'patch' may be undefined, or defined from star imports: f8a_auth, unittest.mock
-tests/test_token_handling.py:109: 'patch' may be undefined, or defined from star imports: f8a_auth, unittest.mock
-tests/test_token_handling.py:118: 'decode_token' may be undefined, or defined from star imports: f8a_auth, unittest.mock
-tests/test_token_handling.py:121: 'patch' may be undefined, or defined from star imports: f8a_auth, unittest.mock
-tests/test_token_handling.py:122: 'patch' may be undefined, or defined from star imports: f8a_auth, unittest.mock
-tests/test_token_handling.py:132: 'decode_token' may be undefined, or defined from star imports: f8a_auth, unittest.mock
-tests/test_token_handling.py:135: 'patch' may be undefined, or defined from star imports: f8a_auth, unittest.mock
-tests/test_token_handling.py:136: 'patch' may be undefined, or defined from star imports: f8a_auth, unittest.mock
-tests/test_token_handling.py:145: 'decode_token' may be undefined, or defined from star imports: f8a_auth, unittest.mock
+tests/test_token_handling.py:3: 'from unittest.mock import *' used; unable to detect undefined names
+tests/test_token_handling.py:69: 'patch' may be undefined, or defined from star imports: unittest.mock
+tests/test_token_handling.py:70: 'patch' may be undefined, or defined from star imports: unittest.mock
+tests/test_token_handling.py:76: 'patch' may be undefined, or defined from star imports: unittest.mock
+tests/test_token_handling.py:77: 'patch' may be undefined, or defined from star imports: unittest.mock
+tests/test_token_handling.py:84: 'patch' may be undefined, or defined from star imports: unittest.mock
+tests/test_token_handling.py:85: 'patch' may be undefined, or defined from star imports: unittest.mock
+tests/test_token_handling.py:92: 'patch' may be undefined, or defined from star imports: unittest.mock
+tests/test_token_handling.py:93: 'patch' may be undefined, or defined from star imports: unittest.mock
+tests/test_token_handling.py:100: 'patch' may be undefined, or defined from star imports: unittest.mock
+tests/test_token_handling.py:101: 'patch' may be undefined, or defined from star imports: unittest.mock
+tests/test_token_handling.py:108: 'patch' may be undefined, or defined from star imports: unittest.mock
+tests/test_token_handling.py:109: 'patch' may be undefined, or defined from star imports: unittest.mock
+tests/test_token_handling.py:121: 'patch' may be undefined, or defined from star imports: unittest.mock
+tests/test_token_handling.py:122: 'patch' may be undefined, or defined from star imports: unittest.mock
+tests/test_token_handling.py:135: 'patch' may be undefined, or defined from star imports: unittest.mock
+tests/test_token_handling.py:136: 'patch' may be undefined, or defined from star imports: unittest.mock
     Fail
 ----------------------------------------------------
 Checking following source files for common errors:
@@ -64,4 +52,4 @@ setup.py
 
 setup.py
     Pass
-5 source files out of 8 files needs to be checked and fixed
+4 source files out of 8 files needs to be checked and fixed

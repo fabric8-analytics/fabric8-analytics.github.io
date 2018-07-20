@@ -661,9 +661,19 @@ integration-tests/features/steps/backbone_api.py:13: 'from src.json_utils import
 integration-tests/features/steps/backbone_api.py:14: 'from src.authorization_tokens import *' used; unable to detect undefined names
 integration-tests/features/steps/backbone_api.py:47: 'check_id_value_in_json_response' may be undefined, or defined from star imports: src.authorization_tokens, src.json_utils
     Fail
+integration-tests/features/steps/license_analysis.py
+integration-tests/features/steps/license_analysis.py:4: 'behave.given' imported but unused
+integration-tests/features/steps/license_analysis.py:4: 'behave.then' imported but unused
+integration-tests/features/steps/license_analysis.py:5: 'urllib.parse.urljoin' imported but unused
+integration-tests/features/steps/license_analysis.py:7: 'from src.parsing import *' used; unable to detect undefined names
+integration-tests/features/steps/license_analysis.py:8: 'from src.utils import *' used; unable to detect undefined names
+integration-tests/features/steps/license_analysis.py:9: 'from src.authorization_tokens import *' used; unable to detect undefined names
+integration-tests/features/steps/license_analysis.py:18: redefinition of unused 'access_license_service' from line 12
+integration-tests/features/steps/license_analysis.py:22: 'authorization' may be undefined, or defined from star imports: src.authorization_tokens, src.parsing, src.utils
+    Fail
 integration-tests/features/environment.py
 integration-tests/features/environment.py:12: 'sys' imported but unused
-integration-tests/features/environment.py:191: undefined name 'context'
+integration-tests/features/environment.py:192: undefined name 'context'
     Fail
 integration-tests/hack/json2pom.py
     Pass
@@ -977,4 +987,4 @@ db-integrity-tests/src/core_package_checker.py:132: local variable 'e' is assign
     Fail
 db-integrity-tests/src/checker.py
     Pass
-61 source files out of 103 files needs to be checked and fixed
+62 source files out of 104 files needs to be checked and fixed

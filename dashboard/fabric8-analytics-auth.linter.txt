@@ -1,6 +1,6 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-f8a_auth tests
+fabric8a_auth tests
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -9,21 +9,23 @@ Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: pycodestyle in ./venv/lib/python3.6/site-packages (2.4.0)
-f8a_auth/__init__.py
+fabric8a_auth/fabric8a_auth.py
     Pass
-f8a_auth/f8a_auth.py
-f8a_auth/f8a_auth.py:240:1: W391 blank line at end of file
-    Fail
-f8a_auth/errors.py
+fabric8a_auth/__init__.py
+    Pass
+fabric8a_auth/errors.py
     Pass
 tests/test_errors_class.py
     Pass
+tests/__init__.py
+    Pass
 tests/test_user_class.py
     Pass
-tests/tests.py
-    Pass
 tests/test_token_handling.py
-    Pass
+tests/test_token_handling.py:109:101: E501 line too long (106 > 100 characters)
+tests/test_token_handling.py:122:101: E501 line too long (106 > 100 characters)
+tests/test_token_handling.py:136:101: E501 line too long (106 > 100 characters)
+    Fail
 
 ----------------------------------------------------
 Running Python linter against selected files:

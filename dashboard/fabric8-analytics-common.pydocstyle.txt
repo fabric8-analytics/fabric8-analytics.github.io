@@ -135,6 +135,9 @@ integration-tests/features/steps/authorization.py
 integration-tests/features/steps/backbone_api.py
 0
     Pass
+integration-tests/features/steps/license_analysis.py
+0
+    Pass
 integration-tests/features/environment.py
 0
     Pass
@@ -321,4 +324,4 @@ db-integrity-tests/src/core_package_checker.py
 db-integrity-tests/src/checker.py
 0
     Pass
-All checks passed for 103 source files
+All checks passed for 104 source files
