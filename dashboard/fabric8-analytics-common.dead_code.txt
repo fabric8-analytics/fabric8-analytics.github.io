@@ -159,7 +159,7 @@ integration-tests/features/steps/s3_component_analysis.py
 integration-tests/features/steps/s3_component_analysis.py:2: unused import 'given' (90% confidence)
 integration-tests/features/steps/s3_component_analysis.py:6: unused import 'boto3' (90% confidence)
 integration-tests/features/steps/s3_component_analysis.py:7: unused import 'botocore' (90% confidence)
-integration-tests/features/steps/s3_component_analysis.py:333: unreachable code after 'raise' (100% confidence)
+integration-tests/features/steps/s3_component_analysis.py:335: unreachable code after 'raise' (100% confidence)
     Fail
 integration-tests/features/steps/server_api.py
 integration-tests/features/steps/server_api.py:2: unused import 'given' (90% confidence)
@@ -197,9 +197,9 @@ integration-tests/features/steps/backbone_api.py
 integration-tests/features/steps/backbone_api.py:11: unused import 'urljoin' (90% confidence)
     Fail
 integration-tests/features/steps/license_analysis.py
-integration-tests/features/steps/license_analysis.py:4: unused import 'given' (90% confidence)
-integration-tests/features/steps/license_analysis.py:4: unused import 'then' (90% confidence)
-integration-tests/features/steps/license_analysis.py:5: unused import 'urljoin' (90% confidence)
+integration-tests/features/steps/license_analysis.py:5: unused import 'given' (90% confidence)
+integration-tests/features/steps/license_analysis.py:6: unused import 'urljoin' (90% confidence)
+integration-tests/features/steps/license_analysis.py:213: unused variable 'error_message' (100% confidence)
     Fail
 integration-tests/features/environment.py
     Pass

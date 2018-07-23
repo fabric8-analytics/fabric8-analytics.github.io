@@ -566,9 +566,6 @@ f8a_worker/workers/dependency_parser.py
     <span style="color:#00AA00">M </span>168:4 GithubDependencyTreeTask.get_python_dependencies - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>272:4 GithubDependencyTreeTask.change_package_lock_to_shrinkwrap - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>20:4 GithubDependencyTreeTask.execute - <span style="color:#00AA00">A (1)</span>
-f8a_worker/workers/gh_metadata_result_collector.py
-    <span style="color:#00AAAA">C </span>11:0 GitHubManifestMetadataResultCollector - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#00AA00">M </span>20:4 GitHubManifestMetadataResultCollector.run - <span style="color:#00AA00">B (9)</span>
 f8a_worker/workers/bookkeeper.py
     <span style="color:#00AA00">M </span>16:4 BookkeeperTask.store_user_node - <span style="color:#00AA00">B (7)</span>
     <span style="color:#00AAAA">C </span>10:0 BookkeeperTask - <span style="color:#00AA00">A (5)</span>
@@ -594,13 +591,12 @@ f8a_worker/workers/repo_dependency_finder.py
     <span style="color:#00AA00">M </span>56:4 RepoDependencyFinderTask.create_repo_node_and_get_cve - <span style="color:#00AA00">A (4)</span>
     <span style="color:#00AA00">M </span>96:4 RepoDependencyFinderTask.get_cve - <span style="color:#00AA00">A (4)</span>
 f8a_worker/workers/mercator.py
-    <span style="color:#00AA00">M </span>66:4 MercatorTask._merge_python_items - <span style="color:#AA5500">D (29)</span>
-    <span style="color:#00AA00">M </span>201:4 MercatorTask.run_mercator - <span style="color:#AA5500">C (19)</span>
-    <span style="color:#00AAAA">C </span>42:0 MercatorTask - <span style="color:#00AA00">B (10)</span>
-    <span style="color:#00AA00">M </span>50:4 MercatorTask._parse_requires_txt - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>178:4 MercatorTask.run_mercator_on_git_repo - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>158:4 MercatorTask.execute - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>258:4 MercatorTask.run_gofedlib - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>153:4 MercatorTask._merge_python_items - <span style="color:#AA5500">D (29)</span>
+    <span style="color:#00AA00">M </span>59:4 MercatorTask.run_mercator - <span style="color:#AA5500">C (19)</span>
+    <span style="color:#00AAAA">C </span>38:0 MercatorTask - <span style="color:#AA5500">C (11)</span>
+    <span style="color:#00AA00">M </span>137:4 MercatorTask._parse_requires_txt - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>46:4 MercatorTask.execute - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>116:4 MercatorTask.run_gofedlib - <span style="color:#00AA00">A (1)</span>
 f8a_worker/workers/cvedbsync.py
     <span style="color:#00AA00">M </span>13:4 CVEDBSyncTask.components_to_scan - <span style="color:#AA5500">C (12)</span>
     <span style="color:#00AAAA">C </span>10:0 CVEDBSyncTask - <span style="color:#00AA00">B (8)</span>
@@ -709,9 +705,6 @@ f8a_worker/workers/dependency_snapshot.py
     <span style="color:#00AAAA">C </span>17:0 DependencySnapshotTask - <span style="color:#00AA00">B (6)</span>
     <span style="color:#00AA00">M </span>23:4 DependencySnapshotTask._collect_dependencies - <span style="color:#00AA00">A (5)</span>
     <span style="color:#00AA00">M </span>82:4 DependencySnapshotTask.execute - <span style="color:#00AA00">A (4)</span>
-f8a_worker/workers/gh_metadata_init.py
-    <span style="color:#00AAAA">C </span>8:0 InitGitHubManifestMetadata - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>11:4 InitGitHubManifestMetadata.execute - <span style="color:#00AA00">A (1)</span>
 f8a_worker/workers/schemas/source_licenses.py
     <span style="color:#00AAAA">C </span>67:0 LicenseDetailsPre30 - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AAAA">C </span>123:0 LicenseScanDetails - <span style="color:#00AA00">A (3)</span>
@@ -1105,6 +1098,6 @@ alembic/versions/22a1cd66a9c6_batches_reviews.py
     <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>40:0 downgrade - <span style="color:#00AA00">A (1)</span>
 
-952 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (2.8434873949579833)</span>
+947 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (2.833157338965153)</span>
 </pre>

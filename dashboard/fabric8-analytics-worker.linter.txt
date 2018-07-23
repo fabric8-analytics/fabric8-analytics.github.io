@@ -227,8 +227,6 @@ f8a_worker/workers/graph_importer.py
     Pass
 f8a_worker/workers/dependency_parser.py
     Pass
-f8a_worker/workers/gh_metadata_result_collector.py
-    Pass
 f8a_worker/workers/bookkeeper.py
     Pass
 f8a_worker/workers/__init__.py
@@ -274,8 +272,6 @@ f8a_worker/workers/repository_description.py
 f8a_worker/workers/unknown_dep_fetcher.py
     Pass
 f8a_worker/workers/dependency_snapshot.py
-    Pass
-f8a_worker/workers/gh_metadata_init.py
     Pass
 f8a_worker/data_normalizer.py
     Pass
@@ -340,4 +336,4 @@ setup.py
 ----------------------------------------------------
 setup.py
     Pass
-All checks passed for 163 source files
+All checks passed for 161 source files

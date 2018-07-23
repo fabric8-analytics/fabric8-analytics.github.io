@@ -282,6 +282,7 @@ integration-tests/features/src/schema_validator.py
 integration-tests/features/src/parsing.py
     <span style="color:#AA00AA">F </span>11:0 parse_float_value_from_text_stream - <span style="color:#00AA00">A (5)</span>
     <span style="color:#AA00AA">F </span>27:0 parse_token_clause - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>37:0 parse_number - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>5:0 parse_timestamp - <span style="color:#00AA00">A (1)</span>
 integration-tests/features/src/utils.py
     <span style="color:#AA00AA">F </span>26:0 which - <span style="color:#00AA00">A (5)</span>
@@ -445,28 +446,28 @@ integration-tests/features/steps/gremlin.py
     <span style="color:#AA00AA">F </span>548:0 test_vertex_label - <span style="color:#00AA00">A (1)</span>
 integration-tests/features/steps/s3_component_analysis.py
     <span style="color:#AA00AA">F </span>11:0 check_component_core_data - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>336:0 wait_for_component_toplevel_file - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>315:0 read_core_data_from_bucket - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>78:0 _node_items_to_check - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>97:0 check_unexpected_items_in_node - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>174:0 check_component_digest_metadata_value - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>264:0 check_package_name_and_version - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>110:0 check_component_latest_version - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>133:0 check_runtime_dependency_count - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>145:0 check_runtime_dependency_count_in_summary - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>217:0 check_package_author - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>226:0 check_vsc - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>236:0 check_repository_url - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>246:0 check_project_homepage - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>255:0 check_project_description - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>278:0 check_component_security_issues_data - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>307:0 check_package_license - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>89:0 check_expected_items_in_node - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>120:0 check_component_dependency_snapshot_data - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>159:0 check_component_digest_data - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>190:0 check_component_keywords_tagging_data - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>204:0 check_component_metadata_data - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>294:0 check_component_source_licenses_data - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>338:0 wait_for_component_toplevel_file - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>317:0 read_core_data_from_bucket - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>80:0 _node_items_to_check - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>99:0 check_unexpected_items_in_node - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>176:0 check_component_digest_metadata_value - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>266:0 check_package_name_and_version - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>112:0 check_component_latest_version - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>135:0 check_runtime_dependency_count - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>147:0 check_runtime_dependency_count_in_summary - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>219:0 check_package_author - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>228:0 check_vsc - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>238:0 check_repository_url - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>248:0 check_project_homepage - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>257:0 check_project_description - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>280:0 check_component_security_issues_data - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>309:0 check_package_license - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>91:0 check_expected_items_in_node - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>122:0 check_component_dependency_snapshot_data - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>161:0 check_component_digest_data - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>192:0 check_component_keywords_tagging_data - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>206:0 check_component_metadata_data - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>296:0 check_component_source_licenses_data - <span style="color:#00AA00">A (1)</span>
 integration-tests/features/steps/server_api.py
     <span style="color:#AA00AA">F </span>63:0 check_versions - <span style="color:#00AA00">B (6)</span>
     <span style="color:#AA00AA">F </span>53:0 check_ecosystems - <span style="color:#00AA00">A (4)</span>
@@ -669,8 +670,26 @@ integration-tests/features/steps/backbone_api.py
     <span style="color:#AA00AA">F </span>23:0 post_backbone_api - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>17:0 running_backbone_api - <span style="color:#00AA00">A (1)</span>
 integration-tests/features/steps/license_analysis.py
-    <span style="color:#AA00AA">F </span>12:0 access_license_service - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>18:0 access_license_service - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>172:0 check_license_for_package_version - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>192:0 check_license_for_package_version_none - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>212:0 test_attribute_value_in_license_analysis - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>27:0 send_payload_to_license_analysis - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>131:0 check_distinct_license_existence - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>243:0 check_license_analysis_status_for_package_version - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>52:0 check_license_analysis_status - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>63:0 check_license_analysis_stack_license_empty - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>74:0 check_license_analysis_stack_license - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>85:0 check_no_conflict_packages - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>96:0 check_no_outlier_packages - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>107:0 check_distinct_license_count - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>120:0 check_no_distinct_licenses - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>141:0 check_no_component_conflicts - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>153:0 check_no_really_unknown_licenses - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>231:0 check_license_report_for_package_version - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>14:0 access_license_service - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>20:0 access_license_service - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>44:0 send_the_file_for_license_analysis - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>165:0 no_package_found - <span style="color:#00AA00">A (1)</span>
 integration-tests/hack/json2pom.py
     <span style="color:#AA00AA">F </span>38:0 json2pom - <span style="color:#00AA00">A (4)</span>
     <span style="color:#AA00AA">F </span>9:0 print_header - <span style="color:#00AA00">A (1)</span>
@@ -997,6 +1016,6 @@ perf-tests/src/gremlin_package_generator.py
     <span style="color:#00AA00">M </span>55:4 GremlinPackageGenerator.package_generator_for_ecosystem - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>65:4 GremlinPackageGenerator.package_version_generator_for_ecosystem - <span style="color:#00AA00">A (2)</span>
 
-914 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (2.2943107221006565)</span>
+933 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (2.3011789924973205)</span>
 </pre>

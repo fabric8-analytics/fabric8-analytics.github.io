@@ -258,8 +258,6 @@ f8a_worker/workers/graph_importer.py
     Pass
 f8a_worker/workers/dependency_parser.py
     Pass
-f8a_worker/workers/gh_metadata_result_collector.py
-    Pass
 f8a_worker/workers/bookkeeper.py
     Pass
 f8a_worker/workers/__init__.py
@@ -271,30 +269,28 @@ f8a_worker/workers/__init__.py:7: 'f8a_worker.workers.dependency_snapshot.Depend
 f8a_worker/workers/__init__.py:8: 'f8a_worker.workers.digester.DigesterTask' imported but unused
 f8a_worker/workers/__init__.py:9: 'f8a_worker.workers.finalize.FinalizeTask' imported but unused
 f8a_worker/workers/__init__.py:9: 'f8a_worker.workers.finalize.PackageFinalizeTask' imported but unused
-f8a_worker/workers/__init__.py:10: 'f8a_worker.workers.gh_metadata_init.InitGitHubManifestMetadata' imported but unused
-f8a_worker/workers/__init__.py:11: 'f8a_worker.workers.gh_metadata_result_collector.GitHubManifestMetadataResultCollector' imported but unused
-f8a_worker/workers/__init__.py:12: 'f8a_worker.workers.git_stats.GitStats' imported but unused
-f8a_worker/workers/__init__.py:13: 'f8a_worker.workers.githuber.GithubTask' imported but unused
-f8a_worker/workers/__init__.py:13: 'f8a_worker.workers.githuber.GitReadmeCollectorTask' imported but unused
-f8a_worker/workers/__init__.py:14: 'f8a_worker.workers.graph_importer.GraphImporterTask' imported but unused
-f8a_worker/workers/__init__.py:15: 'f8a_worker.workers.graph_sync.GraphSyncTask' imported but unused
-f8a_worker/workers/__init__.py:16: 'f8a_worker.workers.graphaggregator.GraphAggregatorTask' imported but unused
-f8a_worker/workers/__init__.py:17: 'f8a_worker.workers.init_analysis_flow.InitAnalysisFlow' imported but unused
-f8a_worker/workers/__init__.py:18: 'f8a_worker.workers.init_package_flow.InitPackageFlow' imported but unused
-f8a_worker/workers/__init__.py:19: 'f8a_worker.workers.keywords_summary.KeywordsSummaryTask' imported but unused
-f8a_worker/workers/__init__.py:20: 'f8a_worker.workers.keywords_tagging.KeywordsTaggingTask' imported but unused
-f8a_worker/workers/__init__.py:21: 'f8a_worker.workers.keywords_tagging.PackageKeywordsTaggingTask' imported but unused
-f8a_worker/workers/__init__.py:22: 'f8a_worker.workers.libraries_io.LibrariesIoTask' imported but unused
-f8a_worker/workers/__init__.py:23: 'f8a_worker.workers.license.LicenseCheckTask' imported but unused
-f8a_worker/workers/__init__.py:24: 'f8a_worker.workers.mercator.MercatorTask' imported but unused
-f8a_worker/workers/__init__.py:25: 'f8a_worker.workers.report_generation.ReportGenerationTask' imported but unused
-f8a_worker/workers/__init__.py:26: 'f8a_worker.workers.repository_description.RepositoryDescCollectorTask' imported but unused
-f8a_worker/workers/__init__.py:27: 'f8a_worker.workers.result_collector.ResultCollector' imported but unused
-f8a_worker/workers/__init__.py:27: 'f8a_worker.workers.result_collector.PackageResultCollector' imported but unused
-f8a_worker/workers/__init__.py:28: 'f8a_worker.workers.unknown_dep_fetcher.UnknownDependencyFetcherTask' imported but unused
-f8a_worker/workers/__init__.py:29: 'f8a_worker.workers.victims.VictimsCheck' imported but unused
-f8a_worker/workers/__init__.py:30: 'f8a_worker.workers.user_notifier.UserNotificationTask' imported but unused
-f8a_worker/workers/__init__.py:31: 'f8a_worker.workers.repo_dependency_finder.RepoDependencyFinderTask' imported but unused
+f8a_worker/workers/__init__.py:10: 'f8a_worker.workers.git_stats.GitStats' imported but unused
+f8a_worker/workers/__init__.py:11: 'f8a_worker.workers.githuber.GithubTask' imported but unused
+f8a_worker/workers/__init__.py:11: 'f8a_worker.workers.githuber.GitReadmeCollectorTask' imported but unused
+f8a_worker/workers/__init__.py:12: 'f8a_worker.workers.graph_importer.GraphImporterTask' imported but unused
+f8a_worker/workers/__init__.py:13: 'f8a_worker.workers.graph_sync.GraphSyncTask' imported but unused
+f8a_worker/workers/__init__.py:14: 'f8a_worker.workers.graphaggregator.GraphAggregatorTask' imported but unused
+f8a_worker/workers/__init__.py:15: 'f8a_worker.workers.init_analysis_flow.InitAnalysisFlow' imported but unused
+f8a_worker/workers/__init__.py:16: 'f8a_worker.workers.init_package_flow.InitPackageFlow' imported but unused
+f8a_worker/workers/__init__.py:17: 'f8a_worker.workers.keywords_summary.KeywordsSummaryTask' imported but unused
+f8a_worker/workers/__init__.py:18: 'f8a_worker.workers.keywords_tagging.KeywordsTaggingTask' imported but unused
+f8a_worker/workers/__init__.py:19: 'f8a_worker.workers.keywords_tagging.PackageKeywordsTaggingTask' imported but unused
+f8a_worker/workers/__init__.py:20: 'f8a_worker.workers.libraries_io.LibrariesIoTask' imported but unused
+f8a_worker/workers/__init__.py:21: 'f8a_worker.workers.license.LicenseCheckTask' imported but unused
+f8a_worker/workers/__init__.py:22: 'f8a_worker.workers.mercator.MercatorTask' imported but unused
+f8a_worker/workers/__init__.py:23: 'f8a_worker.workers.report_generation.ReportGenerationTask' imported but unused
+f8a_worker/workers/__init__.py:24: 'f8a_worker.workers.repository_description.RepositoryDescCollectorTask' imported but unused
+f8a_worker/workers/__init__.py:25: 'f8a_worker.workers.result_collector.ResultCollector' imported but unused
+f8a_worker/workers/__init__.py:25: 'f8a_worker.workers.result_collector.PackageResultCollector' imported but unused
+f8a_worker/workers/__init__.py:26: 'f8a_worker.workers.unknown_dep_fetcher.UnknownDependencyFetcherTask' imported but unused
+f8a_worker/workers/__init__.py:27: 'f8a_worker.workers.victims.VictimsCheck' imported but unused
+f8a_worker/workers/__init__.py:28: 'f8a_worker.workers.user_notifier.UserNotificationTask' imported but unused
+f8a_worker/workers/__init__.py:29: 'f8a_worker.workers.repo_dependency_finder.RepoDependencyFinderTask' imported but unused
     Fail
 f8a_worker/workers/libraries_io.py
     Pass
@@ -341,8 +337,6 @@ f8a_worker/workers/unknown_dep_fetcher.py
 f8a_worker/workers/dependency_snapshot.py
 f8a_worker/workers/dependency_snapshot.py:71: local variable 'e' is assigned to but never used
     Fail
-f8a_worker/workers/gh_metadata_init.py
-    Pass
 f8a_worker/data_normalizer.py
     Pass
 f8a_worker/errors.py
@@ -418,4 +412,4 @@ setup.py
 
 setup.py
     Pass
-19 source files out of 163 files needs to be checked and fixed
+19 source files out of 161 files needs to be checked and fixed
