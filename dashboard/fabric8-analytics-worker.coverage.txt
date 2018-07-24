@@ -42,7 +42,7 @@ Name                                                                 Stmts   Mis
 /f8a_worker/f8a_worker/storages/s3_userintent.py                        19     14    26%   11-16, 20-23, 27-31
 /f8a_worker/f8a_worker/storages/s3_userprofilestore.py                   8      4    50%   12-15
 /f8a_worker/f8a_worker/storages/s3_vulndb.py                            54     36    33%   28-39, 43-51, 55-61, 65-69, 73-79
-/f8a_worker/f8a_worker/utils.py                                        301     52    83%   34-47, 82-83, 93, 114-117, 136-145, 178, 194, 222-224, 316, 363, 402, 410, 415, 485, 497-501, 507-512, 517-524, 529-533, 551, 555-557
+/f8a_worker/f8a_worker/utils.py                                        301     51    83%   34-47, 82-83, 93, 114-117, 136-145, 178, 194, 222-224, 316, 363, 402, 410, 415, 485, 497-501, 507-512, 517-524, 529-533, 551, 557
 /f8a_worker/f8a_worker/victims.py                                      180     42    77%   104-105, 116, 130-134, 163-167, 176, 186-187, 203-228, 242, 245-247, 257-258, 292, 294-296
 /f8a_worker/f8a_worker/workers/CVEchecker.py                           131     26    80%   45, 87, 119-137, 151-154, 167-168, 176-178, 198, 226
 /f8a_worker/f8a_worker/workers/__init__.py                              27      0   100%
@@ -80,7 +80,7 @@ Name                                                                 Stmts   Mis
 /f8a_worker/f8a_worker/workers/schemas/security_issues.py               56      0   100%
 /f8a_worker/f8a_worker/workers/schemas/source_licenses.py               82      0   100%
 /f8a_worker/f8a_worker/workers/unknown_dep_fetcher.py                   37     29    22%   15-50, 59-62
-/f8a_worker/f8a_worker/workers/user_notifier.py                         44     35    20%   15-35, 39-59, 67-83
+/f8a_worker/f8a_worker/workers/user_notifier.py                         38     29    24%   15-25, 29-49, 57-73
 /f8a_worker/f8a_worker/workers/victims.py                               63     25    60%   20-36, 65-87, 108-109
 --------------------------------------------------------------------------------------------------
-TOTAL                                                                 5897   2163    63%
+TOTAL                                                                 5891   2156    63%
