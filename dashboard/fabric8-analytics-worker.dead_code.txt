@@ -319,8 +319,8 @@ f8a_worker/workers/githuber.py
 f8a_worker/workers/githuber.py:32: unused variable 'cls' (100% confidence)
     Fail
 f8a_worker/workers/repo_dependency_finder.py
-f8a_worker/workers/repo_dependency_finder.py:92: unreachable code after 'raise' (100% confidence)
-f8a_worker/workers/repo_dependency_finder.py:134: unreachable code after 'raise' (100% confidence)
+f8a_worker/workers/repo_dependency_finder.py:107: unreachable code after 'raise' (100% confidence)
+f8a_worker/workers/repo_dependency_finder.py:150: unreachable code after 'raise' (100% confidence)
     Fail
 f8a_worker/workers/mercator.py
     Pass

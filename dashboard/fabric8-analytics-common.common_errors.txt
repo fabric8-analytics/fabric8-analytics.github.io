@@ -623,20 +623,20 @@ integration-tests/features/steps/common.py:78: 'is_empty_json_response' may be u
 integration-tests/features/steps/common.py:84: 'is_empty_json_response' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
 integration-tests/features/steps/common.py:90: 'is_empty_json_response_from_s3' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
 integration-tests/features/steps/common.py:96: 'is_empty_json_response_from_s3' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
-integration-tests/features/steps/common.py:131: 'check_id_value_in_json_response' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
-integration-tests/features/steps/common.py:141: 'check_timestamp_in_json_response' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
-integration-tests/features/steps/common.py:153: 'get_value_using_path' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
-integration-tests/features/steps/common.py:154: 'check_timestamp' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
-integration-tests/features/steps/common.py:180: 'context' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
-integration-tests/features/steps/common.py:183: 'context' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
-integration-tests/features/steps/common.py:191: 'context' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
-integration-tests/features/steps/common.py:193: 'context' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
-integration-tests/features/steps/common.py:242: 'get_value_using_path' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
-integration-tests/features/steps/common.py:252: 'get_value_using_path' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
-integration-tests/features/steps/common.py:261: 'get_value_using_path' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
-integration-tests/features/steps/common.py:263: 'check_timestamp' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
-integration-tests/features/steps/common.py:269: 'MockedResponse' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
-integration-tests/features/steps/common.py:275: 'MockedResponse' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
+integration-tests/features/steps/common.py:138: 'check_id_value_in_json_response' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
+integration-tests/features/steps/common.py:148: 'check_timestamp_in_json_response' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
+integration-tests/features/steps/common.py:160: 'get_value_using_path' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
+integration-tests/features/steps/common.py:161: 'check_timestamp' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
+integration-tests/features/steps/common.py:187: 'context' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
+integration-tests/features/steps/common.py:190: 'context' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
+integration-tests/features/steps/common.py:198: 'context' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
+integration-tests/features/steps/common.py:200: 'context' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
+integration-tests/features/steps/common.py:249: 'get_value_using_path' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
+integration-tests/features/steps/common.py:259: 'get_value_using_path' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
+integration-tests/features/steps/common.py:268: 'get_value_using_path' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
+integration-tests/features/steps/common.py:270: 'check_timestamp' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
+integration-tests/features/steps/common.py:276: 'MockedResponse' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
+integration-tests/features/steps/common.py:282: 'MockedResponse' may be undefined, or defined from star imports: src.MockedResponse, src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.s3interface, src.utils
     Fail
 integration-tests/features/steps/gemini.py
 integration-tests/features/steps/gemini.py:6: 'json' imported but unused
@@ -664,37 +664,45 @@ integration-tests/features/steps/backbone_api.py:47: 'check_id_value_in_json_res
     Fail
 integration-tests/features/steps/license_analysis.py
 integration-tests/features/steps/license_analysis.py:5: 'behave.given' imported but unused
-integration-tests/features/steps/license_analysis.py:6: 'urllib.parse.urljoin' imported but unused
 integration-tests/features/steps/license_analysis.py:8: 'from src.parsing import *' used; unable to detect undefined names
 integration-tests/features/steps/license_analysis.py:9: 'from src.utils import *' used; unable to detect undefined names
 integration-tests/features/steps/license_analysis.py:10: 'from src.authorization_tokens import *' used; unable to detect undefined names
 integration-tests/features/steps/license_analysis.py:11: 'from src.attribute_checks import *' used; unable to detect undefined names
-integration-tests/features/steps/license_analysis.py:20: redefinition of unused 'access_license_service' from line 14
-integration-tests/features/steps/license_analysis.py:24: 'authorization' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
-integration-tests/features/steps/license_analysis.py:30: 'os' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
-integration-tests/features/steps/license_analysis.py:37: 'authorization' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
-integration-tests/features/steps/license_analysis.py:48: 'parse_token_clause' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
-integration-tests/features/steps/license_analysis.py:56: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
-integration-tests/features/steps/license_analysis.py:67: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
-integration-tests/features/steps/license_analysis.py:78: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
-integration-tests/features/steps/license_analysis.py:89: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
-integration-tests/features/steps/license_analysis.py:100: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
-integration-tests/features/steps/license_analysis.py:112: 'parse_number' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
-integration-tests/features/steps/license_analysis.py:113: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
-integration-tests/features/steps/license_analysis.py:124: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
-integration-tests/features/steps/license_analysis.py:135: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
-integration-tests/features/steps/license_analysis.py:145: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
-integration-tests/features/steps/license_analysis.py:146: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
-integration-tests/features/steps/license_analysis.py:157: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
-integration-tests/features/steps/license_analysis.py:158: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
-integration-tests/features/steps/license_analysis.py:176: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
-integration-tests/features/steps/license_analysis.py:196: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
-integration-tests/features/steps/license_analysis.py:219: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
-integration-tests/features/steps/license_analysis.py:220: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
-integration-tests/features/steps/license_analysis.py:228: 'pkg' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
-integration-tests/features/steps/license_analysis.py:228: 'ver' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
-integration-tests/features/steps/license_analysis.py:235: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
-integration-tests/features/steps/license_analysis.py:248: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/license_analysis.py:31: redefinition of unused 'access_license_service' from line 25
+integration-tests/features/steps/license_analysis.py:35: 'authorization' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/license_analysis.py:49: 'os' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/license_analysis.py:56: 'authorization' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/license_analysis.py:67: 'parse_token_clause' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/license_analysis.py:78: 'parse_token_clause' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/license_analysis.py:87: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/license_analysis.py:98: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/license_analysis.py:120: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/license_analysis.py:131: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/license_analysis.py:142: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/license_analysis.py:154: 'parse_number' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/license_analysis.py:155: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/license_analysis.py:168: 'parse_number' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/license_analysis.py:169: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/license_analysis.py:192: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/license_analysis.py:204: 'parse_number' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/license_analysis.py:205: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/license_analysis.py:216: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/license_analysis.py:227: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/license_analysis.py:237: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/license_analysis.py:238: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/license_analysis.py:249: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/license_analysis.py:250: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/license_analysis.py:273: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/license_analysis.py:293: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/license_analysis.py:316: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/license_analysis.py:317: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/license_analysis.py:333: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/license_analysis.py:342: redefinition of unused 'check_license_report_for_package_version' from line 328
+integration-tests/features/steps/license_analysis.py:347: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/license_analysis.py:368: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/license_analysis.py:380: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/license_analysis.py:386: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
+integration-tests/features/steps/license_analysis.py:387: 'check_and_get_attribute' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
     Fail
 integration-tests/features/environment.py
 integration-tests/features/environment.py:12: 'sys' imported but unused
