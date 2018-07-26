@@ -298,7 +298,7 @@ f8a_worker/workers/githuber.py
     Pass
 f8a_worker/workers/repo_dependency_finder.py
 f8a_worker/workers/repo_dependency_finder.py:41: local variable 'e' is assigned to but never used
-f8a_worker/workers/repo_dependency_finder.py:51: local variable 'e' is assigned to but never used
+f8a_worker/workers/repo_dependency_finder.py:52: local variable 'e' is assigned to but never used
     Fail
 f8a_worker/workers/mercator.py
     Pass

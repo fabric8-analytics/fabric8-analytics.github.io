@@ -318,6 +318,8 @@ reproducers/issue1934.py:3: unused import 'os' (90% confidence)
 reproducers/issue1619.py
 reproducers/issue1619.py:8: unused variable 'ecosystem' (100% confidence)
     Fail
+reproducers/issue4071.py
+    Pass
 reproducers/issue2012.py
 reproducers/issue2012.py:3: unused import 'os' (90% confidence)
     Fail
@@ -358,4 +360,4 @@ db-integrity-tests/src/core_package_checker.py
     Pass
 db-integrity-tests/src/checker.py
     Pass
-43 source files out of 104 files seems to contain dead code and/or unused imports
+43 source files out of 105 files seems to contain dead code and/or unused imports

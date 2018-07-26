@@ -273,6 +273,9 @@ reproducers/issue1934.py
 reproducers/issue1619.py
 0
     Pass
+reproducers/issue4071.py
+0
+    Pass
 reproducers/issue2012.py
 0
     Pass
@@ -324,4 +327,4 @@ db-integrity-tests/src/core_package_checker.py
 db-integrity-tests/src/checker.py
 0
     Pass
-All checks passed for 104 source files
+All checks passed for 105 source files

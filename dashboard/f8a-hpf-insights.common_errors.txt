@@ -49,6 +49,7 @@ perf_tests/__init__.py
 perf_tests/locust_tests.py
 perf_tests/locust_tests.py:4: 'locust.events' imported but unused
 perf_tests/locust_tests.py:4: 'locust.web' imported but unused
+perf_tests/locust_tests.py:99: local variable 'response' is assigned to but never used
     Fail
 PoC_code/__init__.py
     Pass

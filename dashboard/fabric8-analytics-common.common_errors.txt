@@ -955,6 +955,8 @@ reproducers/issue1619.py
 reproducers/issue1619.py:20: local variable 'x' is assigned to but never used
 reproducers/issue1619.py:21: local variable 'e' is assigned to but never used
     Fail
+reproducers/issue4071.py
+    Pass
 reproducers/issue2012.py
 reproducers/issue2012.py:3: 'os' imported but unused
 reproducers/issue2012.py:4: 'sys' imported but unused
@@ -1020,4 +1022,4 @@ db-integrity-tests/src/core_package_checker.py:132: local variable 'e' is assign
     Fail
 db-integrity-tests/src/checker.py
     Pass
-62 source files out of 104 files needs to be checked and fixed
+62 source files out of 105 files needs to be checked and fixed
