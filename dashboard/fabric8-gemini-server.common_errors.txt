@@ -18,8 +18,7 @@ src/__init__.py
 src/utils.py
     Pass
 src/rest_api.py
-src/rest_api.py:208: local variable 'validate_string' is assigned to but never used
-src/rest_api.py:249: local variable 'input_json' is assigned to but never used
+src/rest_api.py:250: local variable 'input_json' is assigned to but never used
     Fail
 src/exceptions.py
     Pass
@@ -79,6 +78,7 @@ tests/test_utils.py:188: 'requests' may be undefined, or defined from star impor
 tests/test_utils.py:191: 'fetch_public_key' may be undefined, or defined from star imports: src.utils
 tests/test_utils.py:199: 'fetch_public_key' may be undefined, or defined from star imports: src.utils
 tests/test_utils.py:207: 'fetch_public_key' may be undefined, or defined from star imports: src.utils
+tests/test_utils.py:215: 'alert_user' may be undefined, or defined from star imports: src.utils
     Fail
 tests/conftest.py
 tests/conftest.py:10: 'from src.rest_api import *' used; unable to detect undefined names

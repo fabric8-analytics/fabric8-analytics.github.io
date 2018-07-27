@@ -198,7 +198,6 @@ integration-tests/features/steps/backbone_api.py:11: unused import 'urljoin' (90
     Fail
 integration-tests/features/steps/license_analysis.py
 integration-tests/features/steps/license_analysis.py:5: unused import 'given' (90% confidence)
-integration-tests/features/steps/license_analysis.py:310: unused variable 'error_message' (100% confidence)
     Fail
 integration-tests/features/environment.py
     Pass
