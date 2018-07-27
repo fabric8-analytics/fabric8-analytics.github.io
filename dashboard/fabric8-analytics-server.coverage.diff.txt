@@ -1,7 +1,7 @@
 Name                                                   Stmts   Miss  Cover   Missing			Name                                                   Stmts   Miss  Cover   Missing
 ------------------------------------------------------------------------------------			------------------------------------------------------------------------------------
 /bayesian/bayesian/__init__.py                            61     13    79%   61, 65-81			/bayesian/bayesian/__init__.py                            61     13    79%   61, 65-81
-/bayesian/bayesian/api_v1.py                             635    423    33%   78, 90-97, 113, 145-175,	/bayesian/bayesian/api_v1.py                             635    423    33%   78, 90-97, 113, 145-175,
+/bayesian/bayesian/api_v1.py                             635    423    33%   78, 90-97, 113, 145-175, |	/bayesian/bayesian/api_v1.py                             649    436    33%   78, 82, 94-101, 117, 149
 /bayesian/bayesian/auth.py                               180    109    39%   27-46, 51-64, 75, 86, 89	/bayesian/bayesian/auth.py                               180    109    39%   27-46, 51-64, 75, 86, 89
 /bayesian/bayesian/default_config.py                      23      0   100%				/bayesian/bayesian/default_config.py                      23      0   100%
 /bayesian/bayesian/dependency_finder.py                   77     62    19%   26-34, 40-118		/bayesian/bayesian/dependency_finder.py                   77     62    19%   26-34, 40-118
@@ -16,4 +16,4 @@ Name                                                   Stmts   Miss  Cover   Mis
 /bayesian/bayesian/schemas/version_range_resolver.py      18      0   100%				/bayesian/bayesian/schemas/version_range_resolver.py      18      0   100%
 /bayesian/bayesian/utils.py                              560    388    31%   53, 64-73, 87-96, 111-12	/bayesian/bayesian/utils.py                              560    388    31%   53, 64-73, 87-96, 111-12
 ------------------------------------------------------------------------------------			------------------------------------------------------------------------------------
-TOTAL                                                   2111   1037    51%				TOTAL                                                   2111   1037    51%
+TOTAL                                                   2111   1037    51%			      |	TOTAL                                                   2125   1050    51%
