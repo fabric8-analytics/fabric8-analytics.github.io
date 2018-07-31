@@ -18,17 +18,17 @@ f8a_worker/victims.py
     <span style="color:#00AA00">M </span>118:4 VictimsDB.get_details_for_ecosystem - <span style="color:#00AA00">B (6)</span>
     <span style="color:#00AA00">M </span>280:4 FilteredVictimsDB._register_cve - <span style="color:#00AA00">B (6)</span>
 f8a_worker/solver.py
-    <span style="color:#00AAAA">C </span>644:0 NugetDependencyParser - <span style="color:#AA5500">C (12)</span>
-    <span style="color:#00AA00">M </span>647:4 NugetDependencyParser.parse - <span style="color:#AA5500">C (12)</span>
-    <span style="color:#00AA00">M </span>768:4 Solver.solve - <span style="color:#00AA00">B (10)</span>
-    <span style="color:#00AA00">M </span>587:4 NpmDependencyParser.restrict_versions - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#AA00AA">F </span>975:0 get_ecosystem_solver - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>1002:0 get_ecosystem_parser - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AAAA">C </span>647:0 NugetDependencyParser - <span style="color:#AA5500">C (12)</span>
+    <span style="color:#00AA00">M </span>650:4 NugetDependencyParser.parse - <span style="color:#AA5500">C (12)</span>
+    <span style="color:#00AA00">M </span>771:4 Solver.solve - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#00AA00">M </span>590:4 NpmDependencyParser.restrict_versions - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#AA00AA">F </span>978:0 get_ecosystem_solver - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>1005:0 get_ecosystem_parser - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>545:4 NpmDependencyParser._parse_npm - <span style="color:#00AA00">B (7)</span>
     <span style="color:#00AA00">M </span>235:4 NugetReleasesFetcher.scrape_versions_from_nuget_org - <span style="color:#00AA00">B (6)</span>
     <span style="color:#00AA00">M </span>323:4 GolangReleasesFetcher.fetch_releases - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>545:4 NpmDependencyParser._parse_npm - <span style="color:#00AA00">B (6)</span>
 f8a_worker/process.py
-    <span style="color:#00AA00">M </span>519:4 IndianaJones.fetch_artifact - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#00AA00">M </span>524:4 IndianaJones.fetch_artifact - <span style="color:#00AA00">B (10)</span>
     <span style="color:#00AA00">M </span>43:4 Git.clone - <span style="color:#00AA00">B (9)</span>
     <span style="color:#00AA00">M </span>276:4 IndianaJones.download_file - <span style="color:#00AA00">B (8)</span>
     <span style="color:#00AA00">M </span>307:4 IndianaJones.fetch_maven_artifact - <span style="color:#00AA00">B (7)</span>
@@ -76,15 +76,16 @@ f8a_worker/workers/repo_dependency_finder.py
     <span style="color:#00AA00">M </span>155:4 RepoDependencyFinderTask.generate_report - <span style="color:#00AA00">B (9)</span>
     <span style="color:#00AAAA">C </span>13:0 RepoDependencyFinderTask - <span style="color:#00AA00">B (6)</span>
 f8a_worker/workers/mercator.py
-    <span style="color:#00AA00">M </span>153:4 MercatorTask._merge_python_items - <span style="color:#AA5500">D (29)</span>
+    <span style="color:#00AA00">M </span>159:4 MercatorTask._merge_python_items - <span style="color:#AA5500">D (29)</span>
     <span style="color:#00AA00">M </span>59:4 MercatorTask.run_mercator - <span style="color:#AA5500">C (19)</span>
     <span style="color:#00AAAA">C </span>38:0 MercatorTask - <span style="color:#AA5500">C (11)</span>
-    <span style="color:#00AA00">M </span>137:4 MercatorTask._parse_requires_txt - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>143:4 MercatorTask._parse_requires_txt - <span style="color:#00AA00">B (6)</span>
 f8a_worker/workers/cvedbsync.py
     <span style="color:#00AA00">M </span>13:4 CVEDBSyncTask.components_to_scan - <span style="color:#AA5500">C (12)</span>
     <span style="color:#00AAAA">C </span>10:0 CVEDBSyncTask - <span style="color:#00AA00">B (8)</span>
 f8a_worker/workers/victims.py
-    <span style="color:#00AA00">M </span>89:4 VictimsCheck.mark_in_graph - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#00AA00">M </span>166:4 VictimsCheck.mark_in_graph - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#00AA00">M </span>93:4 VictimsCheck.notify_gemini - <span style="color:#00AA00">B (6)</span>
 f8a_worker/workers/license.py
     <span style="color:#00AA00">M </span>21:4 LicenseCheckTask.process_output - <span style="color:#00AA00">B (6)</span>
 f8a_worker/workers/git_stats.py
@@ -133,11 +134,11 @@ tests/test_utils.py
     <span style="color:#00AA00">M </span>33:4 TestUtilFunctions.test_get_all_files_from - <span style="color:#00AA00">B (6)</span>
     <span style="color:#00AA00">M </span>146:4 TestMavenCoordinates.test_from_str - <span style="color:#00AA00">B (6)</span>
 tests/test_solver.py
-    <span style="color:#00AA00">M </span>315:4 TestFetcher.test_f8a_fetcher - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#00AA00">M </span>317:4 TestFetcher.test_f8a_fetcher - <span style="color:#00AA00">B (9)</span>
 tests/workers/test_licensecheck.py
     <span style="color:#00AA00">M </span>30:4 TestLicenseCheck.test_execute - <span style="color:#00AA00">B (7)</span>
 tests/workers/test_victims.py
-    <span style="color:#AA00AA">F </span>7:0 test_get_vulnerable_packages - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>9:0 test_get_vulnerable_packages - <span style="color:#00AA00">B (8)</span>
 tests/workers/test_libraries_io.py
     <span style="color:#00AA00">M </span>15:4 TestLibrariesIoTask.test_execute - <span style="color:#00AA00">B (9)</span>
     <span style="color:#00AAAA">C </span>11:0 TestLibrariesIoTask - <span style="color:#00AA00">B (6)</span>
@@ -153,6 +154,6 @@ tests/workers/test_mercator.py
     <span style="color:#00AA00">M </span>50:4 TestMercator.test_execute_maven - <span style="color:#AA5500">C (11)</span>
     <span style="color:#00AA00">M </span>90:4 TestMercator.test_execute_go_glide - <span style="color:#00AA00">B (7)</span>
 
-106 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">B (8.830188679245284)</span>
+107 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">B (8.813084112149532)</span>
 </pre>

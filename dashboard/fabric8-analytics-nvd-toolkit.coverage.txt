@@ -19,6 +19,6 @@ src/toolkit/transformers/classifiers.py           132     20    85%   61, 141, 1
 src/toolkit/transformers/extractors.py             97      2    98%   45, 191
 src/toolkit/transformers/feature_hooks.py          67      3    96%   70, 75-76
 src/toolkit/transformers/hooks.py                  27      1    96%   69
-src/toolkit/utils.py                              104     16    85%   21, 40, 48, 50, 55, 59, 199, 204-208, 223-226, 245-246
+src/toolkit/utils.py                              104     17    84%   21, 40, 48, 50, 55, 59, 190, 199, 204-208, 223-226, 245-246
 -----------------------------------------------------------------------------
-TOTAL                                            1022     86    92%
+TOTAL                                            1022     87    91%

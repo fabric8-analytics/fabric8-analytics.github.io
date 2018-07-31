@@ -154,15 +154,15 @@ f8a_worker/victims.py
     <span style="color:#00AA00">M </span>260:4 VictimsDB.__enter__ - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>264:4 VictimsDB.__exit__ - <span style="color:#00AA00">A (1)</span>
 f8a_worker/solver.py
-    <span style="color:#00AAAA">C </span>644:0 NugetDependencyParser - <span style="color:#AA5500">C (12)</span>
-    <span style="color:#00AA00">M </span>647:4 NugetDependencyParser.parse - <span style="color:#AA5500">C (12)</span>
-    <span style="color:#00AA00">M </span>768:4 Solver.solve - <span style="color:#00AA00">B (10)</span>
-    <span style="color:#00AA00">M </span>587:4 NpmDependencyParser.restrict_versions - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#AA00AA">F </span>975:0 get_ecosystem_solver - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>1002:0 get_ecosystem_parser - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AAAA">C </span>647:0 NugetDependencyParser - <span style="color:#AA5500">C (12)</span>
+    <span style="color:#00AA00">M </span>650:4 NugetDependencyParser.parse - <span style="color:#AA5500">C (12)</span>
+    <span style="color:#00AA00">M </span>771:4 Solver.solve - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#00AA00">M </span>590:4 NpmDependencyParser.restrict_versions - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#AA00AA">F </span>978:0 get_ecosystem_solver - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>1005:0 get_ecosystem_parser - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>545:4 NpmDependencyParser._parse_npm - <span style="color:#00AA00">B (7)</span>
     <span style="color:#00AA00">M </span>235:4 NugetReleasesFetcher.scrape_versions_from_nuget_org - <span style="color:#00AA00">B (6)</span>
     <span style="color:#00AA00">M </span>323:4 GolangReleasesFetcher.fetch_releases - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>545:4 NpmDependencyParser._parse_npm - <span style="color:#00AA00">B (6)</span>
     <span style="color:#00AA00">M </span>186:4 RubyGemsReleasesFetcher._search_package_name - <span style="color:#00AA00">A (5)</span>
     <span style="color:#00AA00">M </span>275:4 MavenReleasesFetcher.releases_from_maven_org - <span style="color:#00AA00">A (5)</span>
     <span style="color:#00AA00">M </span>439:4 DependencyParser.compose_sep - <span style="color:#00AA00">A (5)</span>
@@ -171,8 +171,8 @@ f8a_worker/solver.py
     <span style="color:#00AA00">M </span>200:4 RubyGemsReleasesFetcher.fetch_releases - <span style="color:#00AA00">A (4)</span>
     <span style="color:#00AAAA">C </span>316:0 GolangReleasesFetcher - <span style="color:#00AA00">A (4)</span>
     <span style="color:#00AAAA">C </span>534:0 NpmDependencyParser - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>923:4 MavenSolver._dependencies_from_pom_xml - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>940:4 MavenSolver._resolve_versions - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>926:4 MavenSolver._dependencies_from_pom_xml - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>943:4 MavenSolver._resolve_versions - <span style="color:#00AA00">A (4)</span>
     <span style="color:#00AAAA">C </span>116:0 PypiReleasesFetcher - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AAAA">C </span>148:0 NpmReleasesFetcher - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AAAA">C </span>179:0 RubyGemsReleasesFetcher - <span style="color:#00AA00">A (3)</span>
@@ -183,33 +183,33 @@ f8a_worker/solver.py
     <span style="color:#00AAAA">C </span>432:0 DependencyParser - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AA00">M </span>459:4 PypiDependencyParser._parse_python - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AA00">M </span>537:4 NpmDependencyParser._parse_npm_tokens - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>571:4 NpmDependencyParser.parse - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>726:4 GolangDependencyParser.parse - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>748:0 Solver - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>811:0 PypiSolver - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>814:4 PypiSolver.__init__ - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>821:0 NpmSolver - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>824:4 NpmSolver.__init__ - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>831:0 RubyGemsSolver - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>834:4 RubyGemsSolver.__init__ - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>841:0 NugetSolver - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>848:4 NugetSolver.__init__ - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>869:0 GolangSolver - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>872:4 GolangSolver.__init__ - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>878:4 GolangSolver.solve - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>890:0 MavenSolver - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>898:4 MavenSolver._generate_pom_xml - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>960:4 MavenSolver.solve - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>574:4 NpmDependencyParser.parse - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>729:4 GolangDependencyParser.parse - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>751:0 Solver - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>814:0 PypiSolver - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>817:4 PypiSolver.__init__ - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>824:0 NpmSolver - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>827:4 NpmSolver.__init__ - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>834:0 RubyGemsSolver - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>837:4 RubyGemsSolver.__init__ - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>844:0 NugetSolver - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>851:4 NugetSolver.__init__ - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>872:0 GolangSolver - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>875:4 GolangSolver.__init__ - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>881:4 GolangSolver.solve - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>893:0 MavenSolver - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>901:4 MavenSolver._generate_pom_xml - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>963:4 MavenSolver.solve - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AA00">M </span>255:4 NugetReleasesFetcher.fetch_releases - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AAAA">C </span>347:0 F8aReleasesFetcher - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>355:4 F8aReleasesFetcher.fetch_releases - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>395:4 Dependency.__eq__ - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AAAA">C </span>456:0 PypiDependencyParser - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>519:4 PypiDependencyParser.parse - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>708:4 NoOpDependencyParser.parse - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AAAA">C </span>723:0 GolangDependencyParser - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AAAA">C </span>856:0 MavenManualSolver - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>862:4 MavenManualSolver.__init__ - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>711:4 NoOpDependencyParser.parse - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>726:0 GolangDependencyParser - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>859:0 MavenManualSolver - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>865:4 MavenManualSolver.__init__ - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>43:0 compare_version - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AAAA">C </span>30:0 SolverException - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AAAA">C </span>36:0 Tokens - <span style="color:#00AA00">A (1)</span>
@@ -233,20 +233,20 @@ f8a_worker/solver.py
     <span style="color:#00AA00">M </span>435:4 DependencyParser.parse - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>523:4 PypiDependencyParser.compose - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>528:4 PypiDependencyParser.restrict_versions - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>582:4 NpmDependencyParser.compose - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>632:0 OSSIndexDependencyParser - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>635:4 OSSIndexDependencyParser._parse_npm - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>705:0 NoOpDependencyParser - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>712:4 NoOpDependencyParser.compose - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>717:4 NoOpDependencyParser.restrict_versions - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>737:4 GolangDependencyParser.compose - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>742:4 GolangDependencyParser.restrict_versions - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>751:4 Solver.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>758:4 Solver.dependency_parser - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>763:4 Solver.release_fetcher - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>954:4 MavenSolver.is_version_range - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>585:4 NpmDependencyParser.compose - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>635:0 OSSIndexDependencyParser - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>638:4 OSSIndexDependencyParser._parse_npm - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>708:0 NoOpDependencyParser - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>715:4 NoOpDependencyParser.compose - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>720:4 NoOpDependencyParser.restrict_versions - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>740:4 GolangDependencyParser.compose - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>745:4 GolangDependencyParser.restrict_versions - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>754:4 Solver.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>761:4 Solver.dependency_parser - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>766:4 Solver.release_fetcher - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>957:4 MavenSolver.is_version_range - <span style="color:#00AA00">A (1)</span>
 f8a_worker/process.py
-    <span style="color:#00AA00">M </span>519:4 IndianaJones.fetch_artifact - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#00AA00">M </span>524:4 IndianaJones.fetch_artifact - <span style="color:#00AA00">B (10)</span>
     <span style="color:#00AA00">M </span>43:4 Git.clone - <span style="color:#00AA00">B (9)</span>
     <span style="color:#00AA00">M </span>276:4 IndianaJones.download_file - <span style="color:#00AA00">B (8)</span>
     <span style="color:#00AA00">M </span>307:4 IndianaJones.fetch_maven_artifact - <span style="color:#00AA00">B (7)</span>
@@ -261,6 +261,7 @@ f8a_worker/process.py
     <span style="color:#00AA00">M </span>174:4 Git.reset - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AA00">M </span>182:4 Git.ls_remote - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AA00">M </span>231:4 Archive.extract_zip - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>500:4 IndianaJones.fetch_scm_artifact - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AAAA">C </span>22:0 Git - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>97:4 Git.commit - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>127:4 Git.add - <span style="color:#00AA00">A (2)</span>
@@ -269,7 +270,6 @@ f8a_worker/process.py
     <span style="color:#00AA00">M </span>255:4 Archive.extract_gem - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>300:4 IndianaJones.get_revision - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>414:4 IndianaJones.fetch_nuget_artifact - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>500:4 IndianaJones.fetch_scm_artifact - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>25:4 Git.__init__ - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>86:4 Git.create_git - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>107:4 Git.log - <span style="color:#00AA00">A (1)</span>
@@ -594,22 +594,24 @@ f8a_worker/workers/repo_dependency_finder.py
     <span style="color:#00AA00">M </span>59:4 RepoDependencyFinderTask.create_repo_node_and_get_cve - <span style="color:#00AA00">A (5)</span>
     <span style="color:#00AA00">M </span>112:4 RepoDependencyFinderTask.get_cve - <span style="color:#00AA00">A (4)</span>
 f8a_worker/workers/mercator.py
-    <span style="color:#00AA00">M </span>153:4 MercatorTask._merge_python_items - <span style="color:#AA5500">D (29)</span>
+    <span style="color:#00AA00">M </span>159:4 MercatorTask._merge_python_items - <span style="color:#AA5500">D (29)</span>
     <span style="color:#00AA00">M </span>59:4 MercatorTask.run_mercator - <span style="color:#AA5500">C (19)</span>
     <span style="color:#00AAAA">C </span>38:0 MercatorTask - <span style="color:#AA5500">C (11)</span>
-    <span style="color:#00AA00">M </span>137:4 MercatorTask._parse_requires_txt - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>143:4 MercatorTask._parse_requires_txt - <span style="color:#00AA00">B (6)</span>
     <span style="color:#00AA00">M </span>46:4 MercatorTask.execute - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>116:4 MercatorTask.run_gofedlib - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>116:4 MercatorTask.run_gofedlib - <span style="color:#00AA00">A (2)</span>
 f8a_worker/workers/cvedbsync.py
     <span style="color:#00AA00">M </span>13:4 CVEDBSyncTask.components_to_scan - <span style="color:#AA5500">C (12)</span>
     <span style="color:#00AAAA">C </span>10:0 CVEDBSyncTask - <span style="color:#00AA00">B (8)</span>
     <span style="color:#00AA00">M </span>72:4 CVEDBSyncTask.execute - <span style="color:#00AA00">A (4)</span>
 f8a_worker/workers/victims.py
-    <span style="color:#00AA00">M </span>89:4 VictimsCheck.mark_in_graph - <span style="color:#00AA00">B (10)</span>
-    <span style="color:#00AAAA">C </span>11:0 VictimsCheck - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>56:4 VictimsCheck.create_in_graph - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>14:4 VictimsCheck.execute - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>38:4 VictimsCheck.get_vulnerable_packages - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>166:4 VictimsCheck.mark_in_graph - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#00AA00">M </span>93:4 VictimsCheck.notify_gemini - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AAAA">C </span>13:0 VictimsCheck - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AA00">M </span>42:4 VictimsCheck.init_auth_sa_token - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AA00">M </span>133:4 VictimsCheck.create_in_graph - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AA00">M </span>16:4 VictimsCheck.execute - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>75:4 VictimsCheck.get_vulnerable_packages - <span style="color:#00AA00">A (2)</span>
 f8a_worker/workers/digester.py
     <span style="color:#00AAAA">C </span>27:0 DigesterTask - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>33:4 DigesterTask.compute_ssdeep - <span style="color:#00AA00">A (2)</span>
@@ -845,28 +847,28 @@ tests/test_utils.py
     <span style="color:#00AA00">M </span>25:4 TestUtilFunctions.setup_method - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>29:4 TestUtilFunctions.teardown_method - <span style="color:#00AA00">A (1)</span>
 tests/test_solver.py
-    <span style="color:#00AA00">M </span>315:4 TestFetcher.test_f8a_fetcher - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#00AA00">M </span>317:4 TestFetcher.test_f8a_fetcher - <span style="color:#00AA00">B (9)</span>
     <span style="color:#00AA00">M </span>18:4 TestDependencyParser.test_nuget_dependency_parser_parse - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>174:4 TestSolver.test_maven_solver - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>231:4 TestSolver.test_golang_solver - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>113:4 TestDependencyParser.test_pypi_dependency_parser_parse - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>248:0 TestFetcher - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>176:4 TestSolver.test_maven_solver - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>233:4 TestSolver.test_golang_solver - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>115:4 TestDependencyParser.test_pypi_dependency_parser_parse - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>250:0 TestFetcher - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AAAA">C </span>15:0 TestDependencyParser - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>47:4 TestDependencyParser.test_golang_dependency_parser_parse - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>58:4 TestDependencyParser.test_npm_dependency_parser_parse - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>71:4 TestDependencyParser.test_oss_index_dependency_parser_parse - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>80:4 TestDependencyParser.test_npm_dependency_parser_compose - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>96:4 TestDependencyParser.test_npm_dependency_parser_restrict_versions - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AAAA">C </span>127:0 TestSolver - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>145:4 TestSolver.test_npm_solver - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>190:4 TestSolver.test_pypi_solver - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>209:4 TestSolver.test_rubygems_solver - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>218:4 TestSolver.test_nuget_solver - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>251:4 TestFetcher.test_maven_fetcher - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>261:4 TestFetcher.test_npm_fetcher - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>272:4 TestFetcher.test_pypi_fetcher - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>285:4 TestFetcher.test_nuget_fetcher - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>303:4 TestFetcher.test_golang_fetcher - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>73:4 TestDependencyParser.test_oss_index_dependency_parser_parse - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>82:4 TestDependencyParser.test_npm_dependency_parser_compose - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>98:4 TestDependencyParser.test_npm_dependency_parser_restrict_versions - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>129:0 TestSolver - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>147:4 TestSolver.test_npm_solver - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>192:4 TestSolver.test_pypi_solver - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>211:4 TestSolver.test_rubygems_solver - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>220:4 TestSolver.test_nuget_solver - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>253:4 TestFetcher.test_maven_fetcher - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>263:4 TestFetcher.test_npm_fetcher - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>274:4 TestFetcher.test_pypi_fetcher - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>287:4 TestFetcher.test_nuget_fetcher - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>305:4 TestFetcher.test_golang_fetcher - <span style="color:#00AA00">A (2)</span>
 tests/conftest.py
     <span style="color:#AA00AA">F </span>20:0 rdb - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>121:0 victims_zip_s3 - <span style="color:#00AA00">A (2)</span>
@@ -897,8 +899,9 @@ tests/workers/test_licensecheck.py
     <span style="color:#00AAAA">C </span>15:0 TestLicenseCheck - <span style="color:#00AA00">A (5)</span>
     <span style="color:#00AA00">M </span>20:4 TestLicenseCheck.test_error - <span style="color:#00AA00">A (2)</span>
 tests/workers/test_victims.py
-    <span style="color:#AA00AA">F </span>7:0 test_get_vulnerable_packages - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>27:0 test_mark_in_graph - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>9:0 test_get_vulnerable_packages - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>29:0 test_mark_in_graph - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>45:0 test_notify_gemini - <span style="color:#00AA00">A (3)</span>
 tests/workers/test_libraries_io.py
     <span style="color:#00AA00">M </span>15:4 TestLibrariesIoTask.test_execute - <span style="color:#00AA00">B (9)</span>
     <span style="color:#00AAAA">C </span>11:0 TestLibrariesIoTask - <span style="color:#00AA00">B (6)</span>
@@ -1055,6 +1058,9 @@ alembic/versions/cd05b43f27e5_add_synced2graph_boolean_column_to_.py
 alembic/versions/8302d3bb5f68_stackreq_team_result.py
     <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>28:0 downgrade - <span style="color:#00AA00">A (1)</span>
+alembic/versions/3655e38b92bc_increase_pkg_name_length.py
+    <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>31:0 downgrade - <span style="color:#00AA00">A (1)</span>
 alembic/versions/01404498814b_create_epv_and_workerresult_indexes.py
     <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>29:0 downgrade - <span style="color:#00AA00">A (1)</span>
@@ -1101,6 +1107,6 @@ alembic/versions/22a1cd66a9c6_batches_reviews.py
     <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>40:0 downgrade - <span style="color:#00AA00">A (1)</span>
 
-950 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (2.831578947368421)</span>
+955 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (2.836649214659686)</span>
 </pre>

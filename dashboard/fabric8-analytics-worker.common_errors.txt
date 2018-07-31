@@ -92,6 +92,8 @@ alembic/versions/cd05b43f27e5_add_synced2graph_boolean_column_to_.py
     Pass
 alembic/versions/8302d3bb5f68_stackreq_team_result.py
     Pass
+alembic/versions/3655e38b92bc_increase_pkg_name_length.py
+    Pass
 alembic/versions/01404498814b_create_epv_and_workerresult_indexes.py
 alembic/versions/01404498814b_create_epv_and_workerresult_indexes.py:16: 'sqlalchemy as sa' imported but unused
     Fail
@@ -412,4 +414,4 @@ setup.py
 
 setup.py
     Pass
-19 source files out of 161 files needs to be checked and fixed
+19 source files out of 162 files needs to be checked and fixed
