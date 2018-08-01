@@ -18,7 +18,7 @@ src/__init__.py
 src/utils.py
     Pass
 src/rest_api.py
-src/rest_api.py:250: local variable 'input_json' is assigned to but never used
+src/rest_api.py:253: local variable 'input_json' is assigned to but never used
     Fail
 src/exceptions.py
     Pass

@@ -15,19 +15,17 @@ gateway/auth.py
 gateway/__init__.py
     Pass
 gateway/api_v1.py
-gateway/api_v1.py:79: unused variable 'kwargs' (100% confidence)
-    Fail
+    Pass
 gateway/errors.py
     Pass
 gateway/defaults.py
     Pass
 tests/test_errors.py
-tests/test_errors.py:3: unused import 'unittest' (90% confidence)
-    Fail
+    Pass
 tests/test_api_v1.py
     Pass
 tests/test_auth.py
     Pass
 tests/test_defaults.py
     Pass
-2 source files out of 9 files seems to contain dead code and/or unused imports
+All checks passed for 9 source files

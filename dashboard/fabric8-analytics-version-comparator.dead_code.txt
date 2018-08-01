@@ -11,17 +11,13 @@ Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages (0.28)
 f8a_version_comparator/__init__.py
-f8a_version_comparator/__init__.py:26: unused import 'base' (90% confidence)
-f8a_version_comparator/__init__.py:27: unused import 'comparable_version' (90% confidence)
-f8a_version_comparator/__init__.py:28: unused import 'item_object' (90% confidence)
-    Fail
+    Pass
 f8a_version_comparator/comparable_version.py
     Pass
 f8a_version_comparator/item_object.py
     Pass
 f8a_version_comparator/base.py
-f8a_version_comparator/base.py:27: unused variable 'item' (100% confidence)
-    Fail
+    Pass
 tests/__init__.py
     Pass
 tests/test_version_comparator.py
@@ -36,4 +32,4 @@ setup.py
 
 setup.py
     Pass
-2 source files out of 8 files seems to contain dead code and/or unused imports
+All checks passed for 8 source files
