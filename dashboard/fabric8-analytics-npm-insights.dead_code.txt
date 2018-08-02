@@ -11,9 +11,7 @@ Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages (0.28)
 recommendation_engine/predictor/abstract_recommender.py
-recommendation_engine/predictor/abstract_recommender.py:31: unused variable 'companion_threshold' (100% confidence)
-recommendation_engine/predictor/abstract_recommender.py:31: unused variable 'user_stack' (100% confidence)
-    Fail
+    Pass
 recommendation_engine/predictor/__init__.py
     Pass
 recommendation_engine/predictor/online_recommendation.py
@@ -23,14 +21,11 @@ recommendation_engine/flask_predict.py
 recommendation_engine/data_store/__init__.py
     Pass
 recommendation_engine/data_store/local_filesystem.py
-recommendation_engine/data_store/local_filesystem.py:21: unused import 'fnmatch' (90% confidence)
-    Fail
+    Pass
 recommendation_engine/data_store/abstract_data_store.py
-recommendation_engine/data_store/abstract_data_store.py:33: unused variable 'filename' (100% confidence)
-    Fail
+    Pass
 recommendation_engine/data_store/s3_data_store.py
-recommendation_engine/data_store/s3_data_store.py:24: unused import 'pickle' (90% confidence)
-    Fail
+    Pass
 recommendation_engine/utils/__init__.py
     Pass
 recommendation_engine/utils/fileutils.py
@@ -52,9 +47,7 @@ recommendation_engine/model/pmf_prediction.py
 deployment/submit_emr_job.py
     Pass
 tests/load_tests/locustfile.py
-tests/load_tests/locustfile.py:22: unused import 'events' (90% confidence)
-tests/load_tests/locustfile.py:22: unused import 'web' (90% confidence)
-    Fail
+    Pass
 tests/unit_tests/test_fileutils.py
     Pass
 tests/unit_tests/test_flask_predict.py
@@ -63,4 +56,4 @@ tests/unit_tests/test_constants.py
     Pass
 tests/unit_tests/test_PMFRecommendation.py
     Pass
-5 source files out of 23 files seems to contain dead code and/or unused imports
+All checks passed for 23 source files

@@ -248,34 +248,24 @@ dashboard/src/results.py
 dashboard/src/configuration.py
     Pass
 dashboard/src/dc_ce_history.py
-dashboard/src/dc_ce_history.py:8: unused import 'Repositories' (90% confidence)
-dashboard/src/dc_ce_history.py:11: unused import 'unit_tests' (90% confidence)
-    Fail
+    Pass
 dashboard/src/jacoco_to_codecov.py
     Pass
 dashboard/src/sla.py
     Pass
 dashboard/src/api.py
-dashboard/src/api.py:3: unused import 'os' (90% confidence)
-    Fail
+    Pass
 dashboard/src/ci_jobs.py
     Pass
 dashboard/src/jobsapi.py
-dashboard/src/jobsapi.py:3: unused import 'time' (90% confidence)
-dashboard/src/jobsapi.py:4: unused import 'datetime' (90% confidence)
-dashboard/src/jobsapi.py:5: unused import 'json' (90% confidence)
-    Fail
+    Pass
 dashboard/src/charts.py
-dashboard/src/charts.py:7: unused import 'np' (90% confidence)
-    Fail
+    Pass
 dashboard/src/unit_tests.py
 dashboard/src/unit_tests.py:105: unused variable 'jenkins_url' (100% confidence)
     Fail
 dashboard/src/cc.py
-dashboard/src/cc.py:4: unused import 'os' (90% confidence)
-dashboard/src/cc.py:7: unused import 'shutil' (90% confidence)
-dashboard/src/cc.py:8: unused import 're' (90% confidence)
-    Fail
+    Pass
 dashboard/src/repositories.py
     Pass
 dashboard/src/perf_tests.py
@@ -293,20 +283,15 @@ dashboard/src/source_files.py
 dashboard/src/s3_configuration.py
     Pass
 dashboard/src/dashboard.py
-dashboard/src/dashboard.py:3: unused import 'time' (90% confidence)
-dashboard/src/dashboard.py:10: unused import 're' (90% confidence)
-    Fail
+    Pass
 dashboard/src/smoke_tests.py
-dashboard/src/smoke_tests.py:2: unused import 'csv' (90% confidence)
-    Fail
+    Pass
 dashboard/src/progress_bar.py
     Pass
 dashboard/src/coreapi.py
-dashboard/src/coreapi.py:3: unused import 'time' (90% confidence)
-    Fail
+    Pass
 dashboard/src/cc_history.py
-dashboard/src/cc_history.py:11: unused import 'Repositories' (90% confidence)
-    Fail
+    Pass
 dashboard/src/git_utils.py
     Pass
 dashboard/src/history_generator.py
@@ -359,4 +344,4 @@ db-integrity-tests/src/core_package_checker.py
     Pass
 db-integrity-tests/src/checker.py
     Pass
-43 source files out of 105 files seems to contain dead code and/or unused imports
+34 source files out of 105 files seems to contain dead code and/or unused imports

@@ -837,32 +837,25 @@ dashboard/src/configuration.py:12: 'ServerConfiguration' may be undefined, or de
 dashboard/src/configuration.py:13: 'S3Configuration' may be undefined, or defined from star imports: s3_configuration, server_configuration
     Fail
 dashboard/src/dc_ce_history.py
-dashboard/src/dc_ce_history.py:8: 'repositories.Repositories' imported but unused
-dashboard/src/dc_ce_history.py:9: 'from config import *' used; unable to detect undefined names
-dashboard/src/dc_ce_history.py:11: 'unit_tests' imported but unused
-dashboard/src/dc_ce_history.py:40: local variable 'e' is assigned to but never used
-dashboard/src/dc_ce_history.py:141: 'Config' may be undefined, or defined from star imports: config
+dashboard/src/dc_ce_history.py:8: 'from config import *' used; unable to detect undefined names
+dashboard/src/dc_ce_history.py:38: local variable 'e' is assigned to but never used
+dashboard/src/dc_ce_history.py:139: 'Config' may be undefined, or defined from star imports: config
     Fail
 dashboard/src/jacoco_to_codecov.py
     Pass
 dashboard/src/sla.py
     Pass
 dashboard/src/api.py
-dashboard/src/api.py:3: 'os' imported but unused
-    Fail
+    Pass
 dashboard/src/ci_jobs.py
     Pass
 dashboard/src/jobsapi.py
 dashboard/src/jobsapi.py:2: 'from api import *' used; unable to detect undefined names
-dashboard/src/jobsapi.py:3: 'time' imported but unused
-dashboard/src/jobsapi.py:4: 'datetime' imported but unused
-dashboard/src/jobsapi.py:5: 'json' imported but unused
-dashboard/src/jobsapi.py:8: 'Api' may be undefined, or defined from star imports: api
-dashboard/src/jobsapi.py:22: 'requests' may be undefined, or defined from star imports: api
+dashboard/src/jobsapi.py:5: 'Api' may be undefined, or defined from star imports: api
+dashboard/src/jobsapi.py:19: 'requests' may be undefined, or defined from star imports: api
     Fail
 dashboard/src/charts.py
-dashboard/src/charts.py:7: 'numpy as np' imported but unused
-    Fail
+    Pass
 dashboard/src/unit_tests.py
 dashboard/src/unit_tests.py:5: 'from progress_bar import *' used; unable to detect undefined names
 dashboard/src/unit_tests.py:6: 'from jacoco_to_codecov import *' used; unable to detect undefined names
@@ -875,19 +868,16 @@ dashboard/src/unit_tests.py:137: 'ProjectCoverageReport' may be undefined, or de
 dashboard/src/unit_tests.py:157: local variable 'e' is assigned to but never used
     Fail
 dashboard/src/cc.py
-dashboard/src/cc.py:4: 'os' imported but unused
-dashboard/src/cc.py:5: 'sys' imported but unused
-dashboard/src/cc.py:7: 'shutil' imported but unused
-dashboard/src/cc.py:8: 're' imported but unused
-dashboard/src/cc.py:11: 'from source_files import *' used; unable to detect undefined names
-dashboard/src/cc.py:12: 'from unit_tests import *' used; unable to detect undefined names
-dashboard/src/cc.py:13: 'from config import *' used; unable to detect undefined names
-dashboard/src/cc.py:61: 'get_source_files' may be undefined, or defined from star imports: config, source_files, unit_tests
-dashboard/src/cc.py:66: 'read_unit_test_coverage_for_week' may be undefined, or defined from star imports: config, source_files, unit_tests
-dashboard/src/cc.py:82: 'read_unit_test_coverage_for_week' may be undefined, or defined from star imports: config, source_files, unit_tests
-dashboard/src/cc.py:108: local variable 'e' is assigned to but never used
-dashboard/src/cc.py:120: local variable 'e' is assigned to but never used
-dashboard/src/cc.py:147: 'Config' may be undefined, or defined from star imports: config, source_files, unit_tests
+dashboard/src/cc.py:4: 'sys' imported but unused
+dashboard/src/cc.py:8: 'from source_files import *' used; unable to detect undefined names
+dashboard/src/cc.py:9: 'from unit_tests import *' used; unable to detect undefined names
+dashboard/src/cc.py:10: 'from config import *' used; unable to detect undefined names
+dashboard/src/cc.py:58: 'get_source_files' may be undefined, or defined from star imports: config, source_files, unit_tests
+dashboard/src/cc.py:63: 'read_unit_test_coverage_for_week' may be undefined, or defined from star imports: config, source_files, unit_tests
+dashboard/src/cc.py:79: 'read_unit_test_coverage_for_week' may be undefined, or defined from star imports: config, source_files, unit_tests
+dashboard/src/cc.py:105: local variable 'e' is assigned to but never used
+dashboard/src/cc.py:117: local variable 'e' is assigned to but never used
+dashboard/src/cc.py:144: 'Config' may be undefined, or defined from star imports: config, source_files, unit_tests
     Fail
 dashboard/src/repositories.py
     Pass
@@ -906,62 +896,57 @@ dashboard/src/source_files.py
 dashboard/src/s3_configuration.py
     Pass
 dashboard/src/dashboard.py
-dashboard/src/dashboard.py:3: 'time' imported but unused
-dashboard/src/dashboard.py:10: 're' imported but unused
-dashboard/src/dashboard.py:14: 'from coreapi import *' used; unable to detect undefined names
-dashboard/src/dashboard.py:15: 'from jobsapi import *' used; unable to detect undefined names
-dashboard/src/dashboard.py:16: 'from configuration import *' used; unable to detect undefined names
-dashboard/src/dashboard.py:17: 'from results import *' used; unable to detect undefined names
-dashboard/src/dashboard.py:18: 'from html_generator import *' used; unable to detect undefined names
-dashboard/src/dashboard.py:19: 'from perf_tests import *' used; unable to detect undefined names
-dashboard/src/dashboard.py:20: 'from smoke_tests import *' used; unable to detect undefined names
-dashboard/src/dashboard.py:21: 'from sla import *' used; unable to detect undefined names
-dashboard/src/dashboard.py:22: 'from ci_jobs import *' used; unable to detect undefined names
-dashboard/src/dashboard.py:23: 'from cliargs import *' used; unable to detect undefined names
-dashboard/src/dashboard.py:24: 'from config import *' used; unable to detect undefined names
-dashboard/src/dashboard.py:26: 'from progress_bar import *' used; unable to detect undefined names
-dashboard/src/dashboard.py:27: 'from source_files import *' used; unable to detect undefined names
-dashboard/src/dashboard.py:28: 'from unit_tests import *' used; unable to detect undefined names
-dashboard/src/dashboard.py:29: 'from charts import *' used; unable to detect undefined names
-dashboard/src/dashboard.py:30: 'from git_utils import *' used; unable to detect undefined names
-dashboard/src/dashboard.py:250: 'progress_bar_class' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
-dashboard/src/dashboard.py:251: 'progress_bar_width' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
-dashboard/src/dashboard.py:315: 'unit_test_coverage_ok' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
-dashboard/src/dashboard.py:352: 'unit_test_coverage_ok' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
-dashboard/src/dashboard.py:488: 'Configuration' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
-dashboard/src/dashboard.py:490: 'CoreApi' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
-dashboard/src/dashboard.py:491: 'JobsApi' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
-dashboard/src/dashboard.py:494: 'CoreApi' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
-dashboard/src/dashboard.py:495: 'JobsApi' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
-dashboard/src/dashboard.py:498: 'SmokeTests' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
-dashboard/src/dashboard.py:506: 'PerfTests' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
-dashboard/src/dashboard.py:512: 'SLA' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
-dashboard/src/dashboard.py:528: 'clone_or_fetch_repository' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
-dashboard/src/dashboard.py:538: 'get_source_files' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
-dashboard/src/dashboard.py:562: 'read_unit_test_coverage' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
-dashboard/src/dashboard.py:652: 'Config' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
-dashboard/src/dashboard.py:653: 'cli_parser' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
-dashboard/src/dashboard.py:672: 'Results' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
-dashboard/src/dashboard.py:687: 'CIJobs' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
-dashboard/src/dashboard.py:715: 'generate_dashboard' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
-dashboard/src/dashboard.py:716: 'generate_charts' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:12: 'from coreapi import *' used; unable to detect undefined names
+dashboard/src/dashboard.py:13: 'from jobsapi import *' used; unable to detect undefined names
+dashboard/src/dashboard.py:14: 'from configuration import *' used; unable to detect undefined names
+dashboard/src/dashboard.py:15: 'from results import *' used; unable to detect undefined names
+dashboard/src/dashboard.py:16: 'from html_generator import *' used; unable to detect undefined names
+dashboard/src/dashboard.py:17: 'from perf_tests import *' used; unable to detect undefined names
+dashboard/src/dashboard.py:18: 'from smoke_tests import *' used; unable to detect undefined names
+dashboard/src/dashboard.py:19: 'from sla import *' used; unable to detect undefined names
+dashboard/src/dashboard.py:20: 'from ci_jobs import *' used; unable to detect undefined names
+dashboard/src/dashboard.py:21: 'from cliargs import *' used; unable to detect undefined names
+dashboard/src/dashboard.py:22: 'from config import *' used; unable to detect undefined names
+dashboard/src/dashboard.py:24: 'from progress_bar import *' used; unable to detect undefined names
+dashboard/src/dashboard.py:25: 'from source_files import *' used; unable to detect undefined names
+dashboard/src/dashboard.py:26: 'from unit_tests import *' used; unable to detect undefined names
+dashboard/src/dashboard.py:27: 'from charts import *' used; unable to detect undefined names
+dashboard/src/dashboard.py:28: 'from git_utils import *' used; unable to detect undefined names
+dashboard/src/dashboard.py:248: 'progress_bar_class' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:249: 'progress_bar_width' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:313: 'unit_test_coverage_ok' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:350: 'unit_test_coverage_ok' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:486: 'Configuration' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:488: 'CoreApi' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:489: 'JobsApi' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:492: 'CoreApi' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:493: 'JobsApi' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:496: 'SmokeTests' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:504: 'PerfTests' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:510: 'SLA' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:526: 'clone_or_fetch_repository' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:536: 'get_source_files' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:560: 'read_unit_test_coverage' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:650: 'Config' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:651: 'cli_parser' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:670: 'Results' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:685: 'CIJobs' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:713: 'generate_dashboard' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
+dashboard/src/dashboard.py:714: 'generate_charts' may be undefined, or defined from star imports: charts, ci_jobs, cliargs, config, configuration, coreapi, git_utils, html_generator, jobsapi, perf_tests, progress_bar, results, sla, smoke_tests, source_files, unit_tests
     Fail
 dashboard/src/smoke_tests.py
-dashboard/src/smoke_tests.py:2: 'csv' imported but unused
-    Fail
+    Pass
 dashboard/src/progress_bar.py
     Pass
 dashboard/src/coreapi.py
 dashboard/src/coreapi.py:2: 'from api import *' used; unable to detect undefined names
-dashboard/src/coreapi.py:3: 'time' imported but unused
-dashboard/src/coreapi.py:6: 'Api' may be undefined, or defined from star imports: api
-dashboard/src/coreapi.py:20: 'requests' may be undefined, or defined from star imports: api
+dashboard/src/coreapi.py:5: 'Api' may be undefined, or defined from star imports: api
+dashboard/src/coreapi.py:19: 'requests' may be undefined, or defined from star imports: api
     Fail
 dashboard/src/cc_history.py
-dashboard/src/cc_history.py:11: 'repositories.Repositories' imported but unused
-dashboard/src/cc_history.py:12: 'from config import *' used; unable to detect undefined names
-dashboard/src/cc_history.py:27: local variable 'e' is assigned to but never used
-dashboard/src/cc_history.py:92: 'Config' may be undefined, or defined from star imports: config
+dashboard/src/cc_history.py:11: 'from config import *' used; unable to detect undefined names
+dashboard/src/cc_history.py:26: local variable 'e' is assigned to but never used
+dashboard/src/cc_history.py:91: 'Config' may be undefined, or defined from star imports: config
     Fail
 dashboard/src/git_utils.py
     Pass
@@ -1043,4 +1028,4 @@ db-integrity-tests/src/core_package_checker.py:132: local variable 'e' is assign
     Fail
 db-integrity-tests/src/checker.py
     Pass
-62 source files out of 105 files needs to be checked and fixed
+59 source files out of 105 files needs to be checked and fixed
