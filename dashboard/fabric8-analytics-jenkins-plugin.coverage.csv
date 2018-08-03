@@ -1,16 +1,20 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
 Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,User,4,6,0,0,2,3,1,2,1,2
-Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,Bayesian,440,443,89,37,20,84,66,12,4,11
+Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,Bayesian,661,574,129,49,39,117,91,16,4,14
 Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,BayesianAnalysisStep,8,19,0,0,3,7,2,5,2,5
+Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,Codebase.Data,14,0,0,0,5,0,4,0,4,0
 Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,BayesianStepResponse,25,26,0,0,11,8,7,3,7,3
 Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,DnsFiddler,28,24,3,1,6,6,3,2,1,2
 Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,BayesianResponse,18,6,0,0,8,2,5,2,5,2
+Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,Codebase.Attributes,10,0,0,0,4,0,3,0,3,0
 Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,User.Attributes,4,6,0,0,2,2,1,2,1,2
-Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,Utils,31,126,6,10,9,35,6,8,1,5
+Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,Utils,31,136,6,10,9,38,6,9,1,6
+Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,Codebase,4,6,0,0,2,3,1,2,1,2
 Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,BayesianAnalysisStep.DescriptorImpl,0,23,0,0,0,4,0,4,0,4
 Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,Utils.new ArrayList() {...},0,7,0,0,0,3,0,1,0,1
-Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,BayesianAnalysisStep.Execution,37,74,4,4,8,18,4,2,0,2
+Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,BayesianAnalysisStep.Execution,40,89,5,5,9,21,5,2,0,2
 Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,BayesianException,13,0,0,0,6,0,3,0,3,0
-Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,Utils.new ArrayList() {...},0,11,0,0,0,4,0,1,0,1
 Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,Utils.new ArrayList() {...},0,7,0,0,0,3,0,1,0,1
+Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,Utils.new ArrayList() {...},0,11,0,0,0,4,0,1,0,1
+Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,Utils.new ArrayList() {...},0,11,0,0,0,4,0,1,0,1
 Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,User.Data,8,6,0,0,3,2,2,2,2,2
