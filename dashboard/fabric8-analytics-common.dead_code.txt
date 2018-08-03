@@ -262,8 +262,7 @@ dashboard/src/jobsapi.py
 dashboard/src/charts.py
     Pass
 dashboard/src/unit_tests.py
-dashboard/src/unit_tests.py:105: unused variable 'jenkins_url' (100% confidence)
-    Fail
+    Pass
 dashboard/src/cc.py
     Pass
 dashboard/src/repositories.py
@@ -344,4 +343,4 @@ db-integrity-tests/src/core_package_checker.py
     Pass
 db-integrity-tests/src/checker.py
     Pass
-34 source files out of 105 files seems to contain dead code and/or unused imports
+33 source files out of 105 files seems to contain dead code and/or unused imports
