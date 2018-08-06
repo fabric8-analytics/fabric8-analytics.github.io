@@ -1,17 +1,38 @@
-<pre>tests/unit_tests/test_scoring_hpf_scoring.py
-    <span style="color:#AA00AA">F </span>8:0 test_basic_object - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>19:0 test_model_details - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>31:0 test_get_sizeof - <span style="color:#00AA00">A (2)</span>
+<pre>tests/unit_tests/test_flask_endpoint.py
+    <span style="color:#00AAAA">C </span>9:0 TestFlaskMethods - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>12:4 TestFlaskMethods.setUp - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>17:4 TestFlaskMethods.test_health_checks - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>23:4 TestFlaskMethods.test_root_path - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>27:4 TestFlaskMethods.test_model_details - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>32:4 TestFlaskMethods.test_companion_recommendations - <span style="color:#00AA00">A (1)</span>
+tests/unit_tests/test_scoring_hpf_scoring.py
+    <span style="color:#00AA00">M </span>20:4 TestHPFScoringMethods.test_basic_object - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#00AA00">M </span>91:4 TestHPFScoringMethods.test_predict - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>64:4 TestHPFScoringMethods.test_folding_in - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AAAA">C </span>11:0 TestHPFScoringMethods - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>30:4 TestHPFScoringMethods.test_normalise_result - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>113:4 TestHPFScoringMethods.test_model_details - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>122:4 TestHPFScoringMethods.test_get_sizeof - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>14:4 TestHPFScoringMethods.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>52:4 TestHPFScoringMethods.test_filter_recommendations - <span style="color:#00AA00">A (1)</span>
 tests/unit_tests/test_local_datastore.py
-    <span style="color:#AA00AA">F </span>6:0 test_local_datastore - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>18:4 TestLocalDataStoreMethods.test_get_name - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>40:4 TestLocalDataStoreMethods.test_read_json_file - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>48:4 TestLocalDataStoreMethods.test_read_all_json_files - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>10:0 TestLocalDataStoreMethods - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>57:4 TestLocalDataStoreMethods.test_write_remove_json_file - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>13:4 TestLocalDataStoreMethods.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>23:4 TestLocalDataStoreMethods.test_list_files - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>30:4 TestLocalDataStoreMethods.test_download_file - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>35:4 TestLocalDataStoreMethods.test_upload_file - <span style="color:#00AA00">A (1)</span>
 src/flask_endpoint.py
-    <span style="color:#AA00AA">F </span>73:0 hpf_scoring - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>16:0 setup_logging - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>50:0 list_routes - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>107:0 hpf_model_details - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>55:0 heart_beat - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>61:0 liveness - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>67:0 readiness - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>78:0 hpf_scoring - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>18:0 setup_logging - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>55:0 list_routes - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>110:0 hpf_model_details - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>60:0 heart_beat - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>66:0 liveness - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>72:0 readiness - <span style="color:#00AA00">A (1)</span>
 src/data_store/abstract_data_store.py
     <span style="color:#00AAAA">C </span>6:0 AbstractDataStore - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>9:4 AbstractDataStore.get_name - <span style="color:#00AA00">A (1)</span>
@@ -22,42 +43,43 @@ src/data_store/abstract_data_store.py
     <span style="color:#00AA00">M </span>34:4 AbstractDataStore.upload_file - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>39:4 AbstractDataStore.download_file - <span style="color:#00AA00">A (1)</span>
 src/data_store/local_data_store.py
-    <span style="color:#00AA00">M </span>21:4 LocalDataStore.list_files - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>37:4 LocalDataStore.read_generic_file - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>42:4 LocalDataStore.read_json_file - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>47:4 LocalDataStore.read_all_json_files - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>56:4 LocalDataStore.write_json_file - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AAAA">C </span>10:0 LocalDataStore - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>13:4 LocalDataStore.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>17:4 LocalDataStore.get_name - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>33:4 LocalDataStore.remove_json_file - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>62:4 LocalDataStore.upload_file - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>66:4 LocalDataStore.download_file - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>22:4 LocalDataStore.list_files - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>38:4 LocalDataStore.read_json_file - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>43:4 LocalDataStore.read_all_json_files - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>52:4 LocalDataStore.write_json_file - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>11:0 LocalDataStore - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>14:4 LocalDataStore.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>18:4 LocalDataStore.get_name - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>34:4 LocalDataStore.remove_json_file - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>58:4 LocalDataStore.upload_file - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>62:4 LocalDataStore.download_file - <span style="color:#00AA00">A (1)</span>
 src/data_store/s3_data_store.py
-    <span style="color:#00AA00">M </span>45:4 S3DataStore.list_files - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>83:4 S3DataStore.iterate_bucket_items - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>110:4 S3DataStore.upload_folder_to_s3 - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>100:4 S3DataStore.list_folders - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>13:0 S3DataStore - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>16:4 S3DataStore.__init__ - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>57:4 S3DataStore.read_all_json_files - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>30:4 S3DataStore.get_name - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>34:4 S3DataStore.read_json_file - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>38:4 S3DataStore.read_generic_file - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>66:4 S3DataStore.write_json_file - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>72:4 S3DataStore.upload_file - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>77:4 S3DataStore.download_file - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>83:4 S3DataStore.upload_folder_to_s3 - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>17:4 S3DataStore.__init__ - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>14:0 S3DataStore - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>31:4 S3DataStore.get_name - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>35:4 S3DataStore.read_json_file - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>39:4 S3DataStore.read_generic_file - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>46:4 S3DataStore.list_files - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>50:4 S3DataStore.read_all_json_files - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>54:4 S3DataStore.write_json_file - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>59:4 S3DataStore.upload_file - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>63:4 S3DataStore.download_file - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>68:4 S3DataStore.iterate_bucket_items - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>79:4 S3DataStore.list_folders - <span style="color:#00AA00">A (1)</span>
 src/scoring/hpf_scoring.py
-    <span style="color:#00AA00">M </span>106:4 HPFScoring.predict - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>138:4 HPFScoring.match_manifest - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>153:4 HPFScoring.folding_in - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>74:4 HPFScoring.loadS3 - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>172:4 HPFScoring.normalize_result - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>28:0 HPFScoring - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>31:4 HPFScoring.__init__ - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>184:4 HPFScoring.filter_recommendation - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>52:4 HPFScoring._getsizeof - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>60:4 HPFScoring.model_details - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>134:4 HPFScoring.predict - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>166:4 HPFScoring.match_manifest - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>181:4 HPFScoring.folding_in - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>200:4 HPFScoring.normalize_result - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>120:4 HPFScoring.load_jsons - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>36:0 HPFScoring - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>39:4 HPFScoring.__init__ - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>215:4 HPFScoring.filter_recommendation - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>64:4 HPFScoring._getsizeof - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>72:4 HPFScoring.model_details - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>86:4 HPFScoring.load_s3 - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>106:4 HPFScoring.load_local - <span style="color:#00AA00">A (1)</span>
 perf_tests/locust_tests.py
     <span style="color:#AA00AA">F </span>82:0 get_packages - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AAAA">C </span>89:0 HPFInsightsBehaviour - <span style="color:#00AA00">A (1)</span>
@@ -65,6 +87,6 @@ perf_tests/locust_tests.py
     <span style="color:#00AA00">M </span>96:4 HPFInsightsBehaviour.trigger_companion_recommendation_random_stack_len - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AAAA">C </span>104:0 HPFInsightsLocust - <span style="color:#00AA00">A (1)</span>
 
-58 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (1.9310344827586208)</span>
+79 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (1.8227848101265822)</span>
 </pre>

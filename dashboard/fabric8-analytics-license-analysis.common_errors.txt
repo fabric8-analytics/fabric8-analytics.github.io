@@ -83,20 +83,20 @@ tests/test_stack_license.py:3: 'from unittest.mock import *' used; unable to det
 tests/test_stack_license.py:4: 'from src.stack_license import *' used; unable to detect undefined names
 tests/test_stack_license.py:8: 'StackLicenseAnalyzer' may be undefined, or defined from star imports: src.stack_license, unittest.mock
 tests/test_stack_license.py:179: 'patch' may be undefined, or defined from star imports: src.stack_license, unittest.mock
-tests/test_stack_license.py:416: 'patch' may be undefined, or defined from star imports: src.stack_license, unittest.mock
-tests/test_stack_license.py:431: 'patch' may be undefined, or defined from star imports: src.stack_license, unittest.mock
-tests/test_stack_license.py:451: 'patch' may be undefined, or defined from star imports: src.stack_license, unittest.mock
-tests/test_stack_license.py:471: 'patch' may be undefined, or defined from star imports: src.stack_license, unittest.mock
-tests/test_stack_license.py:486: 'patch' may be undefined, or defined from star imports: src.stack_license, unittest.mock
-tests/test_stack_license.py:513: 'patch' may be undefined, or defined from star imports: src.stack_license, unittest.mock
-tests/test_stack_license.py:556: 'convert_version_to_proper_semantic' may be undefined, or defined from star imports: src.stack_license, unittest.mock
+tests/test_stack_license.py:415: 'patch' may be undefined, or defined from star imports: src.stack_license, unittest.mock
+tests/test_stack_license.py:430: 'patch' may be undefined, or defined from star imports: src.stack_license, unittest.mock
+tests/test_stack_license.py:450: 'patch' may be undefined, or defined from star imports: src.stack_license, unittest.mock
+tests/test_stack_license.py:470: 'patch' may be undefined, or defined from star imports: src.stack_license, unittest.mock
+tests/test_stack_license.py:485: 'patch' may be undefined, or defined from star imports: src.stack_license, unittest.mock
+tests/test_stack_license.py:512: 'patch' may be undefined, or defined from star imports: src.stack_license, unittest.mock
+tests/test_stack_license.py:555: 'convert_version_to_proper_semantic' may be undefined, or defined from star imports: src.stack_license, unittest.mock
+tests/test_stack_license.py:560: 'select_latest_version' may be undefined, or defined from star imports: src.stack_license, unittest.mock
 tests/test_stack_license.py:561: 'select_latest_version' may be undefined, or defined from star imports: src.stack_license, unittest.mock
 tests/test_stack_license.py:562: 'select_latest_version' may be undefined, or defined from star imports: src.stack_license, unittest.mock
 tests/test_stack_license.py:563: 'select_latest_version' may be undefined, or defined from star imports: src.stack_license, unittest.mock
-tests/test_stack_license.py:564: 'select_latest_version' may be undefined, or defined from star imports: src.stack_license, unittest.mock
+tests/test_stack_license.py:566: 'select_latest_version' may be undefined, or defined from star imports: src.stack_license, unittest.mock
 tests/test_stack_license.py:567: 'select_latest_version' may be undefined, or defined from star imports: src.stack_license, unittest.mock
 tests/test_stack_license.py:568: 'select_latest_version' may be undefined, or defined from star imports: src.stack_license, unittest.mock
-tests/test_stack_license.py:569: 'select_latest_version' may be undefined, or defined from star imports: src.stack_license, unittest.mock
     Fail
 tests/test_token_handling.py
 tests/test_token_handling.py:3: 'unittest' imported but unused

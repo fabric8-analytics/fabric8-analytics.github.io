@@ -26,15 +26,18 @@ src/data_store/abstract_data_store.py:40: unused variable 'src' (100% confidence
 src/data_store/abstract_data_store.py:40: unused variable 'target' (100% confidence)
     Fail
 src/data_store/local_data_store.py
-src/data_store/local_data_store.py:21: unused variable 'max_count' (100% confidence)
-src/data_store/local_data_store.py:21: unused variable 'prefix' (100% confidence)
+src/data_store/local_data_store.py:22: unused variable 'max_count' (100% confidence)
+src/data_store/local_data_store.py:22: unused variable 'prefix' (100% confidence)
+src/data_store/local_data_store.py:58: unused variable 'src' (100% confidence)
+src/data_store/local_data_store.py:58: unused variable 'target' (100% confidence)
 src/data_store/local_data_store.py:62: unused variable 'src' (100% confidence)
 src/data_store/local_data_store.py:62: unused variable 'target' (100% confidence)
-src/data_store/local_data_store.py:66: unused variable 'src' (100% confidence)
-src/data_store/local_data_store.py:66: unused variable 'target' (100% confidence)
     Fail
 src/data_store/s3_data_store.py
-    Pass
+src/data_store/s3_data_store.py:4: unused import 'OrderedDict' (90% confidence)
+src/data_store/s3_data_store.py:46: unused variable 'max_count' (100% confidence)
+src/data_store/s3_data_store.py:68: unused variable 'ecosystem' (100% confidence)
+    Fail
 src/__init__.py
     Pass
 src/flask_endpoint.py
@@ -42,17 +45,20 @@ src/flask_endpoint.py
 src/scoring/__init__.py
     Pass
 src/scoring/hpf_scoring.py
-src/scoring/hpf_scoring.py:12: unused import 'defaultdict' (90% confidence)
-src/scoring/hpf_scoring.py:14: unused import 'c' (90% confidence)
-src/scoring/hpf_scoring.py:14: unused import 'c_c' (90% confidence)
-src/scoring/hpf_scoring.py:14: unused import 'd_c' (90% confidence)
+src/scoring/hpf_scoring.py:13: unused import 'defaultdict' (90% confidence)
+src/scoring/hpf_scoring.py:15: unused import 'LocalDataStore' (90% confidence)
+src/scoring/hpf_scoring.py:16: unused import 'c' (90% confidence)
+src/scoring/hpf_scoring.py:16: unused import 'c_c' (90% confidence)
+src/scoring/hpf_scoring.py:16: unused import 'd_c' (90% confidence)
     Fail
 src/training/__init__.py
     Pass
 tests/__init__.py
     Pass
+tests/unit_tests/test_flask_endpoint.py
+    Pass
 tests/unit_tests/test_scoring_hpf_scoring.py
-tests/unit_tests/test_scoring_hpf_scoring.py:5: unused import 'tf' (90% confidence)
+tests/unit_tests/test_scoring_hpf_scoring.py:6: unused import 'tf' (90% confidence)
     Fail
 tests/unit_tests/__init__.py
     Pass
@@ -66,4 +72,4 @@ perf_tests/locust_tests.py:4: unused import 'web' (90% confidence)
     Fail
 PoC_code/__init__.py
     Pass
-5 source files out of 17 files seems to contain dead code and/or unused imports
+6 source files out of 18 files seems to contain dead code and/or unused imports

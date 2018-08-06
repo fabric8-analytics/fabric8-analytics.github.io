@@ -94,13 +94,13 @@ tests/synonyms/__init__.py
     Pass
 tests/test_stack_license.py
 tests/test_stack_license.py:180: unused variable 'mocking_object' (100% confidence)
-tests/test_stack_license.py:394: unused variable 'url' (100% confidence)
-tests/test_stack_license.py:417: unused variable 'mock_get_session_retry' (100% confidence)
-tests/test_stack_license.py:432: unused variable 'mock_get_session_retry' (100% confidence)
-tests/test_stack_license.py:452: unused variable 'mock_get_session_retry' (100% confidence)
-tests/test_stack_license.py:472: unused variable 'mock_get_session_retry' (100% confidence)
-tests/test_stack_license.py:487: unused variable 'mock_get_session_retry' (100% confidence)
-tests/test_stack_license.py:514: unused variable 'mock_get_session_retry' (100% confidence)
+tests/test_stack_license.py:393: unused variable 'url' (100% confidence)
+tests/test_stack_license.py:416: unused variable 'mock_get_session_retry' (100% confidence)
+tests/test_stack_license.py:431: unused variable 'mock_get_session_retry' (100% confidence)
+tests/test_stack_license.py:451: unused variable 'mock_get_session_retry' (100% confidence)
+tests/test_stack_license.py:471: unused variable 'mock_get_session_retry' (100% confidence)
+tests/test_stack_license.py:486: unused variable 'mock_get_session_retry' (100% confidence)
+tests/test_stack_license.py:513: unused variable 'mock_get_session_retry' (100% confidence)
     Fail
 tests/test_token_handling.py
 tests/test_token_handling.py:3: unused import 'unittest' (90% confidence)

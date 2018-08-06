@@ -194,6 +194,7 @@ integration-tests/features/steps/gemini.py:8: unused import 'then' (90% confiden
 integration-tests/features/steps/authorization.py
     Pass
 integration-tests/features/steps/backbone_api.py
+integration-tests/features/steps/backbone_api.py:8: unused import 'os' (90% confidence)
 integration-tests/features/steps/backbone_api.py:11: unused import 'urljoin' (90% confidence)
     Fail
 integration-tests/features/steps/license_analysis.py

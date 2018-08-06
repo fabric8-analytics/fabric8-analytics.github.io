@@ -45,6 +45,9 @@ deployments/__init__.py
 tests/__init__.py
 0
     Pass
+tests/unit_tests/test_flask_endpoint.py
+0
+    Pass
 tests/unit_tests/test_scoring_hpf_scoring.py
 0
     Pass
@@ -63,4 +66,4 @@ perf_tests/locust_tests.py
 PoC_code/__init__.py
 0
     Pass
-All checks passed for 17 source files
+All checks passed for 18 source files
