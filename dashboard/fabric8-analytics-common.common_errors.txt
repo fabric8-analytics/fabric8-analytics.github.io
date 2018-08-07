@@ -833,8 +833,7 @@ dashboard/src/results.py
 dashboard/src/configuration.py
     Pass
 dashboard/src/dc_ce_history.py
-dashboard/src/dc_ce_history.py:57: local variable 'e' is assigned to but never used
-    Fail
+    Pass
 dashboard/src/jacoco_to_codecov.py
     Pass
 dashboard/src/sla.py
@@ -951,47 +950,21 @@ db-integrity-tests/src/s3configuration.py
 db-integrity-tests/src/cliargs.py
     Pass
 db-integrity-tests/src/main.py
-db-integrity-tests/src/main.py:4: 're' imported but unused
-db-integrity-tests/src/main.py:10: 'from cliargs import *' used; unable to detect undefined names
-db-integrity-tests/src/main.py:11: 'from utils import *' used; unable to detect undefined names
-db-integrity-tests/src/main.py:13: 'from schema_validator import *' used; unable to detect undefined names
-db-integrity-tests/src/main.py:84: 'store_list' may be undefined, or defined from star imports: cliargs, schema_validator, utils
-db-integrity-tests/src/main.py:85: 'store_list' may be undefined, or defined from star imports: cliargs, schema_validator, utils
-db-integrity-tests/src/main.py:129: local variable 'all_jsons' is assigned to but never used
-db-integrity-tests/src/main.py:175: 'cli_parser' may be undefined, or defined from star imports: cliargs, schema_validator, utils
-    Fail
+    Pass
 db-integrity-tests/src/gremlin_configuration.py
     Pass
 db-integrity-tests/src/component_versions_checker.py
-db-integrity-tests/src/component_versions_checker.py:56: local variable 'e' is assigned to but never used
-db-integrity-tests/src/component_versions_checker.py:149: local variable 'e' is assigned to but never used
-db-integrity-tests/src/component_versions_checker.py:166: local variable 'details' is assigned to but never used
-db-integrity-tests/src/component_versions_checker.py:181: local variable 'e' is assigned to but never used
-db-integrity-tests/src/component_versions_checker.py:202: local variable 'e' is assigned to but never used
-db-integrity-tests/src/component_versions_checker.py:221: local variable 'e' is assigned to but never used
-db-integrity-tests/src/component_versions_checker.py:238: local variable 'e' is assigned to but never used
-db-integrity-tests/src/component_versions_checker.py:253: local variable 'details' is assigned to but never used
-db-integrity-tests/src/component_versions_checker.py:256: local variable 'e' is assigned to but never used
-db-integrity-tests/src/component_versions_checker.py:278: local variable 'e' is assigned to but never used
-db-integrity-tests/src/component_versions_checker.py:294: local variable 'e' is assigned to but never used
-db-integrity-tests/src/component_versions_checker.py:312: local variable 'e' is assigned to but never used
-    Fail
+    Pass
 db-integrity-tests/src/gremlin_query.py
     Pass
 db-integrity-tests/src/s3interface.py
-db-integrity-tests/src/s3interface.py:8: 's3configuration.S3Configuration' imported but unused
-    Fail
+    Pass
 db-integrity-tests/src/csv_reporter.py
     Pass
 db-integrity-tests/src/gremlin_interface.py
     Pass
 db-integrity-tests/src/core_package_checker.py
-db-integrity-tests/src/core_package_checker.py:62: local variable 'e' is assigned to but never used
-db-integrity-tests/src/core_package_checker.py:80: local variable 'e' is assigned to but never used
-db-integrity-tests/src/core_package_checker.py:94: local variable 'e' is assigned to but never used
-db-integrity-tests/src/core_package_checker.py:110: local variable 'e' is assigned to but never used
-db-integrity-tests/src/core_package_checker.py:132: local variable 'e' is assigned to but never used
-    Fail
+    Pass
 db-integrity-tests/src/checker.py
     Pass
-53 source files out of 105 files needs to be checked and fixed
+48 source files out of 105 files needs to be checked and fixed

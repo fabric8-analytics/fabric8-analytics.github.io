@@ -322,8 +322,7 @@ db-integrity-tests/src/s3configuration.py
 db-integrity-tests/src/cliargs.py
     Pass
 db-integrity-tests/src/main.py
-db-integrity-tests/src/main.py:4: unused import 're' (90% confidence)
-    Fail
+    Pass
 db-integrity-tests/src/gremlin_configuration.py
     Pass
 db-integrity-tests/src/component_versions_checker.py
@@ -331,17 +330,13 @@ db-integrity-tests/src/component_versions_checker.py
 db-integrity-tests/src/gremlin_query.py
     Pass
 db-integrity-tests/src/s3interface.py
-db-integrity-tests/src/s3interface.py:8: unused import 'S3Configuration' (90% confidence)
-    Fail
+    Pass
 db-integrity-tests/src/csv_reporter.py
-db-integrity-tests/src/csv_reporter.py:19: unused variable 'traceback' (100% confidence)
-db-integrity-tests/src/csv_reporter.py:19: unused variable 'type' (100% confidence)
-db-integrity-tests/src/csv_reporter.py:19: unused variable 'value' (100% confidence)
-    Fail
+    Pass
 db-integrity-tests/src/gremlin_interface.py
     Pass
 db-integrity-tests/src/core_package_checker.py
     Pass
 db-integrity-tests/src/checker.py
     Pass
-33 source files out of 105 files seems to contain dead code and/or unused imports
+30 source files out of 105 files seems to contain dead code and/or unused imports
