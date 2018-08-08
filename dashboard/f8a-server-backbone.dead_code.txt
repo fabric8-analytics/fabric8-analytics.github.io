@@ -19,52 +19,17 @@ src/rest_api.py
 src/stack_aggregator.py
     Pass
 src/recommender.py
-src/recommender.py:73: unused import 'sv' (90% confidence)
-    Fail
+    Pass
 tests/test_rest_api.py
-tests/test_rest_api.py:81: unused variable 'mock_object' (100% confidence)
-    Fail
+    Pass
 tests/__init__.py
     Pass
 tests/test_utils.py
-tests/test_utils.py:11: unused import 'TestCase' (90% confidence)
-tests/test_utils.py:14: unused variable 'args' (100% confidence)
-tests/test_utils.py:14: unused variable 'kwargs' (100% confidence)
-tests/test_utils.py:107: unused variable 'mock_get' (100% confidence)
-tests/test_utils.py:107: unused variable 'mock_post' (100% confidence)
-tests/test_utils.py:114: unused variable 'mock_count' (100% confidence)
-    Fail
+    Pass
 tests/test_stack_aggregator.py
-tests/test_stack_aggregator.py:3: unused import 'TestCase' (90% confidence)
-tests/test_stack_aggregator.py:50: unused variable 'args' (100% confidence)
-tests/test_stack_aggregator.py:50: unused variable 'kwargs' (100% confidence)
-tests/test_stack_aggregator.py:71: unused variable 'mock_get' (100% confidence)
-tests/test_stack_aggregator.py:71: unused variable 'mock_post' (100% confidence)
-tests/test_stack_aggregator.py:81: unused variable 'args' (100% confidence)
-tests/test_stack_aggregator.py:81: unused variable 'kwargs' (100% confidence)
-tests/test_stack_aggregator.py:102: unused variable 'mock_get' (100% confidence)
-tests/test_stack_aggregator.py:102: unused variable 'mock_post' (100% confidence)
-tests/test_stack_aggregator.py:119: unused variable 'mock_get' (100% confidence)
-tests/test_stack_aggregator.py:119: unused variable 'mock_post' (100% confidence)
-tests/test_stack_aggregator.py:128: unused variable 'args' (100% confidence)
-tests/test_stack_aggregator.py:128: unused variable 'kwargs' (100% confidence)
-tests/test_stack_aggregator.py:149: unused variable 'mock_get' (100% confidence)
-tests/test_stack_aggregator.py:149: unused variable 'mock_post' (100% confidence)
-tests/test_stack_aggregator.py:157: unused variable 'mock_get' (100% confidence)
-tests/test_stack_aggregator.py:157: unused variable 'mock_post' (100% confidence)
-    Fail
+    Pass
 tests/test_recommender.py
-tests/test_recommender.py:12: unused variable 'kwargs' (100% confidence)
-tests/test_recommender.py:35: unused variable 'mock_get' (100% confidence)
-tests/test_recommender.py:35: unused variable 'mock_post' (100% confidence)
-tests/test_recommender.py:55: unused variable 'kwargs' (100% confidence)
-tests/test_recommender.py:77: unused variable 'mock_call_insights' (100% confidence)
-tests/test_recommender.py:110: unused variable 'mock1' (100% confidence)
-tests/test_recommender.py:110: unused variable 'mock2' (100% confidence)
-tests/test_recommender.py:118: unused variable 'mock1' (100% confidence)
-    Fail
+    Pass
 tests/conftest.py
-tests/conftest.py:3: unused import 'os' (90% confidence)
-tests/conftest.py:5: unused import 'current_app' (90% confidence)
-    Fail
-6 source files out of 11 files seems to contain dead code and/or unused imports
+    Pass
+All checks passed for 11 source files

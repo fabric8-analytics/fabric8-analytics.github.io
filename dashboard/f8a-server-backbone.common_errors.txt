@@ -19,25 +19,17 @@ src/rest_api.py
 src/stack_aggregator.py
     Pass
 src/recommender.py
-src/recommender.py:73: 'semantic_version as sv' imported but unused
-    Fail
+    Pass
 tests/test_rest_api.py
-tests/test_rest_api.py:52: redefinition of unused 'get_json_from_response' from line 42
-tests/test_rest_api.py:69: local variable 'json_data' is assigned to but never used
-    Fail
+    Pass
 tests/__init__.py
     Pass
 tests/test_utils.py
-tests/test_utils.py:11: 'unittest.TestCase' imported but unused
-    Fail
+    Pass
 tests/test_stack_aggregator.py
-tests/test_stack_aggregator.py:3: 'unittest.TestCase' imported but unused
-tests/test_stack_aggregator.py:164: redefinition of unused 'test_aggregate_stack_data' from line 30
-    Fail
+    Pass
 tests/test_recommender.py
     Pass
 tests/conftest.py
-tests/conftest.py:3: 'os' imported but unused
-tests/conftest.py:5: 'flask.current_app' imported but unused
-    Fail
-5 source files out of 11 files needs to be checked and fixed
+    Pass
+All checks passed for 11 source files

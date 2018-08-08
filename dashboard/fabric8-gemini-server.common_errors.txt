@@ -11,8 +11,7 @@ src tests
 ----------------------------------------------------
 
 src/auth.py
-src/auth.py:104: local variable 'e' is assigned to but never used
-    Fail
+    Pass
 src/__init__.py
     Pass
 src/utils.py
@@ -24,65 +23,15 @@ src/exceptions.py
 tests/test_rest_api.py
     Pass
 tests/test_errors_class.py
-tests/test_errors_class.py:16: local variable 'e' is assigned to but never used
-    Fail
+    Pass
 tests/test_auth.py
-tests/test_auth.py:7: 'from auth import *' used; unable to detect undefined names
-tests/test_auth.py:24: 'jwt' may be undefined, or defined from star imports: auth
-tests/test_auth.py:29: 'jwt' may be undefined, or defined from star imports: auth
-tests/test_auth.py:71: 'decode_token' may be undefined, or defined from star imports: auth
-tests/test_auth.py:79: 'decode_token' may be undefined, or defined from star imports: auth
-tests/test_auth.py:87: 'decode_token' may be undefined, or defined from star imports: auth
-tests/test_auth.py:95: 'decode_token' may be undefined, or defined from star imports: auth
-tests/test_auth.py:103: 'decode_token' may be undefined, or defined from star imports: auth
-tests/test_auth.py:114: 'jwt' may be undefined, or defined from star imports: auth
-tests/test_auth.py:115: 'decode_token' may be undefined, or defined from star imports: auth
-tests/test_auth.py:120: 'get_audiences' may be undefined, or defined from star imports: auth
-    Fail
+    Pass
 tests/__init__.py
     Pass
 tests/test_utils.py
-tests/test_utils.py:3: 'from src.utils import *' used; unable to detect undefined names
-tests/test_utils.py:24: 'validate_request_data' may be undefined, or defined from star imports: src.utils
-tests/test_utils.py:28: 'validate_request_data' may be undefined, or defined from star imports: src.utils
-tests/test_utils.py:32: 'validate_request_data' may be undefined, or defined from star imports: src.utils
-tests/test_utils.py:37: 'validate_request_data' may be undefined, or defined from star imports: src.utils
-tests/test_utils.py:46: 'get_session' may be undefined, or defined from star imports: src.utils
-tests/test_utils.py:50: 'SQLAlchemyError' may be undefined, or defined from star imports: src.utils
-tests/test_utils.py:53: 'SQLAlchemyError' may be undefined, or defined from star imports: src.utils
-tests/test_utils.py:54: 'retrieve_worker_result' may be undefined, or defined from star imports: src.utils
-tests/test_utils.py:61: 'retrieve_worker_result' may be undefined, or defined from star imports: src.utils
-tests/test_utils.py:71: 'retrieve_worker_result' may be undefined, or defined from star imports: src.utils
-tests/test_utils.py:77: 'get_session_retry' may be undefined, or defined from star imports: src.utils
-tests/test_utils.py:84: 'DatabaseIngestion' may be undefined, or defined from star imports: src.utils
-tests/test_utils.py:87: 'NoResultFound' may be undefined, or defined from star imports: src.utils
-tests/test_utils.py:91: 'DatabaseIngestion' may be undefined, or defined from star imports: src.utils
-tests/test_utils.py:92: 'SQLAlchemyError' may be undefined, or defined from star imports: src.utils
-tests/test_utils.py:94: 'DatabaseIngestion' may be undefined, or defined from star imports: src.utils
-tests/test_utils.py:100: 'DatabaseIngestion' may be undefined, or defined from star imports: src.utils
-tests/test_utils.py:105: 'DatabaseIngestion' may be undefined, or defined from star imports: src.utils
-tests/test_utils.py:114: 'DatabaseIngestion' may be undefined, or defined from star imports: src.utils
-tests/test_utils.py:118: 'SQLAlchemyError' may be undefined, or defined from star imports: src.utils
-tests/test_utils.py:127: 'DatabaseIngestion' may be undefined, or defined from star imports: src.utils
-tests/test_utils.py:135: 'DatabaseIngestion' may be undefined, or defined from star imports: src.utils
-tests/test_utils.py:140: 'DatabaseIngestion' may be undefined, or defined from star imports: src.utils
-tests/test_utils.py:145: 'NoResultFound' may be undefined, or defined from star imports: src.utils
-tests/test_utils.py:148: 'DatabaseIngestion' may be undefined, or defined from star imports: src.utils
-tests/test_utils.py:150: 'SQLAlchemyError' may be undefined, or defined from star imports: src.utils
-tests/test_utils.py:152: 'DatabaseIngestion' may be undefined, or defined from star imports: src.utils
-tests/test_utils.py:155: 'DatabaseIngestion' may be undefined, or defined from star imports: src.utils
-tests/test_utils.py:162: 'server_run_flow' may be undefined, or defined from star imports: src.utils
-tests/test_utils.py:174: 'scan_repo' may be undefined, or defined from star imports: src.utils
-tests/test_utils.py:188: 'requests' may be undefined, or defined from star imports: src.utils
-tests/test_utils.py:191: 'fetch_public_key' may be undefined, or defined from star imports: src.utils
-tests/test_utils.py:199: 'fetch_public_key' may be undefined, or defined from star imports: src.utils
-tests/test_utils.py:207: 'fetch_public_key' may be undefined, or defined from star imports: src.utils
-tests/test_utils.py:215: 'alert_user' may be undefined, or defined from star imports: src.utils
-    Fail
+    Pass
 tests/conftest.py
-tests/conftest.py:10: 'from src.rest_api import *' used; unable to detect undefined names
-tests/conftest.py:16: 'app' may be undefined, or defined from star imports: src.rest_api
-    Fail
+    Pass
 ----------------------------------------------------
 Checking following source files for common errors:
 setup.py
@@ -90,4 +39,4 @@ setup.py
 
 setup.py
     Pass
-5 source files out of 12 files needs to be checked and fixed
+All checks passed for 12 source files

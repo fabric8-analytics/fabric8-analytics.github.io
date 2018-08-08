@@ -65,7 +65,7 @@ Name                                                                 Stmts   Mis
 /f8a_worker/f8a_worker/workers/license.py                               61      7    89%   42, 104-112
 /f8a_worker/f8a_worker/workers/mercator.py                             136     50    63%   74-75, 82, 90, 127, 144-157, 166, 170-172, 175, 181-182, 186-200, 206, 208, 216-217, 225-242
 /f8a_worker/f8a_worker/workers/repo_dependency_finder.py               107     94    12%   24-56, 66-110, 119-153, 163-196
-/f8a_worker/f8a_worker/workers/report_generation.py                     75     64    15%   22-39, 48-53, 56-98, 106-115
+/f8a_worker/f8a_worker/workers/report_generation.py                     76     65    14%   22-39, 48-54, 57-99, 107-116
 /f8a_worker/f8a_worker/workers/repository_description.py                39      3    92%   36, 54, 61
 /f8a_worker/f8a_worker/workers/result_collector.py                      37     28    24%   17-42, 50-58, 69-76
 /f8a_worker/f8a_worker/workers/schemas/__init__.py                       0      0   100%
@@ -81,6 +81,6 @@ Name                                                                 Stmts   Mis
 /f8a_worker/f8a_worker/workers/schemas/source_licenses.py               82      0   100%
 /f8a_worker/f8a_worker/workers/unknown_dep_fetcher.py                   37     29    22%   15-50, 59-62
 /f8a_worker/f8a_worker/workers/user_notifier.py                         38     29    24%   15-25, 29-49, 57-73
-/f8a_worker/f8a_worker/workers/victims.py                               63     25    60%   20-36, 65-87, 108-109
+/f8a_worker/f8a_worker/workers/victims.py                              103     49    52%   22-40, 44-73, 102-105, 128, 142-164, 185-186
 --------------------------------------------------------------------------------------------------
-TOTAL                                                                 5926   2180    63%
+TOTAL                                                                 5967   2205    63%

@@ -25,32 +25,11 @@ tests/test_rest_api.py
 tests/test_errors_class.py
     Pass
 tests/test_auth.py
-tests/test_auth.py:10: unused variable 'module' (100% confidence)
-tests/test_auth.py:32: unused variable 'module' (100% confidence)
-tests/test_auth.py:37: unused variable 'app' (100% confidence)
-tests/test_auth.py:42: unused variable 'app' (100% confidence)
-tests/test_auth.py:47: unused variable 'app' (100% confidence)
-tests/test_auth.py:69: unused variable 'mocked_fetch_public_key' (100% confidence)
-tests/test_auth.py:76: unused variable 'mocked_fetch_public_key' (100% confidence)
-tests/test_auth.py:84: unused variable 'mocked_fetch_public_key' (100% confidence)
-tests/test_auth.py:92: unused variable 'mocked_fetch_public_key' (100% confidence)
-tests/test_auth.py:100: unused variable 'mocked_fetch_public_key' (100% confidence)
-tests/test_auth.py:108: unused variable 'mocked_fetch_public_key' (100% confidence)
-    Fail
+    Pass
 tests/__init__.py
     Pass
 tests/test_utils.py
-tests/test_utils.py:51: unused variable 'query' (100% confidence)
-tests/test_utils.py:59: unused variable 'b' (100% confidence)
-tests/test_utils.py:68: unused variable 'b' (100% confidence)
-tests/test_utils.py:68: unused variable 'c' (100% confidence)
-tests/test_utils.py:107: unused variable 'b' (100% confidence)
-tests/test_utils.py:160: unused variable 'b' (100% confidence)
-tests/test_utils.py:178: unused variable 'args' (100% confidence)
-tests/test_utils.py:178: unused variable 'kwargs' (100% confidence)
-tests/test_utils.py:183: unused variable 'args' (100% confidence)
-tests/test_utils.py:183: unused variable 'kwargs' (100% confidence)
-    Fail
+    Pass
 tests/conftest.py
     Pass
 ----------------------------------------------------
@@ -61,4 +40,4 @@ setup.py
 
 setup.py
     Pass
-2 source files out of 12 files seems to contain dead code and/or unused imports
+All checks passed for 12 source files
