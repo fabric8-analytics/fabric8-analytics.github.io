@@ -13,14 +13,11 @@ Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages (0.
 src/server/unittest/__init__.py
     Pass
 src/server/recommender_service.py
-src/server/recommender_service.py:3: unused import 'json' (90% confidence)
-    Fail
+    Pass
 src/server/__init__.py
     Pass
 src/server/ghazab_app.py
-src/server/ghazab_app.py:53: unused variable 'error' (100% confidence)
-src/server/ghazab_app.py:90: unused variable 'appstack_id' (100% confidence)
-    Fail
+    Pass
 src/models/similarity_with_frequent_patterns/__init__.py
     Pass
 src/models/similarity_with_frequent_patterns/scoring/__init__.py
@@ -36,18 +33,13 @@ src/models/similarity_with_frequent_patterns/scoring/similarity/semvercomp.py
 src/models/similarity_with_frequent_patterns/scoring/similarity/relativesimilarity.py
     Pass
 src/models/similarity_with_frequent_patterns/scoring/db.py
-src/models/similarity_with_frequent_patterns/scoring/db.py:5: unused import 'g' (90% confidence)
-src/models/similarity_with_frequent_patterns/scoring/db.py:7: unused import 'psycopg2' (90% confidence)
-    Fail
+    Pass
 src/models/similarity_with_frequent_patterns/training/gen_ref_stacks.py
-src/models/similarity_with_frequent_patterns/training/gen_ref_stacks.py:7: unused import 'Row' (90% confidence)
-src/models/similarity_with_frequent_patterns/training/gen_ref_stacks.py:9: unused import 'add' (90% confidence)
-src/models/similarity_with_frequent_patterns/training/gen_ref_stacks.py:13: unused import 'random' (90% confidence)
-    Fail
+    Pass
 src/models/__init__.py
     Pass
 src/deployment/spark_aws/job_scheduler.py
     Pass
 src/deployment/spark_aws/submit_training_job.py
     Pass
-4 source files out of 16 files seems to contain dead code and/or unused imports
+All checks passed for 16 source files

@@ -11,12 +11,7 @@ f8a_ingestion tests alembic
 ----------------------------------------------------
 
 f8a_ingestion/models.py
-f8a_ingestion/models.py:21: 'sqlalchemy.DateTime' imported but unused
-f8a_ingestion/models.py:21: 'sqlalchemy.func' imported but unused
-f8a_ingestion/models.py:21: 'sqlalchemy.Boolean' imported but unused
-f8a_ingestion/models.py:23: 'sqlalchemy.dialects.postgresql.ENUM' imported but unused
-f8a_ingestion/models.py:28: 'sqlalchemy.orm.session.Session' imported but unused
-    Fail
+    Pass
 f8a_ingestion/__init__.py
     Pass
 f8a_ingestion/utils.py
@@ -28,17 +23,11 @@ f8a_ingestion/enums.py
 f8a_ingestion/errors.py
     Pass
 f8a_ingestion/defaults.py
-f8a_ingestion/defaults.py:21: 'urllib.parse.urljoin' imported but unused
-f8a_ingestion/defaults.py:23: 'random' imported but unused
-f8a_ingestion/defaults.py:26: 'f8a_ingestion.errors.F8AConfigurationException' imported but unused
-    Fail
+    Pass
 tests/__init__.py
     Pass
 tests/test_utils.py
-tests/test_utils.py:2: 'os' imported but unused
-tests/test_utils.py:4: 'from f8a_ingestion.utils import *' used; unable to detect undefined names
-tests/test_utils.py:4: 'f8a_ingestion.utils.*' imported but unused
-    Fail
+    Pass
 alembic/versions/0194c3a2332e_initial_migration.py
     Pass
 alembic/env.py
@@ -50,4 +39,4 @@ setup.py
 
 setup.py
     Pass
-3 source files out of 12 files needs to be checked and fixed
+All checks passed for 12 source files

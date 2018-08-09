@@ -167,12 +167,12 @@ tests/pandas_mocks.py
     <span style="color:#00AA00">M </span>9:4 MockedData.__init__ - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>13:4 MockedData.to_json - <span style="color:#00AA00">A (1)</span>
 src/auth.py
-    <span style="color:#AA00AA">F </span>25:0 decode_token - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>20:0 get_audiences - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>55:0 get_token_from_auth_header - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>60:0 login_required - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>101:0 APIUser - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>104:4 APIUser.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>26:0 decode_token - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>21:0 get_audiences - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>56:0 get_token_from_auth_header - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>61:0 login_required - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>102:0 APIUser - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>105:4 APIUser.__init__ - <span style="color:#00AA00">A (1)</span>
 src/directed_graph.py
     <span style="color:#00AA00">M </span>106:4 DirectedGraph.find_common_reachable_vertices - <span style="color:#00AA00">B (8)</span>
     <span style="color:#00AA00">M </span>129:4 DirectedGraph.read_from_json - <span style="color:#00AA00">A (5)</span>
@@ -196,29 +196,30 @@ src/directed_graph.py
     <span style="color:#00AA00">M </span>91:4 DirectedGraph.get_vertex_ids - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>95:4 DirectedGraph.get_vertices - <span style="color:#00AA00">A (1)</span>
 src/utils.py
-    <span style="color:#AA00AA">F </span>5:0 fetch_public_key - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>6:0 fetch_public_key - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>33:0 http_error - <span style="color:#00AA00">A (1)</span>
 src/rest_api.py
     <span style="color:#AA00AA">F </span>32:0 load_model - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>38:0 heart_beat - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>44:0 stack_license - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>56:0 stack_license_api - <span style="color:#00AA00">A (1)</span>
 src/stack_license.py
-    <span style="color:#00AA00">M </span>158:4 StackLicenseAnalyzer.compute_stack_license - <span style="color:#AA5500">D (22)</span>
-    <span style="color:#00AA00">M </span>424:4 StackLicenseAnalyzer._extract_unknown_licenses - <span style="color:#AA5500">C (11)</span>
-    <span style="color:#00AA00">M </span>74:4 StackLicenseAnalyzer._check_compatibility - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#00AA00">M </span>328:4 StackLicenseAnalyzer.get_dependency_data - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#00AA00">M </span>370:4 StackLicenseAnalyzer.extract_user_stack_package_licenses - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#00AAAA">C </span>61:0 StackLicenseAnalyzer - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>38:0 select_latest_version - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>131:4 StackLicenseAnalyzer.get_outlier_packages - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>142:4 StackLicenseAnalyzer.get_conflict_packages - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>394:4 StackLicenseAnalyzer._extract_conflict_packages - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>486:4 StackLicenseAnalyzer._extract_license_outliers - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>20:0 get_session_retry - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>31:0 convert_version_to_proper_semantic - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>64:4 StackLicenseAnalyzer.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>313:4 StackLicenseAnalyzer.extract_component_details - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>506:4 StackLicenseAnalyzer.license_recommender - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>160:4 StackLicenseAnalyzer.compute_stack_license - <span style="color:#AA5500">D (22)</span>
+    <span style="color:#00AA00">M </span>426:4 StackLicenseAnalyzer._extract_unknown_licenses - <span style="color:#AA5500">C (11)</span>
+    <span style="color:#00AA00">M </span>76:4 StackLicenseAnalyzer._check_compatibility - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#00AA00">M </span>330:4 StackLicenseAnalyzer.get_dependency_data - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#00AA00">M </span>372:4 StackLicenseAnalyzer.extract_user_stack_package_licenses - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#00AAAA">C </span>63:0 StackLicenseAnalyzer - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>508:4 StackLicenseAnalyzer.license_recommender - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>40:0 select_latest_version - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>133:4 StackLicenseAnalyzer.get_outlier_packages - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>144:4 StackLicenseAnalyzer.get_conflict_packages - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>396:4 StackLicenseAnalyzer._extract_conflict_packages - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>488:4 StackLicenseAnalyzer._extract_license_outliers - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>22:0 get_session_retry - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>33:0 convert_version_to_proper_semantic - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>66:4 StackLicenseAnalyzer.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>315:4 StackLicenseAnalyzer.extract_component_details - <span style="color:#00AA00">A (1)</span>
 src/exceptions.py
     <span style="color:#00AAAA">C </span>4:0 HTTPError - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>16:4 HTTPError.__init__ - <span style="color:#00AA00">A (1)</span>
@@ -273,6 +274,6 @@ src/util/data_store/s3_data_store.py
     <span style="color:#00AA00">M </span>85:4 S3DataStore.write_pandas_df_into_json_file - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>90:4 S3DataStore.read_json_file_into_pandas_df - <span style="color:#00AA00">A (1)</span>
 
-251 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (3.450199203187251)</span>
+252 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (3.4603174603174605)</span>
 </pre>

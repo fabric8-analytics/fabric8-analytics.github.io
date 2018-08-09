@@ -11,7 +11,11 @@ src tests
 ----------------------------------------------------
 
 src/auth.py
-    Pass
+src/auth.py:6: 'flask' imported but unused
+src/auth.py:9: 'src.exceptions.HTTPError' imported but unused
+src/auth.py:82: local variable 'exc' is assigned to but never used
+src/auth.py:86: local variable 'exc' is assigned to but never used
+    Fail
 src/util/data_store/__init__.py
     Pass
 src/util/data_store/local_filesystem.py
@@ -133,4 +137,4 @@ tests/conftest.py:14: 'app' may be undefined, or defined from star imports: src.
     Fail
 tests/pandas_mocks.py
     Pass
-10 source files out of 29 files needs to be checked and fixed
+11 source files out of 29 files needs to be checked and fixed

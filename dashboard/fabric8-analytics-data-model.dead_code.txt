@@ -15,15 +15,11 @@ src/graph_populator.py
 src/__init__.py
     Pass
 src/rest_api.py
-src/rest_api.py:5: unused import 'make_response' (90% confidence)
-src/rest_api.py:5: unused import 'redirect' (90% confidence)
-    Fail
+    Pass
 src/data_source/__init__.py
     Pass
 src/data_source/abstract_data_source.py
-src/data_source/abstract_data_source.py:14: unused variable 'prefix' (100% confidence)
-src/data_source/abstract_data_source.py:18: unused variable 'filename' (100% confidence)
-    Fail
+    Pass
 src/data_source/s3_data_source.py
     Pass
 src/graph_manager.py
@@ -35,20 +31,15 @@ src/data_importer.py
 test/test_rest_api.py
     Pass
 test/test_graph_properties.py
-test/test_graph_properties.py:3: unused import 'json' (90% confidence)
-test/test_graph_properties.py:4: unused import 'requests' (90% confidence)
-    Fail
+    Pass
 test/test_postgres_handler.py
     Pass
 test/test_insertion_from_minio.py
-test/test_insertion_from_minio.py:14: unused import 'pytest' (90% confidence)
-    Fail
+    Pass
 test/test_init.py
-test/test_init.py:4: unused import 'pytest' (90% confidence)
-    Fail
+    Pass
 test/test_data_importer.py
-test/test_data_importer.py:4: unused import 'pytest' (90% confidence)
-    Fail
+    Pass
 test/test_s3_data_source.py
     Pass
 test/test_graph_manager.py
@@ -56,8 +47,7 @@ test/test_graph_manager.py
 test/conftest.py
     Pass
 test/test_graph_populator.py
-test/test_graph_populator.py:5: unused import 'json' (90% confidence)
-    Fail
+    Pass
 ----------------------------------------------------
 Checking following source files for dead code and
 unused imports:
@@ -66,4 +56,4 @@ sanitycheck.py
 
 sanitycheck.py
     Pass
-7 source files out of 20 files seems to contain dead code and/or unused imports
+All checks passed for 20 source files

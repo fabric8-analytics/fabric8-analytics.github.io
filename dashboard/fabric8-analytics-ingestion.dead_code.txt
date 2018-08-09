@@ -11,12 +11,7 @@ Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages (0.28)
 f8a_ingestion/models.py
-f8a_ingestion/models.py:21: unused import 'Boolean' (90% confidence)
-f8a_ingestion/models.py:21: unused import 'DateTime' (90% confidence)
-f8a_ingestion/models.py:21: unused import 'func' (90% confidence)
-f8a_ingestion/models.py:23: unused import 'ENUM' (90% confidence)
-f8a_ingestion/models.py:28: unused import 'Session' (90% confidence)
-    Fail
+    Pass
 f8a_ingestion/__init__.py
     Pass
 f8a_ingestion/utils.py
@@ -28,15 +23,11 @@ f8a_ingestion/enums.py
 f8a_ingestion/errors.py
     Pass
 f8a_ingestion/defaults.py
-f8a_ingestion/defaults.py:21: unused import 'urljoin' (90% confidence)
-f8a_ingestion/defaults.py:23: unused import 'random' (90% confidence)
-f8a_ingestion/defaults.py:26: unused import 'F8AConfigurationException' (90% confidence)
-    Fail
+    Pass
 tests/__init__.py
     Pass
 tests/test_utils.py
-tests/test_utils.py:2: unused import 'os' (90% confidence)
-    Fail
+    Pass
 alembic/versions/0194c3a2332e_initial_migration.py
     Pass
 alembic/env.py
@@ -49,4 +40,4 @@ setup.py
 
 setup.py
     Pass
-3 source files out of 12 files seems to contain dead code and/or unused imports
+All checks passed for 12 source files

@@ -889,15 +889,15 @@ ui-tests/test.py
     <span style="color:#00AAAA">C </span>12:0 Context - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>15:4 Context.__init__ - <span style="color:#00AA00">A (1)</span>
 perf-tests/src/api.py
-    <span style="color:#00AA00">M </span>16:4 Api.is_api_running - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>26:4 Api.add_slash - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>37:4 Api.print_error_response - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>6:0 Api - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>11:4 Api.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>33:4 Api.get - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>15:4 Api.is_api_running - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>25:4 Api.add_slash - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>36:4 Api.print_error_response - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>5:0 Api - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>10:4 Api.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>32:4 Api.get - <span style="color:#00AA00">A (1)</span>
 perf-tests/src/jobsapi.py
     <span style="color:#00AA00">M </span>106:4 JobsApi.wait_for_component_analysis - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>141:4 JobsApi.component_analysis - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>141:4 JobsApi.component_analysis - <span style="color:#00AA00">A (5)</span>
     <span style="color:#00AAAA">C </span>11:0 JobsApi - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>33:4 JobsApi.send_json_file - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>57:4 JobsApi.check_auth_token_validity - <span style="color:#00AA00">A (2)</span>
@@ -920,53 +920,53 @@ perf-tests/src/componentgenerator.py
     <span style="color:#00AAAA">C </span>4:0 ComponentGenerator - <span style="color:#00AA00">A (4)</span>
     <span style="color:#00AA00">M </span>30:4 ComponentGenerator.generator_for_ecosystem - <span style="color:#00AA00">A (4)</span>
 perf-tests/src/perf-tests.py
-    <span style="color:#AA00AA">F </span>444:0 run_sequenced_benchmark - <span style="color:#00AA00">B (10)</span>
-    <span style="color:#AA00AA">F </span>597:0 run_benchmarks - <span style="color:#00AA00">B (10)</span>
-    <span style="color:#AA00AA">F </span>212:0 run_analysis_concurrent_benchmark - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>67:0 check_system - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>522:0 run_api_concurrent_benchmark - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>296:0 run_component_analysis_concurrent_calls_benchmark - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>374:0 find_job_debug_data - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>382:0 job_duration - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>417:0 export_measurements_and_job_durations_into_csv - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>432:0 export_sequenced_benchmark_into_csv - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>35:0 check_environment_variable - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>47:0 check_environment_variables - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>61:0 is_system_running - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>195:0 check_number_of_results - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>368:0 wait_for_all_threads - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>395:0 job_durations - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>400:0 print_job_durations - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>411:0 export_measurements_into_csv - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>671:0 main - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>102:0 run_core_api_sequenced_calls_benchmark - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>113:0 run_stack_analysis_sequenced_calls_benchmark - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>126:0 run_read_component_analysis_sequenced_calls_benchmark - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>150:0 run_component_analysis_sequenced_calls_benchmark - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>171:0 run_package_query_to_graph_db_sequenced_benchmark - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>183:0 run_package_version_query_to_graph_db_sequenced_benchmark - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>591:0 run_core_api_concurrent_benchmark - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>641:0 run_benchmarks_sla - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>661:0 generate_statistic_graph - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>439:0 run_sequenced_benchmark - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#AA00AA">F </span>592:0 run_benchmarks - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#AA00AA">F </span>207:0 run_analysis_concurrent_benchmark - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>62:0 check_system - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>517:0 run_api_concurrent_benchmark - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>291:0 run_component_analysis_concurrent_calls_benchmark - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>369:0 find_job_debug_data - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>377:0 job_duration - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>412:0 export_measurements_and_job_durations_into_csv - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>427:0 export_sequenced_benchmark_into_csv - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>30:0 check_environment_variable - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>42:0 check_environment_variables - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>56:0 is_system_running - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>190:0 check_number_of_results - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>363:0 wait_for_all_threads - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>390:0 job_durations - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>395:0 print_job_durations - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>406:0 export_measurements_into_csv - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>666:0 main - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>97:0 run_core_api_sequenced_calls_benchmark - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>108:0 run_stack_analysis_sequenced_calls_benchmark - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>121:0 run_read_component_analysis_sequenced_calls_benchmark - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>145:0 run_component_analysis_sequenced_calls_benchmark - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>166:0 run_package_query_to_graph_db_sequenced_benchmark - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>178:0 run_package_version_query_to_graph_db_sequenced_benchmark - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>586:0 run_core_api_concurrent_benchmark - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>636:0 run_benchmarks_sla - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>656:0 generate_statistic_graph - <span style="color:#00AA00">A (1)</span>
 perf-tests/src/measurements.py
-    <span style="color:#AA00AA">F </span>8:0 read_component_analysis_from_core_data - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>37:0 read_component_analysis_from_core_package - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>62:0 read_component_analysis_audit_duration - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>7:0 read_component_analysis_from_core_data - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>36:0 read_component_analysis_from_core_package - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>61:0 read_component_analysis_audit_duration - <span style="color:#00AA00">A (1)</span>
 perf-tests/src/gremlin_api.py
     <span style="color:#00AA00">M </span>30:4 GremlinApi.check_gremlin_status_node - <span style="color:#00AA00">A (4)</span>
     <span style="color:#00AA00">M </span>66:4 GremlinApi.check_request_id_value_in_json_response - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>121:4 GremlinApi.check_gremlin_response - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>123:4 GremlinApi.check_gremlin_response - <span style="color:#00AA00">A (4)</span>
     <span style="color:#00AA00">M </span>44:4 GremlinApi.check_gremlin_result_node - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AAAA">C </span>12:0 GremlinApi - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>22:4 GremlinApi.check_and_get_attribute - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>79:4 GremlinApi.check_valid_gremlin_response_data - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>107:4 GremlinApi.package_query - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>115:4 GremlinApi.package_version_query - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>15:4 GremlinApi.__init__ - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>54:4 GremlinApi.check_uuid - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>88:4 GremlinApi.post_query - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>96:4 GremlinApi.query_package - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>101:4 GremlinApi.query_package_version - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>107:4 GremlinApi.package_query - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>114:4 GremlinApi.package_version_query - <span style="color:#00AA00">A (1)</span>
 perf-tests/src/gremlin_query.py
     <span style="color:#00AAAA">C </span>6:0 GremlinQuery - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>9:4 GremlinQuery.__init__ - <span style="color:#00AA00">A (1)</span>
@@ -995,41 +995,41 @@ perf-tests/src/benchmarks.py
     <span style="color:#AA00AA">F </span>159:0 package_query_graph_db_thread - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>166:0 package_version_query_graph_db_thread - <span style="color:#00AA00">A (1)</span>
 perf-tests/src/s3interface.py
-    <span style="color:#00AA00">M </span>26:4 S3Interface.connect - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>99:4 S3Interface.does_bucket_exist - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>113:4 S3Interface.read_object - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>120:4 S3Interface.read_object_metadata - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AAAA">C </span>7:0 S3Interface - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>10:4 S3Interface.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>56:4 S3Interface.read_all_buckets - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>60:4 S3Interface.full_bucket_name - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>64:4 S3Interface.package_key - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>69:4 S3Interface.package_analysis_key - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>75:4 S3Interface.component_key - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>81:4 S3Interface.component_analysis_key - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>88:4 S3Interface.component_core_package_data_key - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>93:4 S3Interface.component_core_package_data_analysis_key - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>27:4 S3Interface.connect - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>100:4 S3Interface.does_bucket_exist - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>114:4 S3Interface.read_object - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>121:4 S3Interface.read_object_metadata - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>8:0 S3Interface - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>11:4 S3Interface.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>57:4 S3Interface.read_all_buckets - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>61:4 S3Interface.full_bucket_name - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>65:4 S3Interface.package_key - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>70:4 S3Interface.package_analysis_key - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>76:4 S3Interface.component_key - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>82:4 S3Interface.component_analysis_key - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>89:4 S3Interface.component_core_package_data_key - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>94:4 S3Interface.component_core_package_data_analysis_key - <span style="color:#00AA00">A (1)</span>
 perf-tests/src/coreapi.py
-    <span style="color:#00AA00">M </span>115:4 CoreApi.wait_for_stack_analysis - <span style="color:#00AA00">B (10)</span>
-    <span style="color:#00AA00">M </span>49:4 CoreApi.contains_alternate_node - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>56:4 CoreApi.get_manifest_name - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>10:0 CoreApi - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>41:4 CoreApi.check_auth_token_validity - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>68:4 CoreApi.prepare_manifest_files - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>86:4 CoreApi.dump_stack_analysis - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>93:4 CoreApi.dump_component_analysis - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>146:4 CoreApi.read_stack_analysis_debug_data - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>177:4 CoreApi.component_analysis - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>13:4 CoreApi.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>19:4 CoreApi.stack_analysis_manifest - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>24:4 CoreApi.stack_analysis_manifest - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>28:4 CoreApi.dump_json_responses - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>33:4 CoreApi.dump_json_responses - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>37:4 CoreApi.authorization - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>104:4 CoreApi.start_stack_analysis - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>157:4 CoreApi.stack_analysis - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>166:4 CoreApi.component_analysis_url - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>173:4 CoreApi.read_component_analysis_debug_data - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>118:4 CoreApi.wait_for_stack_analysis - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#00AA00">M </span>52:4 CoreApi.contains_alternate_node - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>59:4 CoreApi.get_manifest_name - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>13:0 CoreApi - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>44:4 CoreApi.check_auth_token_validity - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>71:4 CoreApi.prepare_manifest_files - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>89:4 CoreApi.dump_stack_analysis - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>96:4 CoreApi.dump_component_analysis - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>149:4 CoreApi.read_stack_analysis_debug_data - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>180:4 CoreApi.component_analysis - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>16:4 CoreApi.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>22:4 CoreApi.stack_analysis_manifest - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>27:4 CoreApi.stack_analysis_manifest - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>31:4 CoreApi.dump_json_responses - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>36:4 CoreApi.dump_json_responses - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>40:4 CoreApi.authorization - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>107:4 CoreApi.start_stack_analysis - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>160:4 CoreApi.stack_analysis - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>169:4 CoreApi.component_analysis_url - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>176:4 CoreApi.read_component_analysis_debug_data - <span style="color:#00AA00">A (1)</span>
 perf-tests/src/graph.py
     <span style="color:#AA00AA">F </span>60:0 create_component_analysis_timing_graph - <span style="color:#00AA00">B (7)</span>
     <span style="color:#AA00AA">F </span>22:0 add_legend - <span style="color:#00AA00">A (5)</span>
@@ -1041,8 +1041,8 @@ perf-tests/src/graph.py
     <span style="color:#AA00AA">F </span>213:0 save_graph - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>218:0 generate_wait_times_graph - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>226:0 generate_timing_statistic_graph - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>236:0 generate_timing_threads_statistic_graph - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>246:0 generate_component_analysis_timing_graph - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>235:0 generate_timing_threads_statistic_graph - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>244:0 generate_component_analysis_timing_graph - <span style="color:#00AA00">A (1)</span>
 perf-tests/src/gremlin_package_generator.py
     <span style="color:#00AA00">M </span>27:4 GremlinPackageGenerator.generate_ecosystem_package_version - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AA00">M </span>34:4 GremlinPackageGenerator.package_generator - <span style="color:#00AA00">A (3)</span>
@@ -1053,5 +1053,5 @@ perf-tests/src/gremlin_package_generator.py
     <span style="color:#00AA00">M </span>65:4 GremlinPackageGenerator.package_version_generator_for_ecosystem - <span style="color:#00AA00">A (2)</span>
 
 968 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (2.290289256198347)</span>
+Average complexity: <span style="color:#00AA00">A (2.293388429752066)</span>
 </pre>

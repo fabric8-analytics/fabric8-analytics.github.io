@@ -207,12 +207,9 @@ integration-tests/hack/json2pom.py
 ui-tests/test.py
     Pass
 perf-tests/src/api.py
-perf-tests/src/api.py:3: unused import 'os' (90% confidence)
-    Fail
+    Pass
 perf-tests/src/jobsapi.py
-perf-tests/src/jobsapi.py:6: unused import 'botocore' (90% confidence)
-perf-tests/src/jobsapi.py:141: unused variable 'i' (100% confidence)
-    Fail
+    Pass
 perf-tests/src/duration.py
     Pass
 perf-tests/src/componentgenerator.py
@@ -220,18 +217,11 @@ perf-tests/src/componentgenerator.py
 perf-tests/src/cliargs.py
     Pass
 perf-tests/src/perf-tests.py
-perf-tests/src/perf-tests.py:5: unused import 'datetime' (90% confidence)
-perf-tests/src/perf-tests.py:6: unused import 'subprocess' (90% confidence)
-perf-tests/src/perf-tests.py:11: unused import 'pprint' (90% confidence)
-    Fail
+    Pass
 perf-tests/src/measurements.py
     Pass
 perf-tests/src/gremlin_api.py
-perf-tests/src/gremlin_api.py:107: unused variable 'i' (100% confidence)
-perf-tests/src/gremlin_api.py:107: unused variable 'thread' (100% confidence)
-perf-tests/src/gremlin_api.py:114: unused variable 'i' (100% confidence)
-perf-tests/src/gremlin_api.py:114: unused variable 'thread' (100% confidence)
-    Fail
+    Pass
 perf-tests/src/gremlin_query.py
     Pass
 perf-tests/src/benchmarks.py
@@ -339,4 +329,4 @@ db-integrity-tests/src/core_package_checker.py
     Pass
 db-integrity-tests/src/checker.py
     Pass
-30 source files out of 105 files seems to contain dead code and/or unused imports
+26 source files out of 105 files seems to contain dead code and/or unused imports

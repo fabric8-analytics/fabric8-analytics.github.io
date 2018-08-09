@@ -11,7 +11,9 @@ Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages (0.28)
 src/auth.py
-    Pass
+src/auth.py:6: unused import 'flask' (90% confidence)
+src/auth.py:9: unused import 'HTTPError' (90% confidence)
+    Fail
 src/util/data_store/__init__.py
     Pass
 src/util/data_store/local_filesystem.py
@@ -125,4 +127,4 @@ tests/conftest.py:5: unused import 'current_app' (90% confidence)
     Fail
 tests/pandas_mocks.py
     Pass
-14 source files out of 29 files seems to contain dead code and/or unused imports
+15 source files out of 29 files seems to contain dead code and/or unused imports

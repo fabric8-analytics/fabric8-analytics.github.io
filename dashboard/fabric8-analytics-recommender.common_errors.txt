@@ -13,8 +13,7 @@ Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2
 src/server/unittest/__init__.py
     Pass
 src/server/recommender_service.py
-src/server/recommender_service.py:3: 'json' imported but unused
-    Fail
+    Pass
 src/server/__init__.py
     Pass
 src/server/ghazab_app.py
@@ -37,24 +36,15 @@ src/models/similarity_with_frequent_patterns/scoring/similarity/semvercomp.py:20
 src/models/similarity_with_frequent_patterns/scoring/similarity/semvercomp.py:24: undefined name 'Version'
     Fail
 src/models/similarity_with_frequent_patterns/scoring/similarity/relativesimilarity.py
-src/models/similarity_with_frequent_patterns/scoring/similarity/relativesimilarity.py:53: local variable 'distancevalue' is assigned to but never used
-src/models/similarity_with_frequent_patterns/scoring/similarity/relativesimilarity.py:119: local variable 'boosted_score_list' is assigned to but never used
-src/models/similarity_with_frequent_patterns/scoring/similarity/relativesimilarity.py:127: local variable 'refstack_component_set' is assigned to but never used
-    Fail
+    Pass
 src/models/similarity_with_frequent_patterns/scoring/db.py
-src/models/similarity_with_frequent_patterns/scoring/db.py:5: 'flask.g' imported but unused
-src/models/similarity_with_frequent_patterns/scoring/db.py:7: 'psycopg2' imported but unused
-    Fail
+    Pass
 src/models/similarity_with_frequent_patterns/training/gen_ref_stacks.py
-src/models/similarity_with_frequent_patterns/training/gen_ref_stacks.py:7: 'pyspark.sql.Row' imported but unused
-src/models/similarity_with_frequent_patterns/training/gen_ref_stacks.py:9: 'operator.add' imported but unused
-src/models/similarity_with_frequent_patterns/training/gen_ref_stacks.py:13: 'random' imported but unused
-src/models/similarity_with_frequent_patterns/training/gen_ref_stacks.py:132: local variable 'sqlContext' is assigned to but never used
-    Fail
+    Pass
 src/models/__init__.py
     Pass
 src/deployment/spark_aws/job_scheduler.py
     Pass
 src/deployment/spark_aws/submit_training_job.py
     Pass
-7 source files out of 16 files needs to be checked and fixed
+3 source files out of 16 files needs to be checked and fixed
