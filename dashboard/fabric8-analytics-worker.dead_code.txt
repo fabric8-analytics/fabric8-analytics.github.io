@@ -361,7 +361,7 @@ f8a_worker/workers/unknown_dep_fetcher.py
 f8a_worker/workers/dependency_snapshot.py
     Pass
 f8a_worker/data_normalizer.py
-f8a_worker/data_normalizer.py:658: unused variable 'unused' (100% confidence)
+f8a_worker/data_normalizer.py:662: unused variable 'unused' (100% confidence)
     Fail
 f8a_worker/errors.py
     Pass

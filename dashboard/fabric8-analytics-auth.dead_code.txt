@@ -11,7 +11,8 @@ Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages (0.28)
 fabric8a_auth/fabric8a_auth.py
-    Pass
+fabric8a_auth/fabric8a_auth.py:8: unused import 'RSAAlgorithm' (90% confidence)
+    Fail
 fabric8a_auth/__init__.py
     Pass
 fabric8a_auth/errors.py
@@ -26,18 +27,18 @@ tests/test_user_class.py:3: unused import 'unittest' (90% confidence)
     Fail
 tests/test_token_handling.py
 tests/test_token_handling.py:12: unused variable 'module' (100% confidence)
-tests/test_token_handling.py:34: unused variable 'module' (100% confidence)
-tests/test_token_handling.py:39: unused variable 'app' (100% confidence)
-tests/test_token_handling.py:44: unused variable 'app' (100% confidence)
-tests/test_token_handling.py:49: unused variable 'app' (100% confidence)
-tests/test_token_handling.py:71: unused variable 'mocked_fetch_public_key' (100% confidence)
-tests/test_token_handling.py:78: unused variable 'mocked_fetch_public_key' (100% confidence)
-tests/test_token_handling.py:86: unused variable 'mocked_fetch_public_key' (100% confidence)
+tests/test_token_handling.py:36: unused variable 'module' (100% confidence)
+tests/test_token_handling.py:41: unused variable 'app' (100% confidence)
+tests/test_token_handling.py:46: unused variable 'app' (100% confidence)
+tests/test_token_handling.py:51: unused variable 'app' (100% confidence)
+tests/test_token_handling.py:75: unused variable 'mocked_fetch_public_key' (100% confidence)
+tests/test_token_handling.py:84: unused variable 'mocked_fetch_public_key' (100% confidence)
 tests/test_token_handling.py:94: unused variable 'mocked_fetch_public_key' (100% confidence)
-tests/test_token_handling.py:102: unused variable 'mocked_fetch_public_key' (100% confidence)
-tests/test_token_handling.py:110: unused variable 'mocked_fetch_public_key' (100% confidence)
-tests/test_token_handling.py:123: unused variable 'mocked_fetch_public_key' (100% confidence)
-tests/test_token_handling.py:137: unused variable 'mocked_fetch_public_key' (100% confidence)
+tests/test_token_handling.py:104: unused variable 'mocked_fetch_public_key' (100% confidence)
+tests/test_token_handling.py:114: unused variable 'mocked_fetch_public_key' (100% confidence)
+tests/test_token_handling.py:124: unused variable 'mocked_fetch_public_key' (100% confidence)
+tests/test_token_handling.py:138: unused variable 'mocked_fetch_public_key' (100% confidence)
+tests/test_token_handling.py:153: unused variable 'mocked_fetch_public_key' (100% confidence)
     Fail
 ----------------------------------------------------
 Checking following source files for dead code and
@@ -47,4 +48,4 @@ setup.py
 
 setup.py
     Pass
-3 source files out of 8 files seems to contain dead code and/or unused imports
+4 source files out of 8 files seems to contain dead code and/or unused imports

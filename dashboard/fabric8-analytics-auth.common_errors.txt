@@ -11,7 +11,8 @@ fabric8a_auth tests
 ----------------------------------------------------
 
 fabric8a_auth/fabric8a_auth.py
-fabric8a_auth/fabric8a_auth.py:91: redefinition of unused 'get_audiences' from line 15
+fabric8a_auth/fabric8a_auth.py:8: 'jwt.contrib.algorithms.pycrypto.RSAAlgorithm' imported but unused
+fabric8a_auth/fabric8a_auth.py:77: redefinition of unused 'get_audiences' from line 15
     Fail
 fabric8a_auth/__init__.py
     Pass
@@ -28,22 +29,22 @@ tests/test_user_class.py:3: 'unittest' imported but unused
     Fail
 tests/test_token_handling.py
 tests/test_token_handling.py:3: 'from unittest.mock import *' used; unable to detect undefined names
-tests/test_token_handling.py:69: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:70: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:76: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:77: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:84: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:85: 'patch' may be undefined, or defined from star imports: unittest.mock
+tests/test_token_handling.py:71: 'patch' may be undefined, or defined from star imports: unittest.mock
+tests/test_token_handling.py:73: 'patch' may be undefined, or defined from star imports: unittest.mock
+tests/test_token_handling.py:80: 'patch' may be undefined, or defined from star imports: unittest.mock
+tests/test_token_handling.py:82: 'patch' may be undefined, or defined from star imports: unittest.mock
+tests/test_token_handling.py:90: 'patch' may be undefined, or defined from star imports: unittest.mock
 tests/test_token_handling.py:92: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:93: 'patch' may be undefined, or defined from star imports: unittest.mock
 tests/test_token_handling.py:100: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:101: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:108: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:109: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:121: 'patch' may be undefined, or defined from star imports: unittest.mock
+tests/test_token_handling.py:102: 'patch' may be undefined, or defined from star imports: unittest.mock
+tests/test_token_handling.py:110: 'patch' may be undefined, or defined from star imports: unittest.mock
+tests/test_token_handling.py:112: 'patch' may be undefined, or defined from star imports: unittest.mock
+tests/test_token_handling.py:120: 'patch' may be undefined, or defined from star imports: unittest.mock
 tests/test_token_handling.py:122: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:135: 'patch' may be undefined, or defined from star imports: unittest.mock
+tests/test_token_handling.py:134: 'patch' may be undefined, or defined from star imports: unittest.mock
 tests/test_token_handling.py:136: 'patch' may be undefined, or defined from star imports: unittest.mock
+tests/test_token_handling.py:149: 'patch' may be undefined, or defined from star imports: unittest.mock
+tests/test_token_handling.py:151: 'patch' may be undefined, or defined from star imports: unittest.mock
     Fail
 ----------------------------------------------------
 Checking following source files for common errors:

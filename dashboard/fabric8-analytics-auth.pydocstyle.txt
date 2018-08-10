@@ -15,9 +15,15 @@ Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-pack
 fabric8a_auth/fabric8a_auth.py
 fabric8a_auth/fabric8a_auth.py:1 at module level:
         D400: First line should end with a period (not 's')
-fabric8a_auth/fabric8a_auth.py:213 in public method `__init__`:
+fabric8a_auth/fabric8a_auth.py:20 in public function `decode_token`:
+        D400: First line should end with a period (not 'e')
+fabric8a_auth/fabric8a_auth.py:82 in public function `login_required`:
+        D202: No blank lines allowed after function docstring (found 1)
+fabric8a_auth/fabric8a_auth.py:116 in public function `service_token_required`:
+        D202: No blank lines allowed after function docstring (found 1)
+fabric8a_auth/fabric8a_auth.py:180 in public method `__init__`:
         D107: Missing docstring in __init__
-2
+5
     Fail
 fabric8a_auth/__init__.py
 0

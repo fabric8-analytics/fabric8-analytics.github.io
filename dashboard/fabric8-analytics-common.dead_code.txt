@@ -11,117 +11,37 @@ Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages (0.28)
 integration-tests/features/src/schemas/component_security_issues.py
-integration-tests/features/src/schemas/component_security_issues.py:3: unused import 'Exact' (90% confidence)
-integration-tests/features/src/schemas/component_security_issues.py:3: unused import 'Partial' (90% confidence)
-integration-tests/features/src/schemas/component_security_issues.py:4: unused import 'Invalid' (90% confidence)
-integration-tests/features/src/schemas/component_security_issues.py:4: unused import 'Url' (90% confidence)
-integration-tests/features/src/schemas/component_security_issues.py:5: unused import 'All' (90% confidence)
-integration-tests/features/src/schemas/component_security_issues.py:5: unused import 'Length' (90% confidence)
-    Fail
+    Pass
 integration-tests/features/src/schemas/component_digests.py
-integration-tests/features/src/schemas/component_digests.py:3: unused import 'Exact' (90% confidence)
-integration-tests/features/src/schemas/component_digests.py:3: unused import 'Partial' (90% confidence)
-integration-tests/features/src/schemas/component_digests.py:4: unused import 'Invalid' (90% confidence)
-integration-tests/features/src/schemas/component_digests.py:4: unused import 'Url' (90% confidence)
-integration-tests/features/src/schemas/component_digests.py:5: unused import 'All' (90% confidence)
-integration-tests/features/src/schemas/component_digests.py:5: unused import 'Length' (90% confidence)
-    Fail
+    Pass
 integration-tests/features/src/schemas/component_dependency_snapshot.py
-integration-tests/features/src/schemas/component_dependency_snapshot.py:3: unused import 'Exact' (90% confidence)
-integration-tests/features/src/schemas/component_dependency_snapshot.py:3: unused import 'Partial' (90% confidence)
-integration-tests/features/src/schemas/component_dependency_snapshot.py:4: unused import 'Invalid' (90% confidence)
-integration-tests/features/src/schemas/component_dependency_snapshot.py:4: unused import 'Url' (90% confidence)
-integration-tests/features/src/schemas/component_dependency_snapshot.py:5: unused import 'All' (90% confidence)
-integration-tests/features/src/schemas/component_dependency_snapshot.py:5: unused import 'Length' (90% confidence)
-    Fail
+    Pass
 integration-tests/features/src/schemas/package_github_details.py
-integration-tests/features/src/schemas/package_github_details.py:3: unused import 'Exact' (90% confidence)
-integration-tests/features/src/schemas/package_github_details.py:3: unused import 'Partial' (90% confidence)
-integration-tests/features/src/schemas/package_github_details.py:4: unused import 'Invalid' (90% confidence)
-integration-tests/features/src/schemas/package_github_details.py:4: unused import 'Optional' (90% confidence)
-integration-tests/features/src/schemas/package_github_details.py:5: unused import 'All' (90% confidence)
-integration-tests/features/src/schemas/package_github_details.py:5: unused import 'Length' (90% confidence)
-    Fail
+    Pass
 integration-tests/features/src/schemas/__init__.py
     Pass
 integration-tests/features/src/schemas/component_metadata.py
-integration-tests/features/src/schemas/component_metadata.py:3: unused import 'Exact' (90% confidence)
-integration-tests/features/src/schemas/component_metadata.py:3: unused import 'Partial' (90% confidence)
-integration-tests/features/src/schemas/component_metadata.py:4: unused import 'Invalid' (90% confidence)
-integration-tests/features/src/schemas/component_metadata.py:5: unused import 'All' (90% confidence)
-integration-tests/features/src/schemas/component_metadata.py:5: unused import 'Length' (90% confidence)
-    Fail
+    Pass
 integration-tests/features/src/schemas/predicates.py
     Pass
 integration-tests/features/src/schemas/component_code_metrics.py
-integration-tests/features/src/schemas/component_code_metrics.py:3: unused import 'Exact' (90% confidence)
-integration-tests/features/src/schemas/component_code_metrics.py:3: unused import 'Partial' (90% confidence)
-integration-tests/features/src/schemas/component_code_metrics.py:4: unused import 'Invalid' (90% confidence)
-integration-tests/features/src/schemas/component_code_metrics.py:4: unused import 'Url' (90% confidence)
-integration-tests/features/src/schemas/component_code_metrics.py:5: unused import 'All' (90% confidence)
-integration-tests/features/src/schemas/component_code_metrics.py:5: unused import 'Length' (90% confidence)
-    Fail
+    Pass
 integration-tests/features/src/schemas/common.py
     Pass
 integration-tests/features/src/schemas/component_toplevel.py
-integration-tests/features/src/schemas/component_toplevel.py:3: unused import 'Exact' (90% confidence)
-integration-tests/features/src/schemas/component_toplevel.py:3: unused import 'Partial' (90% confidence)
-integration-tests/features/src/schemas/component_toplevel.py:4: unused import 'Invalid' (90% confidence)
-integration-tests/features/src/schemas/component_toplevel.py:4: unused import 'Url' (90% confidence)
-integration-tests/features/src/schemas/component_toplevel.py:5: unused import 'All' (90% confidence)
-integration-tests/features/src/schemas/component_toplevel.py:5: unused import 'Length' (90% confidence)
-    Fail
+    Pass
 integration-tests/features/src/schemas/package_toplevel.py
-integration-tests/features/src/schemas/package_toplevel.py:3: unused import 'Exact' (90% confidence)
-integration-tests/features/src/schemas/package_toplevel.py:3: unused import 'Partial' (90% confidence)
-integration-tests/features/src/schemas/package_toplevel.py:4: unused import 'Any' (90% confidence)
-integration-tests/features/src/schemas/package_toplevel.py:4: unused import 'Invalid' (90% confidence)
-integration-tests/features/src/schemas/package_toplevel.py:4: unused import 'Optional' (90% confidence)
-integration-tests/features/src/schemas/package_toplevel.py:4: unused import 'Url' (90% confidence)
-integration-tests/features/src/schemas/package_toplevel.py:5: unused import 'All' (90% confidence)
-integration-tests/features/src/schemas/package_toplevel.py:5: unused import 'Length' (90% confidence)
-    Fail
+    Pass
 integration-tests/features/src/schemas/package_keywords_tagging.py
-integration-tests/features/src/schemas/package_keywords_tagging.py:3: unused import 'Exact' (90% confidence)
-integration-tests/features/src/schemas/package_keywords_tagging.py:3: unused import 'Partial' (90% confidence)
-integration-tests/features/src/schemas/package_keywords_tagging.py:4: unused import 'Invalid' (90% confidence)
-integration-tests/features/src/schemas/package_keywords_tagging.py:4: unused import 'Optional' (90% confidence)
-integration-tests/features/src/schemas/package_keywords_tagging.py:4: unused import 'Url' (90% confidence)
-integration-tests/features/src/schemas/package_keywords_tagging.py:5: unused import 'All' (90% confidence)
-integration-tests/features/src/schemas/package_keywords_tagging.py:5: unused import 'Length' (90% confidence)
-    Fail
+    Pass
 integration-tests/features/src/schemas/component_keywords_tagging.py
-integration-tests/features/src/schemas/component_keywords_tagging.py:3: unused import 'Exact' (90% confidence)
-integration-tests/features/src/schemas/component_keywords_tagging.py:3: unused import 'Partial' (90% confidence)
-integration-tests/features/src/schemas/component_keywords_tagging.py:4: unused import 'Invalid' (90% confidence)
-integration-tests/features/src/schemas/component_keywords_tagging.py:4: unused import 'Url' (90% confidence)
-integration-tests/features/src/schemas/component_keywords_tagging.py:5: unused import 'All' (90% confidence)
-integration-tests/features/src/schemas/component_keywords_tagging.py:5: unused import 'Length' (90% confidence)
-    Fail
+    Pass
 integration-tests/features/src/schemas/package_git_stats.py
-integration-tests/features/src/schemas/package_git_stats.py:3: unused import 'Exact' (90% confidence)
-integration-tests/features/src/schemas/package_git_stats.py:3: unused import 'Partial' (90% confidence)
-integration-tests/features/src/schemas/package_git_stats.py:4: unused import 'Invalid' (90% confidence)
-integration-tests/features/src/schemas/package_git_stats.py:4: unused import 'Url' (90% confidence)
-integration-tests/features/src/schemas/package_git_stats.py:5: unused import 'All' (90% confidence)
-integration-tests/features/src/schemas/package_git_stats.py:5: unused import 'Length' (90% confidence)
-    Fail
+    Pass
 integration-tests/features/src/schemas/package_libraries_io.py
-integration-tests/features/src/schemas/package_libraries_io.py:3: unused import 'Exact' (90% confidence)
-integration-tests/features/src/schemas/package_libraries_io.py:3: unused import 'Partial' (90% confidence)
-integration-tests/features/src/schemas/package_libraries_io.py:4: unused import 'Invalid' (90% confidence)
-integration-tests/features/src/schemas/package_libraries_io.py:4: unused import 'Optional' (90% confidence)
-integration-tests/features/src/schemas/package_libraries_io.py:4: unused import 'Url' (90% confidence)
-integration-tests/features/src/schemas/package_libraries_io.py:5: unused import 'All' (90% confidence)
-integration-tests/features/src/schemas/package_libraries_io.py:5: unused import 'Length' (90% confidence)
-    Fail
+    Pass
 integration-tests/features/src/schemas/component_source_licenses.py
-integration-tests/features/src/schemas/component_source_licenses.py:3: unused import 'Exact' (90% confidence)
-integration-tests/features/src/schemas/component_source_licenses.py:3: unused import 'Partial' (90% confidence)
-integration-tests/features/src/schemas/component_source_licenses.py:4: unused import 'Invalid' (90% confidence)
-integration-tests/features/src/schemas/component_source_licenses.py:5: unused import 'All' (90% confidence)
-integration-tests/features/src/schemas/component_source_licenses.py:5: unused import 'Length' (90% confidence)
-    Fail
+    Pass
 integration-tests/features/src/schema_validator.py
     Pass
 integration-tests/features/src/parsing.py
@@ -141,29 +61,15 @@ integration-tests/features/src/s3interface.py
 integration-tests/features/src/attribute_checks.py
     Pass
 integration-tests/features/steps/schema_checks.py
-integration-tests/features/steps/schema_checks.py:3: unused import 'given' (90% confidence)
-integration-tests/features/steps/schema_checks.py:3: unused import 'when' (90% confidence)
-    Fail
+    Pass
 integration-tests/features/steps/s3_package_analysis.py
-integration-tests/features/steps/s3_package_analysis.py:2: unused import 'given' (90% confidence)
-integration-tests/features/steps/s3_package_analysis.py:5: unused import 'boto3' (90% confidence)
-integration-tests/features/steps/s3_package_analysis.py:6: unused import 'botocore' (90% confidence)
-integration-tests/features/steps/s3_package_analysis.py:182: unreachable code after 'raise' (100% confidence)
-    Fail
+    Pass
 integration-tests/features/steps/gremlin.py
-integration-tests/features/steps/gremlin.py:2: unused import 'os' (90% confidence)
-integration-tests/features/steps/gremlin.py:6: unused import 'given' (90% confidence)
-integration-tests/features/steps/gremlin.py:7: unused import 'urljoin' (90% confidence)
-    Fail
+    Pass
 integration-tests/features/steps/s3_component_analysis.py
-integration-tests/features/steps/s3_component_analysis.py:2: unused import 'given' (90% confidence)
-integration-tests/features/steps/s3_component_analysis.py:6: unused import 'boto3' (90% confidence)
-integration-tests/features/steps/s3_component_analysis.py:7: unused import 'botocore' (90% confidence)
-integration-tests/features/steps/s3_component_analysis.py:335: unreachable code after 'raise' (100% confidence)
-    Fail
+    Pass
 integration-tests/features/steps/server_api.py
-integration-tests/features/steps/server_api.py:2: unused import 'given' (90% confidence)
-    Fail
+    Pass
 integration-tests/features/steps/three_scale.py
     Pass
 integration-tests/features/steps/jobs_api.py
@@ -177,29 +83,17 @@ integration-tests/features/steps/component_analysis.py
 integration-tests/features/steps/s3_interface.py
     Pass
 integration-tests/features/steps/stack_analysis.py
-integration-tests/features/steps/stack_analysis.py:6: unused import 'given' (90% confidence)
-    Fail
+    Pass
 integration-tests/features/steps/common.py
-integration-tests/features/steps/common.py:2: unused import 'string' (90% confidence)
-integration-tests/features/steps/common.py:7: unused import 're' (90% confidence)
-integration-tests/features/steps/common.py:10: unused import 'urljoin' (90% confidence)
-integration-tests/features/steps/common.py:13: unused import 'uuid' (90% confidence)
-integration-tests/features/steps/common.py:15: unused import 'botocore' (90% confidence)
-integration-tests/features/steps/common.py:16: unused import 'ClientError' (90% confidence)
-    Fail
+    Pass
 integration-tests/features/steps/gemini.py
-integration-tests/features/steps/gemini.py:6: unused import 'json' (90% confidence)
-integration-tests/features/steps/gemini.py:8: unused import 'then' (90% confidence)
-    Fail
+    Pass
 integration-tests/features/steps/authorization.py
     Pass
 integration-tests/features/steps/backbone_api.py
-integration-tests/features/steps/backbone_api.py:8: unused import 'os' (90% confidence)
-integration-tests/features/steps/backbone_api.py:11: unused import 'urljoin' (90% confidence)
-    Fail
+    Pass
 integration-tests/features/steps/license_analysis.py
-integration-tests/features/steps/license_analysis.py:5: unused import 'given' (90% confidence)
-    Fail
+    Pass
 integration-tests/features/environment.py
     Pass
 integration-tests/hack/json2pom.py
@@ -287,16 +181,13 @@ dashboard/src/git_utils.py
 dashboard/src/history_generator.py
     Pass
 reproducers/issue1934.py
-reproducers/issue1934.py:3: unused import 'os' (90% confidence)
-    Fail
+    Pass
 reproducers/issue1619.py
-reproducers/issue1619.py:8: unused variable 'ecosystem' (100% confidence)
-    Fail
+    Pass
 reproducers/issue4071.py
     Pass
 reproducers/issue2012.py
-reproducers/issue2012.py:3: unused import 'os' (90% confidence)
-    Fail
+    Pass
 load-tests/run_load_test.py
     Pass
 load-tests/locust-test.py
@@ -329,4 +220,4 @@ db-integrity-tests/src/core_package_checker.py
     Pass
 db-integrity-tests/src/checker.py
     Pass
-26 source files out of 105 files seems to contain dead code and/or unused imports
+All checks passed for 105 source files

@@ -369,7 +369,7 @@ integration-tests/features/src/schemas/predicates.py
     <span style="color:#AA00AA">F </span>120:0 sha256_p - <span style="color:#00AA00">A (2)</span>
 integration-tests/features/steps/schema_checks.py
     <span style="color:#AA00AA">F </span>73:0 check_component_source_licenses_schema - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>24:0 check_component_metadata_schema - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>24:0 check_component_toplevel_metadata_schema - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>31:0 check_component_code_metrics_schema - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>38:0 check_component_security_issues_schema - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>45:0 check_component_digests_schema - <span style="color:#00AA00">A (2)</span>
@@ -382,95 +382,95 @@ integration-tests/features/steps/schema_checks.py
     <span style="color:#AA00AA">F </span>113:0 check_package_keywords_tagging_schema - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>120:0 check_package_libraries_io_schema - <span style="color:#00AA00">A (2)</span>
 integration-tests/features/steps/s3_package_analysis.py
-    <span style="color:#AA00AA">F </span>248:0 wait_for_package_toplevel_file - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>100:0 check_recent_package_version_publication - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>159:0 read_core_package_data_from_bucket - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>48:0 check_weight_for_word_in_keywords_tagging - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>72:0 check_latest_package_version_publication - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>185:0 check_package_toplevel_file - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>221:0 check_new_timestamps - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>26:0 check_empty_github_details - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>120:0 check_releases_count - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>131:0 check_dependent_repositories_count - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>145:0 check_dependents_count - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>10:0 check_github_details_file - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>33:0 check_keywords_tagging_file - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>61:0 check_libraries_io_file - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>94:0 _get_releases_node_from_libraries_io - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>209:0 remember_timestamps_from_job_toplevel_data - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>246:0 wait_for_package_toplevel_file - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>98:0 check_recent_package_version_publication - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>157:0 read_core_package_data_from_bucket - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>46:0 check_weight_for_word_in_keywords_tagging - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>70:0 check_latest_package_version_publication - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>183:0 check_package_toplevel_file - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>219:0 check_new_timestamps - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>24:0 check_empty_github_details - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>118:0 check_releases_count - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>129:0 check_dependent_repositories_count - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>143:0 check_dependents_count - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>8:0 check_github_details_file - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>31:0 check_keywords_tagging_file - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>59:0 check_libraries_io_file - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>92:0 _get_releases_node_from_libraries_io - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>207:0 remember_timestamps_from_job_toplevel_data - <span style="color:#00AA00">A (1)</span>
 integration-tests/features/steps/gremlin.py
-    <span style="color:#AA00AA">F </span>189:0 package_data_timestamp_comparison_with_remembered_time - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>188:0 package_data_timestamp_comparison_with_remembered_time - <span style="color:#00AA00">B (6)</span>
     <span style="color:#AA00AA">F </span>512:0 test_libio_related_properties - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>241:0 check_properties_in_results - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>264:0 check_unexpected_properties_in_results - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>298:0 check_package_version_timestamp_comparison_with_remembered_time - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>217:0 check_gremlin_status_node - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>240:0 check_properties_in_results - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>263:0 check_unexpected_properties_in_results - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>297:0 check_package_version_timestamp_comparison_with_remembered_time - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>216:0 check_gremlin_status_node - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>384:0 check_package_versions_structure - <span style="color:#00AA00">A (4)</span>
     <span style="color:#AA00AA">F </span>447:0 check_integer_property_value - <span style="color:#00AA00">A (4)</span>
     <span style="color:#AA00AA">F </span>476:0 check_float_property_value - <span style="color:#00AA00">A (4)</span>
     <span style="color:#AA00AA">F </span>528:0 test_github_related_properties - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>554:0 test_cve_ids - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>82:0 wait_for_update_in_graph_db - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>141:0 get_node_value_from_properties_returned_by_gremlin - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>231:0 check_gremlin_result_node - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>337:0 check_latest_version_property_value - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>366:0 check_package_structure - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>385:0 check_package_versions_structure - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>555:0 test_cve_ids - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>81:0 wait_for_update_in_graph_db - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>140:0 get_node_value_from_properties_returned_by_gremlin - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>230:0 check_gremlin_result_node - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>336:0 check_latest_version_property_value - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>365:0 check_package_structure - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>404:0 convert_to_number - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>427:0 test_last_updated_attribute - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>458:0 check_libio_number_property_value - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>494:0 test_cm_loc - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>500:0 test_cm_avg_cyclomatic_complexity - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>506:0 test_cm_num_files - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>112:0 valid_gremlin_response - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>124:0 check_vertexes_count - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>133:0 check_non_zero_vertexes_count - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>150:0 check_package_name - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>159:0 check_ecosystem_name - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>168:0 check_number_of_packages_returned - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>179:0 check_timestamp_for_all_packages_in_gremlin_response - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>284:0 get_timestamp_from_gremlin - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>291:0 check_unix_timestamp - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>309:0 read_property_value_from_gremlin_response - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>326:0 check_property_value - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>353:0 check_numeric_property_value - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>111:0 valid_gremlin_response - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>123:0 check_vertexes_count - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>132:0 check_non_zero_vertexes_count - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>149:0 check_package_name - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>158:0 check_ecosystem_name - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>167:0 check_number_of_packages_returned - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>178:0 check_timestamp_for_all_packages_in_gremlin_response - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>283:0 get_timestamp_from_gremlin - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>290:0 check_unix_timestamp - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>308:0 read_property_value_from_gremlin_response - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>325:0 check_property_value - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>352:0 check_numeric_property_value - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>436:0 get_node_value - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>487:0 check_string_property_value - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>25:0 gremlin_url_access - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>31:0 gremlin_search_vertexes - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>38:0 gremlin_search_vertexes_for_the_ecosystem - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>45:0 gremlin_find_package - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>52:0 gremlin_find_package_version - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>60:0 gremlin_find_package - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>67:0 remember_current_time - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>73:0 gremlin_read_last_update_time - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>106:0 post_query - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>208:0 get_results_from_gremlin - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>548:0 test_vertex_label - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>24:0 gremlin_url_access - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>30:0 gremlin_search_vertexes - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>37:0 gremlin_search_vertexes_for_the_ecosystem - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>44:0 gremlin_find_all_versions_of_package - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>51:0 gremlin_find_package_version - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>59:0 gremlin_find_package - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>66:0 remember_current_time - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>72:0 gremlin_read_last_update_time - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>105:0 post_query - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>207:0 get_results_from_gremlin - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>416:0 get_scale - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>548:0 test_vertex_label - <span style="color:#00AA00">A (1)</span>
 integration-tests/features/steps/s3_component_analysis.py
-    <span style="color:#AA00AA">F </span>11:0 check_component_core_data - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>338:0 wait_for_component_toplevel_file - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>317:0 read_core_data_from_bucket - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>80:0 _node_items_to_check - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>99:0 check_unexpected_items_in_node - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>176:0 check_component_digest_metadata_value - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>266:0 check_package_name_and_version - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>112:0 check_component_latest_version - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>135:0 check_runtime_dependency_count - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>147:0 check_runtime_dependency_count_in_summary - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>219:0 check_package_author - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>228:0 check_vsc - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>238:0 check_repository_url - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>248:0 check_project_homepage - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>257:0 check_project_description - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>280:0 check_component_security_issues_data - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>309:0 check_package_license - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>91:0 check_expected_items_in_node - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>122:0 check_component_dependency_snapshot_data - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>161:0 check_component_digest_data - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>192:0 check_component_keywords_tagging_data - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>206:0 check_component_metadata_data - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>296:0 check_component_source_licenses_data - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>9:0 check_component_core_data - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>336:0 wait_for_component_toplevel_file - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>315:0 read_core_data_from_bucket - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>78:0 _node_items_to_check - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>97:0 check_unexpected_items_in_node - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>174:0 check_component_digest_metadata_value - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>264:0 check_package_name_and_version - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>110:0 check_component_latest_version - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>133:0 check_runtime_dependency_count - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>145:0 check_runtime_dependency_count_in_summary - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>217:0 check_package_author - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>226:0 check_vsc - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>236:0 check_repository_url - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>246:0 check_project_homepage - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>255:0 check_project_description - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>278:0 check_component_security_issues_data - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>307:0 check_package_license - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>89:0 check_expected_items_in_node - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>120:0 check_component_dependency_snapshot_data - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>159:0 check_component_digest_data - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>190:0 check_component_keywords_tagging_data - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>204:0 check_component_metadata_data - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>294:0 check_component_source_licenses_data - <span style="color:#00AA00">A (1)</span>
 integration-tests/features/steps/server_api.py
     <span style="color:#AA00AA">F </span>63:0 check_versions - <span style="color:#00AA00">B (6)</span>
     <span style="color:#AA00AA">F </span>53:0 check_ecosystems - <span style="color:#00AA00">A (4)</span>
@@ -494,18 +494,18 @@ integration-tests/features/steps/three_scale.py
     <span style="color:#AA00AA">F </span>63:0 register_3scale_without_token - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>69:0 register_3scale_with_token - <span style="color:#00AA00">A (1)</span>
 integration-tests/features/steps/jobs_api.py
-    <span style="color:#AA00AA">F </span>354:0 check_job_api_tokens_information - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#AA00AA">F </span>355:0 check_job_api_tokens_information - <span style="color:#00AA00">B (10)</span>
     <span style="color:#AA00AA">F </span>49:0 check_job_debug_analyses_report - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>317:0 find_job - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>318:0 find_job - <span style="color:#00AA00">B (7)</span>
     <span style="color:#AA00AA">F </span>240:0 check_redirection - <span style="color:#00AA00">A (5)</span>
     <span style="color:#AA00AA">F </span>249:0 access_analyses_report - <span style="color:#00AA00">A (4)</span>
     <span style="color:#AA00AA">F </span>33:0 list_of_jobs - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>70:0 post_input_to_user_feedback - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>190:0 set_job_service_status - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>280:0 check_jobs - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>295:0 check_jobs - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>312:0 get_job_by_id - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>337:0 should_not_find_job_by_id - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>281:0 check_jobs - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>296:0 check_jobs - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>313:0 get_job_by_id - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>338:0 should_not_find_job_by_id - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>13:0 running_jobs_debug_api - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>87:0 flow_sheduling_endpoint - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>102:0 job_endpoint - <span style="color:#00AA00">A (2)</span>
@@ -515,17 +515,17 @@ integration-tests/features/steps/jobs_api.py
     <span style="color:#AA00AA">F </span>177:0 set_job_status - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>206:0 clean_all_failed_jobs - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>218:0 logout_from_the_jobs_service - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>273:0 get_jobs_count - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>20:0 jobs_api_url - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>26:0 jobs_api_url_with_authorization_token - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>97:0 job_metadata_filename - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>124:0 perform_post_job - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>145:0 perform_post_job_with_state - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>232:0 job_service_generate_token - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>273:0 get_jobs_count - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>288:0 check_jobs - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>347:0 acquire_jobs_api_authorization_token - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>382:0 generate_job_id_prefix - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>388:0 perform_kerberized_request - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>289:0 check_jobs - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>348:0 acquire_jobs_api_authorization_token - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>383:0 generate_job_id_prefix - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>389:0 perform_kerberized_request - <span style="color:#00AA00">A (1)</span>
 integration-tests/features/steps/oc.py
     <span style="color:#AA00AA">F </span>167:0 oc_wait_for_service_restart - <span style="color:#00AA00">A (5)</span>
     <span style="color:#AA00AA">F </span>31:0 oc_got_user_name_p - <span style="color:#00AA00">A (4)</span>
@@ -545,24 +545,24 @@ integration-tests/features/steps/oc.py
     <span style="color:#AA00AA">F </span>122:0 get_pod_phase - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>128:0 is_pod - <span style="color:#00AA00">A (1)</span>
 integration-tests/features/steps/user_tag.py
-    <span style="color:#AA00AA">F </span>103:0 check_get_next_untagged_component_response - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#AA00AA">F </span>55:0 check_master_tag_list_response_json - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>15:0 running_master_tag_list_api - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>28:0 get_master_tag_list - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>49:0 check_status_code_for_master_tag_list - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>63:0 running_get_untagged_component_api - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>76:0 get_next_untagged_component - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>97:0 check_status_code_for_get_next_untagged_component - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>125:0 check_set_tags_api_response_without_token - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>140:0 check_response_for_invalid_input_to_set_tags - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>22:0 master_tag_list_url - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>37:0 fetch_master_tag_list_without_token - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>43:0 fetch_master_tag_list_with_token - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>70:0 get_next_untagged_component_url - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>85:0 get_next_untagged_component_without_token - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>91:0 get_next_untagged_component_with_token - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>117:0 post_invalid_input_to_set_tags_without_token - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>131:0 post_invalid_input_to_set_tags - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>101:0 check_get_next_untagged_component_response - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#AA00AA">F </span>53:0 check_master_tag_list_response_json - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>13:0 running_master_tag_list_api - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>26:0 get_master_tag_list - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>47:0 check_status_code_for_master_tag_list - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>61:0 running_get_untagged_component_api - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>74:0 get_next_untagged_component - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>95:0 check_status_code_for_get_next_untagged_component - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>123:0 check_set_tags_api_response_without_token - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>138:0 check_response_for_invalid_input_to_set_tags - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>20:0 master_tag_list_url - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>35:0 fetch_master_tag_list_without_token - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>41:0 fetch_master_tag_list_with_token - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>68:0 get_next_untagged_component_url - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>83:0 get_next_untagged_component_without_token - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>89:0 get_next_untagged_component_with_token - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>115:0 post_invalid_input_to_set_tags_without_token - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>129:0 post_invalid_input_to_set_tags - <span style="color:#00AA00">A (1)</span>
 integration-tests/features/steps/component_analysis.py
     <span style="color:#AA00AA">F </span>91:0 finish_analysis_for_component - <span style="color:#00AA00">B (6)</span>
     <span style="color:#AA00AA">F </span>122:0 check_components - <span style="color:#00AA00">A (5)</span>
@@ -628,55 +628,55 @@ integration-tests/features/steps/stack_analysis.py
     <span style="color:#AA00AA">F </span>507:0 stack_analysis_check_security_node_for_alternate_components - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>614:0 check_stack_analyses_request_id - <span style="color:#00AA00">A (1)</span>
 integration-tests/features/steps/common.py
-    <span style="color:#AA00AA">F </span>184:0 check_analyzers_with_standard_schema - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>216:0 validate_analysis_result - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>176:0 check_incomplete_analysis_result - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>235:0 compare_value_from_json - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>52:0 get_tgt_in_service - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>105:0 check_status_code_for_all_calls - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>206:0 check_analysis_result - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>244:0 find_value_under_the_path - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>254:0 find_null_value_under_the_path - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>263:0 find_list_under_the_path - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>272:0 find_empty_list_under_the_path - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>282:0 find_dictionary_under_the_path - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>292:0 find_empty_dictionary_under_the_path - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>302:0 find_timestamp_value_under_the_path - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>38:0 running_system - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>45:0 does_data_directory_exists - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>74:0 check_json_empty_response - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>81:0 check_json_nonempty_response - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>87:0 check_json_nempty_response_from_s3 - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>93:0 check_json_nonempty_response_from_s3 - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>99:0 check_status_code - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>112:0 check_json_response_is_valid - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>119:0 check_json_response_contains_key - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>125:0 check_json_value_under_key - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>151:0 check_timestamp_under_path - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>171:0 check_datetime - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>195:0 check_complete_analysis_result - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>32:0 initial_state - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>131:0 check_id_in_json_response - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>141:0 check_timestamp_in_json_attribute - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>164:0 pause_scenario_execution - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>312:0 read_json_file - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>318:0 read_json_file_for_s3 - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>178:0 check_analyzers_with_standard_schema - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>210:0 validate_analysis_result - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>170:0 check_incomplete_analysis_result - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>229:0 compare_value_from_json - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>46:0 get_tgt_in_service - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>99:0 check_status_code_for_all_calls - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>200:0 check_analysis_result - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>238:0 find_value_under_the_path - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>248:0 find_null_value_under_the_path - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>257:0 find_list_under_the_path - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>266:0 find_empty_list_under_the_path - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>276:0 find_dictionary_under_the_path - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>286:0 find_empty_dictionary_under_the_path - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>296:0 find_timestamp_value_under_the_path - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>32:0 running_system - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>39:0 does_data_directory_exists - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>68:0 check_json_empty_response - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>75:0 check_json_nonempty_response - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>81:0 check_json_nempty_response_from_s3 - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>87:0 check_json_nonempty_response_from_s3 - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>93:0 check_status_code - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>106:0 check_json_response_is_valid - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>113:0 check_json_response_contains_key - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>119:0 check_json_value_under_key - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>145:0 check_timestamp_under_path - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>165:0 check_datetime - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>189:0 check_complete_analysis_result - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>26:0 initial_state - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>125:0 check_id_in_json_response - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>135:0 check_timestamp_in_json_attribute - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>158:0 pause_scenario_execution - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>306:0 read_json_file - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>312:0 read_json_file_for_s3 - <span style="color:#00AA00">A (1)</span>
 integration-tests/features/steps/gemini.py
-    <span style="color:#AA00AA">F </span>33:0 call_backbone_api - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>15:0 running_gemini_api - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>21:0 set_git_url - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>27:0 set_git_url - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>31:0 call_backbone_api - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>13:0 running_gemini_api - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>19:0 set_git_url - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>25:0 set_git_sha - <span style="color:#00AA00">A (1)</span>
 integration-tests/features/steps/authorization.py
-    <span style="color:#AA00AA">F </span>25:0 acquire_authorization_token - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>72:0 check_api_token - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>13:0 is_proper_authorization_token_for_server_api - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>19:0 is_proper_authorization_token_for_jobs_api - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>48:0 generate_authorization_token - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>28:0 acquire_authorization_token - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>75:0 check_api_token - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>16:0 is_proper_authorization_token_for_server_api - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>22:0 is_proper_authorization_token_for_jobs_api - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>51:0 generate_authorization_token - <span style="color:#00AA00">A (2)</span>
 integration-tests/features/steps/backbone_api.py
-    <span style="color:#AA00AA">F </span>50:0 verify_database_entry - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>39:0 check_valid_response - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>23:0 post_backbone_api - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>17:0 running_backbone_api - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>47:0 verify_database_entry - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>36:0 check_valid_response - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>20:0 post_backbone_api - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>14:0 running_backbone_api - <span style="color:#00AA00">A (1)</span>
 integration-tests/features/steps/license_analysis.py
     <span style="color:#AA00AA">F </span>395:0 check_license_analysis_conflicts_for_package_version - <span style="color:#00AA00">B (6)</span>
     <span style="color:#AA00AA">F </span>271:0 check_license_for_package_version - <span style="color:#00AA00">A (5)</span>
@@ -730,16 +730,16 @@ integration-tests/hack/json2pom.py
     <span style="color:#AA00AA">F </span>20:0 print_footer - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>27:0 print_dependency - <span style="color:#00AA00">A (1)</span>
 reproducers/issue1934.py
-    <span style="color:#AA00AA">F </span>10:0 gremlin_search_package_in_ecosystem - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>26:0 post_query - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>8:0 gremlin_search_package_in_ecosystem - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>24:0 post_query - <span style="color:#00AA00">A (1)</span>
 reproducers/issue1619.py
-    <span style="color:#AA00AA">F </span>8:0 gremlin_search_packages_for_the_ecosystem - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>25:0 post_query - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>8:0 gremlin_search_packages_for_the_ecosystem - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>27:0 post_query - <span style="color:#00AA00">A (1)</span>
 reproducers/issue4071.py
     <span style="color:#AA00AA">F </span>8:0 call_license_recommender - <span style="color:#00AA00">A (1)</span>
 reproducers/issue2012.py
-    <span style="color:#AA00AA">F </span>10:0 gremlin_search_package_in_ecosystem - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>38:0 post_query - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>8:0 gremlin_search_package_in_ecosystem - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>36:0 post_query - <span style="color:#00AA00">A (1)</span>
 load-tests/run_load_test.py
     <span style="color:#AA00AA">F </span>38:0 close_fps - <span style="color:#00AA00">A (3)</span>
 load-tests/locust-test.py
@@ -1053,5 +1053,5 @@ perf-tests/src/gremlin_package_generator.py
     <span style="color:#00AA00">M </span>65:4 GremlinPackageGenerator.package_version_generator_for_ecosystem - <span style="color:#00AA00">A (2)</span>
 
 968 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (2.293388429752066)</span>
+Average complexity: <span style="color:#00AA00">A (2.2985537190082646)</span>
 </pre>

@@ -19,9 +19,7 @@ src/data_store/abstract_data_store.py
 src/data_store/local_data_store.py
     Pass
 src/data_store/s3_data_store.py
-src/data_store/s3_data_store.py:4: 'collections.OrderedDict' imported but unused
-src/data_store/s3_data_store.py:37: undefined name 'OrderDict'
-    Fail
+    Pass
 src/__init__.py
     Pass
 src/flask_endpoint.py
@@ -60,4 +58,4 @@ perf_tests/locust_tests.py:99: local variable 'response' is assigned to but neve
     Fail
 PoC_code/__init__.py
     Pass
-4 source files out of 18 files needs to be checked and fixed
+3 source files out of 18 files needs to be checked and fixed
