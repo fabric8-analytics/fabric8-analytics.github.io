@@ -39,6 +39,8 @@ src/data_store/s3_data_store.py:68: unused variable 'ecosystem' (100% confidence
     Fail
 src/__init__.py
     Pass
+src/utils.py
+    Pass
 src/flask_endpoint.py
     Pass
 src/scoring/__init__.py
@@ -63,6 +65,14 @@ tests/unit_tests/__init__.py
     Pass
 tests/unit_tests/test_local_datastore.py
     Pass
+tests/unit_tests/test_utils.py
+    Pass
+tests/test_data/__init__.py
+    Pass
+tests/test_data/maven/__init__.py
+    Pass
+tests/test_data/maven/scoring/__init__.py
+    Pass
 perf_tests/__init__.py
     Pass
 perf_tests/locust_tests.py
@@ -71,4 +81,4 @@ perf_tests/locust_tests.py:4: unused import 'web' (90% confidence)
     Fail
 PoC_code/__init__.py
     Pass
-6 source files out of 18 files seems to contain dead code and/or unused imports
+6 source files out of 23 files seems to contain dead code and/or unused imports

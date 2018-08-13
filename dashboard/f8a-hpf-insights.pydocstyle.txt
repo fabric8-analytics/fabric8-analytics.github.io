@@ -27,6 +27,9 @@ src/data_store/s3_data_store.py
 src/__init__.py
 0
     Pass
+src/utils.py
+0
+    Pass
 src/flask_endpoint.py
 0
     Pass
@@ -57,6 +60,18 @@ tests/unit_tests/__init__.py
 tests/unit_tests/test_local_datastore.py
 0
     Pass
+tests/unit_tests/test_utils.py
+0
+    Pass
+tests/test_data/__init__.py
+0
+    Pass
+tests/test_data/maven/__init__.py
+0
+    Pass
+tests/test_data/maven/scoring/__init__.py
+0
+    Pass
 perf_tests/__init__.py
 0
     Pass
@@ -66,4 +81,4 @@ perf_tests/locust_tests.py
 PoC_code/__init__.py
 0
     Pass
-All checks passed for 18 source files
+All checks passed for 23 source files

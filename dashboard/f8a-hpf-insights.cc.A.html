@@ -25,14 +25,18 @@ tests/unit_tests/test_local_datastore.py
     <span style="color:#00AA00">M </span>23:4 TestLocalDataStoreMethods.test_list_files - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>30:4 TestLocalDataStoreMethods.test_download_file - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>35:4 TestLocalDataStoreMethods.test_upload_file - <span style="color:#00AA00">A (1)</span>
+tests/unit_tests/test_utils.py
+    <span style="color:#AA00AA">F </span>6:0 test_convert_string2bool_env - <span style="color:#00AA00">A (3)</span>
+src/utils.py
+    <span style="color:#AA00AA">F </span>4:0 convert_string2bool_env - <span style="color:#00AA00">A (1)</span>
 src/flask_endpoint.py
-    <span style="color:#AA00AA">F </span>78:0 hpf_scoring - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>18:0 setup_logging - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>55:0 list_routes - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>110:0 hpf_model_details - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>60:0 heart_beat - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>66:0 liveness - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>72:0 readiness - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>79:0 hpf_scoring - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>19:0 setup_logging - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>56:0 list_routes - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>111:0 hpf_model_details - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>61:0 heart_beat - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>67:0 liveness - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>73:0 readiness - <span style="color:#00AA00">A (1)</span>
 src/data_store/abstract_data_store.py
     <span style="color:#00AAAA">C </span>6:0 AbstractDataStore - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>9:4 AbstractDataStore.get_name - <span style="color:#00AA00">A (1)</span>
@@ -68,18 +72,18 @@ src/data_store/s3_data_store.py
     <span style="color:#00AA00">M </span>68:4 S3DataStore.iterate_bucket_items - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>79:4 S3DataStore.list_folders - <span style="color:#00AA00">A (1)</span>
 src/scoring/hpf_scoring.py
-    <span style="color:#00AA00">M </span>134:4 HPFScoring.predict - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>166:4 HPFScoring.match_manifest - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>181:4 HPFScoring.folding_in - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>200:4 HPFScoring.normalize_result - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>120:4 HPFScoring.load_jsons - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>36:0 HPFScoring - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>39:4 HPFScoring.__init__ - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>215:4 HPFScoring.filter_recommendation - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>64:4 HPFScoring._getsizeof - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>72:4 HPFScoring.model_details - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>86:4 HPFScoring.load_s3 - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>106:4 HPFScoring.load_local - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>136:4 HPFScoring.predict - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>168:4 HPFScoring.match_manifest - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>183:4 HPFScoring.folding_in - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>202:4 HPFScoring.normalize_result - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>122:4 HPFScoring.load_jsons - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>38:0 HPFScoring - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>41:4 HPFScoring.__init__ - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>217:4 HPFScoring.filter_recommendation - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>66:4 HPFScoring._getsizeof - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>74:4 HPFScoring.model_details - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>88:4 HPFScoring.load_s3 - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>108:4 HPFScoring.load_local - <span style="color:#00AA00">A (1)</span>
 perf_tests/locust_tests.py
     <span style="color:#AA00AA">F </span>82:0 get_packages - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AAAA">C </span>89:0 HPFInsightsBehaviour - <span style="color:#00AA00">A (1)</span>
@@ -87,6 +91,6 @@ perf_tests/locust_tests.py
     <span style="color:#00AA00">M </span>96:4 HPFInsightsBehaviour.trigger_companion_recommendation_random_stack_len - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AAAA">C </span>104:0 HPFInsightsLocust - <span style="color:#00AA00">A (1)</span>
 
-79 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (1.8227848101265822)</span>
+81 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (1.8271604938271604)</span>
 </pre>
