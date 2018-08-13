@@ -3,7 +3,7 @@ Name                                                                 Stmts   Mis
 /f8a_worker/f8a_worker/__init__.py                                       1      0   100%		/f8a_worker/f8a_worker/__init__.py                                       1      0   100%
 /f8a_worker/f8a_worker/base.py                                          66     28    58%   41, 55-62,	/f8a_worker/f8a_worker/base.py                                          66     28    58%   41, 55-62,
 /f8a_worker/f8a_worker/celery_settings.py                               40     12    70%   21, 28, 32	/f8a_worker/f8a_worker/celery_settings.py                               40     12    70%   21, 28, 32
-/f8a_worker/f8a_worker/data_normalizer.py                              427     73    83%   136-139, 1	/f8a_worker/f8a_worker/data_normalizer.py                              427     73    83%   136-139, 1
+/f8a_worker/f8a_worker/data_normalizer.py                              427     73    83%   136-139, 1 |	/f8a_worker/f8a_worker/data_normalizer.py                              429     73    83%   136-139, 1
 /f8a_worker/f8a_worker/defaults.py                                      87     12    86%   97-99, 103	/f8a_worker/f8a_worker/defaults.py                                      87     12    86%   97-99, 103
 /f8a_worker/f8a_worker/dispatcher/__init__.py                            0      0   100%		/f8a_worker/f8a_worker/dispatcher/__init__.py                            0      0   100%
 /f8a_worker/f8a_worker/dispatcher/foreach.py                            86     67    22%   17, 42-65,	/f8a_worker/f8a_worker/dispatcher/foreach.py                            86     67    22%   17, 42-65,
@@ -16,10 +16,10 @@ Name                                                                 Stmts   Mis
 /f8a_worker/f8a_worker/manifests.py                                     52     24    54%   27, 53, 58	/f8a_worker/f8a_worker/manifests.py                                     52     24    54%   27, 53, 58
 /f8a_worker/f8a_worker/models.py                                       227     65    71%   41-45, 52-	/f8a_worker/f8a_worker/models.py                                       227     65    71%   41-45, 52-
 /f8a_worker/f8a_worker/object_cache.py                                 147     75    49%   69-74, 81-	/f8a_worker/f8a_worker/object_cache.py                                 147     75    49%   69-74, 81-
-/f8a_worker/f8a_worker/process.py                                      306     45    85%   67, 69, 71 |	/f8a_worker/f8a_worker/process.py                                      309     47    85%   67, 69, 71
+/f8a_worker/f8a_worker/process.py                                      309     47    85%   67, 69, 71	/f8a_worker/f8a_worker/process.py                                      309     47    85%   67, 69, 71
 /f8a_worker/f8a_worker/schemas.py                                      208     42    80%   65-67, 92,	/f8a_worker/f8a_worker/schemas.py                                      208     42    80%   65-67, 92,
 /f8a_worker/f8a_worker/setup_celery.py                                  41     19    54%   22-24, 29,	/f8a_worker/f8a_worker/setup_celery.py                                  41     19    54%   22-24, 29,
-/f8a_worker/f8a_worker/solver.py                                       518     69    87%   113, 130,  |	/f8a_worker/f8a_worker/solver.py                                       520     68    87%   113, 130, 
+/f8a_worker/f8a_worker/solver.py                                       520     68    87%   113, 130, 	/f8a_worker/f8a_worker/solver.py                                       520     68    87%   113, 130, 
 /f8a_worker/f8a_worker/start.py                                         16     16     0%   3-30		/f8a_worker/f8a_worker/start.py                                         16     16     0%   3-30
 /f8a_worker/f8a_worker/storages/__init__.py                             19      0   100%		/f8a_worker/f8a_worker/storages/__init__.py                             19      0   100%
 /f8a_worker/f8a_worker/storages/package_postgres.py                     86     64    26%   30-32, 35-	/f8a_worker/f8a_worker/storages/package_postgres.py                     86     64    26%   30-32, 35-
@@ -42,7 +42,7 @@ Name                                                                 Stmts   Mis
 /f8a_worker/f8a_worker/storages/s3_userintent.py                        19     14    26%   11-16, 20-	/f8a_worker/f8a_worker/storages/s3_userintent.py                        19     14    26%   11-16, 20-
 /f8a_worker/f8a_worker/storages/s3_userprofilestore.py                   8      4    50%   12-15	/f8a_worker/f8a_worker/storages/s3_userprofilestore.py                   8      4    50%   12-15
 /f8a_worker/f8a_worker/storages/s3_vulndb.py                            54     36    33%   28-39, 43-	/f8a_worker/f8a_worker/storages/s3_vulndb.py                            54     36    33%   28-39, 43-
-/f8a_worker/f8a_worker/utils.py                                        301     52    83%   34-47, 82- |	/f8a_worker/f8a_worker/utils.py                                        301     51    83%   34-47, 82-
+/f8a_worker/f8a_worker/utils.py                                        301     51    83%   34-47, 82- |	/f8a_worker/f8a_worker/utils.py                                        301     52    83%   34-47, 82-
 /f8a_worker/f8a_worker/victims.py                                      180     42    77%   104-105, 1	/f8a_worker/f8a_worker/victims.py                                      180     42    77%   104-105, 1
 /f8a_worker/f8a_worker/workers/CVEchecker.py                           131     26    80%   45, 87, 11	/f8a_worker/f8a_worker/workers/CVEchecker.py                           131     26    80%   45, 87, 11
 /f8a_worker/f8a_worker/workers/__init__.py                              27      0   100%		/f8a_worker/f8a_worker/workers/__init__.py                              27      0   100%
@@ -63,9 +63,9 @@ Name                                                                 Stmts   Mis
 /f8a_worker/f8a_worker/workers/keywords_tagging.py                     116     84    28%   45-66, 73-	/f8a_worker/f8a_worker/workers/keywords_tagging.py                     116     84    28%   45-66, 73-
 /f8a_worker/f8a_worker/workers/libraries_io.py                          26      1    96%   39		/f8a_worker/f8a_worker/workers/libraries_io.py                          26      1    96%   39
 /f8a_worker/f8a_worker/workers/license.py                               61      7    89%   42, 104-11	/f8a_worker/f8a_worker/workers/license.py                               61      7    89%   42, 104-11
-/f8a_worker/f8a_worker/workers/mercator.py                             134     49    63%   74-75, 82, |	/f8a_worker/f8a_worker/workers/mercator.py                             136     50    63%   74-75, 82,
+/f8a_worker/f8a_worker/workers/mercator.py                             136     50    63%   74-75, 82,	/f8a_worker/f8a_worker/workers/mercator.py                             136     50    63%   74-75, 82,
 /f8a_worker/f8a_worker/workers/repo_dependency_finder.py               107     94    12%   24-56, 66-	/f8a_worker/f8a_worker/workers/repo_dependency_finder.py               107     94    12%   24-56, 66-
-/f8a_worker/f8a_worker/workers/report_generation.py                     75     64    15%   22-39, 48-	/f8a_worker/f8a_worker/workers/report_generation.py                     75     64    15%   22-39, 48-
+/f8a_worker/f8a_worker/workers/report_generation.py                     75     64    15%   22-39, 48- |	/f8a_worker/f8a_worker/workers/report_generation.py                     76     65    14%   22-39, 48-
 /f8a_worker/f8a_worker/workers/repository_description.py                39      3    92%   36, 54, 61	/f8a_worker/f8a_worker/workers/repository_description.py                39      3    92%   36, 54, 61
 /f8a_worker/f8a_worker/workers/result_collector.py                      37     28    24%   17-42, 50-	/f8a_worker/f8a_worker/workers/result_collector.py                      37     28    24%   17-42, 50-
 /f8a_worker/f8a_worker/workers/schemas/__init__.py                       0      0   100%		/f8a_worker/f8a_worker/workers/schemas/__init__.py                       0      0   100%
@@ -81,6 +81,6 @@ Name                                                                 Stmts   Mis
 /f8a_worker/f8a_worker/workers/schemas/source_licenses.py               82      0   100%		/f8a_worker/f8a_worker/workers/schemas/source_licenses.py               82      0   100%
 /f8a_worker/f8a_worker/workers/unknown_dep_fetcher.py                   37     29    22%   15-50, 59-	/f8a_worker/f8a_worker/workers/unknown_dep_fetcher.py                   37     29    22%   15-50, 59-
 /f8a_worker/f8a_worker/workers/user_notifier.py                         38     29    24%   15-25, 29-	/f8a_worker/f8a_worker/workers/user_notifier.py                         38     29    24%   15-25, 29-
-/f8a_worker/f8a_worker/workers/victims.py                               63     25    60%   20-36, 65-	/f8a_worker/f8a_worker/workers/victims.py                               63     25    60%   20-36, 65-
+/f8a_worker/f8a_worker/workers/victims.py                               63     25    60%   20-36, 65- |	/f8a_worker/f8a_worker/workers/victims.py                              103     49    52%   22-40, 44-
 --------------------------------------------------------------------------------------------------	--------------------------------------------------------------------------------------------------
-TOTAL                                                                 5919   2179    63%	      |	TOTAL                                                                 5926   2180    63%
+TOTAL                                                                 5926   2180    63%	      |	TOTAL                                                                 5969   2206    63%
