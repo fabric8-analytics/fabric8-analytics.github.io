@@ -11,134 +11,41 @@ Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2.0.0)
 integration-tests/features/src/schemas/component_security_issues.py
-integration-tests/features/src/schemas/component_security_issues.py:6: 'from .predicates import *' used; unable to detect undefined names
-integration-tests/features/src/schemas/component_security_issues.py:7: 'from .common import *' used; unable to detect undefined names
-integration-tests/features/src/schemas/component_security_issues.py:43: 'AUDIT' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/component_security_issues.py:46: 'STATUS' may be undefined, or defined from star imports: .common, .predicates
-    Fail
+    Pass
 integration-tests/features/src/schemas/component_digests.py
-integration-tests/features/src/schemas/component_digests.py:6: 'from .predicates import *' used; unable to detect undefined names
-integration-tests/features/src/schemas/component_digests.py:7: 'from .common import *' used; unable to detect undefined names
-integration-tests/features/src/schemas/component_digests.py:89: 'md5_p' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/component_digests.py:100: 'AUDIT' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/component_digests.py:104: 'STATUS' may be undefined, or defined from star imports: .common, .predicates
-    Fail
+    Pass
 integration-tests/features/src/schemas/component_dependency_snapshot.py
-integration-tests/features/src/schemas/component_dependency_snapshot.py:6: 'from .predicates import *' used; unable to detect undefined names
-integration-tests/features/src/schemas/component_dependency_snapshot.py:7: 'from .common import *' used; unable to detect undefined names
-integration-tests/features/src/schemas/component_dependency_snapshot.py:84: 'ECOSYSTEM' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/component_dependency_snapshot.py:86: 'timestamp_p' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/component_dependency_snapshot.py:94: 'AUDIT' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/component_dependency_snapshot.py:97: 'STATUS' may be undefined, or defined from star imports: .common, .predicates
-    Fail
+    Pass
 integration-tests/features/src/schemas/package_github_details.py
-integration-tests/features/src/schemas/package_github_details.py:6: 'from .predicates import *' used; unable to detect undefined names
-integration-tests/features/src/schemas/package_github_details.py:7: 'from .common import *' used; unable to detect undefined names
-integration-tests/features/src/schemas/package_github_details.py:74: 'posint_zero_p' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/package_github_details.py:75: 'posint_zero_p' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/package_github_details.py:86: 'posint_zero_p' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/package_github_details.py:87: 'posint_zero_p' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/package_github_details.py:89: 'posint_zero_p' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/package_github_details.py:90: 'posint_zero_p' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/package_github_details.py:91: 'posint_zero_p' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/package_github_details.py:97: 'AUDIT' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/package_github_details.py:100: 'STATUS' may be undefined, or defined from star imports: .common, .predicates
-    Fail
+    Pass
 integration-tests/features/src/schemas/__init__.py
     Pass
 integration-tests/features/src/schemas/component_metadata.py
-integration-tests/features/src/schemas/component_metadata.py:6: 'from .predicates import *' used; unable to detect undefined names
-integration-tests/features/src/schemas/component_metadata.py:7: 'from .common import *' used; unable to detect undefined names
-integration-tests/features/src/schemas/component_metadata.py:95: 'AUDIT' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/component_metadata.py:98: 'STATUS' may be undefined, or defined from star imports: .common, .predicates
-    Fail
+    Pass
 integration-tests/features/src/schemas/predicates.py
     Pass
 integration-tests/features/src/schemas/component_code_metrics.py
-integration-tests/features/src/schemas/component_code_metrics.py:6: 'from .predicates import *' used; unable to detect undefined names
-integration-tests/features/src/schemas/component_code_metrics.py:7: 'from .common import *' used; unable to detect undefined names
-integration-tests/features/src/schemas/component_code_metrics.py:85: 'posint_p' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/component_code_metrics.py:86: 'posint_p' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/component_code_metrics.py:87: 'posint_p' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/component_code_metrics.py:88: 'posint_p' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/component_code_metrics.py:89: 'posint_p' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/component_code_metrics.py:96: 'AUDIT' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/component_code_metrics.py:99: 'STATUS' may be undefined, or defined from star imports: .common, .predicates
-    Fail
+    Pass
 integration-tests/features/src/schemas/common.py
     Pass
 integration-tests/features/src/schemas/component_toplevel.py
-integration-tests/features/src/schemas/component_toplevel.py:6: 'from .predicates import *' used; unable to detect undefined names
-integration-tests/features/src/schemas/component_toplevel.py:7: 'from .common import *' used; unable to detect undefined names
-integration-tests/features/src/schemas/component_toplevel.py:55: 'AUDIT' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/component_toplevel.py:58: 'ECOSYSTEM' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/component_toplevel.py:59: 'timestamp_p' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/component_toplevel.py:60: 'timestamp_p' may be undefined, or defined from star imports: .common, .predicates
-    Fail
+    Pass
 integration-tests/features/src/schemas/package_toplevel.py
-integration-tests/features/src/schemas/package_toplevel.py:5: 'from .predicates import *' used; unable to detect undefined names
-integration-tests/features/src/schemas/package_toplevel.py:6: 'from .common import *' used; unable to detect undefined names
-integration-tests/features/src/schemas/package_toplevel.py:37: 'posint_p' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/package_toplevel.py:38: 'posint_p' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/package_toplevel.py:39: 'timestamp_p' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/package_toplevel.py:40: 'timestamp_p' may be undefined, or defined from star imports: .common, .predicates
-    Fail
+    Pass
 integration-tests/features/src/schemas/package_keywords_tagging.py
-integration-tests/features/src/schemas/package_keywords_tagging.py:6: 'from .predicates import *' used; unable to detect undefined names
-integration-tests/features/src/schemas/package_keywords_tagging.py:7: 'from .common import *' used; unable to detect undefined names
-integration-tests/features/src/schemas/package_keywords_tagging.py:102: 'AUDIT' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/package_keywords_tagging.py:105: 'STATUS' may be undefined, or defined from star imports: .common, .predicates
-    Fail
+    Pass
 integration-tests/features/src/schemas/component_keywords_tagging.py
-integration-tests/features/src/schemas/component_keywords_tagging.py:6: 'from .predicates import *' used; unable to detect undefined names
-integration-tests/features/src/schemas/component_keywords_tagging.py:7: 'from .common import *' used; unable to detect undefined names
-integration-tests/features/src/schemas/component_keywords_tagging.py:47: 'AUDIT' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/component_keywords_tagging.py:50: 'STATUS' may be undefined, or defined from star imports: .common, .predicates
-    Fail
+    Pass
 integration-tests/features/src/schemas/package_git_stats.py
-integration-tests/features/src/schemas/package_git_stats.py:6: 'from .predicates import *' used; unable to detect undefined names
-integration-tests/features/src/schemas/package_git_stats.py:7: 'from .common import *' used; unable to detect undefined names
-integration-tests/features/src/schemas/package_git_stats.py:77: 'posint_zero_p' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/package_git_stats.py:78: 'posint_zero_p' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/package_git_stats.py:79: 'posint_p' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/package_git_stats.py:80: 'posint_p' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/package_git_stats.py:81: 'posfloat_p' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/package_git_stats.py:95: 'AUDIT' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/package_git_stats.py:98: 'STATUS' may be undefined, or defined from star imports: .common, .predicates
-    Fail
+    Pass
 integration-tests/features/src/schemas/package_libraries_io.py
-integration-tests/features/src/schemas/package_libraries_io.py:6: 'from .predicates import *' used; unable to detect undefined names
-integration-tests/features/src/schemas/package_libraries_io.py:7: 'from .common import *' used; unable to detect undefined names
-integration-tests/features/src/schemas/package_libraries_io.py:95: 'AUDIT' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/package_libraries_io.py:98: 'STATUS' may be undefined, or defined from star imports: .common, .predicates
-    Fail
+    Pass
 integration-tests/features/src/schemas/component_source_licenses.py
-integration-tests/features/src/schemas/component_source_licenses.py:6: 'from .predicates import *' used; unable to detect undefined names
-integration-tests/features/src/schemas/component_source_licenses.py:7: 'from .common import *' used; unable to detect undefined names
-integration-tests/features/src/schemas/component_source_licenses.py:80: 'posint_p' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/component_source_licenses.py:85: 'posint_p' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/component_source_licenses.py:86: 'posint_zero_p' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/component_source_licenses.py:87: 'posint_p' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/component_source_licenses.py:88: 'posint_p' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/component_source_licenses.py:119: 'posint_p' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/component_source_licenses.py:120: 'posint_zero_p' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/component_source_licenses.py:121: 'posint_zero_p' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/component_source_licenses.py:122: 'posint_zero_p' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/component_source_licenses.py:123: 'posint_zero_p' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/component_source_licenses.py:124: 'posint_p' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/component_source_licenses.py:128: 'posint_p' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/component_source_licenses.py:134: 'posint_zero_p' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/component_source_licenses.py:147: 'posint_p' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/component_source_licenses.py:154: 'AUDIT' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/component_source_licenses.py:157: 'STATUS' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/component_source_licenses.py:163: 'AUDIT' may be undefined, or defined from star imports: .common, .predicates
-integration-tests/features/src/schemas/component_source_licenses.py:166: 'STATUS' may be undefined, or defined from star imports: .common, .predicates
-    Fail
+    Pass
 integration-tests/features/src/schema_validator.py
     Pass
 integration-tests/features/src/parsing.py
-integration-tests/features/src/parsing.py:8: undefined name 'datetime'
-    Fail
+    Pass
 integration-tests/features/src/utils.py
     Pass
 integration-tests/features/src/graph_db_query.py
@@ -146,12 +53,7 @@ integration-tests/features/src/graph_db_query.py
 integration-tests/features/src/MockedResponse.py
     Pass
 integration-tests/features/src/json_utils.py
-integration-tests/features/src/json_utils.py:5: 'from src.attribute_checks import *' used; unable to detect undefined names
-integration-tests/features/src/json_utils.py:39: 'check_timestamp' may be undefined, or defined from star imports: src.attribute_checks
-integration-tests/features/src/json_utils.py:53: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks
-integration-tests/features/src/json_utils.py:57: 'check_uuid' may be undefined, or defined from star imports: src.attribute_checks
-integration-tests/features/src/json_utils.py:72: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks
-    Fail
+    Pass
 integration-tests/features/src/authorization_tokens.py
     Pass
 integration-tests/features/src/s3interface.py
@@ -669,4 +571,4 @@ db-integrity-tests/src/core_package_checker.py
     Pass
 db-integrity-tests/src/checker.py
     Pass
-25 source files out of 105 files needs to be checked and fixed
+10 source files out of 105 files needs to be checked and fixed
