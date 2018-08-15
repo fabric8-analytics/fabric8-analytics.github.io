@@ -5,13 +5,18 @@ sanitycheck.py
     <span style="color:#AA00AA">F </span>17:0 test_http_connection - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>31:0 time_remaining - <span style="color:#00AA00">A (1)</span>
 src/graph_populator.py
-    <span style="color:#00AA00">M </span>101:4 GraphPopulator.construct_version_query - <span style="color:#AA0000">E (32)</span>
-    <span style="color:#00AA00">M </span>261:4 GraphPopulator.construct_package_query - <span style="color:#AA5500">D (21)</span>
-    <span style="color:#00AAAA">C </span>13:0 GraphPopulator - <span style="color:#AA5500">C (12)</span>
-    <span style="color:#00AA00">M </span>432:4 GraphPopulator.create_query_string - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>16:4 GraphPopulator.construct_graph_nodes - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>69:4 GraphPopulator.sanitize_text_for_query - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>89:4 GraphPopulator.correct_license_splitting - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>103:4 GraphPopulator.construct_version_query - <span style="color:#AA0000">E (32)</span>
+    <span style="color:#00AA00">M </span>263:4 GraphPopulator.construct_package_query - <span style="color:#AA5500">D (24)</span>
+    <span style="color:#00AAAA">C </span>15:0 GraphPopulator - <span style="color:#AA5500">C (12)</span>
+    <span style="color:#00AA00">M </span>444:4 GraphPopulator.create_query_string - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>18:4 GraphPopulator.construct_graph_nodes - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AA00">M </span>71:4 GraphPopulator.sanitize_text_for_query - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>91:4 GraphPopulator.correct_license_splitting - <span style="color:#00AA00">A (3)</span>
+src/utils.py
+    <span style="color:#AA00AA">F </span>33:0 execute_gremlin_dsl - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>14:0 get_session_retry - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>51:0 get_current_version - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>25:0 get_response_data - <span style="color:#00AA00">A (1)</span>
 src/rest_api.py
     <span style="color:#AA00AA">F </span>168:0 handle_properties - <span style="color:#AA5500">C (13)</span>
     <span style="color:#AA00AA">F </span>137:0 selective_ingest - <span style="color:#00AA00">B (6)</span>
@@ -111,6 +116,6 @@ test/test_graph_populator.py
     <span style="color:#AA00AA">F </span>62:0 test_correct_license_splitting - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>249:0 test_create_query_string - <span style="color:#00AA00">A (1)</span>
 
-95 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (4.684210526315789)</span>
+99 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (4.606060606060606)</span>
 </pre>

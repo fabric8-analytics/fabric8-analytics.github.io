@@ -24,6 +24,8 @@ f8a_ingestion/errors.py
     Pass
 f8a_ingestion/defaults.py
     Pass
+tests/test_errors.py
+    Pass
 tests/__init__.py
     Pass
 tests/test_utils.py
@@ -39,4 +41,4 @@ setup.py
 
 setup.py
     Pass
-All checks passed for 12 source files
+All checks passed for 13 source files

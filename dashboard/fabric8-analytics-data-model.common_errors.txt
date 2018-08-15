@@ -14,6 +14,10 @@ src/graph_populator.py
     Pass
 src/__init__.py
     Pass
+src/utils.py
+src/utils.py:9: 'os' imported but unused
+src/utils.py:43: undefined name 'response'
+    Fail
 src/rest_api.py
 src/rest_api.py:23: undefined name 'reload'
     Fail
@@ -56,4 +60,4 @@ sanitycheck.py
 
 sanitycheck.py
     Pass
-1 source files out of 20 files needs to be checked and fixed
+2 source files out of 21 files needs to be checked and fixed

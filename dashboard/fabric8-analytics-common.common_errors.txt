@@ -444,9 +444,7 @@ integration-tests/features/steps/license_analysis.py:541: 'find_empty_list_under
 integration-tests/features/steps/license_analysis.py:549: 'find_empty_list_under_the_path' may be undefined, or defined from star imports: common, src.attribute_checks, src.authorization_tokens, src.parsing, src.utils
     Fail
 integration-tests/features/environment.py
-integration-tests/features/environment.py:12: 'sys' imported but unused
-integration-tests/features/environment.py:196: undefined name 'context'
-    Fail
+    Pass
 integration-tests/hack/json2pom.py
     Pass
 ui-tests/test.py
@@ -571,4 +569,4 @@ db-integrity-tests/src/core_package_checker.py
     Pass
 db-integrity-tests/src/checker.py
     Pass
-10 source files out of 105 files needs to be checked and fixed
+9 source files out of 105 files needs to be checked and fixed

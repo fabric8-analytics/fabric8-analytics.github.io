@@ -13,6 +13,8 @@ src/graph_populator.py
     Pass
 src/__init__.py
     Pass
+src/utils.py
+    Pass
 src/rest_api.py
     Pass
 src/data_source/__init__.py
@@ -54,4 +56,4 @@ sanitycheck.py
 ----------------------------------------------------
 sanitycheck.py
     Pass
-All checks passed for 20 source files
+All checks passed for 21 source files
