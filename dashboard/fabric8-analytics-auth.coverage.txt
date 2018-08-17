@@ -1,7 +1,6 @@
-Name                                           Stmts   Miss  Cover   Missing
-----------------------------------------------------------------------------
-/root/payload/fabric8a_auth/__init__.py            0      0   100%
-/root/payload/fabric8a_auth/errors.py              5      0   100%
-/root/payload/fabric8a_auth/fabric8a_auth.py     105     65    38%   17, 31-34, 40, 53, 64-69, 74, 79, 88-113, 119-144, 150-174
-----------------------------------------------------------------------------
-TOTAL                                            110     65    41%
+Name                                      Stmts   Miss  Cover   Missing
+-----------------------------------------------------------------------
+/root/payload/fabric8a_auth/__init__.py       0      0   100%
+/root/payload/fabric8a_auth/errors.py         5      3    40%   17-19
+-----------------------------------------------------------------------
+TOTAL                                         5      3    40%

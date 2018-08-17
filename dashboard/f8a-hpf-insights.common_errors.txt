@@ -29,12 +29,12 @@ src/flask_endpoint.py
 src/scoring/__init__.py
     Pass
 src/scoring/hpf_scoring.py
-src/scoring/hpf_scoring.py:10: redefinition of unused 'os' from line 5
-src/scoring/hpf_scoring.py:13: 'collections.defaultdict' imported but unused
-src/scoring/hpf_scoring.py:15: 'src.data_store.local_data_store.LocalDataStore' imported but unused
-src/scoring/hpf_scoring.py:16: 'src.config.c' imported but unused
-src/scoring/hpf_scoring.py:16: 'src.config.c_c' imported but unused
-src/scoring/hpf_scoring.py:16: 'src.config.d_c' imported but unused
+src/scoring/hpf_scoring.py:11: redefinition of unused 'os' from line 5
+src/scoring/hpf_scoring.py:14: 'collections.defaultdict' imported but unused
+src/scoring/hpf_scoring.py:16: 'src.data_store.local_data_store.LocalDataStore' imported but unused
+src/scoring/hpf_scoring.py:18: 'src.config.c' imported but unused
+src/scoring/hpf_scoring.py:18: 'src.config.c_c' imported but unused
+src/scoring/hpf_scoring.py:18: 'src.config.d_c' imported but unused
     Fail
 src/training/__init__.py
     Pass
@@ -44,8 +44,6 @@ tests/unit_tests/test_flask_endpoint.py
     Pass
 tests/unit_tests/test_scoring_hpf_scoring.py
 tests/unit_tests/test_scoring_hpf_scoring.py:6: 'tensorflow as tf' imported but unused
-tests/unit_tests/test_scoring_hpf_scoring.py:98: local variable 'package_set' is assigned to but never used
-tests/unit_tests/test_scoring_hpf_scoring.py:99: local variable 'expected_package_set' is assigned to but never used
     Fail
 tests/unit_tests/__init__.py
     Pass

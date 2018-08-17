@@ -46,11 +46,11 @@ src/flask_endpoint.py
 src/scoring/__init__.py
     Pass
 src/scoring/hpf_scoring.py
-src/scoring/hpf_scoring.py:13: unused import 'defaultdict' (90% confidence)
-src/scoring/hpf_scoring.py:15: unused import 'LocalDataStore' (90% confidence)
-src/scoring/hpf_scoring.py:16: unused import 'c' (90% confidence)
-src/scoring/hpf_scoring.py:16: unused import 'c_c' (90% confidence)
-src/scoring/hpf_scoring.py:16: unused import 'd_c' (90% confidence)
+src/scoring/hpf_scoring.py:14: unused import 'defaultdict' (90% confidence)
+src/scoring/hpf_scoring.py:16: unused import 'LocalDataStore' (90% confidence)
+src/scoring/hpf_scoring.py:18: unused import 'c' (90% confidence)
+src/scoring/hpf_scoring.py:18: unused import 'c_c' (90% confidence)
+src/scoring/hpf_scoring.py:18: unused import 'd_c' (90% confidence)
     Fail
 src/training/__init__.py
     Pass
