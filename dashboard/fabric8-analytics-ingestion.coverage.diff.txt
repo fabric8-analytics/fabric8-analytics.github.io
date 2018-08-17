@@ -1,11 +1,11 @@
 Name                        Stmts   Miss  Cover   Missing						Name                        Stmts   Miss  Cover   Missing
 ---------------------------------------------------------						---------------------------------------------------------
 f8a_ingestion/__init__.py       1      0   100%								f8a_ingestion/__init__.py       1      0   100%
-f8a_ingestion/defaults.py      15      0   100%							      |	f8a_ingestion/defaults.py      13      0   100%
+f8a_ingestion/defaults.py      13      0   100%								f8a_ingestion/defaults.py      13      0   100%
 f8a_ingestion/enums.py          7      0   100%								f8a_ingestion/enums.py          7      0   100%
-f8a_ingestion/errors.py         2      0   100%							      |	f8a_ingestion/errors.py         2      2     0%   18-21
-f8a_ingestion/models.py        91     45    51%   39, 58-62, 67-73, 78-82, 87-100, 122, 127, 131, 136 |	f8a_ingestion/models.py        89     45    49%   37, 56-60, 65-71, 76-80, 85-98, 120, 125, 129, 134-
+f8a_ingestion/errors.py         2      2     0%   18-21						      |	f8a_ingestion/errors.py         2      0   100%
+f8a_ingestion/models.py        89     45    49%   37, 56-60, 65-71, 76-80, 85-98, 120, 125, 129, 134-	f8a_ingestion/models.py        89     45    49%   37, 56-60, 65-71, 76-80, 85-98, 120, 125, 129, 134-
 f8a_ingestion/rest_api.py      45     45     0%   18-91							f8a_ingestion/rest_api.py      45     45     0%   18-91
-f8a_ingestion/utils.py         69     55    20%   32-36, 45-55, 60-64, 77-87, 96-114, 123-140	      |	f8a_ingestion/utils.py         71     47    34%   32-36, 51-52, 63-67, 80-90, 99-117, 126-143
+f8a_ingestion/utils.py         71     47    34%   32-36, 51-52, 63-67, 80-90, 99-117, 126-143		f8a_ingestion/utils.py         71     47    34%   32-36, 51-52, 63-67, 80-90, 99-117, 126-143
 ---------------------------------------------------------						---------------------------------------------------------
-TOTAL                         230    145    37%							      |	TOTAL                         228    139    39%
+TOTAL                         228    139    39%							      |	TOTAL                         228    137    40%
