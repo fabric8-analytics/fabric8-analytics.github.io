@@ -303,49 +303,47 @@ integration-tests/features/steps/stack_analysis.py:103: 'authorization' may be u
 integration-tests/features/steps/stack_analysis.py:133: 'parse_token_clause' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
 integration-tests/features/steps/stack_analysis.py:146: 'parse_token_clause' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
 integration-tests/features/steps/stack_analysis.py:159: 'parse_token_clause' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
-integration-tests/features/steps/stack_analysis.py:209: 'download_file_from_url' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
-integration-tests/features/steps/stack_analysis.py:210: 'parse_float_value_from_text_stream' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
-integration-tests/features/steps/stack_analysis.py:256: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
-integration-tests/features/steps/stack_analysis.py:265: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
-integration-tests/features/steps/stack_analysis.py:275: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
-integration-tests/features/steps/stack_analysis.py:286: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
-integration-tests/features/steps/stack_analysis.py:309: 'split_comma_separated_list' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:237: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:246: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:255: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:266: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:289: 'split_comma_separated_list' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:291: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:304: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
 integration-tests/features/steps/stack_analysis.py:311: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
-integration-tests/features/steps/stack_analysis.py:324: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
-integration-tests/features/steps/stack_analysis.py:331: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
-integration-tests/features/steps/stack_analysis.py:355: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
-integration-tests/features/steps/stack_analysis.py:359: redefinition of unused 'verify_stack_level_field_presence' from line 350
-integration-tests/features/steps/stack_analysis.py:364: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:335: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:339: redefinition of unused 'verify_stack_level_field_presence' from line 330
+integration-tests/features/steps/stack_analysis.py:344: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:371: 'context' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:373: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
 integration-tests/features/steps/stack_analysis.py:391: 'context' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
 integration-tests/features/steps/stack_analysis.py:393: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
-integration-tests/features/steps/stack_analysis.py:411: 'context' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
-integration-tests/features/steps/stack_analysis.py:413: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
-integration-tests/features/steps/stack_analysis.py:425: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
-integration-tests/features/steps/stack_analysis.py:431: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
-integration-tests/features/steps/stack_analysis.py:446: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
-integration-tests/features/steps/stack_analysis.py:448: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
-integration-tests/features/steps/stack_analysis.py:452: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
-integration-tests/features/steps/stack_analysis.py:455: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
-integration-tests/features/steps/stack_analysis.py:486: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
-integration-tests/features/steps/stack_analysis.py:490: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
-integration-tests/features/steps/stack_analysis.py:493: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
-integration-tests/features/steps/stack_analysis.py:494: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
-integration-tests/features/steps/stack_analysis.py:497: 'check_cve_value' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
-integration-tests/features/steps/stack_analysis.py:519: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
-integration-tests/features/steps/stack_analysis.py:532: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
-integration-tests/features/steps/stack_analysis.py:535: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
-integration-tests/features/steps/stack_analysis.py:553: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
-integration-tests/features/steps/stack_analysis.py:570: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
-integration-tests/features/steps/stack_analysis.py:588: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
-integration-tests/features/steps/stack_analysis.py:602: 'split_comma_separated_list' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
-integration-tests/features/steps/stack_analysis.py:606: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
-integration-tests/features/steps/stack_analysis.py:621: 'check_id_value_in_json_response' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
-integration-tests/features/steps/stack_analysis.py:624: redefinition of unused 'check_stack_analyses_request_id' from line 614
-integration-tests/features/steps/stack_analysis.py:630: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
-integration-tests/features/steps/stack_analysis.py:643: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
-integration-tests/features/steps/stack_analysis.py:656: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
-integration-tests/features/steps/stack_analysis.py:661: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
-integration-tests/features/steps/stack_analysis.py:663: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:405: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:411: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:426: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:428: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:432: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:435: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:466: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:470: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:473: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:474: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:477: 'check_cve_value' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:499: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:512: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:515: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:533: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:550: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:568: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:582: 'split_comma_separated_list' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:586: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:601: 'check_id_value_in_json_response' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:604: redefinition of unused 'check_stack_analyses_request_id' from line 594
+integration-tests/features/steps/stack_analysis.py:610: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:623: 'check_attribute_presence' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:636: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:641: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
+integration-tests/features/steps/stack_analysis.py:643: 'get_value_using_path' may be undefined, or defined from star imports: src.attribute_checks, src.authorization_tokens, src.json_utils, src.parsing, src.utils
     Fail
 integration-tests/features/steps/common.py
 integration-tests/features/steps/common.py:3: 'json' imported but unused
@@ -519,6 +517,8 @@ dashboard/src/dashboard.py
     Pass
 dashboard/src/smoke_tests.py
     Pass
+dashboard/src/external_tools.py
+    Pass
 dashboard/src/progress_bar.py
     Pass
 dashboard/src/coreapi.py
@@ -569,4 +569,4 @@ db-integrity-tests/src/core_package_checker.py
     Pass
 db-integrity-tests/src/checker.py
     Pass
-9 source files out of 105 files needs to be checked and fixed
+9 source files out of 106 files needs to be checked and fixed

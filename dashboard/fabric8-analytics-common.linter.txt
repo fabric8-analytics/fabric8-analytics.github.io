@@ -169,6 +169,8 @@ dashboard/src/dashboard.py
     Pass
 dashboard/src/smoke_tests.py
     Pass
+dashboard/src/external_tools.py
+    Pass
 dashboard/src/progress_bar.py
     Pass
 dashboard/src/coreapi.py
@@ -219,4 +221,4 @@ db-integrity-tests/src/core_package_checker.py
     Pass
 db-integrity-tests/src/checker.py
     Pass
-All checks passed for 105 source files
+All checks passed for 106 source files
