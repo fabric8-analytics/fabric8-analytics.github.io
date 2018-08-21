@@ -55,40 +55,21 @@ src/exceptions.py
 src/license_analysis.py
     Pass
 tests/test_s3_data_store.py
-tests/test_s3_data_store.py:5: unused import 'os' (90% confidence)
-tests/test_s3_data_store.py:8: unused import 'MockedS3Data' (90% confidence)
-tests/test_s3_data_store.py:8: unused import 'MockedS3Objects' (90% confidence)
-tests/test_s3_data_store.py:92: unused variable 'mocked_object' (100% confidence)
-tests/test_s3_data_store.py:136: unused variable 'mocked_df' (100% confidence)
-    Fail
+    Pass
 tests/s3_mocks.py
-tests/s3_mocks.py:28: unused variable 'Body' (100% confidence)
-tests/s3_mocks.py:40: unused variable 'bucket_name' (100% confidence)
-tests/s3_mocks.py:40: unused variable 'filename' (100% confidence)
-tests/s3_mocks.py:58: unused variable 'Prefix' (100% confidence)
-    Fail
+    Pass
 tests/test_errors_class.py
-tests/test_errors_class.py:3: unused import 'unittest' (90% confidence)
-    Fail
+    Pass
 tests/test_local_filesystem.py
-tests/test_local_filesystem.py:3: unused import 'pytest' (90% confidence)
-    Fail
+    Pass
 tests/test_api_v1.py
-tests/test_api_v1.py:4: unused import 'os' (90% confidence)
-tests/test_api_v1.py:5: unused import 'urlparse' (90% confidence)
-tests/test_api_v1.py:7: unused import 'current_app' (90% confidence)
-tests/test_api_v1.py:7: unused import 'url_for' (90% confidence)
-tests/test_api_v1.py:8: unused import 'pytest' (90% confidence)
-tests/test_api_v1.py:9: unused import 'requests' (90% confidence)
-    Fail
+    Pass
 tests/__init__.py
     Pass
 tests/test_directed_graph.py
     Pass
 tests/test_license_analysis.py
-tests/test_license_analysis.py:245: unused variable 'prop_name' (100% confidence)
-tests/test_license_analysis.py:252: unused variable 'mocking_object' (100% confidence)
-    Fail
+    Pass
 tests/license_graph/__init__.py
     Pass
 tests/test_vertex.py
@@ -96,36 +77,13 @@ tests/test_vertex.py
 tests/synonyms/__init__.py
     Pass
 tests/test_stack_license.py
-tests/test_stack_license.py:180: unused variable 'mocking_object' (100% confidence)
-tests/test_stack_license.py:393: unused variable 'url' (100% confidence)
-tests/test_stack_license.py:416: unused variable 'mock_get_session_retry' (100% confidence)
-tests/test_stack_license.py:431: unused variable 'mock_get_session_retry' (100% confidence)
-tests/test_stack_license.py:451: unused variable 'mock_get_session_retry' (100% confidence)
-tests/test_stack_license.py:471: unused variable 'mock_get_session_retry' (100% confidence)
-tests/test_stack_license.py:486: unused variable 'mock_get_session_retry' (100% confidence)
-tests/test_stack_license.py:513: unused variable 'mock_get_session_retry' (100% confidence)
-    Fail
+    Pass
 tests/test_token_handling.py
-tests/test_token_handling.py:3: unused import 'unittest' (90% confidence)
-tests/test_token_handling.py:12: unused variable 'module' (100% confidence)
-tests/test_token_handling.py:34: unused variable 'module' (100% confidence)
-tests/test_token_handling.py:39: unused variable 'app' (100% confidence)
-tests/test_token_handling.py:44: unused variable 'app' (100% confidence)
-tests/test_token_handling.py:49: unused variable 'app' (100% confidence)
-tests/test_token_handling.py:71: unused variable 'mocked_fetch_public_key' (100% confidence)
-tests/test_token_handling.py:79: unused variable 'mocked_fetch_public_key' (100% confidence)
-tests/test_token_handling.py:87: unused variable 'mocked_fetch_public_key' (100% confidence)
-tests/test_token_handling.py:95: unused variable 'mocked_fetch_public_key' (100% confidence)
-tests/test_token_handling.py:103: unused variable 'mocked_fetch_public_key' (100% confidence)
-tests/test_token_handling.py:111: unused variable 'mocked_fetch_public_key' (100% confidence)
-    Fail
+    Pass
 tests/test_api_user_class.py
-tests/test_api_user_class.py:3: unused import 'unittest' (90% confidence)
-    Fail
+    Pass
 tests/conftest.py
-tests/conftest.py:3: unused import 'os' (90% confidence)
-tests/conftest.py:5: unused import 'current_app' (90% confidence)
-    Fail
+    Pass
 tests/pandas_mocks.py
     Pass
-15 source files out of 29 files seems to contain dead code and/or unused imports
+5 source files out of 29 files seems to contain dead code and/or unused imports

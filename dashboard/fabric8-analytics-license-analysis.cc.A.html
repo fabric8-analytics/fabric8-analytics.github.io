@@ -1,58 +1,58 @@
 <pre>tests/test_s3_data_store.py
-    <span style="color:#AA00AA">F </span>62:0 test_list_files_mocked_s3 - <span style="color:#AA5500">C (11)</span>
-    <span style="color:#AA00AA">F </span>17:0 test_get_name - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>30:0 test_read_json_file_negative - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>38:0 test_write_json_file - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>54:0 test_list_files - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>99:0 test_read_all_json_files_negative - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>12:0 test_initial_state - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>23:0 test_read_json_file_positive - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>46:0 test_write_json_file_mocked_s3 - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>91:0 test_read_all_json_files_positive - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>107:0 test_download_file - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>114:0 test_upload_file - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>121:0 test_write_pandas_df_into_json_file - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>135:0 test_read_json_file_into_pandas_df - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>61:0 test_list_files_mocked_s3 - <span style="color:#AA5500">C (11)</span>
+    <span style="color:#AA00AA">F </span>16:0 test_get_name - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>29:0 test_read_json_file_negative - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>37:0 test_write_json_file - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>53:0 test_list_files - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>98:0 test_read_all_json_files_negative - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>11:0 test_initial_state - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>22:0 test_read_json_file_positive - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>45:0 test_write_json_file_mocked_s3 - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>90:0 test_read_all_json_files_positive - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>106:0 test_download_file - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>113:0 test_upload_file - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>120:0 test_write_pandas_df_into_json_file - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>134:0 test_read_json_file_into_pandas_df - <span style="color:#00AA00">A (1)</span>
 tests/s3_mocks.py
-    <span style="color:#00AA00">M </span>74:4 MockedS3Bucket.upload_file - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>81:4 MockedS3Bucket.download_file - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AAAA">C </span>65:0 MockedS3Bucket - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>78:4 MockedS3Bucket.upload_file - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AA00">M </span>85:4 MockedS3Bucket.download_file - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AAAA">C </span>69:0 MockedS3Bucket - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>41:4 MockedS3Resource.Object - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>28:4 MockedS3Object.put - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>34:0 MockedS3Resource - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AAAA">C </span>4:0 MockedS3Data - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>7:4 MockedS3Data.__init__ - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>11:4 MockedS3Data.read - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AAAA">C </span>16:0 MockedS3Object - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>19:4 MockedS3Object.__init__ - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>24:4 MockedS3Object.get - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>28:4 MockedS3Object.put - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>33:0 MockedS3Resource - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>36:4 MockedS3Resource.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>40:4 MockedS3Resource.Object - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>45:0 MockedS3Objects - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>48:4 MockedS3Objects.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>52:4 MockedS3Objects.all - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>58:4 MockedS3Objects.filter - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>68:4 MockedS3Bucket.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>37:4 MockedS3Resource.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>48:0 MockedS3Objects - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>51:4 MockedS3Objects.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>55:4 MockedS3Objects.all - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>61:4 MockedS3Objects.filter - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>72:4 MockedS3Bucket.__init__ - <span style="color:#00AA00">A (1)</span>
 tests/test_errors_class.py
-    <span style="color:#AA00AA">F </span>8:0 test_http_error_attributes - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>15:0 test_http_error_raise - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>21:0 test_http_error_exception_handling - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>7:0 test_http_error_attributes - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>14:0 test_http_error_raise - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>20:0 test_http_error_exception_handling - <span style="color:#00AA00">A (2)</span>
 tests/test_local_filesystem.py
-    <span style="color:#AA00AA">F </span>40:0 test_list_files - <span style="color:#00AA00">B (10)</span>
-    <span style="color:#AA00AA">F </span>89:0 test_read_all_json_files - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>103:0 test_write_json_file - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>10:0 test_initial_state - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>25:0 test_get_name - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>78:0 test_read_json_file - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>130:0 test_convert_list_of_tuples_to_string - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>118:0 test_upload_file - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>124:0 test_download_file - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>39:0 test_list_files - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#AA00AA">F </span>88:0 test_read_all_json_files - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>102:0 test_write_json_file - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>9:0 test_initial_state - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>24:0 test_get_name - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>77:0 test_read_json_file - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>129:0 test_convert_list_of_tuples_to_string - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>117:0 test_upload_file - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>123:0 test_download_file - <span style="color:#00AA00">A (2)</span>
 tests/test_api_v1.py
-    <span style="color:#AA00AA">F </span>31:0 test_stack_license_endpoint - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>22:0 test_heart_beat_endpoint - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>55:0 test_license_recommender_endpoint_empty_payload - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>66:0 test_license_recommender_endpoint_payload - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>12:0 api_route_for - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>17:0 get_json_from_response - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>25:0 test_stack_license_endpoint - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>16:0 test_heart_beat_endpoint - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>49:0 test_license_recommender_endpoint_empty_payload - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>60:0 test_license_recommender_endpoint_payload - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>6:0 api_route_for - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>11:0 get_json_from_response - <span style="color:#00AA00">A (1)</span>
 tests/test_directed_graph.py
     <span style="color:#AA00AA">F </span>257:0 test_iterator - <span style="color:#AA5500">C (15)</span>
     <span style="color:#AA00AA">F </span>224:0 test_find_common_reachable_vertex - <span style="color:#AA5500">C (13)</span>
@@ -76,8 +76,8 @@ tests/test_directed_graph.py
     <span style="color:#AA00AA">F </span>160:0 test_add_edge_between_nonexistent_vertices - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>173:0 test_find_vertex_empty_graph - <span style="color:#00AA00">A (2)</span>
 tests/test_license_analysis.py
-    <span style="color:#AA00AA">F </span>346:0 test_check_compatibility - <span style="color:#AA5500">C (17)</span>
-    <span style="color:#AA00AA">F </span>266:0 test_check_compatibility_input_sanity_checks - <span style="color:#AA5500">C (16)</span>
+    <span style="color:#AA00AA">F </span>347:0 test_check_compatibility - <span style="color:#AA5500">C (17)</span>
+    <span style="color:#AA00AA">F </span>267:0 test_check_compatibility_input_sanity_checks - <span style="color:#AA5500">C (16)</span>
     <span style="color:#AA00AA">F </span>81:0 test_compute_representative_license_outlier_licenses - <span style="color:#AA5500">C (13)</span>
     <span style="color:#AA00AA">F </span>47:0 test_compute_representative_license_one_license - <span style="color:#AA5500">C (11)</span>
     <span style="color:#AA00AA">F </span>19:0 test_compute_representative_license_no_licenses - <span style="color:#00AA00">B (9)</span>
@@ -86,14 +86,14 @@ tests/test_license_analysis.py
     <span style="color:#AA00AA">F </span>220:0 test_compute_representative_license_repeating_licenses - <span style="color:#00AA00">B (8)</span>
     <span style="color:#AA00AA">F </span>114:0 test_compute_representative_license_unknown - <span style="color:#00AA00">B (7)</span>
     <span style="color:#AA00AA">F </span>163:0 test_compute_representative_license_conflict_1 - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>321:0 test_check_compatibility_all_permissive_licenses - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>322:0 test_check_compatibility_all_permissive_licenses - <span style="color:#00AA00">B (7)</span>
     <span style="color:#AA00AA">F </span>131:0 test_compute_representative_license_no_conflict - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>302:0 test_check_compatibility_some_unknown_licenses - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>303:0 test_check_compatibility_some_unknown_licenses - <span style="color:#00AA00">B (6)</span>
     <span style="color:#AA00AA">F </span>147:0 test_compute_representative_license_no_conflict_2 - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>250:0 test_compute_representative_error_checking - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>399:0 test_check_compatibility_conflicting_licenses - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>415:0 test_check_compatibility_conflicting_licenses_2 - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>432:0 test_create_graph - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>251:0 test_compute_representative_error_checking - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>400:0 test_check_compatibility_conflicting_licenses - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>416:0 test_check_compatibility_conflicting_licenses_2 - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>433:0 test_create_graph - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>8:0 test_print_graph - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AAAA">C </span>238:0 MockedVertice - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>241:4 MockedVertice.__init__ - <span style="color:#00AA00">A (1)</span>
@@ -109,59 +109,59 @@ tests/test_vertex.py
     <span style="color:#AA00AA">F </span>61:0 test_string_representation_1 - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>72:0 test_string_representation_2 - <span style="color:#00AA00">A (2)</span>
 tests/test_stack_license.py
-    <span style="color:#AA00AA">F </span>333:0 test_extract_component_details - <span style="color:#AA5500">C (17)</span>
-    <span style="color:#AA00AA">F </span>11:0 test_input_sanity_checks - <span style="color:#00AA00">B (10)</span>
-    <span style="color:#AA00AA">F </span>512:0 test_extract_user_stack_package_licenses - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#AA00AA">F </span>220:0 test_check_compatibility - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>249:0 test_check_compatibility_conflicts - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>558:0 test_select_latest_version - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>179:0 __test_component_license_weird_failure - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>283:0 test_stack_licenses_computation - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>485:0 test_get_depencency_data5 - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>34:0 test_component_license_conflict - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>56:0 test_stack_license_conflict - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>78:0 test_stack_license_successful - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>100:0 test_stack_license_filter - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>139:0 test_component_license_unknown - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>161:0 test_component_license_failure - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>311:0 test_unexpected_exception_handling - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>364:0 test_extract_license_outliers - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>415:0 test_get_depencency_data - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>430:0 test_get_depencency_data2 - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>450:0 test_get_depencency_data3 - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>470:0 test_get_depencency_data4 - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>323:0 _check_package - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>328:0 _check_license - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>539:0 test_convert_version_to_proper_semantic - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>400:0 mocked_get_session_retry - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>425:0 mocked_get_session_retry2 - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>440:0 mocked_get_session_retry3 - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>460:0 mocked_get_session_retry4 - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>480:0 mocked_get_session_retry5 - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>496:0 mocked_get_session_retry6 - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>386:0 _gremlin_response - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>388:4 _gremlin_response.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>393:4 _gremlin_response.post - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>396:4 _gremlin_response.json - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>334:0 test_extract_component_details - <span style="color:#AA5500">C (17)</span>
+    <span style="color:#AA00AA">F </span>12:0 test_input_sanity_checks - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#AA00AA">F </span>515:0 test_extract_user_stack_package_licenses - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#AA00AA">F </span>221:0 test_check_compatibility - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>250:0 test_check_compatibility_conflicts - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>561:0 test_select_latest_version - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>180:0 __test_component_license_weird_failure - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>284:0 test_stack_licenses_computation - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>488:0 test_get_depencency_data5 - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>35:0 test_component_license_conflict - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>57:0 test_stack_license_conflict - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>79:0 test_stack_license_successful - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>101:0 test_stack_license_filter - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>140:0 test_component_license_unknown - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>162:0 test_component_license_failure - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>312:0 test_unexpected_exception_handling - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>365:0 test_extract_license_outliers - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>418:0 test_get_depencency_data - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>433:0 test_get_depencency_data2 - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>453:0 test_get_depencency_data3 - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>473:0 test_get_depencency_data4 - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>324:0 _check_package - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>329:0 _check_license - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>542:0 test_convert_version_to_proper_semantic - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>394:4 _gremlin_response.post - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>387:0 _gremlin_response - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>403:0 mocked_get_session_retry - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>428:0 mocked_get_session_retry2 - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>443:0 mocked_get_session_retry3 - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>463:0 mocked_get_session_retry4 - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>483:0 mocked_get_session_retry5 - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>499:0 mocked_get_session_retry6 - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>389:4 _gremlin_response.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>399:4 _gremlin_response.json - <span style="color:#00AA00">A (1)</span>
 tests/test_token_handling.py
-    <span style="color:#AA00AA">F </span>12:0 setup_module - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>69:0 test_decode_token_invalid_input_1 - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>77:0 test_decode_token_invalid_input_2 - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>85:0 _test_decode_token_invalid_input_3 - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>93:0 test_decode_token_invalid_input_4 - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>101:0 test_decode_token_invalid_input_5 - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>109:0 test_decode_token_invalid_input_6 - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>34:0 teardown_module - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>39:0 mocked_fetch_public_key_1 - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>44:0 mocked_fetch_public_key_2 - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>49:0 mocked_fetch_public_key_3 - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>54:0 mocked_get_audiences - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>59:0 mocked_get_audiences_2 - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>64:0 mocked_get_audiences_3 - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>11:0 setup_module - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>68:0 test_decode_token_invalid_input_1 - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>76:0 test_decode_token_invalid_input_2 - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>84:0 test_decode_token_invalid_input_3 - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>92:0 test_decode_token_invalid_input_4 - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>100:0 test_decode_token_invalid_input_5 - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>108:0 test_decode_token_invalid_input_6 - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>33:0 teardown_module - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>38:0 mocked_fetch_public_key_1 - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>43:0 mocked_fetch_public_key_2 - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>48:0 mocked_fetch_public_key_3 - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>53:0 mocked_get_audiences - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>58:0 mocked_get_audiences_2 - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>63:0 mocked_get_audiences_3 - <span style="color:#00AA00">A (1)</span>
 tests/test_api_user_class.py
-    <span style="color:#AA00AA">F </span>7:0 test_api_user_class - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>6:0 test_api_user_class - <span style="color:#00AA00">A (2)</span>
 tests/conftest.py
-    <span style="color:#AA00AA">F </span>11:0 client - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>8:0 client - <span style="color:#00AA00">A (2)</span>
 tests/pandas_mocks.py
     <span style="color:#00AAAA">C </span>6:0 MockedData - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>9:4 MockedData.__init__ - <span style="color:#00AA00">A (1)</span>
@@ -275,5 +275,5 @@ src/util/data_store/s3_data_store.py
     <span style="color:#00AA00">M </span>90:4 S3DataStore.read_json_file_into_pandas_df - <span style="color:#00AA00">A (1)</span>
 
 252 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (3.4722222222222223)</span>
+Average complexity: <span style="color:#00AA00">A (3.5)</span>
 </pre>

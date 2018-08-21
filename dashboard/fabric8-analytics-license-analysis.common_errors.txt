@@ -43,39 +43,23 @@ src/exceptions.py
 src/license_analysis.py
     Pass
 tests/test_s3_data_store.py
-tests/test_s3_data_store.py:3: 'from unittest.mock import *' used; unable to detect undefined names
-tests/test_s3_data_store.py:5: 'os' imported but unused
-tests/test_s3_data_store.py:8: 'tests.s3_mocks.MockedS3Data' imported but unused
-tests/test_s3_data_store.py:8: 'tests.s3_mocks.MockedS3Objects' imported but unused
-tests/test_s3_data_store.py:14: local variable 's3DataStore' is assigned to but never used
-tests/test_s3_data_store.py:91: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_s3_data_store.py:135: 'patch' may be undefined, or defined from star imports: unittest.mock
+tests/test_s3_data_store.py:13: local variable 's3DataStore' is assigned to but never used
     Fail
 tests/s3_mocks.py
     Pass
 tests/test_errors_class.py
-tests/test_errors_class.py:3: 'unittest' imported but unused
-tests/test_errors_class.py:17: local variable 'e' is assigned to but never used
+tests/test_errors_class.py:16: local variable 'e' is assigned to but never used
     Fail
 tests/test_local_filesystem.py
-tests/test_local_filesystem.py:3: 'pytest' imported but unused
-    Fail
+    Pass
 tests/test_api_v1.py
-tests/test_api_v1.py:4: 'os' imported but unused
-tests/test_api_v1.py:5: 'urllib.parse as urlparse' imported but unused
-tests/test_api_v1.py:7: 'flask.current_app' imported but unused
-tests/test_api_v1.py:7: 'flask.url_for' imported but unused
-tests/test_api_v1.py:8: 'pytest' imported but unused
-tests/test_api_v1.py:9: 'requests' imported but unused
-    Fail
+    Pass
 tests/__init__.py
     Pass
 tests/test_directed_graph.py
     Pass
 tests/test_license_analysis.py
-tests/test_license_analysis.py:3: 'from unittest.mock import *' used; unable to detect undefined names
-tests/test_license_analysis.py:250: 'patch' may be undefined, or defined from star imports: unittest.mock
-    Fail
+    Pass
 tests/license_graph/__init__.py
     Pass
 tests/test_vertex.py
@@ -83,58 +67,13 @@ tests/test_vertex.py
 tests/synonyms/__init__.py
     Pass
 tests/test_stack_license.py
-tests/test_stack_license.py:3: 'from unittest.mock import *' used; unable to detect undefined names
-tests/test_stack_license.py:4: 'from src.stack_license import *' used; unable to detect undefined names
-tests/test_stack_license.py:8: 'StackLicenseAnalyzer' may be undefined, or defined from star imports: src.stack_license, unittest.mock
-tests/test_stack_license.py:179: 'patch' may be undefined, or defined from star imports: src.stack_license, unittest.mock
-tests/test_stack_license.py:415: 'patch' may be undefined, or defined from star imports: src.stack_license, unittest.mock
-tests/test_stack_license.py:430: 'patch' may be undefined, or defined from star imports: src.stack_license, unittest.mock
-tests/test_stack_license.py:450: 'patch' may be undefined, or defined from star imports: src.stack_license, unittest.mock
-tests/test_stack_license.py:470: 'patch' may be undefined, or defined from star imports: src.stack_license, unittest.mock
-tests/test_stack_license.py:485: 'patch' may be undefined, or defined from star imports: src.stack_license, unittest.mock
-tests/test_stack_license.py:512: 'patch' may be undefined, or defined from star imports: src.stack_license, unittest.mock
-tests/test_stack_license.py:555: 'convert_version_to_proper_semantic' may be undefined, or defined from star imports: src.stack_license, unittest.mock
-tests/test_stack_license.py:560: 'select_latest_version' may be undefined, or defined from star imports: src.stack_license, unittest.mock
-tests/test_stack_license.py:561: 'select_latest_version' may be undefined, or defined from star imports: src.stack_license, unittest.mock
-tests/test_stack_license.py:562: 'select_latest_version' may be undefined, or defined from star imports: src.stack_license, unittest.mock
-tests/test_stack_license.py:563: 'select_latest_version' may be undefined, or defined from star imports: src.stack_license, unittest.mock
-tests/test_stack_license.py:566: 'select_latest_version' may be undefined, or defined from star imports: src.stack_license, unittest.mock
-tests/test_stack_license.py:567: 'select_latest_version' may be undefined, or defined from star imports: src.stack_license, unittest.mock
-tests/test_stack_license.py:568: 'select_latest_version' may be undefined, or defined from star imports: src.stack_license, unittest.mock
-    Fail
+    Pass
 tests/test_token_handling.py
-tests/test_token_handling.py:3: 'unittest' imported but unused
-tests/test_token_handling.py:5: 'from unittest.mock import *' used; unable to detect undefined names
-tests/test_token_handling.py:9: 'from auth import *' used; unable to detect undefined names
-tests/test_token_handling.py:69: 'patch' may be undefined, or defined from star imports: auth, unittest.mock
-tests/test_token_handling.py:70: 'patch' may be undefined, or defined from star imports: auth, unittest.mock
-tests/test_token_handling.py:74: 'decode_token' may be undefined, or defined from star imports: auth, unittest.mock
-tests/test_token_handling.py:77: 'patch' may be undefined, or defined from star imports: auth, unittest.mock
-tests/test_token_handling.py:78: 'patch' may be undefined, or defined from star imports: auth, unittest.mock
-tests/test_token_handling.py:82: 'decode_token' may be undefined, or defined from star imports: auth, unittest.mock
-tests/test_token_handling.py:85: 'patch' may be undefined, or defined from star imports: auth, unittest.mock
-tests/test_token_handling.py:86: 'patch' may be undefined, or defined from star imports: auth, unittest.mock
-tests/test_token_handling.py:90: 'decode_token' may be undefined, or defined from star imports: auth, unittest.mock
-tests/test_token_handling.py:93: 'patch' may be undefined, or defined from star imports: auth, unittest.mock
-tests/test_token_handling.py:94: 'patch' may be undefined, or defined from star imports: auth, unittest.mock
-tests/test_token_handling.py:98: 'decode_token' may be undefined, or defined from star imports: auth, unittest.mock
-tests/test_token_handling.py:101: 'patch' may be undefined, or defined from star imports: auth, unittest.mock
-tests/test_token_handling.py:102: 'patch' may be undefined, or defined from star imports: auth, unittest.mock
-tests/test_token_handling.py:106: 'decode_token' may be undefined, or defined from star imports: auth, unittest.mock
-tests/test_token_handling.py:109: 'patch' may be undefined, or defined from star imports: auth, unittest.mock
-tests/test_token_handling.py:110: 'patch' may be undefined, or defined from star imports: auth, unittest.mock
-tests/test_token_handling.py:118: 'decode_token' may be undefined, or defined from star imports: auth, unittest.mock
-tests/test_token_handling.py:124: 'test_decode_token_invalid_input_3' may be undefined, or defined from star imports: auth, unittest.mock
-    Fail
+    Pass
 tests/test_api_user_class.py
-tests/test_api_user_class.py:3: 'unittest' imported but unused
-    Fail
+    Pass
 tests/conftest.py
-tests/conftest.py:3: 'os' imported but unused
-tests/conftest.py:5: 'flask.current_app' imported but unused
-tests/conftest.py:8: 'from src.rest_api import *' used; unable to detect undefined names
-tests/conftest.py:14: 'app' may be undefined, or defined from star imports: src.rest_api
-    Fail
+    Pass
 tests/pandas_mocks.py
     Pass
-11 source files out of 29 files needs to be checked and fixed
+4 source files out of 29 files needs to be checked and fixed

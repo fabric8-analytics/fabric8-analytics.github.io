@@ -15,8 +15,7 @@ src/graph_populator.py
 src/__init__.py
     Pass
 src/utils.py
-src/utils.py:9: 'os' imported but unused
-src/utils.py:43: undefined name 'response'
+src/utils.py:42: undefined name 'response'
     Fail
 src/rest_api.py
 src/rest_api.py:23: undefined name 'reload'

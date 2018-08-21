@@ -25,8 +25,7 @@ src/exceptions.py
 src/parsers/maven_parser.py
     Pass
 src/parsers/parser_base.py
-src/parsers/parser_base.py:11: unused variable 'content' (100% confidence)
-    Fail
+    Pass
 src/parsers/__init__.py
     Pass
 src/notification/__init__.py
@@ -53,4 +52,4 @@ setup.py
 
 setup.py
     Pass
-1 source files out of 18 files seems to contain dead code and/or unused imports
+All checks passed for 18 source files
