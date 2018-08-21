@@ -10,9 +10,12 @@ Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (2.1.1)
-Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.11.0)
 Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.2.1)
+Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.11.0)
 src/auth.py
+0
+    Pass
+src/repo_dependency_creator.py
 0
     Pass
 src/__init__.py
@@ -25,6 +28,21 @@ src/rest_api.py
 0
     Pass
 src/exceptions.py
+0
+    Pass
+src/parsers/maven_parser.py
+0
+    Pass
+src/parsers/parser_base.py
+0
+    Pass
+src/parsers/__init__.py
+0
+    Pass
+src/notification/__init__.py
+0
+    Pass
+src/notification/user_notification.py
 0
     Pass
 tests/test_rest_api.py
@@ -53,4 +71,4 @@ setup.py
 setup.py
 0
     Pass
-All checks passed for 12 source files
+All checks passed for 18 source files

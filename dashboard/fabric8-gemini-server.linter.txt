@@ -11,6 +11,8 @@ Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-co
 Requirement already satisfied: pycodestyle in ./venv/lib/python3.6/site-packages (2.4.0)
 src/auth.py
     Pass
+src/repo_dependency_creator.py
+    Pass
 src/__init__.py
     Pass
 src/utils.py
@@ -18,6 +20,16 @@ src/utils.py
 src/rest_api.py
     Pass
 src/exceptions.py
+    Pass
+src/parsers/maven_parser.py
+    Pass
+src/parsers/parser_base.py
+    Pass
+src/parsers/__init__.py
+    Pass
+src/notification/__init__.py
+    Pass
+src/notification/user_notification.py
     Pass
 tests/test_rest_api.py
     Pass
@@ -38,4 +50,4 @@ setup.py
 ----------------------------------------------------
 setup.py
     Pass
-All checks passed for 12 source files
+All checks passed for 18 source files

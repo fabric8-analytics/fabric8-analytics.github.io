@@ -65,8 +65,8 @@ tests/test_api_v1.py:4: 'os' imported but unused
 tests/test_api_v1.py:5: 'urllib.parse as urlparse' imported but unused
 tests/test_api_v1.py:7: 'flask.current_app' imported but unused
 tests/test_api_v1.py:7: 'flask.url_for' imported but unused
+tests/test_api_v1.py:8: 'pytest' imported but unused
 tests/test_api_v1.py:9: 'requests' imported but unused
-tests/test_api_v1.py:59: local variable 'response' is assigned to but never used
     Fail
 tests/__init__.py
     Pass
@@ -108,23 +108,23 @@ tests/test_token_handling.py:5: 'from unittest.mock import *' used; unable to de
 tests/test_token_handling.py:9: 'from auth import *' used; unable to detect undefined names
 tests/test_token_handling.py:69: 'patch' may be undefined, or defined from star imports: auth, unittest.mock
 tests/test_token_handling.py:70: 'patch' may be undefined, or defined from star imports: auth, unittest.mock
-tests/test_token_handling.py:73: 'decode_token' may be undefined, or defined from star imports: auth, unittest.mock
-tests/test_token_handling.py:76: 'patch' may be undefined, or defined from star imports: auth, unittest.mock
+tests/test_token_handling.py:74: 'decode_token' may be undefined, or defined from star imports: auth, unittest.mock
 tests/test_token_handling.py:77: 'patch' may be undefined, or defined from star imports: auth, unittest.mock
-tests/test_token_handling.py:81: 'decode_token' may be undefined, or defined from star imports: auth, unittest.mock
-tests/test_token_handling.py:84: 'patch' may be undefined, or defined from star imports: auth, unittest.mock
+tests/test_token_handling.py:78: 'patch' may be undefined, or defined from star imports: auth, unittest.mock
+tests/test_token_handling.py:82: 'decode_token' may be undefined, or defined from star imports: auth, unittest.mock
 tests/test_token_handling.py:85: 'patch' may be undefined, or defined from star imports: auth, unittest.mock
-tests/test_token_handling.py:89: 'decode_token' may be undefined, or defined from star imports: auth, unittest.mock
-tests/test_token_handling.py:92: 'patch' may be undefined, or defined from star imports: auth, unittest.mock
+tests/test_token_handling.py:86: 'patch' may be undefined, or defined from star imports: auth, unittest.mock
+tests/test_token_handling.py:90: 'decode_token' may be undefined, or defined from star imports: auth, unittest.mock
 tests/test_token_handling.py:93: 'patch' may be undefined, or defined from star imports: auth, unittest.mock
-tests/test_token_handling.py:97: 'decode_token' may be undefined, or defined from star imports: auth, unittest.mock
-tests/test_token_handling.py:100: 'patch' may be undefined, or defined from star imports: auth, unittest.mock
+tests/test_token_handling.py:94: 'patch' may be undefined, or defined from star imports: auth, unittest.mock
+tests/test_token_handling.py:98: 'decode_token' may be undefined, or defined from star imports: auth, unittest.mock
 tests/test_token_handling.py:101: 'patch' may be undefined, or defined from star imports: auth, unittest.mock
-tests/test_token_handling.py:105: 'decode_token' may be undefined, or defined from star imports: auth, unittest.mock
-tests/test_token_handling.py:108: 'patch' may be undefined, or defined from star imports: auth, unittest.mock
+tests/test_token_handling.py:102: 'patch' may be undefined, or defined from star imports: auth, unittest.mock
+tests/test_token_handling.py:106: 'decode_token' may be undefined, or defined from star imports: auth, unittest.mock
 tests/test_token_handling.py:109: 'patch' may be undefined, or defined from star imports: auth, unittest.mock
-tests/test_token_handling.py:117: 'decode_token' may be undefined, or defined from star imports: auth, unittest.mock
-tests/test_token_handling.py:123: 'test_decode_token_invalid_input_3' may be undefined, or defined from star imports: auth, unittest.mock
+tests/test_token_handling.py:110: 'patch' may be undefined, or defined from star imports: auth, unittest.mock
+tests/test_token_handling.py:118: 'decode_token' may be undefined, or defined from star imports: auth, unittest.mock
+tests/test_token_handling.py:124: 'test_decode_token_invalid_input_3' may be undefined, or defined from star imports: auth, unittest.mock
     Fail
 tests/test_api_user_class.py
 tests/test_api_user_class.py:3: 'unittest' imported but unused

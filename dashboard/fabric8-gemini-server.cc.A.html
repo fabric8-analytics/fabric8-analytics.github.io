@@ -72,6 +72,10 @@ src/auth.py
     <span style="color:#AA00AA">F </span>42:0 get_token_from_auth_header - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>47:0 get_audiences - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>52:0 login_required - <span style="color:#00AA00">A (1)</span>
+src/repo_dependency_creator.py
+    <span style="color:#00AA00">M </span>61:4 RepoDependencyCreator.generate_report - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#00AAAA">C </span>8:0 RepoDependencyCreator - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>11:4 RepoDependencyCreator.create_repo_node_and_get_cve - <span style="color:#00AA00">A (5)</span>
 src/utils.py
     <span style="color:#AA00AA">F </span>282:0 fetch_public_key - <span style="color:#00AA00">A (5)</span>
     <span style="color:#00AA00">M </span>213:4 DatabaseIngestion.get_info - <span style="color:#00AA00">A (5)</span>
@@ -95,18 +99,30 @@ src/utils.py
     <span style="color:#00AA00">M </span>31:4 Postgres.__init__ - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>51:4 Postgres.session - <span style="color:#00AA00">A (1)</span>
 src/rest_api.py
-    <span style="color:#AA00AA">F </span>37:0 register - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>115:0 report - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>155:0 user_repo_scan - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>201:0 notify_user - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>243:0 drop - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>25:0 readiness - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>31:0 liveness - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>286:0 handle_error - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>40:0 register - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>158:0 user_repo_scan_experimental - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>118:0 report - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>232:0 user_repo_scan - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>278:0 notify_user - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>320:0 drop - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>28:0 readiness - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>34:0 liveness - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>363:0 handle_error - <span style="color:#00AA00">A (1)</span>
 src/exceptions.py
     <span style="color:#00AAAA">C </span>4:0 HTTPError - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>16:4 HTTPError.__init__ - <span style="color:#00AA00">A (1)</span>
+src/parsers/maven_parser.py
+    <span style="color:#00AA00">M </span>28:4 MavenParser._parse_string - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AAAA">C </span>6:0 MavenParser - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>9:4 MavenParser.parse_output_file - <span style="color:#00AA00">A (3)</span>
+src/parsers/parser_base.py
+    <span style="color:#00AAAA">C </span>6:0 Parser - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>9:4 Parser.parse_output_file - <span style="color:#00AA00">A (1)</span>
+src/notification/user_notification.py
+    <span style="color:#00AAAA">C </span>10:0 UserNotification - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>13:4 UserNotification.send_notification - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>26:4 UserNotification.generate_notification - <span style="color:#00AA00">A (2)</span>
 
-98 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (2.336734693877551)</span>
+110 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (2.5272727272727273)</span>
 </pre>
