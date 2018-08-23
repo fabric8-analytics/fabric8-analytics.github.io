@@ -17,14 +17,9 @@ f8a_notification/__init__.py
 f8a_notification/utils.py
     Pass
 f8a_notification/entryscript.py
-f8a_notification/entryscript.py:28: unused import 'pprint' (90% confidence)
-    Fail
+    Pass
 f8a_notification/user_notification.py
-f8a_notification/user_notification.py:24: unused import 'gmtime' (90% confidence)
-f8a_notification/user_notification.py:24: unused import 'strftime' (90% confidence)
-f8a_notification/user_notification.py:25: unused import 'uuid4' (90% confidence)
-f8a_notification/user_notification.py:27: unused import 'logging' (90% confidence)
-    Fail
+    Pass
 ----------------------------------------------------
 Checking following source files for dead code and
 unused imports:
@@ -33,4 +28,4 @@ setup.py
 
 setup.py
     Pass
-2 source files out of 6 files seems to contain dead code and/or unused imports
+All checks passed for 6 source files

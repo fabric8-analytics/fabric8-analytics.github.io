@@ -18,15 +18,10 @@ f8a_notification/utils.py
     Pass
 f8a_notification/entryscript.py
 f8a_notification/entryscript.py:24: 'json' imported but unused
-f8a_notification/entryscript.py:28: 'pprint.pprint' imported but unused
-f8a_notification/entryscript.py:46: redefinition of unused 'json' from line 24
+f8a_notification/entryscript.py:45: redefinition of unused 'json' from line 24
     Fail
 f8a_notification/user_notification.py
-f8a_notification/user_notification.py:24: 'time.strftime' imported but unused
-f8a_notification/user_notification.py:24: 'time.gmtime' imported but unused
-f8a_notification/user_notification.py:25: 'uuid.uuid4' imported but unused
-f8a_notification/user_notification.py:27: 'logging' imported but unused
-    Fail
+    Pass
 ----------------------------------------------------
 Checking following source files for common errors:
 setup.py
@@ -34,4 +29,4 @@ setup.py
 
 setup.py
     Pass
-2 source files out of 6 files needs to be checked and fixed
+1 source files out of 6 files needs to be checked and fixed
