@@ -1,0 +1,69 @@
+----------------------------------------------------
+Checking documentation strings in all sources stored
+in following directories:
+cvejob tests
+----------------------------------------------------
+
+cvejob/selectors/basic.py
+0
+    Pass
+cvejob/selectors/__init__.py
+0
+    Pass
+cvejob/__init__.py
+0
+    Pass
+cvejob/utils.py
+0
+    Pass
+cvejob/config.py
+0
+    Pass
+cvejob/outputs/__init__.py
+0
+    Pass
+cvejob/outputs/victims.py
+0
+    Pass
+cvejob/version.py
+0
+    Pass
+cvejob/identifiers/basic.py
+0
+    Pass
+cvejob/identifiers/nvdtoolkit.py
+0
+    Pass
+cvejob/identifiers/__init__.py
+0
+    Pass
+cvejob/filters/__init__.py
+0
+    Pass
+cvejob/filters/input.py
+0
+    Pass
+tests/__init__.py
+0
+    Pass
+tests/test_version.py
+0
+    Pass
+tests/filters/__init__.py
+0
+    Pass
+tests/filters/test_input.py
+0
+    Pass
+tests/conftest.py
+0
+    Pass
+
+----------------------------------------------------
+Checking documentation strings in the following files
+run.py
+----------------------------------------------------
+run.py
+0
+    Pass
+All checks passed for 19 source files

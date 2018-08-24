@@ -1,0 +1,51 @@
+Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages
+----------------------------------------------------
+Checking source files for common errors in following
+directories:
+cvejob tests
+----------------------------------------------------
+
+cvejob/selectors/basic.py
+    Pass
+cvejob/selectors/__init__.py
+    Pass
+cvejob/__init__.py
+    Pass
+cvejob/utils.py
+    Pass
+cvejob/config.py
+    Pass
+cvejob/outputs/__init__.py
+    Pass
+cvejob/outputs/victims.py
+    Pass
+cvejob/version.py
+    Pass
+cvejob/identifiers/basic.py
+    Pass
+cvejob/identifiers/nvdtoolkit.py
+    Pass
+cvejob/identifiers/__init__.py
+    Pass
+cvejob/filters/__init__.py
+    Pass
+cvejob/filters/input.py
+    Pass
+tests/__init__.py
+    Pass
+tests/test_version.py
+    Pass
+tests/filters/__init__.py
+    Pass
+tests/filters/test_input.py
+    Pass
+tests/conftest.py
+    Pass
+----------------------------------------------------
+Checking following source files for common errors:
+run.py
+----------------------------------------------------
+
+run.py
+    Pass
+All checks passed for 19 source files
