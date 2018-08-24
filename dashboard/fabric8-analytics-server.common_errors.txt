@@ -43,8 +43,9 @@ bayesian/manifest_models.py
 bayesian/generate_manifest.py
     Pass
 bayesian/api_v1.py
-bayesian/api_v1.py:797: local variable 'iso' is assigned to but never used
-bayesian/api_v1.py:818: local variable 'manifest_file' is assigned to but never used
+bayesian/api_v1.py:818: local variable 'iso' is assigned to but never used
+bayesian/api_v1.py:839: local variable 'manifest_file' is assigned to but never used
+bayesian/api_v1.py:1231: redefinition of unused 'RecommendationFeedback' from line 23
     Fail
 bayesian/exceptions.py
     Pass
