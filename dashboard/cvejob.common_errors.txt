@@ -2,7 +2,7 @@ Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages
 ----------------------------------------------------
 Checking source files for common errors in following
 directories:
-cvejob tests
+cvejob tests scripts
 ----------------------------------------------------
 
 cvejob/selectors/basic.py
@@ -41,6 +41,8 @@ tests/filters/test_input.py
     Pass
 tests/conftest.py
     Pass
+scripts/get_python_packages.py
+    Pass
 ----------------------------------------------------
 Checking following source files for common errors:
 run.py
@@ -48,4 +50,4 @@ run.py
 
 run.py
     Pass
-All checks passed for 19 source files
+All checks passed for 20 source files

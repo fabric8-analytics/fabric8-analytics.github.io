@@ -1,6 +1,6 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-cvejob tests
+cvejob tests scripts
 ----------------------------------------------------
 
 cvejob/selectors/basic.py
@@ -39,6 +39,8 @@ tests/filters/test_input.py
     Pass
 tests/conftest.py
     Pass
+scripts/get_python_packages.py
+    Pass
 
 ----------------------------------------------------
 Running Python linter against selected files:
@@ -46,4 +48,4 @@ run.py
 ----------------------------------------------------
 run.py
     Pass
-All checks passed for 19 source files
+All checks passed for 20 source files

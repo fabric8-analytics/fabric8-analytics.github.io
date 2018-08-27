@@ -42,7 +42,8 @@ src/__init__.py
 src/utils.py
     Pass
 src/flask_endpoint.py
-    Pass
+src/flask_endpoint.py:7: unused import 'Flask' (90% confidence)
+    Fail
 src/scoring/__init__.py
     Pass
 src/scoring/hpf_scoring.py
@@ -81,4 +82,4 @@ perf_tests/locust_tests.py:4: unused import 'web' (90% confidence)
     Fail
 PoC_code/__init__.py
     Pass
-6 source files out of 23 files seems to contain dead code and/or unused imports
+7 source files out of 23 files seems to contain dead code and/or unused imports

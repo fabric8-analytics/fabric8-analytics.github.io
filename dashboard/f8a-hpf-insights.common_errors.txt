@@ -25,7 +25,8 @@ src/__init__.py
 src/utils.py
     Pass
 src/flask_endpoint.py
-    Pass
+src/flask_endpoint.py:7: 'flask.Flask' imported but unused
+    Fail
 src/scoring/__init__.py
     Pass
 src/scoring/hpf_scoring.py
@@ -66,4 +67,4 @@ perf_tests/locust_tests.py:99: local variable 'response' is assigned to but neve
     Fail
 PoC_code/__init__.py
     Pass
-3 source files out of 23 files needs to be checked and fixed
+4 source files out of 23 files needs to be checked and fixed
