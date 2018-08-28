@@ -43,6 +43,9 @@ cvejob/filters/__init__.py
 cvejob/filters/input.py
 0
     Pass
+tests/test_get_package_version.py
+0
+    Pass
 tests/__init__.py
 0
     Pass
@@ -69,4 +72,4 @@ run.py
 run.py
 0
     Pass
-All checks passed for 20 source files
+All checks passed for 21 source files

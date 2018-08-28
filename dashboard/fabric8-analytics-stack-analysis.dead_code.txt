@@ -27,8 +27,7 @@ analytics_platform/kronos/apollo/src/__init__.py
 analytics_platform/kronos/apollo/src/apollo_constants.py
     Pass
 analytics_platform/kronos/apollo/src/apollo_tag_prune.py
-analytics_platform/kronos/apollo/src/apollo_tag_prune.py:3: unused import 'config' (90% confidence)
-    Fail
+    Pass
 analytics_platform/kronos/apollo/src/apollo_generate_frequency_dict.py
     Pass
 analytics_platform/kronos/apollo/__init__.py
@@ -49,8 +48,7 @@ analytics_platform/kronos/pgm/src/abstract_pgm.py:22: unused variable 'filename'
 analytics_platform/kronos/pgm/src/abstract_pgm.py:27: unused variable 'evidence_dict_list' (100% confidence)
     Fail
 analytics_platform/kronos/pgm/src/offline_training.py
-analytics_platform/kronos/pgm/src/offline_training.py:4: unused import 'time' (90% confidence)
-    Fail
+    Pass
 analytics_platform/kronos/pgm/src/__init__.py
     Pass
 analytics_platform/kronos/pgm/src/pgm_pomegranate.py
@@ -63,8 +61,7 @@ analytics_platform/kronos/gnosis/src/gnosis_package_topic_model.py
 analytics_platform/kronos/gnosis/src/gnosis_package_topic_model.py:28: unreachable code after 'raise' (100% confidence)
     Fail
 analytics_platform/kronos/gnosis/src/offline_training.py
-analytics_platform/kronos/gnosis/src/offline_training.py:4: unused import 'time' (90% confidence)
-    Fail
+    Pass
 analytics_platform/kronos/gnosis/src/__init__.py
     Pass
 analytics_platform/kronos/gnosis/src/gnosis_constants.py
@@ -84,8 +81,7 @@ analytics_platform/kronos/gnosis/src/abstract_gnosis.py:29: unused variable 'fil
 analytics_platform/kronos/gnosis/__init__.py
     Pass
 analytics_platform/kronos/softnet/src/cooccurrence_matrix_generator.py
-analytics_platform/kronos/softnet/src/cooccurrence_matrix_generator.py:5: unused import 'time' (90% confidence)
-    Fail
+    Pass
 analytics_platform/kronos/softnet/src/offline_training.py
     Pass
 analytics_platform/kronos/softnet/src/__init__.py
@@ -107,15 +103,13 @@ tagging_platform/__init__.py
 tagging_platform/helles/__init__.py
     Pass
 tagging_platform/helles/npm_tagger/get_descriptions_from_s3.py
-tagging_platform/helles/npm_tagger/get_descriptions_from_s3.py:10: unused import 'json' (90% confidence)
-    Fail
+    Pass
 tagging_platform/helles/npm_tagger/pytextrank_textrank_scoring.py
     Pass
 tagging_platform/helles/npm_tagger/__init__.py
     Pass
 tagging_platform/helles/npm_tagger/get_version_info_for_missing_packages.py
-tagging_platform/helles/npm_tagger/get_version_info_for_missing_packages.py:10: unused import 'json' (90% confidence)
-    Fail
+    Pass
 tagging_platform/helles/deployment/submit_npm_tagging_job.py
     Pass
 tagging_platform/helles/deployment/__init__.py
@@ -123,18 +117,11 @@ tagging_platform/helles/deployment/__init__.py
 evaluation_platform/__init__.py
     Pass
 evaluation_platform/uranus/src/generate_test_data.py
-evaluation_platform/uranus/src/generate_test_data.py:11: unused import 'time' (90% confidence)
-    Fail
+    Pass
 evaluation_platform/uranus/src/super_class.py
-evaluation_platform/uranus/src/super_class.py:4: unused import 'time' (90% confidence)
-evaluation_platform/uranus/src/super_class.py:7: unused import 'AWS_S3_ACCESS_KEY_ID' (90% confidence)
-evaluation_platform/uranus/src/super_class.py:7: unused import 'AWS_S3_SECRET_ACCESS_KEY' (90% confidence)
-evaluation_platform/uranus/src/super_class.py:13: unused import 'S3DataStore' (90% confidence)
-evaluation_platform/uranus/src/super_class.py:14: unused import 'get_path_names' (90% confidence)
-    Fail
+    Pass
 evaluation_platform/uranus/src/companion_outlier_testing.py
-evaluation_platform/uranus/src/companion_outlier_testing.py:4: unused import 'combinations' (90% confidence)
-    Fail
+    Pass
 evaluation_platform/uranus/src/evaluate_data.py
     Pass
 evaluation_platform/uranus/src/__init__.py
@@ -144,9 +131,7 @@ evaluation_platform/uranus/src/uranus_constants.py
 evaluation_platform/uranus/src/alternate_testing.py
     Pass
 evaluation_platform/uranus/src/kronos_offline_evaluation.py
-evaluation_platform/uranus/src/kronos_offline_evaluation.py:9: unused import 'S3DataStore' (90% confidence)
-evaluation_platform/uranus/src/kronos_offline_evaluation.py:10: unused import 'get_path_names' (90% confidence)
-    Fail
+    Pass
 evaluation_platform/uranus/__init__.py
     Pass
 evaluation_platform/uranus/scripts/__init__.py
@@ -182,17 +167,15 @@ util/data_store/abstract_data_store.py:40: unused variable 'target' (100% confid
 util/data_store/s3_data_store.py
     Pass
 util/data_store/graph_store.py
-util/data_store/graph_store.py:6: unused import 'json' (90% confidence)
-util/data_store/graph_store.py:21: unused variable 'filename' (100% confidence)
-util/data_store/graph_store.py:26: unused variable 'prefix' (100% confidence)
-util/data_store/graph_store.py:31: unused variable 'contents' (100% confidence)
-util/data_store/graph_store.py:31: unused variable 'filename' (100% confidence)
+util/data_store/graph_store.py:20: unused variable 'filename' (100% confidence)
+util/data_store/graph_store.py:25: unused variable 'prefix' (100% confidence)
+util/data_store/graph_store.py:30: unused variable 'contents' (100% confidence)
+util/data_store/graph_store.py:30: unused variable 'filename' (100% confidence)
     Fail
 util/error/__init__.py
     Pass
 util/error/analytics_exception.py
-util/error/analytics_exception.py:3: unused import 'error_codes' (90% confidence)
-    Fail
+    Pass
 util/error/error_codes.py
     Pass
 util/analytics_platform_util.py
@@ -210,57 +193,41 @@ util/http_client/__init__.py
 util/http_client/request.py
     Pass
 tests/unit_tests/test_uranus_deployment_submit_evaluation_job.py
-tests/unit_tests/test_uranus_deployment_submit_evaluation_job.py:3: unused import 'pytest' (90% confidence)
-    Fail
+    Pass
 tests/unit_tests/test_util_http_client_request.py
-tests/unit_tests/test_util_http_client_request.py:3: unused import 'pytest' (90% confidence)
-tests/unit_tests/test_util_http_client_request.py:4: unused import 'requests' (90% confidence)
-    Fail
+    Pass
 tests/unit_tests/test_uranus_evaluate_data.py
-tests/unit_tests/test_uranus_evaluate_data.py:3: unused import 'pytest' (90% confidence)
-    Fail
+    Pass
 tests/unit_tests/test_kronos_gnosis_ref_arch.py
-tests/unit_tests/test_kronos_gnosis_ref_arch.py:3: unused import 'config' (90% confidence)
-    Fail
+    Pass
 tests/unit_tests/__init__.py
     Pass
 tests/unit_tests/test_kronos_pgm_pomegranate.py
     Pass
 tests/unit_tests/test_uranus_generate_test_data.py
-tests/unit_tests/test_uranus_generate_test_data.py:3: unused import 'pytest' (90% confidence)
-    Fail
+    Pass
 tests/unit_tests/test_uranus_alternate_testing.py
-tests/unit_tests/test_uranus_alternate_testing.py:3: unused import 'pytest' (90% confidence)
-    Fail
+    Pass
 tests/unit_tests/test_kronos_softnet_kronos_dependency_generator.py
-tests/unit_tests/test_kronos_softnet_kronos_dependency_generator.py:3: unused import 'config' (90% confidence)
-    Fail
+    Pass
 tests/unit_tests/test_util_error_codes.py
     Pass
 tests/unit_tests/test_uranus_super_class.py
-tests/unit_tests/test_uranus_super_class.py:3: unused import 'pytest' (90% confidence)
-    Fail
+    Pass
 tests/unit_tests/test_uranus_kronos_offline_evaluation.py
-tests/unit_tests/test_uranus_kronos_offline_evaluation.py:3: unused import 'pytest' (90% confidence)
-    Fail
+    Pass
 tests/unit_tests/test_apollo_tag_prune.py
-tests/unit_tests/test_apollo_tag_prune.py:3: unused import 'config' (90% confidence)
-    Fail
+    Pass
 tests/unit_tests/test_kronos_softnet_cooccurrence_matrix_generator.py
-tests/unit_tests/test_kronos_softnet_cooccurrence_matrix_generator.py:3: unused import 'assert_frame_equal' (90% confidence)
-tests/unit_tests/test_kronos_softnet_cooccurrence_matrix_generator.py:5: unused import 'config' (90% confidence)
-    Fail
+    Pass
 tests/unit_tests/test_recommendation_validator.py
     Pass
 tests/unit_tests/test_kronos_gnosis_package_topic_model.py
-tests/unit_tests/test_kronos_gnosis_package_topic_model.py:3: unused import 'config' (90% confidence)
-    Fail
+    Pass
 tests/unit_tests/test_helles_npm_tagger.py
-tests/unit_tests/test_helles_npm_tagger.py:3: unused import 'pytest' (90% confidence)
-    Fail
+    Pass
 tests/unit_tests/test_uranus_companion_outlier_testing.py
-tests/unit_tests/test_uranus_companion_outlier_testing.py:3: unused import 'pytest' (90% confidence)
-    Fail
+    Pass
 tests/unit_tests/test_apollo_frequency_dict_generator.py
     Pass
-32 source files out of 91 files seems to contain dead code and/or unused imports
+7 source files out of 91 files seems to contain dead code and/or unused imports
