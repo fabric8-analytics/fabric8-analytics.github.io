@@ -32,21 +32,7 @@ cvejob/filters/__init__.py
 cvejob/filters/input.py
     Pass
 tests/test_get_package_version.py
-tests/test_get_package_version.py:3: 'from unittest.mock import *' used; unable to detect undefined names
-tests/test_get_package_version.py:4: 'requests' imported but unused
-tests/test_get_package_version.py:6: 'from cvejob.utils import *' used; unable to detect undefined names
-tests/test_get_package_version.py:11: 'get_javascript_versions' may be undefined, or defined from star imports: cvejob.utils, unittest.mock
-tests/test_get_package_version.py:17: 'get_javascript_versions' may be undefined, or defined from star imports: cvejob.utils, unittest.mock
-tests/test_get_package_version.py:56: 'patch' may be undefined, or defined from star imports: cvejob.utils, unittest.mock
-tests/test_get_package_version.py:59: 'get_javascript_versions' may be undefined, or defined from star imports: cvejob.utils, unittest.mock
-tests/test_get_package_version.py:65: 'patch' may be undefined, or defined from star imports: cvejob.utils, unittest.mock
-tests/test_get_package_version.py:65: redefinition of unused 'test_get_javascript_versions_empty_server_response' from line 56
-tests/test_get_package_version.py:68: 'get_javascript_versions' may be undefined, or defined from star imports: cvejob.utils, unittest.mock
-tests/test_get_package_version.py:76: 'get_python_versions' may be undefined, or defined from star imports: cvejob.utils, unittest.mock
-tests/test_get_package_version.py:82: 'get_python_versions' may be undefined, or defined from star imports: cvejob.utils, unittest.mock
-tests/test_get_package_version.py:91: 'get_java_versions' may be undefined, or defined from star imports: cvejob.utils, unittest.mock
-tests/test_get_package_version.py:97: 'get_java_versions' may be undefined, or defined from star imports: cvejob.utils, unittest.mock
-tests/test_get_package_version.py:103: 'get_java_versions' may be undefined, or defined from star imports: cvejob.utils, unittest.mock
+tests/test_get_package_version.py:64: redefinition of unused 'test_get_javascript_versions_empty_server_response' from line 55
     Fail
 tests/__init__.py
     Pass

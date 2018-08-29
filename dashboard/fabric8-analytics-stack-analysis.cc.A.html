@@ -45,17 +45,17 @@ tests/unit_tests/test_apollo_frequency_dict_generator.py
     <span style="color:#00AA00">M </span>14:4 TestFrequencyDictGenerator.test_generate_and_save_package_frequency_dict_local - <span style="color:#00AA00">A (1)</span>
 evaluation_platform/uranus/src/generate_test_data.py
     <span style="color:#00AA00">M </span>38:4 TestData.load_package_list - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>64:4 TestData.generate_freq_items - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>88:4 TestData.generate_package_index - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>98:4 TestData.generate_comp_test_set - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>63:4 TestData.generate_freq_items - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>87:4 TestData.generate_package_index - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>97:4 TestData.generate_comp_test_set - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AAAA">C </span>26:0 TestData - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>83:4 TestData.generate_whole_set - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>132:4 TestData.pickle_dump - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>82:4 TestData.generate_whole_set - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>131:4 TestData.pickle_dump - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>29:4 TestData.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>105:4 TestData.save_json_file - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>118:4 TestData.save_pickle_file - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>145:4 TestData.generate_attributes - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>157:4 TestData.save_attributes - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>104:4 TestData.save_json_file - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>117:4 TestData.save_pickle_file - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>144:4 TestData.generate_attributes - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>156:4 TestData.save_attributes - <span style="color:#00AA00">A (1)</span>
 evaluation_platform/uranus/src/super_class.py
     <span style="color:#00AA00">M </span>23:4 Accuracy.check_present - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AAAA">C </span>13:0 Accuracy - <span style="color:#00AA00">A (2)</span>
@@ -105,11 +105,13 @@ util/pgm_util.py
 util/data_store/local_filesystem.py
     <span style="color:#00AA00">M </span>26:4 LocalFileSystem.list_files - <span style="color:#00AA00">B (6)</span>
     <span style="color:#00AA00">M </span>96:4 LocalFileSystem.byteify - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AAAA">C </span>15:0 LocalFileSystem - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>50:4 LocalFileSystem.read_all_json_files - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>59:4 LocalFileSystem.write_json_file - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>83:4 LocalFileSystem.write_pomegranate_model - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>90:4 LocalFileSystem.read_pomegranate_model - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AAAA">C </span>15:0 LocalFileSystem - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>109:4 LocalFileSystem.convert_list_of_tuples_to_string - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>116:4 LocalFileSystem.convert_string_to_list_of_tuples - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>18:4 LocalFileSystem.__init__ - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>22:4 LocalFileSystem.get_name - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>42:4 LocalFileSystem.remove_json_file - <span style="color:#00AA00">A (1)</span>
@@ -118,8 +120,6 @@ util/data_store/local_filesystem.py
     <span style="color:#00AA00">M </span>70:4 LocalFileSystem.download_file - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>75:4 LocalFileSystem.read_json_file_into_pandas_df - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>79:4 LocalFileSystem.write_pandas_df_into_json_file - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>109:4 LocalFileSystem.convert_list_of_tuples_to_string - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>115:4 LocalFileSystem.convert_string_to_list_of_tuples - <span style="color:#00AA00">A (1)</span>
 util/data_store/abstract_data_store.py
     <span style="color:#00AAAA">C </span>6:0 AbstractDataStore - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>9:4 AbstractDataStore.get_name - <span style="color:#00AA00">A (1)</span>
@@ -211,11 +211,11 @@ analytics_platform/kronos/apollo/src/apollo_generate_frequency_dict.py
     <span style="color:#00AA00">M </span>12:4 FrequencyDictGenerator.__init__ - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>19:4 FrequencyDictGenerator.create_frequency_generator - <span style="color:#00AA00">A (1)</span>
 analytics_platform/kronos/pgm/src/abstract_pgm.py
+    <span style="color:#00AA00">M </span>11:4 AbstractPGM.train - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>17:4 AbstractPGM.load - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AAAA">C </span>6:0 AbstractPGM - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>11:4 AbstractPGM.train - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>16:4 AbstractPGM.load - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>21:4 AbstractPGM.save - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>26:4 AbstractPGM.score - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>23:4 AbstractPGM.save - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>28:4 AbstractPGM.score - <span style="color:#00AA00">A (1)</span>
 analytics_platform/kronos/pgm/src/offline_training.py
     <span style="color:#AA00AA">F </span>39:0 load_user_eco_to_co_occerrence_matrix_dict - <span style="color:#00AA00">B (6)</span>
     <span style="color:#AA00AA">F </span>71:0 train_and_save_kronos_list - <span style="color:#00AA00">A (3)</span>
@@ -233,39 +233,39 @@ analytics_platform/kronos/pgm/src/pgm_pomegranate.py
     <span style="color:#00AA00">M </span>21:4 PGMPomegranate.model - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>26:4 PGMPomegranate.train - <span style="color:#00AA00">A (1)</span>
 analytics_platform/kronos/gnosis/src/gnosis_package_topic_model.py
-    <span style="color:#00AA00">M </span>30:4 GnosisPackageTopicModel.curate - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#00AA00">M </span>122:4 GnosisPackageTopicModel._get_unknown_packages_from_manifests - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>29:4 GnosisPackageTopicModel.curate - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#00AA00">M </span>121:4 GnosisPackageTopicModel._get_unknown_packages_from_manifests - <span style="color:#00AA00">B (7)</span>
     <span style="color:#00AAAA">C </span>10:0 GnosisPackageTopicModel - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AA00">M </span>13:4 GnosisPackageTopicModel.__init__ - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>17:4 GnosisPackageTopicModel.train - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>96:4 GnosisPackageTopicModel.save - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>105:4 GnosisPackageTopicModel.load - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>115:4 GnosisPackageTopicModel.get_dictionary - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>95:4 GnosisPackageTopicModel.save - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>104:4 GnosisPackageTopicModel.load - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>114:4 GnosisPackageTopicModel.get_dictionary - <span style="color:#00AA00">A (1)</span>
 analytics_platform/kronos/gnosis/src/offline_training.py
     <span style="color:#AA00AA">F </span>12:0 train_and_save_gnosis_ref_arch - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>28:0 train_and_save_gnosis_ref_arch_s3 - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>54:0 generate_and_save_gnosis_package_topic_model - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>73:0 generate_and_save_gnosis_package_topic_model_s3 - <span style="color:#00AA00">A (1)</span>
 analytics_platform/kronos/gnosis/src/gnosis_ref_arch.py
-    <span style="color:#00AA00">M </span>220:4 GnosisReferenceArchitecture._generate_intent_component_class_dict_fp_growth - <span style="color:#AA5500">C (15)</span>
-    <span style="color:#00AA00">M </span>190:4 GnosisReferenceArchitecture._train_fp_growth_model - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AA00">M </span>221:4 GnosisReferenceArchitecture._generate_intent_component_class_dict_fp_growth - <span style="color:#AA5500">C (15)</span>
+    <span style="color:#00AA00">M </span>191:4 GnosisReferenceArchitecture._train_fp_growth_model - <span style="color:#00AA00">A (5)</span>
     <span style="color:#00AAAA">C </span>17:0 GnosisReferenceArchitecture - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>271:4 GnosisReferenceArchitecture._generate_component_class_list_for_eco_package_topic_dict - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>285:4 GnosisReferenceArchitecture.get_topic_list_for_package_list - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>111:4 GnosisReferenceArchitecture._generate_component_class_list - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>272:4 GnosisReferenceArchitecture._generate_component_class_list_for_eco_package_topic_dict - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>286:4 GnosisReferenceArchitecture.get_topic_list_for_package_list - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>20:4 GnosisReferenceArchitecture.__init__ - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>27:4 GnosisReferenceArchitecture.train - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>83:4 GnosisReferenceArchitecture.load - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>97:4 GnosisReferenceArchitecture.save - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>107:4 GnosisReferenceArchitecture.get_dictionary - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>111:4 GnosisReferenceArchitecture._generate_component_class_list - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>123:4 GnosisReferenceArchitecture._generate_edge_list - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>144:4 GnosisReferenceArchitecture._generate_intent_list - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>163:4 GnosisReferenceArchitecture._generate_gnosis_model - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>124:4 GnosisReferenceArchitecture._generate_edge_list - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>145:4 GnosisReferenceArchitecture._generate_intent_list - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>164:4 GnosisReferenceArchitecture._generate_gnosis_model - <span style="color:#00AA00">A (1)</span>
 analytics_platform/kronos/gnosis/src/abstract_gnosis.py
-    <span style="color:#00AAAA">C </span>6:0 AbstractGnosis - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>11:4 AbstractGnosis.train - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>23:4 AbstractGnosis.load - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>28:4 AbstractGnosis.save - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>6:0 AbstractGnosis - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>11:4 AbstractGnosis.train - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>24:4 AbstractGnosis.load - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>30:4 AbstractGnosis.save - <span style="color:#00AA00">A (1)</span>
 analytics_platform/kronos/softnet/src/cooccurrence_matrix_generator.py
     <span style="color:#00AA00">M </span>83:4 CooccurrenceMatrixGenerator._generate_cooccurrence_matrix_for_ecosystem - <span style="color:#00AA00">B (6)</span>
     <span style="color:#00AA00">M </span>62:4 CooccurrenceMatrixGenerator.get_component_class_occurrence - <span style="color:#00AA00">A (3)</span>
@@ -324,5 +324,5 @@ tagging_platform/helles/deployment/submit_npm_tagging_job.py
     <span style="color:#AA00AA">F </span>16:0 submit_tagging_job - <span style="color:#00AA00">A (4)</span>
 
 276 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (2.1847826086956523)</span>
+Average complexity: <span style="color:#00AA00">A (2.217391304347826)</span>
 </pre>

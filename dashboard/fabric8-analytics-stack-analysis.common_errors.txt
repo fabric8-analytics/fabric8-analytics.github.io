@@ -99,8 +99,7 @@ tagging_platform/helles/deployment/__init__.py
 evaluation_platform/__init__.py
     Pass
 evaluation_platform/uranus/src/generate_test_data.py
-evaluation_platform/uranus/src/generate_test_data.py:48: local variable 'user_category' is assigned to but never used
-    Fail
+    Pass
 evaluation_platform/uranus/src/super_class.py
     Pass
 evaluation_platform/uranus/src/companion_outlier_testing.py
@@ -158,9 +157,7 @@ util/http_client/request.py
 tests/unit_tests/test_uranus_deployment_submit_evaluation_job.py
     Pass
 tests/unit_tests/test_util_http_client_request.py
-tests/unit_tests/test_util_http_client_request.py:3: 'from util.http_client.request import *' used; unable to detect undefined names
-tests/unit_tests/test_util_http_client_request.py:9: 'post' may be undefined, or defined from star imports: util.http_client.request
-    Fail
+    Pass
 tests/unit_tests/test_uranus_evaluate_data.py
     Pass
 tests/unit_tests/test_kronos_gnosis_ref_arch.py
@@ -170,9 +167,7 @@ tests/unit_tests/__init__.py
 tests/unit_tests/test_kronos_pgm_pomegranate.py
     Pass
 tests/unit_tests/test_uranus_generate_test_data.py
-tests/unit_tests/test_uranus_generate_test_data.py:3: 'from evaluation_platform.uranus.src.generate_test_data import *' used; unable to detect undefined names
-tests/unit_tests/test_uranus_generate_test_data.py:8: 'TestData' may be undefined, or defined from star imports: evaluation_platform.uranus.src.generate_test_data
-    Fail
+    Pass
 tests/unit_tests/test_uranus_alternate_testing.py
     Pass
 tests/unit_tests/test_kronos_softnet_kronos_dependency_generator.py
@@ -197,4 +192,4 @@ tests/unit_tests/test_uranus_companion_outlier_testing.py
     Pass
 tests/unit_tests/test_apollo_frequency_dict_generator.py
     Pass
-3 source files out of 91 files needs to be checked and fixed
+All checks passed for 91 source files

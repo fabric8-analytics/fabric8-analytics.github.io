@@ -37,16 +37,7 @@ analytics_platform/kronos/__init__.py
 analytics_platform/kronos/pgm/src/pgm_constants.py
     Pass
 analytics_platform/kronos/pgm/src/abstract_pgm.py
-analytics_platform/kronos/pgm/src/abstract_pgm.py:12: unused variable 'cls' (100% confidence)
-analytics_platform/kronos/pgm/src/abstract_pgm.py:12: unused variable 'kronos_dependency_dict' (100% confidence)
-analytics_platform/kronos/pgm/src/abstract_pgm.py:12: unused variable 'package_occurrence_df' (100% confidence)
-analytics_platform/kronos/pgm/src/abstract_pgm.py:17: unused variable 'cls' (100% confidence)
-analytics_platform/kronos/pgm/src/abstract_pgm.py:17: unused variable 'data_store' (100% confidence)
-analytics_platform/kronos/pgm/src/abstract_pgm.py:17: unused variable 'filename' (100% confidence)
-analytics_platform/kronos/pgm/src/abstract_pgm.py:22: unused variable 'data_store' (100% confidence)
-analytics_platform/kronos/pgm/src/abstract_pgm.py:22: unused variable 'filename' (100% confidence)
-analytics_platform/kronos/pgm/src/abstract_pgm.py:27: unused variable 'evidence_dict_list' (100% confidence)
-    Fail
+    Pass
 analytics_platform/kronos/pgm/src/offline_training.py
     Pass
 analytics_platform/kronos/pgm/src/__init__.py
@@ -58,8 +49,7 @@ analytics_platform/kronos/pgm/__init__.py
 analytics_platform/kronos/scripts/__init__.py
     Pass
 analytics_platform/kronos/gnosis/src/gnosis_package_topic_model.py
-analytics_platform/kronos/gnosis/src/gnosis_package_topic_model.py:28: unreachable code after 'raise' (100% confidence)
-    Fail
+    Pass
 analytics_platform/kronos/gnosis/src/offline_training.py
     Pass
 analytics_platform/kronos/gnosis/src/__init__.py
@@ -67,17 +57,9 @@ analytics_platform/kronos/gnosis/src/__init__.py
 analytics_platform/kronos/gnosis/src/gnosis_constants.py
     Pass
 analytics_platform/kronos/gnosis/src/gnosis_ref_arch.py
-analytics_platform/kronos/gnosis/src/gnosis_ref_arch.py:112: unused variable 'clas' (100% confidence)
-    Fail
+    Pass
 analytics_platform/kronos/gnosis/src/abstract_gnosis.py
-analytics_platform/kronos/gnosis/src/abstract_gnosis.py:12: unused variable 'cls' (100% confidence)
-analytics_platform/kronos/gnosis/src/abstract_gnosis.py:12: unused variable 'data_store' (100% confidence)
-analytics_platform/kronos/gnosis/src/abstract_gnosis.py:24: unused variable 'cls' (100% confidence)
-analytics_platform/kronos/gnosis/src/abstract_gnosis.py:24: unused variable 'data_store' (100% confidence)
-analytics_platform/kronos/gnosis/src/abstract_gnosis.py:24: unused variable 'filename' (100% confidence)
-analytics_platform/kronos/gnosis/src/abstract_gnosis.py:29: unused variable 'data_store' (100% confidence)
-analytics_platform/kronos/gnosis/src/abstract_gnosis.py:29: unused variable 'filename' (100% confidence)
-    Fail
+    Pass
 analytics_platform/kronos/gnosis/__init__.py
     Pass
 analytics_platform/kronos/softnet/src/cooccurrence_matrix_generator.py
@@ -145,33 +127,13 @@ util/softnet_util.py
 util/data_store/__init__.py
     Pass
 util/data_store/local_filesystem.py
-util/data_store/local_filesystem.py:65: unused variable 'src' (100% confidence)
-util/data_store/local_filesystem.py:65: unused variable 'target' (100% confidence)
-util/data_store/local_filesystem.py:70: unused variable 'src' (100% confidence)
-util/data_store/local_filesystem.py:70: unused variable 'target' (100% confidence)
-util/data_store/local_filesystem.py:97: unused variable 'cls' (100% confidence)
-util/data_store/local_filesystem.py:110: unused variable 'cls' (100% confidence)
-util/data_store/local_filesystem.py:116: unused variable 'cls' (100% confidence)
-    Fail
+    Pass
 util/data_store/abstract_data_store.py
-util/data_store/abstract_data_store.py:15: unused variable 'max_count' (100% confidence)
-util/data_store/abstract_data_store.py:15: unused variable 'prefix' (100% confidence)
-util/data_store/abstract_data_store.py:20: unused variable 'filename' (100% confidence)
-util/data_store/abstract_data_store.py:30: unused variable 'contents' (100% confidence)
-util/data_store/abstract_data_store.py:30: unused variable 'filename' (100% confidence)
-util/data_store/abstract_data_store.py:35: unused variable 'src' (100% confidence)
-util/data_store/abstract_data_store.py:35: unused variable 'target' (100% confidence)
-util/data_store/abstract_data_store.py:40: unused variable 'src' (100% confidence)
-util/data_store/abstract_data_store.py:40: unused variable 'target' (100% confidence)
-    Fail
+    Pass
 util/data_store/s3_data_store.py
     Pass
 util/data_store/graph_store.py
-util/data_store/graph_store.py:20: unused variable 'filename' (100% confidence)
-util/data_store/graph_store.py:25: unused variable 'prefix' (100% confidence)
-util/data_store/graph_store.py:30: unused variable 'contents' (100% confidence)
-util/data_store/graph_store.py:30: unused variable 'filename' (100% confidence)
-    Fail
+    Pass
 util/error/__init__.py
     Pass
 util/error/analytics_exception.py
@@ -230,4 +192,4 @@ tests/unit_tests/test_uranus_companion_outlier_testing.py
     Pass
 tests/unit_tests/test_apollo_frequency_dict_generator.py
     Pass
-7 source files out of 91 files seems to contain dead code and/or unused imports
+All checks passed for 91 source files
