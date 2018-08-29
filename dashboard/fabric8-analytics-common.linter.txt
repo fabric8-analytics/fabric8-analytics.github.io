@@ -1,6 +1,6 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-integration-tests ui-tests perf-tests dashboard reproducers load-tests db-integrity-tests
+integration-tests ui-tests perf-tests dashboard reproducers load-tests db-integrity-tests taas
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -221,4 +221,6 @@ db-integrity-tests/src/core_package_checker.py
     Pass
 db-integrity-tests/src/checker.py
     Pass
-All checks passed for 106 source files
+taas/taas.py
+    Pass
+All checks passed for 107 source files
