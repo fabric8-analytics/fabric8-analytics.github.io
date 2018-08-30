@@ -21,18 +21,14 @@ bayesian/schemas/analyses_graphdb.py
 bayesian/schemas/version_range_resolver.py
     Pass
 bayesian/auth.py
-bayesian/auth.py:8: unused import 'login_user' (90% confidence)
 bayesian/auth.py:385: unused variable 'cls' (100% confidence)
     Fail
 bayesian/dependency_finder.py
-bayesian/dependency_finder.py:9: unused import 'StackAnalysisRequest' (90% confidence)
-    Fail
+    Pass
 bayesian/default_config.py
     Pass
 bayesian/__init__.py
-bayesian/__init__.py:13: unused import 'Security' (90% confidence)
-bayesian/__init__.py:13: unused import 'SQLAlchemyUserDatastore' (90% confidence)
-    Fail
+    Pass
 bayesian/utils.py
 bayesian/utils.py:331: unused variable 'projection' (100% confidence)
     Fail
@@ -49,8 +45,7 @@ bayesian/license_extractor.py
 hack/check_api_schemas.py
     Pass
 hack/auth_test_fixtures/generate_auth_token.py
-hack/auth_test_fixtures/generate_auth_token.py:8: unused import 'base64' (90% confidence)
-    Fail
+    Pass
 tests/test_schemas.py
     Pass
 tests/test_manifest_models.py
@@ -58,36 +53,22 @@ tests/test_manifest_models.py
 tests/appconfig.py
     Pass
 tests/test_api_v1.py
-tests/test_api_v1.py:7: unused import 'urlparse' (90% confidence)
-tests/test_api_v1.py:9: unused import 'urlparse' (90% confidence)
-tests/test_api_v1.py:11: unused import 'current_app' (90% confidence)
-tests/test_api_v1.py:11: unused import 'url_for' (90% confidence)
-tests/test_api_v1.py:12: unused import 'AnonymousUser' (90% confidence)
-tests/test_api_v1.py:12: unused import 'current_user' (90% confidence)
-tests/test_api_v1.py:13: unused import 'flexmock' (90% confidence)
-tests/test_api_v1.py:14: unused import 'freeze_time' (90% confidence)
-tests/test_api_v1.py:16: unused import 'requests' (90% confidence)
-tests/test_api_v1.py:17: unused import 'jsonschema' (90% confidence)
-tests/test_api_v1.py:108: unused variable 'request' (100% confidence)
+tests/test_api_v1.py:102: unused variable 'request' (100% confidence)
     Fail
 tests/test_auth.py
-tests/test_auth.py:3: unused import 'pytest' (90% confidence)
-tests/test_auth.py:4: unused import 'auth' (90% confidence)
-    Fail
+    Pass
 tests/test_generate_manifest.py
-tests/test_generate_manifest.py:3: unused import 'pytest' (90% confidence)
-    Fail
+    Pass
 tests/__init__.py
     Pass
 tests/test_depencency_finder.py
-tests/test_depencency_finder.py:3: unused import 'pytest' (90% confidence)
-    Fail
+    Pass
 tests/data/schemas/generate.py
     Pass
 tests/test_utils.py
     Pass
 tests/test_license_extractor.py
-tests/test_license_extractor.py:3: unused import 'pytest' (90% confidence)
+tests/test_license_extractor.py:5: unused import '__init__' (90% confidence)
 tests/test_license_extractor.py:20: unused variable 'str' (100% confidence)
 tests/test_license_extractor.py:26: unused variable 'mocked_object' (100% confidence)
 tests/test_license_extractor.py:50: unused variable 'url' (100% confidence)
@@ -105,9 +86,7 @@ alembic/versions/9d605c7725d8_add_app_stack_tables.py
 alembic/versions/76c5fd72744e_gh_usage_stats.py
     Pass
 alembic/versions/0ff7fe2828a5_initial_revision.py
-alembic/versions/0ff7fe2828a5_initial_revision.py:15: unused import 'op' (90% confidence)
-alembic/versions/0ff7fe2828a5_initial_revision.py:16: unused import 'sa' (90% confidence)
-    Fail
+    Pass
 alembic/versions/e48c7b4235aa_drop_analysisrequest_table.py
     Pass
 alembic/versions/2bd5f6d0c8b0_introduce_stackreq_origin_flag.py
@@ -125,9 +104,7 @@ alembic/versions/a0433904c63b_analysis_requests.py
 alembic/versions/133cd5484609_add_es_marker.py
     Pass
 alembic/versions/b19a6deb869d_stack_request_coltype_change.py
-alembic/versions/b19a6deb869d_stack_request_coltype_change.py:16: unused import 'sa' (90% confidence)
-alembic/versions/b19a6deb869d_stack_request_coltype_change.py:17: unused import 'postgresql' (90% confidence)
-    Fail
+    Pass
 alembic/versions/fc7ea2a7e386_analytics_tables.py
     Pass
 alembic/versions/a31c98c74ea0_add_e_p_v.py
@@ -137,8 +114,7 @@ alembic/versions/3fd95b3a69f5_bye_reviews.py
 alembic/versions/47f4ce1e8d75_stack_analyses_request.py
     Pass
 alembic/versions/2ff043a5af5b_make_ecosystem_name_unique.py
-alembic/versions/2ff043a5af5b_make_ecosystem_name_unique.py:16: unused import 'sa' (90% confidence)
-    Fail
+    Pass
 alembic/versions/02b91e918b43_migrate_to_dynamic_control_flow.py
     Pass
 alembic/versions/60b296cac700_add_similar_components_table.py
@@ -175,4 +151,4 @@ setup.py
 
 setup.py
     Pass
-14 source files out of 61 files seems to contain dead code and/or unused imports
+5 source files out of 61 files seems to contain dead code and/or unused imports
