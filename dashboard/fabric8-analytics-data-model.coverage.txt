@@ -2,13 +2,14 @@ Name                                      Stmts   Miss  Cover   Missing
 -----------------------------------------------------------------------
 src/__init__.py                               2      0   100%
 src/config.py                                22      0   100%
+src/cve.py                                  100     13    87%   39-41, 45-52, 102-103
 src/data_importer.py                        204     20    90%   92, 103, 273, 313-315, 323-324, 331-344, 358, 363, 368, 373, 378, 396, 401, 406
 src/data_source/__init__.py                   0      0   100%
 src/data_source/abstract_data_source.py       6      0   100%
 src/data_source/s3_data_source.py            36      2    94%   29-31
 src/graph_manager.py                         38      0   100%
 src/graph_populator.py                      202      2    99%   69, 467
-src/rest_api.py                             150     10    93%   82, 85-87, 163, 199, 205, 239-242, 277
-src/utils.py                                 36      0   100%
+src/rest_api.py                             176     15    91%   83, 86-88, 164, 200, 206, 240-243, 262, 268-269, 282-283, 317
+src/utils.py                                 49      0   100%
 -----------------------------------------------------------------------
-TOTAL                                       696     34    95%
+TOTAL                                       835     52    94%
