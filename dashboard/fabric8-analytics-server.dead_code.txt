@@ -21,8 +21,7 @@ bayesian/schemas/analyses_graphdb.py
 bayesian/schemas/version_range_resolver.py
     Pass
 bayesian/auth.py
-bayesian/auth.py:385: unused variable 'cls' (100% confidence)
-    Fail
+    Pass
 bayesian/dependency_finder.py
     Pass
 bayesian/default_config.py
@@ -53,8 +52,7 @@ tests/test_manifest_models.py
 tests/appconfig.py
     Pass
 tests/test_api_v1.py
-tests/test_api_v1.py:102: unused variable 'request' (100% confidence)
-    Fail
+    Pass
 tests/test_auth.py
     Pass
 tests/test_generate_manifest.py
@@ -68,19 +66,9 @@ tests/data/schemas/generate.py
 tests/test_utils.py
     Pass
 tests/test_license_extractor.py
-tests/test_license_extractor.py:5: unused import '__init__' (90% confidence)
-tests/test_license_extractor.py:20: unused variable 'str' (100% confidence)
-tests/test_license_extractor.py:26: unused variable 'mocked_object' (100% confidence)
-tests/test_license_extractor.py:50: unused variable 'url' (100% confidence)
-tests/test_license_extractor.py:57: unused variable 'mocked_function' (100% confidence)
-tests/test_license_extractor.py:57: unused variable 'mocked_get' (100% confidence)
-tests/test_license_extractor.py:66: unused variable 'mocked_object' (100% confidence)
-tests/test_license_extractor.py:99: unused variable 'mocked_function' (100% confidence)
-tests/test_license_extractor.py:108: unused variable 'mocked_function' (100% confidence)
-    Fail
+    Pass
 tests/conftest.py
-tests/conftest.py:35: unused variable 'request' (100% confidence)
-    Fail
+    Pass
 alembic/versions/9d605c7725d8_add_app_stack_tables.py
     Pass
 alembic/versions/76c5fd72744e_gh_usage_stats.py
@@ -151,4 +139,4 @@ setup.py
 
 setup.py
     Pass
-5 source files out of 61 files seems to contain dead code and/or unused imports
+1 source files out of 61 files seems to contain dead code and/or unused imports

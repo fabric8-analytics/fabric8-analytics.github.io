@@ -19,7 +19,9 @@ src/rest_api.py
 src/stack_aggregator.py
     Pass
 src/recommender.py
-    Pass
+src/recommender.py:74: 'psycopg2' imported but unused
+src/recommender.py:75: 'numbers.Number' imported but unused
+    Fail
 tests/test_rest_api.py
     Pass
 tests/__init__.py
@@ -32,4 +34,4 @@ tests/test_recommender.py
     Pass
 tests/conftest.py
     Pass
-All checks passed for 11 source files
+1 source files out of 11 files needs to be checked and fixed

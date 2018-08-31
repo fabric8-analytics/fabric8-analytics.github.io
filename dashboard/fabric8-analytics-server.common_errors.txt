@@ -68,10 +68,7 @@ tests/data/schemas/generate.py
 tests/test_utils.py
     Pass
 tests/test_license_extractor.py
-tests/test_license_extractor.py:5: 'bayesian.license_extractor.__init__' imported but unused
-tests/test_license_extractor.py:11: undefined name 'app'
-tests/test_license_extractor.py:45: redefinition of unused '__init__' from line 5
-    Fail
+    Pass
 tests/conftest.py
     Pass
 alembic/versions/9d605c7725d8_add_app_stack_tables.py
@@ -143,4 +140,4 @@ setup.py
 
 setup.py
     Pass
-2 source files out of 61 files needs to be checked and fixed
+1 source files out of 61 files needs to be checked and fixed
