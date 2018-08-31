@@ -9,6 +9,6 @@ src/data_source/s3_data_source.py            36      2    94%   29-31					src/da
 src/graph_manager.py                         38      0   100%						src/graph_manager.py                         38      0   100%
 src/graph_populator.py                      202      2    99%   69, 467					src/graph_populator.py                      202      2    99%   69, 467
 src/rest_api.py                             150     10    93%   82, 85-87, 163, 199, 205, 239-242, 27	src/rest_api.py                             150     10    93%   82, 85-87, 163, 199, 205, 239-242, 27
-src/utils.py                                 37      5    86%   42-48				      |	src/utils.py                                 36      0   100%
+src/utils.py                                 36      0   100%						src/utils.py                                 36      0   100%
 -----------------------------------------------------------------------					-----------------------------------------------------------------------
-TOTAL                                       697     39    94%					      |	TOTAL                                       696     34    95%
+TOTAL                                       696     34    95%						TOTAL                                       696     34    95%

@@ -39,24 +39,24 @@ Name                                                                           S
 /evaluation_platform/__init__.py                                                   0      0   100%	/evaluation_platform/__init__.py                                                   0      0   100%
 /evaluation_platform/uranus/__init__.py                                            0      0   100%	/evaluation_platform/uranus/__init__.py                                            0      0   100%
 /evaluation_platform/uranus/deployment/__init__.py                                 0      0   100%	/evaluation_platform/uranus/deployment/__init__.py                                 0      0   100%
-/evaluation_platform/uranus/deployment/submit_evaluation_job.py                   36     27    25%   	/evaluation_platform/uranus/deployment/submit_evaluation_job.py                   36     27    25%   
+/evaluation_platform/uranus/deployment/submit_evaluation_job.py                   36     27    25%    |	/evaluation_platform/uranus/deployment/submit_evaluation_job.py                   36     36     0%   
 /evaluation_platform/uranus/scripts/__init__.py                                    0      0   100%	/evaluation_platform/uranus/scripts/__init__.py                                    0      0   100%
 /evaluation_platform/uranus/src/__init__.py                                        0      0   100%	/evaluation_platform/uranus/src/__init__.py                                        0      0   100%
-/evaluation_platform/uranus/src/alternate_testing.py                              51     36    29%   	/evaluation_platform/uranus/src/alternate_testing.py                              51     36    29%   
-/evaluation_platform/uranus/src/companion_outlier_testing.py                      65     46    29%   	/evaluation_platform/uranus/src/companion_outlier_testing.py                      65     46    29%   
-/evaluation_platform/uranus/src/evaluate_data.py                                  32     21    34%   	/evaluation_platform/uranus/src/evaluate_data.py                                  32     21    34%   
-/evaluation_platform/uranus/src/generate_test_data.py                             83     60    28%   	/evaluation_platform/uranus/src/generate_test_data.py                             83     60    28%   
-/evaluation_platform/uranus/src/kronos_offline_evaluation.py                      24     13    46%   	/evaluation_platform/uranus/src/kronos_offline_evaluation.py                      24     13    46%   
-/evaluation_platform/uranus/src/super_class.py                                    21     10    52%   	/evaluation_platform/uranus/src/super_class.py                                    21     10    52%   
+/evaluation_platform/uranus/src/alternate_testing.py                              51     36    29%    |	/evaluation_platform/uranus/src/alternate_testing.py                              51     51     0%   
+/evaluation_platform/uranus/src/companion_outlier_testing.py                      65     46    29%    |	/evaluation_platform/uranus/src/companion_outlier_testing.py                      65     65     0%   
+/evaluation_platform/uranus/src/evaluate_data.py                                  32     21    34%    |	/evaluation_platform/uranus/src/evaluate_data.py                                  32     32     0%   
+/evaluation_platform/uranus/src/generate_test_data.py                             83     60    28%    |	/evaluation_platform/uranus/src/generate_test_data.py                             83     54    35%   
+/evaluation_platform/uranus/src/kronos_offline_evaluation.py                      24     13    46%    |	/evaluation_platform/uranus/src/kronos_offline_evaluation.py                      24     24     0%   
+/evaluation_platform/uranus/src/super_class.py                                    21     10    52%    |	/evaluation_platform/uranus/src/super_class.py                                    21     21     0%   
 /evaluation_platform/uranus/src/uranus_constants.py                               11      0   100%	/evaluation_platform/uranus/src/uranus_constants.py                               11      0   100%
 /tagging_platform/__init__.py                                                      0      0   100%	/tagging_platform/__init__.py                                                      0      0   100%
 /tagging_platform/helles/__init__.py                                               0      0   100%	/tagging_platform/helles/__init__.py                                               0      0   100%
 /tagging_platform/helles/deployment/__init__.py                                    0      0   100%	/tagging_platform/helles/deployment/__init__.py                                    0      0   100%
 /tagging_platform/helles/deployment/submit_npm_tagging_job.py                     42     42     0%   	/tagging_platform/helles/deployment/submit_npm_tagging_job.py                     42     42     0%   
 /tagging_platform/helles/npm_tagger/__init__.py                                    0      0   100%	/tagging_platform/helles/npm_tagger/__init__.py                                    0      0   100%
-/tagging_platform/helles/npm_tagger/get_descriptions_from_s3.py                   34     25    26%   	/tagging_platform/helles/npm_tagger/get_descriptions_from_s3.py                   34     25    26%   
-/tagging_platform/helles/npm_tagger/get_version_info_for_missing_packages.py      31     22    29%   	/tagging_platform/helles/npm_tagger/get_version_info_for_missing_packages.py      31     22    29%   
-/tagging_platform/helles/npm_tagger/pytextrank_textrank_scoring.py               162    126    22%   	/tagging_platform/helles/npm_tagger/pytextrank_textrank_scoring.py               162    126    22%   
+/tagging_platform/helles/npm_tagger/get_descriptions_from_s3.py                   34     25    26%    |	/tagging_platform/helles/npm_tagger/get_descriptions_from_s3.py                   34     34     0%   
+/tagging_platform/helles/npm_tagger/get_version_info_for_missing_packages.py      31     22    29%    |	/tagging_platform/helles/npm_tagger/get_version_info_for_missing_packages.py      31     31     0%   
+/tagging_platform/helles/npm_tagger/pytextrank_textrank_scoring.py               162    126    22%    |	/tagging_platform/helles/npm_tagger/pytextrank_textrank_scoring.py               162    162     0%   
 /util/__init__.py                                                                  0      0   100%	/util/__init__.py                                                                  0      0   100%
 /util/analytics_platform_util.py                                                  35     11    69%   	/util/analytics_platform_util.py                                                  35     11    69%   
 /util/data_store/__init__.py                                                       0      0   100%	/util/data_store/__init__.py                                                       0      0   100%
@@ -74,4 +74,4 @@ Name                                                                           S
 /util/softnet_util.py                                                             38      0   100%	/util/softnet_util.py                                                             38      0   100%
 /util/util_constants.py                                                            1      0   100%	/util/util_constants.py                                                            1      0   100%
 -----------------------------------------------------------------------------------------------------	-----------------------------------------------------------------------------------------------------
-TOTAL                                                                           2118    905    57%	TOTAL                                                                           2118    905    57%
+TOTAL                                                                           2118    905    57%    |	TOTAL                                                                           2118   1029    51%

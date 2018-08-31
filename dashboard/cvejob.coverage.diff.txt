@@ -11,7 +11,7 @@ cvejob/outputs/__init__.py             0      0   100%							cvejob/outputs/__in
 cvejob/outputs/victims.py             36     36     0%   3-88						cvejob/outputs/victims.py             36     36     0%   3-88
 cvejob/selectors/__init__.py           0      0   100%							cvejob/selectors/__init__.py           0      0   100%
 cvejob/selectors/basic.py             54     54     0%   3-93						cvejob/selectors/basic.py             54     54     0%   3-93
-cvejob/utils.py                       65     65     0%   3-119						cvejob/utils.py                       65     65     0%   3-119
-cvejob/version.py                     55      4    93%   52-53, 58, 96					cvejob/version.py                     55      4    93%   52-53, 58, 96
+cvejob/utils.py                       65     65     0%   3-119					      |	cvejob/utils.py                       68     18    74%   18-52
+cvejob/version.py                     55      4    93%   52-53, 58, 96				      |	cvejob/version.py                     55      0   100%
 ----------------------------------------------------------------					----------------------------------------------------------------
-TOTAL                                445    250    44%							TOTAL                                445    250    44%
+TOTAL                                445    250    44%						      |	TOTAL                                448    199    56%
