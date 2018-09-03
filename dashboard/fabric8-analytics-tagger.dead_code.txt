@@ -11,12 +11,7 @@ Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages (0.28)
 f8a_tagger/collectors/__init__.py
-f8a_tagger/collectors/__init__.py:3: unused import 'CollectorBase' (90% confidence)
-f8a_tagger/collectors/__init__.py:4: unused import 'MavenCollector' (90% confidence)
-f8a_tagger/collectors/__init__.py:5: unused import 'NpmCollector' (90% confidence)
-f8a_tagger/collectors/__init__.py:6: unused import 'PypiCollector' (90% confidence)
-f8a_tagger/collectors/__init__.py:7: unused import 'StackOverflowCollector' (90% confidence)
-    Fail
+    Pass
 f8a_tagger/collectors/pypi.py
     Pass
 f8a_tagger/collectors/maven.py
@@ -34,24 +29,11 @@ f8a_tagger/collectors/stackoverflow.py:21: unused variable 'ignore_errors' (100%
 f8a_tagger/collectors/stackoverflow.py:21: unused variable 'use_progressbar' (100% confidence)
     Fail
 f8a_tagger/lemmatizer.py
-f8a_tagger/lemmatizer.py:11: unused variable 'cls' (100% confidence)
-    Fail
+    Pass
 f8a_tagger/tokenizer.py
     Pass
 f8a_tagger/__init__.py
-f8a_tagger/__init__.py:10: unused import 'Corpus' (90% confidence)
-f8a_tagger/__init__.py:12: unused import 'KeywordsChief' (90% confidence)
-f8a_tagger/__init__.py:13: unused import 'aggregate' (90% confidence)
-f8a_tagger/__init__.py:14: unused import 'collect' (90% confidence)
-f8a_tagger/__init__.py:15: unused import 'get_registered_collectors' (90% confidence)
-f8a_tagger/__init__.py:16: unused import 'get_registered_scorers' (90% confidence)
-f8a_tagger/__init__.py:17: unused import 'get_registered_stemmers' (90% confidence)
-f8a_tagger/__init__.py:18: unused import 'lookup_file' (90% confidence)
-f8a_tagger/__init__.py:19: unused import 'lookup_readme' (90% confidence)
-f8a_tagger/__init__.py:20: unused import 'lookup_text' (90% confidence)
-f8a_tagger/__init__.py:21: unused import 'reckon' (90% confidence)
-f8a_tagger/__init__.py:22: unused import 'Tokenizer' (90% confidence)
-    Fail
+    Pass
 f8a_tagger/utils.py
     Pass
 f8a_tagger/keywords_chief.py
@@ -59,15 +41,13 @@ f8a_tagger/keywords_chief.py
 f8a_tagger/scoring.py
     Pass
 f8a_tagger/parsers/__init__.py
-f8a_tagger/parsers/__init__.py:4: unused import 'CoreParser' (90% confidence)
-    Fail
+    Pass
 f8a_tagger/parsers/core_parser.py
     Pass
 f8a_tagger/parsers/parsers.py
     Pass
 f8a_tagger/parsers/abstract.py
-f8a_tagger/parsers/abstract.py:11: unused variable 'content' (100% confidence)
-    Fail
+    Pass
 f8a_tagger/stemmer.py
     Pass
 f8a_tagger/corpus.py
@@ -81,38 +61,23 @@ f8a_tagger/errors.py
 f8a_tagger/defaults.py
     Pass
 tests/test_tokenizer.py
-tests/test_tokenizer.py:221: unused variable 'mock1' (100% confidence)
-tests/test_tokenizer.py:221: unused variable 'mock2' (100% confidence)
-tests/test_tokenizer.py:237: unused variable 'mock' (100% confidence)
-    Fail
+    Pass
 tests/test_errors.py
-tests/test_errors.py:3: unused import 'pytest' (90% confidence)
-    Fail
+    Pass
 tests/test_init.py
-tests/test_init.py:22: unused variable 'url' (100% confidence)
-tests/test_init.py:28: unused variable 'mocked_requests_get_obj' (100% confidence)
-    Fail
+    Pass
 tests/test_parsers.py
     Pass
 tests/test_keywords_chief.py
     Pass
 tests/test_recipes.py
-tests/test_recipes.py:40: unused variable 'mocked_function' (100% confidence)
-tests/test_recipes.py:51: unused variable 'mocked_function' (100% confidence)
-tests/test_recipes.py:67: unused variable 'mocked_function' (100% confidence)
-tests/test_recipes.py:118: unused variable 'mocked_function' (100% confidence)
-    Fail
+    Pass
 tests/test_pypi_collector.py
-tests/test_pypi_collector.py:51: unused variable 'mocked_requests_get_obj' (100% confidence)
-tests/test_pypi_collector.py:64: unused variable 'mocked_requests_get_obj' (100% confidence)
-tests/test_pypi_collector.py:87: unused variable 'mocked_requests_get_obj' (100% confidence)
-    Fail
+    Pass
 tests/test_lemmatizer.py
-tests/test_lemmatizer.py:3: unused import 'pytest' (90% confidence)
-    Fail
+    Pass
 tests/test_scoring.py
-tests/test_scoring.py:5: unused import 'KeywordsSet' (90% confidence)
-    Fail
+    Pass
 tests/test_maven_collector.py
     Pass
 tests/__init__.py
@@ -126,16 +91,11 @@ tests/test_stemmer.py
 tests/test_corpus.py
     Pass
 tests/test_stackoverflow_collector.py
-tests/test_stackoverflow_collector.py:32: unused variable 'url' (100% confidence)
-tests/test_stackoverflow_collector.py:44: unused variable 'mock' (100% confidence)
-tests/test_stackoverflow_collector.py:68: unused variable 'mock' (100% confidence)
-tests/test_stackoverflow_collector.py:93: unused variable 'mock' (100% confidence)
-    Fail
+    Pass
 tests/test_core_parser.py
     Pass
 tests/test_keywords_set.py
-tests/test_keywords_set.py:3: unused import 'pytest' (90% confidence)
-    Fail
+    Pass
 tests/conftest.py
     Pass
 ----------------------------------------------------
@@ -147,6 +107,5 @@ f8a_tagger_cli.py setup.py
 f8a_tagger_cli.py
     Pass
 setup.py
-setup.py:9: unused import 'install' (90% confidence)
-    Fail
-18 source files out of 43 files seems to contain dead code and/or unused imports
+    Pass
+3 source files out of 43 files seems to contain dead code and/or unused imports

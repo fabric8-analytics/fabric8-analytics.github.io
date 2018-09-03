@@ -18,7 +18,7 @@ f8a_notification/utils.py
     Pass
 f8a_notification/entryscript.py
 f8a_notification/entryscript.py:24: 'json' imported but unused
-f8a_notification/entryscript.py:45: redefinition of unused 'json' from line 24
+f8a_notification/entryscript.py:48: redefinition of unused 'json' from line 24
     Fail
 f8a_notification/user_notification.py
     Pass
