@@ -99,14 +99,12 @@ f8a_jobs/handlers/maven_releases.py
 f8a_jobs/defaults.py
     Pass
 tests/test_api_v1.py
-tests/test_api_v1.py:3: unused import 'pytest' (90% confidence)
-tests/test_api_v1.py:11: unused variable 'method' (100% confidence)
-tests/test_api_v1.py:15: unused variable 'method' (100% confidence)
+tests/test_api_v1.py:10: unused variable 'method' (100% confidence)
+tests/test_api_v1.py:14: unused variable 'method' (100% confidence)
     Fail
 tests/test_auth.py
-tests/test_auth.py:3: unused import 'pytest' (90% confidence)
-tests/test_auth.py:11: unused variable 'method' (100% confidence)
-tests/test_auth.py:15: unused variable 'method' (100% confidence)
+tests/test_auth.py:10: unused variable 'method' (100% confidence)
+tests/test_auth.py:14: unused variable 'method' (100% confidence)
     Fail
 tests/__init__.py
     Pass
@@ -121,9 +119,8 @@ tests/handlers/__init__.py
 tests/handlers/test_base_handler.py
     Pass
 tests/test_analyses_report.py
-tests/test_analyses_report.py:3: unused import 'pytest' (90% confidence)
-tests/test_analyses_report.py:11: unused variable 'method' (100% confidence)
-tests/test_analyses_report.py:15: unused variable 'method' (100% confidence)
+tests/test_analyses_report.py:10: unused variable 'method' (100% confidence)
+tests/test_analyses_report.py:14: unused variable 'method' (100% confidence)
     Fail
 ----------------------------------------------------
 Checking following source files for dead code and

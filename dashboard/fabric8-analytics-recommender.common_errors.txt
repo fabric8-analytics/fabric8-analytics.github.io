@@ -32,9 +32,7 @@ src/models/similarity_with_frequent_patterns/scoring/entities/entities.py
 src/models/similarity_with_frequent_patterns/scoring/similarity/__init__.py
     Pass
 src/models/similarity_with_frequent_patterns/scoring/similarity/semvercomp.py
-src/models/similarity_with_frequent_patterns/scoring/similarity/semvercomp.py:20: undefined name 'SemverComp'
-src/models/similarity_with_frequent_patterns/scoring/similarity/semvercomp.py:24: undefined name 'Version'
-    Fail
+    Pass
 src/models/similarity_with_frequent_patterns/scoring/similarity/relativesimilarity.py
     Pass
 src/models/similarity_with_frequent_patterns/scoring/db.py
@@ -47,4 +45,4 @@ src/deployment/spark_aws/job_scheduler.py
     Pass
 src/deployment/spark_aws/submit_training_job.py
     Pass
-3 source files out of 16 files needs to be checked and fixed
+2 source files out of 16 files needs to be checked and fixed

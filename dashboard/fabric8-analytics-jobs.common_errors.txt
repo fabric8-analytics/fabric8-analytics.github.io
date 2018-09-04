@@ -94,15 +94,9 @@ f8a_jobs/handlers/maven_releases.py
 f8a_jobs/defaults.py
     Pass
 tests/test_api_v1.py
-tests/test_api_v1.py:3: 'pytest' imported but unused
-tests/test_api_v1.py:5: 'from f8a_jobs.api_v1 import *' used; unable to detect undefined names
-tests/test_api_v1.py:5: 'f8a_jobs.api_v1.*' imported but unused
-    Fail
+    Pass
 tests/test_auth.py
-tests/test_auth.py:3: 'pytest' imported but unused
-tests/test_auth.py:5: 'from f8a_jobs.auth import *' used; unable to detect undefined names
-tests/test_auth.py:5: 'f8a_jobs.auth.*' imported but unused
-    Fail
+    Pass
 tests/__init__.py
     Pass
 tests/test_utils.py
@@ -114,10 +108,7 @@ tests/handlers/__init__.py
 tests/handlers/test_base_handler.py
     Pass
 tests/test_analyses_report.py
-tests/test_analyses_report.py:3: 'pytest' imported but unused
-tests/test_analyses_report.py:5: 'from f8a_jobs.analyses_report import *' used; unable to detect undefined names
-tests/test_analyses_report.py:5: 'f8a_jobs.analyses_report.*' imported but unused
-    Fail
+    Pass
 ----------------------------------------------------
 Checking following source files for common errors:
 f8a-jobs.py setup.py
@@ -128,4 +119,4 @@ f8a-jobs.py:21: redefinition of unused 'logging' from line 8
     Fail
 setup.py
     Pass
-7 source files out of 41 files needs to be checked and fixed
+4 source files out of 41 files needs to be checked and fixed
