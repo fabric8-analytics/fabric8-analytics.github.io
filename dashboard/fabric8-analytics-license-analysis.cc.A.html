@@ -1,18 +1,18 @@
 <pre>tests/test_s3_data_store.py
-    <span style="color:#AA00AA">F </span>61:0 test_list_files_mocked_s3 - <span style="color:#AA5500">C (11)</span>
-    <span style="color:#AA00AA">F </span>16:0 test_get_name - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>29:0 test_read_json_file_negative - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>37:0 test_write_json_file - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>53:0 test_list_files - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>98:0 test_read_all_json_files_negative - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>11:0 test_initial_state - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>22:0 test_read_json_file_positive - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>45:0 test_write_json_file_mocked_s3 - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>90:0 test_read_all_json_files_positive - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>106:0 test_download_file - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>113:0 test_upload_file - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>120:0 test_write_pandas_df_into_json_file - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>134:0 test_read_json_file_into_pandas_df - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>62:0 test_list_files_mocked_s3 - <span style="color:#AA5500">C (11)</span>
+    <span style="color:#AA00AA">F </span>11:0 test_initial_state - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>17:0 test_get_name - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>30:0 test_read_json_file_negative - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>38:0 test_write_json_file - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>54:0 test_list_files - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>99:0 test_read_all_json_files_negative - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>23:0 test_read_json_file_positive - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>46:0 test_write_json_file_mocked_s3 - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>91:0 test_read_all_json_files_positive - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>107:0 test_download_file - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>114:0 test_upload_file - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>121:0 test_write_pandas_df_into_json_file - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>135:0 test_read_json_file_into_pandas_df - <span style="color:#00AA00">A (1)</span>
 tests/s3_mocks.py
     <span style="color:#00AA00">M </span>78:4 MockedS3Bucket.upload_file - <span style="color:#00AA00">A (5)</span>
     <span style="color:#00AA00">M </span>85:4 MockedS3Bucket.download_file - <span style="color:#00AA00">A (5)</span>
@@ -167,12 +167,12 @@ tests/pandas_mocks.py
     <span style="color:#00AA00">M </span>9:4 MockedData.__init__ - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>13:4 MockedData.to_json - <span style="color:#00AA00">A (1)</span>
 src/auth.py
-    <span style="color:#AA00AA">F </span>26:0 decode_token - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>21:0 get_audiences - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>56:0 get_token_from_auth_header - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>61:0 login_required - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>102:0 APIUser - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>105:4 APIUser.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>24:0 decode_token - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>19:0 get_audiences - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>54:0 get_token_from_auth_header - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>59:0 login_required - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>100:0 APIUser - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>103:4 APIUser.__init__ - <span style="color:#00AA00">A (1)</span>
 src/directed_graph.py
     <span style="color:#00AA00">M </span>106:4 DirectedGraph.find_common_reachable_vertices - <span style="color:#00AA00">B (8)</span>
     <span style="color:#00AA00">M </span>129:4 DirectedGraph.read_from_json - <span style="color:#00AA00">A (5)</span>
@@ -275,5 +275,5 @@ src/util/data_store/s3_data_store.py
     <span style="color:#00AA00">M </span>90:4 S3DataStore.read_json_file_into_pandas_df - <span style="color:#00AA00">A (1)</span>
 
 252 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (3.4761904761904763)</span>
+Average complexity: <span style="color:#00AA00">A (3.4801587301587302)</span>
 </pre>
