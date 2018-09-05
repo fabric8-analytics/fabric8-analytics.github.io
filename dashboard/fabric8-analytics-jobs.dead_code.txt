@@ -62,11 +62,7 @@ f8a_jobs/handlers/github_most_starred.py
 f8a_jobs/handlers/github_most_starred.py:95: unused variable 'popular' (100% confidence)
     Fail
 f8a_jobs/handlers/error.py
-f8a_jobs/handlers/error.py:11: unused variable 'exc_str' (100% confidence)
-f8a_jobs/handlers/error.py:11: unused variable 'exc_traceback' (100% confidence)
-f8a_jobs/handlers/error.py:11: unused variable 'failed_handler_kwargs' (100% confidence)
-f8a_jobs/handlers/error.py:11: unused variable 'failed_job_handler' (100% confidence)
-    Fail
+    Pass
 f8a_jobs/handlers/nuget_popular_analyses.py
     Pass
 f8a_jobs/handlers/flow.py
@@ -99,19 +95,13 @@ f8a_jobs/handlers/maven_releases.py
 f8a_jobs/defaults.py
     Pass
 tests/test_api_v1.py
-tests/test_api_v1.py:10: unused variable 'method' (100% confidence)
-tests/test_api_v1.py:14: unused variable 'method' (100% confidence)
-    Fail
+    Pass
 tests/test_auth.py
-tests/test_auth.py:10: unused variable 'method' (100% confidence)
-tests/test_auth.py:14: unused variable 'method' (100% confidence)
-    Fail
+    Pass
 tests/__init__.py
     Pass
 tests/test_utils.py
-tests/test_utils.py:11: unused variable 'method' (100% confidence)
-tests/test_utils.py:15: unused variable 'method' (100% confidence)
-    Fail
+    Pass
 tests/handlers/test_crowd_source_tag.py
     Pass
 tests/handlers/__init__.py
@@ -119,9 +109,7 @@ tests/handlers/__init__.py
 tests/handlers/test_base_handler.py
     Pass
 tests/test_analyses_report.py
-tests/test_analyses_report.py:10: unused variable 'method' (100% confidence)
-tests/test_analyses_report.py:14: unused variable 'method' (100% confidence)
-    Fail
+    Pass
 ----------------------------------------------------
 Checking following source files for dead code and
 unused imports:
@@ -132,4 +120,4 @@ f8a-jobs.py
     Pass
 setup.py
     Pass
-9 source files out of 41 files seems to contain dead code and/or unused imports
+4 source files out of 41 files seems to contain dead code and/or unused imports

@@ -19,9 +19,7 @@ src/rest_api.py
 src/stack_aggregator.py
     Pass
 src/recommender.py
-src/recommender.py:74: unused import 'psycopg2' (90% confidence)
-src/recommender.py:75: unused import 'Number' (90% confidence)
-    Fail
+    Pass
 tests/test_rest_api.py
     Pass
 tests/__init__.py
@@ -34,4 +32,4 @@ tests/test_recommender.py
     Pass
 tests/conftest.py
     Pass
-1 source files out of 11 files seems to contain dead code and/or unused imports
+All checks passed for 11 source files
