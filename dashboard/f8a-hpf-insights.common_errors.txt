@@ -25,18 +25,11 @@ src/__init__.py
 src/utils.py
     Pass
 src/flask_endpoint.py
-src/flask_endpoint.py:7: 'flask.Flask' imported but unused
-    Fail
+    Pass
 src/scoring/__init__.py
     Pass
 src/scoring/hpf_scoring.py
-src/scoring/hpf_scoring.py:11: redefinition of unused 'os' from line 5
-src/scoring/hpf_scoring.py:14: 'collections.defaultdict' imported but unused
-src/scoring/hpf_scoring.py:16: 'src.data_store.local_data_store.LocalDataStore' imported but unused
-src/scoring/hpf_scoring.py:18: 'src.config.c' imported but unused
-src/scoring/hpf_scoring.py:18: 'src.config.c_c' imported but unused
-src/scoring/hpf_scoring.py:18: 'src.config.d_c' imported but unused
-    Fail
+    Pass
 src/training/__init__.py
     Pass
 tests/__init__.py
@@ -44,8 +37,7 @@ tests/__init__.py
 tests/unit_tests/test_flask_endpoint.py
     Pass
 tests/unit_tests/test_scoring_hpf_scoring.py
-tests/unit_tests/test_scoring_hpf_scoring.py:6: 'tensorflow as tf' imported but unused
-    Fail
+    Pass
 tests/unit_tests/__init__.py
     Pass
 tests/unit_tests/test_local_datastore.py
@@ -61,10 +53,7 @@ tests/test_data/maven/scoring/__init__.py
 perf_tests/__init__.py
     Pass
 perf_tests/locust_tests.py
-perf_tests/locust_tests.py:4: 'locust.events' imported but unused
-perf_tests/locust_tests.py:4: 'locust.web' imported but unused
-perf_tests/locust_tests.py:99: local variable 'response' is assigned to but never used
-    Fail
+    Pass
 PoC_code/__init__.py
     Pass
-4 source files out of 23 files needs to be checked and fixed
+All checks passed for 23 source files
