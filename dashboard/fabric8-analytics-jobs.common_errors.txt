@@ -25,8 +25,7 @@ f8a_jobs/error.py
 f8a_jobs/analyses_report.py
     Pass
 f8a_jobs/api_v1.py
-f8a_jobs/api_v1.py:11: 'selinon.run_flow' imported but unused
-    Fail
+    Pass
 f8a_jobs/graph_sync.py
     Pass
 f8a_jobs/handlers/aggregate_crowd_source_tags.py
@@ -38,26 +37,7 @@ f8a_jobs/handlers/maven_popular_analyses.py
 f8a_jobs/handlers/github_manifests.py
     Pass
 f8a_jobs/handlers/__init__.py
-f8a_jobs/handlers/__init__.py:3: '.aggregate_crowd_source_tags.AggregateCrowdSourceTags' imported but unused
-f8a_jobs/handlers/__init__.py:4: '.aggregate_github_manifest_pkgs.AggregateGitHubManifestPackages' imported but unused
-f8a_jobs/handlers/__init__.py:5: '.aggregate_topics.AggregateTopics' imported but unused
-f8a_jobs/handlers/__init__.py:6: '.book_keeping.BookKeeping' imported but unused
-f8a_jobs/handlers/__init__.py:7: '.clean_postgres.CleanPostgres' imported but unused
-f8a_jobs/handlers/__init__.py:8: '.error.ErrorHandler' imported but unused
-f8a_jobs/handlers/__init__.py:9: '.flow.FlowScheduling' imported but unused
-f8a_jobs/handlers/__init__.py:10: '.github_most_starred.GitHubMostStarred' imported but unused
-f8a_jobs/handlers/__init__.py:11: '.github_manifests.GitHubManifests' imported but unused
-f8a_jobs/handlers/__init__.py:12: '.golang_popular_analyses.GolangPopularAnalyses' imported but unused
-f8a_jobs/handlers/__init__.py:13: '.kronos_data_update.KronosDataUpdater' imported but unused
-f8a_jobs/handlers/__init__.py:14: '.maven_popular_analyses.MavenPopularAnalyses' imported but unused
-f8a_jobs/handlers/__init__.py:15: '.maven_releases.MavenReleasesAnalyses' imported but unused
-f8a_jobs/handlers/__init__.py:16: '.npm_popular_analyses.NpmPopularAnalyses' imported but unused
-f8a_jobs/handlers/__init__.py:17: '.nuget_popular_analyses.NugetPopularAnalyses' imported but unused
-f8a_jobs/handlers/__init__.py:18: '.python_popular_analyses.PythonPopularAnalyses' imported but unused
-f8a_jobs/handlers/__init__.py:19: '.selective_flow.SelectiveFlowScheduling' imported but unused
-f8a_jobs/handlers/__init__.py:20: '.sync_to_graph.SyncToGraph' imported but unused
-f8a_jobs/handlers/__init__.py:21: '.invoke_graph_sync.InvokeGraphSync' imported but unused
-    Fail
+    Pass
 f8a_jobs/handlers/github_most_starred.py
     Pass
 f8a_jobs/handlers/error.py
@@ -71,8 +51,7 @@ f8a_jobs/handlers/python_popular_analyses.py
 f8a_jobs/handlers/sync_to_graph.py
     Pass
 f8a_jobs/handlers/kronos_data_update.py
-f8a_jobs/handlers/kronos_data_update.py:4: 'sqlalchemy.exc.SQLAlchemyError' imported but unused
-    Fail
+    Pass
 f8a_jobs/handlers/aggregate_github_manifest_pkgs.py
     Pass
 f8a_jobs/handlers/clean_postgres.py
@@ -115,8 +94,7 @@ f8a-jobs.py setup.py
 ----------------------------------------------------
 
 f8a-jobs.py
-f8a-jobs.py:21: redefinition of unused 'logging' from line 8
-    Fail
+    Pass
 setup.py
     Pass
-4 source files out of 41 files needs to be checked and fixed
+All checks passed for 41 source files

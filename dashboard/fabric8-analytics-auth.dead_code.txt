@@ -10,35 +10,37 @@ Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages (0.28)
-fabric8a_auth/fabric8a_auth.py
-fabric8a_auth/fabric8a_auth.py:8: unused import 'RSAAlgorithm' (90% confidence)
-    Fail
+fabric8a_auth/auth.py
+    Pass
 fabric8a_auth/__init__.py
     Pass
 fabric8a_auth/errors.py
     Pass
 tests/test_errors_class.py
-tests/test_errors_class.py:3: unused import 'unittest' (90% confidence)
-    Fail
+    Pass
 tests/__init__.py
     Pass
-tests/test_user_class.py
-tests/test_user_class.py:3: unused import 'unittest' (90% confidence)
-    Fail
 tests/test_token_handling.py
-tests/test_token_handling.py:12: unused variable 'module' (100% confidence)
-tests/test_token_handling.py:36: unused variable 'module' (100% confidence)
-tests/test_token_handling.py:41: unused variable 'app' (100% confidence)
-tests/test_token_handling.py:46: unused variable 'app' (100% confidence)
-tests/test_token_handling.py:51: unused variable 'app' (100% confidence)
-tests/test_token_handling.py:75: unused variable 'mocked_fetch_public_key' (100% confidence)
-tests/test_token_handling.py:84: unused variable 'mocked_fetch_public_key' (100% confidence)
-tests/test_token_handling.py:94: unused variable 'mocked_fetch_public_key' (100% confidence)
-tests/test_token_handling.py:104: unused variable 'mocked_fetch_public_key' (100% confidence)
-tests/test_token_handling.py:114: unused variable 'mocked_fetch_public_key' (100% confidence)
-tests/test_token_handling.py:124: unused variable 'mocked_fetch_public_key' (100% confidence)
-tests/test_token_handling.py:138: unused variable 'mocked_fetch_public_key' (100% confidence)
-tests/test_token_handling.py:153: unused variable 'mocked_fetch_public_key' (100% confidence)
+tests/test_token_handling.py:24: unused variable 'module' (100% confidence)
+tests/test_token_handling.py:52: unused variable 'module' (100% confidence)
+tests/test_token_handling.py:92: unused variable 'endpoint' (100% confidence)
+tests/test_token_handling.py:92: unused variable 'timeout' (100% confidence)
+tests/test_token_handling.py:111: unused variable 'endpoint' (100% confidence)
+tests/test_token_handling.py:111: unused variable 'timeout' (100% confidence)
+tests/test_token_handling.py:159: unused variable 'mocked_fetch_public_key' (100% confidence)
+tests/test_token_handling.py:169: unused variable 'mocked_fetch_public_key' (100% confidence)
+tests/test_token_handling.py:179: unused variable 'mocked_fetch_public_key' (100% confidence)
+tests/test_token_handling.py:189: unused variable 'mocked_fetch_public_key' (100% confidence)
+tests/test_token_handling.py:199: unused variable 'mocked_fetch_public_key' (100% confidence)
+tests/test_token_handling.py:209: unused variable 'mocked_fetch_public_key' (100% confidence)
+tests/test_token_handling.py:223: unused variable 'mocked_fetch_public_key' (100% confidence)
+tests/test_token_handling.py:238: unused variable 'mocked_fetch_public_key' (100% confidence)
+tests/test_token_handling.py:253: unused variable 'mocked_fetch_public_key' (100% confidence)
+tests/test_token_handling.py:266: unused variable 'mocked_fetch_public_key' (100% confidence)
+tests/test_token_handling.py:297: unused variable 'mocked_fetch_public_key' (100% confidence)
+tests/test_token_handling.py:314: unused variable 'mocked_fetch_public_key' (100% confidence)
+tests/test_token_handling.py:332: unused variable 'mocked_fetch_public_key' (100% confidence)
+tests/test_token_handling.py:349: unused variable 'mocked_fetch_public_key' (100% confidence)
     Fail
 ----------------------------------------------------
 Checking following source files for dead code and
@@ -48,4 +50,4 @@ setup.py
 
 setup.py
     Pass
-4 source files out of 8 files seems to contain dead code and/or unused imports
+1 source files out of 7 files seems to contain dead code and/or unused imports

@@ -2,7 +2,7 @@ Name                                                   Stmts   Miss  Cover   Mis
 ------------------------------------------------------------------------------------
 /bayesian/bayesian/__init__.py                            60     13    78%   60, 64-80
 /bayesian/bayesian/api_v1.py                             642    425    34%   81-88, 131-161, 214, 232-236, 265-271, 284-310, 315-322, 336-420, 433-446, 460-474, 485-511, 522-538, 550-563, 567, 578-589, 600-622, 670, 675, 687-699, 715-872, 877, 888-921, 934-1027, 1046-1054, 1065-1096, 1107-1126, 1137-1207, 1217
-/bayesian/bayesian/auth.py                                16     12    25%   10-23
+/bayesian/bayesian/auth.py                                16     12    25%   10-24
 /bayesian/bayesian/default_config.py                      23      0   100%
 /bayesian/bayesian/dependency_finder.py                   77     62    19%   26-34, 40-118
 /bayesian/bayesian/exceptions.py                           5      0   100%

@@ -1,11 +1,11 @@
 <pre>f8a-jobs.py
-    <span style="color:#AA00AA">F </span>89:0 api_v1 - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>24:0 SafeJSONEncoder - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>27:4 SafeJSONEncoder.default - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>37:0 init_logging - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>82:0 base_url - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>102:0 initjobs - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>113:0 runserver - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>88:0 api_v1 - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>23:0 SafeJSONEncoder - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>26:4 SafeJSONEncoder.default - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>36:0 init_logging - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>81:0 base_url - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>101:0 initjobs - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>112:0 runserver - <span style="color:#00AA00">A (1)</span>
 setup.py
     <span style="color:#AA00AA">F </span>9:0 get_requirements - <span style="color:#00AA00">A (2)</span>
 tests/test_api_v1.py
@@ -83,55 +83,55 @@ f8a_jobs/analyses_report.py
     <span style="color:#AA00AA">F </span>68:0 _get_finished_packages_count - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>73:0 _get_versions_count - <span style="color:#00AA00">A (1)</span>
 f8a_jobs/api_v1.py
-    <span style="color:#AA00AA">F </span>149:0 get_jobs - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#AA00AA">F </span>46:0 authorized - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>92:0 put_service_state - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>132:0 put_jobs - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>120:0 delete_clean_failed - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>521:0 post_run_victims_check - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>37:0 logout - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>109:0 delete_jobs - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>190:0 post_schedule_job - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>203:0 post_show_select_query - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>216:0 post_expand_filter_query - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>227:0 get_analyses_report - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>237:0 get_queue_attributes - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>248:0 get_gh_tokens_rate_limits - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>279:0 post_analyses - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>292:0 github_most_starred - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>325:0 post_clean_postgres - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>357:0 post_queue_purge - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>31:0 generate_token - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>85:0 get_service_state - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>173:0 get_readiness - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>178:0 get_liveness - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>265:0 post_flow_scheduling - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>272:0 post_selective_flow_scheduling - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>304:0 github_manifests - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>311:0 aggregate_crowd_source_tags - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>318:0 aggregate_github_manifest_pkgs - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>336:0 post_sync_to_graph - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>343:0 post_invoke_graph_sync - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>350:0 post_aggregate_topics - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>367:0 post_maven_releases - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>374:0 get_maven_releases - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>381:0 put_maven_releases - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>389:0 bookkeeping_all - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>396:0 bookkeeping_ecosystem - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>403:0 bookkeeping_ecosystem_package - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>410:0 bookkeeping_epv - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>417:0 bookkeeping_upstreams_all - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>424:0 bookkeeping_upstreams_ecosystem - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>431:0 bookkeeping_upstreams_ecosystem_package - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>438:0 post_kronos_data_update - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>446:0 retrieve_graphsync_all - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>453:0 retrieve_graphsync_ecosystem - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>460:0 retrieve_graphsync_ecosystem_package - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>471:0 retrieve_graphsync_epv - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>484:0 invoke_graphsync_all - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>491:0 invoke_graphsync_ecosystem - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>498:0 invoke_graphsync_ecosystem_package - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>509:0 invoke_graphsync_epv - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>148:0 get_jobs - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#AA00AA">F </span>45:0 authorized - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>91:0 put_service_state - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>131:0 put_jobs - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>119:0 delete_clean_failed - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>520:0 post_run_victims_check - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>36:0 logout - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>108:0 delete_jobs - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>189:0 post_schedule_job - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>202:0 post_show_select_query - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>215:0 post_expand_filter_query - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>226:0 get_analyses_report - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>236:0 get_queue_attributes - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>247:0 get_gh_tokens_rate_limits - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>278:0 post_analyses - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>291:0 github_most_starred - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>324:0 post_clean_postgres - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>356:0 post_queue_purge - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>30:0 generate_token - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>84:0 get_service_state - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>172:0 get_readiness - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>177:0 get_liveness - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>264:0 post_flow_scheduling - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>271:0 post_selective_flow_scheduling - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>303:0 github_manifests - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>310:0 aggregate_crowd_source_tags - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>317:0 aggregate_github_manifest_pkgs - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>335:0 post_sync_to_graph - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>342:0 post_invoke_graph_sync - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>349:0 post_aggregate_topics - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>366:0 post_maven_releases - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>373:0 get_maven_releases - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>380:0 put_maven_releases - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>388:0 bookkeeping_all - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>395:0 bookkeeping_ecosystem - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>402:0 bookkeeping_ecosystem_package - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>409:0 bookkeeping_epv - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>416:0 bookkeeping_upstreams_all - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>423:0 bookkeeping_upstreams_ecosystem - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>430:0 bookkeeping_upstreams_ecosystem_package - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>437:0 post_kronos_data_update - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>445:0 retrieve_graphsync_all - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>452:0 retrieve_graphsync_ecosystem - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>459:0 retrieve_graphsync_ecosystem_package - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>470:0 retrieve_graphsync_epv - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>483:0 invoke_graphsync_all - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>490:0 invoke_graphsync_ecosystem - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>497:0 invoke_graphsync_ecosystem_package - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>508:0 invoke_graphsync_epv - <span style="color:#00AA00">A (1)</span>
 f8a_jobs/graph_sync.py
     <span style="color:#AA00AA">F </span>14:0 _api_call - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>27:0 fetch_pending - <span style="color:#00AA00">A (3)</span>
@@ -193,14 +193,14 @@ f8a_jobs/handlers/sync_to_graph.py
     <span style="color:#00AAAA">C </span>10:0 SyncToGraph - <span style="color:#00AA00">B (7)</span>
     <span style="color:#00AA00">M </span>15:4 SyncToGraph.execute - <span style="color:#00AA00">B (7)</span>
 f8a_jobs/handlers/kronos_data_update.py
-    <span style="color:#00AA00">M </span>98:4 KronosDataUpdater._processing - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#00AA00">M </span>79:4 KronosDataUpdater._append_package_topic - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AAAA">C </span>10:0 KronosDataUpdater - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>62:4 KronosDataUpdater._append_manifest - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>13:4 KronosDataUpdater.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>25:4 KronosDataUpdater.execute - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>41:4 KronosDataUpdater._generate_query - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>56:4 KronosDataUpdater._execute_query - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>97:4 KronosDataUpdater._processing - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#00AA00">M </span>78:4 KronosDataUpdater._append_package_topic - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AAAA">C </span>9:0 KronosDataUpdater - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>61:4 KronosDataUpdater._append_manifest - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>12:4 KronosDataUpdater.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>24:4 KronosDataUpdater.execute - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>40:4 KronosDataUpdater._generate_query - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>55:4 KronosDataUpdater._execute_query - <span style="color:#00AA00">A (1)</span>
 f8a_jobs/handlers/aggregate_github_manifest_pkgs.py
     <span style="color:#00AA00">M </span>11:4 AggregateGitHubManifestPackages.execute - <span style="color:#00AA00">B (9)</span>
     <span style="color:#00AAAA">C </span>8:0 AggregateGitHubManifestPackages - <span style="color:#00AA00">A (4)</span>

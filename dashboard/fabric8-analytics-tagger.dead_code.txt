@@ -17,17 +17,11 @@ f8a_tagger/collectors/pypi.py
 f8a_tagger/collectors/maven.py
     Pass
 f8a_tagger/collectors/npm.py
-f8a_tagger/collectors/npm.py:10: unused variable 'ignore_errors' (100% confidence)
-f8a_tagger/collectors/npm.py:10: unused variable 'use_progressbar' (100% confidence)
-    Fail
+    Pass
 f8a_tagger/collectors/base.py
-f8a_tagger/collectors/base.py:13: unused variable 'ignore_errors' (100% confidence)
-f8a_tagger/collectors/base.py:13: unused variable 'use_progressbar' (100% confidence)
-    Fail
+    Pass
 f8a_tagger/collectors/stackoverflow.py
-f8a_tagger/collectors/stackoverflow.py:21: unused variable 'ignore_errors' (100% confidence)
-f8a_tagger/collectors/stackoverflow.py:21: unused variable 'use_progressbar' (100% confidence)
-    Fail
+    Pass
 f8a_tagger/lemmatizer.py
     Pass
 f8a_tagger/tokenizer.py
@@ -108,4 +102,4 @@ f8a_tagger_cli.py
     Pass
 setup.py
     Pass
-3 source files out of 43 files seems to contain dead code and/or unused imports
+All checks passed for 43 source files

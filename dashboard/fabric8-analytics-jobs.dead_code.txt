@@ -25,8 +25,7 @@ f8a_jobs/error.py
 f8a_jobs/analyses_report.py
     Pass
 f8a_jobs/api_v1.py
-f8a_jobs/api_v1.py:11: unused import 'run_flow' (90% confidence)
-    Fail
+    Pass
 f8a_jobs/graph_sync.py
     Pass
 f8a_jobs/handlers/aggregate_crowd_source_tags.py
@@ -38,26 +37,7 @@ f8a_jobs/handlers/maven_popular_analyses.py
 f8a_jobs/handlers/github_manifests.py
     Pass
 f8a_jobs/handlers/__init__.py
-f8a_jobs/handlers/__init__.py:3: unused import 'AggregateCrowdSourceTags' (90% confidence)
-f8a_jobs/handlers/__init__.py:4: unused import 'AggregateGitHubManifestPackages' (90% confidence)
-f8a_jobs/handlers/__init__.py:5: unused import 'AggregateTopics' (90% confidence)
-f8a_jobs/handlers/__init__.py:6: unused import 'BookKeeping' (90% confidence)
-f8a_jobs/handlers/__init__.py:7: unused import 'CleanPostgres' (90% confidence)
-f8a_jobs/handlers/__init__.py:8: unused import 'ErrorHandler' (90% confidence)
-f8a_jobs/handlers/__init__.py:9: unused import 'FlowScheduling' (90% confidence)
-f8a_jobs/handlers/__init__.py:10: unused import 'GitHubMostStarred' (90% confidence)
-f8a_jobs/handlers/__init__.py:11: unused import 'GitHubManifests' (90% confidence)
-f8a_jobs/handlers/__init__.py:12: unused import 'GolangPopularAnalyses' (90% confidence)
-f8a_jobs/handlers/__init__.py:13: unused import 'KronosDataUpdater' (90% confidence)
-f8a_jobs/handlers/__init__.py:14: unused import 'MavenPopularAnalyses' (90% confidence)
-f8a_jobs/handlers/__init__.py:15: unused import 'MavenReleasesAnalyses' (90% confidence)
-f8a_jobs/handlers/__init__.py:16: unused import 'NpmPopularAnalyses' (90% confidence)
-f8a_jobs/handlers/__init__.py:17: unused import 'NugetPopularAnalyses' (90% confidence)
-f8a_jobs/handlers/__init__.py:18: unused import 'PythonPopularAnalyses' (90% confidence)
-f8a_jobs/handlers/__init__.py:19: unused import 'SelectiveFlowScheduling' (90% confidence)
-f8a_jobs/handlers/__init__.py:20: unused import 'SyncToGraph' (90% confidence)
-f8a_jobs/handlers/__init__.py:21: unused import 'InvokeGraphSync' (90% confidence)
-    Fail
+    Pass
 f8a_jobs/handlers/github_most_starred.py
 f8a_jobs/handlers/github_most_starred.py:95: unused variable 'popular' (100% confidence)
     Fail
@@ -72,8 +52,7 @@ f8a_jobs/handlers/python_popular_analyses.py
 f8a_jobs/handlers/sync_to_graph.py
     Pass
 f8a_jobs/handlers/kronos_data_update.py
-f8a_jobs/handlers/kronos_data_update.py:4: unused import 'SQLAlchemyError' (90% confidence)
-    Fail
+    Pass
 f8a_jobs/handlers/aggregate_github_manifest_pkgs.py
     Pass
 f8a_jobs/handlers/clean_postgres.py
@@ -120,4 +99,4 @@ f8a-jobs.py
     Pass
 setup.py
     Pass
-4 source files out of 41 files seems to contain dead code and/or unused imports
+1 source files out of 41 files seems to contain dead code and/or unused imports

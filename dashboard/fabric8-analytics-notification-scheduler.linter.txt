@@ -22,8 +22,7 @@ f8a_notification/user_notification.py
 tests/__init__.py
     Pass
 tests/test_utils.py
-tests/test_utils.py:152:1: W391 blank line at end of file
-    Fail
+    Pass
 tests/test_entry.py
     Pass
 
@@ -33,4 +32,4 @@ setup.py
 ----------------------------------------------------
 setup.py
     Pass
-Linter fail, 1 source files out of 9 source files need to be fixed
+All checks passed for 9 source files

@@ -9,9 +9,8 @@ Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: pycodestyle in ./venv/lib/python3.6/site-packages (2.4.0)
-fabric8a_auth/fabric8a_auth.py
-fabric8a_auth/fabric8a_auth.py:12:1: E265 block comment should start with '# '
-    Fail
+fabric8a_auth/auth.py
+    Pass
 fabric8a_auth/__init__.py
     Pass
 fabric8a_auth/errors.py
@@ -20,13 +19,8 @@ tests/test_errors_class.py
     Pass
 tests/__init__.py
     Pass
-tests/test_user_class.py
-    Pass
 tests/test_token_handling.py
-tests/test_token_handling.py:33:5: E265 block comment should start with '# '
-tests/test_token_handling.py:53:26: E231 missing whitespace after ','
-tests/test_token_handling.py:53:32: E231 missing whitespace after ':'
-    Fail
+    Pass
 
 ----------------------------------------------------
 Running Python linter against selected files:
@@ -34,4 +28,4 @@ setup.py
 ----------------------------------------------------
 setup.py
     Pass
-Linter fail, 2 source files out of 8 source files need to be fixed
+All checks passed for 7 source files

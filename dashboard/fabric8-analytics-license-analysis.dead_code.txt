@@ -15,26 +15,11 @@ src/auth.py
 src/util/data_store/__init__.py
     Pass
 src/util/data_store/local_filesystem.py
-src/util/data_store/local_filesystem.py:62: unused variable 'src' (100% confidence)
-src/util/data_store/local_filesystem.py:62: unused variable 'target' (100% confidence)
-src/util/data_store/local_filesystem.py:67: unused variable 'src' (100% confidence)
-src/util/data_store/local_filesystem.py:67: unused variable 'target' (100% confidence)
-src/util/data_store/local_filesystem.py:87: unused variable 'cls' (100% confidence)
-    Fail
+    Pass
 src/util/data_store/abstract_data_store.py
-src/util/data_store/abstract_data_store.py:14: unused variable 'max_count' (100% confidence)
-src/util/data_store/abstract_data_store.py:14: unused variable 'prefix' (100% confidence)
-src/util/data_store/abstract_data_store.py:18: unused variable 'filename' (100% confidence)
-src/util/data_store/abstract_data_store.py:26: unused variable 'contents' (100% confidence)
-src/util/data_store/abstract_data_store.py:26: unused variable 'filename' (100% confidence)
-src/util/data_store/abstract_data_store.py:30: unused variable 'src' (100% confidence)
-src/util/data_store/abstract_data_store.py:30: unused variable 'target' (100% confidence)
-src/util/data_store/abstract_data_store.py:34: unused variable 'src' (100% confidence)
-src/util/data_store/abstract_data_store.py:34: unused variable 'target' (100% confidence)
-    Fail
+    Pass
 src/util/data_store/s3_data_store.py
-src/util/data_store/s3_data_store.py:90: unused variable 'index_col' (100% confidence)
-    Fail
+    Pass
 src/util/__init__.py
     Pass
 src/directed_graph.py
@@ -83,4 +68,4 @@ tests/conftest.py
     Pass
 tests/pandas_mocks.py
     Pass
-3 source files out of 29 files seems to contain dead code and/or unused imports
+All checks passed for 29 source files
