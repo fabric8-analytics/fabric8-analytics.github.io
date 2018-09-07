@@ -2,7 +2,7 @@ Name                                           Stmts   Miss  Cover   Missing
 ----------------------------------------------------------------------------
 f8a_version_comparator/__init__.py                 5      0   100%
 f8a_version_comparator/base.py                     4      0   100%
-f8a_version_comparator/comparable_version.py      85      0   100%
+f8a_version_comparator/comparable_version.py      97      0   100%
 f8a_version_comparator/item_object.py            111      0   100%
 ----------------------------------------------------------------------------
-TOTAL                                            205      0   100%
+TOTAL                                            217      0   100%
