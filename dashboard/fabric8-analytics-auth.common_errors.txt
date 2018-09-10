@@ -17,47 +17,11 @@ fabric8a_auth/__init__.py
 fabric8a_auth/errors.py
     Pass
 tests/test_errors_class.py
-tests/test_errors_class.py:16: local variable 'e' is assigned to but never used
-    Fail
+    Pass
 tests/__init__.py
     Pass
 tests/test_token_handling.py
-tests/test_token_handling.py:4: 'from unittest.mock import *' used; unable to detect undefined names
-tests/test_token_handling.py:155: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:157: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:165: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:167: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:175: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:177: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:185: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:187: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:195: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:197: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:205: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:207: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:219: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:221: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:234: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:236: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:249: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:251: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:264: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:276: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:283: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:285: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:291: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:293: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:295: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:308: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:310: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:312: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:326: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:328: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:330: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:343: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:345: 'patch' may be undefined, or defined from star imports: unittest.mock
-tests/test_token_handling.py:347: 'patch' may be undefined, or defined from star imports: unittest.mock
-    Fail
+    Pass
 ----------------------------------------------------
 Checking following source files for common errors:
 setup.py
@@ -65,4 +29,4 @@ setup.py
 
 setup.py
     Pass
-2 source files out of 7 files needs to be checked and fixed
+All checks passed for 7 source files

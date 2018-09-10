@@ -21,27 +21,7 @@ tests/test_errors_class.py
 tests/__init__.py
     Pass
 tests/test_token_handling.py
-tests/test_token_handling.py:24: unused variable 'module' (100% confidence)
-tests/test_token_handling.py:52: unused variable 'module' (100% confidence)
-tests/test_token_handling.py:92: unused variable 'endpoint' (100% confidence)
-tests/test_token_handling.py:92: unused variable 'timeout' (100% confidence)
-tests/test_token_handling.py:111: unused variable 'endpoint' (100% confidence)
-tests/test_token_handling.py:111: unused variable 'timeout' (100% confidence)
-tests/test_token_handling.py:159: unused variable 'mocked_fetch_public_key' (100% confidence)
-tests/test_token_handling.py:169: unused variable 'mocked_fetch_public_key' (100% confidence)
-tests/test_token_handling.py:179: unused variable 'mocked_fetch_public_key' (100% confidence)
-tests/test_token_handling.py:189: unused variable 'mocked_fetch_public_key' (100% confidence)
-tests/test_token_handling.py:199: unused variable 'mocked_fetch_public_key' (100% confidence)
-tests/test_token_handling.py:209: unused variable 'mocked_fetch_public_key' (100% confidence)
-tests/test_token_handling.py:223: unused variable 'mocked_fetch_public_key' (100% confidence)
-tests/test_token_handling.py:238: unused variable 'mocked_fetch_public_key' (100% confidence)
-tests/test_token_handling.py:253: unused variable 'mocked_fetch_public_key' (100% confidence)
-tests/test_token_handling.py:266: unused variable 'mocked_fetch_public_key' (100% confidence)
-tests/test_token_handling.py:297: unused variable 'mocked_fetch_public_key' (100% confidence)
-tests/test_token_handling.py:314: unused variable 'mocked_fetch_public_key' (100% confidence)
-tests/test_token_handling.py:332: unused variable 'mocked_fetch_public_key' (100% confidence)
-tests/test_token_handling.py:349: unused variable 'mocked_fetch_public_key' (100% confidence)
-    Fail
+    Pass
 ----------------------------------------------------
 Checking following source files for dead code and
 unused imports:
@@ -50,4 +30,4 @@ setup.py
 
 setup.py
     Pass
-1 source files out of 7 files seems to contain dead code and/or unused imports
+All checks passed for 7 source files

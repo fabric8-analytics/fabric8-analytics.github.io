@@ -36,8 +36,7 @@ bayesian/manifest_models.py
 bayesian/generate_manifest.py
     Pass
 bayesian/api_v1.py
-bayesian/api_v1.py:31: unused import 'decode_token' (90% confidence)
-    Fail
+    Pass
 bayesian/exceptions.py
     Pass
 bayesian/license_extractor.py
@@ -138,4 +137,4 @@ setup.py
 
 setup.py
     Pass
-2 source files out of 60 files seems to contain dead code and/or unused imports
+1 source files out of 60 files seems to contain dead code and/or unused imports

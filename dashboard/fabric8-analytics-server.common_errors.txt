@@ -35,11 +35,7 @@ bayesian/manifest_models.py
 bayesian/generate_manifest.py
     Pass
 bayesian/api_v1.py
-bayesian/api_v1.py:31: 'fabric8a_auth.auth.decode_token' imported but unused
-bayesian/api_v1.py:797: local variable 'iso' is assigned to but never used
-bayesian/api_v1.py:818: local variable 'manifest_file' is assigned to but never used
-bayesian/api_v1.py:1210: redefinition of unused 'RecommendationFeedback' from line 23
-    Fail
+    Pass
 bayesian/exceptions.py
     Pass
 bayesian/license_extractor.py
@@ -139,4 +135,4 @@ setup.py
 
 setup.py
     Pass
-1 source files out of 60 files needs to be checked and fixed
+All checks passed for 60 source files
