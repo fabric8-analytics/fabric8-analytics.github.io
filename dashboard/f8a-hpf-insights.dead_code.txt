@@ -17,9 +17,7 @@ src/data_store/__init__.py
 src/data_store/abstract_data_store.py
     Pass
 src/data_store/local_data_store.py
-src/data_store/local_data_store.py:22: unused variable 'max_count' (100% confidence)
-src/data_store/local_data_store.py:22: unused variable 'prefix' (100% confidence)
-    Fail
+    Pass
 src/data_store/s3_data_store.py
     Pass
 src/__init__.py
@@ -58,4 +56,4 @@ perf_tests/locust_tests.py
     Pass
 PoC_code/__init__.py
     Pass
-1 source files out of 23 files seems to contain dead code and/or unused imports
+All checks passed for 23 source files

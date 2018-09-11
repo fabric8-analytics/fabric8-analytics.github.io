@@ -29,7 +29,7 @@ src/__init__.py
 src/utils.py
     Pass
 src/rest_api.py
-src/rest_api.py:14: redefinition of unused 'reload' from line 3
+src/rest_api.py:3: 'imp.reload' imported but unused
     Fail
 src/stack_license.py
     Pass
