@@ -29,8 +29,7 @@ src/__init__.py
 src/utils.py
     Pass
 src/rest_api.py
-src/rest_api.py:3: unused import 'reload' (90% confidence)
-    Fail
+    Pass
 src/stack_license.py
     Pass
 src/exceptions.py
@@ -69,4 +68,4 @@ tests/conftest.py
     Pass
 tests/pandas_mocks.py
     Pass
-1 source files out of 29 files seems to contain dead code and/or unused imports
+All checks passed for 29 source files
