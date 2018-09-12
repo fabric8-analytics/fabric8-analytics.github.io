@@ -15,8 +15,7 @@ src/graph_populator.py
 src/__init__.py
     Pass
 src/utils.py
-src/utils.py:10: unused import 'time' (90% confidence)
-    Fail
+    Pass
 src/rest_api.py
     Pass
 src/data_source/__init__.py
@@ -65,4 +64,4 @@ sanitycheck.py
 
 sanitycheck.py
     Pass
-1 source files out of 24 files seems to contain dead code and/or unused imports
+All checks passed for 24 source files

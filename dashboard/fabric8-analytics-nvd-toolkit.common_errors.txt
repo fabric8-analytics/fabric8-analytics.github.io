@@ -1,5 +1,5 @@
 Collecting git+git://github.com/PyCQA/pyflakes@15a35c195e03a4be6192f259b362a9c6734babde
-  Cloning git://github.com/PyCQA/pyflakes (to 15a35c195e03a4be6192f259b362a9c6734babde) to /tmp/pip-uq15plx4-build
+  Cloning git://github.com/PyCQA/pyflakes (to 15a35c195e03a4be6192f259b362a9c6734babde) to /tmp/pip-0ep952k9-build
   Requirement already satisfied (use --upgrade to upgrade): pyflakes==2.0.0 from git+git://github.com/PyCQA/pyflakes@15a35c195e03a4be6192f259b362a9c6734babde in ./venv/lib/python3.6/site-packages
 ----------------------------------------------------
 Checking source files for common errors in following
@@ -42,19 +42,13 @@ src/toolkit/transformers/extractors.py
 src/toolkit/transformers/__init__.py
     Pass
 src/toolkit/transformers/classifiers.py
-src/toolkit/transformers/classifiers.py:390: local variable '_' is assigned to but never used
-    Fail
+    Pass
 src/toolkit/transformers/feature_hooks.py
     Pass
 src/toolkit/transformers/hooks.py
     Pass
 tests/test_preprocessors.py
-tests/test_preprocessors.py:77: local variable '_' is assigned to but never used
-tests/test_preprocessors.py:123: local variable '_' is assigned to but never used
-tests/test_preprocessors.py:170: local variable '_' is assigned to but never used
-tests/test_preprocessors.py:192: local variable '_' is assigned to but never used
-tests/test_preprocessors.py:279: local variable '_' is assigned to but never used
-    Fail
+    Pass
 tests/test_scripts.py
     Pass
 tests/test_pipelines.py
@@ -62,17 +56,13 @@ tests/test_pipelines.py
 tests/__init__.py
     Pass
 tests/test_utils.py
-tests/test_utils.py:115: local variable '_' is assigned to but never used
-    Fail
+    Pass
 tests/test_handlers.py
-tests/test_handlers.py:67: local variable '_' is assigned to but never used
-tests/test_handlers.py:76: local variable '_' is assigned to but never used
-    Fail
+    Pass
 tests/test_extras.py
     Pass
 tests/test_hook.py
-tests/test_hook.py:21: local variable '_' is assigned to but never used
-    Fail
+    Pass
 tests/test_feature_hooks.py
     Pass
 tests/test_ecos.py
@@ -80,9 +70,7 @@ tests/test_ecos.py
 tests/test_classifiers.py
     Pass
 tests/test_extractors.py
-tests/test_extractors.py:93: local variable '_' is assigned to but never used
-tests/test_extractors.py:105: local variable '_' is assigned to but never used
-    Fail
+    Pass
 ----------------------------------------------------
 Checking following source files for common errors:
 setup.py
@@ -90,4 +78,4 @@ setup.py
 
 setup.py
     Pass
-6 source files out of 33 files needs to be checked and fixed
+All checks passed for 33 source files
