@@ -15,7 +15,8 @@ src/graph_populator.py
 src/__init__.py
     Pass
 src/utils.py
-    Pass
+src/utils.py:10: unused import 'time' (90% confidence)
+    Fail
 src/rest_api.py
     Pass
 src/data_source/__init__.py
@@ -30,6 +31,8 @@ src/config.py
     Pass
 src/data_importer.py
     Pass
+src/cve.py
+    Pass
 test/test_rest_api.py
     Pass
 test/test_graph_properties.py
@@ -39,6 +42,8 @@ test/test_postgres_handler.py
 test/test_insertion_from_minio.py
     Pass
 test/test_init.py
+    Pass
+test/test_cve.py
     Pass
 test/test_data_importer.py
     Pass
@@ -60,4 +65,4 @@ sanitycheck.py
 
 sanitycheck.py
     Pass
-All checks passed for 22 source files
+1 source files out of 24 files seems to contain dead code and/or unused imports

@@ -13,21 +13,28 @@ src/graph_populator.py
     <span style="color:#00AA00">M </span>71:4 GraphPopulator.sanitize_text_for_query - <span style="color:#00AA00">A (4)</span>
     <span style="color:#00AA00">M </span>91:4 GraphPopulator.correct_license_splitting - <span style="color:#00AA00">A (3)</span>
 src/utils.py
-    <span style="color:#AA00AA">F </span>32:0 execute_gremlin_dsl - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>13:0 get_session_retry - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>50:0 get_current_version - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>24:0 get_response_data - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>34:0 execute_gremlin_dsl - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>15:0 get_session_retry - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>52:0 get_current_version - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>78:0 call_gremlin - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>26:0 get_response_data - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>73:0 get_timestamp - <span style="color:#00AA00">A (1)</span>
 src/rest_api.py
-    <span style="color:#AA00AA">F </span>168:0 handle_properties - <span style="color:#AA5500">C (13)</span>
-    <span style="color:#AA00AA">F </span>137:0 selective_ingest - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>113:0 create_nodes - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>90:0 ingest_to_graph - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>59:0 sync_all - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>256:0 setup_logging - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>27:0 readiness - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>33:0 liveness - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>40:0 pending - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>247:0 create_app - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>169:0 handle_properties - <span style="color:#AA5500">C (13)</span>
+    <span style="color:#AA00AA">F </span>138:0 selective_ingest - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>114:0 create_nodes - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>248:0 cves_put_delete - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>91:0 ingest_to_graph - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>309:0 cvedb_version_put - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>60:0 sync_all - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>275:0 cves_get - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>288:0 cves_get_bydate - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>299:0 cvedb_version_get - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>332:0 setup_logging - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>28:0 readiness - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>34:0 liveness - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>41:0 pending - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>323:0 create_app - <span style="color:#00AA00">A (1)</span>
 src/graph_manager.py
     <span style="color:#00AA00">M </span>32:4 BayesianGraph.return_json_response_data - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AAAA">C </span>12:0 BayesianGraph - <span style="color:#00AA00">A (2)</span>
@@ -51,6 +58,35 @@ src/data_importer.py
     <span style="color:#AA00AA">F </span>52:0 _get_exception_msg - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>287:4 PostgresHandler.__init__ - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>329:4 PostgresHandler.mark_epv_synced - <span style="color:#00AA00">A (1)</span>
+src/cve.py
+    <span style="color:#00AA00">M </span>21:4 CVEPut.validate_input - <span style="color:#AA5500">C (11)</span>
+    <span style="color:#00AA00">M </span>165:4 CVEGet.get - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>93:4 CVEDelete.validate_input - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AAAA">C </span>13:0 CVEPut - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>43:4 CVEPut.create_pv_nodes - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>127:4 CVEGetByDate.get_bydate - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>58:4 CVEPut.prepare_payload - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>85:0 CVEDelete - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>156:0 CVEGet - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>209:0 CVEDBVersion - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>212:4 CVEDBVersion.get - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>16:4 CVEPut.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>37:4 CVEPut.process - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>88:4 CVEDelete.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>103:4 CVEDelete.process - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>108:4 CVEDelete.prepare_payload - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>120:0 CVEGetByDate - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>123:4 CVEGetByDate.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>137:4 CVEGetByDate.get_cves_by_date - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>143:4 CVEGetByDate.get_cves - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>150:4 CVEGetByDate.prepare_payload - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>159:4 CVEGet.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>174:4 CVEGet.get_cves_for_ecosystem - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>180:4 CVEGet.get_cves_for_ecosystem_name - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>186:4 CVEGet.get_cves_for_ecosystem_name_version - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>192:4 CVEGet.get_cves - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>199:4 CVEGet.prepare_payload - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>222:4 CVEDBVersion.put - <span style="color:#00AA00">A (1)</span>
 src/data_source/abstract_data_source.py
     <span style="color:#00AAAA">C </span>6:0 AbstractDataSource - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>9:4 AbstractDataSource.get_source_name - <span style="color:#00AA00">A (1)</span>
@@ -63,24 +99,33 @@ src/data_source/s3_data_source.py
     <span style="color:#00AA00">M </span>40:4 S3DataSource.read_json_file - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>36:4 S3DataSource.get_source_name - <span style="color:#00AA00">A (1)</span>
 test/test_rest_api.py
-    <span style="color:#AA00AA">F </span>135:0 test_selective_ingest_empty - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>41:0 test_sync_all - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>55:0 test_ingest_to_graph - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>75:0 test_ingest_to_graph_source - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>29:0 test_pending - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>97:0 test_ingest_to_graph_valid - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>166:0 test_selective_ingest_nonempty - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>181:0 test_selective_ingest_valid - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>200:0 test_selective_ingest_valid_source - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>268:0 test_create_blank_nodes_invalid - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>285:0 test_create_blank_nodes_empty - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>298:0 test_create_blank_nodes_valid - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>13:0 test_readiness - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>21:0 test_liveness - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>116:0 test_ingest_to_graph_report - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>221:0 test_handle_properties_put - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>247:0 test_handle_properties_delete - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>317:0 test_create_blank_nodes_report_status - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>137:0 test_selective_ingest_empty - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>43:0 test_sync_all - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>57:0 test_ingest_to_graph - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>77:0 test_ingest_to_graph_source - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>416:0 test_cvedb_version_get - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>431:0 test_cvedb_version_put - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>31:0 test_pending - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>448:0 test_cvedb_version_put_invalid_input - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>99:0 test_ingest_to_graph_valid - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>168:0 test_selective_ingest_nonempty - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>183:0 test_selective_ingest_valid - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>202:0 test_selective_ingest_valid_source - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>270:0 test_create_blank_nodes_invalid - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>287:0 test_create_blank_nodes_empty - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>300:0 test_create_blank_nodes_valid - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>338:0 test_cves_put - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>352:0 test_cves_put_invalid_input - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>366:0 test_cves_delete - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>380:0 test_cves_delete_invalid_input - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>15:0 test_readiness - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>23:0 test_liveness - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>118:0 test_ingest_to_graph_report - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>223:0 test_handle_properties_put - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>249:0 test_handle_properties_delete - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>319:0 test_create_blank_nodes_report_status - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>394:0 test_cves_get_e - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>405:0 test_cves_get_ep - <span style="color:#00AA00">A (2)</span>
 test/test_postgres_handler.py
     <span style="color:#AA00AA">F </span>14:0 test_fetch_pending_list - <span style="color:#00AA00">A (2)</span>
 test/test_insertion_from_minio.py
@@ -89,6 +134,17 @@ test/test_insertion_from_minio.py
     <span style="color:#AA00AA">F </span>102:0 test_insertion_not_exists - <span style="color:#00AA00">A (4)</span>
 test/test_init.py
     <span style="color:#AA00AA">F </span>6:0 test_logger - <span style="color:#00AA00">A (2)</span>
+test/test_cve.py
+    <span style="color:#AA00AA">F </span>43:0 test_cve_put_prepare_payload - <span style="color:#AA5500">C (12)</span>
+    <span style="color:#AA00AA">F </span>112:0 test_cve_get_ep - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>96:0 test_cve_get_e - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>81:0 test_cve_delete_prepare_payload - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>129:0 test_cve_get_epv - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>144:0 test_cve_get_by_date_valid - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>166:0 test_cve_get_by_date_none - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>35:0 test_cve_put_creation - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>73:0 test_cve_delete_creation - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>159:0 test_cve_get_by_date_invalid - <span style="color:#00AA00">A (2)</span>
 test/test_data_importer.py
     <span style="color:#AA00AA">F </span>13:0 test_parse_int_or_none_for_integer_input_overflows - <span style="color:#00AA00">B (9)</span>
     <span style="color:#AA00AA">F </span>36:0 test_parse_int_or_none_for_string_input - <span style="color:#00AA00">B (7)</span>
@@ -102,15 +158,18 @@ test/test_s3_data_source.py
     <span style="color:#AA00AA">F </span>45:0 test_read_json_file - <span style="color:#00AA00">A (5)</span>
     <span style="color:#AA00AA">F </span>10:0 test_get_source_name - <span style="color:#00AA00">A (4)</span>
 test/test_utils.py
-    <span style="color:#AA00AA">F </span>11:0 test_get_current_version - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>18:0 test_execute_gremlin_dsl - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>60:0 test_execute_gremlin_dsl2 - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AAAA">C </span>34:0 MockedSession - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>37:4 MockedSession.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>41:4 MockedSession.post - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>48:0 MockedResponse - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>51:4 MockedResponse.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>55:4 MockedResponse.status_code - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>14:0 test_get_current_version - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>21:0 test_execute_gremlin_dsl - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>63:0 test_execute_gremlin_dsl2 - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>80:0 test_get_timestamp - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>87:0 test_gremlin_call - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>94:0 test_bad_gremlin_call - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>37:0 MockedSession - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>40:4 MockedSession.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>44:4 MockedSession.post - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>51:0 MockedResponse - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>54:4 MockedResponse.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>58:4 MockedResponse.status_code - <span style="color:#00AA00">A (1)</span>
 test/test_graph_manager.py
     <span style="color:#AA00AA">F </span>11:0 test_execute_invalid_query - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>21:0 test_return_json_response_data - <span style="color:#00AA00">A (3)</span>
@@ -118,6 +177,9 @@ test/test_graph_manager.py
     <span style="color:#AA00AA">F </span>39:0 test_is_schema_defined - <span style="color:#00AA00">A (2)</span>
 test/conftest.py
     <span style="color:#AA00AA">F </span>8:0 app - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>14:0 RequestsMockResponse - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>17:4 RequestsMockResponse.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>23:4 RequestsMockResponse.json - <span style="color:#00AA00">A (1)</span>
 test/test_graph_populator.py
     <span style="color:#AA00AA">F </span>11:0 test_sanitize_text_for_query - <span style="color:#AA5500">D (21)</span>
     <span style="color:#AA00AA">F </span>40:0 test_sanitize_text_for_query_for_unicode_input - <span style="color:#AA5500">C (17)</span>
@@ -126,6 +188,6 @@ test/test_graph_populator.py
     <span style="color:#AA00AA">F </span>62:0 test_correct_license_splitting - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>249:0 test_create_query_string - <span style="color:#00AA00">A (1)</span>
 
-108 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (4.342592592592593)</span>
+168 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (3.8333333333333335)</span>
 </pre>

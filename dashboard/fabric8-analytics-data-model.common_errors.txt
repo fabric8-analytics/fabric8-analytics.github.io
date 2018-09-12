@@ -15,9 +15,10 @@ src/graph_populator.py
 src/__init__.py
     Pass
 src/utils.py
-    Pass
+src/utils.py:10: 'time' imported but unused
+    Fail
 src/rest_api.py
-src/rest_api.py:23: undefined name 'reload'
+src/rest_api.py:24: undefined name 'reload'
     Fail
 src/data_source/__init__.py
     Pass
@@ -31,6 +32,8 @@ src/config.py
     Pass
 src/data_importer.py
     Pass
+src/cve.py
+    Pass
 test/test_rest_api.py
     Pass
 test/test_graph_properties.py
@@ -41,6 +44,9 @@ test/test_insertion_from_minio.py
     Pass
 test/test_init.py
     Pass
+test/test_cve.py
+test/test_cve.py:163: local variable 'response' is assigned to but never used
+    Fail
 test/test_data_importer.py
     Pass
 test/test_s3_data_source.py
@@ -60,4 +66,4 @@ sanitycheck.py
 
 sanitycheck.py
     Pass
-1 source files out of 22 files needs to be checked and fixed
+3 source files out of 24 files needs to be checked and fixed

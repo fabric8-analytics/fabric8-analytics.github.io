@@ -12,23 +12,11 @@ src/toolkit/pipelines/predict.py
 src/toolkit/pipelines/pipelines.py
     Pass
 src/toolkit/pipelines/__init__.py
-src/toolkit/pipelines/__init__.py:14: unused import 'extract_features' (90% confidence)
-src/toolkit/pipelines/__init__.py:14: unused import 'extract_labeled_features' (90% confidence)
-src/toolkit/pipelines/__init__.py:14: unused import 'get_full_training_pipeline' (90% confidence)
-src/toolkit/pipelines/__init__.py:14: unused import 'get_prediction_pipeline' (90% confidence)
-src/toolkit/pipelines/__init__.py:14: unused import 'get_preprocessing_pipeline' (90% confidence)
-src/toolkit/pipelines/__init__.py:14: unused import 'get_training_pipeline' (90% confidence)
-src/toolkit/pipelines/__init__.py:22: unused import 'FEATURE_HOOKS' (90% confidence)
-    Fail
+    Pass
 src/toolkit/pipelines/evaluation.py
     Pass
 src/toolkit/__init__.py
-src/toolkit/__init__.py:3: unused import 'config' (90% confidence)
-src/toolkit/__init__.py:4: unused import 'transformers' (90% confidence)
-src/toolkit/__init__.py:5: unused import 'preprocessing' (90% confidence)
-src/toolkit/__init__.py:6: unused import 'pipelines' (90% confidence)
-src/toolkit/__init__.py:7: unused import 'utils' (90% confidence)
-    Fail
+    Pass
 src/toolkit/utils.py
 src/toolkit/utils.py:19: unused variable 'parser' (100% confidence)
 src/toolkit/utils.py:45: unused variable 'instance' (100% confidence)
@@ -45,11 +33,7 @@ src/toolkit/scripts/__init__.py
 src/toolkit/preprocessing/ecos.py
     Pass
 src/toolkit/preprocessing/__init__.py
-src/toolkit/preprocessing/__init__.py:3: unused import 'GitHubHandler' (90% confidence)
-src/toolkit/preprocessing/__init__.py:4: unused import 'LabelPreprocessor' (90% confidence)
-src/toolkit/preprocessing/__init__.py:4: unused import 'NLTKPreprocessor' (90% confidence)
-src/toolkit/preprocessing/__init__.py:4: unused import 'NVDFeedPreprocessor' (90% confidence)
-    Fail
+    Pass
 src/toolkit/preprocessing/handlers.py
 src/toolkit/preprocessing/handlers.py:157: unused variable 'exc_tb' (100% confidence)
 src/toolkit/preprocessing/handlers.py:157: unused variable 'exc_type' (100% confidence)
@@ -66,11 +50,7 @@ src/toolkit/transformers/extractors.py:253: unused variable 'kwargs' (100% confi
 src/toolkit/transformers/extractors.py:265: unused variable 'kwargs' (100% confidence)
     Fail
 src/toolkit/transformers/__init__.py
-src/toolkit/transformers/__init__.py:3: unused import 'cross_validate' (90% confidence)
-src/toolkit/transformers/__init__.py:3: unused import 'NBClassifier' (90% confidence)
-src/toolkit/transformers/__init__.py:4: unused import 'FeatureExtractor' (90% confidence)
-src/toolkit/transformers/__init__.py:5: unused import 'Hook' (90% confidence)
-    Fail
+    Pass
 src/toolkit/transformers/classifiers.py
 src/toolkit/transformers/classifiers.py:414: unused variable 'weights' (100% confidence)
 src/toolkit/transformers/classifiers.py:414: unused variable 'y_pred' (100% confidence)
@@ -89,8 +69,7 @@ src/toolkit/transformers/feature_hooks.py:136: unused variable 'kwargs' (100% co
 src/toolkit/transformers/hooks.py
     Pass
 tests/test_preprocessors.py
-tests/test_preprocessors.py:301: unused variable 'p' (100% confidence)
-    Fail
+    Pass
 tests/test_scripts.py
     Pass
 tests/test_pipelines.py
@@ -108,17 +87,11 @@ tests/test_hook.py
 tests/test_feature_hooks.py
     Pass
 tests/test_ecos.py
-tests/test_ecos.py:7: unused import 'ElementTree' (90% confidence)
-    Fail
+    Pass
 tests/test_classifiers.py
     Pass
 tests/test_extractors.py
-tests/test_extractors.py:41: unused variable 't' (100% confidence)
-tests/test_extractors.py:41: unused variable 'w' (100% confidence)
-tests/test_extractors.py:85: unused variable 's' (100% confidence)
-tests/test_extractors.py:85: unused variable 't' (100% confidence)
-tests/test_extractors.py:85: unused variable 'w' (100% confidence)
-    Fail
+    Pass
 ----------------------------------------------------
 Checking following source files for dead code and
 unused imports:
@@ -127,4 +100,4 @@ setup.py
 
 setup.py
     Pass
-12 source files out of 33 files seems to contain dead code and/or unused imports
+5 source files out of 33 files seems to contain dead code and/or unused imports

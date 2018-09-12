@@ -31,8 +31,7 @@ src/parsers/__init__.py
 src/notification/__init__.py
     Pass
 src/notification/user_notification.py
-src/notification/user_notification.py:59: undefined name 'logger'
-    Fail
+    Pass
 tests/test_rest_api.py
     Pass
 tests/test_errors_class.py
@@ -52,4 +51,4 @@ setup.py
 
 setup.py
     Pass
-1 source files out of 18 files needs to be checked and fixed
+All checks passed for 18 source files

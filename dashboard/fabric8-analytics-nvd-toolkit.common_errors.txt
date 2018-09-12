@@ -1,4 +1,6 @@
-Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages
+Collecting git+git://github.com/PyCQA/pyflakes@15a35c195e03a4be6192f259b362a9c6734babde
+  Cloning git://github.com/PyCQA/pyflakes (to 15a35c195e03a4be6192f259b362a9c6734babde) to /tmp/pip-uq15plx4-build
+  Requirement already satisfied (use --upgrade to upgrade): pyflakes==2.0.0 from git+git://github.com/PyCQA/pyflakes@15a35c195e03a4be6192f259b362a9c6734babde in ./venv/lib/python3.6/site-packages
 ----------------------------------------------------
 Checking source files for common errors in following
 directories:
@@ -12,27 +14,13 @@ src/toolkit/pipelines/predict.py
 src/toolkit/pipelines/pipelines.py
     Pass
 src/toolkit/pipelines/__init__.py
-src/toolkit/pipelines/__init__.py:14: 'toolkit.pipelines.pipelines.get_preprocessing_pipeline' imported but unused
-src/toolkit/pipelines/__init__.py:14: 'toolkit.pipelines.pipelines.get_training_pipeline' imported but unused
-src/toolkit/pipelines/__init__.py:14: 'toolkit.pipelines.pipelines.get_full_training_pipeline' imported but unused
-src/toolkit/pipelines/__init__.py:14: 'toolkit.pipelines.pipelines.get_prediction_pipeline' imported but unused
-src/toolkit/pipelines/__init__.py:14: 'toolkit.pipelines.pipelines.extract_features' imported but unused
-src/toolkit/pipelines/__init__.py:14: 'toolkit.pipelines.pipelines.extract_labeled_features' imported but unused
-src/toolkit/pipelines/__init__.py:22: 'toolkit.pipelines.train.FEATURE_HOOKS' imported but unused
-    Fail
+    Pass
 src/toolkit/pipelines/evaluation.py
     Pass
 src/toolkit/__init__.py
-src/toolkit/__init__.py:3: 'toolkit.config' imported but unused
-src/toolkit/__init__.py:4: 'toolkit.transformers' imported but unused
-src/toolkit/__init__.py:5: 'toolkit.preprocessing' imported but unused
-src/toolkit/__init__.py:6: 'toolkit.pipelines' imported but unused
-src/toolkit/__init__.py:7: 'toolkit.utils' imported but unused
-    Fail
+    Pass
 src/toolkit/utils.py
-src/toolkit/utils.py:244: local variable 'ret_values' is assigned to but never used
-src/toolkit/utils.py:245: local variable 'exc' is assigned to but never used
-    Fail
+    Pass
 src/toolkit/config.py
     Pass
 src/toolkit/scripts/get_packages_by_commit.py
@@ -42,11 +30,7 @@ src/toolkit/scripts/__init__.py
 src/toolkit/preprocessing/ecos.py
     Pass
 src/toolkit/preprocessing/__init__.py
-src/toolkit/preprocessing/__init__.py:3: 'toolkit.preprocessing.handlers.GitHubHandler' imported but unused
-src/toolkit/preprocessing/__init__.py:4: 'toolkit.preprocessing.preprocessors.NVDFeedPreprocessor' imported but unused
-src/toolkit/preprocessing/__init__.py:4: 'toolkit.preprocessing.preprocessors.LabelPreprocessor' imported but unused
-src/toolkit/preprocessing/__init__.py:4: 'toolkit.preprocessing.preprocessors.NLTKPreprocessor' imported but unused
-    Fail
+    Pass
 src/toolkit/preprocessing/handlers.py
     Pass
 src/toolkit/preprocessing/preprocessors.py
@@ -56,11 +40,7 @@ src/toolkit/__about__.py
 src/toolkit/transformers/extractors.py
     Pass
 src/toolkit/transformers/__init__.py
-src/toolkit/transformers/__init__.py:3: 'toolkit.transformers.classifiers.NBClassifier' imported but unused
-src/toolkit/transformers/__init__.py:3: 'toolkit.transformers.classifiers.cross_validate' imported but unused
-src/toolkit/transformers/__init__.py:4: 'toolkit.transformers.extractors.FeatureExtractor' imported but unused
-src/toolkit/transformers/__init__.py:5: 'toolkit.transformers.hooks.Hook' imported but unused
-    Fail
+    Pass
 src/toolkit/transformers/classifiers.py
 src/toolkit/transformers/classifiers.py:390: local variable '_' is assigned to but never used
     Fail
@@ -96,14 +76,12 @@ tests/test_hook.py:21: local variable '_' is assigned to but never used
 tests/test_feature_hooks.py
     Pass
 tests/test_ecos.py
-tests/test_ecos.py:7: 'xml.etree.ElementTree' imported but unused
-    Fail
+    Pass
 tests/test_classifiers.py
     Pass
 tests/test_extractors.py
-tests/test_extractors.py:71: local variable 'test_labels' is assigned to but never used
-tests/test_extractors.py:92: local variable '_' is assigned to but never used
-tests/test_extractors.py:104: local variable '_' is assigned to but never used
+tests/test_extractors.py:93: local variable '_' is assigned to but never used
+tests/test_extractors.py:105: local variable '_' is assigned to but never used
     Fail
 ----------------------------------------------------
 Checking following source files for common errors:
@@ -112,4 +90,4 @@ setup.py
 
 setup.py
     Pass
-12 source files out of 33 files needs to be checked and fixed
+6 source files out of 33 files needs to be checked and fixed
