@@ -308,8 +308,7 @@ f8a_worker/workers/__init__.py:29: unused import 'RepoDependencyFinderTask' (90%
 f8a_worker/workers/libraries_io.py
     Pass
 f8a_worker/workers/githuber.py
-f8a_worker/workers/githuber.py:32: unused variable 'cls' (100% confidence)
-    Fail
+    Pass
 f8a_worker/workers/repo_dependency_finder.py
 f8a_worker/workers/repo_dependency_finder.py:108: unreachable code after 'raise' (100% confidence)
 f8a_worker/workers/repo_dependency_finder.py:151: unreachable code after 'raise' (100% confidence)
@@ -351,8 +350,7 @@ f8a_worker/workers/unknown_dep_fetcher.py
 f8a_worker/workers/dependency_snapshot.py
     Pass
 f8a_worker/data_normalizer.py
-f8a_worker/data_normalizer.py:662: unused variable 'unused' (100% confidence)
-    Fail
+    Pass
 f8a_worker/errors.py
     Pass
 f8a_worker/celery_settings.py
@@ -362,8 +360,7 @@ f8a_worker/defaults.py
 f8a_worker/defaults.py:11: unused import 'StoragePool' (90% confidence)
     Fail
 tests/test_data_normalizer.py
-tests/test_data_normalizer.py:26: unused variable 'method' (100% confidence)
-    Fail
+    Pass
 tests/test_schemas.py
     Pass
 tests/test_process.py
@@ -373,21 +370,17 @@ tests/__init__.py
 tests/data/schemas/generate.py
     Pass
 tests/data/license/license.py
-tests/data/license/license.py:24: unused variable 'url' (100% confidence)
-    Fail
+    Pass
 tests/test_victims.py
     Pass
 tests/test_utils.py
-tests/test_utils.py:25: unused variable 'method' (100% confidence)
-tests/test_utils.py:29: unused variable 'method' (100% confidence)
-    Fail
+    Pass
 tests/test_solver.py
     Pass
 tests/storages/__init__.py
     Pass
 tests/storages/test_postgres.py
-tests/storages/test_postgres.py:22: unused variable 'method' (100% confidence)
-    Fail
+    Pass
 tests/workers/test_recurse.py
     Pass
 tests/workers/__init__.py
@@ -409,8 +402,7 @@ tests/workers/test_digester.py
 tests/workers/test_githuber.py
     Pass
 tests/workers/test_mercator.py
-tests/workers/test_mercator.py:27: unused variable 'method' (100% confidence)
-    Fail
+    Pass
 tests/conftest.py
     Pass
 hack/queue_conf.py
@@ -423,4 +415,4 @@ setup.py
 
 setup.py
     Pass
-25 source files out of 162 files seems to contain dead code and/or unused imports
+18 source files out of 162 files seems to contain dead code and/or unused imports

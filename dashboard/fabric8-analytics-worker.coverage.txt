@@ -53,7 +53,7 @@ Name                                                                 Stmts   Mis
 /f8a_worker/f8a_worker/workers/digester.py                              31      4    87%   40-42, 57
 /f8a_worker/f8a_worker/workers/finalize.py                              26     17    35%   15-27, 39-48
 /f8a_worker/f8a_worker/workers/git_stats.py                             81     61    25%   28-37, 46-61, 71-82, 91-96, 105-112, 122-123, 139-168
-/f8a_worker/f8a_worker/workers/githuber.py                             100     42    58%   44-46, 53-55, 63-68, 82-85, 90-92, 97-99, 145-164, 168-177
+/f8a_worker/f8a_worker/workers/githuber.py                             101     42    58%   45-47, 54-56, 64-69, 83-86, 91-93, 98-100, 146-165, 169-178
 /f8a_worker/f8a_worker/workers/graph_importer.py                        29     16    45%   32-69
 /f8a_worker/f8a_worker/workers/graph_sync.py                            24     20    17%   16-44
 /f8a_worker/f8a_worker/workers/graphaggregator.py                       75     60    20%   25-32, 41-120
@@ -83,4 +83,4 @@ Name                                                                 Stmts   Mis
 /f8a_worker/f8a_worker/workers/user_notifier.py                         38     29    24%   15-25, 29-49, 57-73
 /f8a_worker/f8a_worker/workers/victims.py                              103     49    52%   22-40, 44-73, 102-105, 128, 142-164, 185-186
 --------------------------------------------------------------------------------------------------
-TOTAL                                                                 5980   2211    63%
+TOTAL                                                                 5981   2211    63%

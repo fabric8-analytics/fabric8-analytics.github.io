@@ -18,12 +18,7 @@ src/toolkit/pipelines/evaluation.py
 src/toolkit/__init__.py
     Pass
 src/toolkit/utils.py
-src/toolkit/utils.py:19: unused variable 'parser' (100% confidence)
-src/toolkit/utils.py:45: unused variable 'instance' (100% confidence)
-src/toolkit/utils.py:53: unused variable 'inst' (100% confidence)
-src/toolkit/utils.py:53: unused variable 'value' (100% confidence)
-src/toolkit/utils.py:57: unused variable 'inst' (100% confidence)
-    Fail
+    Pass
 src/toolkit/config.py
     Pass
 src/toolkit/scripts/get_packages_by_commit.py
@@ -35,37 +30,19 @@ src/toolkit/preprocessing/ecos.py
 src/toolkit/preprocessing/__init__.py
     Pass
 src/toolkit/preprocessing/handlers.py
-src/toolkit/preprocessing/handlers.py:157: unused variable 'exc_tb' (100% confidence)
-src/toolkit/preprocessing/handlers.py:157: unused variable 'exc_type' (100% confidence)
-src/toolkit/preprocessing/handlers.py:157: unused variable 'exc_val' (100% confidence)
-    Fail
+    Pass
 src/toolkit/preprocessing/preprocessors.py
     Pass
 src/toolkit/__about__.py
     Pass
 src/toolkit/transformers/extractors.py
-src/toolkit/transformers/extractors.py:229: unused variable 'kwargs' (100% confidence)
-src/toolkit/transformers/extractors.py:241: unused variable 'kwargs' (100% confidence)
-src/toolkit/transformers/extractors.py:253: unused variable 'kwargs' (100% confidence)
-src/toolkit/transformers/extractors.py:265: unused variable 'kwargs' (100% confidence)
-    Fail
+    Pass
 src/toolkit/transformers/__init__.py
     Pass
 src/toolkit/transformers/classifiers.py
-src/toolkit/transformers/classifiers.py:414: unused variable 'weights' (100% confidence)
-src/toolkit/transformers/classifiers.py:414: unused variable 'y_pred' (100% confidence)
-src/toolkit/transformers/classifiers.py:414: unused variable 'y_true' (100% confidence)
-    Fail
+    Pass
 src/toolkit/transformers/feature_hooks.py
-src/toolkit/transformers/feature_hooks.py:18: unused variable 'kwargs' (100% confidence)
-src/toolkit/transformers/feature_hooks.py:29: unused variable 'kwargs' (100% confidence)
-src/toolkit/transformers/feature_hooks.py:44: unused variable 'kwargs' (100% confidence)
-src/toolkit/transformers/feature_hooks.py:85: unused variable 'kwargs' (100% confidence)
-src/toolkit/transformers/feature_hooks.py:99: unused variable 'kwargs' (100% confidence)
-src/toolkit/transformers/feature_hooks.py:113: unused variable 'kwargs' (100% confidence)
-src/toolkit/transformers/feature_hooks.py:129: unused variable 'kwargs' (100% confidence)
-src/toolkit/transformers/feature_hooks.py:136: unused variable 'kwargs' (100% confidence)
-    Fail
+    Pass
 src/toolkit/transformers/hooks.py
     Pass
 tests/test_preprocessors.py
@@ -100,4 +77,4 @@ setup.py
 
 setup.py
     Pass
-5 source files out of 33 files seems to contain dead code and/or unused imports
+All checks passed for 33 source files
