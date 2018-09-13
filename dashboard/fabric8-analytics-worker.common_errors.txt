@@ -19,9 +19,7 @@ alembic/versions/76c5fd72744e_gh_usage_stats.py
 alembic/versions/c23ff3124920_fix_ecosystem_data.py
     Pass
 alembic/versions/0ff7fe2828a5_initial_revision.py
-alembic/versions/0ff7fe2828a5_initial_revision.py:15: 'alembic.op' imported but unused
-alembic/versions/0ff7fe2828a5_initial_revision.py:16: 'sqlalchemy as sa' imported but unused
-    Fail
+    Pass
 alembic/versions/e48c7b4235aa_drop_analysisrequest_table.py
     Pass
 alembic/versions/35180d0f1ced_fix_pypi_url.py
@@ -29,8 +27,7 @@ alembic/versions/35180d0f1ced_fix_pypi_url.py
 alembic/versions/727aeeb88b2f_add_started_at_and_ended_at_to_.py
     Pass
 alembic/versions/be06b06767de_add_indexes_on_foreign_keys_in_.py
-alembic/versions/be06b06767de_add_indexes_on_foreign_keys_in_.py:16: 'sqlalchemy as sa' imported but unused
-    Fail
+    Pass
 alembic/versions/2bd5f6d0c8b0_introduce_stackreq_origin_flag.py
     Pass
 alembic/versions/e2762a61d34c_upstream_url_can_be_null.py
@@ -60,9 +57,7 @@ alembic/versions/750621a9cd89_drop_server_tables.py
 alembic/versions/133cd5484609_add_es_marker.py
     Pass
 alembic/versions/b19a6deb869d_stack_request_coltype_change.py
-alembic/versions/b19a6deb869d_stack_request_coltype_change.py:16: 'sqlalchemy as sa' imported but unused
-alembic/versions/b19a6deb869d_stack_request_coltype_change.py:17: 'sqlalchemy.dialects.postgresql' imported but unused
-    Fail
+    Pass
 alembic/versions/fc7ea2a7e386_analytics_tables.py
     Pass
 alembic/versions/245b57b274c2_introduce_upstream_monitoring_flows.py
@@ -76,8 +71,7 @@ alembic/versions/3fd95b3a69f5_bye_reviews.py
 alembic/versions/47f4ce1e8d75_stack_analyses_request.py
     Pass
 alembic/versions/2ff043a5af5b_make_ecosystem_name_unique.py
-alembic/versions/2ff043a5af5b_make_ecosystem_name_unique.py:16: 'sqlalchemy as sa' imported but unused
-    Fail
+    Pass
 alembic/versions/02b91e918b43_migrate_to_dynamic_control_flow.py
     Pass
 alembic/versions/49fb7de6227f_removal_of_anitya.py
@@ -95,25 +89,21 @@ alembic/versions/8302d3bb5f68_stackreq_team_result.py
 alembic/versions/3655e38b92bc_increase_pkg_name_length.py
     Pass
 alembic/versions/01404498814b_create_epv_and_workerresult_indexes.py
-alembic/versions/01404498814b_create_epv_and_workerresult_indexes.py:16: 'sqlalchemy as sa' imported but unused
-    Fail
+    Pass
 alembic/versions/7c643a1823db_index_on_external_request_id.py
-alembic/versions/7c643a1823db_index_on_external_request_id.py:16: 'sqlalchemy as sa' imported but unused
-    Fail
+    Pass
 alembic/versions/20cf59abbda8_add_external_reqeust_id_to_workerresult.py
     Pass
 alembic/versions/a46a17bfd29b_batches_versions_relation.py
     Pass
 alembic/versions/a60f15a395e2_do_not_index_ecosystem_url.py
-alembic/versions/a60f15a395e2_do_not_index_ecosystem_url.py:16: 'sqlalchemy as sa' imported but unused
-    Fail
+    Pass
 alembic/versions/967036f90ba1_gemini_model_py.py
     Pass
 alembic/versions/3eb32f202f93_removing_starttime_and_endtime.py
     Pass
 alembic/versions/094ea67a2baf_add_index_for_synced2graph_column.py
-alembic/versions/094ea67a2baf_add_index_for_synced2graph_column.py:16: 'sqlalchemy as sa' imported but unused
-    Fail
+    Pass
 alembic/versions/da53445aabad_add_recommendation_feedback_py.py
     Pass
 alembic/versions/963d3d929b19_analyses.py
@@ -299,9 +289,7 @@ f8a_worker/workers/libraries_io.py
 f8a_worker/workers/githuber.py
     Pass
 f8a_worker/workers/repo_dependency_finder.py
-f8a_worker/workers/repo_dependency_finder.py:41: local variable 'e' is assigned to but never used
-f8a_worker/workers/repo_dependency_finder.py:52: local variable 'e' is assigned to but never used
-    Fail
+    Pass
 f8a_worker/workers/mercator.py
     Pass
 f8a_worker/workers/cvedbsync.py
@@ -337,8 +325,7 @@ f8a_worker/workers/repository_description.py
 f8a_worker/workers/unknown_dep_fetcher.py
     Pass
 f8a_worker/workers/dependency_snapshot.py
-f8a_worker/workers/dependency_snapshot.py:71: local variable 'e' is assigned to but never used
-    Fail
+    Pass
 f8a_worker/data_normalizer.py
     Pass
 f8a_worker/errors.py
@@ -355,9 +342,7 @@ tests/test_data_normalizer.py
 tests/test_schemas.py
     Pass
 tests/test_process.py
-tests/test_process.py:85: local variable 'excinfo' is assigned to but never used
-tests/test_process.py:86: local variable 'cache_path' is assigned to but never used
-    Fail
+    Pass
 tests/__init__.py
     Pass
 tests/data/schemas/generate.py
@@ -387,17 +372,11 @@ tests/workers/test_libraries_io.py
 tests/workers/test_github_dependency_tree.py
     Pass
 tests/workers/test_cvecheck.py
-tests/workers/test_cvecheck.py:4: 'flexmock.flexmock' imported but unused
-tests/workers/test_cvecheck.py:5: 'pathlib.Path' imported but unused
-tests/workers/test_cvecheck.py:8: 'f8a_worker.object_cache.EPVCache' imported but unused
-    Fail
+    Pass
 tests/workers/test_repository_description.py
     Pass
 tests/workers/test_digester.py
-tests/workers/test_digester.py:9: redefinition of unused 'pytest' from line 6
-tests/workers/test_digester.py:11: 'f8a_worker.enums.EcosystemBackend' imported but unused
-tests/workers/test_digester.py:12: 'f8a_worker.models.Ecosystem' imported but unused
-    Fail
+    Pass
 tests/workers/test_githuber.py
     Pass
 tests/workers/test_mercator.py
@@ -405,8 +384,7 @@ tests/workers/test_mercator.py
 tests/conftest.py
     Pass
 hack/queue_conf.py
-hack/queue_conf.py:8: 'time.sleep' imported but unused
-    Fail
+    Pass
 ----------------------------------------------------
 Checking following source files for common errors:
 setup.py
@@ -414,4 +392,4 @@ setup.py
 
 setup.py
     Pass
-19 source files out of 162 files needs to be checked and fixed
+5 source files out of 162 files needs to be checked and fixed
