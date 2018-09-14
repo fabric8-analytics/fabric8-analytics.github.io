@@ -21,7 +21,7 @@ Name                                                                 Stmts   Mis
 /f8a_worker/f8a_worker/setup_celery.py                                  41     19    54%   22-24, 29, 34-35, 37, 48-52, 62-72
 /f8a_worker/f8a_worker/solver.py                                       520     68    87%   113, 130, 169, 188-198, 217, 223, 247-248, 252, 258, 298, 307, 310-311, 326, 332-336, 342, 421-424, 437, 452, 477, 487-489, 500, 504, 526, 531, 557-558, 612, 713, 718, 723, 743, 748, 786, 789-792, 804, 867, 990, 1002, 1007-1020
 /f8a_worker/f8a_worker/start.py                                         16     16     0%   3-30
-/f8a_worker/f8a_worker/storages/__init__.py                             19      0   100%
+/f8a_worker/f8a_worker/storages/__init__.py                             37      0   100%
 /f8a_worker/f8a_worker/storages/package_postgres.py                     86     64    26%   30-32, 35-38, 58-66, 76-89, 98-103, 112-122, 132-154, 165-189, 202-218
 /f8a_worker/f8a_worker/storages/postgres.py                            111     70    37%   65, 76-78, 84, 98-115, 126-140, 149-159, 168-173, 182-190, 199-205, 211-212, 221-257, 267-276
 /f8a_worker/f8a_worker/storages/postgres_base.py                        91     24    74%   43, 49, 54, 93-97, 115, 121, 143-162, 167
@@ -45,7 +45,7 @@ Name                                                                 Stmts   Mis
 /f8a_worker/f8a_worker/utils.py                                        301     52    83%   34-47, 82-83, 93, 114-117, 136-145, 178, 194, 222-224, 316, 363, 402, 410, 415, 485, 497-501, 507-512, 517-524, 529-533, 551, 555-557
 /f8a_worker/f8a_worker/victims.py                                      180     42    77%   104-105, 116, 130-134, 163-167, 176, 186-187, 203-228, 242, 245-247, 257-258, 292, 294-296
 /f8a_worker/f8a_worker/workers/CVEchecker.py                           131     26    80%   45, 87, 119-137, 151-154, 167-168, 176-178, 198, 226
-/f8a_worker/f8a_worker/workers/__init__.py                              27      0   100%
+/f8a_worker/f8a_worker/workers/__init__.py                              54      0   100%
 /f8a_worker/f8a_worker/workers/bookkeeper.py                            38     29    24%   18-62, 70-80
 /f8a_worker/f8a_worker/workers/cvedbsync.py                             47     38    19%   24-70, 79-92
 /f8a_worker/f8a_worker/workers/dependency_parser.py                    161     59    63%   55, 88, 90, 103, 121-139, 151-166, 239-242, 279-315, 324-349
@@ -83,4 +83,4 @@ Name                                                                 Stmts   Mis
 /f8a_worker/f8a_worker/workers/user_notifier.py                         38     29    24%   15-25, 29-49, 57-73
 /f8a_worker/f8a_worker/workers/victims.py                              103     49    52%   22-40, 44-73, 102-105, 128, 142-164, 185-186
 --------------------------------------------------------------------------------------------------
-TOTAL                                                                 5981   2211    63%
+TOTAL                                                                 6026   2211    63%

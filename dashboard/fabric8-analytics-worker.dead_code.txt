@@ -170,25 +170,7 @@ f8a_worker/storages/s3_readme.py:19: unused variable 'task_id' (100% confidence)
 f8a_worker/storages/s3_readme.py:19: unused variable 'task_name' (100% confidence)
     Fail
 f8a_worker/storages/__init__.py
-f8a_worker/storages/__init__.py:5: unused import 'BayesianPostgres' (90% confidence)
-f8a_worker/storages/__init__.py:6: unused import 'PackagePostgres' (90% confidence)
-f8a_worker/storages/__init__.py:7: unused import 'AmazonS3' (90% confidence)
-f8a_worker/storages/__init__.py:8: unused import 'S3Artifacts' (90% confidence)
-f8a_worker/storages/__init__.py:9: unused import 'S3TempArtifacts' (90% confidence)
-f8a_worker/storages/__init__.py:10: unused import 'S3Data' (90% confidence)
-f8a_worker/storages/__init__.py:11: unused import 'S3PackageData' (90% confidence)
-f8a_worker/storages/__init__.py:12: unused import 'S3Manifests' (90% confidence)
-f8a_worker/storages/__init__.py:13: unused import 'S3MavenIndex' (90% confidence)
-f8a_worker/storages/__init__.py:14: unused import 'S3VulnDB' (90% confidence)
-f8a_worker/storages/__init__.py:15: unused import 'S3Readme' (90% confidence)
-f8a_worker/storages/__init__.py:16: unused import 'S3GitHubManifestMetadata' (90% confidence)
-f8a_worker/storages/__init__.py:17: unused import 'S3UserProfileStore' (90% confidence)
-f8a_worker/storages/__init__.py:18: unused import 'S3RepositoryDescription' (90% confidence)
-f8a_worker/storages/__init__.py:19: unused import 'S3KeywordsSummary' (90% confidence)
-f8a_worker/storages/__init__.py:20: unused import 'S3UserIntent' (90% confidence)
-f8a_worker/storages/__init__.py:21: unused import 'S3ManualTagging' (90% confidence)
-f8a_worker/storages/__init__.py:22: unused import 'S3CrowdSourceTags' (90% confidence)
-    Fail
+    Pass
 f8a_worker/storages/s3_package_data.py
     Pass
 f8a_worker/storages/s3_keywords_summary.py
@@ -274,37 +256,7 @@ f8a_worker/workers/dependency_parser.py
 f8a_worker/workers/bookkeeper.py
     Pass
 f8a_worker/workers/__init__.py
-f8a_worker/workers/__init__.py:3: unused import 'CVEcheckerTask' (90% confidence)
-f8a_worker/workers/__init__.py:4: unused import 'BookkeeperTask' (90% confidence)
-f8a_worker/workers/__init__.py:5: unused import 'CVEDBSyncTask' (90% confidence)
-f8a_worker/workers/__init__.py:6: unused import 'GithubDependencyTreeTask' (90% confidence)
-f8a_worker/workers/__init__.py:7: unused import 'DependencySnapshotTask' (90% confidence)
-f8a_worker/workers/__init__.py:8: unused import 'DigesterTask' (90% confidence)
-f8a_worker/workers/__init__.py:9: unused import 'FinalizeTask' (90% confidence)
-f8a_worker/workers/__init__.py:9: unused import 'PackageFinalizeTask' (90% confidence)
-f8a_worker/workers/__init__.py:10: unused import 'GitStats' (90% confidence)
-f8a_worker/workers/__init__.py:11: unused import 'GithubTask' (90% confidence)
-f8a_worker/workers/__init__.py:11: unused import 'GitReadmeCollectorTask' (90% confidence)
-f8a_worker/workers/__init__.py:12: unused import 'GraphImporterTask' (90% confidence)
-f8a_worker/workers/__init__.py:13: unused import 'GraphSyncTask' (90% confidence)
-f8a_worker/workers/__init__.py:14: unused import 'GraphAggregatorTask' (90% confidence)
-f8a_worker/workers/__init__.py:15: unused import 'InitAnalysisFlow' (90% confidence)
-f8a_worker/workers/__init__.py:16: unused import 'InitPackageFlow' (90% confidence)
-f8a_worker/workers/__init__.py:17: unused import 'KeywordsSummaryTask' (90% confidence)
-f8a_worker/workers/__init__.py:18: unused import 'KeywordsTaggingTask' (90% confidence)
-f8a_worker/workers/__init__.py:19: unused import 'PackageKeywordsTaggingTask' (90% confidence)
-f8a_worker/workers/__init__.py:20: unused import 'LibrariesIoTask' (90% confidence)
-f8a_worker/workers/__init__.py:21: unused import 'LicenseCheckTask' (90% confidence)
-f8a_worker/workers/__init__.py:22: unused import 'MercatorTask' (90% confidence)
-f8a_worker/workers/__init__.py:23: unused import 'ReportGenerationTask' (90% confidence)
-f8a_worker/workers/__init__.py:24: unused import 'RepositoryDescCollectorTask' (90% confidence)
-f8a_worker/workers/__init__.py:25: unused import 'PackageResultCollector' (90% confidence)
-f8a_worker/workers/__init__.py:25: unused import 'ResultCollector' (90% confidence)
-f8a_worker/workers/__init__.py:26: unused import 'UnknownDependencyFetcherTask' (90% confidence)
-f8a_worker/workers/__init__.py:27: unused import 'VictimsCheck' (90% confidence)
-f8a_worker/workers/__init__.py:28: unused import 'UserNotificationTask' (90% confidence)
-f8a_worker/workers/__init__.py:29: unused import 'RepoDependencyFinderTask' (90% confidence)
-    Fail
+    Pass
 f8a_worker/workers/libraries_io.py
     Pass
 f8a_worker/workers/githuber.py
@@ -415,4 +367,4 @@ setup.py
 
 setup.py
     Pass
-18 source files out of 162 files seems to contain dead code and/or unused imports
+16 source files out of 162 files seems to contain dead code and/or unused imports

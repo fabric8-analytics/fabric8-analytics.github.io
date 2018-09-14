@@ -1,5 +1,13 @@
 <pre>setup.py
     <span style="color:#AA00AA">F </span>25:0 get_requirements - <span style="color:#00AA00">A (4)</span>
+tests/test_user_notification.py
+    <span style="color:#AA00AA">F </span>9:0 mock_response - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>50:0 test_send_notification - <span style="color:#00AA00">A (2)</span>
+tests/test_auth.py
+    <span style="color:#AA00AA">F </span>9:0 mock_response - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>50:0 test_init_auth_sa_token - <span style="color:#00AA00">A (3)</span>
+tests/__init__.py
+    <span style="color:#AA00AA">F </span>23:0 test_dummy - <span style="color:#00AA00">A (1)</span>
 tests/test_utils.py
     <span style="color:#AA00AA">F </span>129:0 test_select_latest_version - <span style="color:#00AA00">B (6)</span>
     <span style="color:#AA00AA">F </span>36:0 test_execute_gremlin_dsl - <span style="color:#00AA00">A (5)</span>
@@ -10,7 +18,18 @@ tests/test_utils.py
     <span style="color:#00AA00">M </span>74:4 MockedSession.__init__ - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>79:4 MockedSession.post - <span style="color:#00AA00">A (1)</span>
 tests/test_entry.py
-    <span style="color:#AA00AA">F </span>8:0 test_dummy - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>113:0 test_get_version_data - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>225:0 test_check_license_compatibility - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>154:0 test_get_repos - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>171:0 test_find_latest_version - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>105:0 test_read_packages - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>278:0 test_generate_notification_payload - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>305:0 test_run - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>8:0 mock_repo_response - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>23:0 mock_repo_combo_response - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>47:0 mock_repo_tr_response - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>71:0 mock_response - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>87:0 mock_ver_response - <span style="color:#00AA00">A (1)</span>
 f8a_notification/auth.py
     <span style="color:#00AAAA">C </span>28:0 Authentication - <span style="color:#00AA00">A (5)</span>
     <span style="color:#00AA00">M </span>31:4 Authentication.init_auth_sa_token - <span style="color:#00AA00">A (5)</span>
@@ -24,18 +43,18 @@ f8a_notification/utils.py
     <span style="color:#AA00AA">F </span>180:0 check_license_conflict - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>152:0 get_response_data - <span style="color:#00AA00">A (1)</span>
 f8a_notification/entryscript.py
-    <span style="color:#AA00AA">F </span>287:0 find_latest_version - <span style="color:#AA5500">C (19)</span>
-    <span style="color:#AA00AA">F </span>171:0 get_repos - <span style="color:#AA5500">C (16)</span>
-    <span style="color:#AA00AA">F </span>105:0 get_version_data - <span style="color:#AA5500">C (11)</span>
-    <span style="color:#AA00AA">F </span>354:0 check_license_compatibility - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>388:0 generate_notification_payload - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>73:0 read_packages - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>289:0 find_latest_version - <span style="color:#AA5500">C (19)</span>
+    <span style="color:#AA00AA">F </span>173:0 get_repos - <span style="color:#AA5500">C (16)</span>
+    <span style="color:#AA00AA">F </span>106:0 get_version_data - <span style="color:#AA5500">C (11)</span>
+    <span style="color:#AA00AA">F </span>356:0 check_license_compatibility - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>390:0 generate_notification_payload - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>74:0 read_packages - <span style="color:#00AA00">A (4)</span>
     <span style="color:#AA00AA">F </span>47:0 get_value - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>52:0 run - <span style="color:#00AA00">A (1)</span>
 f8a_notification/user_notification.py
     <span style="color:#00AAAA">C </span>27:0 UserNotification - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AA00">M </span>30:4 UserNotification.send_notification - <span style="color:#00AA00">A (3)</span>
 
-30 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (4.3)</span>
+46 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (3.608695652173913)</span>
 </pre>

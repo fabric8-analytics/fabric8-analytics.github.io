@@ -165,25 +165,7 @@ f8a_worker/storages/s3_crowd_source_tags.py
 f8a_worker/storages/s3_readme.py
     Pass
 f8a_worker/storages/__init__.py
-f8a_worker/storages/__init__.py:5: '.postgres.BayesianPostgres' imported but unused
-f8a_worker/storages/__init__.py:6: '.package_postgres.PackagePostgres' imported but unused
-f8a_worker/storages/__init__.py:7: '.s3.AmazonS3' imported but unused
-f8a_worker/storages/__init__.py:8: '.s3_artifacts.S3Artifacts' imported but unused
-f8a_worker/storages/__init__.py:9: '.s3_temp_artifacts.S3TempArtifacts' imported but unused
-f8a_worker/storages/__init__.py:10: '.s3_data.S3Data' imported but unused
-f8a_worker/storages/__init__.py:11: '.s3_package_data.S3PackageData' imported but unused
-f8a_worker/storages/__init__.py:12: '.s3_manifests.S3Manifests' imported but unused
-f8a_worker/storages/__init__.py:13: '.s3_mavenindex.S3MavenIndex' imported but unused
-f8a_worker/storages/__init__.py:14: '.s3_vulndb.S3VulnDB' imported but unused
-f8a_worker/storages/__init__.py:15: '.s3_readme.S3Readme' imported but unused
-f8a_worker/storages/__init__.py:16: '.s3_gh_manifests.S3GitHubManifestMetadata' imported but unused
-f8a_worker/storages/__init__.py:17: '.s3_userprofilestore.S3UserProfileStore' imported but unused
-f8a_worker/storages/__init__.py:18: '.s3_description_repository.S3RepositoryDescription' imported but unused
-f8a_worker/storages/__init__.py:19: '.s3_keywords_summary.S3KeywordsSummary' imported but unused
-f8a_worker/storages/__init__.py:20: '.s3_userintent.S3UserIntent' imported but unused
-f8a_worker/storages/__init__.py:21: '.s3_manual_tagging.S3ManualTagging' imported but unused
-f8a_worker/storages/__init__.py:22: '.s3_crowd_source_tags.S3CrowdSourceTags' imported but unused
-    Fail
+    Pass
 f8a_worker/storages/s3_package_data.py
     Pass
 f8a_worker/storages/s3_keywords_summary.py
@@ -253,37 +235,7 @@ f8a_worker/workers/dependency_parser.py
 f8a_worker/workers/bookkeeper.py
     Pass
 f8a_worker/workers/__init__.py
-f8a_worker/workers/__init__.py:3: 'f8a_worker.workers.CVEchecker.CVEcheckerTask' imported but unused
-f8a_worker/workers/__init__.py:4: 'f8a_worker.workers.bookkeeper.BookkeeperTask' imported but unused
-f8a_worker/workers/__init__.py:5: 'f8a_worker.workers.cvedbsync.CVEDBSyncTask' imported but unused
-f8a_worker/workers/__init__.py:6: 'f8a_worker.workers.dependency_parser.GithubDependencyTreeTask' imported but unused
-f8a_worker/workers/__init__.py:7: 'f8a_worker.workers.dependency_snapshot.DependencySnapshotTask' imported but unused
-f8a_worker/workers/__init__.py:8: 'f8a_worker.workers.digester.DigesterTask' imported but unused
-f8a_worker/workers/__init__.py:9: 'f8a_worker.workers.finalize.FinalizeTask' imported but unused
-f8a_worker/workers/__init__.py:9: 'f8a_worker.workers.finalize.PackageFinalizeTask' imported but unused
-f8a_worker/workers/__init__.py:10: 'f8a_worker.workers.git_stats.GitStats' imported but unused
-f8a_worker/workers/__init__.py:11: 'f8a_worker.workers.githuber.GithubTask' imported but unused
-f8a_worker/workers/__init__.py:11: 'f8a_worker.workers.githuber.GitReadmeCollectorTask' imported but unused
-f8a_worker/workers/__init__.py:12: 'f8a_worker.workers.graph_importer.GraphImporterTask' imported but unused
-f8a_worker/workers/__init__.py:13: 'f8a_worker.workers.graph_sync.GraphSyncTask' imported but unused
-f8a_worker/workers/__init__.py:14: 'f8a_worker.workers.graphaggregator.GraphAggregatorTask' imported but unused
-f8a_worker/workers/__init__.py:15: 'f8a_worker.workers.init_analysis_flow.InitAnalysisFlow' imported but unused
-f8a_worker/workers/__init__.py:16: 'f8a_worker.workers.init_package_flow.InitPackageFlow' imported but unused
-f8a_worker/workers/__init__.py:17: 'f8a_worker.workers.keywords_summary.KeywordsSummaryTask' imported but unused
-f8a_worker/workers/__init__.py:18: 'f8a_worker.workers.keywords_tagging.KeywordsTaggingTask' imported but unused
-f8a_worker/workers/__init__.py:19: 'f8a_worker.workers.keywords_tagging.PackageKeywordsTaggingTask' imported but unused
-f8a_worker/workers/__init__.py:20: 'f8a_worker.workers.libraries_io.LibrariesIoTask' imported but unused
-f8a_worker/workers/__init__.py:21: 'f8a_worker.workers.license.LicenseCheckTask' imported but unused
-f8a_worker/workers/__init__.py:22: 'f8a_worker.workers.mercator.MercatorTask' imported but unused
-f8a_worker/workers/__init__.py:23: 'f8a_worker.workers.report_generation.ReportGenerationTask' imported but unused
-f8a_worker/workers/__init__.py:24: 'f8a_worker.workers.repository_description.RepositoryDescCollectorTask' imported but unused
-f8a_worker/workers/__init__.py:25: 'f8a_worker.workers.result_collector.ResultCollector' imported but unused
-f8a_worker/workers/__init__.py:25: 'f8a_worker.workers.result_collector.PackageResultCollector' imported but unused
-f8a_worker/workers/__init__.py:26: 'f8a_worker.workers.unknown_dep_fetcher.UnknownDependencyFetcherTask' imported but unused
-f8a_worker/workers/__init__.py:27: 'f8a_worker.workers.victims.VictimsCheck' imported but unused
-f8a_worker/workers/__init__.py:28: 'f8a_worker.workers.user_notifier.UserNotificationTask' imported but unused
-f8a_worker/workers/__init__.py:29: 'f8a_worker.workers.repo_dependency_finder.RepoDependencyFinderTask' imported but unused
-    Fail
+    Pass
 f8a_worker/workers/libraries_io.py
     Pass
 f8a_worker/workers/githuber.py
@@ -392,4 +344,4 @@ setup.py
 
 setup.py
     Pass
-5 source files out of 162 files needs to be checked and fixed
+3 source files out of 162 files needs to be checked and fixed
