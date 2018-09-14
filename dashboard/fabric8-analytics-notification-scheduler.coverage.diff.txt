@@ -2,8 +2,8 @@ Name                                    Stmts   Miss  Cover   Missing					Name  
 ---------------------------------------------------------------------					---------------------------------------------------------------------
 f8a_notification/__init__.py                1      0   100%						f8a_notification/__init__.py                1      0   100%
 f8a_notification/auth.py                   28     22    21%   34-66					f8a_notification/auth.py                   28     22    21%   34-66
-f8a_notification/entryscript.py           263    235    11%   50, 55-71, 76-103, 108-169, 174-285, 29	f8a_notification/entryscript.py           263    235    11%   50, 55-71, 76-103, 108-169, 174-285, 29
+f8a_notification/entryscript.py           263    235    11%   50, 55-71, 76-103, 108-169, 174-285, 29 |	f8a_notification/entryscript.py           262    235    10%   49, 54-70, 75-102, 107-168, 173-284, 29
 f8a_notification/user_notification.py      15     10    33%   33-43					f8a_notification/user_notification.py      15     10    33%   33-43
 f8a_notification/utils.py                  83      7    92%   63-66, 83, 121-132			f8a_notification/utils.py                  83      7    92%   63-66, 83, 121-132
 ---------------------------------------------------------------------					---------------------------------------------------------------------
-TOTAL                                     390    274    30%						TOTAL                                     390    274    30%
+TOTAL                                     390    274    30%					      |	TOTAL                                     389    274    30%
