@@ -7,21 +7,35 @@ dashboard/src/configuration.py
     <span style="color:#00AA00">M </span>9:4 Configuration.__init__ - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>15:4 Configuration.__repr__ - <span style="color:#00AA00">A (1)</span>
 dashboard/src/dc_ce_history.py
-    <span style="color:#AA00AA">F </span>45:0 read_summary - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>73:0 read_history - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>128:0 generate_graph_with_dead_code - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>145:0 generate_graph_with_common_errors - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>18:0 parse_summary - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>34:0 parse_check_passed - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>162:0 main - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>13:0 line_with_summary - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>29:0 line_with_check_passed - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>61:0 get_filename_with_dead_code_stats - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>67:0 get_filename_with_common_errors_stats - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>97:0 compute_correct_files - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>102:0 plot_series_to_graph - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>117:0 plot_dead_code_series_to_graph - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>122:0 plot_common_errors_series_to_graph - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>48:0 read_summary - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>209:0 find_repo_data_for_commit - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>305:0 generate_graph_with_all_history - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>76:0 read_history - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>156:0 generate_graph_with_dead_code - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>166:0 generate_graph_with_common_errors - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>184:0 generate_csv - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>292:0 generate_csv_with_all_history - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>21:0 parse_summary - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>37:0 parse_check_passed - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>195:0 generate_csv_with_dead_code - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>202:0 generate_csv_with_common_errors - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>224:0 get_csv_header - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>239:0 get_date_row - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>255:0 get_repodata_row_for_commit - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>278:0 summary_for_commit - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>326:0 main - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>16:0 line_with_summary - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>32:0 line_with_check_passed - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>64:0 get_filename_with_dead_code_stats - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>70:0 get_filename_with_common_errors_stats - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>100:0 compute_correct_files - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>105:0 plot_series_to_graph - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>120:0 plot_common_series_to_graph - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>125:0 plot_dead_code_series_to_graph - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>130:0 plot_common_errors_series_to_graph - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>136:0 read_dead_code_history - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>146:0 read_common_errors_history - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>176:0 issues_data - <span style="color:#00AA00">A (1)</span>
 dashboard/src/jacoco_to_codecov.py
     <span style="color:#00AA00">M </span>45:4 ProjectCoverageReport.read_csv - <span style="color:#00AA00">A (4)</span>
     <span style="color:#00AA00">M </span>82:4 ProjectCoverageReport.convert_code_coverage_report - <span style="color:#00AA00">A (3)</span>
@@ -228,9 +242,9 @@ dashboard/src/git_utils.py
     <span style="color:#AA00AA">F </span>54:0 create_log - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>81:0 checkout - <span style="color:#00AA00">A (1)</span>
 dashboard/src/history_generator.py
+    <span style="color:#AA00AA">F </span>85:0 draw_graph - <span style="color:#00AA00">A (4)</span>
     <span style="color:#AA00AA">F </span>28:0 diff_two_lists - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>71:0 setup_ticks - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>85:0 draw_graph - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>47:0 get_commit_date - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>61:0 get_values_as_str - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>66:0 get_values_as_int - <span style="color:#00AA00">A (2)</span>
@@ -1069,6 +1083,6 @@ perf-tests/src/gremlin_package_generator.py
     <span style="color:#00AA00">M </span>55:4 GremlinPackageGenerator.package_generator_for_ecosystem - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>65:4 GremlinPackageGenerator.package_version_generator_for_ecosystem - <span style="color:#00AA00">A (2)</span>
 
-983 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (2.2970498474059005)</span>
+997 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (2.296890672016048)</span>
 </pre>
