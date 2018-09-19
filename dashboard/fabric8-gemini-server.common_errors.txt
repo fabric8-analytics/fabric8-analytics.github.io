@@ -10,8 +10,6 @@ directories:
 src tests
 ----------------------------------------------------
 
-src/auth.py
-    Pass
 src/repo_dependency_creator.py
     Pass
 src/__init__.py
@@ -36,8 +34,6 @@ tests/test_rest_api.py
     Pass
 tests/test_errors_class.py
     Pass
-tests/test_auth.py
-    Pass
 tests/__init__.py
     Pass
 tests/test_utils.py
@@ -51,4 +47,4 @@ setup.py
 
 setup.py
     Pass
-All checks passed for 18 source files
+All checks passed for 16 source files

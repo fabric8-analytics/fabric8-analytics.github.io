@@ -9,8 +9,6 @@ Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: pycodestyle in ./venv/lib/python3.6/site-packages (2.4.0)
-src/auth.py
-    Pass
 src/repo_dependency_creator.py
     Pass
 src/__init__.py
@@ -35,8 +33,6 @@ tests/test_rest_api.py
     Pass
 tests/test_errors_class.py
     Pass
-tests/test_auth.py
-    Pass
 tests/__init__.py
     Pass
 tests/test_utils.py
@@ -50,4 +46,4 @@ setup.py
 ----------------------------------------------------
 setup.py
     Pass
-All checks passed for 18 source files
+All checks passed for 16 source files
