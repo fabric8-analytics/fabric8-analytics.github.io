@@ -309,8 +309,7 @@ f8a_worker/celery_settings.py
 f8a_worker/celery_settings.py:89: unused variable 'kwargs' (100% confidence)
     Fail
 f8a_worker/defaults.py
-f8a_worker/defaults.py:11: unused import 'StoragePool' (90% confidence)
-    Fail
+    Pass
 tests/test_data_normalizer.py
     Pass
 tests/test_schemas.py
@@ -367,4 +366,4 @@ setup.py
 
 setup.py
     Pass
-16 source files out of 162 files seems to contain dead code and/or unused imports
+15 source files out of 162 files seems to contain dead code and/or unused imports

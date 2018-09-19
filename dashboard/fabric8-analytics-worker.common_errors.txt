@@ -287,8 +287,7 @@ f8a_worker/celery_settings.py:118: dictionary key 'selinon' repeated with differ
 f8a_worker/celery_settings.py:123: dictionary key 'selinon' repeated with different values
     Fail
 f8a_worker/defaults.py
-f8a_worker/defaults.py:11: 'selinon.StoragePool' imported but unused
-    Fail
+    Pass
 tests/test_data_normalizer.py
     Pass
 tests/test_schemas.py
@@ -344,4 +343,4 @@ setup.py
 
 setup.py
     Pass
-3 source files out of 162 files needs to be checked and fixed
+2 source files out of 162 files needs to be checked and fixed

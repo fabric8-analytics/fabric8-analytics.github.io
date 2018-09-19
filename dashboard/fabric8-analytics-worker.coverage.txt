@@ -4,7 +4,7 @@ Name                                                                 Stmts   Mis
 /f8a_worker/f8a_worker/base.py                                          66     28    58%   41, 55-62, 74-131, 149, 161
 /f8a_worker/f8a_worker/celery_settings.py                               40     12    70%   21, 28, 32, 54-70, 80, 85, 91-150
 /f8a_worker/f8a_worker/data_normalizer.py                              429     73    83%   136-139, 143-146, 150, 189-190, 199-200, 216-226, 231, 240, 243, 246, 249, 286, 309, 374, 441-444, 450, 457, 461, 579, 583, 593, 618-620, 646-647, 664, 681, 684, 711-717, 721-752, 756
-/f8a_worker/f8a_worker/defaults.py                                      87     12    86%   97-99, 103-105, 134, 145, 147-150, 166, 169, 182-183
+/f8a_worker/f8a_worker/defaults.py                                      86     12    86%   95-97, 101-103, 132, 143, 145-148, 164, 167, 180-181
 /f8a_worker/f8a_worker/dispatcher/__init__.py                            0      0   100%
 /f8a_worker/f8a_worker/dispatcher/foreach.py                            86     67    22%   17, 42-65, 71-95, 101-109, 115-140
 /f8a_worker/f8a_worker/dispatcher/predicates.py                         11      7    36%   12-19
@@ -83,4 +83,4 @@ Name                                                                 Stmts   Mis
 /f8a_worker/f8a_worker/workers/user_notifier.py                         38     29    24%   15-25, 29-49, 57-73
 /f8a_worker/f8a_worker/workers/victims.py                              103     49    52%   22-40, 44-73, 102-105, 128, 142-164, 185-186
 --------------------------------------------------------------------------------------------------
-TOTAL                                                                 6026   2211    63%
+TOTAL                                                                 6025   2211    63%
