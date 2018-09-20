@@ -7,7 +7,7 @@ Name                                                       Stmts   Miss  Cover  
 /root/payload/src/exceptions.py                                5      0   100%
 /root/payload/src/license_analysis.py                        274      0   100%
 /root/payload/src/rest_api.py                                 26      1    96%   56
-/root/payload/src/stack_license.py                           302     47    84%   34-39, 207-211, 235-236, 242-243, 336-341, 423, 441, 445-453, 478, 481-488, 494-511, 562-563
+/root/payload/src/stack_license.py                           302     47    84%   34-39, 207-211, 235-236, 242-243, 336-341, 422, 440, 444-452, 477, 480-487, 493-510, 561-562
 /root/payload/src/util/__init__.py                             0      0   100%
 /root/payload/src/util/data_store/__init__.py                  0      0   100%
 /root/payload/src/util/data_store/abstract_data_store.py      10      0   100%

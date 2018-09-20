@@ -31,11 +31,17 @@ src/notification/user_notification.py
     Pass
 tests/test_rest_api.py
     Pass
+tests/test_user_notification.py
+    Pass
 tests/test_errors_class.py
     Pass
 tests/__init__.py
     Pass
 tests/test_utils.py
+    Pass
+tests/test_maven_parser.py
+    Pass
+tests/test_repo_dependency_creator.py
     Pass
 tests/conftest.py
     Pass
@@ -46,4 +52,4 @@ setup.py
 ----------------------------------------------------
 setup.py
     Pass
-All checks passed for 16 source files
+All checks passed for 19 source files

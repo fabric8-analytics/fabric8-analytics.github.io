@@ -1,23 +1,28 @@
 <pre>setup.py
     <span style="color:#AA00AA">F </span>8:0 get_requirements - <span style="color:#00AA00">A (4)</span>
 tests/test_rest_api.py
-    <span style="color:#AA00AA">F </span>60:0 test_report_endpoint - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#AA00AA">F </span>44:0 test_readiness_endpoint - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>52:0 test_liveness_endpoint - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>117:0 test_register_endpoint_1 - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>137:0 test_register_endpoint_3 - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>161:0 test_register_endpoint_4 - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>219:0 test_user_repo_scan_endpoint_2 - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>254:0 test_notify_user_endpoint_2 - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>129:0 test_register_endpoint_2 - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>182:0 test_register_endpoint_5 - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>190:0 test_register_endpoint_6 - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>202:0 test_user_repo_scan_endpoint - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>210:0 test_user_repo_scan_endpoint_1 - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>237:0 test_notify_user_endpoint - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>245:0 test_notify_user_endpoint_1 - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>34:0 api_route_for - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>39:0 get_json_from_response - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>117:0 test_report_endpoint - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#AA00AA">F </span>48:0 mocked_requests_post - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>101:0 test_readiness_endpoint - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>109:0 test_liveness_endpoint - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>174:0 test_register_endpoint_1 - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>194:0 test_register_endpoint_3 - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>218:0 test_register_endpoint_4 - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>259:0 test_user_repo_scan_endpoint - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>272:0 test_user_repo_scan_endpoint_1 - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>330:0 test_notify_user_endpoint_2 - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>186:0 test_register_endpoint_2 - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>239:0 test_register_endpoint_5 - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>247:0 test_register_endpoint_6 - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>286:0 test_user_repo_scan_endpoint_2 - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>313:0 test_notify_user_endpoint - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>321:0 test_notify_user_endpoint_1 - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>68:0 mocked_generate_report - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>75:0 mocked_generate_notification - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>91:0 api_route_for - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>96:0 get_json_from_response - <span style="color:#00AA00">A (1)</span>
+tests/test_user_notification.py
+    <span style="color:#AA00AA">F </span>6:0 test_generate_notification - <span style="color:#00AA00">A (2)</span>
 tests/test_errors_class.py
     <span style="color:#AA00AA">F </span>7:0 test_http_error_attributes - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>14:0 test_http_error_raise - <span style="color:#00AA00">A (2)</span>
@@ -47,6 +52,10 @@ tests/test_utils.py
     <span style="color:#00AAAA">C </span>16:0 MockResponse - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>19:4 MockResponse.__init__ - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>25:4 MockResponse.json - <span style="color:#00AA00">A (1)</span>
+tests/test_maven_parser.py
+    <span style="color:#AA00AA">F </span>7:0 test_maven_parser_output_file - <span style="color:#00AA00">A (3)</span>
+tests/test_repo_dependency_creator.py
+    <span style="color:#AA00AA">F </span>8:0 test_generate_report - <span style="color:#00AA00">A (3)</span>
 tests/conftest.py
     <span style="color:#AA00AA">F </span>13:0 client - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>20:0 create_database - <span style="color:#00AA00">A (1)</span>
@@ -78,9 +87,9 @@ src/utils.py
     <span style="color:#00AA00">M </span>51:4 Postgres.session - <span style="color:#00AA00">A (1)</span>
 src/rest_api.py
     <span style="color:#AA00AA">F </span>40:0 register - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>158:0 user_repo_scan_experimental - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>158:0 user_repo_scan - <span style="color:#00AA00">B (8)</span>
     <span style="color:#AA00AA">F </span>118:0 report - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>233:0 user_repo_scan - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>233:0 user_repo_scan_experimental - <span style="color:#00AA00">A (4)</span>
     <span style="color:#AA00AA">F </span>279:0 notify_user - <span style="color:#00AA00">A (4)</span>
     <span style="color:#AA00AA">F </span>321:0 drop - <span style="color:#00AA00">A (4)</span>
     <span style="color:#AA00AA">F </span>28:0 readiness - <span style="color:#00AA00">A (1)</span>
@@ -101,6 +110,6 @@ src/notification/user_notification.py
     <span style="color:#00AA00">M </span>31:4 UserNotification.generate_notification - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AA00">M </span>18:4 UserNotification.send_notification - <span style="color:#00AA00">A (2)</span>
 
-90 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (2.7)</span>
+96 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (2.6770833333333335)</span>
 </pre>

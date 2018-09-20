@@ -44,7 +44,9 @@ recommendation_engine/model/__init__.py
     Pass
 recommendation_engine/model/pmf_prediction.py
     Pass
-deployment/submit_emr_job.py
+deployment/submit_emr_job_train.py
+    Pass
+deployment/submit_emr_job_pretrain.py
     Pass
 tests/load_tests/locustfile.py
     Pass
@@ -56,4 +58,4 @@ tests/unit_tests/test_constants.py
     Pass
 tests/unit_tests/test_PMFRecommendation.py
     Pass
-All checks passed for 23 source files
+All checks passed for 24 source files
