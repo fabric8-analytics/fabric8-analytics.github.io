@@ -1,7 +1,7 @@
 Name                                                   Stmts   Miss  Cover   Missing			Name                                                   Stmts   Miss  Cover   Missing
 ------------------------------------------------------------------------------------			------------------------------------------------------------------------------------
 /bayesian/bayesian/__init__.py                            60     13    78%   60, 64-80			/bayesian/bayesian/__init__.py                            60     13    78%   60, 64-80
-/bayesian/bayesian/api_v1.py                             642    425    34%   81-88, 131-161, 214, 232 |	/bayesian/bayesian/api_v1.py                             639    423    34%   80-87, 130-160, 213, 231
+/bayesian/bayesian/api_v1.py                             639    423    34%   80-87, 130-160, 213, 231	/bayesian/bayesian/api_v1.py                             639    423    34%   80-87, 130-160, 213, 231
 /bayesian/bayesian/auth.py                                16     12    25%   10-24			/bayesian/bayesian/auth.py                                16     12    25%   10-24
 /bayesian/bayesian/default_config.py                      23      0   100%				/bayesian/bayesian/default_config.py                      23      0   100%
 /bayesian/bayesian/dependency_finder.py                   77     62    19%   26-34, 40-118		/bayesian/bayesian/dependency_finder.py                   77     62    19%   26-34, 40-118
@@ -16,4 +16,4 @@ Name                                                   Stmts   Miss  Cover   Mis
 /bayesian/bayesian/schemas/version_range_resolver.py      18      0   100%				/bayesian/bayesian/schemas/version_range_resolver.py      18      0   100%
 /bayesian/bayesian/utils.py                              574    396    31%   53, 64-73, 87-96, 111-12	/bayesian/bayesian/utils.py                              574    396    31%   53, 64-73, 87-96, 111-12
 ------------------------------------------------------------------------------------			------------------------------------------------------------------------------------
-TOTAL                                                   1967    950    52%			      |	TOTAL                                                   1964    948    52%
+TOTAL                                                   1964    948    52%				TOTAL                                                   1964    948    52%
