@@ -162,6 +162,8 @@ dashboard/src/html_generator.py
     Pass
 dashboard/src/config.py
     Pass
+dashboard/src/code_quality_label.py
+    Pass
 dashboard/src/source_files.py
     Pass
 dashboard/src/s3_configuration.py
@@ -224,4 +226,4 @@ db-integrity-tests/src/checker.py
     Pass
 taas/taas.py
     Pass
-All checks passed for 107 source files
+All checks passed for 108 source files
