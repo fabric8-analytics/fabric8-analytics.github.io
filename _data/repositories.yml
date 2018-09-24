@@ -68,6 +68,7 @@
   url: "#" # TODO
   imports: null # TODO
 
+
 - name: fabric8-analytics-nvd-toolkit
   nick: NVD Toolkit
   github: /fabric8-analytics/fabric8-analytics-nvd-toolkit
@@ -78,7 +79,7 @@
 
 - name: fabric8-analytics-jobs
   nick: Jobs
-  github: /fabric8-analytics/fabric8-jobs
+  github: /fabric8-analytics/fabric8-analytics-jobs
   description: Single configuration point for core periodic and query specific jobs.
   url: "#" # TODO
   imports:
@@ -125,4 +126,22 @@
   description: Core library and services. Provides basic infrastrucutre for development of services and concrete implementation of services.
   url: "#" # TODO
   imports: null # TODO
+
+
+- name: nvdlib
+  nick: nvdlib
+  github: /fabric8-analytics/nvdlib
+  description: Lightweight library for accessing and querying NVD Vulnerability Feeds at ease.
+  url: "#" # TODO
+  imports: null
+
+
+- name: cvejob
+  nick: cvejob
+  github: /fabric8-analytics/cvejob
+  description: CI job which tries to identify CVEs in supported ecosystems (Maven, NPM, PyPI).
+  url: "#" # TODO
+  imports:
+    - nvdlib
+    - fabric8-analytics-nvd-toolkit
 
