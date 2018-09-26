@@ -10,8 +10,6 @@ Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages (0.28)
-src/auth.py
-    Pass
 src/util/data_store/__init__.py
     Pass
 src/util/data_store/local_filesystem.py
@@ -60,12 +58,8 @@ tests/synonyms/__init__.py
     Pass
 tests/test_stack_license.py
     Pass
-tests/test_token_handling.py
-    Pass
-tests/test_api_user_class.py
-    Pass
 tests/conftest.py
     Pass
 tests/pandas_mocks.py
     Pass
-All checks passed for 29 source files
+All checks passed for 26 source files

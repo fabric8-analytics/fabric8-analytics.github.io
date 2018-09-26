@@ -12,9 +12,6 @@ Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-co
 Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (2.1.1)
 Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.11.0)
 Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.2.1)
-src/auth.py
-0
-    Pass
 src/util/data_store/__init__.py
 0
     Pass
@@ -87,16 +84,10 @@ tests/synonyms/__init__.py
 tests/test_stack_license.py
 0
     Pass
-tests/test_token_handling.py
-0
-    Pass
-tests/test_api_user_class.py
-0
-    Pass
 tests/conftest.py
 0
     Pass
 tests/pandas_mocks.py
 0
     Pass
-All checks passed for 29 source files
+All checks passed for 26 source files
