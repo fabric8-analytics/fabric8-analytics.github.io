@@ -7,14 +7,14 @@ Fabric8-analytics code coverage report
 |                                        |Files|Total    |Week    |Stmts.|Missed|Covered|             |Threshold|Pass?|
 |                                        |     |lines    |        |      |      |       |             |         |     |
 |----------------------------------------+-----+---------+--------+------+------+-------+-------------+---------+-----|
-|fabric8-analytics-common                |108  |14242    |        |      |      |       |?            |         |     |
+|fabric8-analytics-common                |108  |14446    |        |      |      |       |?            |         |     |
 |                                        |     |         |        |      |      |       |             |         |     |
 |----------------------------------------+-----+---------+--------+------+------+-------+-------------+---------+-----|
-|fabric8-analytics-server                |60   |6296     |previous|1964  |948   |52%    |=            |90 %     |no   |
-|                                        |     |         |current |1964  |948   |52%    |the same     |         |     |
+|fabric8-analytics-server                |60   |6293     |previous|1964  |948   |52%    |=            |90 %     |no   |
+|                                        |     |         |current |1962  |946   |52%    |the same     |         |     |
 |----------------------------------------+-----+---------+--------+------+------+-------+-------------+---------+-----|
-|fabric8-analytics-worker                |162  |16812    |previous|6026  |2211  |63%    |=            |90 %     |no   |
-|                                        |     |         |current |6025  |2211  |63%    |the same     |         |     |
+|fabric8-analytics-worker                |162  |16812    |previous|6025  |2211  |63%    |=            |90 %     |no   |
+|                                        |     |         |current |6031  |2211  |63%    |the same     |         |     |
 |----------------------------------------+-----+---------+--------+------+------+-------+-------------+---------+-----|
 |fabric8-analytics-jobs                  |41   |4059     |previous|1982  |1590  |20%    |=            |90 %     |no   |
 |                                        |     |         |current |1982  |1590  |20%    |the same     |         |     |
@@ -25,12 +25,11 @@ Fabric8-analytics code coverage report
 |fabric8-analytics-stack-analysis        |91   |5460     |previous|2118  |1029  |51%    |=            |90 %     |no   |
 |                                        |     |         |current |2118  |1029  |51%    |the same     |         |     |
 |----------------------------------------+-----+---------+--------+------+------+-------+-------------+---------+-----|
-|fabric8-analytics-license-analysis      |29   |3825     |previous|890   |85    |90%    |✓            |         |     |
-|                                        |     |         |current |827   |49    |94%    |increased by |90 %     |yes  |
-|                                        |     |         |        |      |      |       |4pp (4%)     |         |     |
+|fabric8-analytics-license-analysis      |26   |3560     |previous|827   |49    |94%    |=            |90 %     |yes  |
+|                                        |     |         |current |827   |49    |94%    |the same     |         |     |
 |----------------------------------------+-----+---------+--------+------+------+-------+-------------+---------+-----|
 |fabric8-analytics-data-model            |25   |3402     |previous|896   |64    |93%    |=            |90 %     |yes  |
-|                                        |     |         |current |896   |64    |93%    |the same     |         |     |
+|                                        |     |         |current |904   |64    |93%    |the same     |         |     |
 |----------------------------------------+-----+---------+--------+------+------+-------+-------------+---------+-----|
 |fabric8-analytics-recommender           |16   |981      |        |      |      |       |?            |         |     |
 |                                        |     |         |        |      |      |       |             |         |     |
@@ -41,12 +40,12 @@ Fabric8-analytics code coverage report
 |fabric8-analytics-nvd-toolkit           |33   |5043     |previous|1042  |85    |92%    |=            |90 %     |yes  |
 |                                        |     |         |current |1042  |85    |92%    |the same     |         |     |
 |----------------------------------------+-----+---------+--------+------+------+-------+-------------+---------+-----|
-|fabric8-analytics-auth                  |7    |665      |previous|149   |33    |78%    |=            |90 %     |no   |
-|                                        |     |         |current |149   |33    |78%    |the same     |         |     |
+|fabric8-analytics-auth                  |7    |664      |previous|149   |33    |78%    |×            |         |     |
+|                                        |     |         |current |148   |35    |76%    |decreased by |90 %     |no   |
+|                                        |     |         |        |      |      |       |2pp (2%)     |         |     |
 |----------------------------------------+-----+---------+--------+------+------+-------+-------------+---------+-----|
-|fabric8-gemini-server                   |19   |1669     |previous|428   |100   |77%    |✓            |         |     |
-|                                        |     |         |current |409   |23    |94%    |increased by |90 %     |yes  |
-|                                        |     |         |        |      |      |       |17pp (22%)   |         |     |
+|fabric8-gemini-server                   |19   |1673     |previous|409   |23    |94%    |=            |90 %     |yes  |
+|                                        |     |         |current |415   |25    |94%    |the same     |         |     |
 |----------------------------------------+-----+---------+--------+------+------+-------+-------------+---------+-----|
 |fabric8-analytics-version-comparator    |8    |1054     |previous|217   |0     |100%   |=            |90 %     |yes  |
 |                                        |     |         |current |217   |0     |100%   |the same     |         |     |
@@ -54,15 +53,14 @@ Fabric8-analytics code coverage report
 |fabric8-analytics-ingestion             |13   |852      |previous|228   |137   |40%    |=            |90 %     |no   |
 |                                        |     |         |current |228   |137   |40%    |the same     |         |     |
 |----------------------------------------+-----+---------+--------+------+------+-------+-------------+---------+-----|
-|fabric8-analytics-npm-insights          |24   |1195     |previous|240   |25    |90%    |=            |90 %     |yes  |
+|fabric8-analytics-npm-insights          |24   |1195     |previous|241   |25    |90%    |=            |90 %     |yes  |
 |                                        |     |         |current |241   |25    |90%    |the same     |         |     |
 |----------------------------------------+-----+---------+--------+------+------+-------+-------------+---------+-----|
 |fabric8-analytics-jenkins-plugin        |10   |1001     |previous|336   |109   |67%    |=            |90 %     |no   |
 |                                        |     |         |current |336   |109   |67%    |the same     |         |     |
 |----------------------------------------+-----+---------+--------+------+------+-------+-------------+---------+-----|
-|fabric8-analytics-notification-scheduler|11   |1466     |previous|389   |274   |30%    |✓            |         |     |
-|                                        |     |         |current |392   |28    |93%    |increased by |90 %     |yes  |
-|                                        |     |         |        |      |      |       |63pp (210%)  |         |     |
+|fabric8-analytics-notification-scheduler|11   |1466     |previous|392   |28    |93%    |=            |90 %     |yes  |
+|                                        |     |         |current |392   |28    |93%    |the same     |         |     |
 |----------------------------------------+-----+---------+--------+------+------+-------+-------------+---------+-----|
 |fabric8-analytics-utils                 |4    |312      |        |      |      |       |?            |         |     |
 |                                        |     |         |        |      |      |       |             |         |     |
@@ -78,4 +76,4 @@ Fabric8-analytics code coverage report
 +---------------------------------------------------------------------------------------------------------------------+
 
 Author: Pavel Tisnovsky <ptisnovs@redhat.com>
-Generated on: 2018-09-21 10:02:00
+Generated on: 2018-09-28 10:14:35
