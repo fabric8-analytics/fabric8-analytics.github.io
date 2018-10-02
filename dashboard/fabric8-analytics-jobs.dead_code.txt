@@ -25,7 +25,8 @@ f8a_jobs/error.py
 f8a_jobs/analyses_report.py
     Pass
 f8a_jobs/api_v1.py
-    Pass
+f8a_jobs/api_v1.py:24: unused import 'DATA_IMPORTER_ENDPOINT' (90% confidence)
+    Fail
 f8a_jobs/graph_sync.py
     Pass
 f8a_jobs/handlers/aggregate_crowd_source_tags.py
@@ -99,4 +100,4 @@ f8a-jobs.py
     Pass
 setup.py
     Pass
-1 source files out of 41 files seems to contain dead code and/or unused imports
+2 source files out of 41 files seems to contain dead code and/or unused imports

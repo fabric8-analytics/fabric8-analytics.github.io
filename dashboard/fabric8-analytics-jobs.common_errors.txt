@@ -25,7 +25,9 @@ f8a_jobs/error.py
 f8a_jobs/analyses_report.py
     Pass
 f8a_jobs/api_v1.py
-    Pass
+f8a_jobs/api_v1.py:24: 'f8a_jobs.defaults.DATA_IMPORTER_ENDPOINT' imported but unused
+f8a_jobs/api_v1.py:28: 'json' imported but unused
+    Fail
 f8a_jobs/graph_sync.py
     Pass
 f8a_jobs/handlers/aggregate_crowd_source_tags.py
@@ -97,4 +99,4 @@ f8a-jobs.py
     Pass
 setup.py
     Pass
-All checks passed for 41 source files
+1 source files out of 41 files needs to be checked and fixed
