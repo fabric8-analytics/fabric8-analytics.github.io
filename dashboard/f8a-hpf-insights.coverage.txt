@@ -1,7 +1,7 @@
 Name                                     Stmts   Miss  Cover   Missing
 ----------------------------------------------------------------------
 /src/__init__.py                             0      0   100%
-/src/config.py                              32      0   100%
+/src/config.py                              33      0   100%
 /src/data_store/__init__.py                  0      0   100%
 /src/data_store/abstract_data_store.py       1      0   100%
 /src/data_store/local_data_store.py         41      0   100%
@@ -12,4 +12,4 @@ Name                                     Stmts   Miss  Cover   Missing
 /src/training/__init__.py                    0      0   100%
 /src/utils.py                                2      0   100%
 ----------------------------------------------------------------------
-TOTAL                                      269     11    96%
+TOTAL                                      270     11    96%
