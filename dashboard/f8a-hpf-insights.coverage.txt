@@ -11,9 +11,10 @@ Name                                      Stmts   Miss  Cover   Missing
 /src/scoring/hpf_scoring.py                 135      5    96%   146, 164, 269-271
 /src/training/__init__.py                     0      0   100%
 /src/training/data_preprocessing.py          85     85     0%   3-139
+/src/training/generate_feedback.py          133    133     0%   7-222
 /src/training/generate_matrix.py             68     68     0%   3-100
 /src/training/hyper_parameter_tuning.py      72     72     0%   2-101
-/src/training/training_start.py              42     42     0%   3-59
+/src/training/training_start.py              49     49     0%   3-67
 /src/utils.py                                38     25    34%   21-27, 32, 37-38, 45-50, 55-59, 64-68
 -----------------------------------------------------------------------
-TOTAL                                       581    305    48%
+TOTAL                                       721    445    38%
