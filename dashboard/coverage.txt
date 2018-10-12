@@ -64,8 +64,8 @@ Fabric8-analytics code coverage report
 |fabric8-analytics-notification-scheduler|11   |1466     |previous|392   |28    |93%    |=            |90 %     |yes  |
 |                                        |     |         |current |392   |28    |93%    |the same     |         |     |
 |----------------------------------------+-----+---------+--------+------+------+-------+-------------+---------+-----|
-|fabric8-analytics-utils                 |4    |312      |        |      |      |       |?            |         |     |
-|                                        |     |         |        |      |      |       |             |         |     |
+|fabric8-analytics-utils                 |4    |312      |previous|58    |0     |100%   |=            |         |     |
+|                                        |     |         |current |58    |0     |100%   |the same     |         |     |
 |----------------------------------------+-----+---------+--------+------+------+-------+-------------+---------+-----|
 |f8a-server-backbone                     |11   |2114     |previous|665   |200   |70%    |=            |90 %     |no   |
 |                                        |     |         |current |665   |200   |70%    |the same     |         |     |
@@ -79,4 +79,4 @@ Fabric8-analytics code coverage report
 +---------------------------------------------------------------------------------------------------------------------+
 
 Author: Pavel Tisnovsky <ptisnovs@redhat.com>
-Generated on: 2018-10-12 10:02:43
+Generated on: 2018-10-12 11:19:53
