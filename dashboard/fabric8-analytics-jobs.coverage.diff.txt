@@ -2,7 +2,7 @@ Name                                                            Stmts   Miss  Co
 ---------------------------------------------------------------------------------------------		---------------------------------------------------------------------------------------------
 /f8a_jobs/f8a_jobs/__init__.py                                      0      0   100%			/f8a_jobs/f8a_jobs/__init__.py                                      0      0   100%
 /f8a_jobs/f8a_jobs/analyses_report.py                              57     57     0%   3-120		/f8a_jobs/f8a_jobs/analyses_report.py                              57     57     0%   3-120
-/f8a_jobs/f8a_jobs/api_v1.py                                      277    277     0%   3-532	      |	/f8a_jobs/f8a_jobs/api_v1.py                                      279    279     0%   3-534
+/f8a_jobs/f8a_jobs/api_v1.py                                      279    279     0%   3-534		/f8a_jobs/f8a_jobs/api_v1.py                                      279    279     0%   3-534
 /f8a_jobs/f8a_jobs/auth.py                                          7      7     0%   3-24		/f8a_jobs/f8a_jobs/auth.py                                          7      7     0%   3-24
 /f8a_jobs/f8a_jobs/defaults.py                                     22      0   100%			/f8a_jobs/f8a_jobs/defaults.py                                     22      0   100%
 /f8a_jobs/f8a_jobs/error.py                                         2      0   100%			/f8a_jobs/f8a_jobs/error.py                                         2      0   100%
@@ -32,4 +32,4 @@ Name                                                            Stmts   Miss  Co
 /f8a_jobs/f8a_jobs/scheduler.py                                   131    131     0%   3-283		/f8a_jobs/f8a_jobs/scheduler.py                                   131    131     0%   3-283
 /f8a_jobs/f8a_jobs/utils.py                                       122     80    34%   26-31, 36-42, 5	/f8a_jobs/f8a_jobs/utils.py                                       122     80    34%   26-31, 36-42, 5
 ---------------------------------------------------------------------------------------------		---------------------------------------------------------------------------------------------
-TOTAL                                                            1982   1590    20%		      |	TOTAL                                                            1984   1592    20%
+TOTAL                                                            1984   1592    20%			TOTAL                                                            1984   1592    20%
