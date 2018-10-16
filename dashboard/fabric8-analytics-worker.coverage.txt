@@ -41,7 +41,7 @@ Name                                                                 Stmts   Mis
 /f8a_worker/f8a_worker/storages/s3_temp_artifacts.py                    14      3    79%   45-49
 /f8a_worker/f8a_worker/storages/s3_userintent.py                        19     14    26%   11-16, 20-23, 27-31
 /f8a_worker/f8a_worker/storages/s3_userprofilestore.py                   8      4    50%   12-15
-/f8a_worker/f8a_worker/utils.py                                        301     52    83%   34-47, 82-83, 93, 114-117, 136-145, 178, 194, 222-224, 316, 363, 402, 410, 415, 485, 497-501, 507-512, 517-524, 529-533, 551, 555-557
+/f8a_worker/f8a_worker/utils.py                                        301     51    83%   34-47, 82-83, 93, 114-117, 136-145, 178, 194, 222-224, 316, 363, 402, 410, 415, 485, 497-501, 507-512, 517-524, 529-533, 551, 557
 /f8a_worker/f8a_worker/workers/__init__.py                              48      0   100%
 /f8a_worker/f8a_worker/workers/bookkeeper.py                            38     29    24%   18-62, 70-80
 /f8a_worker/f8a_worker/workers/dependency_parser.py                    161     59    63%   55, 88, 90, 103, 121-139, 151-166, 239-242, 279-315, 324-349
@@ -77,4 +77,4 @@ Name                                                                 Stmts   Mis
 /f8a_worker/f8a_worker/workers/unknown_dep_fetcher.py                   39     31    21%   15-50, 59-67
 /f8a_worker/f8a_worker/workers/user_notifier.py                         38     29    24%   15-25, 29-49, 57-73
 --------------------------------------------------------------------------------------------------
-TOTAL                                                                 5437   2032    63%
+TOTAL                                                                 5437   2031    63%

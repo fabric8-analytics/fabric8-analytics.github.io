@@ -52,6 +52,8 @@ tests/appconfig.py
     Pass
 tests/test_api_v1.py
     Pass
+tests/test_auth.py
+    Pass
 tests/test_generate_manifest.py
     Pass
 tests/__init__.py
@@ -135,4 +137,4 @@ setup.py
 
 setup.py
     Pass
-All checks passed for 60 source files
+All checks passed for 61 source files
