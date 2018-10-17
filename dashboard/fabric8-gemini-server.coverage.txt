@@ -7,8 +7,8 @@ src/notification/user_notification.py      36      2    94%   29, 56
 src/parsers/__init__.py                     0      0   100%
 src/parsers/maven_parser.py                25      2    92%   41, 43
 src/parsers/parser_base.py                  1      0   100%
-src/repo_dependency_creator.py             48     13    73%   26-29, 36-39, 55-59, 85-90
-src/rest_api.py                           152      7    95%   196-200, 224-225, 380
-src/utils.py                              158      5    97%   53, 99-100, 240, 304
+src/repo_dependency_creator.py             50      9    82%   27-30, 37-40, 53-57
+src/rest_api.py                           152      7    95%   197-201, 225-226, 381
+src/utils.py                              141      5    96%   53, 99-100, 240, 304
 ---------------------------------------------------------------------
-TOTAL                                     430     29    93%
+TOTAL                                     415     25    94%

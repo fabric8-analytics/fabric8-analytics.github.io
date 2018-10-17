@@ -23,6 +23,8 @@ tests/test_rest_api.py
     <span style="color:#AA00AA">F </span>96:0 get_json_from_response - <span style="color:#00AA00">A (1)</span>
 tests/test_user_notification.py
     <span style="color:#AA00AA">F </span>6:0 test_generate_notification - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>24:0 test_generate_notification_2 - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>42:0 test_generate_notification_3 - <span style="color:#00AA00">A (2)</span>
 tests/test_errors_class.py
     <span style="color:#AA00AA">F </span>7:0 test_http_error_attributes - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>14:0 test_http_error_raise - <span style="color:#00AA00">A (2)</span>
@@ -42,17 +44,20 @@ tests/test_utils.py
     <span style="color:#AA00AA">F </span>146:0 test_get_info - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>166:0 test_server_run_flow - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>174:0 test_scan_repo - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>196:0 test_fetch_public_key - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>203:0 test_fetch_public_key_1 - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>211:0 test_fetch_public_key_2 - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>220:0 test_alert_user - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>201:0 test_fetch_public_key - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>208:0 test_fetch_public_key_1 - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>216:0 test_fetch_public_key_2 - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>225:0 test_fetch_public_key_3 - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>234:0 test_alert_user - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>89:0 test_update_data_1 - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>186:0 mocked_requests_get_1 - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>191:0 mocked_requests_get_2 - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>196:0 mocked_requests_get_3 - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AAAA">C </span>16:0 MockResponse - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>19:4 MockResponse.__init__ - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>25:4 MockResponse.json - <span style="color:#00AA00">A (1)</span>
 tests/test_maven_parser.py
+    <span style="color:#AA00AA">F </span>16:0 test_maven_parser_output_file_transitive_dependencies - <span style="color:#00AA00">A (4)</span>
     <span style="color:#AA00AA">F </span>7:0 test_maven_parser_output_file - <span style="color:#00AA00">A (3)</span>
 tests/test_repo_dependency_creator.py
     <span style="color:#AA00AA">F </span>8:0 test_generate_report - <span style="color:#00AA00">A (3)</span>
@@ -61,8 +66,8 @@ tests/conftest.py
     <span style="color:#AA00AA">F </span>20:0 create_database - <span style="color:#00AA00">A (1)</span>
 src/repo_dependency_creator.py
     <span style="color:#00AAAA">C </span>8:0 RepoDependencyCreator - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#00AA00">M </span>11:4 RepoDependencyCreator.create_repo_node_and_get_cve - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#00AA00">M </span>61:4 RepoDependencyCreator.generate_report - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#00AA00">M </span>12:4 RepoDependencyCreator.create_repo_node_and_get_cve - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#00AA00">M </span>62:4 RepoDependencyCreator.generate_report - <span style="color:#00AA00">B (9)</span>
 src/utils.py
     <span style="color:#AA00AA">F </span>282:0 fetch_public_key - <span style="color:#00AA00">A (5)</span>
     <span style="color:#00AA00">M </span>213:4 DatabaseIngestion.get_info - <span style="color:#00AA00">A (5)</span>
@@ -89,13 +94,13 @@ src/rest_api.py
     <span style="color:#AA00AA">F </span>42:0 register - <span style="color:#00AA00">B (8)</span>
     <span style="color:#AA00AA">F </span>160:0 user_repo_scan - <span style="color:#00AA00">B (8)</span>
     <span style="color:#AA00AA">F </span>120:0 report - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>238:0 user_repo_scan_experimental - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>284:0 notify_user - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>326:0 drop - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>239:0 user_repo_scan_experimental - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>285:0 notify_user - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>327:0 drop - <span style="color:#00AA00">A (4)</span>
     <span style="color:#AA00AA">F </span>30:0 readiness - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>36:0 liveness - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>369:0 handle_error - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>377:0 api_401_handler - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>370:0 handle_error - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>378:0 api_401_handler - <span style="color:#00AA00">A (1)</span>
 src/exceptions.py
     <span style="color:#00AAAA">C </span>4:0 HTTPError - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>16:4 HTTPError.__init__ - <span style="color:#00AA00">A (1)</span>
@@ -111,6 +116,6 @@ src/notification/user_notification.py
     <span style="color:#00AA00">M </span>31:4 UserNotification.generate_notification - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AA00">M </span>18:4 UserNotification.send_notification - <span style="color:#00AA00">A (2)</span>
 
-97 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (2.6597938144329896)</span>
+102 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (2.6372549019607843)</span>
 </pre>
