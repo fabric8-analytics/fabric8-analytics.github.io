@@ -1,5 +1,5 @@
 <pre>run.py
-    <span style="color:#AA00AA">F </span>18:0 run - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#AA00AA">F </span>35:0 run - <span style="color:#AA5500">C (19)</span>
 tests/test_get_package_version.py
     <span style="color:#AA00AA">F </span>94:0 test_get_java_versions - <span style="color:#00AA00">B (7)</span>
     <span style="color:#AA00AA">F </span>8:0 test_get_javascript_versions - <span style="color:#00AA00">A (5)</span>
@@ -15,6 +15,11 @@ tests/test_get_package_version.py
     <span style="color:#00AAAA">C </span>39:0 _response_json_value_error - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>41:4 _response_json_value_error.__init__ - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>45:4 _response_json_value_error.json - <span style="color:#00AA00">A (1)</span>
+tests/test_utils.py
+    <span style="color:#00AA00">M </span>55:4 TestUtils.test_parse_date_range - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AAAA">C </span>16:0 TestUtils - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>19:4 TestUtils.test_get_cpe - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>40:4 TestUtils.test_get_description_by_lang - <span style="color:#00AA00">A (2)</span>
 tests/test_version.py
     <span style="color:#AA00AA">F </span>5:0 test_version_basic - <span style="color:#AA5500">C (13)</span>
     <span style="color:#AA00AA">F </span>22:0 test_version_trailing_zeros - <span style="color:#00AA00">B (7)</span>
@@ -40,15 +45,18 @@ tests/filters/test_input.py
 scripts/get_python_packages.py
     <span style="color:#AA00AA">F </span>8:0 get_package_names - <span style="color:#00AA00">A (3)</span>
 cvejob/utils.py
-    <span style="color:#AA00AA">F </span>92:0 get_java_versions - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>56:0 get_javascript_versions - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>13:0 run_cpe2pkg - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>80:0 get_python_versions - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>137:0 get_cpe - <span style="color:#AA5500">C (11)</span>
+    <span style="color:#AA00AA">F </span>103:0 get_java_versions - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>67:0 get_javascript_versions - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>24:0 run_cpe2pkg - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>91:0 get_python_versions - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>180:0 get_description_by_lang - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>194:0 parse_date_range - <span style="color:#00AA00">A (2)</span>
 cvejob/config.py
-    <span style="color:#00AA00">M </span>38:4 RuntimeConfig.__init__ - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#00AAAA">C </span>35:0 RuntimeConfig - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AA00">M </span>44:4 RuntimeConfig.__init__ - <span style="color:#AA5500">C (11)</span>
+    <span style="color:#00AAAA">C </span>41:0 RuntimeConfig - <span style="color:#00AA00">B (6)</span>
     <span style="color:#00AAAA">C </span>6:0 DefaultConfig - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>74:4 RuntimeConfig.__getattr__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>88:4 RuntimeConfig.__getattr__ - <span style="color:#00AA00">A (1)</span>
 cvejob/version.py
     <span style="color:#00AA00">M </span>31:4 BenevolentVersion._parse - <span style="color:#AA5500">C (17)</span>
     <span style="color:#00AAAA">C </span>5:0 BenevolentVersion - <span style="color:#00AA00">A (2)</span>
@@ -65,49 +73,50 @@ cvejob/version.py
     <span style="color:#00AA00">M </span>95:4 BenevolentVersion.__repr__ - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>101:4 BenevolentVersion.__hash__ - <span style="color:#00AA00">A (1)</span>
 cvejob/selectors/basic.py
-    <span style="color:#00AA00">M </span>25:4 VersionExistsSelector.pick_winner - <span style="color:#AA5500">C (11)</span>
-    <span style="color:#00AA00">M </span>77:4 VersionExistsSelector._get_cpe_versions - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AAAA">C </span>17:0 VersionExistsSelector - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>67:4 VersionExistsSelector._get_upstream_versions - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>20:4 VersionExistsSelector.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>30:4 VersionExistsSelector.pick_winner - <span style="color:#AA5500">C (12)</span>
+    <span style="color:#00AAAA">C </span>20:0 VersionExistsSelector - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>78:4 VersionExistsSelector._get_upstream_versions - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>23:4 VersionExistsSelector.__init__ - <span style="color:#00AA00">A (1)</span>
 cvejob/outputs/victims.py
-    <span style="color:#00AA00">M </span>47:4 VictimsYamlOutput.write - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AAAA">C </span>7:0 VictimsYamlOutput - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>40:4 VictimsYamlOutput._makedirs - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>74:4 VictimsYamlOutput._get_affected_section - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>26:4 VictimsYamlOutput.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>61:4 VictimsYamlOutput.write - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AAAA">C </span>10:0 VictimsYamlOutput - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>54:4 VictimsYamlOutput._makedirs - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>92:4 VictimsYamlOutput._get_affected_section - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>29:4 VictimsYamlOutput.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>44:4 VictimsYamlOutput.winner - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>49:4 VictimsYamlOutput.candidates - <span style="color:#00AA00">A (1)</span>
 cvejob/identifiers/basic.py
-    <span style="color:#00AA00">M </span>41:4 NaivePackageNameIdentifier._guess_from_sentence - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>67:4 NaivePackageNameIdentifier.identify - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AAAA">C </span>13:0 NaivePackageNameIdentifier - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>24:4 NaivePackageNameIdentifier._get_vendor_product_pairs - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>31:4 NaivePackageNameIdentifier._get_candidates_from_description - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>20:4 NaivePackageNameIdentifier.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>53:4 NaivePackageNameIdentifier._guess_from_sentence - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>79:4 NaivePackageNameIdentifier.identify - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AAAA">C </span>14:0 NaivePackageNameIdentifier - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>25:4 NaivePackageNameIdentifier._get_vendor_product_pairs - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>37:4 NaivePackageNameIdentifier._get_candidates_from_description - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>21:4 NaivePackageNameIdentifier.__init__ - <span style="color:#00AA00">A (1)</span>
 cvejob/identifiers/nvdtoolkit.py
     <span style="color:#00AAAA">C </span>12:0 NvdToolkitPackageNameIdentifier - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AA00">M </span>15:4 NvdToolkitPackageNameIdentifier.identify - <span style="color:#00AA00">A (3)</span>
 cvejob/identifiers/__init__.py
     <span style="color:#AA00AA">F </span>11:0 get_identifier - <span style="color:#00AA00">A (2)</span>
 cvejob/filters/input.py
-    <span style="color:#AA00AA">F </span>22:0 validate_cve - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#00AAAA">C </span>219:0 NotUnexpectedSiteInReferencesCheck - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#00AA00">M </span>240:4 NotUnexpectedSiteInReferencesCheck.check - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#00AA00">M </span>125:4 IsSupportedGitHubLanguageCheck.is_security_project - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>143:4 IsSupportedGitHubLanguageCheck.check - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AAAA">C </span>87:0 NotUnsupportedFileExtensionCheck - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>90:4 NotUnsupportedFileExtensionCheck.check - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AAAA">C </span>107:0 IsSupportedGitHubLanguageCheck - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AAAA">C </span>74:0 NotOlderThanCheck - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>77:4 NotOlderThanCheck.check - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>116:4 IsSupportedGitHubLanguageCheck.__init__ - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AAAA">C </span>206:0 AffectsApplicationCheck - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>212:4 AffectsApplicationCheck.check - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AAAA">C </span>62:0 CveCheck - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>65:4 CveCheck.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>69:4 CveCheck.check - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>99:0 NotUnderAnalysisCheck - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>102:4 NotUnderAnalysisCheck.check - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>24:0 validate_cve - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#00AAAA">C </span>224:0 NotUnexpectedSiteInReferencesCheck - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#00AA00">M </span>245:4 NotUnexpectedSiteInReferencesCheck.check - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#00AA00">M </span>130:4 IsSupportedGitHubLanguageCheck.is_security_project - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>148:4 IsSupportedGitHubLanguageCheck.check - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AAAA">C </span>89:0 NotUnsupportedFileExtensionCheck - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AA00">M </span>92:4 NotUnsupportedFileExtensionCheck.check - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AAAA">C </span>112:0 IsSupportedGitHubLanguageCheck - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AAAA">C </span>76:0 NotOlderThanCheck - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>79:4 NotOlderThanCheck.check - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>121:4 IsSupportedGitHubLanguageCheck.__init__ - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>211:0 AffectsApplicationCheck - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>217:4 AffectsApplicationCheck.check - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>64:0 CveCheck - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>67:4 CveCheck.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>71:4 CveCheck.check - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>104:0 NotUnderAnalysisCheck - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>107:4 NotUnderAnalysisCheck.check - <span style="color:#00AA00">A (1)</span>
 
-94 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (3.2127659574468086)</span>
+102 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (3.303921568627451)</span>
 </pre>
