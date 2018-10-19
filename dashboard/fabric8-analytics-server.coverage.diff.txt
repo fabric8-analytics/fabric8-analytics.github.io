@@ -1,11 +1,11 @@
 Name                                                   Stmts   Miss  Cover   Missing			Name                                                   Stmts   Miss  Cover   Missing
 ------------------------------------------------------------------------------------			------------------------------------------------------------------------------------
-/bayesian/bayesian/__init__.py                            60     13    78%   60, 64-80		      |	/bayesian/bayesian/__init__.py                            44      1    98%   57
-/bayesian/bayesian/api_v1.py                             635    418    34%   86-93, 136-166, 219, 237 |	/bayesian/bayesian/api_v1.py                             635    419    34%   86-93, 136-166, 219, 237
+/bayesian/bayesian/__init__.py                            44      1    98%   57				/bayesian/bayesian/__init__.py                            44      1    98%   57
+/bayesian/bayesian/api_v1.py                             635    419    34%   86-93, 136-166, 219, 237 |	/bayesian/bayesian/api_v1.py                             635    419    34%   88-95, 138-168, 221, 239
 /bayesian/bayesian/auth.py                                16     12    25%   10-24			/bayesian/bayesian/auth.py                                16     12    25%   10-24
 /bayesian/bayesian/default_config.py                      23      0   100%				/bayesian/bayesian/default_config.py                      23      0   100%
 /bayesian/bayesian/dependency_finder.py                   77     62    19%   26-34, 40-118		/bayesian/bayesian/dependency_finder.py                   77     62    19%   26-34, 40-118
-/bayesian/bayesian/exceptions.py                           5      0   100%			      |	/bayesian/bayesian/exceptions.py                           8      0   100%
+/bayesian/bayesian/exceptions.py                           8      0   100%				/bayesian/bayesian/exceptions.py                           8      0   100%
 /bayesian/bayesian/generate_manifest.py                   42      0   100%				/bayesian/bayesian/generate_manifest.py                   42      0   100%
 /bayesian/bayesian/license_extractor.py                   42      0   100%				/bayesian/bayesian/license_extractor.py                   42      0   100%
 /bayesian/bayesian/manifest_models.py                    136     42    69%   35, 54-56, 69-92, 137-13	/bayesian/bayesian/manifest_models.py                    136     42    69%   35, 54-56, 69-92, 137-13
@@ -14,6 +14,6 @@ Name                                                   Stmts   Miss  Cover   Mis
 /bayesian/bayesian/schemas/component_analyses.py          43      0   100%				/bayesian/bayesian/schemas/component_analyses.py          43      0   100%
 /bayesian/bayesian/schemas/stack_analyses.py             245      0   100%				/bayesian/bayesian/schemas/stack_analyses.py             245      0   100%
 /bayesian/bayesian/schemas/version_range_resolver.py      18      0   100%				/bayesian/bayesian/schemas/version_range_resolver.py      18      0   100%
-/bayesian/bayesian/utils.py                              574    396    31%   53, 64-73, 87-96, 111-12 |	/bayesian/bayesian/utils.py                              595    374    37%   53, 64-73, 87-96, 111-12
+/bayesian/bayesian/utils.py                              595    374    37%   53, 64-73, 87-96, 111-12 |	/bayesian/bayesian/utils.py                              574    396    31%   56, 67-76, 90-99, 114-12
 ------------------------------------------------------------------------------------			------------------------------------------------------------------------------------
-TOTAL                                                   1960    943    52%			      |	TOTAL                                                   1968    910    54%
+TOTAL                                                   1968    910    54%			      |	TOTAL                                                   1947    932    52%
