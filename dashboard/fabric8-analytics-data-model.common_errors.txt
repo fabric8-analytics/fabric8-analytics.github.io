@@ -56,7 +56,8 @@ test/test_graph_manager.py
 test/conftest.py
     Pass
 test/test_graph_populator.py
-    Pass
+test/test_graph_populator.py:313: undefined name 'test_construct_version_query'
+    Fail
 ----------------------------------------------------
 Checking following source files for common errors:
 sanitycheck.py
@@ -64,4 +65,4 @@ sanitycheck.py
 
 sanitycheck.py
     Pass
-1 source files out of 24 files needs to be checked and fixed
+2 source files out of 24 files needs to be checked and fixed
