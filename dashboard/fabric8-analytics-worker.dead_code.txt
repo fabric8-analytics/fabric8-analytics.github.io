@@ -35,8 +35,7 @@ alembic/versions/e2762a61d34c_upstream_url_can_be_null.py
 alembic/versions/49c27b67936f_permissions.py
     Pass
 alembic/versions/097bb617eade_go_backend_for_golang.py
-alembic/versions/097bb617eade_go_backend_for_golang.py:16: unused import 'sa' (90% confidence)
-    Fail
+    Pass
 alembic/versions/33b719488061_add_col_dep_snapshot.py
     Pass
 alembic/versions/ea55c632ae8d_create_auth_data.py
@@ -369,4 +368,4 @@ setup.py
 
 setup.py
     Pass
-16 source files out of 163 files seems to contain dead code and/or unused imports
+15 source files out of 163 files seems to contain dead code and/or unused imports
