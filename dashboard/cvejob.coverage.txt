@@ -5,13 +5,13 @@ cvejob/config.py                      48     11    77%   50, 54, 58, 62, 66, 70,
 cvejob/filters/__init__.py             0      0   100%
 cvejob/filters/input.py              127     12    91%   43, 49-51, 58, 83, 164, 177, 181, 195, 202, 206, 221
 cvejob/identifiers/__init__.py         7      7     0%   6-22
-cvejob/identifiers/basic.py           45     45     0%   3-91
+cvejob/identifiers/basic.py           48     48     0%   3-95
 cvejob/identifiers/nvdtoolkit.py      19     19     0%   3-45
 cvejob/outputs/__init__.py             0      0   100%
-cvejob/outputs/victims.py             83     83     0%   3-205
+cvejob/outputs/victims.py             91     45    51%   27-48, 53, 58, 63, 68, 73, 77-112, 117-129, 151, 155, 208-216
 cvejob/selectors/__init__.py           0      0   100%
-cvejob/selectors/basic.py            120    120     0%   3-278
+cvejob/selectors/basic.py            123    123     0%   3-285
 cvejob/utils.py                      130     21    84%   31-65, 149, 160, 167
 cvejob/version.py                     55      0   100%
 ----------------------------------------------------------------
-TOTAL                                634    318    50%
+TOTAL                                648    286    56%

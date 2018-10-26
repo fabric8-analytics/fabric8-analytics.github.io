@@ -84,6 +84,8 @@ integration-tests/features/steps/s3_interface.py
     Pass
 integration-tests/features/steps/stack_analysis.py
     Pass
+integration-tests/features/steps/three_scale_preview.py
+    Pass
 integration-tests/features/steps/common.py
     Pass
 integration-tests/features/steps/gemini.py
@@ -226,4 +228,4 @@ db-integrity-tests/src/checker.py
     Pass
 taas/taas.py
     Pass
-All checks passed for 108 source files
+All checks passed for 109 source files
