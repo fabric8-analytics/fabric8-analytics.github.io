@@ -3,12 +3,12 @@ Name                                                        Stmts   Miss  Cover 
 /recommendation_engine/__init__.py                              0      0   100%				/recommendation_engine/__init__.py                              0      0   100%
 /recommendation_engine/config/__init__.py                       0      0   100%				/recommendation_engine/config/__init__.py                       0      0   100%
 /recommendation_engine/config/cloud_constants.py                8      0   100%				/recommendation_engine/config/cloud_constants.py                8      0   100%
-/recommendation_engine/config/params_scoring.py                 7      0   100%			      |	/recommendation_engine/config/params_scoring.py                 8      0   100%
+/recommendation_engine/config/params_scoring.py                 8      0   100%				/recommendation_engine/config/params_scoring.py                 8      0   100%
 /recommendation_engine/config/path_constants.py                 9      0   100%				/recommendation_engine/config/path_constants.py                 9      0   100%
 /recommendation_engine/data_store/__init__.py                   0      0   100%				/recommendation_engine/data_store/__init__.py                   0      0   100%
 /recommendation_engine/data_store/abstract_data_store.py        5      0   100%				/recommendation_engine/data_store/abstract_data_store.py        5      0   100%
 /recommendation_engine/data_store/local_filesystem.py          23      0   100%				/recommendation_engine/data_store/local_filesystem.py          23      0   100%
-/recommendation_engine/data_store/s3_data_store.py             44     25    43%   49-59, 63, 67, 71-7 |	/recommendation_engine/data_store/s3_data_store.py             46     27    41%   49-61, 65, 69, 73-7
+/recommendation_engine/data_store/s3_data_store.py             46     27    41%   49-61, 65, 69, 73-7	/recommendation_engine/data_store/s3_data_store.py             46     27    41%   49-61, 65, 69, 73-7
 /recommendation_engine/flask_predict.py                        26      0   100%				/recommendation_engine/flask_predict.py                        26      0   100%
 /recommendation_engine/model/__init__.py                        0      0   100%				/recommendation_engine/model/__init__.py                        0      0   100%
 /recommendation_engine/model/pmf_prediction.py                 13      0   100%				/recommendation_engine/model/pmf_prediction.py                 13      0   100%
@@ -18,4 +18,4 @@ Name                                                        Stmts   Miss  Cover 
 /recommendation_engine/utils/__init__.py                        0      0   100%				/recommendation_engine/utils/__init__.py                        0      0   100%
 /recommendation_engine/utils/fileutils.py                      15      0   100%				/recommendation_engine/utils/fileutils.py                      15      0   100%
 -----------------------------------------------------------------------------------------		-----------------------------------------------------------------------------------------
-TOTAL                                                         245     25    90%			      |	TOTAL                                                         248     27    89%
+TOTAL                                                         248     27    89%				TOTAL                                                         248     27    89%
