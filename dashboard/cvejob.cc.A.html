@@ -33,6 +33,11 @@ tests/test_version.py
 tests/conftest.py
     <span style="color:#AA00AA">F </span>10:0 javascript_cve - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>18:0 config - <span style="color:#00AA00">A (1)</span>
+tests/outputs/test_victims.py
+    <span style="color:#AA00AA">F </span>6:0 test_get_victims_affected_notation - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>32:0 test_get_victims_fixedin_notation - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>24:0 test_get_victims_affected_notation_empty - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>44:0 test_get_victims_fixedin_notation_empty - <span style="color:#00AA00">A (2)</span>
 tests/filters/test_input.py
     <span style="color:#AA00AA">F </span>17:0 test_not_older_than_check - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>25:0 test_not_unsupported_file_extension_check - <span style="color:#00AA00">A (2)</span>
@@ -76,30 +81,31 @@ cvejob/version.py
     <span style="color:#00AA00">M </span>95:4 BenevolentVersion.__repr__ - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>101:4 BenevolentVersion.__hash__ - <span style="color:#00AA00">A (1)</span>
 cvejob/selectors/basic.py
-    <span style="color:#00AA00">M </span>136:4 VersionSelector.evaluate_package - <span style="color:#00AA00">B (10)</span>
-    <span style="color:#00AA00">M </span>34:4 VersionSelector.pick_winner - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#00AA00">M </span>216:4 VersionSelector._get_affected_versions - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AAAA">C </span>24:0 VersionSelector - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>204:4 VersionSelector._get_upstream_versions - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>257:4 VersionSelector._get_safe_versions - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>180:4 VersionSelector._get_cpe_entries - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>189:4 VersionSelector._get_version_ranges - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>27:4 VersionSelector.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>137:4 VersionSelector.evaluate_package - <span style="color:#AA5500">C (12)</span>
+    <span style="color:#00AA00">M </span>35:4 VersionSelector.pick_winner - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#00AA00">M </span>221:4 VersionSelector._get_affected_versions - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AAAA">C </span>25:0 VersionSelector - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>209:4 VersionSelector._get_upstream_versions - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>264:4 VersionSelector._get_safe_versions - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>185:4 VersionSelector._get_cpe_entries - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>194:4 VersionSelector._get_version_ranges - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>28:4 VersionSelector.__init__ - <span style="color:#00AA00">A (1)</span>
 cvejob/outputs/victims.py
-    <span style="color:#AA00AA">F </span>136:0 get_victims_notation - <span style="color:#AA5500">C (11)</span>
-    <span style="color:#00AA00">M </span>76:4 VictimsYamlOutput.write - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>195:0 reverse_version_string - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>20:4 VictimsYamlOutput.__init__ - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>118:4 VictimsYamlOutput.format_list - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>12:0 VictimsYamlOutput - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>51:4 VictimsYamlOutput.cve - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>56:4 VictimsYamlOutput.affected_versions - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>61:4 VictimsYamlOutput.safe_versions - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>66:4 VictimsYamlOutput.winner - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>71:4 VictimsYamlOutput.candidates - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>138:0 get_victims_affected_notation - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>177:0 get_victims_fixedin_notation - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>75:4 VictimsYamlOutput.write - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>114:4 VictimsYamlOutput.format_list - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>212:0 reverse_version_string - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>19:4 VictimsYamlOutput.__init__ - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>11:0 VictimsYamlOutput - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>50:4 VictimsYamlOutput.cve - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>55:4 VictimsYamlOutput.affected_versions - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>60:4 VictimsYamlOutput.safe_versions - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>65:4 VictimsYamlOutput.winner - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>70:4 VictimsYamlOutput.candidates - <span style="color:#00AA00">A (1)</span>
 cvejob/identifiers/basic.py
     <span style="color:#00AA00">M </span>53:4 NaivePackageNameIdentifier._guess_from_sentence - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>79:4 NaivePackageNameIdentifier.identify - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>79:4 NaivePackageNameIdentifier.identify - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AAAA">C </span>14:0 NaivePackageNameIdentifier - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>25:4 NaivePackageNameIdentifier._get_vendor_product_pairs - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>37:4 NaivePackageNameIdentifier._get_candidates_from_description - <span style="color:#00AA00">A (2)</span>
@@ -129,6 +135,6 @@ cvejob/filters/input.py
     <span style="color:#00AAAA">C </span>104:0 NotUnderAnalysisCheck - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>107:4 NotUnderAnalysisCheck.check - <span style="color:#00AA00">A (1)</span>
 
-114 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (3.324561403508772)</span>
+119 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (3.3529411764705883)</span>
 </pre>

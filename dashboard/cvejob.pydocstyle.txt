@@ -49,6 +49,9 @@ tests/test_get_package_version.py
 tests/__init__.py
 0
     Pass
+tests/outputs/test_victims.py
+0
+    Pass
 tests/test_utils.py
 0
     Pass
@@ -75,4 +78,4 @@ run.py
 run.py
 0
     Pass
-All checks passed for 22 source files
+All checks passed for 23 source files

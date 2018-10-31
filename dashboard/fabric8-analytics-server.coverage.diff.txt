@@ -14,6 +14,6 @@ Name                                                   Stmts   Miss  Cover   Mis
 /bayesian/bayesian/schemas/component_analyses.py          43      0   100%				/bayesian/bayesian/schemas/component_analyses.py          43      0   100%
 /bayesian/bayesian/schemas/stack_analyses.py             245      0   100%				/bayesian/bayesian/schemas/stack_analyses.py             245      0   100%
 /bayesian/bayesian/schemas/version_range_resolver.py      18      0   100%				/bayesian/bayesian/schemas/version_range_resolver.py      18      0   100%
-/bayesian/bayesian/utils.py                              574    396    31%   56, 67-76, 90-99, 114-12 |	/bayesian/bayesian/utils.py                              595    374    37%   56, 67-76, 90-99, 114-12
+/bayesian/bayesian/utils.py                              595    374    37%   56, 67-76, 90-99, 114-12	/bayesian/bayesian/utils.py                              595    374    37%   56, 67-76, 90-99, 114-12
 ------------------------------------------------------------------------------------			------------------------------------------------------------------------------------
-TOTAL                                                   1947    932    52%			      |	TOTAL                                                   1968    910    54%
+TOTAL                                                   1968    910    54%				TOTAL                                                   1968    910    54%
