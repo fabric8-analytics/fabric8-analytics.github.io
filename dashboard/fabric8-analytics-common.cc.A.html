@@ -339,6 +339,8 @@ integration-tests/features/environment.py
     <span style="color:#AA00AA">F </span>373:0 _get_api_url - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>440:0 _read_url_from_env_var - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>643:0 before_scenario - <span style="color:#00AA00">A (1)</span>
+integration-tests/features/src/stack_analysis_common.py
+    <span style="color:#AA00AA">F </span>4:0 contains_alternate_node - <span style="color:#00AA00">B (6)</span>
 integration-tests/features/src/schema_validator.py
     <span style="color:#AA00AA">F </span>5:0 validate_schema - <span style="color:#00AA00">A (1)</span>
 integration-tests/features/src/parsing.py
@@ -640,61 +642,59 @@ integration-tests/features/steps/s3_interface.py
     <span style="color:#AA00AA">F </span>15:0 find_bucket_in_s3 - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>5:0 connect_to_aws_s3 - <span style="color:#00AA00">A (1)</span>
 integration-tests/features/steps/stack_analysis.py
-    <span style="color:#AA00AA">F </span>33:0 wait_for_stack_analysis_completion - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>165:0 check_stack_analyses_response - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>203:0 check_frequency_count - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>349:0 replaces_component - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>506:0 check_security_issue_existence - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>544:0 check_dependency - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>562:0 check_analyzed_dependency - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>271:0 check_licenses - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>368:0 stack_analysis_check_replaces - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>415:0 perform_alternate_components_validation - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>462:0 check_security_node - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>527:0 check_security_issue_nonexistence - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>580:0 check_all_analyzed_dependency - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>616:0 check_stack_analysis_id - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>632:0 validate_topic_list - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>26:0 contains_alternate_node - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>110:0 stack_analysis_endpoint - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>316:0 stack_analysis_check_companion_packages - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>361:0 find_replacements - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>453:0 check_cvss_value - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>494:0 get_analyzed_components - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>91:0 send_manifest_to_stack_analysis - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>242:0 check_outlier_count - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>251:0 check_outlier_validity - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>262:0 check_companion_count - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>287:0 stack_analysis_check_licenses - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>297:0 get_attribute_values - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>331:0 verify_stack_level_field_presence_in_stack_report - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>340:0 verify_stack_level_field_presence_in_recommendation - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>387:0 stack_analysis_check_replaces_count - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>444:0 stack_analysis_validate_alternate_components - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>605:0 check_stack_analyses_request_status_attribute - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>79:0 perform_valid_manifest_post - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>126:0 npm_manifest_stack_analysis - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>139:0 python_manifest_stack_analysis - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>152:0 maven_manifest_stack_analysis - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>233:0 stack_analysis_check_outliers - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>302:0 get_analyzed_packages - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>309:0 get_companion_packages - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>403:0 get_user_components - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>409:0 get_alternate_components - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>482:0 stack_analysis_check_security_node_for_dependencies - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>488:0 stack_analysis_check_security_node_for_alternate_components - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>595:0 check_stack_analyses_request_id - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>27:0 wait_for_stack_analysis_completion - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>159:0 check_stack_analyses_response - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>197:0 check_frequency_count - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>343:0 replaces_component - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>500:0 check_security_issue_existence - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>538:0 check_dependency - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>556:0 check_analyzed_dependency - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>265:0 check_licenses - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>362:0 stack_analysis_check_replaces - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>409:0 perform_alternate_components_validation - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>456:0 check_security_node - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>521:0 check_security_issue_nonexistence - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>574:0 check_all_analyzed_dependency - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>610:0 check_stack_analysis_id - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>626:0 validate_topic_list - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>104:0 stack_analysis_endpoint - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>310:0 stack_analysis_check_companion_packages - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>355:0 find_replacements - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>447:0 check_cvss_value - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>488:0 get_analyzed_components - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>85:0 send_manifest_to_stack_analysis - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>236:0 check_outlier_count - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>245:0 check_outlier_validity - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>256:0 check_companion_count - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>281:0 stack_analysis_check_licenses - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>291:0 get_attribute_values - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>325:0 verify_stack_level_field_presence_in_stack_report - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>334:0 verify_stack_level_field_presence_in_recommendation - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>381:0 stack_analysis_check_replaces_count - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>438:0 stack_analysis_validate_alternate_components - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>599:0 check_stack_analyses_request_status_attribute - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>73:0 perform_valid_manifest_post - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>120:0 npm_manifest_stack_analysis - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>133:0 python_manifest_stack_analysis - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>146:0 maven_manifest_stack_analysis - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>227:0 stack_analysis_check_outliers - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>296:0 get_analyzed_packages - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>303:0 get_companion_packages - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>397:0 get_user_components - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>403:0 get_alternate_components - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>476:0 stack_analysis_check_security_node_for_dependencies - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>482:0 stack_analysis_check_security_node_for_alternate_components - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>589:0 check_stack_analyses_request_id - <span style="color:#00AA00">A (1)</span>
 integration-tests/features/steps/three_scale_preview.py
-    <span style="color:#AA00AA">F </span>87:0 wait_for_stack_analysis_completion - <span style="color:#AA5500">C (11)</span>
-    <span style="color:#AA00AA">F </span>24:0 perform_component_analysis - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>39:0 send_manifest_to_stack_analyses - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>62:0 contains_alternate_node - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>149:0 check_submit_feedback_3scale - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>11:0 threescale_preview_endpoint_url - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>69:0 running_component_search_api - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>134:0 check_rate_limit_response - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>75:0 npm_manifest_stack_analysis - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>140:0 start_component_analysis - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>81:0 wait_for_stack_analysis_completion - <span style="color:#AA5500">C (11)</span>
+    <span style="color:#AA00AA">F </span>25:0 perform_component_analysis - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>40:0 send_manifest_to_stack_analyses - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>143:0 check_submit_feedback_3scale - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>12:0 threescale_preview_endpoint_url - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>63:0 running_component_search_api - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>128:0 check_rate_limit_response - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>69:0 npm_manifest_stack_analysis - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>134:0 start_component_analysis - <span style="color:#00AA00">A (1)</span>
 integration-tests/features/steps/common.py
     <span style="color:#AA00AA">F </span>184:0 check_analyzers_with_standard_schema - <span style="color:#00AA00">A (5)</span>
     <span style="color:#AA00AA">F </span>216:0 validate_analysis_result - <span style="color:#00AA00">A (5)</span>
@@ -739,13 +739,13 @@ integration-tests/features/steps/gemini.py
     <span style="color:#AA00AA">F </span>27:0 set_git_sha - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>33:0 set_epv_list - <span style="color:#00AA00">A (1)</span>
 integration-tests/features/steps/authorization.py
-    <span style="color:#AA00AA">F </span>34:0 acquire_authorization_token - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>82:0 check_api_token - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>36:0 acquire_authorization_token - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>84:0 check_api_token - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>22:0 is_proper_authorization_token_for_server_api - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>28:0 is_proper_authorization_token_for_jobs_api - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>57:0 generate_authorization_token - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>103:0 is_proper_user_key_for_three_scale_preview - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>93:0 acquire_user_key_for_3scale - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>29:0 is_proper_authorization_token_for_jobs_api - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>59:0 generate_authorization_token - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>105:0 is_proper_user_key_for_three_scale_preview - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>95:0 acquire_user_key_for_3scale - <span style="color:#00AA00">A (1)</span>
 integration-tests/features/steps/backbone_api.py
     <span style="color:#AA00AA">F </span>47:0 verify_database_entry - <span style="color:#00AA00">B (6)</span>
     <span style="color:#AA00AA">F </span>36:0 check_valid_response - <span style="color:#00AA00">A (3)</span>
@@ -1126,6 +1126,6 @@ perf-tests/src/gremlin_package_generator.py
     <span style="color:#00AA00">M </span>55:4 GremlinPackageGenerator.package_generator_for_ecosystem - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>65:4 GremlinPackageGenerator.package_version_generator_for_ecosystem - <span style="color:#00AA00">A (2)</span>
 
-1038 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (2.311175337186898)</span>
+1037 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (2.3114754098360657)</span>
 </pre>

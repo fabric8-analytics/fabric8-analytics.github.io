@@ -42,6 +42,8 @@ integration-tests/features/src/schemas/package_libraries_io.py
     Pass
 integration-tests/features/src/schemas/component_source_licenses.py
     Pass
+integration-tests/features/src/stack_analysis_common.py
+    Pass
 integration-tests/features/src/schema_validator.py
     Pass
 integration-tests/features/src/parsing.py
@@ -228,4 +230,4 @@ db-integrity-tests/src/checker.py
     Pass
 taas/taas.py
     Pass
-All checks passed for 109 source files
+All checks passed for 110 source files
