@@ -8,10 +8,10 @@ cvejob/identifiers/__init__.py         7      7     0%   6-22
 cvejob/identifiers/basic.py           48     48     0%   3-95
 cvejob/identifiers/nvdtoolkit.py      19     19     0%   3-45
 cvejob/outputs/__init__.py             0      0   100%
-cvejob/outputs/victims.py             91     45    51%   27-48, 53, 58, 63, 68, 73, 77-112, 117-129, 151, 155, 208-216
+cvejob/outputs/victims.py             95     49    48%   27-48, 53, 58, 63, 68, 73, 77-112, 117-135, 157, 161, 214-222
 cvejob/selectors/__init__.py           0      0   100%
 cvejob/selectors/basic.py            123    123     0%   3-285
 cvejob/utils.py                      130     21    84%   31-65, 149, 160, 167
 cvejob/version.py                     55      0   100%
 ----------------------------------------------------------------
-TOTAL                                648    286    56%
+TOTAL                                652    290    56%

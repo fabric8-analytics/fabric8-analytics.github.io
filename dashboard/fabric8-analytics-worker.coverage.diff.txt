@@ -42,7 +42,7 @@ Name                                                                 Stmts   Mis
 /f8a_worker/f8a_worker/storages/s3_userintent.py                        19     14    26%   11-16, 20-	/f8a_worker/f8a_worker/storages/s3_userintent.py                        19     14    26%   11-16, 20-
 /f8a_worker/f8a_worker/storages/s3_userprofilestore.py                   8      4    50%   12-15	/f8a_worker/f8a_worker/storages/s3_userprofilestore.py                   8      4    50%   12-15
 /f8a_worker/f8a_worker/storages/s3_vulndb.py                            54     36    33%   28-39, 43-	/f8a_worker/f8a_worker/storages/s3_vulndb.py                            54     36    33%   28-39, 43-
-/f8a_worker/f8a_worker/utils.py                                        301     51    83%   34-47, 82-	/f8a_worker/f8a_worker/utils.py                                        301     51    83%   34-47, 82-
+/f8a_worker/f8a_worker/utils.py                                        301     51    83%   34-47, 82- |	/f8a_worker/f8a_worker/utils.py                                        301     52    83%   34-47, 82-
 /f8a_worker/f8a_worker/victims.py                                      180     42    77%   104-105, 1	/f8a_worker/f8a_worker/victims.py                                      180     42    77%   104-105, 1
 /f8a_worker/f8a_worker/workers/CVEchecker.py                           131     26    80%   45, 87, 11	/f8a_worker/f8a_worker/workers/CVEchecker.py                           131     26    80%   45, 87, 11
 /f8a_worker/f8a_worker/workers/__init__.py                              54      0   100%		/f8a_worker/f8a_worker/workers/__init__.py                              54      0   100%
@@ -83,4 +83,4 @@ Name                                                                 Stmts   Mis
 /f8a_worker/f8a_worker/workers/user_notifier.py                         38     29    24%   15-25, 29-	/f8a_worker/f8a_worker/workers/user_notifier.py                         38     29    24%   15-25, 29-
 /f8a_worker/f8a_worker/workers/victims.py                              103     49    52%   22-40, 44-	/f8a_worker/f8a_worker/workers/victims.py                              103     49    52%   22-40, 44-
 --------------------------------------------------------------------------------------------------	--------------------------------------------------------------------------------------------------
-TOTAL                                                                 6025   2210    63%		TOTAL                                                                 6025   2210    63%
+TOTAL                                                                 6025   2210    63%	      |	TOTAL                                                                 6025   2211    63%
