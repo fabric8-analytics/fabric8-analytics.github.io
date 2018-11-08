@@ -59,9 +59,11 @@ test/test_graph_populator.py
     Pass
 ----------------------------------------------------
 Checking following source files for common errors:
-sanitycheck.py
+sanitycheck.py populate_schema.py
 ----------------------------------------------------
 
 sanitycheck.py
     Pass
-1 source files out of 24 files needs to be checked and fixed
+populate_schema.py
+    Pass
+1 source files out of 25 files needs to be checked and fixed

@@ -29,7 +29,7 @@ bayesian/default_config.py
 bayesian/__init__.py
     Pass
 bayesian/utils.py
-bayesian/utils.py:383: unused variable 'projection' (100% confidence)
+bayesian/utils.py:391: unused variable 'projection' (100% confidence)
     Fail
 bayesian/manifest_models.py
     Pass

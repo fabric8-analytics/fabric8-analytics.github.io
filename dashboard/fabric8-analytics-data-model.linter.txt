@@ -58,8 +58,10 @@ test/test_graph_populator.py
 
 ----------------------------------------------------
 Running Python linter against selected files:
-sanitycheck.py
+sanitycheck.py populate_schema.py
 ----------------------------------------------------
 sanitycheck.py
     Pass
-All checks passed for 24 source files
+populate_schema.py
+    Pass
+All checks passed for 25 source files

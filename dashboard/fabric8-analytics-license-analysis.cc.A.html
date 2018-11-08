@@ -53,6 +53,17 @@ tests/test_api_v1.py
     <span style="color:#AA00AA">F </span>60:0 test_license_recommender_endpoint_payload - <span style="color:#00AA00">A (4)</span>
     <span style="color:#AA00AA">F </span>6:0 api_route_for - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>11:0 get_json_from_response - <span style="color:#00AA00">A (1)</span>
+tests/test_license_analysis_representative_licenses.py
+    <span style="color:#AA00AA">F </span>25:0 test_compute_representative_license_one_license - <span style="color:#AA5500">C (13)</span>
+    <span style="color:#AA00AA">F </span>64:0 test_compute_representative_license_outlier_licenses - <span style="color:#AA5500">C (13)</span>
+    <span style="color:#AA00AA">F </span>180:0 test_compute_representative_license_conflict_3 - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#AA00AA">F </span>200:0 test_compute_representative_license_repeating_licenses - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>97:0 test_compute_representative_license_unknown - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>143:0 test_compute_representative_license_conflict_1 - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>114:0 test_compute_representative_license_no_conflict - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>161:0 test_compute_representative_license_conflict_2 - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>7:0 test_compute_representative_license_no_licenses - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>130:0 test_compute_representative_license_no_conflict_2 - <span style="color:#00AA00">A (3)</span>
 tests/test_directed_graph.py
     <span style="color:#AA00AA">F </span>257:0 test_iterator - <span style="color:#AA5500">C (15)</span>
     <span style="color:#AA00AA">F </span>224:0 test_find_common_reachable_vertex - <span style="color:#AA5500">C (13)</span>
@@ -76,28 +87,18 @@ tests/test_directed_graph.py
     <span style="color:#AA00AA">F </span>160:0 test_add_edge_between_nonexistent_vertices - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>173:0 test_find_vertex_empty_graph - <span style="color:#00AA00">A (2)</span>
 tests/test_license_analysis.py
-    <span style="color:#AA00AA">F </span>259:0 test_check_compatibility_input_sanity_checks - <span style="color:#AA5500">C (16)</span>
-    <span style="color:#AA00AA">F </span>339:0 test_check_compatibility - <span style="color:#AA5500">C (14)</span>
-    <span style="color:#AA00AA">F </span>37:0 test_compute_representative_license_one_license - <span style="color:#AA5500">C (13)</span>
-    <span style="color:#AA00AA">F </span>76:0 test_compute_representative_license_outlier_licenses - <span style="color:#AA5500">C (13)</span>
-    <span style="color:#AA00AA">F </span>192:0 test_compute_representative_license_conflict_3 - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#AA00AA">F </span>212:0 test_compute_representative_license_repeating_licenses - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>109:0 test_compute_representative_license_unknown - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>155:0 test_compute_representative_license_conflict_1 - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>314:0 test_check_compatibility_all_permissive_licenses - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>126:0 test_compute_representative_license_no_conflict - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>173:0 test_compute_representative_license_conflict_2 - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>295:0 test_check_compatibility_some_unknown_licenses - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>19:0 test_compute_representative_license_no_licenses - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>243:0 test_compute_representative_error_checking - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>384:0 test_check_compatibility_conflicting_licenses - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>400:0 test_check_compatibility_conflicting_licenses_2 - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>142:0 test_compute_representative_license_no_conflict_2 - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>417:0 test_create_graph - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>8:0 test_print_graph - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>230:0 MockedVertice - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>233:4 MockedVertice.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>237:4 MockedVertice.get_prop_value - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>50:0 test_check_compatibility_input_sanity_checks - <span style="color:#AA5500">C (16)</span>
+    <span style="color:#AA00AA">F </span>130:0 test_check_compatibility - <span style="color:#AA5500">C (14)</span>
+    <span style="color:#AA00AA">F </span>105:0 test_check_compatibility_all_permissive_licenses - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>86:0 test_check_compatibility_some_unknown_licenses - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>34:0 test_compute_representative_error_checking - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>175:0 test_check_compatibility_conflicting_licenses - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>191:0 test_check_compatibility_conflicting_licenses_2 - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>208:0 test_create_graph - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>10:0 test_print_graph - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>21:0 MockedVertice - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>24:4 MockedVertice.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>28:4 MockedVertice.get_prop_value - <span style="color:#00AA00">A (1)</span>
 tests/test_vertex.py
     <span style="color:#AA00AA">F </span>46:0 test_properties - <span style="color:#00AA00">B (6)</span>
     <span style="color:#AA00AA">F </span>32:0 test_get_weight - <span style="color:#00AA00">A (4)</span>
@@ -109,41 +110,42 @@ tests/test_vertex.py
     <span style="color:#AA00AA">F </span>61:0 test_string_representation_1 - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>72:0 test_string_representation_2 - <span style="color:#00AA00">A (2)</span>
 tests/test_stack_license.py
-    <span style="color:#AA00AA">F </span>345:0 test_extract_component_details - <span style="color:#AA5500">C (17)</span>
-    <span style="color:#AA00AA">F </span>13:0 test_input_sanity_checks - <span style="color:#00AA00">B (10)</span>
-    <span style="color:#AA00AA">F </span>526:0 test_extract_user_stack_package_licenses - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#AA00AA">F </span>222:0 test_check_compatibility - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>251:0 test_check_compatibility_conflicts - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>572:0 test_select_latest_version - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>181:0 __test_component_license_weird_failure - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>285:0 test_stack_licenses_computation - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>499:0 test_get_depencency_data5 - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>36:0 test_component_license_conflict - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>58:0 test_stack_license_conflict - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>80:0 test_stack_license_successful - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>102:0 test_stack_license_filter - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>141:0 test_component_license_unknown - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>163:0 test_component_license_failure - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>313:0 test_unexpected_exception_handling - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>376:0 test_extract_license_outliers - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>429:0 test_get_depencency_data - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>444:0 test_get_depencency_data2 - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>464:0 test_get_depencency_data3 - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>484:0 test_get_depencency_data4 - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>325:0 test_filter_incorrect_splitting - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>335:0 _check_package - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>340:0 _check_license - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>553:0 test_convert_version_to_proper_semantic - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>405:4 _gremlin_response.post - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>398:0 _gremlin_response - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>414:0 mocked_get_session_retry - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>439:0 mocked_get_session_retry2 - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>454:0 mocked_get_session_retry3 - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>474:0 mocked_get_session_retry4 - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>494:0 mocked_get_session_retry5 - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>510:0 mocked_get_session_retry6 - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>400:4 _gremlin_response.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>410:4 _gremlin_response.json - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>324:0 test_extract_component_details - <span style="color:#AA5500">C (17)</span>
+    <span style="color:#AA00AA">F </span>505:0 test_extract_user_stack_package_licenses - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#AA00AA">F </span>213:0 test_check_compatibility - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>242:0 test_check_compatibility_conflicts - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>551:0 test_select_latest_version - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>170:0 __test_component_license_weird_failure - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>276:0 test_stack_licenses_computation - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>478:0 test_get_depencency_data5 - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>13:0 test_component_license_conflict - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>37:0 test_stack_license_conflict - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>61:0 test_stack_license_successful - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>85:0 test_stack_license_filter - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>126:0 test_component_license_unknown - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>150:0 test_component_license_failure - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>355:0 test_extract_license_outliers - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>408:0 test_get_depencency_data - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>423:0 test_get_depencency_data2 - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>443:0 test_get_depencency_data3 - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>463:0 test_get_depencency_data4 - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>304:0 test_filter_incorrect_splitting - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>314:0 _check_package - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>319:0 _check_license - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>532:0 test_convert_version_to_proper_semantic - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>384:4 _gremlin_response.post - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>377:0 _gremlin_response - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>393:0 mocked_get_session_retry - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>418:0 mocked_get_session_retry2 - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>433:0 mocked_get_session_retry3 - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>453:0 mocked_get_session_retry4 - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>473:0 mocked_get_session_retry5 - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>489:0 mocked_get_session_retry6 - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>379:4 _gremlin_response.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>389:4 _gremlin_response.json - <span style="color:#00AA00">A (1)</span>
+tests/test_stack_license_sanity_check.py
+    <span style="color:#AA00AA">F </span>10:0 test_input_sanity_checks - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#AA00AA">F </span>33:0 test_unexpected_exception_handling - <span style="color:#00AA00">A (4)</span>
 tests/conftest.py
     <span style="color:#AA00AA">F </span>8:0 client - <span style="color:#00AA00">A (2)</span>
 tests/pandas_mocks.py

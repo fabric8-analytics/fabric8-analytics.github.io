@@ -84,9 +84,12 @@ test/test_graph_populator.py
 
 ----------------------------------------------------
 Checking documentation strings in the following files
-sanitycheck.py
+sanitycheck.py populate_schema.py
 ----------------------------------------------------
 sanitycheck.py
 0
     Pass
-All checks passed for 24 source files
+populate_schema.py
+0
+    Pass
+All checks passed for 25 source files

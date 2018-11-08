@@ -66,6 +66,9 @@ tests/test_api_v1.py
 tests/__init__.py
 0
     Pass
+tests/test_license_analysis_representative_licenses.py
+0
+    Pass
 tests/test_directed_graph.py
 0
     Pass
@@ -84,10 +87,13 @@ tests/synonyms/__init__.py
 tests/test_stack_license.py
 0
     Pass
+tests/test_stack_license_sanity_check.py
+0
+    Pass
 tests/conftest.py
 0
     Pass
 tests/pandas_mocks.py
 0
     Pass
-All checks passed for 26 source files
+All checks passed for 28 source files
