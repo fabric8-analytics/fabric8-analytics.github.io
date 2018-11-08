@@ -1,0 +1,32 @@
+----------------------------------------------------
+Running Python linter against following directories:
+release_monitor integration_tests
+----------------------------------------------------
+
+Using base prefix '/usr'
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-release-monitor/venv/bin/python3
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-release-monitor/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-release-monitor/venv/bin/python3)
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Requirement already satisfied: pycodestyle in ./venv/lib/python3.6/site-packages (2.4.0)
+release_monitor/__init__.py
+    Pass
+release_monitor/release_monitor.py
+release_monitor/release_monitor.py:163:17: E226 missing whitespace around arithmetic operator
+    Fail
+release_monitor/defaults.py
+    Pass
+integration_tests/steps/steps.py
+    Pass
+integration_tests/environment.py
+    Pass
+
+----------------------------------------------------
+Running Python linter against selected files:
+setup.py cli.py
+----------------------------------------------------
+setup.py
+    Pass
+cli.py
+    Pass
+Linter fail, 1 source files out of 7 source files need to be fixed

@@ -1,0 +1,23 @@
+----------------------------------------------------
+Running Python linter against following directories:
+tests
+----------------------------------------------------
+
+Using base prefix '/usr'
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-github-refresh-cronjob/venv/bin/python3
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-github-refresh-cronjob/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-github-refresh-cronjob/venv/bin/python3)
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Requirement already satisfied: pycodestyle in ./venv/lib/python3.6/site-packages (2.4.0)
+tests/test_github_refresh.py
+    Pass
+tests/conftest.py
+    Pass
+
+----------------------------------------------------
+Running Python linter against selected files:
+github_refresh.py
+----------------------------------------------------
+github_refresh.py
+    Pass
+All checks passed for 3 source files

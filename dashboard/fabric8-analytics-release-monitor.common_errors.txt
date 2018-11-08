@@ -1,0 +1,37 @@
+Using base prefix '/usr'
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-release-monitor/venv/bin/python3
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-release-monitor/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-release-monitor/venv/bin/python3)
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2.0.0)
+----------------------------------------------------
+Checking source files for common errors in following
+directories:
+release_monitor/ integration_tests/
+----------------------------------------------------
+
+release_monitor/__init__.py
+    Pass
+release_monitor/release_monitor.py
+release_monitor/release_monitor.py:163: undefined name 'sleep'
+    Fail
+release_monitor/defaults.py
+    Pass
+integration_tests/steps/steps.py
+integration_tests/steps/steps.py:2: 'from behave import *' used; unable to detect undefined names
+integration_tests/steps/steps.py:5: 'given' may be undefined, or defined from star imports: behave
+integration_tests/steps/steps.py:11: 'then' may be undefined, or defined from star imports: behave
+integration_tests/steps/steps.py:11: redefinition of unused 'step_impl' from line 5
+    Fail
+integration_tests/environment.py
+    Pass
+----------------------------------------------------
+Checking following source files for common errors:
+cli.py setup.py
+----------------------------------------------------
+
+cli.py
+    Pass
+setup.py
+    Pass
+2 source files out of 7 files needs to be checked and fixed
