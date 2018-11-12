@@ -10,8 +10,8 @@ Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (2.1.1)
-Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.2.1)
 Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.11.0)
+Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.2.1)
 alembic/versions/f5c853b83d41_add_api_requests_table.py
 0
     Pass
@@ -216,9 +216,6 @@ f8a_worker/setup_celery.py
 f8a_worker/start.py
 0
     Pass
-f8a_worker/victims.py
-0
-    Pass
 f8a_worker/solver.py
 0
     Pass
@@ -273,9 +270,6 @@ f8a_worker/storages/package_postgres.py
 f8a_worker/storages/s3_temp_artifacts.py
 0
     Pass
-f8a_worker/storages/s3_vulndb.py
-0
-    Pass
 f8a_worker/storages/s3_artifacts.py
 0
     Pass
@@ -307,9 +301,6 @@ f8a_worker/workers/schemas/source_licenses.py
 0
     Pass
 f8a_worker/workers/schemas/github_details.py
-0
-    Pass
-f8a_worker/workers/schemas/security_issues.py
 0
     Pass
 f8a_worker/workers/schemas/__init__.py
@@ -363,12 +354,6 @@ f8a_worker/workers/repo_dependency_finder.py
 f8a_worker/workers/mercator.py
 0
     Pass
-f8a_worker/workers/cvedbsync.py
-0
-    Pass
-f8a_worker/workers/victims.py
-0
-    Pass
 f8a_worker/workers/digester.py
 0
     Pass
@@ -379,9 +364,6 @@ f8a_worker/workers/license.py
 0
     Pass
 f8a_worker/workers/git_stats.py
-0
-    Pass
-f8a_worker/workers/CVEchecker.py
 0
     Pass
 f8a_worker/workers/init_package_flow.py
@@ -441,9 +423,6 @@ tests/__init__.py
 tests/data/schemas/generate.py
 0
     Pass
-tests/test_victims.py
-0
-    Pass
 tests/test_utils.py
 0
     Pass
@@ -465,16 +444,10 @@ tests/workers/__init__.py
 tests/workers/test_licensecheck.py
 0
     Pass
-tests/workers/test_victims.py
-0
-    Pass
 tests/workers/test_libraries_io.py
 0
     Pass
 tests/workers/test_github_dependency_tree.py
-0
-    Pass
-tests/workers/test_cvecheck.py
 0
     Pass
 tests/workers/test_repository_description.py
@@ -503,4 +476,4 @@ setup.py
 setup.py
 0
     Pass
-All checks passed for 162 source files
+All checks passed for 153 source files

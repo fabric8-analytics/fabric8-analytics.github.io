@@ -148,9 +148,6 @@ f8a_worker/setup_celery.py
     Pass
 f8a_worker/start.py
     Pass
-f8a_worker/victims.py
-f8a_worker/victims.py:264: unused variable 'args' (100% confidence)
-    Fail
 f8a_worker/solver.py
     Pass
 f8a_worker/process.py
@@ -202,8 +199,6 @@ f8a_worker/storages/package_postgres.py:34: unused variable 'flow_name' (100% co
     Fail
 f8a_worker/storages/s3_temp_artifacts.py
     Pass
-f8a_worker/storages/s3_vulndb.py
-    Pass
 f8a_worker/storages/s3_artifacts.py
     Pass
 f8a_worker/storages/s3_data.py
@@ -230,8 +225,6 @@ f8a_worker/workers/finalize.py
 f8a_worker/workers/schemas/source_licenses.py
     Pass
 f8a_worker/workers/schemas/github_details.py
-    Pass
-f8a_worker/workers/schemas/security_issues.py
     Pass
 f8a_worker/workers/schemas/__init__.py
     Pass
@@ -269,10 +262,6 @@ f8a_worker/workers/repo_dependency_finder.py:151: unreachable code after 'raise'
     Fail
 f8a_worker/workers/mercator.py
     Pass
-f8a_worker/workers/cvedbsync.py
-    Pass
-f8a_worker/workers/victims.py
-    Pass
 f8a_worker/workers/digester.py
     Pass
 f8a_worker/workers/user_notifier.py
@@ -280,8 +269,6 @@ f8a_worker/workers/user_notifier.py
 f8a_worker/workers/license.py
     Pass
 f8a_worker/workers/git_stats.py
-    Pass
-f8a_worker/workers/CVEchecker.py
     Pass
 f8a_worker/workers/init_package_flow.py
     Pass
@@ -324,8 +311,6 @@ tests/data/schemas/generate.py
     Pass
 tests/data/license/license.py
     Pass
-tests/test_victims.py
-    Pass
 tests/test_utils.py
     Pass
 tests/test_solver.py
@@ -340,13 +325,9 @@ tests/workers/__init__.py
     Pass
 tests/workers/test_licensecheck.py
     Pass
-tests/workers/test_victims.py
-    Pass
 tests/workers/test_libraries_io.py
     Pass
 tests/workers/test_github_dependency_tree.py
-    Pass
-tests/workers/test_cvecheck.py
     Pass
 tests/workers/test_repository_description.py
     Pass
@@ -357,7 +338,10 @@ tests/workers/test_githuber.py
 tests/workers/test_mercator.py
     Pass
 tests/conftest.py
-    Pass
+tests/conftest.py:5: unused import 'tempfile' (90% confidence)
+tests/conftest.py:6: unused import 'shutil' (90% confidence)
+tests/conftest.py:7: unused import 'os' (90% confidence)
+    Fail
 hack/queue_conf.py
     Pass
 ----------------------------------------------------
@@ -368,4 +352,4 @@ setup.py
 
 setup.py
     Pass
-15 source files out of 163 files seems to contain dead code and/or unused imports
+15 source files out of 154 files seems to contain dead code and/or unused imports

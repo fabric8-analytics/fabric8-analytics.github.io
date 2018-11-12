@@ -39,8 +39,7 @@ f8a_jobs/handlers/github_manifests.py
 f8a_jobs/handlers/__init__.py
     Pass
 f8a_jobs/handlers/github_most_starred.py
-f8a_jobs/handlers/github_most_starred.py:95: unused variable 'popular' (100% confidence)
-    Fail
+    Pass
 f8a_jobs/handlers/error.py
     Pass
 f8a_jobs/handlers/nuget_popular_analyses.py
@@ -99,4 +98,4 @@ f8a-jobs.py
     Pass
 setup.py
     Pass
-1 source files out of 41 files seems to contain dead code and/or unused imports
+All checks passed for 41 source files

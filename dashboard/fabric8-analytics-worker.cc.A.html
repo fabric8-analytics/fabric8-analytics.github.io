@@ -128,31 +128,6 @@ f8a_worker/setup_celery.py
 f8a_worker/start.py
     <span style="color:#00AAAA">C </span>12:0 SentryCelery - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>15:4 SentryCelery.on_configure - <span style="color:#00AA00">A (1)</span>
-f8a_worker/victims.py
-    <span style="color:#00AA00">M </span>169:4 VictimsDB.is_version_affected - <span style="color:#00AA00">B (10)</span>
-    <span style="color:#00AA00">M </span>197:4 VictimsDB._build_from_git - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>118:4 VictimsDB.get_details_for_ecosystem - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>280:4 FilteredVictimsDB._register_cve - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>73:4 VictimsDB.get_vulnerabilities_for_epv - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>94:4 VictimsDB._register_cve - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>87:4 VictimsDB._read_db - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>107:4 VictimsDB.get_vulnerabilities_for_ecosystem - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>152:4 VictimsDB._get_package_versions - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AAAA">C </span>269:0 FilteredVictimsDB - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AAAA">C </span>24:0 VictimsDB - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>235:4 VictimsDB.from_s3 - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>50:4 VictimsDB.close - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>55:4 VictimsDB.java_vulnerabilities - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>61:4 VictimsDB.python_vulnerabilities - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>67:4 VictimsDB.javascript_vulnerabilities - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>146:4 VictimsDB._get_package_name - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>275:4 FilteredVictimsDB.__init__ - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>35:4 VictimsDB.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>230:4 VictimsDB.store_on_s3 - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>249:4 VictimsDB.from_zip - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>254:4 VictimsDB.build_from_git - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>260:4 VictimsDB.__enter__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>264:4 VictimsDB.__exit__ - <span style="color:#00AA00">A (1)</span>
 f8a_worker/solver.py
     <span style="color:#00AAAA">C </span>647:0 NugetDependencyParser - <span style="color:#AA5500">C (12)</span>
     <span style="color:#00AA00">M </span>650:4 NugetDependencyParser.parse - <span style="color:#AA5500">C (12)</span>
@@ -402,8 +377,7 @@ f8a_worker/dispatcher/foreach.py
     <span style="color:#AA00AA">F </span>39:0 iter_dependencies_analysis - <span style="color:#00AA00">B (6)</span>
     <span style="color:#AA00AA">F </span>27:0 _is_url_dependency - <span style="color:#00AA00">A (5)</span>
     <span style="color:#AA00AA">F </span>68:0 iter_dependencies_stack - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>112:0 iter_unknown_dependencies - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>98:0 iter_cvedb_updates - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>98:0 iter_unknown_dependencies - <span style="color:#00AA00">A (5)</span>
     <span style="color:#AA00AA">F </span>15:0 _create_analysis_arguments - <span style="color:#00AA00">A (2)</span>
 f8a_worker/storages/s3_mavenindex.py
     <span style="color:#00AA00">M </span>22:4 S3MavenIndex.store_index - <span style="color:#00AA00">A (4)</span>
@@ -480,13 +454,6 @@ f8a_worker/storages/s3_temp_artifacts.py
     <span style="color:#00AAAA">C </span>9:0 S3TempArtifacts - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>29:4 S3TempArtifacts.__init__ - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>43:4 S3TempArtifacts._create_bucket - <span style="color:#00AA00">A (2)</span>
-f8a_worker/storages/s3_vulndb.py
-    <span style="color:#00AA00">M </span>41:4 S3VulnDB.store_depcheck_db - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AAAA">C </span>14:0 S3VulnDB - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>53:4 S3VulnDB.retrieve_depcheck_db_if_exists - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>63:4 S3VulnDB.store_victims_db - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>71:4 S3VulnDB.retrieve_victims_db_if_exists - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>23:4 S3VulnDB.update_sync_date - <span style="color:#00AA00">A (2)</span>
 f8a_worker/storages/s3_artifacts.py
     <span style="color:#00AAAA">C </span>8:0 S3Artifacts - <span style="color:#00AA00">A (1)</span>
 f8a_worker/storages/s3_data.py
@@ -600,18 +567,6 @@ f8a_worker/workers/mercator.py
     <span style="color:#00AA00">M </span>143:4 MercatorTask._parse_requires_txt - <span style="color:#00AA00">B (6)</span>
     <span style="color:#00AA00">M </span>46:4 MercatorTask.execute - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>116:4 MercatorTask.run_gofedlib - <span style="color:#00AA00">A (2)</span>
-f8a_worker/workers/cvedbsync.py
-    <span style="color:#00AA00">M </span>13:4 CVEDBSyncTask.components_to_scan - <span style="color:#AA5500">C (12)</span>
-    <span style="color:#00AAAA">C </span>10:0 CVEDBSyncTask - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#00AA00">M </span>72:4 CVEDBSyncTask.execute - <span style="color:#00AA00">A (4)</span>
-f8a_worker/workers/victims.py
-    <span style="color:#00AA00">M </span>166:4 VictimsCheck.mark_in_graph - <span style="color:#00AA00">B (10)</span>
-    <span style="color:#00AA00">M </span>93:4 VictimsCheck.notify_gemini - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AAAA">C </span>13:0 VictimsCheck - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>42:4 VictimsCheck.init_auth_sa_token - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>133:4 VictimsCheck.create_in_graph - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>16:4 VictimsCheck.execute - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>75:4 VictimsCheck.get_vulnerable_packages - <span style="color:#00AA00">A (2)</span>
 f8a_worker/workers/digester.py
     <span style="color:#00AAAA">C </span>27:0 DigesterTask - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>33:4 DigesterTask.compute_ssdeep - <span style="color:#00AA00">A (2)</span>
@@ -636,22 +591,6 @@ f8a_worker/workers/git_stats.py
     <span style="color:#00AA00">M </span>63:4 GitStats._get_trend - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AA00">M </span>84:4 GitStats._get_trend_str - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AA00">M </span>98:4 GitStats._get_orgs - <span style="color:#00AA00">A (3)</span>
-f8a_worker/workers/CVEchecker.py
-    <span style="color:#00AA00">M </span>34:4 CVEcheckerTask.get_cve_impact - <span style="color:#AA5500">C (11)</span>
-    <span style="color:#00AA00">M </span>139:4 CVEcheckerTask._query_ossindex - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>115:4 CVEcheckerTask.query_ossindex_vulnerability_fromtill - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>187:4 CVEcheckerTask._victims_scan - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AAAA">C </span>14:0 CVEcheckerTask - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>83:4 CVEcheckerTask._filter_victims_db_entry - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>170:4 CVEcheckerTask._query_victims - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>208:4 CVEcheckerTask.execute - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>67:4 CVEcheckerTask._filter_ossindex_fields - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>164:4 CVEcheckerTask.update_victims_cve_db_on_s3 - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>22:4 CVEcheckerTask._parse_severity_and_score - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>28:4 CVEcheckerTask._parse_vector - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>102:4 CVEcheckerTask.query_url - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>109:4 CVEcheckerTask._query_ossindex_package - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>204:4 CVEcheckerTask._nuget_scan - <span style="color:#00AA00">A (1)</span>
 f8a_worker/workers/init_package_flow.py
     <span style="color:#00AA00">M </span>100:4 InitPackageFlow.execute - <span style="color:#00AA00">B (6)</span>
     <span style="color:#00AA00">M </span>17:4 InitPackageFlow.get_upstream_url - <span style="color:#00AA00">A (5)</span>
@@ -728,12 +667,6 @@ f8a_worker/workers/schemas/github_details.py
     <span style="color:#00AAAA">C </span>25:0 GithubLastYearCommits - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AAAA">C </span>38:0 GithubItemsByTime - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AAAA">C </span>112:0 GithubResult - <span style="color:#00AA00">A (1)</span>
-f8a_worker/workers/schemas/security_issues.py
-    <span style="color:#00AAAA">C </span>63:0 CVEDetail - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AAAA">C </span>19:0 CVEImpact - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>35:0 CVEAccess - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>51:0 CVSS - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>93:0 CVECheckResult - <span style="color:#00AA00">A (1)</span>
 f8a_worker/workers/schemas/libraries_io.py
     <span style="color:#00AAAA">C </span>13:0 DependentRepositories - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AAAA">C </span>24:0 Dependents - <span style="color:#00AA00">A (1)</span>
@@ -823,10 +756,6 @@ tests/test_process.py
     <span style="color:#00AA00">M </span>185:4 TestArchive.test_for_archive_create_by_root - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AA00">M </span>109:4 TestIndianaJones.test_fetch_pypi_nonexistent - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>19:4 TestGit.test_git_add_and_commit_everything_with_dotgit - <span style="color:#00AA00">A (1)</span>
-tests/test_victims.py
-    <span style="color:#AA00AA">F </span>20:0 test_get_vulnerable_java_packages - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>6:0 test_java_vulnerabilities - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>13:0 test_filtered_java_vulnerabilities - <span style="color:#00AA00">A (4)</span>
 tests/test_utils.py
     <span style="color:#00AA00">M </span>33:4 TestUtilFunctions.test_get_all_files_from - <span style="color:#00AA00">B (6)</span>
     <span style="color:#00AA00">M </span>146:4 TestMavenCoordinates.test_from_str - <span style="color:#00AA00">B (6)</span>
@@ -870,17 +799,15 @@ tests/test_solver.py
     <span style="color:#00AA00">M </span>287:4 TestFetcher.test_nuget_fetcher - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>305:4 TestFetcher.test_golang_fetcher - <span style="color:#00AA00">A (2)</span>
 tests/conftest.py
-    <span style="color:#AA00AA">F </span>20:0 rdb - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>121:0 victims_zip_s3 - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>40:0 maven - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>50:0 npm - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>60:0 pypi - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>70:0 rubygems - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>80:0 nuget - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>90:0 go - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>99:0 dispatcher_setup - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>106:0 no_s3_connection - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>112:0 victims_zip - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>19:0 rdb - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>39:0 maven - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>49:0 npm - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>59:0 pypi - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>69:0 rubygems - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>79:0 nuget - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>89:0 go - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>98:0 dispatcher_setup - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>105:0 no_s3_connection - <span style="color:#00AA00">A (1)</span>
 tests/data/license/license.py
     <span style="color:#AA00AA">F </span>24:0 funkce - <span style="color:#00AA00">A (1)</span>
 tests/storages/test_postgres.py
@@ -898,10 +825,6 @@ tests/workers/test_licensecheck.py
     <span style="color:#00AA00">M </span>30:4 TestLicenseCheck.test_execute - <span style="color:#00AA00">B (7)</span>
     <span style="color:#00AAAA">C </span>15:0 TestLicenseCheck - <span style="color:#00AA00">A (5)</span>
     <span style="color:#00AA00">M </span>20:4 TestLicenseCheck.test_error - <span style="color:#00AA00">A (2)</span>
-tests/workers/test_victims.py
-    <span style="color:#AA00AA">F </span>9:0 test_get_vulnerable_packages - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>29:0 test_mark_in_graph - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>45:0 test_notify_gemini - <span style="color:#00AA00">A (3)</span>
 tests/workers/test_libraries_io.py
     <span style="color:#00AA00">M </span>15:4 TestLibrariesIoTask.test_execute - <span style="color:#00AA00">B (9)</span>
     <span style="color:#00AAAA">C </span>11:0 TestLibrariesIoTask - <span style="color:#00AA00">B (6)</span>
@@ -912,14 +835,6 @@ tests/workers/test_github_dependency_tree.py
     <span style="color:#00AAAA">C </span>8:0 TestGithubDependencyTreeTask - <span style="color:#00AA00">A (4)</span>
     <span style="color:#00AA00">M </span>31:4 TestGithubDependencyTreeTask.test_python_requirements_txt - <span style="color:#00AA00">A (4)</span>
     <span style="color:#00AA00">M </span>53:4 TestGithubDependencyTreeTask.test_npm_repo_with_package_lock - <span style="color:#00AA00">A (4)</span>
-tests/workers/test_cvecheck.py
-    <span style="color:#00AA00">M </span>141:4 TestCVEchecker.test_nuget_system_net_http - <span style="color:#00AA00">B (10)</span>
-    <span style="color:#00AAAA">C </span>9:0 TestCVEchecker - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>24:4 TestCVEchecker.test_npm_servestatic - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>62:4 TestCVEchecker.test_npm_servestatic_not_affected - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>106:4 TestCVEchecker.test_python_pyjwt - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>13:4 TestCVEchecker.test_get_cve_impact - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>75:4 TestCVEchecker.test_maven_commons_compress - <span style="color:#00AA00">A (3)</span>
 tests/workers/test_repository_description.py
     <span style="color:#00AA00">M </span>13:4 TestRepositoryDescCollectorTask.test_execute - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AAAA">C </span>9:0 TestRepositoryDescCollectorTask - <span style="color:#00AA00">A (2)</span>
@@ -1111,6 +1026,6 @@ alembic/versions/22a1cd66a9c6_batches_reviews.py
     <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>40:0 downgrade - <span style="color:#00AA00">A (1)</span>
 
-958 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (2.849686847599165)</span>
+882 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (2.766439909297052)</span>
 </pre>

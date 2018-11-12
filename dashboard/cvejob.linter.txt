@@ -29,8 +29,6 @@ cvejob/filters/__init__.py
     Pass
 cvejob/filters/input.py
     Pass
-tests/test_get_package_version.py
-    Pass
 tests/__init__.py
     Pass
 tests/outputs/test_victims.py
@@ -54,4 +52,4 @@ run.py
 ----------------------------------------------------
 run.py
     Pass
-All checks passed for 23 source files
+All checks passed for 22 source files
