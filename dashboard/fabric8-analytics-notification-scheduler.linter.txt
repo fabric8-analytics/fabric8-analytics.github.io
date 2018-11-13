@@ -17,6 +17,9 @@ f8a_notification/utils.py
     Pass
 f8a_notification/entryscript.py
     Pass
+f8a_notification/github_utils.py
+f8a_notification/github_utils.py:174:101: E501 line too long (103 > 100 characters)
+    Fail
 f8a_notification/user_notification.py
     Pass
 tests/test_user_notification.py
@@ -36,4 +39,4 @@ setup.py
 ----------------------------------------------------
 setup.py
     Pass
-All checks passed for 11 source files
+Linter fail, 1 source files out of 12 source files need to be fixed

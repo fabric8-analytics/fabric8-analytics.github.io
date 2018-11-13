@@ -1,7 +1,7 @@
 Name                           Stmts   Miss  Cover   Missing
 ------------------------------------------------------------
-github_refresh.py                 47      6    87%   72, 87, 93, 98-100
+github_refresh.py                 48      6    88%   73, 88, 94, 99-101
 tests/conftest.py                 12      0   100%
 tests/test_github_refresh.py       9      0   100%
 ------------------------------------------------------------
-TOTAL                             68      6    91%
+TOTAL                             69      6    91%

@@ -18,6 +18,10 @@ f8a_notification/utils.py
     Pass
 f8a_notification/entryscript.py
     Pass
+f8a_notification/github_utils.py
+f8a_notification/github_utils.py:23: unused import 'os' (90% confidence)
+f8a_notification/github_utils.py:25: unused import 'PurePath' (90% confidence)
+    Fail
 f8a_notification/user_notification.py
     Pass
 ----------------------------------------------------
@@ -28,4 +32,4 @@ setup.py
 
 setup.py
     Pass
-All checks passed for 6 source files
+1 source files out of 7 files seems to contain dead code and/or unused imports
