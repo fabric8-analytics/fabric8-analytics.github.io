@@ -18,7 +18,7 @@ f8a_notification/utils.py
 f8a_notification/entryscript.py
     Pass
 f8a_notification/github_utils.py
-f8a_notification/github_utils.py:174:101: E501 line too long (103 > 100 characters)
+f8a_notification/github_utils.py:173:48: W504 line break after binary operator
     Fail
 f8a_notification/user_notification.py
     Pass

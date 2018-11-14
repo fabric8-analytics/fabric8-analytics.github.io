@@ -29,7 +29,7 @@ bayesian/default_config.py
 bayesian/__init__.py
     Pass
 bayesian/utils.py
-bayesian/utils.py:391: unused variable 'projection' (100% confidence)
+bayesian/utils.py:482: unused variable 'projection' (100% confidence)
     Fail
 bayesian/manifest_models.py
     Pass
@@ -64,7 +64,8 @@ tests/test_depencency_finder.py
 tests/data/schemas/generate.py
     Pass
 tests/test_utils.py
-    Pass
+tests/test_utils.py:9: unused import 'requests' (90% confidence)
+    Fail
 tests/test_license_extractor.py
     Pass
 tests/conftest.py
@@ -139,4 +140,4 @@ setup.py
 
 setup.py
     Pass
-1 source files out of 61 files seems to contain dead code and/or unused imports
+2 source files out of 61 files seems to contain dead code and/or unused imports
