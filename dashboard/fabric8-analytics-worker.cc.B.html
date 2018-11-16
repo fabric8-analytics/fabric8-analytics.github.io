@@ -4,12 +4,12 @@
     <span style="color:#AA00AA">F </span>28:0 get_stack_usage_data_graph - <span style="color:#00AA00">B (6)</span>
     <span style="color:#AA00AA">F </span>304:0 select_latest_version - <span style="color:#00AA00">B (6)</span>
 f8a_worker/utils.py
-    <span style="color:#AA00AA">F </span>424:0 parse_gh_repo - <span style="color:#AA5500">C (11)</span>
-    <span style="color:#00AA00">M </span>97:4 TimedCommand.run - <span style="color:#00AA00">B (10)</span>
-    <span style="color:#00AA00">M </span>340:4 MavenCoordinates.to_str - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#AA00AA">F </span>161:0 get_command_output - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>199:0 get_all_files_from - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>536:0 get_response - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>425:0 parse_gh_repo - <span style="color:#AA5500">C (11)</span>
+    <span style="color:#00AA00">M </span>98:4 TimedCommand.run - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#00AA00">M </span>341:4 MavenCoordinates.to_str - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#AA00AA">F </span>162:0 get_command_output - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>200:0 get_all_files_from - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#AA00AA">F </span>550:0 get_response - <span style="color:#00AA00">B (6)</span>
 f8a_worker/setup_celery.py
     <span style="color:#AA00AA">F </span>17:0 get_dispatcher_config_files - <span style="color:#00AA00">B (7)</span>
 f8a_worker/solver.py
@@ -33,19 +33,23 @@ f8a_worker/schemas.py
     <span style="color:#00AA00">M </span>236:4 BundledDynamicSchemaLibrary._load_all_schema_refs - <span style="color:#00AA00">B (8)</span>
     <span style="color:#AA00AA">F </span>367:0 get_schema_ref - <span style="color:#00AA00">B (6)</span>
     <span style="color:#AA00AA">F </span>407:0 assert_no_two_consecutive_schemas_are_same - <span style="color:#00AA00">B (6)</span>
-f8a_worker/data_normalizer.py
-    <span style="color:#00AA00">M </span>110:4 DataNormalizer._handle_javascript - <span style="color:#AA0000">F (52)</span>
-    <span style="color:#00AA00">M </span>589:4 DataNormalizer._handle_dotnet_solution - <span style="color:#AA5500">C (17)</span>
-    <span style="color:#00AA00">M </span>426:4 DataNormalizer._handle_rubygems - <span style="color:#AA5500">C (15)</span>
-    <span style="color:#00AA00">M </span>323:4 DataNormalizer._handle_python_dist - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#00AA00">M </span>719:4 DataNormalizer.main - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#00AAAA">C </span>22:0 DataNormalizer - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>27:4 DataNormalizer.transform_keys - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>76:4 DataNormalizer._are_tests_implemented - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>369:4 DataNormalizer._handle_java - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>289:4 DataNormalizer._split_keywords - <span style="color:#00AA00">B (6)</span>
 f8a_worker/dispatcher/foreach.py
     <span style="color:#AA00AA">F </span>39:0 iter_dependencies_analysis - <span style="color:#00AA00">B (6)</span>
+f8a_worker/data_normalizer/javascript.py
+    <span style="color:#00AA00">M </span>110:4 NpmDataNormalizer._transform_code_repository - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#00AA00">M </span>78:4 NpmDataNormalizer._transform_author - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>89:4 NpmDataNormalizer._transform_contributors - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>189:4 NpmDataNormalizer._transform_engines - <span style="color:#00AA00">B (6)</span>
+f8a_worker/data_normalizer/python.py
+    <span style="color:#00AA00">M </span>61:4 PythonDistDataNormalizer.normalize - <span style="color:#00AA00">B (9)</span>
+f8a_worker/data_normalizer/csharp.py
+    <span style="color:#00AA00">M </span>26:4 NugetDataNormalizer.normalize - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#00AA00">M </span>60:4 NugetDataNormalizer._transform_licenses - <span style="color:#00AA00">B (6)</span>
+f8a_worker/data_normalizer/abstract.py
+    <span style="color:#00AA00">M </span>33:4 AbstractDataNormalizer._transform_keys - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>84:4 AbstractDataNormalizer._split_keywords - <span style="color:#00AA00">B (6)</span>
+f8a_worker/data_normalizer/java.py
+    <span style="color:#00AA00">M </span>26:4 MavenDataNormalizer.normalize - <span style="color:#00AA00">B (7)</span>
 f8a_worker/storages/postgres_base.py
     <span style="color:#00AA00">M </span>35:4 PostgresBase.__init__ - <span style="color:#00AA00">B (7)</span>
     <span style="color:#00AA00">M </span>84:4 PostgresBase.retrieve - <span style="color:#00AA00">B (6)</span>
@@ -71,10 +75,10 @@ f8a_worker/workers/repo_dependency_finder.py
     <span style="color:#00AA00">M </span>155:4 RepoDependencyFinderTask.generate_report - <span style="color:#00AA00">B (9)</span>
     <span style="color:#00AAAA">C </span>13:0 RepoDependencyFinderTask - <span style="color:#00AA00">B (6)</span>
 f8a_worker/workers/mercator.py
-    <span style="color:#00AA00">M </span>159:4 MercatorTask._merge_python_items - <span style="color:#AA5500">D (29)</span>
-    <span style="color:#00AA00">M </span>59:4 MercatorTask.run_mercator - <span style="color:#AA5500">C (19)</span>
-    <span style="color:#00AAAA">C </span>38:0 MercatorTask - <span style="color:#AA5500">C (11)</span>
-    <span style="color:#00AA00">M </span>143:4 MercatorTask._parse_requires_txt - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>157:4 MercatorTask._merge_python_items - <span style="color:#AA5500">D (29)</span>
+    <span style="color:#00AA00">M </span>58:4 MercatorTask.run_mercator - <span style="color:#AA5500">C (19)</span>
+    <span style="color:#00AAAA">C </span>38:0 MercatorTask - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#00AA00">M </span>141:4 MercatorTask._parse_requires_txt - <span style="color:#00AA00">B (6)</span>
 f8a_worker/workers/license.py
     <span style="color:#00AA00">M </span>21:4 LicenseCheckTask.process_output - <span style="color:#00AA00">B (6)</span>
 f8a_worker/workers/git_stats.py
@@ -106,16 +110,14 @@ f8a_worker/workers/schemas/github_details.py
 f8a_worker/workers/schemas/metadata.py
     <span style="color:#00AAAA">C </span>130:0 MetadataDict - <span style="color:#AA5500">C (11)</span>
     <span style="color:#00AAAA">C </span>218:0 MercatorResult - <span style="color:#00AA00">B (8)</span>
-tests/test_data_normalizer.py
-    <span style="color:#00AA00">M </span>281:4 TestDataNormalizer.test_get_outermost_items - <span style="color:#00AA00">B (6)</span>
 tests/test_schemas.py
     <span style="color:#00AA00">M </span>74:4 TestSchemaLibrary.test_bundled_dynamic_schema_lookup - <span style="color:#00AA00">B (9)</span>
     <span style="color:#00AAAA">C </span>40:0 TestSchemaLibrary - <span style="color:#00AA00">B (6)</span>
 tests/test_process.py
     <span style="color:#00AA00">M </span>51:4 TestIndianaJones.test_fetch_npm_specific - <span style="color:#00AA00">B (7)</span>
 tests/test_utils.py
-    <span style="color:#00AA00">M </span>33:4 TestUtilFunctions.test_get_all_files_from - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>146:4 TestMavenCoordinates.test_from_str - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>36:4 TestUtilFunctions.test_get_all_files_from - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>149:4 TestMavenCoordinates.test_from_str - <span style="color:#00AA00">B (6)</span>
 tests/test_solver.py
     <span style="color:#00AA00">M </span>317:4 TestFetcher.test_f8a_fetcher - <span style="color:#00AA00">B (9)</span>
 tests/workers/test_licensecheck.py
@@ -130,9 +132,10 @@ tests/workers/test_githuber.py
     <span style="color:#00AAAA">C </span>10:0 TestGithuber - <span style="color:#00AA00">B (10)</span>
     <span style="color:#00AA00">M </span>14:4 TestGithuber.test_execute - <span style="color:#00AA00">B (10)</span>
 tests/workers/test_mercator.py
-    <span style="color:#00AA00">M </span>51:4 TestMercator.test_execute_maven - <span style="color:#AA5500">C (11)</span>
-    <span style="color:#00AA00">M </span>91:4 TestMercator.test_execute_go_glide - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>52:4 TestMercator.test_execute_maven - <span style="color:#AA5500">C (11)</span>
+    <span style="color:#00AA00">M </span>92:4 TestMercator.test_execute_go_glide - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>113:4 TestMercator.test_get_outermost_items - <span style="color:#00AA00">B (6)</span>
 
 93 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">B (8.935483870967742)</span>
+Average complexity: <span style="color:#00AA00">B (8.21505376344086)</span>
 </pre>

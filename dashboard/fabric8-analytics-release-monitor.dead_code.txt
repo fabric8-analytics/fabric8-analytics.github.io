@@ -13,9 +13,7 @@ Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages (1.
 release_monitor/__init__.py
     Pass
 release_monitor/release_monitor.py
-release_monitor/release_monitor.py:24: unused variable 'frame' (100% confidence)
-release_monitor/release_monitor.py:24: unused variable 'signum' (100% confidence)
-    Fail
+    Pass
 release_monitor/defaults.py
     Pass
 integration_tests/steps/steps.py
@@ -29,7 +27,7 @@ cli.py setup.py
 ----------------------------------------------------
 
 cli.py
-    Pass
+    Fail
 setup.py
     Pass
 1 source files out of 7 files seems to contain dead code and/or unused imports

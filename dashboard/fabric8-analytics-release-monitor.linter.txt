@@ -12,7 +12,7 @@ Requirement already satisfied: pycodestyle in ./venv/lib/python3.6/site-packages
 release_monitor/__init__.py
     Pass
 release_monitor/release_monitor.py
-release_monitor/release_monitor.py:163:17: E226 missing whitespace around arithmetic operator
+release_monitor/release_monitor.py:141:17: E226 missing whitespace around arithmetic operator
     Fail
 release_monitor/defaults.py
     Pass
@@ -23,10 +23,8 @@ integration_tests/environment.py
 
 ----------------------------------------------------
 Running Python linter against selected files:
-setup.py cli.py
+setup.py
 ----------------------------------------------------
 setup.py
     Pass
-cli.py
-    Pass
-Linter fail, 1 source files out of 7 source files need to be fixed
+Linter fail, 1 source files out of 6 source files need to be fixed

@@ -31,7 +31,8 @@ src/config.py
 src/data_importer.py
     Pass
 src/cve.py
-    Pass
+src/cve.py:8: unused import 'datetime' (90% confidence)
+    Fail
 test/test_rest_api.py
     Pass
 test/test_graph_properties.py
@@ -66,4 +67,4 @@ sanitycheck.py
     Pass
 populate_schema.py
     Pass
-All checks passed for 25 source files
+1 source files out of 25 files seems to contain dead code and/or unused imports

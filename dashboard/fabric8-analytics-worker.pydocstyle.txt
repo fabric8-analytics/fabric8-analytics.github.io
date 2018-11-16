@@ -216,6 +216,27 @@ f8a_worker/setup_celery.py
 f8a_worker/start.py
 0
     Pass
+f8a_worker/data_normalizer/javascript.py
+0
+    Pass
+f8a_worker/data_normalizer/python.py
+0
+    Pass
+f8a_worker/data_normalizer/__init__.py
+0
+    Pass
+f8a_worker/data_normalizer/csharp.py
+0
+    Pass
+f8a_worker/data_normalizer/abstract.py
+0
+    Pass
+f8a_worker/data_normalizer/java.py
+0
+    Pass
+f8a_worker/data_normalizer/go.py
+0
+    Pass
 f8a_worker/solver.py
 0
     Pass
@@ -396,9 +417,6 @@ f8a_worker/workers/unknown_dep_fetcher.py
 f8a_worker/workers/dependency_snapshot.py
 0
     Pass
-f8a_worker/data_normalizer.py
-0
-    Pass
 f8a_worker/errors.py
 0
     Pass
@@ -418,6 +436,9 @@ tests/test_process.py
 0
     Pass
 tests/__init__.py
+0
+    Pass
+tests/data_normalizer/abstract.py
 0
     Pass
 tests/data/schemas/generate.py
@@ -476,4 +497,4 @@ setup.py
 setup.py
 0
     Pass
-All checks passed for 153 source files
+All checks passed for 160 source files

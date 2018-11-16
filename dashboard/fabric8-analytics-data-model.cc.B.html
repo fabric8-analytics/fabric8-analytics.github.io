@@ -14,7 +14,7 @@ src/data_importer.py
     <span style="color:#00AA00">M </span>294:4 PostgresHandler.fetch_pending_epvs - <span style="color:#00AA00">B (6)</span>
 src/cve.py
     <span style="color:#00AA00">M </span>21:4 CVEPut.validate_input - <span style="color:#AA5500">C (12)</span>
-    <span style="color:#00AA00">M </span>186:4 CVEGet.get - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>142:4 CVEGet.get - <span style="color:#00AA00">B (7)</span>
 src/data_source/s3_data_source.py
     <span style="color:#00AA00">M </span>49:4 S3DataSource.list_files - <span style="color:#00AA00">B (7)</span>
 test/test_rest_api.py
@@ -27,15 +27,9 @@ test/test_insertion_from_minio.py
 test/test_cve.py
     <span style="color:#AA00AA">F </span>65:0 test_cve_put_prepare_payload - <span style="color:#AA5500">C (12)</span>
     <span style="color:#AA00AA">F </span>134:0 test_cve_get_ep - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>193:0 test_cve_get_by_date_too_early - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>209:0 test_cve_get_by_date_too_late - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>252:0 test_get_cves_by_date_ecosystem - <span style="color:#00AA00">B (8)</span>
     <span style="color:#AA00AA">F </span>118:0 test_cve_get_e - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>166:0 test_cve_get_by_date_valid - <span style="color:#00AA00">B (7)</span>
     <span style="color:#AA00AA">F </span>103:0 test_cve_delete_prepare_payload - <span style="color:#00AA00">B (6)</span>
     <span style="color:#AA00AA">F </span>151:0 test_cve_get_epv - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>182:0 test_cve_get_by_date_empty_string - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>238:0 test_cve_get_by_date_none - <span style="color:#00AA00">B (6)</span>
 test/test_data_importer.py
     <span style="color:#AA00AA">F </span>13:0 test_parse_int_or_none_for_integer_input_overflows - <span style="color:#00AA00">B (9)</span>
     <span style="color:#AA00AA">F </span>36:0 test_parse_int_or_none_for_string_input - <span style="color:#00AA00">B (7)</span>
@@ -53,6 +47,6 @@ test/test_graph_populator.py
     <span style="color:#AA00AA">F </span>231:0 test_construct_package_query - <span style="color:#00AA00">B (7)</span>
     <span style="color:#AA00AA">F </span>92:0 test_construct_version_query_1 - <span style="color:#00AA00">B (6)</span>
 
-43 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">B (8.837209302325581)</span>
+37 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">B (9.108108108108109)</span>
 </pre>

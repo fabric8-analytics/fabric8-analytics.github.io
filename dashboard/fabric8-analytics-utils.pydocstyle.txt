@@ -12,10 +12,19 @@ Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-co
 Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (2.1.1)
 Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.2.1)
 Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.11.0)
+f8a_utils/commands/__init__.py
+0
+    Pass
+f8a_utils/commands/command.py
+0
+    Pass
 f8a_utils/__init__.py
 0
     Pass
 f8a_utils/versions.py
+0
+    Pass
+tests/commands/test_command.py
 0
     Pass
 tests/test_versions.py
@@ -29,4 +38,4 @@ setup.py
 setup.py
 0
     Pass
-All checks passed for 4 source files
+All checks passed for 7 source files

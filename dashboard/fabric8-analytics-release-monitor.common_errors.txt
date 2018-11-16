@@ -13,7 +13,7 @@ release_monitor/ integration_tests/
 release_monitor/__init__.py
     Pass
 release_monitor/release_monitor.py
-release_monitor/release_monitor.py:163: undefined name 'sleep'
+release_monitor/release_monitor.py:141: undefined name 'sleep'
     Fail
 release_monitor/defaults.py
     Pass
@@ -31,7 +31,7 @@ cli.py setup.py
 ----------------------------------------------------
 
 cli.py
-    Pass
+    Fail
 setup.py
     Pass
-2 source files out of 7 files needs to be checked and fixed
+3 source files out of 7 files needs to be checked and fixed

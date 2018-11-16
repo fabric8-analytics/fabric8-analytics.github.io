@@ -148,6 +148,21 @@ f8a_worker/setup_celery.py
     Pass
 f8a_worker/start.py
     Pass
+f8a_worker/data_normalizer/javascript.py
+    Pass
+f8a_worker/data_normalizer/python.py
+    Pass
+f8a_worker/data_normalizer/__init__.py
+f8a_worker/data_normalizer/__init__.py:16: 'f8a_worker.data_normalizer.abstract.AbstractDataNormalizer' imported but unused
+    Fail
+f8a_worker/data_normalizer/csharp.py
+    Pass
+f8a_worker/data_normalizer/abstract.py
+    Pass
+f8a_worker/data_normalizer/java.py
+    Pass
+f8a_worker/data_normalizer/go.py
+    Pass
 f8a_worker/solver.py
     Pass
 f8a_worker/process.py
@@ -268,8 +283,6 @@ f8a_worker/workers/unknown_dep_fetcher.py
     Pass
 f8a_worker/workers/dependency_snapshot.py
     Pass
-f8a_worker/data_normalizer.py
-    Pass
 f8a_worker/errors.py
     Pass
 f8a_worker/celery_settings.py
@@ -285,6 +298,8 @@ tests/test_schemas.py
 tests/test_process.py
     Pass
 tests/__init__.py
+    Pass
+tests/data_normalizer/abstract.py
     Pass
 tests/data/schemas/generate.py
     Pass
@@ -317,10 +332,7 @@ tests/workers/test_githuber.py
 tests/workers/test_mercator.py
     Pass
 tests/conftest.py
-tests/conftest.py:5: 'tempfile' imported but unused
-tests/conftest.py:6: 'shutil' imported but unused
-tests/conftest.py:7: 'os' imported but unused
-    Fail
+    Pass
 hack/queue_conf.py
     Pass
 ----------------------------------------------------
@@ -330,4 +342,4 @@ setup.py
 
 setup.py
     Pass
-3 source files out of 154 files needs to be checked and fixed
+3 source files out of 161 files needs to be checked and fixed
