@@ -1,10 +1,10 @@
 Name                                                   Stmts   Miss  Cover   Missing			Name                                                   Stmts   Miss  Cover   Missing
 ------------------------------------------------------------------------------------			------------------------------------------------------------------------------------
 /bayesian/bayesian/__init__.py                            44      1    98%   57				/bayesian/bayesian/__init__.py                            44      1    98%   57
-/bayesian/bayesian/api_v1.py                             635    419    34%   88-95, 138-168, 221, 239 |	/bayesian/bayesian/api_v1.py                             635    419    34%   88-95, 138-171, 225, 244
+/bayesian/bayesian/api_v1.py                             635    419    34%   88-95, 138-171, 225, 244 |	/bayesian/bayesian/api_v1.py                             654    434    34%   88-95, 138-171, 225, 244
 /bayesian/bayesian/auth.py                                16     12    25%   10-24			/bayesian/bayesian/auth.py                                16     12    25%   10-24
 /bayesian/bayesian/default_config.py                      23      0   100%				/bayesian/bayesian/default_config.py                      23      0   100%
-/bayesian/bayesian/dependency_finder.py                   77     62    19%   26-34, 40-118		/bayesian/bayesian/dependency_finder.py                   77     62    19%   26-34, 40-118
+/bayesian/bayesian/dependency_finder.py                   77     62    19%   26-34, 40-118	      |	/bayesian/bayesian/dependency_finder.py                  113     62    45%   87-95, 101-179
 /bayesian/bayesian/exceptions.py                           8      0   100%				/bayesian/bayesian/exceptions.py                           8      0   100%
 /bayesian/bayesian/generate_manifest.py                   42      0   100%				/bayesian/bayesian/generate_manifest.py                   42      0   100%
 /bayesian/bayesian/license_extractor.py                   42      0   100%				/bayesian/bayesian/license_extractor.py                   42      0   100%
@@ -14,6 +14,6 @@ Name                                                   Stmts   Miss  Cover   Mis
 /bayesian/bayesian/schemas/component_analyses.py          43      0   100%				/bayesian/bayesian/schemas/component_analyses.py          43      0   100%
 /bayesian/bayesian/schemas/stack_analyses.py             245      0   100%				/bayesian/bayesian/schemas/stack_analyses.py             245      0   100%
 /bayesian/bayesian/schemas/version_range_resolver.py      18      0   100%				/bayesian/bayesian/schemas/version_range_resolver.py      18      0   100%
-/bayesian/bayesian/utils.py                              595    374    37%   56, 67-76, 90-99, 114-12 |	/bayesian/bayesian/utils.py                              589    370    37%   56, 67-77, 92-101, 116-1
+/bayesian/bayesian/utils.py                              589    370    37%   56, 67-77, 92-101, 116-1 |	/bayesian/bayesian/utils.py                              624    370    41%   56, 67-77, 92-101, 116-1
 ------------------------------------------------------------------------------------			------------------------------------------------------------------------------------
-TOTAL                                                   1968    910    54%			      |	TOTAL                                                   1962    906    54%
+TOTAL                                                   1962    906    54%			      |	TOTAL                                                   2052    921    55%
