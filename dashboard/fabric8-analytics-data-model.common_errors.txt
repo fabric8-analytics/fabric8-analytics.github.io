@@ -32,8 +32,7 @@ src/config.py
 src/data_importer.py
     Pass
 src/cve.py
-src/cve.py:8: 'datetime.datetime' imported but unused
-    Fail
+    Pass
 test/test_rest_api.py
     Pass
 test/test_graph_properties.py
@@ -67,4 +66,4 @@ sanitycheck.py
     Pass
 populate_schema.py
     Pass
-2 source files out of 25 files needs to be checked and fixed
+1 source files out of 25 files needs to be checked and fixed

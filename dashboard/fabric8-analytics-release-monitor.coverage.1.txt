@@ -1,0 +1,7 @@
+Name                                               Stmts   Miss  Cover   Missing
+--------------------------------------------------------------------------------
+/root/payload/release_monitor/__init__.py              0      0   100%
+/root/payload/release_monitor/defaults.py              6      0   100%
+/root/payload/release_monitor/release_monitor.py      81     61    25%   26-42, 52-61, 65-71, 75-81, 85-96, 100-109, 113-143, 147-148
+--------------------------------------------------------------------------------
+TOTAL                                                 87     61    30%

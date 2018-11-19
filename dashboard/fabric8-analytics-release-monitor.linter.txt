@@ -12,7 +12,7 @@ Requirement already satisfied: pycodestyle in ./venv/lib/python3.6/site-packages
 release_monitor/__init__.py
     Pass
 release_monitor/release_monitor.py
-release_monitor/release_monitor.py:141:17: E226 missing whitespace around arithmetic operator
+release_monitor/release_monitor.py:143:17: E226 missing whitespace around arithmetic operator
     Fail
 release_monitor/defaults.py
     Pass
