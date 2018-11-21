@@ -1,8 +1,8 @@
 Name                                                                             Stmts Miss  Cover   Missing
 ------------------------------------------------------------------------------------------------------------
 com.redhat.jenkins.plugins.bayesian/User                                             5    2    60%
-com.redhat.jenkins.plugins.bayesian/Bayesian                                       156   39    75%
-com.redhat.jenkins.plugins.bayesian/BayesianAnalysisStep                            10    3    70%
+com.redhat.jenkins.plugins.bayesian/Bayesian                                       158   38    75%
+com.redhat.jenkins.plugins.bayesian/BayesianAnalysisStep                            13    5    61%
 com.redhat.jenkins.plugins.bayesian/Codebase.Data                                    5    5     0%
 com.redhat.jenkins.plugins.bayesian/BayesianStepResponse                            19   11    42%
 com.redhat.jenkins.plugins.bayesian/DnsFiddler                                      12    6    50%
@@ -13,11 +13,11 @@ com.redhat.jenkins.plugins.bayesian/Utils                                       
 com.redhat.jenkins.plugins.bayesian/Codebase                                         5    2    60%
 com.redhat.jenkins.plugins.bayesian/BayesianAnalysisStep.DescriptorImpl              4    0   100%
 com.redhat.jenkins.plugins.bayesian/Utils.new ArrayList() {...}                      3    0   100%
-com.redhat.jenkins.plugins.bayesian/BayesianAnalysisStep.Execution                  30    9    70%
+com.redhat.jenkins.plugins.bayesian/BayesianAnalysisStep.Execution                  31    9    70%
 com.redhat.jenkins.plugins.bayesian/BayesianException                                6    6     0%
 com.redhat.jenkins.plugins.bayesian/Utils.new ArrayList() {...}                      3    0   100%
 com.redhat.jenkins.plugins.bayesian/Utils.new ArrayList() {...}                      4    0   100%
 com.redhat.jenkins.plugins.bayesian/Utils.new ArrayList() {...}                      4    0   100%
 com.redhat.jenkins.plugins.bayesian/User.Data                                        5    3    40%
 ------------------------------------------------------------------------------------------------------------
-TOTAL                                                                              336  109    67%
+TOTAL                                                                              342  110    67%
