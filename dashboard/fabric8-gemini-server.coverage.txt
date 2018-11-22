@@ -3,12 +3,12 @@ Name                                    Stmts   Miss  Cover   Missing
 src/__init__.py                             2      0   100%
 src/exceptions.py                           5      0   100%
 src/notification/__init__.py                3      0   100%
-src/notification/user_notification.py      36      2    94%   29, 56
+src/notification/user_notification.py      38      4    89%   29-32, 59
 src/parsers/__init__.py                     0      0   100%
 src/parsers/maven_parser.py                25      2    92%   41, 43
 src/parsers/parser_base.py                  1      0   100%
 src/repo_dependency_creator.py             48     13    73%   27-30, 37-40, 56-60, 86-91
-src/rest_api.py                           152      7    95%   197-201, 225-226, 381
+src/rest_api.py                           162     13    92%   197-201, 229-238, 393
 src/utils.py                              158      5    97%   53, 99-100, 240, 304
 ---------------------------------------------------------------------
-TOTAL                                     430     29    93%
+TOTAL                                     442     37    92%
