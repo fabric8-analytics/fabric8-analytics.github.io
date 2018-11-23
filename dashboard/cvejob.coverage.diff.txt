@@ -3,15 +3,15 @@ Name                               Stmts   Miss  Cover   Missing					Name       
 cvejob/__init__.py                     0      0   100%							cvejob/__init__.py                     0      0   100%
 cvejob/config.py                      48     11    77%   50, 54, 58, 62, 66, 70, 74, 78, 82, 86, 90	cvejob/config.py                      48     11    77%   50, 54, 58, 62, 66, 70, 74, 78, 82, 86, 90
 cvejob/filters/__init__.py             0      0   100%							cvejob/filters/__init__.py             0      0   100%
-cvejob/filters/input.py              127     12    91%   43, 49-51, 58, 83, 164, 177, 181, 195, 202,  |	cvejob/filters/input.py              128     12    91%   43, 49-51, 58, 83, 164, 177, 181, 195, 202, 
+cvejob/filters/input.py              128     12    91%   43, 49-51, 58, 83, 164, 177, 181, 195, 202, 	cvejob/filters/input.py              128     12    91%   43, 49-51, 58, 83, 164, 177, 181, 195, 202, 
 cvejob/identifiers/__init__.py         7      7     0%   6-22						cvejob/identifiers/__init__.py         7      7     0%   6-22
 cvejob/identifiers/basic.py           48     48     0%   3-95						cvejob/identifiers/basic.py           48     48     0%   3-95
 cvejob/identifiers/nvdtoolkit.py      19     19     0%   3-45						cvejob/identifiers/nvdtoolkit.py      19     19     0%   3-45
 cvejob/outputs/__init__.py             0      0   100%							cvejob/outputs/__init__.py             0      0   100%
-cvejob/outputs/victims.py             95     49    48%   27-48, 53, 58, 63, 68, 73, 77-112, 117-135,  |	cvejob/outputs/victims.py             97     51    47%   27-48, 53, 58, 63, 68, 73, 77-112, 117-139, 
+cvejob/outputs/victims.py             97     51    47%   27-48, 53, 58, 63, 68, 73, 77-112, 117-139, 	cvejob/outputs/victims.py             97     51    47%   27-48, 53, 58, 63, 68, 73, 77-112, 117-139, 
 cvejob/selectors/__init__.py           0      0   100%							cvejob/selectors/__init__.py           0      0   100%
-cvejob/selectors/basic.py            123    123     0%   3-285					      |	cvejob/selectors/basic.py            124    124     0%   3-286
-cvejob/utils.py                      130     21    84%   31-65, 149, 160, 167			      |	cvejob/utils.py                       85     24    72%   28-62, 74, 85, 92, 176-182
+cvejob/selectors/basic.py            124    124     0%   3-286						cvejob/selectors/basic.py            124    124     0%   3-286
+cvejob/utils.py                       85     24    72%   28-62, 74, 85, 92, 176-182			cvejob/utils.py                       85     24    72%   28-62, 74, 85, 92, 176-182
 cvejob/version.py                     55      0   100%							cvejob/version.py                     55      0   100%
 ----------------------------------------------------------------					----------------------------------------------------------------
-TOTAL                                652    290    56%						      |	TOTAL                                611    296    52%
+TOTAL                                611    296    52%							TOTAL                                611    296    52%

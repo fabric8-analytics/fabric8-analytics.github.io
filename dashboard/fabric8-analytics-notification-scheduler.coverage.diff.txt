@@ -3,7 +3,8 @@ Name                                    Stmts   Miss  Cover   Missing					Name  
 f8a_notification/__init__.py                1      0   100%						f8a_notification/__init__.py                1      0   100%
 f8a_notification/auth.py                   28      3    89%   64-69					f8a_notification/auth.py                   28      3    89%   64-69
 f8a_notification/entryscript.py           265     17    94%   90-91, 143-144, 197-198, 215-216, 256-2	f8a_notification/entryscript.py           265     17    94%   90-91, 143-144, 197-198, 215-216, 256-2
+												      >	f8a_notification/github_utils.py          162    162     0%   20-260
 f8a_notification/user_notification.py      15      1    93%   41					f8a_notification/user_notification.py      15      1    93%   41
 f8a_notification/utils.py                  83      7    92%   63-66, 83, 121-132			f8a_notification/utils.py                  83      7    92%   63-66, 83, 121-132
 ---------------------------------------------------------------------					---------------------------------------------------------------------
-TOTAL                                     392     28    93%						TOTAL                                     392     28    93%
+TOTAL                                     392     28    93%					      |	TOTAL                                     554    190    66%
