@@ -299,7 +299,11 @@ tests/test_process.py
     Pass
 tests/__init__.py
     Pass
+tests/data_normalizer/javascript.py
+    Pass
 tests/data_normalizer/abstract.py
+    Pass
+tests/data_normalizer/java.py
     Pass
 tests/data/schemas/generate.py
     Pass
@@ -342,4 +346,4 @@ setup.py
 
 setup.py
     Pass
-3 source files out of 161 files needs to be checked and fixed
+3 source files out of 163 files needs to be checked and fixed

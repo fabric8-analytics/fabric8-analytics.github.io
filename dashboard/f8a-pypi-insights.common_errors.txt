@@ -1,0 +1,13 @@
+----------------------------------------------------
+Checking source files for common errors in following
+directories:
+
+----------------------------------------------------
+
+Using base prefix '/usr'
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-pypi-insights/venv/bin/python3
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-pypi-insights/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-pypi-insights/venv/bin/python3)
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2.0.0)
+All checks passed for 0 source files

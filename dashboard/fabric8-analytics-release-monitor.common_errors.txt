@@ -13,7 +13,7 @@ release_monitor/ integration_tests/
 release_monitor/__init__.py
     Pass
 release_monitor/release_monitor.py
-release_monitor/release_monitor.py:143: undefined name 'sleep'
+release_monitor/release_monitor.py:146: undefined name 'sleep'
     Fail
 release_monitor/defaults.py
     Pass
