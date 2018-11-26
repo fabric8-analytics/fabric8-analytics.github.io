@@ -820,6 +820,46 @@ load-tests/locust-test.py
     <span style="color:#00AAAA">C </span>13:0 UserBehavior - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>16:4 UserBehavior.fetch - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AAAA">C </span>27:0 WebsiteUser - <span style="color:#00AA00">A (1)</span>
+job-checker/src/results.py
+    <span style="color:#00AAAA">C </span>7:0 Results - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>10:4 Results.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>47:4 Results.__repr__ - <span style="color:#00AA00">A (1)</span>
+job-checker/src/job_checker.py
+    <span style="color:#AA00AA">F </span>69:0 main - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#AA00AA">F </span>50:0 jobs_as_dict - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>28:0 read_jobs_statuses - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>34:0 store_jobs_statuses - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>40:0 jenkins_api_query_job_statuses - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>45:0 jenkins_api_query_build_statuses - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>55:0 read_ci_jobs_statuses - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>63:0 read_job_statuses - <span style="color:#00AA00">A (1)</span>
+job-checker/src/ci_jobs.py
+    <span style="color:#00AA00">M </span>26:4 CIJobs.get_job_url - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>40:4 CIJobs.get_job_name - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>52:4 CIJobs.get_job_badge - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>63:4 CIJobs.get_console_output_url - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>77:4 CIJobs.remove_prefix - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>6:0 CIJobs - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>13:4 CIJobs.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>18:4 CIJobs.get_ci_url - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>22:4 CIJobs.get_badge_prefix - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>72:4 CIJobs.construct_job_url - <span style="color:#00AA00">A (1)</span>
+job-checker/src/repositories.py
+    <span style="color:#00AAAA">C </span>6:0 Repositories - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>9:4 Repositories.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>13:4 Repositories.repolist - <span style="color:#00AA00">A (1)</span>
+job-checker/src/config.py
+    <span style="color:#00AA00">M </span>57:4 Config.get_code_coverage_threshold - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>12:4 Config.__init__ - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>24:4 Config.get_project_url - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>34:4 Config.get_sprint_plan_url - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>45:4 Config.get_list_of_issues_url - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>76:4 Config.get_repolist - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>7:0 Config - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>20:4 Config.get_sprint - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>68:4 Config.get_code_coverage_threshold_for_project - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>72:4 Config.get_overall_code_coverage_threshold - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>82:4 Config.get_repo_with_history_data - <span style="color:#00AA00">A (1)</span>
 db-integrity-tests/src/schema_validator.py
     <span style="color:#AA00AA">F </span>5:0 validate_schema - <span style="color:#00AA00">A (1)</span>
 db-integrity-tests/src/utils.py
@@ -1126,6 +1166,6 @@ perf-tests/src/gremlin_package_generator.py
     <span style="color:#00AA00">M </span>55:4 GremlinPackageGenerator.package_generator_for_ecosystem - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>65:4 GremlinPackageGenerator.package_version_generator_for_ecosystem - <span style="color:#00AA00">A (2)</span>
 
-1037 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (2.3114754098360657)</span>
+1072 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (2.297574626865672)</span>
 </pre>
