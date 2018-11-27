@@ -267,9 +267,6 @@ f8a_worker/storages/__init__.py
 f8a_worker/storages/s3_package_data.py
 0
     Pass
-f8a_worker/storages/s3_keywords_summary.py
-0
-    Pass
 f8a_worker/storages/s3_manifests.py
 0
     Pass
@@ -339,12 +336,6 @@ f8a_worker/workers/schemas/digests.py
 f8a_worker/workers/schemas/crypto_algorithms.py
 0
     Pass
-f8a_worker/workers/schemas/package_keywords_tagging.py
-0
-    Pass
-f8a_worker/workers/schemas/keywords_tagging.py
-0
-    Pass
 f8a_worker/workers/schemas/dependency_snapshot.py
 0
     Pass
@@ -397,12 +388,6 @@ f8a_worker/workers/graphaggregator.py
 0
     Pass
 f8a_worker/workers/graph_sync.py
-0
-    Pass
-f8a_worker/workers/keywords_summary.py
-0
-    Pass
-f8a_worker/workers/keywords_tagging.py
 0
     Pass
 f8a_worker/workers/init_analysis_flow.py
@@ -503,4 +488,4 @@ setup.py
 setup.py
 0
     Pass
-All checks passed for 162 source files
+All checks passed for 157 source files
