@@ -1,7 +1,7 @@
 ----------------------------------------------------
 Checking source files for common errors in following
 directories:
-
+src tests
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -10,4 +10,28 @@ Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2.0.0)
-All checks passed for 0 source files
+src/models/predict_model.py
+    Pass
+src/models/__init__.py
+    Pass
+src/data_store/__init__.py
+    Pass
+src/data_store/local_filesystem.py
+    Pass
+src/data_store/abstract_data_store.py
+    Pass
+src/data_store/s3_data_store.py
+    Pass
+src/recommendation_service.py
+    Pass
+src/__init__.py
+    Pass
+src/config/cloud_constants.py
+    Pass
+src/config/__init__.py
+    Pass
+src/config/path_constants.py
+    Pass
+tests/unit_tests/test_constants.py
+    Pass
+All checks passed for 12 source files
