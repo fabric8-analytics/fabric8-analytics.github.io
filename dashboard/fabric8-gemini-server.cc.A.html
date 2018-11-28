@@ -58,66 +58,73 @@ tests/test_utils.py
     <span style="color:#00AA00">M </span>23:4 MockResponse.__init__ - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>29:4 MockResponse.json - <span style="color:#00AA00">A (1)</span>
 tests/test_maven_parser.py
-    <span style="color:#AA00AA">F </span>16:0 test_maven_parser_output_file_transitive_dependencies - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>7:0 test_maven_parser_output_file - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>8:0 test_maven_parser_output_file - <span style="color:#00AA00">A (3)</span>
 tests/test_repo_dependency_creator.py
     <span style="color:#AA00AA">F </span>8:0 test_generate_report - <span style="color:#00AA00">A (3)</span>
+tests/test_node_parser.py
+    <span style="color:#AA00AA">F </span>8:0 test_node_parser - <span style="color:#00AA00">A (4)</span>
 tests/conftest.py
     <span style="color:#AA00AA">F </span>13:0 client - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>20:0 create_database - <span style="color:#00AA00">A (1)</span>
 src/repo_dependency_creator.py
-    <span style="color:#00AAAA">C </span>8:0 RepoDependencyCreator - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#00AA00">M </span>12:4 RepoDependencyCreator.create_repo_node_and_get_cve - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#00AA00">M </span>65:4 RepoDependencyCreator.generate_report - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#00AA00">M </span>12:4 RepoDependencyCreator.create_repo_node_and_get_cve - <span style="color:#AA5500">C (11)</span>
+    <span style="color:#00AAAA">C </span>8:0 RepoDependencyCreator - <span style="color:#00AA00">B (10)</span>
+    <span style="color:#00AA00">M </span>73:4 RepoDependencyCreator.generate_report - <span style="color:#00AA00">B (9)</span>
 src/utils.py
-    <span style="color:#AA00AA">F </span>282:0 fetch_public_key - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>213:4 DatabaseIngestion.get_info - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AAAA">C </span>165:0 DatabaseIngestion - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>185:4 DatabaseIngestion.store_record - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>72:0 retrieve_worker_result - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>119:0 validate_request_data - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>309:0 fix_gremlin_output - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>168:4 DatabaseIngestion.update_data - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>95:0 get_session - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>104:0 get_session_retry - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>59:0 query_worker_result - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>67:0 get_first_query_result - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>137:0 _to_object_dict - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>147:0 update_osio_registered_repos - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>154:0 add_entry_to_osio_registered_repos - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>159:0 get_one_result_from_osio_registered_repos - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>243:0 server_run_flow - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>260:0 scan_repo - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>270:0 alert_user - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>28:0 Postgres - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>31:4 Postgres.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>51:4 Postgres.session - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>284:0 fetch_public_key - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AA00">M </span>215:4 DatabaseIngestion.get_info - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AAAA">C </span>167:0 DatabaseIngestion - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>187:4 DatabaseIngestion.store_record - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>74:0 retrieve_worker_result - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>121:0 validate_request_data - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>311:0 fix_gremlin_output - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>170:4 DatabaseIngestion.update_data - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>97:0 get_session - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>106:0 get_session_retry - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>61:0 query_worker_result - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>69:0 get_first_query_result - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>139:0 _to_object_dict - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>149:0 update_osio_registered_repos - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>156:0 add_entry_to_osio_registered_repos - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>161:0 get_one_result_from_osio_registered_repos - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>245:0 server_run_flow - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>262:0 scan_repo - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>272:0 alert_user - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>338:0 get_parser_from_ecosystem - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AAAA">C </span>30:0 Postgres - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>33:4 Postgres.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>53:4 Postgres.session - <span style="color:#00AA00">A (1)</span>
 src/rest_api.py
     <span style="color:#AA00AA">F </span>42:0 register - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>160:0 user_repo_scan - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>160:0 user_repo_scan - <span style="color:#00AA00">B (7)</span>
     <span style="color:#AA00AA">F </span>120:0 report - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>239:0 user_repo_scan_experimental - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>285:0 notify_user - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>327:0 drop - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>238:0 user_repo_scan_experimental - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>284:0 notify_user - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>326:0 drop - <span style="color:#00AA00">A (4)</span>
     <span style="color:#AA00AA">F </span>30:0 readiness - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>36:0 liveness - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>370:0 handle_error - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>378:0 api_401_handler - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>369:0 handle_error - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>377:0 api_401_handler - <span style="color:#00AA00">A (1)</span>
 src/exceptions.py
     <span style="color:#00AAAA">C </span>4:0 HTTPError - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>16:4 HTTPError.__init__ - <span style="color:#00AA00">A (1)</span>
 src/parsers/maven_parser.py
-    <span style="color:#00AA00">M </span>28:4 MavenParser._parse_string - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AAAA">C </span>6:0 MavenParser - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>9:4 MavenParser.parse_output_file - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>49:4 MavenParser._parse_string - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AAAA">C </span>7:0 MavenParser - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>10:4 MavenParser.parse_output_files - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>30:4 MavenParser.parse_file_content - <span style="color:#00AA00">A (3)</span>
 src/parsers/parser_base.py
     <span style="color:#00AAAA">C </span>6:0 Parser - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>9:4 Parser.parse_output_file - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>9:4 Parser.parse_output_files - <span style="color:#00AA00">A (1)</span>
+src/parsers/node_parser.py
+    <span style="color:#00AA00">M </span>12:4 NodeParser.parse_output_files - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AAAA">C </span>9:0 NodeParser - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>33:4 NodeParser.get_transitive_dependencies - <span style="color:#00AA00">A (3)</span>
 src/notification/user_notification.py
     <span style="color:#00AAAA">C </span>15:0 UserNotification - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AA00">M </span>31:4 UserNotification.generate_notification - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AA00">M </span>18:4 UserNotification.send_notification - <span style="color:#00AA00">A (2)</span>
 
-104 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (2.730769230769231)</span>
+109 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (2.779816513761468)</span>
 </pre>
