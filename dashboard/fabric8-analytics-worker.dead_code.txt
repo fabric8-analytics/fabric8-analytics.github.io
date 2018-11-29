@@ -274,8 +274,6 @@ f8a_worker/workers/user_notifier.py
     Pass
 f8a_worker/workers/license.py
     Pass
-f8a_worker/workers/git_stats.py
-    Pass
 f8a_worker/workers/init_package_flow.py
     Pass
 f8a_worker/workers/result_collector.py
@@ -355,4 +353,4 @@ setup.py
 
 setup.py
     Pass
-14 source files out of 158 files seems to contain dead code and/or unused imports
+14 source files out of 157 files seems to contain dead code and/or unused imports

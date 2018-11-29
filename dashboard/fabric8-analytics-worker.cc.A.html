@@ -389,9 +389,9 @@ f8a_worker/data_normalizer/python.py
     <span style="color:#00AA00">M </span>113:4 PythonRequirementsTxtDataNormalizer.__init__ - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>117:4 PythonRequirementsTxtDataNormalizer.normalize - <span style="color:#00AA00">A (1)</span>
 f8a_worker/data_normalizer/__init__.py
-    <span style="color:#AA00AA">F </span>64:0 _main - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>26:0 normalize - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>53:0 _dict2json - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>67:0 _main - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>28:0 normalize - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>56:0 _dict2json - <span style="color:#00AA00">A (2)</span>
 f8a_worker/data_normalizer/csharp.py
     <span style="color:#00AA00">M </span>26:4 NugetDataNormalizer.normalize - <span style="color:#00AA00">B (9)</span>
     <span style="color:#00AA00">M </span>60:4 NugetDataNormalizer._transform_licenses - <span style="color:#00AA00">B (6)</span>
@@ -419,10 +419,13 @@ f8a_worker/data_normalizer/go.py
     <span style="color:#00AA00">M </span>23:4 GoGlideDataNormalizer.normalize - <span style="color:#00AA00">A (5)</span>
     <span style="color:#00AA00">M </span>49:4 GoGlideDataNormalizer._import2dependencies - <span style="color:#00AA00">A (4)</span>
     <span style="color:#00AAAA">C </span>7:0 GoGlideDataNormalizer - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>92:4 GoFedlibDataNormalizer.normalize - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>76:0 GoFedlibDataNormalizer - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>92:4 GodepsDataNormalizer.normalize - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>128:4 GoFedlibDataNormalizer.normalize - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AAAA">C </span>76:0 GodepsDataNormalizer - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>112:0 GoFedlibDataNormalizer - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>19:4 GoGlideDataNormalizer.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>88:4 GoFedlibDataNormalizer.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>88:4 GodepsDataNormalizer.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>124:4 GoFedlibDataNormalizer.__init__ - <span style="color:#00AA00">A (1)</span>
 f8a_worker/storages/s3_mavenindex.py
     <span style="color:#00AA00">M </span>22:4 S3MavenIndex.store_index - <span style="color:#00AA00">A (4)</span>
     <span style="color:#00AAAA">C </span>13:0 S3MavenIndex - <span style="color:#00AA00">A (3)</span>
@@ -602,13 +605,14 @@ f8a_worker/workers/repo_dependency_finder.py
     <span style="color:#00AA00">M </span>59:4 RepoDependencyFinderTask.create_repo_node_and_get_cve - <span style="color:#00AA00">A (5)</span>
     <span style="color:#00AA00">M </span>112:4 RepoDependencyFinderTask.get_cve - <span style="color:#00AA00">A (4)</span>
 f8a_worker/workers/mercator.py
-    <span style="color:#00AA00">M </span>157:4 MercatorTask._merge_python_items - <span style="color:#AA5500">D (29)</span>
+    <span style="color:#00AA00">M </span>171:4 MercatorTask._merge_python_items - <span style="color:#AA5500">D (29)</span>
     <span style="color:#00AA00">M </span>58:4 MercatorTask.run_mercator - <span style="color:#AA5500">C (19)</span>
-    <span style="color:#00AAAA">C </span>38:0 MercatorTask - <span style="color:#00AA00">B (10)</span>
-    <span style="color:#00AA00">M </span>141:4 MercatorTask._parse_requires_txt - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>249:4 MercatorTask.get_outermost_items - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AAAA">C </span>38:0 MercatorTask - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#00AA00">M </span>155:4 MercatorTask._parse_requires_txt - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>263:4 MercatorTask.get_outermost_items - <span style="color:#00AA00">A (4)</span>
     <span style="color:#00AA00">M </span>45:4 MercatorTask.execute - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>114:4 MercatorTask.run_gofedlib - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>121:4 MercatorTask.run_gofedlib - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>142:4 MercatorTask._add_extra_go_fields - <span style="color:#00AA00">A (1)</span>
 f8a_worker/workers/digester.py
     <span style="color:#00AAAA">C </span>27:0 DigesterTask - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>33:4 DigesterTask.compute_ssdeep - <span style="color:#00AA00">A (2)</span>
@@ -624,15 +628,6 @@ f8a_worker/workers/license.py
     <span style="color:#00AAAA">C </span>15:0 LicenseCheckTask - <span style="color:#00AA00">A (4)</span>
     <span style="color:#00AA00">M </span>50:4 LicenseCheckTask.run_scancode - <span style="color:#00AA00">A (4)</span>
     <span style="color:#00AA00">M </span>89:4 LicenseCheckTask.execute - <span style="color:#00AA00">A (3)</span>
-f8a_worker/workers/git_stats.py
-    <span style="color:#00AA00">M </span>133:4 GitStats.execute - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#00AA00">M </span>114:4 GitStats._compute_stats - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>39:4 GitStats._get_average_changes - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AAAA">C </span>14:0 GitStats - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>22:4 GitStats._get_log - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>63:4 GitStats._get_trend - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>84:4 GitStats._get_trend_str - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>98:4 GitStats._get_orgs - <span style="color:#00AA00">A (3)</span>
 f8a_worker/workers/init_package_flow.py
     <span style="color:#00AA00">M </span>100:4 InitPackageFlow.execute - <span style="color:#00AA00">B (6)</span>
     <span style="color:#00AA00">M </span>17:4 InitPackageFlow.get_upstream_url - <span style="color:#00AA00">A (5)</span>
@@ -721,7 +716,7 @@ f8a_worker/workers/schemas/dependency_snapshot.py
     <span style="color:#00AAAA">C </span>54:0 DependencySnapshotSummary - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AAAA">C </span>67:0 DependencySnapshotResult - <span style="color:#00AA00">A (1)</span>
 tests/test_data_normalizer.py
-    <span style="color:#AA00AA">F </span>91:0 test_transforming_gofedlib_data - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>98:0 test_transforming_gofedlib_data - <span style="color:#00AA00">A (5)</span>
     <span style="color:#AA00AA">F </span>22:0 _load_json - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>28:0 test_transforming_setup_py - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>35:0 test_transforming_pkginfo - <span style="color:#00AA00">A (2)</span>
@@ -732,6 +727,7 @@ tests/test_data_normalizer.py
     <span style="color:#AA00AA">F </span>70:0 test_transforming_gradle - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>77:0 test_transforming_nuspec - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>84:0 test_transforming_go_glide - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>91:0 test_transforming_godeps - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>10:0 compare_dictionaries - <span style="color:#00AA00">A (1)</span>
 tests/test_schemas.py
     <span style="color:#00AA00">M </span>74:4 TestSchemaLibrary.test_bundled_dynamic_schema_lookup - <span style="color:#00AA00">B (9)</span>
@@ -864,13 +860,14 @@ tests/workers/test_githuber.py
 tests/workers/test_mercator.py
     <span style="color:#00AA00">M </span>52:4 TestMercator.test_execute_maven - <span style="color:#AA5500">C (11)</span>
     <span style="color:#00AA00">M </span>92:4 TestMercator.test_execute_go_glide - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>113:4 TestMercator.test_get_outermost_items - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>108:4 TestMercator.test_execute_go_godeps - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>130:4 TestMercator.test_get_outermost_items - <span style="color:#00AA00">B (6)</span>
     <span style="color:#00AAAA">C </span>24:0 TestMercator - <span style="color:#00AA00">A (5)</span>
     <span style="color:#00AA00">M </span>33:4 TestMercator.test_execute_npm - <span style="color:#00AA00">A (5)</span>
     <span style="color:#00AA00">M </span>79:4 TestMercator.test_execute_go - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AA00">M </span>28:4 TestMercator.setup_method - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>12:0 compare_dictionaries - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>108:4 TestMercator.sort_by_path - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>125:4 TestMercator.sort_by_path - <span style="color:#00AA00">A (1)</span>
 hack/queue_conf.py
     <span style="color:#AA00AA">F </span>23:0 set_queue_attributes - <span style="color:#00AA00">A (4)</span>
     <span style="color:#AA00AA">F </span>67:0 print_help - <span style="color:#00AA00">A (1)</span>
@@ -1043,6 +1040,6 @@ alembic/versions/22a1cd66a9c6_batches_reviews.py
     <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>40:0 downgrade - <span style="color:#00AA00">A (1)</span>
 
-895 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (2.6804469273743017)</span>
+893 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (2.6606942889137737)</span>
 </pre>

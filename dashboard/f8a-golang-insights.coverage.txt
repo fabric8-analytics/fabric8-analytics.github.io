@@ -1,10 +1,15 @@
 Name                                                 Stmts   Miss  Cover   Missing
 ----------------------------------------------------------------------------------
 /insights_engine/__init__.py                             0      0   100%
+/insights_engine/config.py                              15      0   100%
 /insights_engine/data_store/__init__.py                  0      0   100%
-/insights_engine/data_store/abstract_data_store.py       9      9     0%   3-40
-/insights_engine/data_store/local_filesystem.py         30     30     0%   3-75
-/insights_engine/data_store/s3_data_store.py            52     52     0%   3-118
-/insights_engine/rest_api.py                            18      5    72%   17, 22, 27-28, 37
+/insights_engine/data_store/abstract_data_store.py       9      3    67%   30, 35, 40
+/insights_engine/data_store/local_filesystem.py         27     12    56%   41, 45, 49-54, 58-59, 63-64, 68
+/insights_engine/data_store/s3_data_store.py            46     26    43%   48-59, 63, 67, 71-78, 82-83, 87, 95-101, 105-106
+/insights_engine/rest_api.py                            30     13    57%   22, 27, 32-43, 52
+/insights_engine/scoring/__init__.py                     1      1     0%   3
+/insights_engine/training/__init__.py                    1      1     0%   3
+/insights_engine/training/data_preprocessing.py        132    132     0%   2-187
+/insights_engine/training/training.py                   47     47     0%   3-94
 ----------------------------------------------------------------------------------
-TOTAL                                                  109     96    12%
+TOTAL                                                  308    235    24%

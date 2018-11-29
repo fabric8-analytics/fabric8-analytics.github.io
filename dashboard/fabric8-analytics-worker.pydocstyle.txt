@@ -375,9 +375,6 @@ f8a_worker/workers/user_notifier.py
 f8a_worker/workers/license.py
 0
     Pass
-f8a_worker/workers/git_stats.py
-0
-    Pass
 f8a_worker/workers/init_package_flow.py
 0
     Pass
@@ -488,4 +485,4 @@ setup.py
 setup.py
 0
     Pass
-All checks passed for 157 source files
+All checks passed for 156 source files
