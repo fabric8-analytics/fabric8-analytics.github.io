@@ -1,7 +1,7 @@
 ----------------------------------------------------
 Checking source files for common errors in following
 directories:
-insights_engine/
+insights_engine/ test/
 ----------------------------------------------------
 
 Using base prefix '/usr'

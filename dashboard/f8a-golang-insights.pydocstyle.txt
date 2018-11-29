@@ -1,7 +1,7 @@
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
-insights_engine/
+insights_engine/ tests/
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -10,8 +10,8 @@ Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (3.0.0)
-Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.11.0)
 Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.2.1)
+Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.11.0)
 insights_engine/data_store/__init__.py
 0
     Pass
@@ -30,4 +30,7 @@ insights_engine/__init__.py
 insights_engine/rest_api.py
 0
     Pass
-All checks passed for 6 source files
+tests/unit_tests/test_rest_api.py
+0
+    Pass
+All checks passed for 7 source files

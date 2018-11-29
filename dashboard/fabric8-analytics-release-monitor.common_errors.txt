@@ -7,7 +7,7 @@ Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2
 ----------------------------------------------------
 Checking source files for common errors in following
 directories:
-release_monitor/ integration_tests/
+release_monitor/ integration_tests/ tests
 ----------------------------------------------------
 
 release_monitor/__init__.py
@@ -25,6 +25,12 @@ integration_tests/steps/steps.py:11: redefinition of unused 'step_impl' from lin
     Fail
 integration_tests/environment.py
     Pass
+tests/__init__.py
+    Pass
+tests/test_release_monitor.py
+tests/test_release_monitor.py:3: 'pytest' imported but unused
+tests/test_release_monitor.py:4: 'release_monitor.release_monitor' imported but unused
+    Fail
 ----------------------------------------------------
 Checking following source files for common errors:
 cli.py setup.py
@@ -34,4 +40,4 @@ cli.py
     Fail
 setup.py
     Pass
-3 source files out of 7 files needs to be checked and fixed
+4 source files out of 9 files needs to be checked and fixed

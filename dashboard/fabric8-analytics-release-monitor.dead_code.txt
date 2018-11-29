@@ -1,7 +1,7 @@
 ----------------------------------------------------
 Checking source files for dead code and unused imports
 in following directories:
-release_monitor/ integration_tests/
+release_monitor/ integration_tests/ tests
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -20,6 +20,12 @@ integration_tests/steps/steps.py
     Pass
 integration_tests/environment.py
     Pass
+tests/__init__.py
+    Pass
+tests/test_release_monitor.py
+tests/test_release_monitor.py:3: unused import 'pytest' (90% confidence)
+tests/test_release_monitor.py:4: unused import 'release_monitor' (90% confidence)
+    Fail
 ----------------------------------------------------
 Checking following source files for dead code and
 unused imports:
@@ -30,4 +36,4 @@ cli.py
     Fail
 setup.py
     Pass
-1 source files out of 7 files seems to contain dead code and/or unused imports
+2 source files out of 9 files seems to contain dead code and/or unused imports

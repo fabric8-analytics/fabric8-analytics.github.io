@@ -1,7 +1,7 @@
 ----------------------------------------------------
 Checking source files for dead code and unused imports
 in following directories:
-insights_engine/
+insights_engine/ tests/
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -28,4 +28,8 @@ insights_engine/__init__.py
 insights_engine/rest_api.py
 insights_engine/rest_api.py:14: unused variable 'stack' (100% confidence)
     Fail
-4 source files out of 6 files seems to contain dead code and/or unused imports
+tests/unit_tests/test_rest_api.py
+tests/unit_tests/test_rest_api.py:2: unused import 'unittest' (90% confidence)
+tests/unit_tests/test_rest_api.py:4: unused import 'insights_engine' (90% confidence)
+    Fail
+5 source files out of 7 files seems to contain dead code and/or unused imports

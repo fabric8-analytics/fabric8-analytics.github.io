@@ -1,7 +1,7 @@
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
-release_monitor integration_tests
+release_monitor integration_tests tests
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -27,6 +27,12 @@ integration_tests/steps/steps.py
 integration_tests/environment.py
 0
     Pass
+tests/__init__.py
+0
+    Pass
+tests/test_release_monitor.py
+0
+    Pass
 
 ----------------------------------------------------
 Checking documentation strings in the following files
@@ -35,4 +41,4 @@ setup.py
 setup.py
 0
     Pass
-All checks passed for 6 source files
+All checks passed for 8 source files
