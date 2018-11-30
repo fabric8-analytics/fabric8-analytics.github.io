@@ -1,7 +1,7 @@
 ----------------------------------------------------
 Checking source files for common errors in following
 directories:
-insights_engine/ test/
+insights_engine/ tests/
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -25,4 +25,8 @@ insights_engine/__init__.py
     Pass
 insights_engine/rest_api.py
     Pass
-2 source files out of 6 files needs to be checked and fixed
+tests/unit_tests/test_rest_api.py
+tests/unit_tests/test_rest_api.py:2: 'unittest' imported but unused
+tests/unit_tests/test_rest_api.py:4: 'insights_engine.rest_api' imported but unused
+    Fail
+3 source files out of 7 files needs to be checked and fixed

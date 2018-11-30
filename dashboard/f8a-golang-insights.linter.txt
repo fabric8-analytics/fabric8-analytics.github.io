@@ -1,6 +1,6 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-insights_engine/ test/
+insights_engine/ tests/
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -21,4 +21,6 @@ insights_engine/__init__.py
     Pass
 insights_engine/rest_api.py
     Pass
-All checks passed for 6 source files
+tests/unit_tests/test_rest_api.py
+    Pass
+All checks passed for 7 source files
