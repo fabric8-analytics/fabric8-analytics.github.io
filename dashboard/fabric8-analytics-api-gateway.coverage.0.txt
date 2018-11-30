@@ -1,8 +1,8 @@
 Name                  Stmts   Miss  Cover   Missing
 ---------------------------------------------------
 gateway/__init__.py       3      0   100%
-gateway/api_v1.py        39      5    87%   74-75, 81, 87, 91
-gateway/auth.py          83     64    23%   21-39, 44-69, 82-111, 118, 123-129, 137
+gateway/api_v1.py        39      5    87%   77-78, 84, 90, 94
+gateway/auth.py          83     64    23%   21-39, 44-70, 83-112, 119, 124-130, 138
 gateway/defaults.py      19      0   100%
 gateway/errors.py         5      0   100%
 ---------------------------------------------------

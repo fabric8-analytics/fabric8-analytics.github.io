@@ -11,7 +11,7 @@ Name                                                            Stmts   Miss  Co
 /f8a_jobs/f8a_jobs/handlers/aggregate_crowd_source_tags.py         79     53    33%   19-37, 42-46, 5	/f8a_jobs/f8a_jobs/handlers/aggregate_crowd_source_tags.py         79     53    33%   19-37, 42-46, 5
 /f8a_jobs/f8a_jobs/handlers/aggregate_github_manifest_pkgs.py      63     55    13%   19-80, 89-93, 1	/f8a_jobs/f8a_jobs/handlers/aggregate_github_manifest_pkgs.py      63     55    13%   19-80, 89-93, 1
 /f8a_jobs/f8a_jobs/handlers/aggregate_topics.py                    54     45    17%   17-26, 38-110	/f8a_jobs/f8a_jobs/handlers/aggregate_topics.py                    54     45    17%   17-26, 38-110
-/f8a_jobs/f8a_jobs/handlers/base.py                               123     78    37%   32-36, 46, 50-5 |	/f8a_jobs/f8a_jobs/handlers/base.py                               125     80    36%   32-36, 46, 50-5
+/f8a_jobs/f8a_jobs/handlers/base.py                               125     80    36%   32-36, 46, 50-5	/f8a_jobs/f8a_jobs/handlers/base.py                               125     80    36%   32-36, 46, 50-5
 /f8a_jobs/f8a_jobs/handlers/book_keeping.py                        68     51    25%   18-27, 36-37, 4	/f8a_jobs/f8a_jobs/handlers/book_keeping.py                        68     51    25%   18-27, 36-37, 4
 /f8a_jobs/f8a_jobs/handlers/clean_postgres.py                      94     83    12%   29-90, 94-154, 	/f8a_jobs/f8a_jobs/handlers/clean_postgres.py                      94     83    12%   29-90, 94-154, 
 /f8a_jobs/f8a_jobs/handlers/error.py                                6      2    67%   14-15		/f8a_jobs/f8a_jobs/handlers/error.py                                6      2    67%   14-15
@@ -32,4 +32,4 @@ Name                                                            Stmts   Miss  Co
 /f8a_jobs/f8a_jobs/scheduler.py                                   131    131     0%   3-283		/f8a_jobs/f8a_jobs/scheduler.py                                   131    131     0%   3-283
 /f8a_jobs/f8a_jobs/utils.py                                       122     80    34%   26-31, 36-42, 5	/f8a_jobs/f8a_jobs/utils.py                                       122     80    34%   26-31, 36-42, 5
 ---------------------------------------------------------------------------------------------		---------------------------------------------------------------------------------------------
-TOTAL                                                            1982   1587    20%		      |	TOTAL                                                            1984   1589    20%
+TOTAL                                                            1984   1589    20%			TOTAL                                                            1984   1589    20%
