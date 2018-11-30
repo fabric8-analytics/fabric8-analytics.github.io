@@ -21,6 +21,22 @@ insights_engine/__init__.py
     Pass
 insights_engine/rest_api.py
     Pass
+insights_engine/config.py
+    Pass
+insights_engine/scoring/__init__.py
+    Pass
+insights_engine/scoring/rules_predict.py
+    Pass
+insights_engine/training/__init__.py
+    Pass
+insights_engine/training/data_preprocessing.py
+    Pass
+insights_engine/training/training.py
+    Pass
 tests/unit_tests/test_rest_api.py
     Pass
-All checks passed for 7 source files
+tests/unit_tests/test_local_datastore.py
+    Pass
+tests/load_test/locustfile.py
+    Pass
+All checks passed for 15 source files

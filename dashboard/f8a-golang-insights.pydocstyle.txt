@@ -30,7 +30,31 @@ insights_engine/__init__.py
 insights_engine/rest_api.py
 0
     Pass
+insights_engine/config.py
+0
+    Pass
+insights_engine/scoring/__init__.py
+0
+    Pass
+insights_engine/scoring/rules_predict.py
+0
+    Pass
+insights_engine/training/__init__.py
+0
+    Pass
+insights_engine/training/data_preprocessing.py
+0
+    Pass
+insights_engine/training/training.py
+0
+    Pass
 tests/unit_tests/test_rest_api.py
 0
     Pass
-All checks passed for 7 source files
+tests/unit_tests/test_local_datastore.py
+0
+    Pass
+tests/load_test/locustfile.py
+0
+    Pass
+All checks passed for 15 source files

@@ -272,6 +272,8 @@ f8a_worker/workers/digester.py
     Pass
 f8a_worker/workers/user_notifier.py
     Pass
+f8a_worker/workers/git_operations.py
+    Pass
 f8a_worker/workers/license.py
     Pass
 f8a_worker/workers/init_package_flow.py
@@ -323,6 +325,10 @@ tests/storages/__init__.py
     Pass
 tests/storages/test_postgres.py
     Pass
+tests/workers/test_git_operations.py
+tests/workers/test_git_operations.py:3: unused import 'mock' (90% confidence)
+tests/workers/test_git_operations.py:3: unused import 'TestCase' (90% confidence)
+    Fail
 tests/workers/test_recurse.py
     Pass
 tests/workers/__init__.py
@@ -353,4 +359,4 @@ setup.py
 
 setup.py
     Pass
-14 source files out of 157 files seems to contain dead code and/or unused imports
+15 source files out of 159 files seems to contain dead code and/or unused imports
