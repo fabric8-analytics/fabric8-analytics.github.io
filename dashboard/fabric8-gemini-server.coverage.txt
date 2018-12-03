@@ -10,6 +10,6 @@ src/parsers/node_parser.py                 27      2    93%   16, 38
 src/parsers/parser_base.py                  1      0   100%
 src/repo_dependency_creator.py             52     17    67%   27-34, 41-48, 64-68, 94-99
 src/rest_api.py                           151     11    93%   191-194, 199-202, 224-225, 380
-src/utils.py                              162      5    97%   55, 101-102, 242, 306
+src/utils.py                              164      5    97%   55, 101-102, 242, 306
 ---------------------------------------------------------------------
-TOTAL                                     477     43    91%
+TOTAL                                     479     43    91%

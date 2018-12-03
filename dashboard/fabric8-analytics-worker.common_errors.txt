@@ -308,9 +308,7 @@ tests/storages/__init__.py
 tests/storages/test_postgres.py
     Pass
 tests/workers/test_git_operations.py
-tests/workers/test_git_operations.py:3: 'unittest.TestCase' imported but unused
-tests/workers/test_git_operations.py:3: 'unittest.mock' imported but unused
-    Fail
+    Pass
 tests/workers/test_recurse.py
     Pass
 tests/workers/__init__.py
@@ -340,4 +338,4 @@ setup.py
 
 setup.py
     Pass
-4 source files out of 159 files needs to be checked and fixed
+3 source files out of 159 files needs to be checked and fixed
