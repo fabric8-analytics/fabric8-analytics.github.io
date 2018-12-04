@@ -29,23 +29,23 @@ tests/test_stack_aggregator.py
     <span style="color:#AA00AA">F </span>148:0 test_get_dependency_data - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>162:0 test_aggregate_stack_data - <span style="color:#00AA00">A (2)</span>
 tests/test_recommender.py
-    <span style="color:#AA00AA">F </span>144:0 test_execute_empty_resolved - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>166:0 test_execute_both_resolved_type - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>110:0 test_execute - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>223:0 test_get_topics - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>237:0 test_get_topmost_alternate - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>187:0 test_filter_versions - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>201:0 test_prepare_final_filtered_list - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>248:0 test_perform_license_analysis - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>127:0 test_execute_with_insights - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>266:0 test_apply_license_filter - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>277:0 test_set_valid_cooccurrence_probability - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>90:0 mocked_response_license - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>216:0 test_get_version_information - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>149:0 test_execute_empty_resolved - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>171:0 test_execute_both_resolved_type - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>115:0 test_execute - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>228:0 test_get_topics - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>242:0 test_get_topmost_alternate - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>192:0 test_filter_versions - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>206:0 test_prepare_final_filtered_list - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>253:0 test_perform_license_analysis - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>132:0 test_execute_with_insights - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>271:0 test_apply_license_filter - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>282:0 test_set_valid_cooccurrence_probability - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>95:0 mocked_response_license - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>221:0 test_get_version_information - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AAAA">C </span>47:0 TestRecommendationTask - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>50:4 TestRecommendationTask.test_call_insights_recommender_npm - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>28:0 mocked_requests_get - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>73:0 mocked_response_graph - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>78:0 mocked_response_graph - <span style="color:#00AA00">A (1)</span>
 tests/conftest.py
     <span style="color:#AA00AA">F </span>8:0 client - <span style="color:#00AA00">A (2)</span>
 src/utils.py
@@ -83,11 +83,11 @@ src/stack_aggregator.py
     <span style="color:#AA00AA">F </span>280:0 extract_user_stack_package_licenses - <span style="color:#00AA00">A (4)</span>
     <span style="color:#AA00AA">F </span>204:0 _extract_license_outliers - <span style="color:#00AA00">A (3)</span>
 src/recommender.py
-    <span style="color:#00AA00">M </span>483:4 RecommendationTask.execute - <span style="color:#AA5500">C (13)</span>
+    <span style="color:#00AA00">M </span>486:4 RecommendationTask.execute - <span style="color:#AA5500">C (13)</span>
     <span style="color:#00AA00">M </span>179:4 GraphDB.filter_versions - <span style="color:#AA5500">C (12)</span>
     <span style="color:#00AA00">M </span>312:4 License.apply_license_filter - <span style="color:#00AA00">B (9)</span>
+    <span style="color:#00AA00">M </span>426:4 RecommendationTask.get_insights_url - <span style="color:#00AA00">B (9)</span>
     <span style="color:#00AAAA">C </span>415:0 RecommendationTask - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#00AA00">M </span>425:4 RecommendationTask.get_insights_url - <span style="color:#00AA00">B (8)</span>
     <span style="color:#00AA00">M </span>255:4 GraphDB.get_topics_for_alt - <span style="color:#00AA00">B (6)</span>
     <span style="color:#00AAAA">C </span>91:0 GraphDB - <span style="color:#00AA00">A (5)</span>
     <span style="color:#00AA00">M </span>120:4 GraphDB.get_topmost_alternate - <span style="color:#00AA00">A (5)</span>
@@ -99,8 +99,8 @@ src/recommender.py
     <span style="color:#00AA00">M </span>144:4 GraphDB.add_version_to_filtered_list - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AA00">M </span>288:4 License.invoke_license_analysis_service - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AA00">M </span>368:4 License.perform_license_analysis - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>457:4 RecommendationTask.call_insights_recommender - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>460:4 RecommendationTask.call_insights_recommender - <span style="color:#00AA00">A (3)</span>
 
 93 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (4.043010752688172)</span>
+Average complexity: <span style="color:#00AA00">A (4.053763440860215)</span>
 </pre>

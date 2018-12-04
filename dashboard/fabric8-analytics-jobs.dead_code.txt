@@ -80,6 +80,8 @@ tests/__init__.py
     Pass
 tests/test_utils.py
     Pass
+tests/test_scheduler.py
+    Pass
 tests/handlers/test_crowd_source_tag.py
     Pass
 tests/handlers/__init__.py
@@ -98,4 +100,4 @@ f8a-jobs.py
     Pass
 setup.py
     Pass
-All checks passed for 41 source files
+All checks passed for 42 source files
