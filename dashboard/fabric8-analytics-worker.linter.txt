@@ -259,8 +259,6 @@ f8a_worker/workers/result_collector.py
     Pass
 f8a_worker/workers/graphaggregator.py
     Pass
-f8a_worker/workers/graph_sync.py
-    Pass
 f8a_worker/workers/init_analysis_flow.py
     Pass
 f8a_worker/workers/repository_description.py
@@ -332,4 +330,4 @@ setup.py
 ----------------------------------------------------
 setup.py
     Pass
-All checks passed for 159 source files
+All checks passed for 158 source files
