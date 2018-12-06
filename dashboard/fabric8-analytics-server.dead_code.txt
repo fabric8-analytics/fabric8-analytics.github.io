@@ -10,16 +10,6 @@ Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages (0.28)
-bayesian/schemas/stack_analyses.py
-    Pass
-bayesian/schemas/__init__.py
-    Pass
-bayesian/schemas/component_analyses.py
-    Pass
-bayesian/schemas/analyses_graphdb.py
-    Pass
-bayesian/schemas/version_range_resolver.py
-    Pass
 bayesian/auth.py
     Pass
 bayesian/dependency_finder.py
@@ -29,8 +19,7 @@ bayesian/default_config.py
 bayesian/__init__.py
     Pass
 bayesian/utils.py
-bayesian/utils.py:482: unused variable 'projection' (100% confidence)
-    Fail
+    Pass
 bayesian/manifest_models.py
     Pass
 bayesian/generate_manifest.py
@@ -44,8 +33,6 @@ bayesian/license_extractor.py
 hack/check_api_schemas.py
     Pass
 hack/auth_test_fixtures/generate_auth_token.py
-    Pass
-tests/test_schemas.py
     Pass
 tests/test_manifest_models.py
     Pass
@@ -139,4 +126,4 @@ setup.py
 
 setup.py
     Pass
-1 source files out of 61 files seems to contain dead code and/or unused imports
+All checks passed for 55 source files

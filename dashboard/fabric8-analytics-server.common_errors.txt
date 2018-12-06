@@ -10,16 +10,6 @@ directories:
 bayesian hack tests alembic
 ----------------------------------------------------
 
-bayesian/schemas/stack_analyses.py
-    Pass
-bayesian/schemas/__init__.py
-    Pass
-bayesian/schemas/component_analyses.py
-    Pass
-bayesian/schemas/analyses_graphdb.py
-    Pass
-bayesian/schemas/version_range_resolver.py
-    Pass
 bayesian/auth.py
     Pass
 bayesian/dependency_finder.py
@@ -43,8 +33,6 @@ bayesian/license_extractor.py
 hack/check_api_schemas.py
     Pass
 hack/auth_test_fixtures/generate_auth_token.py
-    Pass
-tests/test_schemas.py
     Pass
 tests/test_manifest_models.py
     Pass
@@ -137,4 +125,4 @@ setup.py
 
 setup.py
     Pass
-All checks passed for 61 source files
+All checks passed for 55 source files
