@@ -6,7 +6,7 @@ Name                                                       Stmts   Miss  Cover  
 /root/payload/src/exceptions.py                                5      0   100%				/root/payload/src/exceptions.py                                5      0   100%
 /root/payload/src/license_analysis.py                        274      0   100%				/root/payload/src/license_analysis.py                        274      0   100%
 /root/payload/src/rest_api.py                                 30      2    93%   60, 64			/root/payload/src/rest_api.py                                 30      2    93%   60, 64
-/root/payload/src/stack_license.py                           305     51    83%   34-39, 207-211, 237-	/root/payload/src/stack_license.py                           305     51    83%   34-39, 207-211, 237-
+/root/payload/src/stack_license.py                           305     51    83%   34-39, 207-211, 237- |	/root/payload/src/stack_license.py                           309     51    83%   34-39, 215-219, 246-
 /root/payload/src/util/__init__.py                             0      0   100%				/root/payload/src/util/__init__.py                             0      0   100%
 /root/payload/src/util/data_store/__init__.py                  0      0   100%				/root/payload/src/util/data_store/__init__.py                  0      0   100%
 /root/payload/src/util/data_store/abstract_data_store.py      10      0   100%				/root/payload/src/util/data_store/abstract_data_store.py      10      0   100%
@@ -14,4 +14,4 @@ Name                                                       Stmts   Miss  Cover  
 /root/payload/src/util/data_store/s3_data_store.py            61      0   100%				/root/payload/src/util/data_store/s3_data_store.py            61      0   100%
 /root/payload/src/utils.py                                     3      0   100%				/root/payload/src/utils.py                                     3      0   100%
 ----------------------------------------------------------------------------------------		----------------------------------------------------------------------------------------
-TOTAL                                                        830     53    94%				TOTAL                                                        830     53    94%
+TOTAL                                                        830     53    94%			      |	TOTAL                                                        834     53    94%

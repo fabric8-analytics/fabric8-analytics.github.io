@@ -29,7 +29,7 @@ Name                                                            Stmts   Miss  Co
 /f8a_jobs/f8a_jobs/handlers/selective_flow.py                       8      5    38%   19-25		/f8a_jobs/f8a_jobs/handlers/selective_flow.py                       8      5    38%   19-25
 /f8a_jobs/f8a_jobs/handlers/sync_to_graph.py                       29     22    24%   17-51		/f8a_jobs/f8a_jobs/handlers/sync_to_graph.py                       29     22    24%   17-51
 /f8a_jobs/f8a_jobs/models.py                                       87     60    31%   21-22, 27-28, 4	/f8a_jobs/f8a_jobs/models.py                                       87     60    31%   21-22, 27-28, 4
-/f8a_jobs/f8a_jobs/scheduler.py                                   131    131     0%   3-283		/f8a_jobs/f8a_jobs/scheduler.py                                   131    131     0%   3-283
-/f8a_jobs/f8a_jobs/utils.py                                       122     80    34%   26-31, 36-42, 5	/f8a_jobs/f8a_jobs/utils.py                                       122     80    34%   26-31, 36-42, 5
+/f8a_jobs/f8a_jobs/scheduler.py                                   131    131     0%   3-283	      |	/f8a_jobs/f8a_jobs/scheduler.py                                   131     97    26%   57, 65-71, 81-8
+/f8a_jobs/f8a_jobs/utils.py                                       122     80    34%   26-31, 36-42, 5 |	/f8a_jobs/f8a_jobs/utils.py                                       122     78    36%   26-31, 36-42, 5
 ---------------------------------------------------------------------------------------------		---------------------------------------------------------------------------------------------
-TOTAL                                                            1984   1589    20%			TOTAL                                                            1984   1589    20%
+TOTAL                                                            1984   1589    20%		      |	TOTAL                                                            1984   1553    22%
