@@ -274,9 +274,7 @@ f8a_worker/workers/dependency_snapshot.py
 f8a_worker/errors.py
     Pass
 f8a_worker/celery_settings.py
-f8a_worker/celery_settings.py:118: dictionary key 'selinon' repeated with different values
-f8a_worker/celery_settings.py:123: dictionary key 'selinon' repeated with different values
-    Fail
+    Pass
 f8a_worker/defaults.py
     Pass
 tests/test_data_normalizer.py
@@ -336,4 +334,4 @@ setup.py
 
 setup.py
     Pass
-3 source files out of 158 files needs to be checked and fixed
+2 source files out of 158 files needs to be checked and fixed

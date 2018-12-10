@@ -1,6 +1,6 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-integration-tests ui-tests perf-tests dashboard reproducers load-tests db-integrity-tests taas job-checker
+integration-tests ui-tests perf-tests dashboard reproducers load-tests db-integrity-tests taas job-checker baf
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -241,4 +241,6 @@ job-checker/src/cliargs.py
     Pass
 job-checker/src/config.py
     Pass
-All checks passed for 116 source files
+baf/src/baf.py
+    Pass
+All checks passed for 117 source files

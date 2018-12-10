@@ -17,14 +17,11 @@ src/server/recommender_service.py
 src/server/__init__.py
     Pass
 src/server/ghazab_app.py
-src/server/ghazab_app.py:16: redefinition of unused 'app' from line 13
-src/server/ghazab_app.py:22: undefined name 'reload'
-    Fail
+    Pass
 src/models/similarity_with_frequent_patterns/__init__.py
     Pass
 src/models/similarity_with_frequent_patterns/scoring/__init__.py
-src/models/similarity_with_frequent_patterns/scoring/__init__.py:6: redefinition of unused 'app' from line 4
-    Fail
+    Pass
 src/models/similarity_with_frequent_patterns/scoring/entities/__init__.py
     Pass
 src/models/similarity_with_frequent_patterns/scoring/entities/entities.py
@@ -45,4 +42,4 @@ src/deployment/spark_aws/job_scheduler.py
     Pass
 src/deployment/spark_aws/submit_training_job.py
     Pass
-2 source files out of 16 files needs to be checked and fixed
+All checks passed for 16 source files

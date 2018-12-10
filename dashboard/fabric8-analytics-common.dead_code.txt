@@ -1,7 +1,7 @@
 ----------------------------------------------------
 Checking source files for dead code and unused imports
 in following directories:
-integration-tests ui-tests perf-tests dashboard reproducers load-tests db-integrity-tests taas
+integration-tests ui-tests perf-tests dashboard reproducers load-tests db-integrity-tests taas baf
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -230,4 +230,6 @@ db-integrity-tests/src/checker.py
     Pass
 taas/taas.py
     Pass
-All checks passed for 110 source files
+baf/src/baf.py
+    Pass
+All checks passed for 111 source files
