@@ -1,5 +1,5 @@
 <pre>baf/src/baf.py
-    <span style="color:#AA00AA">F </span>4:0 main - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>7:0 main - <span style="color:#00AA00">A (3)</span>
 dashboard/src/results.py
     <span style="color:#00AAAA">C </span>7:0 Results - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>10:4 Results.__init__ - <span style="color:#00AA00">A (1)</span>
@@ -862,6 +862,36 @@ job-checker/src/config.py
     <span style="color:#00AA00">M </span>68:4 Config.get_code_coverage_threshold_for_project - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>72:4 Config.get_overall_code_coverage_threshold - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>82:4 Config.get_repo_with_history_data - <span style="color:#00AA00">A (1)</span>
+e2e_tests_bot/src/ci_jobs.py
+    <span style="color:#AA00AA">F </span>27:0 read_build_history - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>58:0 read_build_cause - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>14:0 remove_prefix - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>73:0 read_changes - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>9:0 construct_job_url - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>22:0 jenkins_api_query_build_statuses - <span style="color:#00AA00">A (1)</span>
+e2e_tests_bot/src/config.py
+    <span style="color:#00AA00">M </span>12:4 Config.__init__ - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>7:0 Config - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>20:4 Config.get_jenkins_url - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>24:4 Config.get_master_build_job - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>28:4 Config.get_mm_url - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>32:4 Config.get_mm_team - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>36:4 Config.get_mm_channel - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>40:4 Config.get_mm_user_login - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>44:4 Config.get_mm_user_password - <span style="color:#00AA00">A (1)</span>
+e2e_tests_bot/src/e2e_tests_checker.py
+    <span style="color:#AA00AA">F </span>41:0 process_new_build - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>65:0 main - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>10:0 read_last_processed - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>16:0 write_last_processed - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>22:0 construct_message - <span style="color:#00AA00">A (2)</span>
+e2e_tests_bot/src/mm_client.py
+    <span style="color:#AA00AA">F </span>24:0 get_team_id - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>6:0 login - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>18:0 construct_headers - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>38:0 get_channel_id - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>47:0 send_message - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>62:0 login_and_send_message - <span style="color:#00AA00">A (1)</span>
 db-integrity-tests/src/schema_validator.py
     <span style="color:#AA00AA">F </span>5:0 validate_schema - <span style="color:#00AA00">A (1)</span>
 db-integrity-tests/src/utils.py
@@ -1168,6 +1198,6 @@ perf-tests/src/gremlin_package_generator.py
     <span style="color:#00AA00">M </span>55:4 GremlinPackageGenerator.package_generator_for_ecosystem - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>65:4 GremlinPackageGenerator.package_version_generator_for_ecosystem - <span style="color:#00AA00">A (2)</span>
 
-1073 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (2.2963653308480896)</span>
+1099 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (2.2911737943585075)</span>
 </pre>

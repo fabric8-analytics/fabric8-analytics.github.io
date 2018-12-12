@@ -1,6 +1,6 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-integration-tests ui-tests perf-tests dashboard reproducers load-tests db-integrity-tests taas job-checker baf
+integration-tests ui-tests perf-tests dashboard reproducers load-tests db-integrity-tests taas job-checker baf e2e_tests_bot
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -241,6 +241,24 @@ job-checker/src/cliargs.py
     Pass
 job-checker/src/config.py
     Pass
+baf/src/random_payload_generator.py
+    Pass
+baf/src/cliargs.py
+    Pass
+baf/src/fuzzer.py
+    Pass
 baf/src/baf.py
     Pass
-All checks passed for 117 source files
+baf/src/report_generator.py
+    Pass
+baf/src/payload_mutator.py
+    Pass
+e2e_tests_bot/src/ci_jobs.py
+    Pass
+e2e_tests_bot/src/config.py
+    Pass
+e2e_tests_bot/src/e2e_tests_checker.py
+    Pass
+e2e_tests_bot/src/mm_client.py
+    Pass
+All checks passed for 126 source files
