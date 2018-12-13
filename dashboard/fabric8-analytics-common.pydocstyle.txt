@@ -360,7 +360,16 @@ job-checker/src/cliargs.py
 job-checker/src/config.py
 0
     Pass
+baf/src/auth.py
+0
+    Pass
+baf/src/csv_reader.py
+0
+    Pass
 baf/src/random_payload_generator.py
+0
+    Pass
+baf/src/setup.py
 0
     Pass
 baf/src/cliargs.py
@@ -373,6 +382,9 @@ baf/src/baf.py
 0
     Pass
 baf/src/report_generator.py
+0
+    Pass
+baf/src/rest_api_calls.py
 0
     Pass
 baf/src/payload_mutator.py
@@ -390,4 +402,4 @@ e2e_tests_bot/src/e2e_tests_checker.py
 e2e_tests_bot/src/mm_client.py
 0
     Pass
-All checks passed for 126 source files
+All checks passed for 130 source files

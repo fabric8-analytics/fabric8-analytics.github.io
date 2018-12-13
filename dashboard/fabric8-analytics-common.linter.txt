@@ -241,7 +241,13 @@ job-checker/src/cliargs.py
     Pass
 job-checker/src/config.py
     Pass
+baf/src/auth.py
+    Pass
+baf/src/csv_reader.py
+    Pass
 baf/src/random_payload_generator.py
+    Pass
+baf/src/setup.py
     Pass
 baf/src/cliargs.py
     Pass
@@ -250,6 +256,8 @@ baf/src/fuzzer.py
 baf/src/baf.py
     Pass
 baf/src/report_generator.py
+    Pass
+baf/src/rest_api_calls.py
     Pass
 baf/src/payload_mutator.py
     Pass
@@ -261,4 +269,4 @@ e2e_tests_bot/src/e2e_tests_checker.py
     Pass
 e2e_tests_bot/src/mm_client.py
     Pass
-All checks passed for 126 source files
+All checks passed for 130 source files

@@ -46,6 +46,7 @@ tests/test_generate_manifest.py
 tests/test_depencency_finder.py
     <span style="color:#AA00AA">F </span>7:0 test_scan_and_find_dependencies - <span style="color:#00AA00">A (4)</span>
     <span style="color:#AA00AA">F </span>20:0 test_scan_and_find_dependencies_pypi - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>33:0 test_scan_and_find_dependencies_golang - <span style="color:#00AA00">A (3)</span>
 tests/test_utils.py
     <span style="color:#AA00AA">F </span>205:0 test_version_info_tuple - <span style="color:#AA5500">C (11)</span>
     <span style="color:#AA00AA">F </span>184:0 test_semantic_versioning - <span style="color:#00AA00">B (9)</span>
@@ -94,13 +95,13 @@ bayesian/auth.py
     <span style="color:#AA00AA">F </span>8:0 get_access_token - <span style="color:#00AA00">A (3)</span>
 bayesian/dependency_finder.py
     <span style="color:#00AA00">M </span>101:4 DependencyFinder.execute - <span style="color:#AA5500">C (19)</span>
+    <span style="color:#00AA00">M </span>206:4 DependencyFinder.validate_manifest - <span style="color:#00AA00">B (9)</span>
     <span style="color:#00AA00">M </span>34:4 DependencyFinder.get_npm_dependencies - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#00AA00">M </span>206:4 DependencyFinder.validate_manifest - <span style="color:#00AA00">B (8)</span>
     <span style="color:#00AAAA">C </span>21:0 DependencyFinder - <span style="color:#00AA00">B (7)</span>
     <span style="color:#00AA00">M </span>71:4 DependencyFinder.get_npm_transitives - <span style="color:#00AA00">B (7)</span>
     <span style="color:#00AA00">M </span>88:4 DependencyFinder._handle_external_deps - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>24:4 DependencyFinder.scan_and_find_dependencies - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>185:4 DependencyFinder.get_pypi_dependencies - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>24:4 DependencyFinder.scan_and_find_dependencies - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>185:4 DependencyFinder.get_dependencies_from_ecosystem_list - <span style="color:#00AA00">A (2)</span>
 bayesian/__init__.py
     <span style="color:#AA00AA">F </span>17:0 setup_logging - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>32:0 create_app - <span style="color:#00AA00">A (1)</span>
@@ -139,8 +140,8 @@ bayesian/utils.py
     <span style="color:#AA00AA">F </span>615:0 retrieve_worker_result - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>639:0 get_item_from_list_by_key_value - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>899:0 convert_version_to_proper_semantic - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>1195:0 resolved_files_exist - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>1203:0 get_ecosystem_from_manifest - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>1196:0 resolved_files_exist - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>1204:0 get_ecosystem_from_manifest - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AAAA">C </span>174:0 GremlinComponentAnalysisResponse - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AA00">M </span>741:4 RecommendationReason._alternate_reason - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>80:0 get_user_email - <span style="color:#00AA00">A (2)</span>
@@ -191,24 +192,24 @@ bayesian/generate_manifest.py
     <span style="color:#00AA00">M </span>13:4 PomXMLTemplate.__init__ - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>73:4 PomXMLTemplate.xml_string - <span style="color:#00AA00">A (1)</span>
 bayesian/api_v1.py
-    <span style="color:#00AA00">M </span>636:4 StackAnalyses.post - <span style="color:#AA5500">D (23)</span>
+    <span style="color:#00AA00">M </span>636:4 StackAnalyses.post - <span style="color:#AA5500">D (24)</span>
     <span style="color:#00AAAA">C </span>283:0 StackAnalysesGET - <span style="color:#AA5500">C (18)</span>
     <span style="color:#00AA00">M </span>288:4 StackAnalysesGET.get - <span style="color:#AA5500">C (18)</span>
-    <span style="color:#00AAAA">C </span>850:0 DepEditorAnalyses - <span style="color:#AA5500">C (17)</span>
-    <span style="color:#00AA00">M </span>855:4 DepEditorAnalyses.post - <span style="color:#AA5500">C (17)</span>
-    <span style="color:#00AAAA">C </span>631:0 StackAnalyses - <span style="color:#AA5500">C (12)</span>
-    <span style="color:#00AAAA">C </span>986:0 CategoryService - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#00AA00">M </span>991:4 CategoryService.get - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#00AAAA">C </span>853:0 DepEditorAnalyses - <span style="color:#AA5500">C (17)</span>
+    <span style="color:#00AA00">M </span>858:4 DepEditorAnalyses.post - <span style="color:#AA5500">C (17)</span>
+    <span style="color:#00AAAA">C </span>631:0 StackAnalyses - <span style="color:#AA5500">C (13)</span>
+    <span style="color:#00AAAA">C </span>989:0 CategoryService - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#00AA00">M </span>994:4 CategoryService.get - <span style="color:#00AA00">B (8)</span>
     <span style="color:#00AAAA">C </span>438:0 UserIntent - <span style="color:#00AA00">B (7)</span>
     <span style="color:#00AA00">M </span>443:4 UserIntent.post - <span style="color:#00AA00">B (7)</span>
     <span style="color:#00AAAA">C </span>566:0 SetTagsToComponent - <span style="color:#00AA00">B (7)</span>
     <span style="color:#00AA00">M </span>571:4 SetTagsToComponent.post - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AAAA">C </span>1059:0 EmptyBooster - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>1064:4 EmptyBooster.post - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AAAA">C </span>964:0 DepEditorCVEAnalyses - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>969:4 DepEditorCVEAnalyses.post - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AAAA">C </span>1029:0 CoreDependencies - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>1034:4 CoreDependencies.get - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AAAA">C </span>1062:0 EmptyBooster - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>1067:4 EmptyBooster.post - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AAAA">C </span>967:0 DepEditorCVEAnalyses - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AA00">M </span>972:4 DepEditorCVEAnalyses.post - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AAAA">C </span>1032:0 CoreDependencies - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AA00">M </span>1037:4 CoreDependencies.get - <span style="color:#00AA00">A (5)</span>
     <span style="color:#AA00AA">F </span>77:0 error - <span style="color:#00AA00">A (4)</span>
     <span style="color:#00AAAA">C </span>233:0 ComponentAnalyses - <span style="color:#00AA00">A (4)</span>
     <span style="color:#00AA00">M </span>238:4 ComponentAnalyses.get - <span style="color:#00AA00">A (4)</span>
@@ -216,10 +217,10 @@ bayesian/api_v1.py
     <span style="color:#00AA00">M </span>414:4 UserFeedback.post - <span style="color:#00AA00">A (4)</span>
     <span style="color:#00AAAA">C </span>480:0 UserIntentGET - <span style="color:#00AA00">A (4)</span>
     <span style="color:#00AA00">M </span>485:4 UserIntentGET.get - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AAAA">C </span>804:0 SubmitFeedback - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>809:4 SubmitFeedback.post - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AAAA">C </span>1153:0 CveByDateEcosystem - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>1158:4 CveByDateEcosystem.get - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AAAA">C </span>807:0 SubmitFeedback - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>812:4 SubmitFeedback.post - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AAAA">C </span>1156:0 CveByDateEcosystem - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>1161:4 CveByDateEcosystem.get - <span style="color:#00AA00">A (4)</span>
     <span style="color:#AA00AA">F </span>181:0 add_resource_no_matter_slashes - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>380:0 stack_analyses_debug - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AA00">M </span>270:4 ComponentAnalyses.post - <span style="color:#00AA00">A (3)</span>
@@ -231,8 +232,8 @@ bayesian/api_v1.py
     <span style="color:#00AAAA">C </span>217:0 ComponentSearch - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>222:4 ComponentSearch.get - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AAAA">C </span>509:0 MasterTagsGET - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AAAA">C </span>1140:0 RecommendationFB - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>1143:4 RecommendationFB.get - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>1143:0 RecommendationFB - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>1146:4 RecommendationFB.get - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>96:0 readiness - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>102:0 liveness - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>112:0 get_item_skip - <span style="color:#00AA00">A (1)</span>
@@ -240,15 +241,15 @@ bayesian/api_v1.py
     <span style="color:#AA00AA">F </span>122:0 get_item_absolute_limit - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>127:0 get_items_for_page - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>134:0 paginated - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>1200:0 handle_http_error - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>1206:0 api_401_handler - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>1215:0 api_404_handler - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>1203:0 handle_http_error - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>1209:0 api_401_handler - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>1218:0 api_404_handler - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AAAA">C </span>200:0 ApiEndpoints - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>203:4 ApiEndpoints.get - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AAAA">C </span>208:0 SystemVersion - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>211:4 SystemVersion.get - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>537:4 MasterTagsGET.__repr__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>798:4 StackAnalyses.get - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>801:4 StackAnalyses.get - <span style="color:#00AA00">A (1)</span>
 bayesian/exceptions.py
     <span style="color:#00AAAA">C </span>8:0 HTTPError - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>20:4 HTTPError.__init__ - <span style="color:#00AA00">A (1)</span>
@@ -256,6 +257,6 @@ bayesian/license_extractor.py
     <span style="color:#AA00AA">F </span>29:0 extract_licenses - <span style="color:#AA5500">C (13)</span>
     <span style="color:#AA00AA">F </span>15:0 get_license_synonyms - <span style="color:#00AA00">A (2)</span>
 
-240 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (3.6958333333333333)</span>
+241 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (3.7095435684647304)</span>
 </pre>
