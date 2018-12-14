@@ -2,14 +2,14 @@ Name                                     Stmts   Miss  Cover   Missing					Name 
 ----------------------------------------------------------------------					----------------------------------------------------------------------
 /src/__init__.py                             0      0   100%						/src/__init__.py                             0      0   100%
 /src/config/__init__.py                      0      0   100%						/src/config/__init__.py                      0      0   100%
-/src/config/cloud_constants.py               8      0   100%					      |	/src/config/cloud_constants.py              10      0   100%
+/src/config/cloud_constants.py              10      0   100%						/src/config/cloud_constants.py              10      0   100%
 /src/config/path_constants.py                6      0   100%						/src/config/path_constants.py                6      0   100%
 /src/data_store/__init__.py                  0      0   100%						/src/data_store/__init__.py                  0      0   100%
 /src/data_store/abstract_data_store.py       7      7     0%   3-35					/src/data_store/abstract_data_store.py       7      7     0%   3-35
 /src/data_store/local_filesystem.py         23     23     0%   3-61					/src/data_store/local_filesystem.py         23     23     0%   3-61
 /src/data_store/s3_data_store.py            40     40     0%   3-98					/src/data_store/s3_data_store.py            40     40     0%   3-98
 /src/models/__init__.py                      0      0   100%						/src/models/__init__.py                      0      0   100%
-/src/models/predict_model.py                78     78     0%   3-176				      |	/src/models/predict_model.py                92     92     0%   3-210
-/src/recommendation_service.py              30     30     0%   3-81				      |	/src/recommendation_service.py              34     34     0%   3-85
+/src/models/predict_model.py                92     92     0%   3-210					/src/models/predict_model.py                92     92     0%   3-210
+/src/recommendation_service.py              34     34     0%   3-85					/src/recommendation_service.py              34     34     0%   3-85
 ----------------------------------------------------------------------					----------------------------------------------------------------------
-TOTAL                                      192    178     7%					      |	TOTAL                                      212    196     8%
+TOTAL                                      212    196     8%						TOTAL                                      212    196     8%

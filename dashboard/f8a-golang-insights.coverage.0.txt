@@ -6,11 +6,11 @@ Name                                                 Stmts   Miss  Cover   Missi
 /insights_engine/data_store/abstract_data_store.py       2      0   100%
 /insights_engine/data_store/local_filesystem.py          8      0   100%
 /insights_engine/data_store/s3_data_store.py            11      0   100%
-/insights_engine/rest_api.py                            29      0   100%
+/insights_engine/rest_api.py                            28      0   100%
 /insights_engine/scoring/__init__.py                     1      0   100%
-/insights_engine/scoring/rules_predict.py               49      6    88%   17, 42, 57-58, 71, 78
+/insights_engine/scoring/rules_predict.py               55     11    80%   17, 42, 58-69, 78, 86
 /insights_engine/training/__init__.py                    1      1     0%   3
-/insights_engine/training/data_preprocessing.py          5      5     0%   2-7
+/insights_engine/training/data_preprocessing.py         44     44     0%   2-141
 /insights_engine/training/training.py                   50     50     0%   3-100
 ----------------------------------------------------------------------------------
-TOTAL                                                  173     62    64%
+TOTAL                                                  217    106    51%
