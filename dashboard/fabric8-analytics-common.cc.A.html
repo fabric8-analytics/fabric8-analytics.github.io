@@ -1,5 +1,11 @@
 <pre>baf/src/auth.py
-    <span style="color:#AA00AA">F </span>11:0 retrieve_access_token - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>11:0 check_access_token_attribute - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>22:0 check_token_type_attribute - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>32:0 check_expires_in_attribute - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>41:0 check_refresh_expires_in_attribute - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>50:0 check_not_before_policy_attribute - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>75:0 retrieve_access_token - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>59:0 get_and_check_token_structure - <span style="color:#00AA00">A (3)</span>
 baf/src/csv_reader.py
     <span style="color:#AA00AA">F </span>6:0 read_csv_as_table - <span style="color:#00AA00">A (4)</span>
     <span style="color:#AA00AA">F </span>18:0 read_csv_as_dicts - <span style="color:#00AA00">A (3)</span>
@@ -15,17 +21,29 @@ baf/src/random_payload_generator.py
     <span style="color:#00AA00">M </span>10:4 RandomPayloadGenerator.__init__ - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>71:4 RandomPayloadGenerator.generate_random_value - <span style="color:#00AA00">A (1)</span>
 baf/src/setup.py
-    <span style="color:#AA00AA">F </span>46:0 setup - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>13:0 add_slash - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>25:0 missing_api_token_warning - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>37:0 check_api_tokens_presence - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>20:0 read_url_from_env_var - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>72:0 setup - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>57:0 get_access_token - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>14:0 add_slash - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>26:0 missing_api_token_warning - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>38:0 check_api_tokens_presence - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>47:0 yes_no - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>52:0 enabled_disabled - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>21:0 read_url_from_env_var - <span style="color:#00AA00">A (1)</span>
+baf/src/fuzzer.py
+    <span style="color:#AA00AA">F </span>131:0 run_tests_with_added_items - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>147:0 run_tests_with_changed_items - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>78:0 run_tests_with_removed_items - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>163:0 run_test - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>46:0 perform_test - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>63:0 run_tests_with_removed_items_one_iteration - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>18:0 load_json - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>33:0 construct_url - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>101:0 run_tests_with_added_items_one_iteration - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>116:0 run_tests_with_changed_items_one_iteration - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>24:0 fuzz - <span style="color:#00AA00">A (1)</span>
 baf/src/baf.py
-    <span style="color:#AA00AA">F </span>57:0 main - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>42:0 run_test - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>14:0 load_json - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>29:0 construct_url - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>20:0 fuzz - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>21:0 main - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>11:0 run_all_tests - <span style="color:#00AA00">A (3)</span>
 baf/src/rest_api_calls.py
     <span style="color:#AA00AA">F </span>15:0 send_payload - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>7:0 authorization - <span style="color:#00AA00">A (1)</span>
@@ -1227,6 +1245,6 @@ perf-tests/src/gremlin_package_generator.py
     <span style="color:#00AA00">M </span>55:4 GremlinPackageGenerator.package_generator_for_ecosystem - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>65:4 GremlinPackageGenerator.package_version_generator_for_ecosystem - <span style="color:#00AA00">A (2)</span>
 
-1123 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (2.3009795191451468)</span>
+1140 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (2.3157894736842106)</span>
 </pre>
