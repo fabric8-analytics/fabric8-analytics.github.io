@@ -23,17 +23,13 @@ integration_tests/environment.py
 tests/__init__.py
     Pass
 tests/test_release_monitor.py
-tests/test_release_monitor.py:3: unused import 'pytest' (90% confidence)
-tests/test_release_monitor.py:4: unused import 'release_monitor' (90% confidence)
-    Fail
+    Pass
 ----------------------------------------------------
 Checking following source files for dead code and
 unused imports:
-cli.py setup.py
+setup.py
 ----------------------------------------------------
 
-cli.py
-    Fail
 setup.py
     Pass
-2 source files out of 9 files seems to contain dead code and/or unused imports
+All checks passed for 8 source files

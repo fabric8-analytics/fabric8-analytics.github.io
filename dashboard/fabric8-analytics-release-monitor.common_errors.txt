@@ -18,26 +18,18 @@ release_monitor/release_monitor.py:149: undefined name 'sleep'
 release_monitor/defaults.py
     Pass
 integration_tests/steps/steps.py
-integration_tests/steps/steps.py:2: 'from behave import *' used; unable to detect undefined names
-integration_tests/steps/steps.py:5: 'given' may be undefined, or defined from star imports: behave
-integration_tests/steps/steps.py:11: 'then' may be undefined, or defined from star imports: behave
-integration_tests/steps/steps.py:11: redefinition of unused 'step_impl' from line 5
-    Fail
+    Pass
 integration_tests/environment.py
     Pass
 tests/__init__.py
     Pass
 tests/test_release_monitor.py
-tests/test_release_monitor.py:3: 'pytest' imported but unused
-tests/test_release_monitor.py:4: 'release_monitor.release_monitor' imported but unused
-    Fail
+    Pass
 ----------------------------------------------------
 Checking following source files for common errors:
-cli.py setup.py
+setup.py
 ----------------------------------------------------
 
-cli.py
-    Fail
 setup.py
     Pass
-4 source files out of 9 files needs to be checked and fixed
+1 source files out of 8 files needs to be checked and fixed
