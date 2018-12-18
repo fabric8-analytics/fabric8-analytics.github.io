@@ -624,18 +624,18 @@ f8a_worker/workers/user_notifier.py
     <span style="color:#00AA00">M </span>27:4 UserNotificationTask.generate_notification - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>51:4 UserNotificationTask.execute - <span style="color:#00AA00">A (2)</span>
 f8a_worker/workers/git_operations.py
-    <span style="color:#00AA00">M </span>198:4 DependencyFinder.get_npm_dependencies - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#00AA00">M </span>115:4 GitOperationTask.execute - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>235:4 DependencyFinder.get_npm_transitives - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>50:4 GitOperationTask.create_repo_and_generate_files - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AAAA">C </span>181:0 DependencyFinder - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AAAA">C </span>18:0 GitOperationTask - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>77:4 GitOperationTask.gemini_call_for_cve_scan - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>99:4 GitOperationTask.backbone_for_stack_analysis - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>188:4 DependencyFinder.scan_and_find_dependencies - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>21:4 GitOperationTask.generate_files_for_maven - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>41:4 GitOperationTask.generate_files_for_node - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>184:4 DependencyFinder.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>192:4 DependencyFinder.get_npm_dependencies - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#00AA00">M </span>109:4 GitOperationTask.execute - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>229:4 DependencyFinder.get_npm_transitives - <span style="color:#00AA00">B (7)</span>
+    <span style="color:#00AA00">M </span>44:4 GitOperationTask.create_repo_and_generate_files - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AA00">M </span>71:4 GitOperationTask.gemini_call_for_cve_scan - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AAAA">C </span>175:0 DependencyFinder - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AAAA">C </span>19:0 GitOperationTask - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#00AA00">M </span>93:4 GitOperationTask.backbone_for_stack_analysis - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>182:4 DependencyFinder.scan_and_find_dependencies - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>22:4 GitOperationTask.generate_files_for_maven - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>35:4 GitOperationTask.generate_files_for_node - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>178:4 DependencyFinder.__init__ - <span style="color:#00AA00">A (1)</span>
 f8a_worker/workers/license.py
     <span style="color:#00AA00">M </span>21:4 LicenseCheckTask.process_output - <span style="color:#00AA00">B (6)</span>
     <span style="color:#00AAAA">C </span>15:0 LicenseCheckTask - <span style="color:#00AA00">A (4)</span>
@@ -842,7 +842,7 @@ tests/storages/test_postgres.py
     <span style="color:#00AA00">M </span>119:4 TestBayesianPostgres.test_get_latest_task_result_no_results - <span style="color:#00AA00">A (2)</span>
 tests/workers/test_git_operations.py
     <span style="color:#AA00AA">F </span>61:0 test_get_npm_dependencies - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>82:0 test_create_repo_and_generate_files - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>82:0 test_create_repo_and_generate_files - <span style="color:#00AA00">A (5)</span>
 tests/workers/test_recurse.py
     <span style="color:#AA00AA">F </span>6:0 test__is_url_dependency - <span style="color:#00AA00">A (3)</span>
 tests/workers/test_licensecheck.py
@@ -1054,5 +1054,5 @@ alembic/versions/22a1cd66a9c6_batches_reviews.py
     <span style="color:#AA00AA">F </span>40:0 downgrade - <span style="color:#00AA00">A (1)</span>
 
 905 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (2.679558011049724)</span>
+Average complexity: <span style="color:#00AA00">A (2.6806629834254143)</span>
 </pre>
