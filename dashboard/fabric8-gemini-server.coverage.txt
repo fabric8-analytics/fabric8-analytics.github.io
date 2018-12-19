@@ -1,7 +1,7 @@
 Name                                    Stmts   Miss  Cover   Missing
 ---------------------------------------------------------------------
 src/__init__.py                             2      0   100%
-src/data_extractor.py                      23      1    96%   32
+src/data_extractor.py                      24      1    96%   33
 src/exceptions.py                           5      0   100%
 src/notification/__init__.py                3      0   100%
 src/notification/user_notification.py      39      2    95%   29, 60
@@ -13,4 +13,4 @@ src/repo_dependency_creator.py             52     17    67%   27-34, 41-48, 64-6
 src/rest_api.py                           149      7    95%   190-193, 216-217, 372
 src/utils.py                              164      6    96%   55, 101-102, 242, 306, 342
 ---------------------------------------------------------------------
-TOTAL                                     503     41    92%
+TOTAL                                     504     41    92%

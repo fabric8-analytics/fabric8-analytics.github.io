@@ -22,10 +22,16 @@ tests/test_utils.py
     <span style="color:#00AA00">M </span>11:4 TestUtilFunctions.setup_method - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>15:4 TestUtilFunctions.teardown_method - <span style="color:#00AA00">A (2)</span>
 tests/test_scheduler.py
-    <span style="color:#00AAAA">C </span>8:0 TestScheduler - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>11:4 TestScheduler.setup_method - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>15:4 TestScheduler.teardown_method - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>19:4 TestScheduler.test_schedule_job_error_class - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>9:0 TestScheduler - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>12:4 TestScheduler.setup_method - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>16:4 TestScheduler.teardown_method - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>20:4 TestScheduler.test_schedule_job_error_class - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>26:4 TestScheduler.test_schedule_job_method_state - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>31:4 TestScheduler.test_schedule_job_method_handler_name - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>36:4 TestScheduler.test_schedule_job_method_when_parsing - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>41:4 TestScheduler.test_schedule_job_method_missfirre_grace_time_parsing - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>47:4 TestScheduler.test_schedule_job_method_misfire_grace_time_parsing_2 - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>53:4 TestScheduler.test_schedule_job_method_periodically_parsing - <span style="color:#00AA00">A (2)</span>
 tests/test_analyses_report.py
     <span style="color:#00AAAA">C </span>7:0 TestAnalysesReport - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>10:4 TestAnalysesReport.setup_method - <span style="color:#00AA00">A (2)</span>
@@ -50,13 +56,17 @@ f8a_jobs/models.py
     <span style="color:#AA00AA">F </span>25:0 get_session - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>43:4 JobToken.to_dict - <span style="color:#00AA00">A (1)</span>
 f8a_jobs/scheduler.py
-    <span style="color:#00AA00">M </span>88:4 Scheduler.schedule_job - <span style="color:#AA5500">D (25)</span>
-    <span style="color:#00AAAA">C </span>30:0 Scheduler - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#00AA00">M </span>208:4 Scheduler.register_default_jobs - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>243:0 job_execute - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>126:4 Scheduler.schedule_job - <span style="color:#AA5500">C (18)</span>
+    <span style="color:#00AA00">M </span>228:4 Scheduler.register_default_jobs - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#00AAAA">C </span>30:0 Scheduler - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>263:0 job_execute - <span style="color:#00AA00">A (4)</span>
     <span style="color:#00AA00">M </span>59:4 Scheduler.get_scheduler - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>100:4 Scheduler.process_when_parameter - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>113:4 Scheduler.process_misfire_grace_time - <span style="color:#00AA00">A (3)</span>
     <span style="color:#00AA00">M </span>73:4 Scheduler.get_paused_scheduler - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>275:0 uses_scheduler - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>88:4 Scheduler.check_job_state - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AA00">M </span>94:4 Scheduler.check_handler_name - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>295:0 uses_scheduler - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AAAA">C </span>24:0 ScheduleJobError - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>55:4 Scheduler.__init__ - <span style="color:#00AA00">A (1)</span>
 f8a_jobs/utils.py
@@ -267,6 +277,6 @@ f8a_jobs/handlers/maven_releases.py
     <span style="color:#00AAAA">C </span>15:0 MavenReleasesAnalyses - <span style="color:#00AA00">B (8)</span>
     <span style="color:#00AA00">M </span>18:4 MavenReleasesAnalyses.execute - <span style="color:#00AA00">B (8)</span>
 
-231 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (3.1125541125541125)</span>
+241 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (3.037344398340249)</span>
 </pre>
