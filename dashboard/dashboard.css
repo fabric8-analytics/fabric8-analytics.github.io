@@ -32,6 +32,7 @@ body { padding-top: 100px; }
 }
 .error {
     color:#800000;
+    background-color:#ffd0d0;
 }
 .ignored {
     color:#808080;
