@@ -304,7 +304,8 @@ tests/storages/__init__.py
 tests/storages/test_postgres.py
     Pass
 tests/workers/test_git_operations.py
-    Pass
+tests/workers/test_git_operations.py:4: 'json' imported but unused
+    Fail
 tests/workers/test_recurse.py
     Pass
 tests/workers/__init__.py
@@ -334,4 +335,4 @@ setup.py
 
 setup.py
     Pass
-2 source files out of 158 files needs to be checked and fixed
+3 source files out of 158 files needs to be checked and fixed
