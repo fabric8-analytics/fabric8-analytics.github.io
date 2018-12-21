@@ -3,7 +3,7 @@ Name                             Stmts   Miss  Cover   Missing						Name        
 f8a_utils/__init__.py                0      0   100%							f8a_utils/__init__.py                0      0   100%
 f8a_utils/commands/__init__.py       2      0   100%							f8a_utils/commands/__init__.py       2      0   100%
 f8a_utils/commands/command.py       54      0   100%							f8a_utils/commands/command.py       54      0   100%
-												      >	f8a_utils/dependency_finder.py     115      2    98%   101, 112
+f8a_utils/dependency_finder.py     115      2    98%   101, 112					      |	f8a_utils/dependency_finder.py     117      3    97%   38, 104, 115
 f8a_utils/versions.py               58      0   100%							f8a_utils/versions.py               58      0   100%
 --------------------------------------------------------------						--------------------------------------------------------------
-TOTAL                              114      0   100%						      |	TOTAL                              229      2    99%
+TOTAL                              229      2    99%						      |	TOTAL                              231      3    99%
