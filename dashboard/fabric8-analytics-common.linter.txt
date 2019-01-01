@@ -245,6 +245,8 @@ baf/src/auth.py
     Pass
 baf/src/csv_reader.py
     Pass
+baf/src/results.py
+    Pass
 baf/src/random_payload_generator.py
     Pass
 baf/src/setup.py
@@ -254,6 +256,8 @@ baf/src/cliargs.py
 baf/src/fuzzer.py
     Pass
 baf/src/baf.py
+    Pass
+baf/src/test_result.py
     Pass
 baf/src/report_generator.py
     Pass
@@ -269,4 +273,4 @@ e2e_tests_bot/src/e2e_tests_checker.py
     Pass
 e2e_tests_bot/src/mm_client.py
     Pass
-All checks passed for 130 source files
+All checks passed for 132 source files

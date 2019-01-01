@@ -276,6 +276,9 @@ f8a_worker/storages/postgres_base.py
 f8a_worker/storages/s3_userintent.py
 0
     Pass
+f8a_worker/storages/s3_gocveartifact.py
+0
+    Pass
 f8a_worker/storages/s3_userprofilestore.py
 0
     Pass
@@ -366,6 +369,9 @@ f8a_worker/workers/repo_dependency_finder.py
 f8a_worker/workers/mercator.py
 0
     Pass
+f8a_worker/workers/golangcvepredictor.py
+0
+    Pass
 f8a_worker/workers/digester.py
 0
     Pass
@@ -444,6 +450,9 @@ tests/storages/__init__.py
 tests/storages/test_postgres.py
 0
     Pass
+tests/workers/test_gocvecollector.py
+0
+    Pass
 tests/workers/test_git_operations.py
 0
     Pass
@@ -488,4 +497,4 @@ setup.py
 setup.py
 0
     Pass
-All checks passed for 157 source files
+All checks passed for 160 source files

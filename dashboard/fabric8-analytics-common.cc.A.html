@@ -9,6 +9,10 @@
 baf/src/csv_reader.py
     <span style="color:#AA00AA">F </span>6:0 read_csv_as_table - <span style="color:#00AA00">A (4)</span>
     <span style="color:#AA00AA">F </span>18:0 read_csv_as_dicts - <span style="color:#00AA00">A (3)</span>
+baf/src/results.py
+    <span style="color:#00AAAA">C </span>4:0 Results - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>7:4 Results.__init__ - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>11:4 Results.add_test_result - <span style="color:#00AA00">A (1)</span>
 baf/src/random_payload_generator.py
     <span style="color:#00AA00">M </span>20:4 RandomPayloadGenerator.generate_random_string - <span style="color:#00AA00">A (4)</span>
     <span style="color:#00AA00">M </span>33:4 RandomPayloadGenerator.generate_random_key_for_dict - <span style="color:#00AA00">A (3)</span>
@@ -30,24 +34,28 @@ baf/src/setup.py
     <span style="color:#AA00AA">F </span>52:0 enabled_disabled - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>21:0 read_url_from_env_var - <span style="color:#00AA00">A (1)</span>
 baf/src/fuzzer.py
-    <span style="color:#AA00AA">F </span>131:0 run_tests_with_added_items - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>147:0 run_tests_with_changed_items - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>199:0 run_test - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>78:0 run_tests_with_removed_items - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>46:0 perform_test - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>163:0 get_fuzzer_setting - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>63:0 run_tests_with_removed_items_one_iteration - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>208:0 run_test - <span style="color:#00AA00">B (8)</span>
+    <span style="color:#AA00AA">F </span>136:0 run_tests_with_added_items - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>154:0 run_tests_with_changed_items - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>83:0 run_tests_with_removed_items - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>47:0 perform_test - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>172:0 get_fuzzer_setting - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>67:0 run_tests_with_removed_items_one_iteration - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>18:0 load_json - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>33:0 construct_url - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>101:0 run_tests_with_added_items_one_iteration - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>116:0 run_tests_with_changed_items_one_iteration - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>171:0 log_fuzzer_setting - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>106:0 run_tests_with_added_items_one_iteration - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>121:0 run_tests_with_changed_items_one_iteration - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>180:0 log_fuzzer_setting - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>24:0 fuzz - <span style="color:#00AA00">A (1)</span>
 baf/src/baf.py
-    <span style="color:#AA00AA">F </span>21:0 start_tests - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>11:0 run_all_loaded_tests - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>36:0 read_fuzzer_settings - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>48:0 main - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>23:0 start_tests - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>13:0 run_all_loaded_tests - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>38:0 read_fuzzer_settings - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>50:0 main - <span style="color:#00AA00">A (1)</span>
+baf/src/test_result.py
+    <span style="color:#00AAAA">C </span>7:0 TestResult - <span style="color:#00AA00">A (1)</span>
+baf/src/report_generator.py
+    <span style="color:#AA00AA">F </span>4:0 generate_reports - <span style="color:#00AA00">A (2)</span>
 baf/src/rest_api_calls.py
     <span style="color:#AA00AA">F </span>15:0 send_payload - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>7:0 authorization - <span style="color:#00AA00">A (1)</span>
@@ -402,13 +410,14 @@ integration-tests/features/src/parsing.py
     <span style="color:#AA00AA">F </span>38:0 parse_number - <span style="color:#00AA00">A (2)</span>
     <span style="color:#AA00AA">F </span>6:0 parse_timestamp - <span style="color:#00AA00">A (1)</span>
 integration-tests/features/src/utils.py
-    <span style="color:#AA00AA">F </span>26:0 which - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>7:0 download_file_from_url - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>41:0 oc_login - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>62:0 oc_delete_pods - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>16:0 split_comma_separated_list - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>21:0 is_exe - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>93:0 oc_run_command - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>27:0 which - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>8:0 download_file_from_url - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>42:0 oc_login - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#AA00AA">F </span>63:0 oc_delete_pods - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>17:0 split_comma_separated_list - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>22:0 is_exe - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>105:0 read_data_gemini - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#AA00AA">F </span>94:0 oc_run_command - <span style="color:#00AA00">A (1)</span>
 integration-tests/features/src/graph_db_query.py
     <span style="color:#00AAAA">C </span>4:0 Query - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>7:4 Query.__init__ - <span style="color:#00AA00">A (1)</span>
@@ -784,13 +793,13 @@ integration-tests/features/steps/common.py
     <span style="color:#AA00AA">F </span>312:0 read_json_file - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>318:0 read_json_file_for_s3 - <span style="color:#00AA00">A (1)</span>
 integration-tests/features/steps/gemini.py
-    <span style="color:#AA00AA">F </span>106:0 check_cves_for_epv - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>65:0 call_backbone_api - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>39:0 set_dependency_files - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>15:0 running_gemini_api - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>21:0 set_git_url - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>27:0 set_git_sha - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>33:0 set_epv_list - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>107:0 check_cves_for_epv - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#AA00AA">F </span>67:0 call_backbone_api - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#AA00AA">F </span>41:0 set_dependency_files - <span style="color:#00AA00">A (3)</span>
+    <span style="color:#AA00AA">F </span>17:0 running_gemini_api - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>23:0 set_git_url - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>29:0 set_git_sha - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#AA00AA">F </span>35:0 set_epv_list - <span style="color:#00AA00">A (1)</span>
 integration-tests/features/steps/authorization.py
     <span style="color:#AA00AA">F </span>36:0 acquire_authorization_token - <span style="color:#00AA00">A (3)</span>
     <span style="color:#AA00AA">F </span>84:0 check_api_token - <span style="color:#00AA00">A (3)</span>
@@ -1249,6 +1258,6 @@ perf-tests/src/gremlin_package_generator.py
     <span style="color:#00AA00">M </span>55:4 GremlinPackageGenerator.package_generator_for_ecosystem - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>65:4 GremlinPackageGenerator.package_version_generator_for_ecosystem - <span style="color:#00AA00">A (2)</span>
 
-1144 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (2.3173076923076925)</span>
+1150 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (2.313913043478261)</span>
 </pre>

@@ -197,6 +197,12 @@ f8a_worker/storages/postgres_base.py:114: unused variable 'error' (100% confiden
     Fail
 f8a_worker/storages/s3_userintent.py
     Pass
+f8a_worker/storages/s3_gocveartifact.py
+f8a_worker/storages/s3_gocveartifact.py:17: unused variable 'flow_name' (100% confidence)
+f8a_worker/storages/s3_gocveartifact.py:26: unused variable 'flow_name' (100% confidence)
+f8a_worker/storages/s3_gocveartifact.py:34: unused variable 'exc_info' (100% confidence)
+f8a_worker/storages/s3_gocveartifact.py:34: unused variable 'flow_name' (100% confidence)
+    Fail
 f8a_worker/storages/s3_userprofilestore.py
     Pass
 f8a_worker/storages/s3_description_repository.py
@@ -268,6 +274,10 @@ f8a_worker/workers/repo_dependency_finder.py:151: unreachable code after 'raise'
     Fail
 f8a_worker/workers/mercator.py
     Pass
+f8a_worker/workers/golangcvepredictor.py
+f8a_worker/workers/golangcvepredictor.py:101: unreachable code after 'raise' (100% confidence)
+f8a_worker/workers/golangcvepredictor.py:105: unreachable code after 'raise' (100% confidence)
+    Fail
 f8a_worker/workers/digester.py
     Pass
 f8a_worker/workers/user_notifier.py
@@ -323,6 +333,8 @@ tests/storages/__init__.py
     Pass
 tests/storages/test_postgres.py
     Pass
+tests/workers/test_gocvecollector.py
+    Pass
 tests/workers/test_git_operations.py
 tests/workers/test_git_operations.py:4: unused import 'json' (90% confidence)
     Fail
@@ -356,4 +368,4 @@ setup.py
 
 setup.py
     Pass
-15 source files out of 158 files seems to contain dead code and/or unused imports
+17 source files out of 161 files seems to contain dead code and/or unused imports

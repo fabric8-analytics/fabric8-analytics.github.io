@@ -13,11 +13,11 @@ com.redhat.jenkins.plugins.bayesian/Utils                                       
 com.redhat.jenkins.plugins.bayesian/Codebase                                         5    2    60%
 com.redhat.jenkins.plugins.bayesian/BayesianAnalysisStep.DescriptorImpl              4    0   100%
 com.redhat.jenkins.plugins.bayesian/Utils.new ArrayList() {...}                      3    0   100%
-com.redhat.jenkins.plugins.bayesian/BayesianAnalysisStep.Execution                  31    9    70%
+com.redhat.jenkins.plugins.bayesian/BayesianAnalysisStep.Execution                  30    8    73%
 com.redhat.jenkins.plugins.bayesian/BayesianException                                6    6     0%
 com.redhat.jenkins.plugins.bayesian/Utils.new ArrayList() {...}                      3    0   100%
 com.redhat.jenkins.plugins.bayesian/Utils.new ArrayList() {...}                      4    0   100%
 com.redhat.jenkins.plugins.bayesian/Utils.new ArrayList() {...}                      4    0   100%
 com.redhat.jenkins.plugins.bayesian/User.Data                                        5    3    40%
 ------------------------------------------------------------------------------------------------------------
-TOTAL                                                                              342  110    67%
+TOTAL                                                                              341  109    68%

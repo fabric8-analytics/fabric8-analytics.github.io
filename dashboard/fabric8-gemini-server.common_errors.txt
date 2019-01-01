@@ -18,6 +18,8 @@ src/utils.py
     Pass
 src/rest_api.py
     Pass
+src/data_extractor.py
+    Pass
 src/exceptions.py
     Pass
 src/parsers/maven_parser.py
@@ -57,4 +59,4 @@ setup.py
 
 setup.py
     Pass
-All checks passed for 21 source files
+All checks passed for 22 source files

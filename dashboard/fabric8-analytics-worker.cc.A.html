@@ -475,6 +475,12 @@ f8a_worker/storages/s3_userintent.py
     <span style="color:#00AAAA">C </span>6:0 S3UserIntent - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>9:4 S3UserIntent.store_in_bucket - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>25:4 S3UserIntent.fetch_master_tags - <span style="color:#00AA00">A (2)</span>
+f8a_worker/storages/s3_gocveartifact.py
+    <span style="color:#00AA00">M </span>17:4 S3IssuesPRs.store - <span style="color:#00AA00">A (2)</span>
+    <span style="color:#00AAAA">C </span>9:0 S3IssuesPRs - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>12:4 S3IssuesPRs._construct_object_key - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>26:4 S3IssuesPRs.retrieve - <span style="color:#00AA00">A (1)</span>
+    <span style="color:#00AA00">M </span>34:4 S3IssuesPRs.store_error - <span style="color:#00AA00">A (1)</span>
 f8a_worker/storages/s3_userprofilestore.py
     <span style="color:#00AAAA">C </span>7:0 S3UserProfileStore - <span style="color:#00AA00">A (1)</span>
     <span style="color:#00AA00">M </span>10:4 S3UserProfileStore.store_in_bucket - <span style="color:#00AA00">A (1)</span>
@@ -613,6 +619,11 @@ f8a_worker/workers/mercator.py
     <span style="color:#00AA00">M </span>45:4 MercatorTask.execute - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>121:4 MercatorTask.run_gofedlib - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>142:4 MercatorTask._add_extra_go_fields - <span style="color:#00AA00">A (1)</span>
+f8a_worker/workers/golangcvepredictor.py
+    <span style="color:#00AA00">M </span>25:4 GitIssuesPRsTask.get_response_issues - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AA00">M </span>69:4 GitIssuesPRsTask.execute - <span style="color:#00AA00">B (6)</span>
+    <span style="color:#00AAAA">C </span>17:0 GitIssuesPRsTask - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AA00">M </span>52:4 GitIssuesPRsTask._processJSonIssuePR - <span style="color:#00AA00">A (2)</span>
 f8a_worker/workers/digester.py
     <span style="color:#00AAAA">C </span>27:0 DigesterTask - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>33:4 DigesterTask.compute_ssdeep - <span style="color:#00AA00">A (2)</span>
@@ -835,6 +846,11 @@ tests/storages/test_postgres.py
     <span style="color:#00AA00">M </span>84:4 TestBayesianPostgres.test_store_already_exists - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>93:4 TestBayesianPostgres.test_get_latest_task_result - <span style="color:#00AA00">A (2)</span>
     <span style="color:#00AA00">M </span>119:4 TestBayesianPostgres.test_get_latest_task_result_no_results - <span style="color:#00AA00">A (2)</span>
+tests/workers/test_gocvecollector.py
+    <span style="color:#00AA00">M </span>46:4 TestGocvecollector.test_execute_noarg - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AA00">M </span>54:4 TestGocvecollector.test_execute - <span style="color:#00AA00">A (5)</span>
+    <span style="color:#00AAAA">C </span>12:0 TestGocvecollector - <span style="color:#00AA00">A (4)</span>
+    <span style="color:#00AA00">M </span>64:4 TestGocvecollector.test_exception - <span style="color:#00AA00">A (2)</span>
 tests/workers/test_git_operations.py
     <span style="color:#AA00AA">F </span>61:0 test_create_repo_and_generate_files - <span style="color:#00AA00">A (5)</span>
 tests/workers/test_recurse.py
@@ -1047,6 +1063,6 @@ alembic/versions/22a1cd66a9c6_batches_reviews.py
     <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
     <span style="color:#AA00AA">F </span>40:0 downgrade - <span style="color:#00AA00">A (1)</span>
 
-899 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (2.6662958843159066)</span>
+912 blocks (classes, functions, methods) analyzed.
+Average complexity: <span style="color:#00AA00">A (2.6732456140350878)</span>
 </pre>

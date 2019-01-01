@@ -24,6 +24,9 @@ src/utils.py
 src/rest_api.py
 0
     Pass
+src/data_extractor.py
+0
+    Pass
 src/exceptions.py
 0
     Pass
@@ -80,4 +83,4 @@ setup.py
 setup.py
 0
     Pass
-All checks passed for 21 source files
+All checks passed for 22 source files
