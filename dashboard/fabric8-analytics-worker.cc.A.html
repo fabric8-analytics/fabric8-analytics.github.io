@@ -1,1068 +1,1068 @@
 <pre>setup.py
-    <span style="color:#AA00AA">F </span>9:0 get_requirements - <span style="color:#00AA00">A (2)</span>
+    F 9:0 get_requirements - A (2)
 f8a_worker/object_cache.py
-    <span style="color:#00AA00">M </span>109:4 EPVCache._construct_source_tarball_names - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>76:4 EPVCache._get_meta - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>166:4 EPVCache.get_extracted_source_tarball - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>213:4 EPVCache.get_extracted_source_jar - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>244:4 EPVCache.get_sources - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>257:4 EPVCache.has_sources - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>298:4 ObjectCache.get - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>29:4 EPVCache.__init__ - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>67:4 EPVCache._retrieve_s3_object - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>121:4 EPVCache._get_object_cached - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>146:4 EPVCache.has_source_tarball - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>286:4 ObjectCache.wipe - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AAAA">C </span>14:0 EPVCache - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>89:4 EPVCache._has_meta - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>99:4 EPVCache._put_meta - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>132:4 EPVCache.remove_files - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>138:4 EPVCache.get_source_tarball - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>157:4 EPVCache.put_source_tarball - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>185:4 EPVCache.get_pom_xml - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>192:4 EPVCache.put_pom_xml - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>199:4 EPVCache.has_pom_xml - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>206:4 EPVCache.get_source_jar - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>230:4 EPVCache.put_source_jar - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>237:4 EPVCache.has_source_jar - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>272:0 ObjectCache - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>282:4 ObjectCache.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>293:4 ObjectCache._cache_dir - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>315:4 ObjectCache.get_from_dict - <span style="color:#00AA00">A (1)</span>
+    M 109:4 EPVCache._construct_source_tarball_names - A (4)
+    M 76:4 EPVCache._get_meta - A (3)
+    M 166:4 EPVCache.get_extracted_source_tarball - A (3)
+    M 213:4 EPVCache.get_extracted_source_jar - A (3)
+    M 244:4 EPVCache.get_sources - A (3)
+    M 257:4 EPVCache.has_sources - A (3)
+    M 298:4 ObjectCache.get - A (3)
+    M 29:4 EPVCache.__init__ - A (2)
+    M 67:4 EPVCache._retrieve_s3_object - A (2)
+    M 121:4 EPVCache._get_object_cached - A (2)
+    M 146:4 EPVCache.has_source_tarball - A (2)
+    M 286:4 ObjectCache.wipe - A (2)
+    C 14:0 EPVCache - A (1)
+    M 89:4 EPVCache._has_meta - A (1)
+    M 99:4 EPVCache._put_meta - A (1)
+    M 132:4 EPVCache.remove_files - A (1)
+    M 138:4 EPVCache.get_source_tarball - A (1)
+    M 157:4 EPVCache.put_source_tarball - A (1)
+    M 185:4 EPVCache.get_pom_xml - A (1)
+    M 192:4 EPVCache.put_pom_xml - A (1)
+    M 199:4 EPVCache.has_pom_xml - A (1)
+    M 206:4 EPVCache.get_source_jar - A (1)
+    M 230:4 EPVCache.put_source_jar - A (1)
+    M 237:4 EPVCache.has_source_jar - A (1)
+    C 272:0 ObjectCache - A (1)
+    M 282:4 ObjectCache.__init__ - A (1)
+    M 293:4 ObjectCache._cache_dir - A (1)
+    M 315:4 ObjectCache.get_from_dict - A (1)
 f8a_worker/models.py
-    <span style="color:#00AA00">M </span>67:4 BayesianModelMixin.get_or_create - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AAAA">C </span>28:0 BayesianModelMixin - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>47:4 BayesianModelMixin._by_attrs - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>199:4 Analysis.analyses - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>18:0 create_db_scoped_session - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>39:4 BayesianModelMixin.to_dict - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>58:4 BayesianModelMixin.by_id - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>119:4 Ecosystem.by_name - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AAAA">C </span>129:0 Package - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>145:4 Package.by_name - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AAAA">C </span>156:0 Version - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>172:4 Version.by_identifier - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AAAA">C </span>182:0 Analysis - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>209:4 Analysis.raw_analyses - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>233:4 Analysis.to_dict - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AAAA">C </span>302:0 PackageAnalysis - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>319:4 PackageAnalysis.raw_analyses - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AAAA">C </span>89:0 Ecosystem - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>105:4 Ecosystem.backend - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>110:4 Ecosystem.backend - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>115:4 Ecosystem.is_backed_by - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>217:4 Analysis.package_info - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>225:4 Analysis.dependents_count - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>246:0 WorkerResult - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>266:4 WorkerResult.ecosystem - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>271:4 WorkerResult.package - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>276:4 WorkerResult.version - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>282:0 Upstream - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>296:4 Upstream.ecosystem - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>314:4 PackageAnalysis.ecosystem - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>329:0 PackageWorkerResult - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>348:4 PackageWorkerResult.ecosystem - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>353:4 PackageWorkerResult.package - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>359:0 StackAnalysisRequest - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>374:0 APIRequests - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>389:0 RecommendationFeedback - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>405:0 OSIORegisteredRepos - <span style="color:#00AA00">A (1)</span>
+    M 67:4 BayesianModelMixin.get_or_create - A (4)
+    C 28:0 BayesianModelMixin - A (3)
+    M 47:4 BayesianModelMixin._by_attrs - A (3)
+    M 199:4 Analysis.analyses - A (3)
+    F 18:0 create_db_scoped_session - A (2)
+    M 39:4 BayesianModelMixin.to_dict - A (2)
+    M 58:4 BayesianModelMixin.by_id - A (2)
+    M 119:4 Ecosystem.by_name - A (2)
+    C 129:0 Package - A (2)
+    M 145:4 Package.by_name - A (2)
+    C 156:0 Version - A (2)
+    M 172:4 Version.by_identifier - A (2)
+    C 182:0 Analysis - A (2)
+    M 209:4 Analysis.raw_analyses - A (2)
+    M 233:4 Analysis.to_dict - A (2)
+    C 302:0 PackageAnalysis - A (2)
+    M 319:4 PackageAnalysis.raw_analyses - A (2)
+    C 89:0 Ecosystem - A (1)
+    M 105:4 Ecosystem.backend - A (1)
+    M 110:4 Ecosystem.backend - A (1)
+    M 115:4 Ecosystem.is_backed_by - A (1)
+    M 217:4 Analysis.package_info - A (1)
+    M 225:4 Analysis.dependents_count - A (1)
+    C 246:0 WorkerResult - A (1)
+    M 266:4 WorkerResult.ecosystem - A (1)
+    M 271:4 WorkerResult.package - A (1)
+    M 276:4 WorkerResult.version - A (1)
+    C 282:0 Upstream - A (1)
+    M 296:4 Upstream.ecosystem - A (1)
+    M 314:4 PackageAnalysis.ecosystem - A (1)
+    C 329:0 PackageWorkerResult - A (1)
+    M 348:4 PackageWorkerResult.ecosystem - A (1)
+    M 353:4 PackageWorkerResult.package - A (1)
+    C 359:0 StackAnalysisRequest - A (1)
+    C 374:0 APIRequests - A (1)
+    C 389:0 RecommendationFeedback - A (1)
+    C 405:0 OSIORegisteredRepos - A (1)
 f8a_worker/graphutils.py
-    <span style="color:#AA00AA">F </span>58:0 get_stack_popularity_data_graph - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>215:0 create_package_dict - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>28:0 get_stack_usage_data_graph - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>304:0 select_latest_version - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>97:0 extract_component_details - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>171:0 aggregate_stack_data - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>324:0 update_properties - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>363:0 create_nodes - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>197:0 get_osio_user_count - <span style="color:#00AA00">A (2)</span>
+    F 58:0 get_stack_popularity_data_graph - B (8)
+    F 215:0 create_package_dict - B (8)
+    F 28:0 get_stack_usage_data_graph - B (6)
+    F 304:0 select_latest_version - B (6)
+    F 97:0 extract_component_details - A (3)
+    F 171:0 aggregate_stack_data - A (3)
+    F 324:0 update_properties - A (3)
+    F 363:0 create_nodes - A (3)
+    F 197:0 get_osio_user_count - A (2)
 f8a_worker/utils.py
-    <span style="color:#AA00AA">F </span>425:0 parse_gh_repo - <span style="color:#AA5500">C (11)</span>
-    <span style="color:#00AA00">M </span>98:4 TimedCommand.run - <span style="color:#00AA00">B (10)</span>
-    <span style="color:#00AA00">M </span>341:4 MavenCoordinates.to_str - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#AA00AA">F </span>162:0 get_command_output - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>200:0 get_all_files_from - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>550:0 get_response - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>473:0 url2git_repo - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>516:0 normalize_package_name - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>377:4 MavenCoordinates._parse_string - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AAAA">C </span>87:0 TimedCommand - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>337:4 MavenCoordinates.is_valid - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>33:0 get_latest_analysis - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>62:0 username - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>297:0 compute_digest - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>276:4 ThreadPool._work - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>320:0 MavenCoordinates - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>361:4 MavenCoordinates.to_repo_url - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>81:0 assert_not_none - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>216:0 hidden_path_filter - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>221:0 json_serial - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>228:0 in_path - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>491:0 case_sensitivity_transform - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>505:0 get_session_retry - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>541:0 get_user_email - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>589:0 peek - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>90:4 TimedCommand.__init__ - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>247:4 ThreadPool.__init__ - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>267:4 ThreadPool.start - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>271:4 ThreadPool.join - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>328:4 MavenCoordinates.__init__ - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>405:4 MavenCoordinates.__eq__ - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>51:0 cwd - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>239:0 skip_git_files - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>578:0 add_maven_coords_to_set - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>155:4 TimedCommand.get_command_output - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>244:0 ThreadPool - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>260:4 ThreadPool.add_task - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>287:4 ThreadPool.__enter__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>292:4 ThreadPool.__exit__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>401:4 MavenCoordinates.__repr__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>409:4 MavenCoordinates.__ne__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>413:4 MavenCoordinates.normalize_str - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>418:4 MavenCoordinates.from_str - <span style="color:#00AA00">A (1)</span>
+    F 425:0 parse_gh_repo - C (11)
+    M 98:4 TimedCommand.run - B (10)
+    M 341:4 MavenCoordinates.to_str - B (9)
+    F 162:0 get_command_output - B (8)
+    F 200:0 get_all_files_from - B (7)
+    F 550:0 get_response - B (6)
+    F 473:0 url2git_repo - A (5)
+    F 516:0 normalize_package_name - A (5)
+    M 377:4 MavenCoordinates._parse_string - A (5)
+    C 87:0 TimedCommand - A (4)
+    M 337:4 MavenCoordinates.is_valid - A (4)
+    F 33:0 get_latest_analysis - A (3)
+    F 62:0 username - A (3)
+    F 297:0 compute_digest - A (3)
+    M 276:4 ThreadPool._work - A (3)
+    C 320:0 MavenCoordinates - A (3)
+    M 361:4 MavenCoordinates.to_repo_url - A (3)
+    F 81:0 assert_not_none - A (2)
+    F 216:0 hidden_path_filter - A (2)
+    F 221:0 json_serial - A (2)
+    F 228:0 in_path - A (2)
+    F 491:0 case_sensitivity_transform - A (2)
+    F 505:0 get_session_retry - A (2)
+    F 541:0 get_user_email - A (2)
+    F 589:0 peek - A (2)
+    M 90:4 TimedCommand.__init__ - A (2)
+    M 247:4 ThreadPool.__init__ - A (2)
+    M 267:4 ThreadPool.start - A (2)
+    M 271:4 ThreadPool.join - A (2)
+    M 328:4 MavenCoordinates.__init__ - A (2)
+    M 405:4 MavenCoordinates.__eq__ - A (2)
+    F 51:0 cwd - A (1)
+    F 239:0 skip_git_files - A (1)
+    F 578:0 add_maven_coords_to_set - A (1)
+    M 155:4 TimedCommand.get_command_output - A (1)
+    C 244:0 ThreadPool - A (1)
+    M 260:4 ThreadPool.add_task - A (1)
+    M 287:4 ThreadPool.__enter__ - A (1)
+    M 292:4 ThreadPool.__exit__ - A (1)
+    M 401:4 MavenCoordinates.__repr__ - A (1)
+    M 409:4 MavenCoordinates.__ne__ - A (1)
+    M 413:4 MavenCoordinates.normalize_str - A (1)
+    M 418:4 MavenCoordinates.from_str - A (1)
 f8a_worker/setup_celery.py
-    <span style="color:#AA00AA">F </span>17:0 get_dispatcher_config_files - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>55:0 init_celery - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>43:0 init_selinon - <span style="color:#00AA00">A (2)</span>
+    F 17:0 get_dispatcher_config_files - B (7)
+    F 55:0 init_celery - A (3)
+    F 43:0 init_selinon - A (2)
 f8a_worker/start.py
-    <span style="color:#00AAAA">C </span>12:0 SentryCelery - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>15:4 SentryCelery.on_configure - <span style="color:#00AA00">A (1)</span>
+    C 12:0 SentryCelery - A (1)
+    M 15:4 SentryCelery.on_configure - A (1)
 f8a_worker/solver.py
-    <span style="color:#00AAAA">C </span>647:0 NugetDependencyParser - <span style="color:#AA5500">C (12)</span>
-    <span style="color:#00AA00">M </span>650:4 NugetDependencyParser.parse - <span style="color:#AA5500">C (12)</span>
-    <span style="color:#00AA00">M </span>771:4 Solver.solve - <span style="color:#00AA00">B (10)</span>
-    <span style="color:#00AA00">M </span>590:4 NpmDependencyParser.restrict_versions - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#AA00AA">F </span>978:0 get_ecosystem_solver - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>1005:0 get_ecosystem_parser - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>545:4 NpmDependencyParser._parse_npm - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>235:4 NugetReleasesFetcher.scrape_versions_from_nuget_org - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>323:4 GolangReleasesFetcher.fetch_releases - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>186:4 RubyGemsReleasesFetcher._search_package_name - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>275:4 MavenReleasesFetcher.releases_from_maven_org - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>439:4 DependencyParser.compose_sep - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>123:4 PypiReleasesFetcher.fetch_releases - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>155:4 NpmReleasesFetcher.fetch_releases - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>200:4 RubyGemsReleasesFetcher.fetch_releases - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AAAA">C </span>316:0 GolangReleasesFetcher - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AAAA">C </span>534:0 NpmDependencyParser - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>926:4 MavenSolver._dependencies_from_pom_xml - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>943:4 MavenSolver._resolve_versions - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AAAA">C </span>116:0 PypiReleasesFetcher - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>148:0 NpmReleasesFetcher - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>179:0 RubyGemsReleasesFetcher - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>228:0 NugetReleasesFetcher - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>268:0 MavenReleasesFetcher - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>304:4 MavenReleasesFetcher.fetch_releases - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>399:4 Dependency.check - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>432:0 DependencyParser - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>459:4 PypiDependencyParser._parse_python - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>537:4 NpmDependencyParser._parse_npm_tokens - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>574:4 NpmDependencyParser.parse - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>729:4 GolangDependencyParser.parse - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>751:0 Solver - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>814:0 PypiSolver - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>817:4 PypiSolver.__init__ - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>824:0 NpmSolver - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>827:4 NpmSolver.__init__ - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>834:0 RubyGemsSolver - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>837:4 RubyGemsSolver.__init__ - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>844:0 NugetSolver - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>851:4 NugetSolver.__init__ - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>872:0 GolangSolver - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>875:4 GolangSolver.__init__ - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>881:4 GolangSolver.solve - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>893:0 MavenSolver - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>901:4 MavenSolver._generate_pom_xml - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>963:4 MavenSolver.solve - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>255:4 NugetReleasesFetcher.fetch_releases - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AAAA">C </span>347:0 F8aReleasesFetcher - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>355:4 F8aReleasesFetcher.fetch_releases - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>395:4 Dependency.__eq__ - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AAAA">C </span>456:0 PypiDependencyParser - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>519:4 PypiDependencyParser.parse - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>711:4 NoOpDependencyParser.parse - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AAAA">C </span>726:0 GolangDependencyParser - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AAAA">C </span>859:0 MavenManualSolver - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>865:4 MavenManualSolver.__init__ - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>43:0 compare_version - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>30:0 SolverException - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>36:0 Tokens - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>99:0 ReleasesFetcher - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>102:4 ReleasesFetcher.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>106:4 ReleasesFetcher.ecosystem - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>111:4 ReleasesFetcher.fetch_releases - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>119:4 PypiReleasesFetcher.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>151:4 NpmReleasesFetcher.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>182:4 RubyGemsReleasesFetcher.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>231:4 NugetReleasesFetcher.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>271:4 MavenReleasesFetcher.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>319:4 GolangReleasesFetcher.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>350:4 F8aReleasesFetcher.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>366:0 Dependency - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>369:4 Dependency.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>377:4 Dependency.name - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>382:4 Dependency.spec - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>387:4 Dependency.__contains__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>391:4 Dependency.__repr__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>435:4 DependencyParser.parse - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>523:4 PypiDependencyParser.compose - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>528:4 PypiDependencyParser.restrict_versions - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>585:4 NpmDependencyParser.compose - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>635:0 OSSIndexDependencyParser - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>638:4 OSSIndexDependencyParser._parse_npm - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>708:0 NoOpDependencyParser - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>715:4 NoOpDependencyParser.compose - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>720:4 NoOpDependencyParser.restrict_versions - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>740:4 GolangDependencyParser.compose - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>745:4 GolangDependencyParser.restrict_versions - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>754:4 Solver.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>761:4 Solver.dependency_parser - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>766:4 Solver.release_fetcher - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>957:4 MavenSolver.is_version_range - <span style="color:#00AA00">A (1)</span>
+    C 647:0 NugetDependencyParser - C (12)
+    M 650:4 NugetDependencyParser.parse - C (12)
+    M 771:4 Solver.solve - B (10)
+    M 590:4 NpmDependencyParser.restrict_versions - B (9)
+    F 978:0 get_ecosystem_solver - B (8)
+    F 1005:0 get_ecosystem_parser - B (7)
+    M 545:4 NpmDependencyParser._parse_npm - B (7)
+    M 235:4 NugetReleasesFetcher.scrape_versions_from_nuget_org - B (6)
+    M 323:4 GolangReleasesFetcher.fetch_releases - B (6)
+    M 186:4 RubyGemsReleasesFetcher._search_package_name - A (5)
+    M 275:4 MavenReleasesFetcher.releases_from_maven_org - A (5)
+    M 439:4 DependencyParser.compose_sep - A (5)
+    M 123:4 PypiReleasesFetcher.fetch_releases - A (4)
+    M 155:4 NpmReleasesFetcher.fetch_releases - A (4)
+    M 200:4 RubyGemsReleasesFetcher.fetch_releases - A (4)
+    C 316:0 GolangReleasesFetcher - A (4)
+    C 534:0 NpmDependencyParser - A (4)
+    M 926:4 MavenSolver._dependencies_from_pom_xml - A (4)
+    M 943:4 MavenSolver._resolve_versions - A (4)
+    C 116:0 PypiReleasesFetcher - A (3)
+    C 148:0 NpmReleasesFetcher - A (3)
+    C 179:0 RubyGemsReleasesFetcher - A (3)
+    C 228:0 NugetReleasesFetcher - A (3)
+    C 268:0 MavenReleasesFetcher - A (3)
+    M 304:4 MavenReleasesFetcher.fetch_releases - A (3)
+    M 399:4 Dependency.check - A (3)
+    C 432:0 DependencyParser - A (3)
+    M 459:4 PypiDependencyParser._parse_python - A (3)
+    M 537:4 NpmDependencyParser._parse_npm_tokens - A (3)
+    M 574:4 NpmDependencyParser.parse - A (3)
+    M 729:4 GolangDependencyParser.parse - A (3)
+    C 751:0 Solver - A (3)
+    C 814:0 PypiSolver - A (3)
+    M 817:4 PypiSolver.__init__ - A (3)
+    C 824:0 NpmSolver - A (3)
+    M 827:4 NpmSolver.__init__ - A (3)
+    C 834:0 RubyGemsSolver - A (3)
+    M 837:4 RubyGemsSolver.__init__ - A (3)
+    C 844:0 NugetSolver - A (3)
+    M 851:4 NugetSolver.__init__ - A (3)
+    C 872:0 GolangSolver - A (3)
+    M 875:4 GolangSolver.__init__ - A (3)
+    M 881:4 GolangSolver.solve - A (3)
+    C 893:0 MavenSolver - A (3)
+    M 901:4 MavenSolver._generate_pom_xml - A (3)
+    M 963:4 MavenSolver.solve - A (3)
+    M 255:4 NugetReleasesFetcher.fetch_releases - A (2)
+    C 347:0 F8aReleasesFetcher - A (2)
+    M 355:4 F8aReleasesFetcher.fetch_releases - A (2)
+    M 395:4 Dependency.__eq__ - A (2)
+    C 456:0 PypiDependencyParser - A (2)
+    M 519:4 PypiDependencyParser.parse - A (2)
+    M 711:4 NoOpDependencyParser.parse - A (2)
+    C 726:0 GolangDependencyParser - A (2)
+    C 859:0 MavenManualSolver - A (2)
+    M 865:4 MavenManualSolver.__init__ - A (2)
+    F 43:0 compare_version - A (1)
+    C 30:0 SolverException - A (1)
+    C 36:0 Tokens - A (1)
+    C 99:0 ReleasesFetcher - A (1)
+    M 102:4 ReleasesFetcher.__init__ - A (1)
+    M 106:4 ReleasesFetcher.ecosystem - A (1)
+    M 111:4 ReleasesFetcher.fetch_releases - A (1)
+    M 119:4 PypiReleasesFetcher.__init__ - A (1)
+    M 151:4 NpmReleasesFetcher.__init__ - A (1)
+    M 182:4 RubyGemsReleasesFetcher.__init__ - A (1)
+    M 231:4 NugetReleasesFetcher.__init__ - A (1)
+    M 271:4 MavenReleasesFetcher.__init__ - A (1)
+    M 319:4 GolangReleasesFetcher.__init__ - A (1)
+    M 350:4 F8aReleasesFetcher.__init__ - A (1)
+    C 366:0 Dependency - A (1)
+    M 369:4 Dependency.__init__ - A (1)
+    M 377:4 Dependency.name - A (1)
+    M 382:4 Dependency.spec - A (1)
+    M 387:4 Dependency.__contains__ - A (1)
+    M 391:4 Dependency.__repr__ - A (1)
+    M 435:4 DependencyParser.parse - A (1)
+    M 523:4 PypiDependencyParser.compose - A (1)
+    M 528:4 PypiDependencyParser.restrict_versions - A (1)
+    M 585:4 NpmDependencyParser.compose - A (1)
+    C 635:0 OSSIndexDependencyParser - A (1)
+    M 638:4 OSSIndexDependencyParser._parse_npm - A (1)
+    C 708:0 NoOpDependencyParser - A (1)
+    M 715:4 NoOpDependencyParser.compose - A (1)
+    M 720:4 NoOpDependencyParser.restrict_versions - A (1)
+    M 740:4 GolangDependencyParser.compose - A (1)
+    M 745:4 GolangDependencyParser.restrict_versions - A (1)
+    M 754:4 Solver.__init__ - A (1)
+    M 761:4 Solver.dependency_parser - A (1)
+    M 766:4 Solver.release_fetcher - A (1)
+    M 957:4 MavenSolver.is_version_range - A (1)
 f8a_worker/process.py
-    <span style="color:#00AA00">M </span>524:4 IndianaJones.fetch_artifact - <span style="color:#00AA00">B (10)</span>
-    <span style="color:#00AA00">M </span>43:4 Git.clone - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#00AA00">M </span>276:4 IndianaJones.download_file - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#00AA00">M </span>307:4 IndianaJones.fetch_maven_artifact - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>208:4 Archive.extract - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AAAA">C </span>273:0 IndianaJones - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>431:4 IndianaJones.fetch_pypi_artifact - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>152:4 Git.archive - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>340:4 IndianaJones.fetch_npm_artifact - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>474:4 IndianaJones.fetch_rubygems_artifact - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>29:4 Git.config - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>114:4 Git.rev_parse - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>174:4 Git.reset - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>182:4 Git.ls_remote - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>231:4 Archive.extract_zip - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>500:4 IndianaJones.fetch_go_artifact - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>22:0 Git - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>97:4 Git.commit - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>127:4 Git.add - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AAAA">C </span>203:0 Archive - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>221:4 Archive.zip_file - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>255:4 Archive.extract_gem - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>300:4 IndianaJones.get_revision - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>414:4 IndianaJones.fetch_nuget_artifact - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>25:4 Git.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>86:4 Git.create_git - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>107:4 Git.log - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>135:4 Git.add_and_commit_everything - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>244:4 Archive.extract_tar - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>250:4 Archive.fix_permissions - <span style="color:#00AA00">A (1)</span>
+    M 524:4 IndianaJones.fetch_artifact - B (10)
+    M 43:4 Git.clone - B (9)
+    M 276:4 IndianaJones.download_file - B (8)
+    M 307:4 IndianaJones.fetch_maven_artifact - B (7)
+    M 208:4 Archive.extract - A (5)
+    C 273:0 IndianaJones - A (5)
+    M 431:4 IndianaJones.fetch_pypi_artifact - A (5)
+    M 152:4 Git.archive - A (4)
+    M 340:4 IndianaJones.fetch_npm_artifact - A (4)
+    M 474:4 IndianaJones.fetch_rubygems_artifact - A (4)
+    M 29:4 Git.config - A (3)
+    M 114:4 Git.rev_parse - A (3)
+    M 174:4 Git.reset - A (3)
+    M 182:4 Git.ls_remote - A (3)
+    M 231:4 Archive.extract_zip - A (3)
+    M 500:4 IndianaJones.fetch_go_artifact - A (3)
+    C 22:0 Git - A (2)
+    M 97:4 Git.commit - A (2)
+    M 127:4 Git.add - A (2)
+    C 203:0 Archive - A (2)
+    M 221:4 Archive.zip_file - A (2)
+    M 255:4 Archive.extract_gem - A (2)
+    M 300:4 IndianaJones.get_revision - A (2)
+    M 414:4 IndianaJones.fetch_nuget_artifact - A (2)
+    M 25:4 Git.__init__ - A (1)
+    M 86:4 Git.create_git - A (1)
+    M 107:4 Git.log - A (1)
+    M 135:4 Git.add_and_commit_everything - A (1)
+    M 244:4 Archive.extract_tar - A (1)
+    M 250:4 Archive.fix_permissions - A (1)
 f8a_worker/manifests.py
-    <span style="color:#AA00AA">F </span>22:0 get_manifest_descriptor_by_filename - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>56:0 json_validator - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>65:0 xml_validator - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>75:0 yaml_validator - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>84:0 python_validator - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>13:0 register_manifest_descriptor - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>30:0 ManifestDescriptor - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>33:4 ManifestDescriptor.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>51:4 ManifestDescriptor.validate - <span style="color:#00AA00">A (1)</span>
+    F 22:0 get_manifest_descriptor_by_filename - A (3)
+    F 56:0 json_validator - A (2)
+    F 65:0 xml_validator - A (2)
+    F 75:0 yaml_validator - A (2)
+    F 84:0 python_validator - A (2)
+    F 13:0 register_manifest_descriptor - A (1)
+    C 30:0 ManifestDescriptor - A (1)
+    M 33:4 ManifestDescriptor.__init__ - A (1)
+    M 51:4 ManifestDescriptor.validate - A (1)
 f8a_worker/base.py
-    <span style="color:#00AA00">M </span>66:4 BaseTask.run - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#00AA00">M </span>140:4 BaseTask.validate_result - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>20:0 BaseTask - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>34:4 BaseTask._strict_assert - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>133:4 BaseTask.create_test_instance - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>28:4 BaseTask.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>43:4 BaseTask._add_audit_info - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>159:4 BaseTask.execute - <span style="color:#00AA00">A (1)</span>
+    M 66:4 BaseTask.run - B (9)
+    M 140:4 BaseTask.validate_result - A (3)
+    C 20:0 BaseTask - A (2)
+    M 34:4 BaseTask._strict_assert - A (2)
+    M 133:4 BaseTask.create_test_instance - A (2)
+    M 28:4 BaseTask.__init__ - A (1)
+    M 43:4 BaseTask._add_audit_info - A (1)
+    M 159:4 BaseTask.execute - A (1)
 f8a_worker/schemas.py
-    <span style="color:#00AA00">M </span>236:4 BundledDynamicSchemaLibrary._load_all_schema_refs - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>367:0 get_schema_ref - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>407:0 assert_no_two_consecutive_schemas_are_same - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>221:4 BundledDynamicSchemaLibrary.load_schema_class_and_role - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AAAA">C </span>207:0 BundledDynamicSchemaLibrary - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>397:0 schema_version_comparator_key - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AAAA">C </span>47:0 JSLSchemaBase - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>54:4 JSLSchemaBase.get_schema - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AAAA">C </span>158:0 AbstractSchemaLibrary - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>161:4 AbstractSchemaLibrary.load_schema - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AAAA">C </span>175:0 SchemaLibrary - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>185:4 SchemaLibrary.read_binary_schema - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>260:4 BundledDynamicSchemaLibrary.load_all_jsl_definitions - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>269:4 BundledDynamicSchemaLibrary.load_all_schemas - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>324:4 SchemaValidator._ensure_schema - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>15:0 added_in - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>26:0 removed_in - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>385:0 pop_schema_ref - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>392:0 set_schema_ref - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>37:0 JSLWithSchemaAttribute - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>76:0 JSLSchemaBaseWithRelease - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>85:0 SchemaRef - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>90:4 SchemaRef.__str__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>95:4 SchemaRef._split_version_info - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>99:4 SchemaRef._replace_version_info - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>104:4 SchemaRef.next_addition - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>109:4 SchemaRef.next_revision - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>114:4 SchemaRef.next_model - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>120:0 SchemaLookupError - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>123:4 SchemaLookupError.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>127:4 SchemaLookupError.__str__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>132:0 SchemaModuleAttributeError - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>135:4 SchemaModuleAttributeError.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>140:4 SchemaModuleAttributeError.__str__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>146:0 SchemaImportError - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>149:4 SchemaImportError.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>153:4 SchemaImportError.__str__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>169:4 AbstractSchemaLibrary.read_binary_schema - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>178:4 SchemaLibrary.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>192:0 BundledSchemaLibrary - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>195:4 BundledSchemaLibrary.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>201:4 BundledSchemaLibrary.read_binary_schema - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>210:4 BundledDynamicSchemaLibrary.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>216:4 BundledDynamicSchemaLibrary.read_binary_schema - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>289:0 SchemaValidator - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>319:4 SchemaValidator.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>331:4 SchemaValidator.input - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>350:4 SchemaValidator.result - <span style="color:#00AA00">A (1)</span>
+    M 236:4 BundledDynamicSchemaLibrary._load_all_schema_refs - B (8)
+    F 367:0 get_schema_ref - B (6)
+    F 407:0 assert_no_two_consecutive_schemas_are_same - B (6)
+    M 221:4 BundledDynamicSchemaLibrary.load_schema_class_and_role - A (4)
+    C 207:0 BundledDynamicSchemaLibrary - A (3)
+    F 397:0 schema_version_comparator_key - A (2)
+    C 47:0 JSLSchemaBase - A (2)
+    M 54:4 JSLSchemaBase.get_schema - A (2)
+    C 158:0 AbstractSchemaLibrary - A (2)
+    M 161:4 AbstractSchemaLibrary.load_schema - A (2)
+    C 175:0 SchemaLibrary - A (2)
+    M 185:4 SchemaLibrary.read_binary_schema - A (2)
+    M 260:4 BundledDynamicSchemaLibrary.load_all_jsl_definitions - A (2)
+    M 269:4 BundledDynamicSchemaLibrary.load_all_schemas - A (2)
+    M 324:4 SchemaValidator._ensure_schema - A (2)
+    F 15:0 added_in - A (1)
+    F 26:0 removed_in - A (1)
+    F 385:0 pop_schema_ref - A (1)
+    F 392:0 set_schema_ref - A (1)
+    C 37:0 JSLWithSchemaAttribute - A (1)
+    C 76:0 JSLSchemaBaseWithRelease - A (1)
+    C 85:0 SchemaRef - A (1)
+    M 90:4 SchemaRef.__str__ - A (1)
+    M 95:4 SchemaRef._split_version_info - A (1)
+    M 99:4 SchemaRef._replace_version_info - A (1)
+    M 104:4 SchemaRef.next_addition - A (1)
+    M 109:4 SchemaRef.next_revision - A (1)
+    M 114:4 SchemaRef.next_model - A (1)
+    C 120:0 SchemaLookupError - A (1)
+    M 123:4 SchemaLookupError.__init__ - A (1)
+    M 127:4 SchemaLookupError.__str__ - A (1)
+    C 132:0 SchemaModuleAttributeError - A (1)
+    M 135:4 SchemaModuleAttributeError.__init__ - A (1)
+    M 140:4 SchemaModuleAttributeError.__str__ - A (1)
+    C 146:0 SchemaImportError - A (1)
+    M 149:4 SchemaImportError.__init__ - A (1)
+    M 153:4 SchemaImportError.__str__ - A (1)
+    M 169:4 AbstractSchemaLibrary.read_binary_schema - A (1)
+    M 178:4 SchemaLibrary.__init__ - A (1)
+    C 192:0 BundledSchemaLibrary - A (1)
+    M 195:4 BundledSchemaLibrary.__init__ - A (1)
+    M 201:4 BundledSchemaLibrary.read_binary_schema - A (1)
+    M 210:4 BundledDynamicSchemaLibrary.__init__ - A (1)
+    M 216:4 BundledDynamicSchemaLibrary.read_binary_schema - A (1)
+    C 289:0 SchemaValidator - A (1)
+    M 319:4 SchemaValidator.__init__ - A (1)
+    M 331:4 SchemaValidator.input - A (1)
+    M 350:4 SchemaValidator.result - A (1)
 f8a_worker/enums.py
-    <span style="color:#00AAAA">C </span>6:0 EcosystemBackend - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>17:0 SortOrder - <span style="color:#00AA00">A (1)</span>
+    C 6:0 EcosystemBackend - A (1)
+    C 17:0 SortOrder - A (1)
 f8a_worker/errors.py
-    <span style="color:#00AAAA">C </span>5:0 TaskError - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>9:0 NotABugTaskError - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>16:0 NotABugFatalTaskError - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>23:0 F8AConfigurationException - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>27:0 TaskAlreadyExistsError - <span style="color:#00AA00">A (1)</span>
+    C 5:0 TaskError - A (1)
+    C 9:0 NotABugTaskError - A (1)
+    C 16:0 NotABugFatalTaskError - A (1)
+    C 23:0 F8AConfigurationException - A (1)
+    C 27:0 TaskAlreadyExistsError - A (1)
 f8a_worker/celery_settings.py
-    <span style="color:#AA00AA">F </span>12:0 _use_sqs - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AAAA">C </span>38:0 CelerySettings - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>88:0 configure_logging - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>78:4 CelerySettings.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>82:4 CelerySettings.disable_result_backend - <span style="color:#00AA00">A (1)</span>
+    F 12:0 _use_sqs - A (5)
+    C 38:0 CelerySettings - A (3)
+    F 88:0 configure_logging - A (2)
+    M 78:4 CelerySettings.__init__ - A (1)
+    M 82:4 CelerySettings.disable_result_backend - A (1)
 f8a_worker/defaults.py
-    <span style="color:#00AA00">M </span>151:4 F8AConfiguration.libraries_io_project_url - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>123:4 F8AConfiguration._decide_token_usage - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>134:4 F8AConfiguration.select_random_github_token - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>17:0 F8AConfiguration - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>177:4 F8AConfiguration.dependency_check_script_path - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>20:4 F8AConfiguration._make_postgres_string - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>109:4 F8AConfiguration.is_local_deployment - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>114:4 F8AConfiguration._rate_limit_exceeded - <span style="color:#00AA00">A (1)</span>
+    M 151:4 F8AConfiguration.libraries_io_project_url - A (5)
+    M 123:4 F8AConfiguration._decide_token_usage - A (3)
+    M 134:4 F8AConfiguration.select_random_github_token - A (3)
+    C 17:0 F8AConfiguration - A (2)
+    M 177:4 F8AConfiguration.dependency_check_script_path - A (2)
+    M 20:4 F8AConfiguration._make_postgres_string - A (1)
+    M 109:4 F8AConfiguration.is_local_deployment - A (1)
+    M 114:4 F8AConfiguration._rate_limit_exceeded - A (1)
 f8a_worker/dispatcher/selective.py
-    <span style="color:#AA00AA">F </span>8:0 selective_run_function - <span style="color:#00AA00">A (4)</span>
+    F 8:0 selective_run_function - A (4)
 f8a_worker/dispatcher/trace.py
-    <span style="color:#AA00AA">F </span>26:0 trace_func - <span style="color:#00AA00">A (3)</span>
+    F 26:0 trace_func - A (3)
 f8a_worker/dispatcher/predicates.py
-    <span style="color:#AA00AA">F </span>10:0 isGhRepo - <span style="color:#00AA00">A (4)</span>
+    F 10:0 isGhRepo - A (4)
 f8a_worker/dispatcher/foreach.py
-    <span style="color:#AA00AA">F </span>39:0 iter_dependencies_analysis - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>27:0 _is_url_dependency - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>68:0 iter_dependencies_stack - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>98:0 iter_unknown_dependencies - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>15:0 _create_analysis_arguments - <span style="color:#00AA00">A (2)</span>
+    F 39:0 iter_dependencies_analysis - B (6)
+    F 27:0 _is_url_dependency - A (5)
+    F 68:0 iter_dependencies_stack - A (5)
+    F 98:0 iter_unknown_dependencies - A (5)
+    F 15:0 _create_analysis_arguments - A (2)
 f8a_worker/data_normalizer/javascript.py
-    <span style="color:#00AA00">M </span>110:4 NpmDataNormalizer._transform_code_repository - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#00AA00">M </span>78:4 NpmDataNormalizer._transform_author - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>89:4 NpmDataNormalizer._transform_contributors - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>189:4 NpmDataNormalizer._transform_engines - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>57:4 NpmDataNormalizer._are_tests_implemented - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>137:4 NpmDataNormalizer._transform_declared_licenses - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>168:4 NpmDataNormalizer._transform_declared_licenses_list - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>204:4 NpmDataNormalizer._transform_engines_list - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>102:4 NpmDataNormalizer._transform_maintainers - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>178:4 NpmDataNormalizer._transform_dependencies - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>237:4 NpmDataNormalizer._transform_dependency_lock_file - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AAAA">C </span>7:0 NpmDataNormalizer - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>162:4 NpmDataNormalizer._transform_declared_licenses_dict - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>74:4 NpmDataNormalizer._transform_bug_reporting - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>156:4 NpmDataNormalizer._transform_declared_licenses_str - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>217:4 NpmDataNormalizer._transform_engines_str - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>225:4 NpmDataNormalizer._transform_keywords - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>229:4 NpmDataNormalizer._transform_files - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>233:4 NpmDataNormalizer._transform_homepage - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>35:4 NpmDataNormalizer.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>39:4 NpmDataNormalizer.normalize - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>267:4 NpmDataNormalizer._transform_tests_implemented - <span style="color:#00AA00">A (1)</span>
+    M 110:4 NpmDataNormalizer._transform_code_repository - B (8)
+    M 78:4 NpmDataNormalizer._transform_author - B (6)
+    M 89:4 NpmDataNormalizer._transform_contributors - B (6)
+    M 189:4 NpmDataNormalizer._transform_engines - B (6)
+    M 57:4 NpmDataNormalizer._are_tests_implemented - A (5)
+    M 137:4 NpmDataNormalizer._transform_declared_licenses - A (5)
+    M 168:4 NpmDataNormalizer._transform_declared_licenses_list - A (5)
+    M 204:4 NpmDataNormalizer._transform_engines_list - A (5)
+    M 102:4 NpmDataNormalizer._transform_maintainers - A (4)
+    M 178:4 NpmDataNormalizer._transform_dependencies - A (4)
+    M 237:4 NpmDataNormalizer._transform_dependency_lock_file - A (4)
+    C 7:0 NpmDataNormalizer - A (3)
+    M 162:4 NpmDataNormalizer._transform_declared_licenses_dict - A (3)
+    M 74:4 NpmDataNormalizer._transform_bug_reporting - A (2)
+    M 156:4 NpmDataNormalizer._transform_declared_licenses_str - A (2)
+    M 217:4 NpmDataNormalizer._transform_engines_str - A (2)
+    M 225:4 NpmDataNormalizer._transform_keywords - A (2)
+    M 229:4 NpmDataNormalizer._transform_files - A (2)
+    M 233:4 NpmDataNormalizer._transform_homepage - A (2)
+    M 35:4 NpmDataNormalizer.__init__ - A (1)
+    M 39:4 NpmDataNormalizer.normalize - A (1)
+    M 267:4 NpmDataNormalizer._transform_tests_implemented - A (1)
 f8a_worker/data_normalizer/python.py
-    <span style="color:#00AA00">M </span>61:4 PythonDistDataNormalizer.normalize - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#00AAAA">C </span>42:0 PythonDistDataNormalizer - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AAAA">C </span>6:0 PythonDataNormalizer - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>25:4 PythonDataNormalizer.normalize - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>18:4 PythonDataNormalizer.__init__ - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>57:4 PythonDistDataNormalizer.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>107:0 PythonRequirementsTxtDataNormalizer - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>113:4 PythonRequirementsTxtDataNormalizer.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>117:4 PythonRequirementsTxtDataNormalizer.normalize - <span style="color:#00AA00">A (1)</span>
+    M 61:4 PythonDistDataNormalizer.normalize - B (9)
+    C 42:0 PythonDistDataNormalizer - A (5)
+    C 6:0 PythonDataNormalizer - A (3)
+    M 25:4 PythonDataNormalizer.normalize - A (3)
+    M 18:4 PythonDataNormalizer.__init__ - A (2)
+    M 57:4 PythonDistDataNormalizer.__init__ - A (1)
+    C 107:0 PythonRequirementsTxtDataNormalizer - A (1)
+    M 113:4 PythonRequirementsTxtDataNormalizer.__init__ - A (1)
+    M 117:4 PythonRequirementsTxtDataNormalizer.normalize - A (1)
 f8a_worker/data_normalizer/__init__.py
-    <span style="color:#AA00AA">F </span>67:0 _main - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>28:0 normalize - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>56:0 _dict2json - <span style="color:#00AA00">A (2)</span>
+    F 67:0 _main - A (4)
+    F 28:0 normalize - A (3)
+    F 56:0 _dict2json - A (2)
 f8a_worker/data_normalizer/csharp.py
-    <span style="color:#00AA00">M </span>26:4 NugetDataNormalizer.normalize - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#00AA00">M </span>60:4 NugetDataNormalizer._transform_licenses - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AAAA">C </span>7:0 NugetDataNormalizer - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>78:4 NugetDataNormalizer._transform_dependencies - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>21:4 NugetDataNormalizer.__init__ - <span style="color:#00AA00">A (1)</span>
+    M 26:4 NugetDataNormalizer.normalize - B (9)
+    M 60:4 NugetDataNormalizer._transform_licenses - B (6)
+    C 7:0 NugetDataNormalizer - A (5)
+    M 78:4 NugetDataNormalizer._transform_dependencies - A (4)
+    M 21:4 NugetDataNormalizer.__init__ - A (1)
 f8a_worker/data_normalizer/abstract.py
-    <span style="color:#00AA00">M </span>33:4 AbstractDataNormalizer._transform_keys - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>84:4 AbstractDataNormalizer._split_keywords - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>63:4 AbstractDataNormalizer._join_name_email - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AAAA">C </span>8:0 AbstractDataNormalizer - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>100:4 AbstractDataNormalizer._identify_gh_repo - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>20:4 AbstractDataNormalizer.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>29:4 AbstractDataNormalizer.normalize - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>79:4 AbstractDataNormalizer._rf - <span style="color:#00AA00">A (1)</span>
+    M 33:4 AbstractDataNormalizer._transform_keys - B (7)
+    M 84:4 AbstractDataNormalizer._split_keywords - B (6)
+    M 63:4 AbstractDataNormalizer._join_name_email - A (5)
+    C 8:0 AbstractDataNormalizer - A (3)
+    M 100:4 AbstractDataNormalizer._identify_gh_repo - A (2)
+    M 20:4 AbstractDataNormalizer.__init__ - A (1)
+    M 29:4 AbstractDataNormalizer.normalize - A (1)
+    M 79:4 AbstractDataNormalizer._rf - A (1)
 f8a_worker/data_normalizer/java.py
-    <span style="color:#00AA00">M </span>26:4 MavenDataNormalizer.normalize - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AAAA">C </span>7:0 MavenDataNormalizer - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>74:4 GradleDataNormalizer.normalize - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AAAA">C </span>64:0 GradleDataNormalizer - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>88:4 GradleDataNormalizer._parse_gradle_dependencies - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>21:4 MavenDataNormalizer.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>70:4 GradleDataNormalizer.__init__ - <span style="color:#00AA00">A (1)</span>
+    M 26:4 MavenDataNormalizer.normalize - B (7)
+    C 7:0 MavenDataNormalizer - A (4)
+    M 74:4 GradleDataNormalizer.normalize - A (4)
+    C 64:0 GradleDataNormalizer - A (2)
+    M 88:4 GradleDataNormalizer._parse_gradle_dependencies - A (2)
+    M 21:4 MavenDataNormalizer.__init__ - A (1)
+    M 70:4 GradleDataNormalizer.__init__ - A (1)
 f8a_worker/data_normalizer/go.py
-    <span style="color:#00AA00">M </span>23:4 GoGlideDataNormalizer.normalize - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>49:4 GoGlideDataNormalizer._import2dependencies - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AAAA">C </span>7:0 GoGlideDataNormalizer - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>92:4 GodepsDataNormalizer.normalize - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>128:4 GoFedlibDataNormalizer.normalize - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>76:0 GodepsDataNormalizer - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AAAA">C </span>112:0 GoFedlibDataNormalizer - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>19:4 GoGlideDataNormalizer.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>88:4 GodepsDataNormalizer.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>124:4 GoFedlibDataNormalizer.__init__ - <span style="color:#00AA00">A (1)</span>
+    M 23:4 GoGlideDataNormalizer.normalize - A (5)
+    M 49:4 GoGlideDataNormalizer._import2dependencies - A (4)
+    C 7:0 GoGlideDataNormalizer - A (3)
+    M 92:4 GodepsDataNormalizer.normalize - A (3)
+    M 128:4 GoFedlibDataNormalizer.normalize - A (3)
+    C 76:0 GodepsDataNormalizer - A (2)
+    C 112:0 GoFedlibDataNormalizer - A (2)
+    M 19:4 GoGlideDataNormalizer.__init__ - A (1)
+    M 88:4 GodepsDataNormalizer.__init__ - A (1)
+    M 124:4 GoFedlibDataNormalizer.__init__ - A (1)
 f8a_worker/storages/s3_mavenindex.py
-    <span style="color:#00AA00">M </span>22:4 S3MavenIndex.store_index - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AAAA">C </span>13:0 S3MavenIndex - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>34:4 S3MavenIndex.retrieve_index_if_exists - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>46:4 S3MavenIndex.get_last_offset - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>64:4 S3MavenIndex.set_last_offset - <span style="color:#00AA00">A (1)</span>
+    M 22:4 S3MavenIndex.store_index - A (4)
+    C 13:0 S3MavenIndex - A (3)
+    M 34:4 S3MavenIndex.retrieve_index_if_exists - A (3)
+    M 46:4 S3MavenIndex.get_last_offset - A (3)
+    M 64:4 S3MavenIndex.set_last_offset - A (1)
 f8a_worker/storages/s3_data_base.py
-    <span style="color:#00AA00">M </span>14:4 S3DataBase._base_file_content - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>53:4 S3DataBase.store_base_file_record - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AAAA">C </span>11:0 S3DataBase - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>32:4 S3DataBase._construct_base_file_name - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>41:4 S3DataBase._construct_task_result_object_key - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>86:4 S3DataBase.store_task_result - <span style="color:#00AA00">A (1)</span>
+    M 14:4 S3DataBase._base_file_content - A (5)
+    M 53:4 S3DataBase.store_base_file_record - A (4)
+    C 11:0 S3DataBase - A (2)
+    M 32:4 S3DataBase._construct_base_file_name - A (1)
+    M 41:4 S3DataBase._construct_task_result_object_key - A (1)
+    M 86:4 S3DataBase.store_task_result - A (1)
 f8a_worker/storages/s3_crowd_source_tags.py
-    <span style="color:#00AAAA">C </span>6:0 S3CrowdSourceTags - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>9:4 S3CrowdSourceTags.get_object_key_path - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>14:4 S3CrowdSourceTags.retrieve_package_topic - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>20:4 S3CrowdSourceTags.store_package_topic - <span style="color:#00AA00">A (1)</span>
+    C 6:0 S3CrowdSourceTags - A (1)
+    M 9:4 S3CrowdSourceTags.get_object_key_path - A (1)
+    M 14:4 S3CrowdSourceTags.retrieve_package_topic - A (1)
+    M 20:4 S3CrowdSourceTags.store_package_topic - A (1)
 f8a_worker/storages/s3_readme.py
-    <span style="color:#00AA00">M </span>19:4 S3Readme.store - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AAAA">C </span>6:0 S3Readme - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>9:4 S3Readme._construct_object_key - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>14:4 S3Readme.retrieve_readme_json - <span style="color:#00AA00">A (1)</span>
+    M 19:4 S3Readme.store - A (4)
+    C 6:0 S3Readme - A (2)
+    M 9:4 S3Readme._construct_object_key - A (1)
+    M 14:4 S3Readme.retrieve_readme_json - A (1)
 f8a_worker/storages/s3_package_data.py
-    <span style="color:#00AA00">M </span>11:4 S3PackageData._construct_base_file_name - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>8:0 S3PackageData - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>22:4 S3PackageData.construct_task_result_object_key - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>29:4 S3PackageData.retrieve_task_result - <span style="color:#00AA00">A (1)</span>
+    M 11:4 S3PackageData._construct_base_file_name - A (3)
+    C 8:0 S3PackageData - A (2)
+    M 22:4 S3PackageData.construct_task_result_object_key - A (1)
+    M 29:4 S3PackageData.retrieve_task_result - A (1)
 f8a_worker/storages/s3_manifests.py
-    <span style="color:#00AA00">M </span>17:4 S3Manifests.store - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AAAA">C </span>8:0 S3Manifests - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>11:4 S3Manifests._construct_object_key - <span style="color:#00AA00">A (2)</span>
+    M 17:4 S3Manifests.store - A (4)
+    C 8:0 S3Manifests - A (3)
+    M 11:4 S3Manifests._construct_object_key - A (2)
 f8a_worker/storages/postgres_base.py
-    <span style="color:#00AA00">M </span>35:4 PostgresBase.__init__ - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>84:4 PostgresBase.retrieve - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>131:4 PostgresBase.store_error - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AAAA">C </span>20:0 PostgresBase - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>117:4 PostgresBase.store - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>171:4 PostgresBase.is_real_task_result - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>78:4 PostgresBase.disconnect - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>164:4 PostgresBase.get_ecosystem - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>59:4 PostgresBase.is_connected - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>63:4 PostgresBase.connect - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>114:4 PostgresBase._create_result_entry - <span style="color:#00AA00">A (1)</span>
+    M 35:4 PostgresBase.__init__ - B (7)
+    M 84:4 PostgresBase.retrieve - B (6)
+    M 131:4 PostgresBase.store_error - B (6)
+    C 20:0 PostgresBase - A (3)
+    M 117:4 PostgresBase.store - A (3)
+    M 171:4 PostgresBase.is_real_task_result - A (3)
+    M 78:4 PostgresBase.disconnect - A (2)
+    M 164:4 PostgresBase.get_ecosystem - A (2)
+    M 59:4 PostgresBase.is_connected - A (1)
+    M 63:4 PostgresBase.connect - A (1)
+    M 114:4 PostgresBase._create_result_entry - A (1)
 f8a_worker/storages/s3_userintent.py
-    <span style="color:#00AA00">M </span>18:4 S3UserIntent.store_master_tags - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>6:0 S3UserIntent - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>9:4 S3UserIntent.store_in_bucket - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>25:4 S3UserIntent.fetch_master_tags - <span style="color:#00AA00">A (2)</span>
+    M 18:4 S3UserIntent.store_master_tags - A (3)
+    C 6:0 S3UserIntent - A (2)
+    M 9:4 S3UserIntent.store_in_bucket - A (2)
+    M 25:4 S3UserIntent.fetch_master_tags - A (2)
 f8a_worker/storages/s3_gocveartifact.py
-    <span style="color:#00AA00">M </span>17:4 S3IssuesPRs.store - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AAAA">C </span>9:0 S3IssuesPRs - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>12:4 S3IssuesPRs._construct_object_key - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>26:4 S3IssuesPRs.retrieve - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>34:4 S3IssuesPRs.store_error - <span style="color:#00AA00">A (1)</span>
+    M 17:4 S3IssuesPRs.store - A (2)
+    C 9:0 S3IssuesPRs - A (1)
+    M 12:4 S3IssuesPRs._construct_object_key - A (1)
+    M 26:4 S3IssuesPRs.retrieve - A (1)
+    M 34:4 S3IssuesPRs.store_error - A (1)
 f8a_worker/storages/s3_userprofilestore.py
-    <span style="color:#00AAAA">C </span>7:0 S3UserProfileStore - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>10:4 S3UserProfileStore.store_in_bucket - <span style="color:#00AA00">A (1)</span>
+    C 7:0 S3UserProfileStore - A (1)
+    M 10:4 S3UserProfileStore.store_in_bucket - A (1)
 f8a_worker/storages/s3_description_repository.py
-    <span style="color:#00AA00">M </span>19:4 S3RepositoryDescription.store - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>6:0 S3RepositoryDescription - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>9:4 S3RepositoryDescription._construct_object_key - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>14:4 S3RepositoryDescription.retrieve_repository_description - <span style="color:#00AA00">A (1)</span>
+    M 19:4 S3RepositoryDescription.store - A (3)
+    C 6:0 S3RepositoryDescription - A (2)
+    M 9:4 S3RepositoryDescription._construct_object_key - A (1)
+    M 14:4 S3RepositoryDescription.retrieve_repository_description - A (1)
 f8a_worker/storages/package_postgres.py
-    <span style="color:#00AA00">M </span>34:4 PackagePostgres._create_result_entry - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>124:4 PackagePostgres.get_latest_task_result - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>156:4 PackagePostgres.get_task_result_by_analysis_id - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AAAA">C </span>21:0 PackagePostgres - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>51:4 PackagePostgres.get_analysis_by_id - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>68:4 PackagePostgres.get_analysis_count - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>191:4 PackagePostgres.get_latest_task_entry - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>26:4 PackagePostgres.s3 - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>91:4 PackagePostgres.get_worker_id_count - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>105:4 PackagePostgres.get_finished_task_names - <span style="color:#00AA00">A (2)</span>
+    M 34:4 PackagePostgres._create_result_entry - B (7)
+    M 124:4 PackagePostgres.get_latest_task_result - A (5)
+    M 156:4 PackagePostgres.get_task_result_by_analysis_id - A (5)
+    C 21:0 PackagePostgres - A (3)
+    M 51:4 PackagePostgres.get_analysis_by_id - A (3)
+    M 68:4 PackagePostgres.get_analysis_count - A (3)
+    M 191:4 PackagePostgres.get_latest_task_entry - A (3)
+    M 26:4 PackagePostgres.s3 - A (2)
+    M 91:4 PackagePostgres.get_worker_id_count - A (2)
+    M 105:4 PackagePostgres.get_finished_task_names - A (2)
 f8a_worker/storages/s3_temp_artifacts.py
-    <span style="color:#00AAAA">C </span>9:0 S3TempArtifacts - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>29:4 S3TempArtifacts.__init__ - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>43:4 S3TempArtifacts._create_bucket - <span style="color:#00AA00">A (2)</span>
+    C 9:0 S3TempArtifacts - A (2)
+    M 29:4 S3TempArtifacts.__init__ - A (2)
+    M 43:4 S3TempArtifacts._create_bucket - A (2)
 f8a_worker/storages/s3_artifacts.py
-    <span style="color:#00AAAA">C </span>8:0 S3Artifacts - <span style="color:#00AA00">A (1)</span>
+    C 8:0 S3Artifacts - A (1)
 f8a_worker/storages/s3_data.py
-    <span style="color:#00AA00">M </span>11:4 S3Data._construct_base_file_name - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AAAA">C </span>8:0 S3Data - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>23:4 S3Data.construct_task_result_object_key - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>31:4 S3Data.retrieve_task_result - <span style="color:#00AA00">A (1)</span>
+    M 11:4 S3Data._construct_base_file_name - A (4)
+    C 8:0 S3Data - A (2)
+    M 23:4 S3Data.construct_task_result_object_key - A (1)
+    M 31:4 S3Data.retrieve_task_result - A (1)
 f8a_worker/storages/s3_manual_tagging.py
-    <span style="color:#00AA00">M </span>9:4 S3ManualTagging.store_user_data - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>6:0 S3ManualTagging - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>19:4 S3ManualTagging.fetch_user_data - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>29:4 S3ManualTagging.get_file_name - <span style="color:#00AA00">A (1)</span>
+    M 9:4 S3ManualTagging.store_user_data - A (3)
+    C 6:0 S3ManualTagging - A (2)
+    M 19:4 S3ManualTagging.fetch_user_data - A (1)
+    M 29:4 S3ManualTagging.get_file_name - A (1)
 f8a_worker/storages/s3_gh_manifests.py
-    <span style="color:#00AA00">M </span>20:4 S3GitHubManifestMetadata.store - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>6:0 S3GitHubManifestMetadata - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>9:4 S3GitHubManifestMetadata._construct_object_key - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>14:4 S3GitHubManifestMetadata.get_object_key_path - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>29:4 S3GitHubManifestMetadata.store_raw_manifest - <span style="color:#00AA00">A (1)</span>
+    M 20:4 S3GitHubManifestMetadata.store - A (3)
+    C 6:0 S3GitHubManifestMetadata - A (1)
+    M 9:4 S3GitHubManifestMetadata._construct_object_key - A (1)
+    M 14:4 S3GitHubManifestMetadata.get_object_key_path - A (1)
+    M 29:4 S3GitHubManifestMetadata.store_raw_manifest - A (1)
 f8a_worker/storages/postgres.py
-    <span style="color:#00AA00">M </span>38:4 BayesianPostgres._create_result_entry - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>54:4 BayesianPostgres.get_latest_task_result - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>214:4 BayesianPostgres.store_api_requests - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AAAA">C </span>25:0 BayesianPostgres - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>88:4 BayesianPostgres.get_latest_task_entry - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>117:4 BayesianPostgres.get_analysis_count - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>175:4 BayesianPostgres.get_analysis_by_id - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>30:4 BayesianPostgres.s3 - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>142:4 BayesianPostgres.get_finished_task_names - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>161:4 BayesianPostgres.get_worker_id_count - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>192:4 BayesianPostgres.check_api_user_entry - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>259:4 BayesianPostgres.get_analysed_versions - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>207:4 BayesianPostgres.store_in_bucket - <span style="color:#00AA00">A (1)</span>
+    M 38:4 BayesianPostgres._create_result_entry - B (7)
+    M 54:4 BayesianPostgres.get_latest_task_result - A (5)
+    M 214:4 BayesianPostgres.store_api_requests - A (5)
+    C 25:0 BayesianPostgres - A (3)
+    M 88:4 BayesianPostgres.get_latest_task_entry - A (3)
+    M 117:4 BayesianPostgres.get_analysis_count - A (3)
+    M 175:4 BayesianPostgres.get_analysis_by_id - A (3)
+    M 30:4 BayesianPostgres.s3 - A (2)
+    M 142:4 BayesianPostgres.get_finished_task_names - A (2)
+    M 161:4 BayesianPostgres.get_worker_id_count - A (2)
+    M 192:4 BayesianPostgres.check_api_user_entry - A (2)
+    M 259:4 BayesianPostgres.get_analysed_versions - A (2)
+    M 207:4 BayesianPostgres.store_in_bucket - A (1)
 f8a_worker/storages/s3.py
-    <span style="color:#00AA00">M </span>24:4 AmazonS3.__init__ - <span style="color:#AA5500">C (13)</span>
-    <span style="color:#00AA00">M </span>90:4 AmazonS3._create_bucket - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>179:4 AmazonS3.store_blob - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>70:4 AmazonS3._create_bucket_if_needed - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>119:4 AmazonS3.object_exists - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>222:4 AmazonS3.retrieve_latest_version_id - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>246:4 AmazonS3.store_error - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>15:0 AmazonS3 - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>164:4 AmazonS3.store_file - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>238:4 AmazonS3.is_enabled - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>61:4 AmazonS3.dict2blob - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>132:4 AmazonS3.connect - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>142:4 AmazonS3.is_connected - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>146:4 AmazonS3.disconnect - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>151:4 AmazonS3.retrieve - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>155:4 AmazonS3.store - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>159:4 AmazonS3._get_fake_version_id - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>200:4 AmazonS3.store_dict - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>210:4 AmazonS3.retrieve_file - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>214:4 AmazonS3.retrieve_blob - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>218:4 AmazonS3.retrieve_dict - <span style="color:#00AA00">A (1)</span>
+    M 24:4 AmazonS3.__init__ - C (13)
+    M 90:4 AmazonS3._create_bucket - B (7)
+    M 179:4 AmazonS3.store_blob - A (5)
+    M 70:4 AmazonS3._create_bucket_if_needed - A (4)
+    M 119:4 AmazonS3.object_exists - A (4)
+    M 222:4 AmazonS3.retrieve_latest_version_id - A (3)
+    M 246:4 AmazonS3.store_error - A (3)
+    C 15:0 AmazonS3 - A (2)
+    M 164:4 AmazonS3.store_file - A (2)
+    M 238:4 AmazonS3.is_enabled - A (2)
+    M 61:4 AmazonS3.dict2blob - A (1)
+    M 132:4 AmazonS3.connect - A (1)
+    M 142:4 AmazonS3.is_connected - A (1)
+    M 146:4 AmazonS3.disconnect - A (1)
+    M 151:4 AmazonS3.retrieve - A (1)
+    M 155:4 AmazonS3.store - A (1)
+    M 159:4 AmazonS3._get_fake_version_id - A (1)
+    M 200:4 AmazonS3.store_dict - A (1)
+    M 210:4 AmazonS3.retrieve_file - A (1)
+    M 214:4 AmazonS3.retrieve_blob - A (1)
+    M 218:4 AmazonS3.retrieve_dict - A (1)
 f8a_worker/workers/finalize.py
-    <span style="color:#00AAAA">C </span>10:0 FinalizeTask - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>13:4 FinalizeTask.run - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AAAA">C </span>34:0 PackageFinalizeTask - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>37:4 PackageFinalizeTask.run - <span style="color:#00AA00">A (2)</span>
+    C 10:0 FinalizeTask - A (2)
+    M 13:4 FinalizeTask.run - A (2)
+    C 34:0 PackageFinalizeTask - A (2)
+    M 37:4 PackageFinalizeTask.run - A (2)
 f8a_worker/workers/report_generation.py
-    <span style="color:#00AA00">M </span>56:4 ReportGenerationTask._get_dependency_data - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>15:4 ReportGenerationTask.parse_version_data - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AAAA">C </span>12:0 ReportGenerationTask - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>101:4 ReportGenerationTask.execute - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>41:4 ReportGenerationTask.parse_package_data - <span style="color:#00AA00">A (1)</span>
+    M 56:4 ReportGenerationTask._get_dependency_data - B (7)
+    M 15:4 ReportGenerationTask.parse_version_data - A (4)
+    C 12:0 ReportGenerationTask - A (3)
+    M 101:4 ReportGenerationTask.execute - A (2)
+    M 41:4 ReportGenerationTask.parse_package_data - A (1)
 f8a_worker/workers/graph_importer.py
-    <span style="color:#00AAAA">C </span>10:0 GraphImporterTask - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>26:4 GraphImporterTask.execute - <span style="color:#00AA00">A (5)</span>
+    C 10:0 GraphImporterTask - A (5)
+    M 26:4 GraphImporterTask.execute - A (5)
 f8a_worker/workers/dependency_parser.py
-    <span style="color:#00AA00">M </span>57:4 GithubDependencyTreeTask.extract_dependencies - <span style="color:#00AA00">B (10)</span>
-    <span style="color:#00AA00">M </span>197:4 GithubDependencyTreeTask.get_npm_dependencies - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>144:4 GithubDependencyTreeTask.parse_maven_dependency_resolve - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>272:4 GithubDependencyTreeTask.get_go_glide_dependencies - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>317:4 GithubDependencyTreeTask.get_go_pkg_dependencies - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AAAA">C </span>16:0 GithubDependencyTreeTask - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>168:4 GithubDependencyTreeTask.parse_maven_dependency_tree - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>43:4 GithubDependencyTreeTask.run_timed_command - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>94:4 GithubDependencyTreeTask.get_maven_dependencies - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>21:4 GithubDependencyTreeTask.execute - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>247:4 GithubDependencyTreeTask.get_python_dependencies - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>351:4 GithubDependencyTreeTask.change_package_lock_to_shrinkwrap - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>115:4 GithubDependencyTreeTask.get_dependencies_using_dependency_resolve - <span style="color:#00AA00">A (1)</span>
+    M 57:4 GithubDependencyTreeTask.extract_dependencies - B (10)
+    M 197:4 GithubDependencyTreeTask.get_npm_dependencies - B (7)
+    M 144:4 GithubDependencyTreeTask.parse_maven_dependency_resolve - A (5)
+    M 272:4 GithubDependencyTreeTask.get_go_glide_dependencies - A (5)
+    M 317:4 GithubDependencyTreeTask.get_go_pkg_dependencies - A (5)
+    C 16:0 GithubDependencyTreeTask - A (4)
+    M 168:4 GithubDependencyTreeTask.parse_maven_dependency_tree - A (4)
+    M 43:4 GithubDependencyTreeTask.run_timed_command - A (3)
+    M 94:4 GithubDependencyTreeTask.get_maven_dependencies - A (3)
+    M 21:4 GithubDependencyTreeTask.execute - A (2)
+    M 247:4 GithubDependencyTreeTask.get_python_dependencies - A (2)
+    M 351:4 GithubDependencyTreeTask.change_package_lock_to_shrinkwrap - A (2)
+    M 115:4 GithubDependencyTreeTask.get_dependencies_using_dependency_resolve - A (1)
 f8a_worker/workers/bookkeeper.py
-    <span style="color:#00AA00">M </span>16:4 BookkeeperTask.store_user_node - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AAAA">C </span>10:0 BookkeeperTask - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>64:4 BookkeeperTask.execute - <span style="color:#00AA00">A (3)</span>
+    M 16:4 BookkeeperTask.store_user_node - B (7)
+    C 10:0 BookkeeperTask - A (5)
+    M 64:4 BookkeeperTask.execute - A (3)
 f8a_worker/workers/libraries_io.py
-    <span style="color:#00AAAA">C </span>14:0 LibrariesIoTask - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>25:4 LibrariesIoTask.execute - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>20:4 LibrariesIoTask.recent_releases - <span style="color:#00AA00">A (1)</span>
+    C 14:0 LibrariesIoTask - A (2)
+    M 25:4 LibrariesIoTask.execute - A (2)
+    M 20:4 LibrariesIoTask.recent_releases - A (1)
 f8a_worker/workers/githuber.py
-    <span style="color:#00AA00">M </span>71:4 GithubTask.execute - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>144:4 GitReadmeCollectorTask._get_github_readme - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>50:4 GithubTask._get_repo_stats - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AAAA">C </span>122:0 GitReadmeCollectorTask - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AAAA">C </span>17:0 GithubTask - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>41:4 GithubTask._get_last_years_commits - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>31:4 GithubTask.create_test_instance - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>62:4 GithubTask._get_repo_name - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>167:4 GitReadmeCollectorTask.run - <span style="color:#00AA00">A (2)</span>
+    M 71:4 GithubTask.execute - B (7)
+    M 144:4 GitReadmeCollectorTask._get_github_readme - B (6)
+    M 50:4 GithubTask._get_repo_stats - A (4)
+    C 122:0 GitReadmeCollectorTask - A (4)
+    C 17:0 GithubTask - A (3)
+    M 41:4 GithubTask._get_last_years_commits - A (3)
+    M 31:4 GithubTask.create_test_instance - A (2)
+    M 62:4 GithubTask._get_repo_name - A (2)
+    M 167:4 GitReadmeCollectorTask.run - A (2)
 f8a_worker/workers/repo_dependency_finder.py
-    <span style="color:#00AA00">M </span>155:4 RepoDependencyFinderTask.generate_report - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#00AAAA">C </span>13:0 RepoDependencyFinderTask - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>18:4 RepoDependencyFinderTask.execute - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>59:4 RepoDependencyFinderTask.create_repo_node_and_get_cve - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>112:4 RepoDependencyFinderTask.get_cve - <span style="color:#00AA00">A (4)</span>
+    M 155:4 RepoDependencyFinderTask.generate_report - B (9)
+    C 13:0 RepoDependencyFinderTask - B (6)
+    M 18:4 RepoDependencyFinderTask.execute - A (5)
+    M 59:4 RepoDependencyFinderTask.create_repo_node_and_get_cve - A (5)
+    M 112:4 RepoDependencyFinderTask.get_cve - A (4)
 f8a_worker/workers/mercator.py
-    <span style="color:#00AA00">M </span>171:4 MercatorTask._merge_python_items - <span style="color:#AA5500">D (29)</span>
-    <span style="color:#00AA00">M </span>58:4 MercatorTask.run_mercator - <span style="color:#AA5500">C (19)</span>
-    <span style="color:#00AAAA">C </span>38:0 MercatorTask - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#00AA00">M </span>155:4 MercatorTask._parse_requires_txt - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>263:4 MercatorTask.get_outermost_items - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>45:4 MercatorTask.execute - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>121:4 MercatorTask.run_gofedlib - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>142:4 MercatorTask._add_extra_go_fields - <span style="color:#00AA00">A (1)</span>
+    M 171:4 MercatorTask._merge_python_items - D (29)
+    M 58:4 MercatorTask.run_mercator - C (19)
+    C 38:0 MercatorTask - B (9)
+    M 155:4 MercatorTask._parse_requires_txt - B (6)
+    M 263:4 MercatorTask.get_outermost_items - A (4)
+    M 45:4 MercatorTask.execute - A (2)
+    M 121:4 MercatorTask.run_gofedlib - A (2)
+    M 142:4 MercatorTask._add_extra_go_fields - A (1)
 f8a_worker/workers/golangcvepredictor.py
-    <span style="color:#00AA00">M </span>25:4 GitIssuesPRsTask.get_response_issues - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>69:4 GitIssuesPRsTask.execute - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AAAA">C </span>17:0 GitIssuesPRsTask - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>52:4 GitIssuesPRsTask._processJSonIssuePR - <span style="color:#00AA00">A (2)</span>
+    M 25:4 GitIssuesPRsTask.get_response_issues - B (6)
+    M 69:4 GitIssuesPRsTask.execute - B (6)
+    C 17:0 GitIssuesPRsTask - A (5)
+    M 52:4 GitIssuesPRsTask._processJSonIssuePR - A (2)
 f8a_worker/workers/digester.py
-    <span style="color:#00AAAA">C </span>27:0 DigesterTask - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>33:4 DigesterTask.compute_ssdeep - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>44:4 DigesterTask.compute_digests - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>61:4 DigesterTask.execute - <span style="color:#00AA00">A (1)</span>
+    C 27:0 DigesterTask - A (2)
+    M 33:4 DigesterTask.compute_ssdeep - A (2)
+    M 44:4 DigesterTask.compute_digests - A (2)
+    M 61:4 DigesterTask.execute - A (1)
 f8a_worker/workers/user_notifier.py
-    <span style="color:#00AAAA">C </span>10:0 UserNotificationTask - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>13:4 UserNotificationTask.send_notification - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>27:4 UserNotificationTask.generate_notification - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>51:4 UserNotificationTask.execute - <span style="color:#00AA00">A (2)</span>
+    C 10:0 UserNotificationTask - A (2)
+    M 13:4 UserNotificationTask.send_notification - A (2)
+    M 27:4 UserNotificationTask.generate_notification - A (2)
+    M 51:4 UserNotificationTask.execute - A (2)
 f8a_worker/workers/git_operations.py
-    <span style="color:#00AA00">M </span>101:4 GitOperationTask.execute - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>45:4 GitOperationTask.create_repo_and_generate_files - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AAAA">C </span>20:0 GitOperationTask - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>72:4 GitOperationTask.gemini_call_for_cve_scan - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>85:4 GitOperationTask.backbone_for_stack_analysis - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>23:4 GitOperationTask.generate_files_for_maven - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>36:4 GitOperationTask.generate_files_for_node - <span style="color:#00AA00">A (1)</span>
+    M 101:4 GitOperationTask.execute - B (7)
+    M 45:4 GitOperationTask.create_repo_and_generate_files - A (5)
+    C 20:0 GitOperationTask - A (3)
+    M 72:4 GitOperationTask.gemini_call_for_cve_scan - A (3)
+    M 85:4 GitOperationTask.backbone_for_stack_analysis - A (2)
+    M 23:4 GitOperationTask.generate_files_for_maven - A (1)
+    M 36:4 GitOperationTask.generate_files_for_node - A (1)
 f8a_worker/workers/license.py
-    <span style="color:#00AA00">M </span>21:4 LicenseCheckTask.process_output - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AAAA">C </span>15:0 LicenseCheckTask - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>50:4 LicenseCheckTask.run_scancode - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>89:4 LicenseCheckTask.execute - <span style="color:#00AA00">A (3)</span>
+    M 21:4 LicenseCheckTask.process_output - B (6)
+    C 15:0 LicenseCheckTask - A (4)
+    M 50:4 LicenseCheckTask.run_scancode - A (4)
+    M 89:4 LicenseCheckTask.execute - A (3)
 f8a_worker/workers/init_package_flow.py
-    <span style="color:#00AA00">M </span>100:4 InitPackageFlow.execute - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>17:4 InitPackageFlow.get_upstream_url - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AAAA">C </span>12:0 InitPackageFlow - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>34:4 InitPackageFlow.get_upstream_entry - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>63:4 InitPackageFlow.add_or_update_upstream - <span style="color:#00AA00">A (2)</span>
+    M 100:4 InitPackageFlow.execute - B (6)
+    M 17:4 InitPackageFlow.get_upstream_url - A (5)
+    C 12:0 InitPackageFlow - A (4)
+    M 34:4 InitPackageFlow.get_upstream_entry - A (4)
+    M 63:4 InitPackageFlow.add_or_update_upstream - A (2)
 f8a_worker/workers/result_collector.py
-    <span style="color:#00AAAA">C </span>8:0 _ResultCollectorBase - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>15:4 _ResultCollectorBase.do_run - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AAAA">C </span>45:0 ResultCollector - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>48:4 ResultCollector.run - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>64:0 PackageResultCollector - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>67:4 PackageResultCollector.run - <span style="color:#00AA00">A (1)</span>
+    C 8:0 _ResultCollectorBase - B (6)
+    M 15:4 _ResultCollectorBase.do_run - B (6)
+    C 45:0 ResultCollector - A (1)
+    M 48:4 ResultCollector.run - A (1)
+    C 64:0 PackageResultCollector - A (1)
+    M 67:4 PackageResultCollector.run - A (1)
 f8a_worker/workers/graphaggregator.py
-    <span style="color:#00AA00">M </span>34:4 GraphAggregatorTask.execute - <span style="color:#AA5500">C (18)</span>
-    <span style="color:#00AAAA">C </span>16:0 GraphAggregatorTask - <span style="color:#AA5500">C (12)</span>
-    <span style="color:#00AA00">M </span>22:4 GraphAggregatorTask._handle_external_deps - <span style="color:#00AA00">A (5)</span>
+    M 34:4 GraphAggregatorTask.execute - C (18)
+    C 16:0 GraphAggregatorTask - C (12)
+    M 22:4 GraphAggregatorTask._handle_external_deps - A (5)
 f8a_worker/workers/init_analysis_flow.py
-    <span style="color:#00AA00">M </span>20:4 InitAnalysisFlow.execute - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#00AA00">M </span>105:4 InitAnalysisFlow._download_source_jar - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AAAA">C </span>17:0 InitAnalysisFlow - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>129:4 InitAnalysisFlow._download_pom_xml - <span style="color:#00AA00">A (1)</span>
+    M 20:4 InitAnalysisFlow.execute - B (9)
+    M 105:4 InitAnalysisFlow._download_source_jar - B (6)
+    C 17:0 InitAnalysisFlow - A (5)
+    M 129:4 InitAnalysisFlow._download_pom_xml - A (1)
 f8a_worker/workers/repository_description.py
-    <span style="color:#00AA00">M </span>26:4 RepositoryDescCollectorTask.collect_npm - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>44:4 RepositoryDescCollectorTask.collect_pypi - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>10:0 RepositoryDescCollectorTask - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>18:4 RepositoryDescCollectorTask._scrape_page - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>71:4 RepositoryDescCollectorTask.execute - <span style="color:#00AA00">A (2)</span>
+    M 26:4 RepositoryDescCollectorTask.collect_npm - A (3)
+    M 44:4 RepositoryDescCollectorTask.collect_pypi - A (3)
+    C 10:0 RepositoryDescCollectorTask - A (2)
+    M 18:4 RepositoryDescCollectorTask._scrape_page - A (2)
+    M 71:4 RepositoryDescCollectorTask.execute - A (2)
 f8a_worker/workers/unknown_dep_fetcher.py
-    <span style="color:#00AA00">M </span>13:4 UnknownDependencyFetcherTask.get_dependency_data - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AAAA">C </span>10:0 UnknownDependencyFetcherTask - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>52:4 UnknownDependencyFetcherTask.execute - <span style="color:#00AA00">A (2)</span>
+    M 13:4 UnknownDependencyFetcherTask.get_dependency_data - B (6)
+    C 10:0 UnknownDependencyFetcherTask - A (4)
+    M 52:4 UnknownDependencyFetcherTask.execute - A (2)
 f8a_worker/workers/dependency_snapshot.py
-    <span style="color:#00AA00">M </span>40:4 DependencySnapshotTask._resolve_dependency - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#00AAAA">C </span>17:0 DependencySnapshotTask - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>23:4 DependencySnapshotTask._collect_dependencies - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>82:4 DependencySnapshotTask.execute - <span style="color:#00AA00">A (4)</span>
+    M 40:4 DependencySnapshotTask._resolve_dependency - B (9)
+    C 17:0 DependencySnapshotTask - B (6)
+    M 23:4 DependencySnapshotTask._collect_dependencies - A (5)
+    M 82:4 DependencySnapshotTask.execute - A (4)
 f8a_worker/workers/schemas/source_licenses.py
-    <span style="color:#00AAAA">C </span>67:0 LicenseDetailsPre30 - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>123:0 LicenseScanDetails - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>30:0 LicenseScanSummary - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AAAA">C </span>11:0 LicenseCount - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>55:0 FileDetails - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>95:0 LicenseDetails - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>113:0 OSLCStats - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>150:0 SuccessfulLicenseScan - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>164:0 FailedLicenseScan - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>178:0 LicenseScanResult - <span style="color:#00AA00">A (1)</span>
+    C 67:0 LicenseDetailsPre30 - A (3)
+    C 123:0 LicenseScanDetails - A (3)
+    C 30:0 LicenseScanSummary - A (2)
+    C 11:0 LicenseCount - A (1)
+    C 55:0 FileDetails - A (1)
+    C 95:0 LicenseDetails - A (1)
+    C 113:0 OSLCStats - A (1)
+    C 150:0 SuccessfulLicenseScan - A (1)
+    C 164:0 FailedLicenseScan - A (1)
+    C 178:0 LicenseScanResult - A (1)
 f8a_worker/workers/schemas/github_details.py
-    <span style="color:#00AAAA">C </span>83:0 GithubDetail - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AAAA">C </span>51:0 GithubUpdatedIssues - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>67:0 GithubUpdatedPullRequests - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>25:0 GithubLastYearCommits - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>38:0 GithubItemsByTime - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>112:0 GithubResult - <span style="color:#00AA00">A (1)</span>
+    C 83:0 GithubDetail - B (6)
+    C 51:0 GithubUpdatedIssues - A (3)
+    C 67:0 GithubUpdatedPullRequests - A (3)
+    C 25:0 GithubLastYearCommits - A (1)
+    C 38:0 GithubItemsByTime - A (1)
+    C 112:0 GithubResult - A (1)
 f8a_worker/workers/schemas/libraries_io.py
-    <span style="color:#00AAAA">C </span>13:0 DependentRepositories - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>24:0 Dependents - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>35:0 RecentRelease - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>47:0 Releases - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>59:0 LibrariesIoDetails - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>72:0 LibrariesIoResult - <span style="color:#00AA00">A (1)</span>
+    C 13:0 DependentRepositories - A (1)
+    C 24:0 Dependents - A (1)
+    C 35:0 RecentRelease - A (1)
+    C 47:0 Releases - A (1)
+    C 59:0 LibrariesIoDetails - A (1)
+    C 72:0 LibrariesIoResult - A (1)
 f8a_worker/workers/schemas/metadata.py
-    <span style="color:#00AAAA">C </span>130:0 MetadataDict - <span style="color:#AA5500">C (11)</span>
-    <span style="color:#00AAAA">C </span>218:0 MercatorResult - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#00AAAA">C </span>91:0 LockFile - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>110:0 NpmShrinkwrap - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>73:0 LockedDependency - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AAAA">C </span>46:0 CodeRepository - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>59:0 Maintainer - <span style="color:#00AA00">A (1)</span>
+    C 130:0 MetadataDict - C (11)
+    C 218:0 MercatorResult - B (8)
+    C 91:0 LockFile - A (3)
+    C 110:0 NpmShrinkwrap - A (3)
+    C 73:0 LockedDependency - A (2)
+    C 46:0 CodeRepository - A (1)
+    C 59:0 Maintainer - A (1)
 f8a_worker/workers/schemas/digests.py
-    <span style="color:#00AAAA">C </span>14:0 DigesterDetail - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>31:0 DigesterResult - <span style="color:#00AA00">A (1)</span>
+    C 14:0 DigesterDetail - A (1)
+    C 31:0 DigesterResult - A (1)
 f8a_worker/workers/schemas/crypto_algorithms.py
-    <span style="color:#00AAAA">C </span>14:0 CryptoAlgoDetail - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>31:0 CryptoAlgorithmRecord - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>43:0 CryptoCheckSummary - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>61:0 CryptoCheckResult - <span style="color:#00AA00">A (1)</span>
+    C 14:0 CryptoAlgoDetail - A (1)
+    C 31:0 CryptoAlgorithmRecord - A (1)
+    C 43:0 CryptoCheckSummary - A (1)
+    C 61:0 CryptoCheckResult - A (1)
 f8a_worker/workers/schemas/dependency_snapshot.py
-    <span style="color:#00AAAA">C </span>14:0 Dependency - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>30:0 DependencySnapshotDetail - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>42:0 DependenciesCounts - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>54:0 DependencySnapshotSummary - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>67:0 DependencySnapshotResult - <span style="color:#00AA00">A (1)</span>
+    C 14:0 Dependency - A (1)
+    C 30:0 DependencySnapshotDetail - A (1)
+    C 42:0 DependenciesCounts - A (1)
+    C 54:0 DependencySnapshotSummary - A (1)
+    C 67:0 DependencySnapshotResult - A (1)
 tests/test_data_normalizer.py
-    <span style="color:#AA00AA">F </span>98:0 test_transforming_gofedlib_data - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>22:0 _load_json - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>28:0 test_transforming_setup_py - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>35:0 test_transforming_pkginfo - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>42:0 test_transforming_requirements_txt - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>49:0 test_transforming_metadata_json - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>56:0 test_transforming_npm_shrinkwrap_data - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>63:0 test_transforming_java - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>70:0 test_transforming_gradle - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>77:0 test_transforming_nuspec - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>84:0 test_transforming_go_glide - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>91:0 test_transforming_godeps - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>10:0 compare_dictionaries - <span style="color:#00AA00">A (1)</span>
+    F 98:0 test_transforming_gofedlib_data - A (5)
+    F 22:0 _load_json - A (2)
+    F 28:0 test_transforming_setup_py - A (2)
+    F 35:0 test_transforming_pkginfo - A (2)
+    F 42:0 test_transforming_requirements_txt - A (2)
+    F 49:0 test_transforming_metadata_json - A (2)
+    F 56:0 test_transforming_npm_shrinkwrap_data - A (2)
+    F 63:0 test_transforming_java - A (2)
+    F 70:0 test_transforming_gradle - A (2)
+    F 77:0 test_transforming_nuspec - A (2)
+    F 84:0 test_transforming_go_glide - A (2)
+    F 91:0 test_transforming_godeps - A (2)
+    F 10:0 compare_dictionaries - A (1)
 tests/test_schemas.py
-    <span style="color:#00AA00">M </span>74:4 TestSchemaLibrary.test_bundled_dynamic_schema_lookup - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#00AAAA">C </span>40:0 TestSchemaLibrary - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>44:4 TestSchemaLibrary.test_schema_lookup - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>57:4 TestSchemaLibrary.test_bundled_schema_lookup - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AAAA">C </span>117:0 TestGeneratedSchemas - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>123:4 TestGeneratedSchemas.test_dynamic_schemas_against_generated - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>20:0 TestSchemaRef - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>24:4 TestSchemaRef.test_next_addition - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>29:4 TestSchemaRef.test_next_revision - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>34:4 TestSchemaRef.test_next_model - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AAAA">C </span>137:0 TestSchemaSequence - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>141:4 TestSchemaSequence.test_no_two_consecutive_schemas_are_same - <span style="color:#00AA00">A (1)</span>
+    M 74:4 TestSchemaLibrary.test_bundled_dynamic_schema_lookup - B (9)
+    C 40:0 TestSchemaLibrary - B (6)
+    M 44:4 TestSchemaLibrary.test_schema_lookup - A (4)
+    M 57:4 TestSchemaLibrary.test_bundled_schema_lookup - A (4)
+    C 117:0 TestGeneratedSchemas - A (3)
+    M 123:4 TestGeneratedSchemas.test_dynamic_schemas_against_generated - A (3)
+    C 20:0 TestSchemaRef - A (2)
+    M 24:4 TestSchemaRef.test_next_addition - A (2)
+    M 29:4 TestSchemaRef.test_next_revision - A (2)
+    M 34:4 TestSchemaRef.test_next_model - A (2)
+    C 137:0 TestSchemaSequence - A (1)
+    M 141:4 TestSchemaSequence.test_no_two_consecutive_schemas_are_same - A (1)
 tests/test_process.py
-    <span style="color:#00AA00">M </span>51:4 TestIndianaJones.test_fetch_npm_specific - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>32:4 TestGit.test_clone - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AAAA">C </span>48:0 TestIndianaJones - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>94:4 TestIndianaJones.test_fetch_pypi_specific - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>120:4 TestIndianaJones.test_fetch_rubygems_specific - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>134:4 TestIndianaJones.test_fetch_maven_specific - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>150:4 TestIndianaJones.test_fetch_nuget_specific - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>164:4 TestIndianaJones.test_fetch_go_specific - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AAAA">C </span>16:0 TestGit - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>79:4 TestIndianaJones.test_fetch_version_range_npm_specific - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>182:0 TestArchive - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>185:4 TestArchive.test_for_archive_create_by_root - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>109:4 TestIndianaJones.test_fetch_pypi_nonexistent - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>19:4 TestGit.test_git_add_and_commit_everything_with_dotgit - <span style="color:#00AA00">A (1)</span>
+    M 51:4 TestIndianaJones.test_fetch_npm_specific - B (7)
+    M 32:4 TestGit.test_clone - A (5)
+    C 48:0 TestIndianaJones - A (4)
+    M 94:4 TestIndianaJones.test_fetch_pypi_specific - A (4)
+    M 120:4 TestIndianaJones.test_fetch_rubygems_specific - A (4)
+    M 134:4 TestIndianaJones.test_fetch_maven_specific - A (4)
+    M 150:4 TestIndianaJones.test_fetch_nuget_specific - A (4)
+    M 164:4 TestIndianaJones.test_fetch_go_specific - A (4)
+    C 16:0 TestGit - A (3)
+    M 79:4 TestIndianaJones.test_fetch_version_range_npm_specific - A (3)
+    C 182:0 TestArchive - A (3)
+    M 185:4 TestArchive.test_for_archive_create_by_root - A (3)
+    M 109:4 TestIndianaJones.test_fetch_pypi_nonexistent - A (2)
+    M 19:4 TestGit.test_git_add_and_commit_everything_with_dotgit - A (1)
 tests/test_utils.py
-    <span style="color:#00AA00">M </span>36:4 TestUtilFunctions.test_get_all_files_from - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>149:4 TestMavenCoordinates.test_from_str - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>75:4 TestUtilFunctions.test_compute_digest - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AAAA">C </span>146:0 TestMavenCoordinates - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>163:4 TestMavenCoordinates.test_to_str - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AAAA">C </span>25:0 TestUtilFunctions - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AAAA">C </span>83:0 TestThreadPool - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>86:4 TestThreadPool.test_context_manager - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>100:4 TestThreadPool.test_normal_usage - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>173:4 TestMavenCoordinates.test_to_repo_url - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>236:0 test_normalize_package_name - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>28:4 TestUtilFunctions.setup_method - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>32:4 TestUtilFunctions.teardown_method - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AAAA">C </span>182:0 TestParseGHRepo - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>185:4 TestParseGHRepo.test_parse_gh_repo_ok - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>201:4 TestParseGHRepo.test_parse_gh_repo_nok - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AAAA">C </span>214:0 TestUrl2GitRepo - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>217:4 TestUrl2GitRepo.test_url2git_repo_ok - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>227:4 TestUrl2GitRepo.test_url2git_repo_nok - <span style="color:#00AA00">A (2)</span>
+    M 36:4 TestUtilFunctions.test_get_all_files_from - B (6)
+    M 149:4 TestMavenCoordinates.test_from_str - B (6)
+    M 75:4 TestUtilFunctions.test_compute_digest - A (5)
+    C 146:0 TestMavenCoordinates - A (5)
+    M 163:4 TestMavenCoordinates.test_to_str - A (5)
+    C 25:0 TestUtilFunctions - A (4)
+    C 83:0 TestThreadPool - A (4)
+    M 86:4 TestThreadPool.test_context_manager - A (4)
+    M 100:4 TestThreadPool.test_normal_usage - A (3)
+    M 173:4 TestMavenCoordinates.test_to_repo_url - A (3)
+    F 236:0 test_normalize_package_name - A (2)
+    M 28:4 TestUtilFunctions.setup_method - A (2)
+    M 32:4 TestUtilFunctions.teardown_method - A (2)
+    C 182:0 TestParseGHRepo - A (2)
+    M 185:4 TestParseGHRepo.test_parse_gh_repo_ok - A (2)
+    M 201:4 TestParseGHRepo.test_parse_gh_repo_nok - A (2)
+    C 214:0 TestUrl2GitRepo - A (2)
+    M 217:4 TestUrl2GitRepo.test_url2git_repo_ok - A (2)
+    M 227:4 TestUrl2GitRepo.test_url2git_repo_nok - A (2)
 tests/test_solver.py
-    <span style="color:#00AA00">M </span>317:4 TestFetcher.test_f8a_fetcher - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#00AA00">M </span>18:4 TestDependencyParser.test_nuget_dependency_parser_parse - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>176:4 TestSolver.test_maven_solver - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>233:4 TestSolver.test_golang_solver - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>115:4 TestDependencyParser.test_pypi_dependency_parser_parse - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>250:0 TestFetcher - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>15:0 TestDependencyParser - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>47:4 TestDependencyParser.test_golang_dependency_parser_parse - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>58:4 TestDependencyParser.test_npm_dependency_parser_parse - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>73:4 TestDependencyParser.test_oss_index_dependency_parser_parse - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>82:4 TestDependencyParser.test_npm_dependency_parser_compose - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>98:4 TestDependencyParser.test_npm_dependency_parser_restrict_versions - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AAAA">C </span>129:0 TestSolver - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>147:4 TestSolver.test_npm_solver - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>192:4 TestSolver.test_pypi_solver - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>211:4 TestSolver.test_rubygems_solver - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>220:4 TestSolver.test_nuget_solver - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>253:4 TestFetcher.test_maven_fetcher - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>263:4 TestFetcher.test_npm_fetcher - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>274:4 TestFetcher.test_pypi_fetcher - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>287:4 TestFetcher.test_nuget_fetcher - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>305:4 TestFetcher.test_golang_fetcher - <span style="color:#00AA00">A (2)</span>
+    M 317:4 TestFetcher.test_f8a_fetcher - B (9)
+    M 18:4 TestDependencyParser.test_nuget_dependency_parser_parse - A (4)
+    M 176:4 TestSolver.test_maven_solver - A (4)
+    M 233:4 TestSolver.test_golang_solver - A (4)
+    M 115:4 TestDependencyParser.test_pypi_dependency_parser_parse - A (3)
+    C 250:0 TestFetcher - A (3)
+    C 15:0 TestDependencyParser - A (2)
+    M 47:4 TestDependencyParser.test_golang_dependency_parser_parse - A (2)
+    M 58:4 TestDependencyParser.test_npm_dependency_parser_parse - A (2)
+    M 73:4 TestDependencyParser.test_oss_index_dependency_parser_parse - A (2)
+    M 82:4 TestDependencyParser.test_npm_dependency_parser_compose - A (2)
+    M 98:4 TestDependencyParser.test_npm_dependency_parser_restrict_versions - A (2)
+    C 129:0 TestSolver - A (2)
+    M 147:4 TestSolver.test_npm_solver - A (2)
+    M 192:4 TestSolver.test_pypi_solver - A (2)
+    M 211:4 TestSolver.test_rubygems_solver - A (2)
+    M 220:4 TestSolver.test_nuget_solver - A (2)
+    M 253:4 TestFetcher.test_maven_fetcher - A (2)
+    M 263:4 TestFetcher.test_npm_fetcher - A (2)
+    M 274:4 TestFetcher.test_pypi_fetcher - A (2)
+    M 287:4 TestFetcher.test_nuget_fetcher - A (2)
+    M 305:4 TestFetcher.test_golang_fetcher - A (2)
 tests/conftest.py
-    <span style="color:#AA00AA">F </span>16:0 rdb - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>36:0 maven - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>46:0 npm - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>56:0 pypi - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>66:0 rubygems - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>76:0 nuget - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>86:0 go - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>95:0 dispatcher_setup - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>102:0 no_s3_connection - <span style="color:#00AA00">A (1)</span>
+    F 16:0 rdb - A (2)
+    F 36:0 maven - A (1)
+    F 46:0 npm - A (1)
+    F 56:0 pypi - A (1)
+    F 66:0 rubygems - A (1)
+    F 76:0 nuget - A (1)
+    F 86:0 go - A (1)
+    F 95:0 dispatcher_setup - A (1)
+    F 102:0 no_s3_connection - A (1)
 tests/data_normalizer/javascript.py
-    <span style="color:#AA00AA">F </span>7:0 test_transforming_javascript_data - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>57:0 test__are_tests_implemented - <span style="color:#00AA00">A (2)</span>
+    F 7:0 test_transforming_javascript_data - A (4)
+    F 57:0 test__are_tests_implemented - A (2)
 tests/data_normalizer/abstract.py
-    <span style="color:#AA00AA">F </span>7:0 test__split_keywords - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>32:0 test__transform_keys - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>60:0 test__join_name_email - <span style="color:#00AA00">A (2)</span>
+    F 7:0 test__split_keywords - A (2)
+    F 32:0 test__transform_keys - A (2)
+    F 60:0 test__join_name_email - A (2)
 tests/data_normalizer/java.py
-    <span style="color:#AA00AA">F </span>7:0 test_transforming_java_data - <span style="color:#00AA00">A (5)</span>
+    F 7:0 test_transforming_java_data - A (5)
 tests/data/license/license.py
-    <span style="color:#AA00AA">F </span>24:0 funkce - <span style="color:#00AA00">A (1)</span>
+    F 24:0 funkce - A (1)
 tests/storages/test_postgres.py
-    <span style="color:#00AAAA">C </span>19:0 TestBayesianPostgres - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>22:4 TestBayesianPostgres.setup_method - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>42:4 TestBayesianPostgres.test_retrieve_normal - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>53:4 TestBayesianPostgres.test_retrieve_s3 - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>76:4 TestBayesianPostgres.test_store_normal - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>84:4 TestBayesianPostgres.test_store_already_exists - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>93:4 TestBayesianPostgres.test_get_latest_task_result - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>119:4 TestBayesianPostgres.test_get_latest_task_result_no_results - <span style="color:#00AA00">A (2)</span>
+    C 19:0 TestBayesianPostgres - A (2)
+    M 22:4 TestBayesianPostgres.setup_method - A (2)
+    M 42:4 TestBayesianPostgres.test_retrieve_normal - A (2)
+    M 53:4 TestBayesianPostgres.test_retrieve_s3 - A (2)
+    M 76:4 TestBayesianPostgres.test_store_normal - A (2)
+    M 84:4 TestBayesianPostgres.test_store_already_exists - A (2)
+    M 93:4 TestBayesianPostgres.test_get_latest_task_result - A (2)
+    M 119:4 TestBayesianPostgres.test_get_latest_task_result_no_results - A (2)
 tests/workers/test_gocvecollector.py
-    <span style="color:#00AA00">M </span>46:4 TestGocvecollector.test_execute_noarg - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>54:4 TestGocvecollector.test_execute - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AAAA">C </span>12:0 TestGocvecollector - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>64:4 TestGocvecollector.test_exception - <span style="color:#00AA00">A (2)</span>
+    M 46:4 TestGocvecollector.test_execute_noarg - A (5)
+    M 54:4 TestGocvecollector.test_execute - A (5)
+    C 12:0 TestGocvecollector - A (4)
+    M 64:4 TestGocvecollector.test_exception - A (2)
 tests/workers/test_git_operations.py
-    <span style="color:#AA00AA">F </span>61:0 test_create_repo_and_generate_files - <span style="color:#00AA00">A (5)</span>
+    F 61:0 test_create_repo_and_generate_files - A (5)
 tests/workers/test_recurse.py
-    <span style="color:#AA00AA">F </span>6:0 test__is_url_dependency - <span style="color:#00AA00">A (3)</span>
+    F 6:0 test__is_url_dependency - A (3)
 tests/workers/test_licensecheck.py
-    <span style="color:#00AA00">M </span>30:4 TestLicenseCheck.test_execute - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AAAA">C </span>15:0 TestLicenseCheck - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>20:4 TestLicenseCheck.test_error - <span style="color:#00AA00">A (2)</span>
+    M 30:4 TestLicenseCheck.test_execute - B (7)
+    C 15:0 TestLicenseCheck - A (5)
+    M 20:4 TestLicenseCheck.test_error - A (2)
 tests/workers/test_libraries_io.py
-    <span style="color:#00AA00">M </span>15:4 TestLibrariesIoTask.test_execute - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#00AAAA">C </span>11:0 TestLibrariesIoTask - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>37:4 TestLibrariesIoTask.test_execute_nonexistent - <span style="color:#00AA00">A (2)</span>
+    M 15:4 TestLibrariesIoTask.test_execute - B (9)
+    C 11:0 TestLibrariesIoTask - B (6)
+    M 37:4 TestLibrariesIoTask.test_execute_nonexistent - A (2)
 tests/workers/test_github_dependency_tree.py
-    <span style="color:#00AA00">M </span>12:4 TestGithubDependencyTreeTask.test_maven_index_checker_repo - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>95:4 TestGithubDependencyTreeTask.test_repo_with_no_lockfile - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AAAA">C </span>8:0 TestGithubDependencyTreeTask - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>31:4 TestGithubDependencyTreeTask.test_python_requirements_txt - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>53:4 TestGithubDependencyTreeTask.test_npm_repo_with_package_lock - <span style="color:#00AA00">A (4)</span>
+    M 12:4 TestGithubDependencyTreeTask.test_maven_index_checker_repo - A (5)
+    M 95:4 TestGithubDependencyTreeTask.test_repo_with_no_lockfile - A (5)
+    C 8:0 TestGithubDependencyTreeTask - A (4)
+    M 31:4 TestGithubDependencyTreeTask.test_python_requirements_txt - A (4)
+    M 53:4 TestGithubDependencyTreeTask.test_npm_repo_with_package_lock - A (4)
 tests/workers/test_repository_description.py
-    <span style="color:#00AA00">M </span>13:4 TestRepositoryDescCollectorTask.test_execute - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>9:0 TestRepositoryDescCollectorTask - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>26:4 TestRepositoryDescCollectorTask.test_execute_nonexistent - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>40:4 TestRepositoryDescCollectorTask.test_execute_unsupported_ecosystem - <span style="color:#00AA00">A (2)</span>
+    M 13:4 TestRepositoryDescCollectorTask.test_execute - A (3)
+    C 9:0 TestRepositoryDescCollectorTask - A (2)
+    M 26:4 TestRepositoryDescCollectorTask.test_execute_nonexistent - A (2)
+    M 40:4 TestRepositoryDescCollectorTask.test_execute_unsupported_ecosystem - A (2)
 tests/workers/test_digester.py
-    <span style="color:#00AAAA">C </span>18:0 TestDigester - <span style="color:#00AA00">B (10)</span>
-    <span style="color:#00AA00">M </span>22:4 TestDigester.test_execute - <span style="color:#00AA00">B (10)</span>
+    C 18:0 TestDigester - B (10)
+    M 22:4 TestDigester.test_execute - B (10)
 tests/workers/test_githuber.py
-    <span style="color:#00AAAA">C </span>10:0 TestGithuber - <span style="color:#00AA00">B (10)</span>
-    <span style="color:#00AA00">M </span>14:4 TestGithuber.test_execute - <span style="color:#00AA00">B (10)</span>
+    C 10:0 TestGithuber - B (10)
+    M 14:4 TestGithuber.test_execute - B (10)
 tests/workers/test_mercator.py
-    <span style="color:#00AA00">M </span>52:4 TestMercator.test_execute_maven - <span style="color:#AA5500">C (11)</span>
-    <span style="color:#00AA00">M </span>92:4 TestMercator.test_execute_go_glide - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>108:4 TestMercator.test_execute_go_godeps - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>130:4 TestMercator.test_get_outermost_items - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AAAA">C </span>24:0 TestMercator - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>33:4 TestMercator.test_execute_npm - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>79:4 TestMercator.test_execute_go - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>28:4 TestMercator.setup_method - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>12:0 compare_dictionaries - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>125:4 TestMercator.sort_by_path - <span style="color:#00AA00">A (1)</span>
+    M 52:4 TestMercator.test_execute_maven - C (11)
+    M 92:4 TestMercator.test_execute_go_glide - B (7)
+    M 108:4 TestMercator.test_execute_go_godeps - B (6)
+    M 130:4 TestMercator.test_get_outermost_items - B (6)
+    C 24:0 TestMercator - A (5)
+    M 33:4 TestMercator.test_execute_npm - A (5)
+    M 79:4 TestMercator.test_execute_go - A (3)
+    M 28:4 TestMercator.setup_method - A (2)
+    F 12:0 compare_dictionaries - A (1)
+    M 125:4 TestMercator.sort_by_path - A (1)
 hack/queue_conf.py
-    <span style="color:#AA00AA">F </span>23:0 set_queue_attributes - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>67:0 print_help - <span style="color:#00AA00">A (1)</span>
+    F 23:0 set_queue_attributes - A (4)
+    F 67:0 print_help - A (1)
 alembic/env.py
-    <span style="color:#AA00AA">F </span>60:0 run_migrations_online - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>40:0 run_migrations_offline - <span style="color:#00AA00">A (2)</span>
+    F 60:0 run_migrations_online - A (3)
+    F 40:0 run_migrations_offline - A (2)
 alembic/versions/f5c853b83d41_add_api_requests_table.py
-    <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>38:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 20:0 upgrade - A (1)
+    F 38:0 downgrade - A (1)
 alembic/versions/9d605c7725d8_add_app_stack_tables.py
-    <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>36:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 20:0 upgrade - A (1)
+    F 36:0 downgrade - A (1)
 alembic/versions/76c5fd72744e_gh_usage_stats.py
-    <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>39:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 19:0 upgrade - A (1)
+    F 39:0 downgrade - A (1)
 alembic/versions/c23ff3124920_fix_ecosystem_data.py
-    <span style="color:#AA00AA">F </span>18:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>35:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 18:0 upgrade - A (1)
+    F 35:0 downgrade - A (1)
 alembic/versions/0ff7fe2828a5_initial_revision.py
-    <span style="color:#AA00AA">F </span>16:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>21:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 16:0 upgrade - A (1)
+    F 21:0 downgrade - A (1)
 alembic/versions/e48c7b4235aa_drop_analysisrequest_table.py
-    <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>28:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 20:0 upgrade - A (1)
+    F 28:0 downgrade - A (1)
 alembic/versions/35180d0f1ced_fix_pypi_url.py
-    <span style="color:#AA00AA">F </span>18:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>29:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 18:0 upgrade - A (1)
+    F 29:0 downgrade - A (1)
 alembic/versions/727aeeb88b2f_add_started_at_and_ended_at_to_.py
-    <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>29:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 19:0 upgrade - A (1)
+    F 29:0 downgrade - A (1)
 alembic/versions/be06b06767de_add_indexes_on_foreign_keys_in_.py
-    <span style="color:#AA00AA">F </span>18:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>27:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 18:0 upgrade - A (1)
+    F 27:0 downgrade - A (1)
 alembic/versions/2bd5f6d0c8b0_introduce_stackreq_origin_flag.py
-    <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>27:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 19:0 upgrade - A (1)
+    F 27:0 downgrade - A (1)
 alembic/versions/e2762a61d34c_upstream_url_can_be_null.py
-    <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>34:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 19:0 upgrade - A (1)
+    F 34:0 downgrade - A (1)
 alembic/versions/49c27b67936f_permissions.py
-    <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>35:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 19:0 upgrade - A (1)
+    F 35:0 downgrade - A (1)
 alembic/versions/097bb617eade_go_backend_for_golang.py
-    <span style="color:#AA00AA">F </span>18:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>34:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 18:0 upgrade - A (1)
+    F 34:0 downgrade - A (1)
 alembic/versions/33b719488061_add_col_dep_snapshot.py
-    <span style="color:#AA00AA">F </span>21:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>30:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 21:0 upgrade - A (1)
+    F 30:0 downgrade - A (1)
 alembic/versions/ea55c632ae8d_create_auth_data.py
-    <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>46:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 19:0 upgrade - A (1)
+    F 46:0 downgrade - A (1)
 alembic/versions/d62464ca17ae_introduce_error_flag_for_worker_results.py
-    <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>27:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 19:0 upgrade - A (1)
+    F 27:0 downgrade - A (1)
 alembic/versions/43360d9467b9_drop_bigquery_results_table.py
-    <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>34:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 20:0 upgrade - A (1)
+    F 34:0 downgrade - A (1)
 alembic/versions/c3ea37a6ebc5_add_redhat_maven_ecosystem.py
-    <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>31:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 19:0 upgrade - A (1)
+    F 31:0 downgrade - A (1)
 alembic/versions/ddb09a7d6633_delete_unnecessary_db_tables.py
-    <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>30:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 20:0 upgrade - A (1)
+    F 30:0 downgrade - A (1)
 alembic/versions/813f9a704eb7_stack_request_coltypechange.py
-    <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>30:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 20:0 upgrade - A (1)
+    F 30:0 downgrade - A (1)
 alembic/versions/b4fbc8e04c81_gh_usage_with_versions.py
-    <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>38:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 20:0 upgrade - A (1)
+    F 38:0 downgrade - A (1)
 alembic/versions/a0433904c63b_analysis_requests.py
-    <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>38:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 19:0 upgrade - A (1)
+    F 38:0 downgrade - A (1)
 alembic/versions/750621a9cd89_drop_server_tables.py
-    <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>31:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 20:0 upgrade - A (1)
+    F 31:0 downgrade - A (1)
 alembic/versions/133cd5484609_add_es_marker.py
-    <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>30:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 19:0 upgrade - A (1)
+    F 30:0 downgrade - A (1)
 alembic/versions/b19a6deb869d_stack_request_coltype_change.py
-    <span style="color:#AA00AA">F </span>18:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>30:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 18:0 upgrade - A (1)
+    F 30:0 downgrade - A (1)
 alembic/versions/fc7ea2a7e386_analytics_tables.py
-    <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>43:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 20:0 upgrade - A (1)
+    F 43:0 downgrade - A (1)
 alembic/versions/245b57b274c2_introduce_upstream_monitoring_flows.py
-    <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>63:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 20:0 upgrade - A (1)
+    F 63:0 downgrade - A (1)
 alembic/versions/a31c98c74ea0_add_e_p_v.py
-    <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>79:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 19:0 upgrade - A (1)
+    F 79:0 downgrade - A (1)
 alembic/versions/f8bb0efac483_nuget_ecosystem.py
-    <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>40:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 20:0 upgrade - A (3)
+    F 40:0 downgrade - A (1)
 alembic/versions/3fd95b3a69f5_bye_reviews.py
-    <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>27:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 20:0 upgrade - A (1)
+    F 27:0 downgrade - A (1)
 alembic/versions/47f4ce1e8d75_stack_analyses_request.py
-    <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>33:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 20:0 upgrade - A (1)
+    F 33:0 downgrade - A (1)
 alembic/versions/2ff043a5af5b_make_ecosystem_name_unique.py
-    <span style="color:#AA00AA">F </span>18:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>25:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 18:0 upgrade - A (1)
+    F 25:0 downgrade - A (1)
 alembic/versions/02b91e918b43_migrate_to_dynamic_control_flow.py
-    <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>28:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 19:0 upgrade - A (1)
+    F 28:0 downgrade - A (1)
 alembic/versions/49fb7de6227f_removal_of_anitya.py
-    <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>26:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 19:0 upgrade - A (1)
+    F 26:0 downgrade - A (1)
 alembic/versions/60b296cac700_add_similar_components_table.py
-    <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>32:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 19:0 upgrade - A (1)
+    F 32:0 downgrade - A (1)
 alembic/versions/424427c5f988_relative_usage.py
-    <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>26:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 19:0 upgrade - A (1)
+    F 26:0 downgrade - A (1)
 alembic/versions/79d88d57baa7_remove_analyses_column.py
-    <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>27:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 20:0 upgrade - A (1)
+    F 27:0 downgrade - A (1)
 alembic/versions/cd05b43f27e5_add_synced2graph_boolean_column_to_.py
-    <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>28:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 19:0 upgrade - A (1)
+    F 28:0 downgrade - A (1)
 alembic/versions/8302d3bb5f68_stackreq_team_result.py
-    <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>28:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 20:0 upgrade - A (1)
+    F 28:0 downgrade - A (1)
 alembic/versions/3655e38b92bc_increase_pkg_name_length.py
-    <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>31:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 19:0 upgrade - A (1)
+    F 31:0 downgrade - A (1)
 alembic/versions/01404498814b_create_epv_and_workerresult_indexes.py
-    <span style="color:#AA00AA">F </span>18:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>28:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 18:0 upgrade - A (1)
+    F 28:0 downgrade - A (1)
 alembic/versions/7c643a1823db_index_on_external_request_id.py
-    <span style="color:#AA00AA">F </span>18:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>26:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 18:0 upgrade - A (1)
+    F 26:0 downgrade - A (1)
 alembic/versions/20cf59abbda8_add_external_reqeust_id_to_workerresult.py
-    <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>27:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 19:0 upgrade - A (1)
+    F 27:0 downgrade - A (1)
 alembic/versions/a46a17bfd29b_batches_versions_relation.py
-    <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>32:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 20:0 upgrade - A (1)
+    F 32:0 downgrade - A (1)
 alembic/versions/a60f15a395e2_do_not_index_ecosystem_url.py
-    <span style="color:#AA00AA">F </span>18:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>25:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 18:0 upgrade - A (1)
+    F 25:0 downgrade - A (1)
 alembic/versions/967036f90ba1_gemini_model_py.py
-    <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>31:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 19:0 upgrade - A (1)
+    F 31:0 downgrade - A (1)
 alembic/versions/3eb32f202f93_removing_starttime_and_endtime.py
-    <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>28:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 20:0 upgrade - A (1)
+    F 28:0 downgrade - A (1)
 alembic/versions/094ea67a2baf_add_index_for_synced2graph_column.py
-    <span style="color:#AA00AA">F </span>18:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>25:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 18:0 upgrade - A (1)
+    F 25:0 downgrade - A (1)
 alembic/versions/da53445aabad_add_recommendation_feedback_py.py
-    <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>40:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 19:0 upgrade - A (1)
+    F 40:0 downgrade - A (1)
 alembic/versions/963d3d929b19_analyses.py
-    <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>46:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 20:0 upgrade - A (1)
+    F 46:0 downgrade - A (1)
 alembic/versions/5cf8c7dac1b6_remove_active_flag.py
-    <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>26:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 19:0 upgrade - A (1)
+    F 26:0 downgrade - A (1)
 alembic/versions/6e7ff4c3177e_remove_batches.py
-    <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>28:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 20:0 upgrade - A (1)
+    F 28:0 downgrade - A (1)
 alembic/versions/51cb05927271_downstream_map.py
-    <span style="color:#AA00AA">F </span>19:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>29:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 19:0 upgrade - A (1)
+    F 29:0 downgrade - A (1)
 alembic/versions/21b3add12b10_initial_ref_stack_support.py
-    <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>34:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 20:0 upgrade - A (1)
+    F 34:0 downgrade - A (1)
 alembic/versions/22a1cd66a9c6_batches_reviews.py
-    <span style="color:#AA00AA">F </span>20:0 upgrade - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>40:0 downgrade - <span style="color:#00AA00">A (1)</span>
+    F 20:0 upgrade - A (1)
+    F 40:0 downgrade - A (1)
 
 912 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (2.6732456140350878)</span>
+Average complexity: A (2.6732456140350878)
 </pre>

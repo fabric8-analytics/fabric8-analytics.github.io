@@ -1,59 +1,59 @@
 <pre>tests/unit_tests/test_rest_api.py
-    <span style="color:#AA00AA">F </span>11:0 client - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>18:0 test_liveness - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>24:0 test_readiness - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>30:0 test_companion - <span style="color:#00AA00">A (2)</span>
+    F 11:0 client - A (2)
+    F 18:0 test_liveness - A (2)
+    F 24:0 test_readiness - A (2)
+    F 30:0 test_companion - A (2)
 tests/unit_tests/test_local_datastore.py
-    <span style="color:#AA00AA">F </span>6:0 test_local_datastore - <span style="color:#00AA00">A (3)</span>
+    F 6:0 test_local_datastore - A (3)
 tests/load_test/locustfile.py
-    <span style="color:#00AAAA">C </span>28:0 StackAnalysisUserBehaviour - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>31:4 StackAnalysisUserBehaviour.on_start - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>35:4 StackAnalysisUserBehaviour.trigger_stack_analysis_five_package_stack - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>46:0 StackAnalysisUserLocust - <span style="color:#00AA00">A (1)</span>
+    C 28:0 StackAnalysisUserBehaviour - A (1)
+    M 31:4 StackAnalysisUserBehaviour.on_start - A (1)
+    M 35:4 StackAnalysisUserBehaviour.trigger_stack_analysis_five_package_stack - A (1)
+    C 46:0 StackAnalysisUserLocust - A (1)
 insights_engine/rest_api.py
-    <span style="color:#AA00AA">F </span>24:0 readiness - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>44:0 companion_recommendation - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>19:0 liveness - <span style="color:#00AA00">A (1)</span>
+    F 24:0 readiness - A (3)
+    F 44:0 companion_recommendation - A (2)
+    F 19:0 liveness - A (1)
 insights_engine/data_store/local_filesystem.py
-    <span style="color:#00AA00">M </span>47:4 LocalFileSystem.read_generic_file - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AA00">M </span>56:4 LocalFileSystem.read_json_file - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>61:4 LocalFileSystem.download_file - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AAAA">C </span>33:0 LocalFileSystem - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>36:4 LocalFileSystem.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>43:4 LocalFileSystem.get_name - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>66:4 LocalFileSystem.read_into_file - <span style="color:#00AA00">A (1)</span>
+    M 47:4 LocalFileSystem.read_generic_file - A (3)
+    M 56:4 LocalFileSystem.read_json_file - A (2)
+    M 61:4 LocalFileSystem.download_file - A (2)
+    C 33:0 LocalFileSystem - A (1)
+    M 36:4 LocalFileSystem.__init__ - A (1)
+    M 43:4 LocalFileSystem.get_name - A (1)
+    M 66:4 LocalFileSystem.read_into_file - A (1)
 insights_engine/data_store/abstract_data_store.py
-    <span style="color:#00AAAA">C </span>24:0 AbstractDataStore - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>27:4 AbstractDataStore.get_name - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>32:4 AbstractDataStore.read_json_file - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>37:4 AbstractDataStore.read_into_file - <span style="color:#00AA00">A (1)</span>
+    C 24:0 AbstractDataStore - A (1)
+    M 27:4 AbstractDataStore.get_name - A (1)
+    M 32:4 AbstractDataStore.read_json_file - A (1)
+    M 37:4 AbstractDataStore.read_into_file - A (1)
 insights_engine/data_store/s3_data_store.py
-    <span style="color:#00AA00">M </span>89:4 S3DataStore.upload_folder_to_s3 - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>39:4 S3DataStore.__init__ - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>69:4 S3DataStore.read_generic_file - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AAAA">C </span>36:0 S3DataStore - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>61:4 S3DataStore.get_name - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>65:4 S3DataStore.read_json_file - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>80:4 S3DataStore.upload_file - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>85:4 S3DataStore.download_file - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>103:4 S3DataStore.read_into_file - <span style="color:#00AA00">A (1)</span>
+    M 89:4 S3DataStore.upload_folder_to_s3 - A (4)
+    M 39:4 S3DataStore.__init__ - A (2)
+    M 69:4 S3DataStore.read_generic_file - A (2)
+    C 36:0 S3DataStore - A (1)
+    M 61:4 S3DataStore.get_name - A (1)
+    M 65:4 S3DataStore.read_json_file - A (1)
+    M 80:4 S3DataStore.upload_file - A (1)
+    M 85:4 S3DataStore.download_file - A (1)
+    M 103:4 S3DataStore.read_into_file - A (1)
 insights_engine/scoring/rules_predict.py
-    <span style="color:#00AA00">M </span>47:4 ScoringEngine._create_companion_set - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AAAA">C </span>11:0 ScoringEngine - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>34:4 ScoringEngine._get_candidate_rules - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>72:4 ScoringEngine.predict - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>14:4 ScoringEngine.__init__ - <span style="color:#00AA00">A (2)</span>
+    M 47:4 ScoringEngine._create_companion_set - B (6)
+    C 11:0 ScoringEngine - A (4)
+    M 34:4 ScoringEngine._get_candidate_rules - A (4)
+    M 72:4 ScoringEngine.predict - A (4)
+    M 14:4 ScoringEngine.__init__ - A (2)
 insights_engine/training/data_preprocessing.py
-    <span style="color:#AA00AA">F </span>144:0 main - <span style="color:#AA5500">C (16)</span>
-    <span style="color:#AA00AA">F </span>20:0 add_packages_to_manifest_list - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#AA00AA">F </span>83:0 parse_godeps - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>109:0 eliminate_duplicates - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>64:0 parse_gopkg_toml - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>45:0 parse_glide_yaml - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>129:0 import_json - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>137:0 export_json - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>10:0 run_mercator - <span style="color:#00AA00">A (1)</span>
+    F 144:0 main - C (16)
+    F 20:0 add_packages_to_manifest_list - B (9)
+    F 83:0 parse_godeps - B (8)
+    F 109:0 eliminate_duplicates - B (6)
+    F 64:0 parse_gopkg_toml - A (4)
+    F 45:0 parse_glide_yaml - A (3)
+    F 129:0 import_json - A (2)
+    F 137:0 export_json - A (2)
+    F 10:0 run_mercator - A (1)
 
 46 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (2.630434782608696)</span>
+Average complexity: A (2.630434782608696)
 </pre>

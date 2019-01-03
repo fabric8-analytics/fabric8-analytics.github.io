@@ -1,53 +1,53 @@
 <pre>tests/test_api_v1.py
-    <span style="color:#AA00AA">F </span>214:0 test_get_item_skip - <span style="color:#00AA00">B (7)</span>
+    F 214:0 test_get_item_skip - B (7)
 tests/test_utils.py
-    <span style="color:#AA00AA">F </span>205:0 test_version_info_tuple - <span style="color:#AA5500">C (11)</span>
-    <span style="color:#AA00AA">F </span>184:0 test_semantic_versioning - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#AA00AA">F </span>270:0 test_create_dir_structure - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>344:0 test_get_cves_by_date_ecosystem_add - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>327:0 test_cve_get_by_date_valid - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>307:0 test_gremlin_component_analysis_response - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>362:0 test_get_cves_by_date_ecosystem_remove - <span style="color:#00AA00">B (6)</span>
+    F 205:0 test_version_info_tuple - C (11)
+    F 184:0 test_semantic_versioning - B (9)
+    F 270:0 test_create_dir_structure - B (8)
+    F 344:0 test_get_cves_by_date_ecosystem_add - B (8)
+    F 327:0 test_cve_get_by_date_valid - B (7)
+    F 307:0 test_gremlin_component_analysis_response - B (6)
+    F 362:0 test_get_cves_by_date_ecosystem_remove - B (6)
 tests/test_license_extractor.py
-    <span style="color:#AA00AA">F </span>67:0 test_extract_licenses - <span style="color:#AA5500">C (13)</span>
-    <span style="color:#AA00AA">F </span>25:0 test_get_license_synonyms - <span style="color:#00AA00">B (7)</span>
+    F 67:0 test_extract_licenses - C (13)
+    F 25:0 test_get_license_synonyms - B (7)
 bayesian/dependency_finder.py
-    <span style="color:#00AA00">M </span>101:4 DependencyFinder.execute - <span style="color:#AA5500">C (19)</span>
-    <span style="color:#00AA00">M </span>206:4 DependencyFinder.validate_manifest - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#00AA00">M </span>34:4 DependencyFinder.get_npm_dependencies - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#00AAAA">C </span>21:0 DependencyFinder - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>71:4 DependencyFinder.get_npm_transitives - <span style="color:#00AA00">B (7)</span>
+    M 101:4 DependencyFinder.execute - C (19)
+    M 206:4 DependencyFinder.validate_manifest - B (9)
+    M 34:4 DependencyFinder.get_npm_dependencies - B (8)
+    C 21:0 DependencyFinder - B (7)
+    M 71:4 DependencyFinder.get_npm_transitives - B (7)
 bayesian/utils.py
-    <span style="color:#AA00AA">F </span>1093:0 push_repo - <span style="color:#AA5500">C (11)</span>
-    <span style="color:#AA00AA">F </span>813:0 get_cve_data - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>994:0 fetch_file_from_github_release - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>1048:0 create_directory_structure - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#AA00AA">F </span>133:0 do_projection - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>286:0 search_packages_from_graph - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>667:4 GithubRead.get_manifest_files - <span style="color:#00AA00">B (6)</span>
+    F 1093:0 push_repo - C (11)
+    F 813:0 get_cve_data - B (8)
+    F 994:0 fetch_file_from_github_release - B (8)
+    F 1048:0 create_directory_structure - B (8)
+    F 133:0 do_projection - B (6)
+    F 286:0 search_packages_from_graph - B (6)
+    M 667:4 GithubRead.get_manifest_files - B (6)
 bayesian/manifest_models.py
-    <span style="color:#00AA00">M </span>62:4 MavenPom.add_element - <span style="color:#00AA00">B (10)</span>
-    <span style="color:#00AA00">M </span>13:4 MavenPom.__init__ - <span style="color:#00AA00">B (8)</span>
+    M 62:4 MavenPom.add_element - B (10)
+    M 13:4 MavenPom.__init__ - B (8)
 bayesian/api_v1.py
-    <span style="color:#00AA00">M </span>679:4 StackAnalyses.post - <span style="color:#AA5500">D (26)</span>
-    <span style="color:#00AAAA">C </span>326:0 StackAnalysesGET - <span style="color:#AA5500">C (18)</span>
-    <span style="color:#00AA00">M </span>331:4 StackAnalysesGET.get - <span style="color:#AA5500">C (18)</span>
-    <span style="color:#00AAAA">C </span>898:0 DepEditorAnalyses - <span style="color:#AA5500">C (17)</span>
-    <span style="color:#00AA00">M </span>903:4 DepEditorAnalyses.post - <span style="color:#AA5500">C (17)</span>
-    <span style="color:#00AAAA">C </span>674:0 StackAnalyses - <span style="color:#AA5500">C (14)</span>
-    <span style="color:#00AAAA">C </span>272:0 ComponentAnalysesPOST - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#00AA00">M </span>277:4 ComponentAnalysesPOST.post - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#00AAAA">C </span>1034:0 CategoryService - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#00AA00">M </span>1039:4 CategoryService.get - <span style="color:#00AA00">B (8)</span>
-    <span style="color:#00AAAA">C </span>481:0 UserIntent - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>486:4 UserIntent.post - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AAAA">C </span>609:0 SetTagsToComponent - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>614:4 SetTagsToComponent.post - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AAAA">C </span>1107:0 EmptyBooster - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>1112:4 EmptyBooster.post - <span style="color:#00AA00">B (7)</span>
+    M 679:4 StackAnalyses.post - D (26)
+    C 326:0 StackAnalysesGET - C (18)
+    M 331:4 StackAnalysesGET.get - C (18)
+    C 898:0 DepEditorAnalyses - C (17)
+    M 903:4 DepEditorAnalyses.post - C (17)
+    C 674:0 StackAnalyses - C (14)
+    C 272:0 ComponentAnalysesPOST - B (9)
+    M 277:4 ComponentAnalysesPOST.post - B (9)
+    C 1034:0 CategoryService - B (8)
+    M 1039:4 CategoryService.get - B (8)
+    C 481:0 UserIntent - B (7)
+    M 486:4 UserIntent.post - B (7)
+    C 609:0 SetTagsToComponent - B (7)
+    M 614:4 SetTagsToComponent.post - B (7)
+    C 1107:0 EmptyBooster - B (7)
+    M 1112:4 EmptyBooster.post - B (7)
 bayesian/license_extractor.py
-    <span style="color:#AA00AA">F </span>29:0 extract_licenses - <span style="color:#AA5500">C (13)</span>
+    F 29:0 extract_licenses - C (13)
 
 41 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">B (9.804878048780488)</span>
+Average complexity: B (9.804878048780488)
 </pre>

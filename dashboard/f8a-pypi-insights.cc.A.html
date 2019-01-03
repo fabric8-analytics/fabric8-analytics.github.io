@@ -1,44 +1,44 @@
 <pre>tests/unit_tests/test_constants.py
-    <span style="color:#00AAAA">C </span>9:0 TestImport - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>12:4 TestImport.test_cloud_constants - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>16:4 TestImport.test_path_constants - <span style="color:#00AA00">A (1)</span>
+    C 9:0 TestImport - A (1)
+    M 12:4 TestImport.test_cloud_constants - A (1)
+    M 16:4 TestImport.test_path_constants - A (1)
 src/recommendation_service.py
-    <span style="color:#AA00AA">F </span>63:0 recommendation - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>51:0 liveness - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#AA00AA">F </span>57:0 readiness - <span style="color:#00AA00">A (1)</span>
+    F 63:0 recommendation - A (4)
+    F 51:0 liveness - A (1)
+    F 57:0 readiness - A (1)
 src/models/predict_model.py
-    <span style="color:#00AA00">M </span>124:4 HPFScoring.predict - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#00AA00">M </span>71:4 HPFScoring._get_closest_manifest_file - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>90:4 HPFScoring._map_input_to_package_ids - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#00AAAA">C </span>39:0 HPFScoring - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>107:4 HPFScoring._get_packages_from_id - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>42:4 HPFScoring.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>55:4 HPFScoring._load_model - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>59:4 HPFScoring._load_package_to_id_map - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>63:4 HPFScoring._load_id_to_package_map - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>67:4 HPFScoring._load_manifest_to_id_map - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>120:4 HPFScoring._sigmoid - <span style="color:#00AA00">A (1)</span>
+    M 124:4 HPFScoring.predict - B (9)
+    M 71:4 HPFScoring._get_closest_manifest_file - A (5)
+    M 90:4 HPFScoring._map_input_to_package_ids - A (3)
+    C 39:0 HPFScoring - A (2)
+    M 107:4 HPFScoring._get_packages_from_id - A (2)
+    M 42:4 HPFScoring.__init__ - A (1)
+    M 55:4 HPFScoring._load_model - A (1)
+    M 59:4 HPFScoring._load_package_to_id_map - A (1)
+    M 63:4 HPFScoring._load_id_to_package_map - A (1)
+    M 67:4 HPFScoring._load_manifest_to_id_map - A (1)
+    M 120:4 HPFScoring._sigmoid - A (1)
 src/data_store/local_filesystem.py
-    <span style="color:#00AA00">M </span>48:4 LocalFileSystem.read_generic_file - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>53:4 LocalFileSystem.read_json_file - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>58:4 LocalFileSystem.read_pickle_file - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AAAA">C </span>34:0 LocalFileSystem - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>37:4 LocalFileSystem.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>44:4 LocalFileSystem.get_name - <span style="color:#00AA00">A (1)</span>
+    M 48:4 LocalFileSystem.read_generic_file - A (2)
+    M 53:4 LocalFileSystem.read_json_file - A (2)
+    M 58:4 LocalFileSystem.read_pickle_file - A (2)
+    C 34:0 LocalFileSystem - A (1)
+    M 37:4 LocalFileSystem.__init__ - A (1)
+    M 44:4 LocalFileSystem.get_name - A (1)
 src/data_store/abstract_data_store.py
-    <span style="color:#00AAAA">C </span>24:0 AbstractDataStore - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>27:4 AbstractDataStore.get_name - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>32:4 AbstractDataStore.read_json_file - <span style="color:#00AA00">A (1)</span>
+    C 24:0 AbstractDataStore - A (1)
+    M 27:4 AbstractDataStore.get_name - A (1)
+    M 32:4 AbstractDataStore.read_json_file - A (1)
 src/data_store/s3_data_store.py
-    <span style="color:#00AA00">M </span>86:4 S3DataStore.upload_folder_to_s3 - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>40:4 S3DataStore.__init__ - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AAAA">C </span>37:0 S3DataStore - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>61:4 S3DataStore.get_name - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>65:4 S3DataStore.read_json_file - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>69:4 S3DataStore.read_generic_file - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>75:4 S3DataStore.read_pickle_file - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>81:4 S3DataStore.upload_file - <span style="color:#00AA00">A (1)</span>
+    M 86:4 S3DataStore.upload_folder_to_s3 - A (4)
+    M 40:4 S3DataStore.__init__ - A (2)
+    C 37:0 S3DataStore - A (1)
+    M 61:4 S3DataStore.get_name - A (1)
+    M 65:4 S3DataStore.read_json_file - A (1)
+    M 69:4 S3DataStore.read_generic_file - A (1)
+    M 75:4 S3DataStore.read_pickle_file - A (1)
+    M 81:4 S3DataStore.upload_file - A (1)
 
 34 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (1.7647058823529411)</span>
+Average complexity: A (1.7647058823529411)
 </pre>

@@ -1,62 +1,62 @@
 <pre>setup.py
-    <span style="color:#AA00AA">F </span>7:0 get_requirements - <span style="color:#00AA00">A (5)</span>
+    F 7:0 get_requirements - A (5)
 tests/test_depencency_finder.py
-    <span style="color:#AA00AA">F </span>7:0 test_scan_and_find_dependencies - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>20:0 test_scan_and_find_dependencies_pypi - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>33:0 test_scan_and_find_dependencies_maven - <span style="color:#00AA00">A (4)</span>
+    F 7:0 test_scan_and_find_dependencies - A (4)
+    F 20:0 test_scan_and_find_dependencies_pypi - A (4)
+    F 33:0 test_scan_and_find_dependencies_maven - A (4)
 tests/test_versions.py
-    <span style="color:#AA00AA">F </span>114:0 test_get_java_versions - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#AA00AA">F </span>14:0 test_get_versions_for_npm_package - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>93:0 test_get_python_versions - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#AA00AA">F </span>147:0 test_get_versions_for_ep_no_package - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#AA00AA">F </span>75:0 test_get_javascript_versions_empty_server_response - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>84:0 test_get_javascript_versions_server_response_without_json - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>35:0 test_get_versions_for_npm_package_deprecated_package - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>63:0 mocked_requests_get_no_json - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>69:0 mocked_requests_get_value_error - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>141:0 test_get_versions_for_ep_bad_ecosystem - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>157:0 test_get_versions_for_ep_no_ecosystem - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AAAA">C </span>41:0 _response_no_json - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>44:4 _response_no_json.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>48:4 _response_no_json.json - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AAAA">C </span>52:0 _response_json_value_error - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>55:4 _response_json_value_error.__init__ - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>59:4 _response_json_value_error.json - <span style="color:#00AA00">A (1)</span>
+    F 114:0 test_get_java_versions - B (9)
+    F 14:0 test_get_versions_for_npm_package - B (7)
+    F 93:0 test_get_python_versions - B (7)
+    F 147:0 test_get_versions_for_ep_no_package - A (4)
+    F 75:0 test_get_javascript_versions_empty_server_response - A (3)
+    F 84:0 test_get_javascript_versions_server_response_without_json - A (3)
+    F 35:0 test_get_versions_for_npm_package_deprecated_package - A (2)
+    F 63:0 mocked_requests_get_no_json - A (2)
+    F 69:0 mocked_requests_get_value_error - A (2)
+    F 141:0 test_get_versions_for_ep_bad_ecosystem - A (2)
+    F 157:0 test_get_versions_for_ep_no_ecosystem - A (2)
+    C 41:0 _response_no_json - A (1)
+    M 44:4 _response_no_json.__init__ - A (1)
+    M 48:4 _response_no_json.json - A (1)
+    C 52:0 _response_json_value_error - A (1)
+    M 55:4 _response_json_value_error.__init__ - A (1)
+    M 59:4 _response_json_value_error.json - A (1)
 tests/commands/test_command.py
-    <span style="color:#AA00AA">F </span>64:0 test_kill_children - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>20:0 test_input_validation - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>50:0 test_update_env - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>57:0 test_env - <span style="color:#00AA00">A (3)</span>
-    <span style="color:#AA00AA">F </span>10:0 test_success - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>15:0 test_failure - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>33:0 test_failure_raise - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>39:0 test_timeout - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>44:0 test_timeout_raise - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>81:0 test_magic_str - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#AA00AA">F </span>28:0 test_no_failure_no_raise - <span style="color:#00AA00">A (1)</span>
+    F 64:0 test_kill_children - B (6)
+    F 20:0 test_input_validation - A (3)
+    F 50:0 test_update_env - A (3)
+    F 57:0 test_env - A (3)
+    F 10:0 test_success - A (2)
+    F 15:0 test_failure - A (2)
+    F 33:0 test_failure_raise - A (2)
+    F 39:0 test_timeout - A (2)
+    F 44:0 test_timeout_raise - A (2)
+    F 81:0 test_magic_str - A (2)
+    F 28:0 test_no_failure_no_raise - A (1)
 f8a_utils/dependency_finder.py
-    <span style="color:#00AA00">M </span>124:4 DependencyFinder.get_npm_dependencies - <span style="color:#00AA00">B (9)</span>
-    <span style="color:#00AA00">M </span>21:4 DependencyFinder.get_maven_dependencies - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AA00">M </span>166:4 DependencyFinder.get_npm_transitives - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AAAA">C </span>6:0 DependencyFinder - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>93:4 DependencyFinder._parse_string - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#00AA00">M </span>71:4 DependencyFinder.get_maven_transitives - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#00AA00">M </span>9:4 DependencyFinder.scan_and_find_dependencies - <span style="color:#00AA00">A (4)</span>
-    <span style="color:#00AA00">M </span>183:4 DependencyFinder.get_pypi_dependencies - <span style="color:#00AA00">A (3)</span>
+    M 124:4 DependencyFinder.get_npm_dependencies - B (9)
+    M 21:4 DependencyFinder.get_maven_dependencies - B (7)
+    M 166:4 DependencyFinder.get_npm_transitives - B (7)
+    C 6:0 DependencyFinder - B (6)
+    M 93:4 DependencyFinder._parse_string - B (6)
+    M 71:4 DependencyFinder.get_maven_transitives - A (5)
+    M 9:4 DependencyFinder.scan_and_find_dependencies - A (4)
+    M 183:4 DependencyFinder.get_pypi_dependencies - A (3)
 f8a_utils/versions.py
-    <span style="color:#AA00AA">F </span>84:0 get_versions_for_maven_package - <span style="color:#00AA00">B (6)</span>
-    <span style="color:#AA00AA">F </span>11:0 get_versions_for_ep - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>32:0 get_versions_for_npm_package - <span style="color:#00AA00">A (5)</span>
-    <span style="color:#AA00AA">F </span>64:0 get_versions_for_pypi_package - <span style="color:#00AA00">A (3)</span>
+    F 84:0 get_versions_for_maven_package - B (6)
+    F 11:0 get_versions_for_ep - A (5)
+    F 32:0 get_versions_for_npm_package - A (5)
+    F 64:0 get_versions_for_pypi_package - A (3)
 f8a_utils/commands/command.py
-    <span style="color:#00AA00">M </span>67:4 ExternalCommand._exec - <span style="color:#00AA00">B (7)</span>
-    <span style="color:#00AAAA">C </span>11:0 ExternalCommand - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>14:4 ExternalCommand.__init__ - <span style="color:#00AA00">A (2)</span>
-    <span style="color:#00AA00">M </span>33:4 ExternalCommand.run - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>56:4 ExternalCommand._prep - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>60:4 ExternalCommand._cleanup - <span style="color:#00AA00">A (1)</span>
-    <span style="color:#00AA00">M </span>135:4 ExternalCommand.__str__ - <span style="color:#00AA00">A (1)</span>
+    M 67:4 ExternalCommand._exec - B (7)
+    C 11:0 ExternalCommand - A (2)
+    M 14:4 ExternalCommand.__init__ - A (2)
+    M 33:4 ExternalCommand.run - A (1)
+    M 56:4 ExternalCommand._prep - A (1)
+    M 60:4 ExternalCommand._cleanup - A (1)
+    M 135:4 ExternalCommand.__str__ - A (1)
 
 51 blocks (classes, functions, methods) analyzed.
-Average complexity: <span style="color:#00AA00">A (3.4313725490196076)</span>
+Average complexity: A (3.4313725490196076)
 </pre>
