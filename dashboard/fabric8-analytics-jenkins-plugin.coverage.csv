@@ -1,7 +1,7 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
 Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,User,4,6,0,0,2,3,1,2,1,2
-Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,Bayesian,659,592,129,49,38,120,91,17,4,15
-Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,BayesianAnalysisStep,12,22,0,0,5,8,3,6,3,6
+Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,Bayesian,662,601,130,50,39,123,92,17,4,15
+Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,BayesianAnalysisStep,25,22,2,0,7,8,4,6,3,6
 Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,Codebase.Data,14,0,0,0,5,0,4,0,4,0
 Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,BayesianStepResponse,25,26,0,0,11,8,7,3,7,3
 Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,DnsFiddler,28,24,3,1,6,6,3,2,1,2
@@ -12,7 +12,7 @@ Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,Utils,31,136,6,10,9,38,6,9,1
 Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,Codebase,4,6,0,0,2,3,1,2,1,2
 Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,BayesianAnalysisStep.DescriptorImpl,0,23,0,0,0,4,0,4,0,4
 Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,Utils.new ArrayList() {...},0,7,0,0,0,3,0,1,0,1
-Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,BayesianAnalysisStep.Execution,40,103,5,5,9,22,5,2,0,2
+Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,BayesianAnalysisStep.Execution,38,114,5,5,8,23,5,2,0,2
 Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,BayesianException,13,0,0,0,6,0,3,0,3,0
 Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,Utils.new ArrayList() {...},0,7,0,0,0,3,0,1,0,1
 Bayesian Plugin,com.redhat.jenkins.plugins.bayesian,Utils.new ArrayList() {...},0,11,0,0,0,4,0,1,0,1
