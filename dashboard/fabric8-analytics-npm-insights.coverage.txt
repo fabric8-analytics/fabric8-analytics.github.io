@@ -4,7 +4,7 @@ Name                                                        Stmts   Miss  Cover 
 /recommendation_engine/config/__init__.py                       0      0   100%
 /recommendation_engine/config/cloud_constants.py                8      0   100%
 /recommendation_engine/config/params_scoring.py                 8      0   100%
-/recommendation_engine/config/path_constants.py                 9      0   100%
+/recommendation_engine/config/path_constants.py                10      0   100%
 /recommendation_engine/data_store/__init__.py                   0      0   100%
 /recommendation_engine/data_store/abstract_data_store.py        5      0   100%
 /recommendation_engine/data_store/local_filesystem.py          23      0   100%
@@ -14,8 +14,8 @@ Name                                                        Stmts   Miss  Cover 
 /recommendation_engine/model/pmf_prediction.py                 13      0   100%
 /recommendation_engine/predictor/__init__.py                    0      0   100%
 /recommendation_engine/predictor/abstract_recommender.py        5      0   100%
-/recommendation_engine/predictor/online_recommendation.py      90      5    94%   110, 119, 124-125, 155
+/recommendation_engine/predictor/online_recommendation.py      90      0   100%
 /recommendation_engine/utils/__init__.py                        0      0   100%
 /recommendation_engine/utils/fileutils.py                      15      0   100%
 -----------------------------------------------------------------------------------------
-TOTAL                                                         248     32    87%
+TOTAL                                                         249     27    89%

@@ -54,6 +54,8 @@ alembic/versions/b4fbc8e04c81_gh_usage_with_versions.py
     Pass
 alembic/versions/a0433904c63b_analysis_requests.py
     Pass
+alembic/versions/063c0fcb3fa3_add_index_on_user_email.py
+    Pass
 alembic/versions/750621a9cd89_drop_server_tables.py
     Pass
 alembic/versions/133cd5484609_add_es_marker.py
@@ -336,8 +338,7 @@ tests/storages/test_postgres.py
 tests/workers/test_gocvecollector.py
     Pass
 tests/workers/test_git_operations.py
-tests/workers/test_git_operations.py:4: unused import 'json' (90% confidence)
-    Fail
+    Pass
 tests/workers/test_recurse.py
     Pass
 tests/workers/__init__.py
@@ -368,4 +369,4 @@ setup.py
 
 setup.py
     Pass
-17 source files out of 161 files seems to contain dead code and/or unused imports
+16 source files out of 162 files seems to contain dead code and/or unused imports

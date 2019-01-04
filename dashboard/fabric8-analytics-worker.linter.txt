@@ -53,6 +53,8 @@ alembic/versions/b4fbc8e04c81_gh_usage_with_versions.py
     Pass
 alembic/versions/a0433904c63b_analysis_requests.py
     Pass
+alembic/versions/063c0fcb3fa3_add_index_on_user_email.py
+    Pass
 alembic/versions/750621a9cd89_drop_server_tables.py
     Pass
 alembic/versions/133cd5484609_add_es_marker.py
@@ -336,4 +338,4 @@ setup.py
 ----------------------------------------------------
 setup.py
     Pass
-All checks passed for 161 source files
+All checks passed for 162 source files
