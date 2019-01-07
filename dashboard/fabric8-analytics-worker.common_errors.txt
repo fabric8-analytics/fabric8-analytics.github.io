@@ -305,6 +305,8 @@ tests/test_utils.py
     Pass
 tests/test_solver.py
     Pass
+tests/storages/test_s3_gocveartifact.py
+    Pass
 tests/storages/__init__.py
     Pass
 tests/storages/test_postgres.py
@@ -342,4 +344,4 @@ setup.py
 
 setup.py
     Pass
-2 source files out of 162 files needs to be checked and fixed
+2 source files out of 163 files needs to be checked and fixed

@@ -476,11 +476,13 @@ f8a_worker/storages/s3_userintent.py
     M 9:4 S3UserIntent.store_in_bucket - A (2)
     M 25:4 S3UserIntent.fetch_master_tags - A (2)
 f8a_worker/storages/s3_gocveartifact.py
-    M 17:4 S3IssuesPRs.store - A (2)
+    M 31:4 S3IssuesPRs.store - A (2)
     C 9:0 S3IssuesPRs - A (1)
-    M 12:4 S3IssuesPRs._construct_object_key - A (1)
-    M 26:4 S3IssuesPRs.retrieve - A (1)
-    M 34:4 S3IssuesPRs.store_error - A (1)
+    M 12:4 S3IssuesPRs.bucket_name - A (1)
+    M 17:4 S3IssuesPRs.bucket_name - A (1)
+    M 26:4 S3IssuesPRs._construct_object_key - A (1)
+    M 40:4 S3IssuesPRs.retrieve - A (1)
+    M 48:4 S3IssuesPRs.store_error - A (1)
 f8a_worker/storages/s3_userprofilestore.py
     C 7:0 S3UserProfileStore - A (1)
     M 10:4 S3UserProfileStore.store_in_bucket - A (1)
@@ -837,6 +839,8 @@ tests/data_normalizer/java.py
     F 7:0 test_transforming_java_data - A (5)
 tests/data/license/license.py
     F 24:0 funkce - A (1)
+tests/storages/test_s3_gocveartifact.py
+    F 6:0 test_bucket_name - A (2)
 tests/storages/test_postgres.py
     C 19:0 TestBayesianPostgres - A (2)
     M 22:4 TestBayesianPostgres.setup_method - A (2)
@@ -1066,6 +1070,6 @@ alembic/versions/22a1cd66a9c6_batches_reviews.py
     F 20:0 upgrade - A (1)
     F 40:0 downgrade - A (1)
 
-914 blocks (classes, functions, methods) analyzed.
-Average complexity: A (2.6706783369803064)
+917 blocks (classes, functions, methods) analyzed.
+Average complexity: A (2.6663031624863684)
 </pre>
