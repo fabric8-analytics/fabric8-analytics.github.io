@@ -461,12 +461,12 @@ f8a_worker/storages/s3_manifests.py
 f8a_worker/storages/postgres_base.py
     M 35:4 PostgresBase.__init__ - B (7)
     M 84:4 PostgresBase.retrieve - B (6)
-    M 131:4 PostgresBase.store_error - B (6)
+    M 135:4 PostgresBase.store_error - B (6)
+    M 117:4 PostgresBase.store - A (4)
     C 20:0 PostgresBase - A (3)
-    M 117:4 PostgresBase.store - A (3)
-    M 171:4 PostgresBase.is_real_task_result - A (3)
+    M 175:4 PostgresBase.is_real_task_result - A (3)
     M 78:4 PostgresBase.disconnect - A (2)
-    M 164:4 PostgresBase.get_ecosystem - A (2)
+    M 168:4 PostgresBase.get_ecosystem - A (2)
     M 59:4 PostgresBase.is_connected - A (1)
     M 63:4 PostgresBase.connect - A (1)
     M 114:4 PostgresBase._create_result_entry - A (1)
@@ -623,7 +623,7 @@ f8a_worker/workers/mercator.py
     M 142:4 MercatorTask._add_extra_go_fields - A (1)
 f8a_worker/workers/golangcvepredictor.py
     M 25:4 GitIssuesPRsTask.get_response_issues - B (6)
-    M 69:4 GitIssuesPRsTask.execute - B (6)
+    M 70:4 GitIssuesPRsTask.execute - B (6)
     C 17:0 GitIssuesPRsTask - A (5)
     M 52:4 GitIssuesPRsTask._processJSonIssuePR - A (2)
 f8a_worker/workers/digester.py
@@ -848,8 +848,8 @@ tests/storages/test_postgres.py
     M 53:4 TestBayesianPostgres.test_retrieve_s3 - A (2)
     M 76:4 TestBayesianPostgres.test_store_normal - A (2)
     M 84:4 TestBayesianPostgres.test_store_already_exists - A (2)
-    M 93:4 TestBayesianPostgres.test_get_latest_task_result - A (2)
-    M 119:4 TestBayesianPostgres.test_get_latest_task_result_no_results - A (2)
+    M 100:4 TestBayesianPostgres.test_get_latest_task_result - A (2)
+    M 126:4 TestBayesianPostgres.test_get_latest_task_result_no_results - A (2)
 tests/workers/test_gocvecollector.py
     M 46:4 TestGocvecollector.test_execute_noarg - A (5)
     M 54:4 TestGocvecollector.test_execute - A (5)
@@ -1071,5 +1071,5 @@ alembic/versions/22a1cd66a9c6_batches_reviews.py
     F 40:0 downgrade - A (1)
 
 917 blocks (classes, functions, methods) analyzed.
-Average complexity: A (2.6663031624863684)
+Average complexity: A (2.6673936750272627)
 </pre>

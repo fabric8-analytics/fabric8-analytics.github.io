@@ -277,8 +277,8 @@ f8a_worker/workers/repo_dependency_finder.py:151: unreachable code after 'raise'
 f8a_worker/workers/mercator.py
     Pass
 f8a_worker/workers/golangcvepredictor.py
-f8a_worker/workers/golangcvepredictor.py:101: unreachable code after 'raise' (100% confidence)
-f8a_worker/workers/golangcvepredictor.py:105: unreachable code after 'raise' (100% confidence)
+f8a_worker/workers/golangcvepredictor.py:102: unreachable code after 'raise' (100% confidence)
+f8a_worker/workers/golangcvepredictor.py:106: unreachable code after 'raise' (100% confidence)
     Fail
 f8a_worker/workers/digester.py
     Pass
@@ -336,7 +336,9 @@ tests/storages/test_s3_gocveartifact.py
 tests/storages/__init__.py
     Pass
 tests/storages/test_postgres.py
-    Pass
+tests/storages/test_postgres.py:6: unused import 'pytest' (90% confidence)
+tests/storages/test_postgres.py:8: unused import 'IntegrityError' (90% confidence)
+    Fail
 tests/workers/test_gocvecollector.py
     Pass
 tests/workers/test_git_operations.py
@@ -371,4 +373,4 @@ setup.py
 
 setup.py
     Pass
-16 source files out of 163 files seems to contain dead code and/or unused imports
+17 source files out of 163 files seems to contain dead code and/or unused imports

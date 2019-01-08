@@ -310,7 +310,9 @@ tests/storages/test_s3_gocveartifact.py
 tests/storages/__init__.py
     Pass
 tests/storages/test_postgres.py
-    Pass
+tests/storages/test_postgres.py:6: 'pytest' imported but unused
+tests/storages/test_postgres.py:8: 'sqlalchemy.exc.IntegrityError' imported but unused
+    Fail
 tests/workers/test_gocvecollector.py
     Pass
 tests/workers/test_git_operations.py
@@ -344,4 +346,4 @@ setup.py
 
 setup.py
     Pass
-2 source files out of 163 files needs to be checked and fixed
+3 source files out of 163 files needs to be checked and fixed

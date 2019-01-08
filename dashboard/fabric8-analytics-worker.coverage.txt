@@ -30,7 +30,7 @@ Name                                                            Stmts   Miss  Co
 /f8a_worker/f8a_worker/storages/__init__.py                        35      0   100%
 /f8a_worker/f8a_worker/storages/package_postgres.py                86     64    26%   30-32, 35-38, 58-66, 76-89, 98-103, 112-122, 132-154, 165-189, 202-218
 /f8a_worker/f8a_worker/storages/postgres.py                       114     73    36%   65, 76-78, 84, 98-115, 126-140, 149-159, 168-173, 182-190, 199-205, 211-212, 221-261, 271-280
-/f8a_worker/f8a_worker/storages/postgres_base.py                   91     24    74%   43, 49, 54, 93-97, 115, 121, 143-162, 167
+/f8a_worker/f8a_worker/storages/postgres_base.py                   93     27    71%   43, 49, 54, 93-97, 115, 121, 131-133, 147-166, 171
 /f8a_worker/f8a_worker/storages/s3.py                             122     70    43%   58, 68, 76-88, 94-108, 121-130, 134-140, 148-149, 153, 157, 162, 171-177, 186-198, 207-208, 212, 216, 220, 228-236, 241-244, 248-256
 /f8a_worker/f8a_worker/storages/s3_artifacts.py                     4      0   100%
 /f8a_worker/f8a_worker/storages/s3_crowd_source_tags.py            12      7    42%   12, 16-18, 22-24
@@ -38,7 +38,7 @@ Name                                                            Stmts   Miss  Co
 /f8a_worker/f8a_worker/storages/s3_data_base.py                    36     25    31%   17-30, 39, 49-50, 68-84, 94-95
 /f8a_worker/f8a_worker/storages/s3_description_repository.py       13      8    38%   12, 16-17, 21-27
 /f8a_worker/f8a_worker/storages/s3_gh_manifests.py                 16     10    38%   11-12, 17, 22-27, 31-32
-/f8a_worker/f8a_worker/storages/s3_gocveartifact.py                15      7    53%   15, 19-24, 32, 36
+/f8a_worker/f8a_worker/storages/s3_gocveartifact.py                19      7    63%   29, 33-38, 46, 50
 /f8a_worker/f8a_worker/storages/s3_manifests.py                    12      7    42%   14-15, 19-26
 /f8a_worker/f8a_worker/storages/s3_manual_tagging.py               17     12    29%   11-17, 21-27, 32-34
 /f8a_worker/f8a_worker/storages/s3_mavenindex.py                   40     25    38%   24-32, 36-44, 53-62, 66-69
@@ -79,4 +79,4 @@ Name                                                            Stmts   Miss  Co
 /f8a_worker/f8a_worker/workers/unknown_dep_fetcher.py              39     31    21%   15-50, 59-67
 /f8a_worker/f8a_worker/workers/user_notifier.py                    38     29    24%   15-25, 29-49, 57-73
 ---------------------------------------------------------------------------------------------
-TOTAL                                                            5335   1943    64%
+TOTAL                                                            5341   1946    64%
