@@ -26,13 +26,16 @@ baf/src/random_payload_generator.py
     M 10:4 RandomPayloadGenerator.__init__ - A (1)
     M 71:4 RandomPayloadGenerator.generate_random_value - A (1)
 baf/src/setup.py
-    F 71:0 setup - B (6)
+    F 88:0 setup - A (5)
     F 56:0 get_access_token - A (4)
     F 13:0 add_slash - A (3)
     F 25:0 missing_api_token_warning - A (2)
     F 37:0 check_api_tokens_presence - A (2)
     F 46:0 yes_no - A (2)
     F 51:0 enabled_disabled - A (2)
+    F 71:0 parse_tags - A (2)
+    F 78:0 tags_as_str - A (2)
+    F 83:0 refresh_token_as_str - A (2)
     F 20:0 read_url_from_env_var - A (1)
 baf/src/fuzzer.py
     F 210:0 run_test - B (8)
@@ -49,11 +52,12 @@ baf/src/fuzzer.py
     F 182:0 log_fuzzer_setting - A (2)
     F 24:0 fuzz - A (1)
 baf/src/baf.py
-    F 29:0 start_tests - A (5)
+    F 43:0 start_tests - B (6)
+    F 29:0 run_tests_with_tags - A (4)
     F 19:0 run_all_loaded_tests - A (3)
-    F 43:0 read_fuzzer_settings - A (3)
-    F 60:0 main - A (2)
-    F 55:0 show_version - A (1)
+    F 60:0 read_fuzzer_settings - A (3)
+    F 77:0 main - A (2)
+    F 72:0 show_version - A (1)
 baf/src/test_result.py
     C 7:0 TestResult - A (1)
 baf/src/report_generator.py
@@ -1268,6 +1272,6 @@ perf-tests/src/gremlin_package_generator.py
     M 55:4 GremlinPackageGenerator.package_generator_for_ecosystem - A (2)
     M 65:4 GremlinPackageGenerator.package_version_generator_for_ecosystem - A (2)
 
-1160 blocks (classes, functions, methods) analyzed.
-Average complexity: A (2.325)
+1164 blocks (classes, functions, methods) analyzed.
+Average complexity: A (2.325601374570447)
 </pre>
