@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Bayesian API Fuzzer test results</title>
+        <meta name="Author" content="Pavel Tisnovsky" />
+        <meta name="Generator" content="BAF" />
+        <meta http-equiv="Content-type"  content="text/html; charset=utf-8"/>
+        <link href="bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="baf.css" rel="stylesheet" type="text/css" />
+        <script src="bootstrap.min.js" type="text/javascript"></script>
+    </head>
+    <body style="padding-top:70px">
+        <div class="container" style="width:95%">
+            <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                <div class="container-fluid"><div class="row">
+                    <div class="col-md-4">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="/">Bayesian REST API Fuzzy Tests</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <h1>License recommender - improper HTTP code</h1>
+            <h2>Table of content</h2>
+            <ol>
+                <li><a href="#config">Configuration</a></li>
+                <li><a href="#spec">Test specifications</a></li>
+                <li><a href="#results">Test results</a></li>
+                <li><a href="#stat">Statistic</a></li>
+            </ol>
+
+            <a name="config"></a>
+            <div style="padding-top:70px"></div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">Configuration</div>
+                <table class="table table-condensed table-hover table-bordered" rules="all">
+                    <tr>
+                        <td style="width:30ex">Dry run</td>
+                            <td class='no'>disabled</td>
+                    </tr>
+                    <tr>
+                        <td style="width:30ex">Tags</td>
+                            <td class='no'>not specified</td>
+                    </tr>
+                    <tr>
+                        <td>HTML output</td>
+                            <td class='value'>results.html</td>
+                    </tr>
+                    <tr>
+                        <td>Text output</td>
+                            <td class='no'>disabled</td>
+                    </tr>
+                    <tr>
+                        <td>CSV output</td>
+                            <td class='no'>disabled</td>
+                    </tr>
+                    <tr>
+                        <td>TSV output</td>
+                            <td class='no'>disabled</td>
+                    </tr>
+                    <tr>
+                        <td>XML output</td>
+                            <td class='no'>disabled</td>
+                    </tr>
+                    <tr>
+                        <td>Input file with tests</td>
+                            <td class='value'>tests.csv</td>
+                    </tr>
+                </table>
+            </div>
+
+            <a name="spec"></a>
+            <div style="padding-top:70px"></div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">Test specifications</div>
+                <table class="table table-condensed table-hover table-bordered" rules="all">
+                    <tr>
+                        <th style="width:26ex">Test name</th>
+                        <th>Server</th>
+                        <th>Prefix</th>
+                        <th>Endpoint</th>
+                        <th>Method</th>
+                        <th>Payload</th>
+                        <th>Add items</th>
+                        <th>Remove items</th>
+                        <th>Change types</th>
+                        <th>Mutate payload</th>
+                        <th>Expected status</th>
+                        <th>Fuzzer setting</th>
+                        <th>Tags</th>
+                        <th>Comment</th>
+                    </tr>
+                    <tr>
+                        <td>Basic license analysis test</td>
+                        <td>F8A_SERVER_API_URL</td>
+                        <td>api/v1</td>
+                        <td>license-recommender</td>
+                        <td>POST</td>
+                        <td>payloads/server/license_analysis/maven_one_package.json</td>
+                        <td>no</td>
+                        <td>no</td>
+                        <td>no</td>
+                        <td>no</td>
+                        <td>200</td>
+                        <td>normal</td>
+                        <td>license-recommender,basic</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Negative license analysis test (more items in payload)</td>
+                        <td>F8A_SERVER_API_URL</td>
+                        <td>api/v1</td>
+                        <td>license-recommender</td>
+                        <td>POST</td>
+                        <td>payloads/server/license_analysis/maven_one_package.json</td>
+                        <td>yes</td>
+                        <td>no</td>
+                        <td>no</td>
+                        <td>no</td>
+                        <td>400</td>
+                        <td>normal</td>
+                        <td>license-recommender,additional-items</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Negative license analysis test (change items)</td>
+                        <td>F8A_SERVER_API_URL</td>
+                        <td>api/v1</td>
+                        <td>license-recommender</td>
+                        <td>POST</td>
+                        <td>payloads/server/license_analysis/maven_one_package.json</td>
+                        <td>no</td>
+                        <td>no</td>
+                        <td>yes</td>
+                        <td>no</td>
+                        <td>400</td>
+                        <td>normal</td>
+                        <td>license-recommender,change-items</td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+
+            <a name="results"></a>
+            <div style="padding-top:70px"></div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">Test results</div>
+                <table class="table table-condensed table-hover table-bordered" rules="all">
+                    <tr>
+                        <th style="width:26ex">Test name</th>
+                        <th style="width:36ex">URL</th>
+                        <th>Method</th>
+                        <th>Expected status</th>
+                        <th>Actual status</th>
+                        <th>Result</th>
+                        <th>Payload</th>
+                    </tr>
+                    <tr>
+                        <td>Basic license analysis test</td>
+                        <td><a href="https://license-analysis.api.prod-preview.openshift.io/api/v1/license-recommender">https://license-analysis.api.prod-preview.openshift.io/api/v1/license-recommender</a></td>
+                        <td>POST</td>
+                        <td>200</td>
+                        <td>200</td>
+                            <td class='ok'>SUCCESS</td>
+                        <td><pre>{
+    &#34;_resolved&#34;: [
+        {
+            &#34;package&#34;: &#34;org.wildfly.swarm:monitor&#34;,
+            &#34;version&#34;: &#34;2018.3.3&#34;
+        }
+    ],
+    &#34;ecosystem&#34;: &#34;maven&#34;,
+    &#34;request_id&#34;: &#34;4bcd3113e30d436da17dced85edb6e9e&#34;
+}</pre></td>
+                    </tr>
+                    <tr>
+                        <td>Negative license analysis test (change items)</td>
+                        <td><a href="https://license-analysis.api.prod-preview.openshift.io/api/v1/license-recommender">https://license-analysis.api.prod-preview.openshift.io/api/v1/license-recommender</a></td>
+                        <td>POST</td>
+                        <td>400</td>
+                        <td>500</td>
+                            <td class='error'>FAILURE</td>
+                        <td><pre>{
+    &#34;_resolved&#34;: {
+        &#34;fxodl6j859&#34;: {
+            &#34;lt7lh44zc3&#34;: &#34;ffWc+:QiYu&amp;Ug2D5B&gt;}r&#34;,
+            &#34;xoichyl7yo&#34;: 56589,
+            &#34;wlqfo8tx2p&#34;: 64200,
+            &#34;q6np1yyn4d&#34;: &#34;pk:va%w3o9z.}i+x[|&amp;:&#34;,
+            &#34;rptp2qwhf1&#34;: &#34;d.-)Sfy6tkGwaszST0bR&#34;
+        },
+        &#34;t4bp5y8t3e&#34;: &#34;jj7\\|VTW=5]IUKpSWT4[&#34;,
+        &#34;ymxqvcw1jq&#34;: [
+            true,
+            &#34;b9&gt;]b}*j%OL-2(QdPWyY&#34;,
+            true,
+            &#34;e.?Dfl@@mPqX-ka,1@wm&#34;,
+            &#34;xnCoP9{r5dGpZ64F_T4_&#34;
+        ],
+        &#34;wtznpug0wf&#34;: 98852,
+        &#34;plkiszwqc0&#34;: 18559
+    },
+    &#34;ecosystem&#34;: [
+        65942.89546100015,
+        46649,
+        [
+            &#34;jfPQH8i+%\\q8_]Da7*0{&#34;,
+            &#34;v8WW*M06o|eW&amp;X_Sx;&#39;&#39;&#34;,
+            &#34;g2.JW%r^=:`R,6Mtyhqd&#34;,
+            57517.20390803522,
+            49708.13587624303
+        ],
+        {
+            &#34;it4wa08knc&#34;: 47225,
+            &#34;umh95d3doh&#34;: 91330,
+            &#34;gyb7xcspyf&#34;: &#34;mP*G^}Re{__Hdsukb^~c&#34;,
+            &#34;j6ttw7mgks&#34;: &#34;q{tAIKaVo.B2NC(Y}c6V&#34;,
+            &#34;ifa0ti30on&#34;: &#34;w?G-|.F;DqT\&#34;oyTd#dDb&#34;
+        },
+        {
+            &#34;zd6vgvmqfy&#34;: &#34;t}OCTi{@eRR++ClRk}]a&#34;,
+            &#34;h9gra5f5ck&#34;: 68191,
+            &#34;yorkisnhi7&#34;: 30718,
+            &#34;cfgfyvjppx&#34;: 43786,
+            &#34;v3k40djvmg&#34;: &#34;c&gt;4Bu[Rk@I0pMGthA(a&lt;&#34;
+        }
+    ],
+    &#34;request_id&#34;: &#34;4bcd3113e30d436da17dced85edb6e9e&#34;
+}</pre></td>
+                    </tr>
+                    <tr>
+                        <td>Negative license analysis test (change items)</td>
+                        <td><a href="https://license-analysis.api.prod-preview.openshift.io/api/v1/license-recommender">https://license-analysis.api.prod-preview.openshift.io/api/v1/license-recommender</a></td>
+                        <td>POST</td>
+                        <td>400</td>
+                        <td>200</td>
+                            <td class='error'>FAILURE</td>
+                        <td><pre>{
+    &#34;_resolved&#34;: [
+        {
+            &#34;package&#34;: &#34;org.wildfly.swarm:monitor&#34;,
+            &#34;version&#34;: &#34;2018.3.3&#34;
+        }
+    ],
+    &#34;ecosystem&#34;: false,
+    &#34;request_id&#34;: &#34;4bcd3113e30d436da17dced85edb6e9e&#34;
+}</pre></td>
+                    </tr>
+                    <tr>
+                        <td>Negative license analysis test (change items)</td>
+                        <td><a href="https://license-analysis.api.prod-preview.openshift.io/api/v1/license-recommender">https://license-analysis.api.prod-preview.openshift.io/api/v1/license-recommender</a></td>
+                        <td>POST</td>
+                        <td>400</td>
+                        <td>500</td>
+                            <td class='error'>FAILURE</td>
+                        <td><pre>{
+    &#34;_resolved&#34;: 59688.93723697426,
+    &#34;ecosystem&#34;: {
+        &#34;swwiw0aa81&#34;: [
+            &#34;z{!=\&#34;7XKm((7}gR4=,rE&#34;,
+            73161.60529734341,
+            &#34;nSMkLeB}CqJyR_dFMyX6&#34;,
+            31795.263465921853,
+            &#34;wSbL7kLlnD%E-ZV&gt;fW#l&#34;
+        ],
+        &#34;b4yyjvsmo3&#34;: [
+            true,
+            &#34;sDk(,4ijuHy,3T`ro\&#34;Y^&#34;,
+            true,
+            35306.69382862983,
+            5697.089575346026
+        ],
+        &#34;d5qmn3bvq6&#34;: 95368,
+        &#34;wbklqr2ddn&#34;: 32772,
+        &#34;kpjefx8soz&#34;: &#34;d8Q#6p.w\&#34;uibQ:QWLU-C&#34;
+    },
+    &#34;request_id&#34;: 43202
+}</pre></td>
+                    </tr>
+                    <tr>
+                        <td>Negative license analysis test (change items)</td>
+                        <td><a href="https://license-analysis.api.prod-preview.openshift.io/api/v1/license-recommender">https://license-analysis.api.prod-preview.openshift.io/api/v1/license-recommender</a></td>
+                        <td>POST</td>
+                        <td>400</td>
+                        <td>500</td>
+                            <td class='error'>FAILURE</td>
+                        <td><pre>{
+    &#34;_resolved&#34;: 79370.9921854559,
+    &#34;ecosystem&#34;: &#34;u6qzOX7VWHw&#39;1]oJ\\LM;&#34;,
+    &#34;request_id&#34;: &#34;4bcd3113e30d436da17dced85edb6e9e&#34;
+}</pre></td>
+                    </tr>
+                    <tr>
+                        <td>Negative license analysis test (change items)</td>
+                        <td><a href="https://license-analysis.api.prod-preview.openshift.io/api/v1/license-recommender">https://license-analysis.api.prod-preview.openshift.io/api/v1/license-recommender</a></td>
+                        <td>POST</td>
+                        <td>400</td>
+                        <td>500</td>
+                            <td class='error'>FAILURE</td>
+                        <td><pre>{
+    &#34;_resolved&#34;: [
+        11571,
+        59561.97330474131,
+        [
+            &#34;dJX&gt;L2=,]4@(ik[J/kv0&#34;,
+            &#34;i9w\&#34;m*u].`dO~Z|aP@Gr&#34;,
+            &#34;ct`?C7\\$}d/z_fn[5XY1&#34;,
+            53508.03179442668,
+            11378.323517716794
+        ],
+        &#34;tn@@eIcL0o87A3ssTX#s&#34;,
+        68575
+    ],
+    &#34;ecosystem&#34;: &#34;maven&#34;,
+    &#34;request_id&#34;: false
+}</pre></td>
+                    </tr>
+                    <tr>
+                        <td>Negative license analysis test (change items)</td>
+                        <td><a href="https://license-analysis.api.prod-preview.openshift.io/api/v1/license-recommender">https://license-analysis.api.prod-preview.openshift.io/api/v1/license-recommender</a></td>
+                        <td>POST</td>
+                        <td>400</td>
+                        <td>500</td>
+                            <td class='error'>FAILURE</td>
+                        <td><pre>{
+    &#34;_resolved&#34;: [
+        &#34;de@Pw&gt;XFV$].CMA&#39;]o6@&#34;,
+        63430.274694224834,
+        3706.9829241503817,
+        false,
+        {
+            &#34;r5btenrbsx&#34;: &#34;cJ~W&#39;PN\\zTDUR.I?~-`D&#34;,
+            &#34;ol0mla0rzu&#34;: 82021,
+            &#34;b7pb5yrpzn&#34;: &#34;my}r%*;Eg0@&gt;oJKeN?zt&#34;,
+            &#34;jennuk5stq&#34;: &#34;t#Zh~t%yFB0,c*O$jt[j&#34;,
+            &#34;icm1u1tkyo&#34;: &#34;yU}exa1W&#39;kJW^GGnTN%K&#34;
+        }
+    ],
+    &#34;ecosystem&#34;: &#34;maven&#34;,
+    &#34;request_id&#34;: false
+}</pre></td>
+                    </tr>
+                </table>
+            </div>
+
+            <a name="stat"></a>
+            <div style="padding-top:70px"></div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">Statistic</div>
+                <table class="table table-condensed table-hover table-bordered" rules="all">
+                    <tr><td style="width:30ex">Tests</td><td>22</td></tr>
+                    <tr><td>Passed</td><td class='ok'>1</td></tr>
+                    <tr><td>Failed</td><td class='error'>21</td></tr>
+                    <tr><td>Success rate</td><td>4.545454545454546%</td></tr>
+                    <tr><td>Total time</td><td>11.22 s</td></tr>
+                </table>
+            </div>
+
+            <div style='height:100px'></div>
+            <div>Author: Pavel Tisnovsky &lt;<a href="mailto:ptisnovs@redhat.com">ptisnovs@redhat.com</a>&gt;</div>
+            <div>Generated on: 2019-01-10 15:01:43</div>
+        </div>
+    </body>
+</html>
+
