@@ -22,23 +22,23 @@ Name                                                            Stmts   Miss  Co
 /f8a_worker/f8a_worker/manifests.py                                53     24    55%   27, 53, 58-62, 	/f8a_worker/f8a_worker/manifests.py                                53     24    55%   27, 53, 58-62, 
 /f8a_worker/f8a_worker/models.py                                  227     65    71%   41-45, 52-56, 6	/f8a_worker/f8a_worker/models.py                                  227     65    71%   41-45, 52-56, 6
 /f8a_worker/f8a_worker/object_cache.py                            147     75    49%   69-74, 81-87, 9	/f8a_worker/f8a_worker/object_cache.py                            147     75    49%   69-74, 81-87, 9
-/f8a_worker/f8a_worker/process.py                                 309     47    85%   67, 69, 71, 81-	/f8a_worker/f8a_worker/process.py                                 309     47    85%   67, 69, 71, 81-
+/f8a_worker/f8a_worker/process.py                                 309     47    85%   67, 69, 71, 81- |	/f8a_worker/f8a_worker/process.py                                 313     47    85%   67, 69, 71, 81-
 /f8a_worker/f8a_worker/schemas.py                                 208     42    80%   65-67, 92, 129,	/f8a_worker/f8a_worker/schemas.py                                 208     42    80%   65-67, 92, 129,
 /f8a_worker/f8a_worker/setup_celery.py                             41     19    54%   22-24, 29, 34-3	/f8a_worker/f8a_worker/setup_celery.py                             41     19    54%   22-24, 29, 34-3
 /f8a_worker/f8a_worker/solver.py                                  520     68    87%   113, 130, 169, 	/f8a_worker/f8a_worker/solver.py                                  520     68    87%   113, 130, 169, 
 /f8a_worker/f8a_worker/start.py                                    16     16     0%   3-30		/f8a_worker/f8a_worker/start.py                                    16     16     0%   3-30
-/f8a_worker/f8a_worker/storages/__init__.py                        33      0   100%		      |	/f8a_worker/f8a_worker/storages/__init__.py                        35      0   100%
+/f8a_worker/f8a_worker/storages/__init__.py                        35      0   100%			/f8a_worker/f8a_worker/storages/__init__.py                        35      0   100%
 /f8a_worker/f8a_worker/storages/package_postgres.py                86     64    26%   30-32, 35-38, 5	/f8a_worker/f8a_worker/storages/package_postgres.py                86     64    26%   30-32, 35-38, 5
-/f8a_worker/f8a_worker/storages/postgres.py                       111     70    37%   65, 76-78, 84,  |	/f8a_worker/f8a_worker/storages/postgres.py                       114     73    36%   65, 76-78, 84, 
-/f8a_worker/f8a_worker/storages/postgres_base.py                   91     24    74%   43, 49, 54, 93-	/f8a_worker/f8a_worker/storages/postgres_base.py                   91     24    74%   43, 49, 54, 93-
-/f8a_worker/f8a_worker/storages/s3.py                             122     68    44%   58, 68, 76-88, 	/f8a_worker/f8a_worker/storages/s3.py                             122     68    44%   58, 68, 76-88, 
+/f8a_worker/f8a_worker/storages/postgres.py                       114     73    36%   65, 76-78, 84, 	/f8a_worker/f8a_worker/storages/postgres.py                       114     73    36%   65, 76-78, 84, 
+/f8a_worker/f8a_worker/storages/postgres_base.py                   91     24    74%   43, 49, 54, 93- |	/f8a_worker/f8a_worker/storages/postgres_base.py                   93     27    71%   43, 49, 54, 93-
+/f8a_worker/f8a_worker/storages/s3.py                             122     68    44%   58, 68, 76-88,  |	/f8a_worker/f8a_worker/storages/s3.py                             122     70    43%   58, 68, 76-88, 
 /f8a_worker/f8a_worker/storages/s3_artifacts.py                     4      0   100%			/f8a_worker/f8a_worker/storages/s3_artifacts.py                     4      0   100%
 /f8a_worker/f8a_worker/storages/s3_crowd_source_tags.py            12      7    42%   12, 16-18, 22-2	/f8a_worker/f8a_worker/storages/s3_crowd_source_tags.py            12      7    42%   12, 16-18, 22-2
 /f8a_worker/f8a_worker/storages/s3_data.py                         13      7    46%   18-21, 25, 40-4	/f8a_worker/f8a_worker/storages/s3_data.py                         13      7    46%   18-21, 25, 40-4
 /f8a_worker/f8a_worker/storages/s3_data_base.py                    36     25    31%   17-30, 39, 49-5	/f8a_worker/f8a_worker/storages/s3_data_base.py                    36     25    31%   17-30, 39, 49-5
 /f8a_worker/f8a_worker/storages/s3_description_repository.py       13      8    38%   12, 16-17, 21-2	/f8a_worker/f8a_worker/storages/s3_description_repository.py       13      8    38%   12, 16-17, 21-2
 /f8a_worker/f8a_worker/storages/s3_gh_manifests.py                 16     10    38%   11-12, 17, 22-2	/f8a_worker/f8a_worker/storages/s3_gh_manifests.py                 16     10    38%   11-12, 17, 22-2
-												      >	/f8a_worker/f8a_worker/storages/s3_gocveartifact.py                15      7    53%   15, 19-24, 32, 
+/f8a_worker/f8a_worker/storages/s3_gocveartifact.py                15      7    53%   15, 19-24, 32,  |	/f8a_worker/f8a_worker/storages/s3_gocveartifact.py                19      7    63%   29, 33-38, 46, 
 /f8a_worker/f8a_worker/storages/s3_manifests.py                    12      7    42%   14-15, 19-26	/f8a_worker/f8a_worker/storages/s3_manifests.py                    12      7    42%   14-15, 19-26
 /f8a_worker/f8a_worker/storages/s3_manual_tagging.py               17     12    29%   11-17, 21-27, 3	/f8a_worker/f8a_worker/storages/s3_manual_tagging.py               17     12    29%   11-17, 21-27, 3
 /f8a_worker/f8a_worker/storages/s3_mavenindex.py                   40     25    38%   24-32, 36-44, 5	/f8a_worker/f8a_worker/storages/s3_mavenindex.py                   40     25    38%   24-32, 36-44, 5
@@ -47,8 +47,8 @@ Name                                                            Stmts   Miss  Co
 /f8a_worker/f8a_worker/storages/s3_temp_artifacts.py               14      3    79%   45-49		/f8a_worker/f8a_worker/storages/s3_temp_artifacts.py               14      3    79%   45-49
 /f8a_worker/f8a_worker/storages/s3_userintent.py                   19     14    26%   11-16, 20-23, 2	/f8a_worker/f8a_worker/storages/s3_userintent.py                   19     14    26%   11-16, 20-23, 2
 /f8a_worker/f8a_worker/storages/s3_userprofilestore.py              8      4    50%   12-15		/f8a_worker/f8a_worker/storages/s3_userprofilestore.py              8      4    50%   12-15
-/f8a_worker/f8a_worker/utils.py                                   306     45    85%   35-48, 83-84, 9	/f8a_worker/f8a_worker/utils.py                                   306     45    85%   35-48, 83-84, 9
-/f8a_worker/f8a_worker/workers/__init__.py                         40      0   100%		      |	/f8a_worker/f8a_worker/workers/__init__.py                         42      0   100%
+/f8a_worker/f8a_worker/utils.py                                   306     45    85%   35-48, 83-84, 9 |	/f8a_worker/f8a_worker/utils.py                                   306     44    86%   35-48, 83-84, 9
+/f8a_worker/f8a_worker/workers/__init__.py                         42      0   100%			/f8a_worker/f8a_worker/workers/__init__.py                         42      0   100%
 /f8a_worker/f8a_worker/workers/bookkeeper.py                       38     29    24%   18-62, 70-80	/f8a_worker/f8a_worker/workers/bookkeeper.py                       38     29    24%   18-62, 70-80
 /f8a_worker/f8a_worker/workers/dependency_parser.py               161     59    63%   55, 88, 90, 103	/f8a_worker/f8a_worker/workers/dependency_parser.py               161     59    63%   55, 88, 90, 103
 /f8a_worker/f8a_worker/workers/dependency_snapshot.py              71     55    23%   28-38, 42-80, 8	/f8a_worker/f8a_worker/workers/dependency_snapshot.py              71     55    23%   28-38, 42-80, 8
@@ -56,7 +56,7 @@ Name                                                            Stmts   Miss  Co
 /f8a_worker/f8a_worker/workers/finalize.py                         26     17    35%   15-27, 39-48	/f8a_worker/f8a_worker/workers/finalize.py                         26     17    35%   15-27, 39-48
 /f8a_worker/f8a_worker/workers/git_operations.py                  102     62    39%   67-68, 74-83, 8	/f8a_worker/f8a_worker/workers/git_operations.py                  102     62    39%   67-68, 74-83, 8
 /f8a_worker/f8a_worker/workers/githuber.py                        101     42    58%   45-47, 54-56, 6	/f8a_worker/f8a_worker/workers/githuber.py                        101     42    58%   45-47, 54-56, 6
-												      >	/f8a_worker/f8a_worker/workers/golangcvepredictor.py               72     32    56%   34-50, 54-67, 9
+/f8a_worker/f8a_worker/workers/golangcvepredictor.py               72     32    56%   34-50, 54-67, 9 |	/f8a_worker/f8a_worker/workers/golangcvepredictor.py               73     33    55%   34-50, 54-68, 1
 /f8a_worker/f8a_worker/workers/graph_importer.py                   29     16    45%   32-69		/f8a_worker/f8a_worker/workers/graph_importer.py                   29     16    45%   32-69
 /f8a_worker/f8a_worker/workers/graphaggregator.py                  75     60    20%   25-32, 41-120	/f8a_worker/f8a_worker/workers/graphaggregator.py                  75     60    20%   25-32, 41-120
 /f8a_worker/f8a_worker/workers/init_analysis_flow.py               77     62    19%   26-103, 108-127	/f8a_worker/f8a_worker/workers/init_analysis_flow.py               77     62    19%   26-103, 108-127
@@ -79,4 +79,4 @@ Name                                                            Stmts   Miss  Co
 /f8a_worker/f8a_worker/workers/unknown_dep_fetcher.py              39     31    21%   15-50, 59-67	/f8a_worker/f8a_worker/workers/unknown_dep_fetcher.py              39     31    21%   15-50, 59-67
 /f8a_worker/f8a_worker/workers/user_notifier.py                    38     29    24%   15-25, 29-49, 5	/f8a_worker/f8a_worker/workers/user_notifier.py                    38     29    24%   15-25, 29-49, 5
 ---------------------------------------------------------------------------------------------		---------------------------------------------------------------------------------------------
-TOTAL                                                            5240   1898    64%		      |	TOTAL                                                            5334   1940    64%
+TOTAL                                                            5334   1940    64%		      |	TOTAL                                                            5345   1945    64%
