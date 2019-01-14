@@ -135,9 +135,7 @@ f8a_worker/dispatcher/selective.py
 f8a_worker/dispatcher/trace.py
     Pass
 f8a_worker/dispatcher/predicates.py
-f8a_worker/dispatcher/predicates.py:5: 'from selinon.predicates import *' used; unable to detect undefined names
-f8a_worker/dispatcher/predicates.py:5: 'selinon.predicates.*' imported but unused
-    Fail
+    Pass
 f8a_worker/dispatcher/foreach.py
     Pass
 f8a_worker/graphutils.py
@@ -155,8 +153,7 @@ f8a_worker/data_normalizer/javascript.py
 f8a_worker/data_normalizer/python.py
     Pass
 f8a_worker/data_normalizer/__init__.py
-f8a_worker/data_normalizer/__init__.py:16: 'f8a_worker.data_normalizer.abstract.AbstractDataNormalizer' imported but unused
-    Fail
+    Pass
 f8a_worker/data_normalizer/csharp.py
     Pass
 f8a_worker/data_normalizer/abstract.py
@@ -310,9 +307,7 @@ tests/storages/test_s3_gocveartifact.py
 tests/storages/__init__.py
     Pass
 tests/storages/test_postgres.py
-tests/storages/test_postgres.py:6: 'pytest' imported but unused
-tests/storages/test_postgres.py:8: 'sqlalchemy.exc.IntegrityError' imported but unused
-    Fail
+    Pass
 tests/workers/test_gocvecollector.py
     Pass
 tests/workers/test_git_operations.py
@@ -323,6 +318,8 @@ tests/workers/__init__.py
     Pass
 tests/workers/test_licensecheck.py
     Pass
+tests/workers/test_init_package_flow.py
+    Pass
 tests/workers/test_libraries_io.py
     Pass
 tests/workers/test_github_dependency_tree.py
@@ -330,6 +327,8 @@ tests/workers/test_github_dependency_tree.py
 tests/workers/test_repository_description.py
     Pass
 tests/workers/test_digester.py
+    Pass
+tests/workers/test_init_analysis_flow.py
     Pass
 tests/workers/test_githuber.py
     Pass
@@ -346,4 +345,4 @@ setup.py
 
 setup.py
     Pass
-3 source files out of 163 files needs to be checked and fixed
+All checks passed for 165 source files

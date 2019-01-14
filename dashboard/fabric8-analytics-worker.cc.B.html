@@ -13,20 +13,20 @@ f8a_worker/utils.py
 f8a_worker/setup_celery.py
     F 17:0 get_dispatcher_config_files - B (7)
 f8a_worker/solver.py
-    C 647:0 NugetDependencyParser - C (12)
-    M 650:4 NugetDependencyParser.parse - C (12)
-    M 771:4 Solver.solve - B (10)
-    M 590:4 NpmDependencyParser.restrict_versions - B (9)
-    F 978:0 get_ecosystem_solver - B (8)
-    F 1005:0 get_ecosystem_parser - B (7)
-    M 545:4 NpmDependencyParser._parse_npm - B (7)
-    M 235:4 NugetReleasesFetcher.scrape_versions_from_nuget_org - B (6)
-    M 323:4 GolangReleasesFetcher.fetch_releases - B (6)
+    C 595:0 NugetDependencyParser - C (12)
+    M 598:4 NugetDependencyParser.parse - C (12)
+    M 719:4 Solver.solve - B (10)
+    M 541:4 NpmDependencyParser.restrict_versions - B (9)
+    F 916:0 get_ecosystem_solver - B (7)
+    M 496:4 NpmDependencyParser._parse_npm - B (7)
+    F 941:0 get_ecosystem_parser - B (6)
+    M 186:4 NugetReleasesFetcher.scrape_versions_from_nuget_org - B (6)
+    M 274:4 GolangReleasesFetcher.fetch_releases - B (6)
 f8a_worker/process.py
-    M 524:4 IndianaJones.fetch_artifact - B (10)
     M 43:4 Git.clone - B (9)
-    M 276:4 IndianaJones.download_file - B (8)
-    M 307:4 IndianaJones.fetch_maven_artifact - B (7)
+    M 480:4 IndianaJones.fetch_artifact - B (9)
+    M 259:4 IndianaJones.download_file - B (8)
+    M 290:4 IndianaJones.fetch_maven_artifact - B (7)
 f8a_worker/base.py
     M 66:4 BaseTask.run - B (9)
 f8a_worker/schemas.py
@@ -73,7 +73,7 @@ f8a_worker/workers/githuber.py
     M 71:4 GithubTask.execute - B (7)
     M 144:4 GitReadmeCollectorTask._get_github_readme - B (6)
 f8a_worker/workers/repo_dependency_finder.py
-    M 155:4 RepoDependencyFinderTask.generate_report - B (9)
+    M 154:4 RepoDependencyFinderTask.generate_report - B (9)
     C 13:0 RepoDependencyFinderTask - B (6)
 f8a_worker/workers/mercator.py
     M 171:4 MercatorTask._merge_python_items - D (29)
@@ -112,12 +112,12 @@ tests/test_schemas.py
     M 74:4 TestSchemaLibrary.test_bundled_dynamic_schema_lookup - B (9)
     C 40:0 TestSchemaLibrary - B (6)
 tests/test_process.py
-    M 51:4 TestIndianaJones.test_fetch_npm_specific - B (7)
+    M 52:4 TestIndianaJones.test_fetch_npm_specific - B (7)
 tests/test_utils.py
     M 36:4 TestUtilFunctions.test_get_all_files_from - B (6)
     M 149:4 TestMavenCoordinates.test_from_str - B (6)
 tests/test_solver.py
-    M 317:4 TestFetcher.test_f8a_fetcher - B (9)
+    M 308:4 TestFetcher.test_f8a_fetcher - B (9)
 tests/workers/test_licensecheck.py
     M 30:4 TestLicenseCheck.test_execute - B (7)
 tests/workers/test_libraries_io.py
@@ -136,5 +136,5 @@ tests/workers/test_mercator.py
     M 130:4 TestMercator.test_get_outermost_items - B (6)
 
 93 blocks (classes, functions, methods) analyzed.
-Average complexity: B (8.086021505376344)
+Average complexity: B (8.053763440860216)
 </pre>
