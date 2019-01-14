@@ -340,8 +340,10 @@ hack/queue_conf.py
 
 ----------------------------------------------------
 Running Python linter against selected files:
-setup.py
+setup.py dead_code_whitelist.py
 ----------------------------------------------------
 setup.py
     Pass
-All checks passed for 165 source files
+dead_code_whitelist.py
+    Pass
+All checks passed for 166 source files
