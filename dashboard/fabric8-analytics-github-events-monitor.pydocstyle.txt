@@ -26,66 +26,20 @@ ghmonitor/gopkg/translate.py
 0
     Pass
 tests/test_models.py
-tests/test_models.py:1 at module level:
-        D100: Missing docstring in public module
-tests/test_models.py:4 in public function `test_event_types_from_str`:
-        D103: Missing docstring in public function
-tests/test_models.py:14 in public function `test_event_parser_returns_event`:
-        D103: Missing docstring in public function
-tests/test_models.py:22 in public function `test_events_comparison`:
-        D103: Missing docstring in public function
-4
-    Fail
+0
+    Pass
 tests/test_monitor.py
-tests/test_monitor.py:273 in public function `mocked_github_request`:
-        D103: Missing docstring in public function
-tests/test_monitor.py:290 in public function `test_repository_exists`:
-        D103: Missing docstring in public function
-tests/test_monitor.py:295 in public function `test_get_auth_header`:
-        D103: Missing docstring in public function
-tests/test_monitor.py:302 in public function `test_get_list_of_repos`:
-        D103: Missing docstring in public function
-tests/test_monitor.py:307 in public function `test_get_list_of_packages`:
-        D103: Missing docstring in public function
-tests/test_monitor.py:312 in public function `test_github_request`:
-        D103: Missing docstring in public function
-tests/test_monitor.py:318 in public function `test_new_issues`:
-        D103: Missing docstring in public function
-7
-    Fail
+0
+    Pass
 tests/__init__.py
-tests/__init__.py:1 at module level:
-        D104: Missing docstring in public package
-1
-    Fail
+0
+    Pass
 tests/test_utils.py
-tests/test_utils.py:1 at module level:
-        D100: Missing docstring in public module
-tests/test_utils.py:29 in public function `test_create_monitors`:
-        D103: Missing docstring in public function
-tests/test_utils.py:37 in public class `MockBackend`:
-        D101: Missing docstring in public class
-tests/test_utils.py:39 in public method `__init__`:
-        D107: Missing docstring in __init__
-tests/test_utils.py:42 in public method `notify`:
-        D102: Missing docstring in public method
-tests/test_utils.py:46 in public function `mocked_get_new_events`:
-        D103: Missing docstring in public function
-tests/test_utils.py:89 in public function `test_process_new_events`:
-        D103: Missing docstring in public function
-7
-    Fail
+0
+    Pass
 tests/gopkg/test_translate.py
-tests/gopkg/test_translate.py:1 at module level:
-        D100: Missing docstring in public module
-tests/gopkg/test_translate.py:4 in public function `test_get_repo_urn`:
-        D103: Missing docstring in public function
-tests/gopkg/test_translate.py:9 in public function `test_github_re`:
-        D103: Missing docstring in public function
-tests/gopkg/test_translate.py:19 in public function `test_translate`:
-        D103: Missing docstring in public function
-4
-    Fail
+0
+    Pass
 tests/test_backend.py
 0
     Pass
@@ -97,4 +51,4 @@ run.py
 run.py
 0
     Pass
-Documentation strings should be added and/or fixed in 5 source files out of 14 files
+All checks passed for 14 source files
