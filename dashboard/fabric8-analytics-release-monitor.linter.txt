@@ -26,8 +26,10 @@ tests/test_release_monitor.py
 
 ----------------------------------------------------
 Running Python linter against selected files:
-setup.py
+setup.py run.py
 ----------------------------------------------------
 setup.py
     Pass
-All checks passed for 8 source files
+run.py
+    Pass
+All checks passed for 9 source files

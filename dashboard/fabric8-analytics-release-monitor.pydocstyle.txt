@@ -36,9 +36,12 @@ tests/test_release_monitor.py
 
 ----------------------------------------------------
 Checking documentation strings in the following files
-setup.py
+setup.py run.py
 ----------------------------------------------------
 setup.py
 0
     Pass
-All checks passed for 8 source files
+run.py
+0
+    Pass
+All checks passed for 9 source files

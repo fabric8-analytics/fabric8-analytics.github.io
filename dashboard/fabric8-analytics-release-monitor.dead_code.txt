@@ -27,9 +27,11 @@ tests/test_release_monitor.py
 ----------------------------------------------------
 Checking following source files for dead code and
 unused imports:
-setup.py
+setup.py run.py
 ----------------------------------------------------
 
 setup.py
     Pass
-All checks passed for 8 source files
+run.py
+    Pass
+All checks passed for 9 source files
