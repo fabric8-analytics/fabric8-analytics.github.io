@@ -1,15 +1,16 @@
 <pre>tests/test_models.py
     F 6:0 test_event_types_from_str - B (6)
+    F 41:0 test_event_from_non_valid_json - B (6)
     F 26:0 test_events_comparison - A (4)
     F 17:0 test_event_parser_returns_event - A (3)
 tests/test_monitor.py
-    F 324:0 test_new_issues - B (10)
-    F 273:0 mocked_github_request - B (8)
-    F 317:0 test_github_request - A (4)
-    F 290:0 test_repository_exists - A (3)
-    F 297:0 test_get_auth_header - A (3)
-    F 305:0 test_get_list_of_repos - A (2)
-    F 311:0 test_get_list_of_packages - A (2)
+    F 329:0 test_new_issues - B (10)
+    F 278:0 mocked_github_request - B (8)
+    F 322:0 test_github_request - A (4)
+    F 295:0 test_repository_exists - A (3)
+    F 302:0 test_get_auth_header - A (3)
+    F 310:0 test_get_list_of_repos - A (2)
+    F 316:0 test_get_list_of_packages - A (2)
 tests/test_utils.py
     F 95:0 test_process_new_events - A (5)
     F 30:0 test_create_monitors - A (3)
@@ -39,11 +40,11 @@ ghmonitor/monitor.py
     M 145:4 RepositoryMonitor.new_pull_requests - A (1)
     M 152:4 RepositoryMonitor.__str__ - A (1)
 ghmonitor/models.py
-    M 64:4 Event.from_dict - A (4)
+    M 64:4 Event.from_dict - A (5)
     C 16:0 EventType - A (2)
     M 23:4 EventType.from_str - A (2)
+    C 39:0 Event - A (2)
     C 10:0 UnknownEvent - A (1)
-    C 39:0 Event - A (1)
     M 46:4 Event.__init__ - A (1)
     M 52:4 Event.__str__ - A (1)
     M 56:4 Event.__eq__ - A (1)
@@ -69,6 +70,6 @@ ghmonitor/gopkg/translate.py
     F 14:0 get_repo_from_random_urn - A (5)
     F 49:0 translate - A (4)
 
-60 blocks (classes, functions, methods) analyzed.
-Average complexity: A (2.4)
+61 blocks (classes, functions, methods) analyzed.
+Average complexity: A (2.4918032786885247)
 </pre>
