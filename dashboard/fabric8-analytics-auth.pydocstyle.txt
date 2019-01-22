@@ -27,6 +27,9 @@ tests/test_errors_class.py
 tests/__init__.py
 0
     Pass
+tests/test_utility_functions.py
+0
+    Pass
 tests/test_token_handling.py
 0
     Pass
@@ -38,4 +41,4 @@ setup.py
 setup.py
 0
     Pass
-All checks passed for 7 source files
+All checks passed for 8 source files

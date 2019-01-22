@@ -1,9 +1,15 @@
 <pre>setup.py
     F 6:0 get_requirements - A (2)
 tests/test_errors_class.py
-    F 7:0 test_http_error_attributes - A (3)
-    F 14:0 test_http_error_raise - A (2)
-    F 20:0 test_http_error_exception_handling - A (2)
+    F 7:0 test_auth_error_attributes - A (3)
+    F 28:0 test_auth_error_repr_method - A (3)
+    F 36:0 test_auth_error_str_method - A (3)
+    F 14:0 test_auth_error_raise - A (2)
+    F 20:0 test_auth_error_exception_handling - A (2)
+tests/test_utility_functions.py
+    F 40:0 test_get_audiences - B (7)
+    F 7:0 test_is_authentication_disabled_negative_test - B (6)
+    F 25:0 test_is_authentication_disabled_positive_test - A (5)
 tests/test_token_handling.py
     F 24:0 setup_module - A (5)
     F 94:0 mocked_requests_get - A (3)
@@ -58,6 +64,6 @@ fabric8a_auth/errors.py
     M 25:4 AuthError.__repr__ - A (1)
     M 28:4 AuthError.__str__ - A (1)
 
-54 blocks (classes, functions, methods) analyzed.
-Average complexity: A (2.0185185185185186)
+59 blocks (classes, functions, methods) analyzed.
+Average complexity: A (2.2542372881355934)
 </pre>

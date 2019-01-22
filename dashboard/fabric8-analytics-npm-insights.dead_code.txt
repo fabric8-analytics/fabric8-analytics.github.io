@@ -52,10 +52,14 @@ tests/load_tests/locustfile.py
     Pass
 tests/unit_tests/test_fileutils.py
     Pass
+tests/unit_tests/test_s3_data_store.py
+    Pass
+tests/unit_tests/s3_mocks.py
+    Pass
 tests/unit_tests/test_flask_predict.py
     Pass
 tests/unit_tests/test_constants.py
     Pass
 tests/unit_tests/test_PMFRecommendation.py
     Pass
-All checks passed for 24 source files
+All checks passed for 26 source files
