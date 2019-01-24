@@ -1,12 +1,21 @@
 <pre>setup.py
     F 25:0 get_requirements - A (4)
+tests/test_rest_api.py
+    F 16:0 test_readiness_endpoint - A (3)
+    F 24:0 test_liveness_endpoint - A (3)
+    F 6:0 api_route_for - A (1)
+    F 11:0 get_json_from_response - A (1)
 tests/test_errors.py
     F 7:0 test_f8a_configuration_exception - A (4)
 tests/test_utils.py
-    F 21:0 test_validate_request_data_not_valid_backend - A (5)
-    F 5:0 test_validate_request_data_no_payload - A (3)
-    F 13:0 test_validate_request_data_not_valid_ecosystem - A (3)
-    F 35:0 test_validate_request_data_valid_backend - A (3)
+    F 54:0 test_eco_object_dict - B (8)
+    F 31:0 test_validate_request_data_not_valid_backend - A (5)
+    F 7:0 test_validate_request_data_no_payload - A (3)
+    F 15:0 test_validate_request_data_empty_payload - A (3)
+    F 23:0 test_validate_request_data_not_valid_ecosystem - A (3)
+    F 45:0 test_validate_request_data_valid_backend - A (3)
+tests/conftest.py
+    F 8:0 client - A (2)
 f8a_ingestion/models.py
     M 82:4 BayesianModelMixin.get_or_create - A (4)
     C 43:0 BayesianModelMixin - A (3)
@@ -50,6 +59,6 @@ alembic/versions/0194c3a2332e_initial_migration.py
     F 19:0 upgrade - A (1)
     F 63:0 downgrade - A (1)
 
-40 blocks (classes, functions, methods) analyzed.
-Average complexity: A (2.375)
+47 blocks (classes, functions, methods) analyzed.
+Average complexity: A (2.4680851063829787)
 </pre>

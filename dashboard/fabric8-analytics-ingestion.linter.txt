@@ -23,11 +23,15 @@ f8a_ingestion/errors.py
     Pass
 f8a_ingestion/defaults.py
     Pass
+tests/test_rest_api.py
+    Pass
 tests/test_errors.py
     Pass
 tests/__init__.py
     Pass
 tests/test_utils.py
+    Pass
+tests/conftest.py
     Pass
 alembic/versions/0194c3a2332e_initial_migration.py
     Pass
@@ -40,4 +44,4 @@ setup.py
 ----------------------------------------------------
 setup.py
     Pass
-All checks passed for 13 source files
+All checks passed for 15 source files
