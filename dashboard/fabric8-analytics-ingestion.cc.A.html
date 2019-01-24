@@ -1,8 +1,14 @@
 <pre>setup.py
     F 25:0 get_requirements - A (4)
 tests/test_rest_api.py
+    F 64:0 test_ingest_endpoint_wrong_content_type - B (6)
+    F 89:0 test_ingest_endpoint_empty_payload - B (6)
+    F 24:0 test_readiness_endpoint_wrong_http_method - A (5)
+    F 45:0 test_liveness_endpoint_wrong_http_method - A (5)
     F 16:0 test_readiness_endpoint - A (3)
-    F 24:0 test_liveness_endpoint - A (3)
+    F 37:0 test_liveness_endpoint - A (3)
+    F 78:0 test_ingest_endpoint_no_payload - A (3)
+    F 58:0 test_ingest_endpoint_wrong_http_method - A (2)
     F 6:0 api_route_for - A (1)
     F 11:0 get_json_from_response - A (1)
 tests/test_errors.py
@@ -59,6 +65,6 @@ alembic/versions/0194c3a2332e_initial_migration.py
     F 19:0 upgrade - A (1)
     F 63:0 downgrade - A (1)
 
-47 blocks (classes, functions, methods) analyzed.
-Average complexity: A (2.4680851063829787)
+53 blocks (classes, functions, methods) analyzed.
+Average complexity: A (2.69811320754717)
 </pre>
