@@ -1,17 +1,28 @@
 <pre>setup.py
     F 10:0 get_requirements - A (4)
 tests/test_release_monitor.py
-    F 167:0 test_pypi_monitor - B (6)
-    F 159:0 test_abstract_monitor_get_updated_packages - A (4)
-    F 189:0 test_npm_monitor_fetch_names - A (4)
-    F 232:0 test_npm_monitor_fetch_feed - A (4)
-    C 144:0 _TestingMonitor - A (3)
-    M 148:4 _TestingMonitor.fetch_feed - A (3)
-    F 220:0 _mocked_npm_latest_version_request - A (2)
-    F 225:0 test_npm_latest_version_request - A (2)
-    C 207:0 MockRequestResponse - A (1)
-    M 210:4 MockRequestResponse.__init__ - A (1)
-    M 214:4 MockRequestResponse.json - A (1)
+    F 229:0 test_abstract_monitor_get_updated_packages - A (4)
+    F 237:0 _prepare_testing_file_for_pypi - A (4)
+    F 252:0 test_pypi_monitor - A (4)
+    F 342:0 test_npm_latest_version_request - A (4)
+    F 371:0 test_npm_monitor_fetch_feed - A (4)
+    F 267:0 test_exceptions_pypi_monitor - A (3)
+    F 277:0 _prepare_testing_file_for_npm - A (3)
+    F 292:0 test_npm_monitor_fetch_names - A (3)
+    M 213:4 _TestingMonitor.fetch_feed - A (3)
+    M 324:4 StatefulMockRequestResponse.json - A (3)
+    F 224:0 test_empty_method - A (2)
+    F 305:0 test_exceptions_npm_monitor - A (2)
+    F 337:0 _stateful_mocked_npm_latest_version_request - A (2)
+    F 366:0 _mocked_npm_latest_version_request - A (2)
+    F 390:0 test_create_release_monitor - A (2)
+    C 207:0 _TestingMonitor - A (2)
+    C 315:0 StatefulMockRequestResponse - A (2)
+    M 209:4 _TestingMonitor.__init__ - A (1)
+    M 320:4 StatefulMockRequestResponse.__init__ - A (1)
+    C 351:0 MockRequestResponse - A (1)
+    M 356:4 MockRequestResponse.__init__ - A (1)
+    M 360:4 MockRequestResponse.json - A (1)
 release_monitor/release_monitor.py
     M 227:4 ReleaseMonitor.run - B (6)
     M 143:4 NPMMonitor.fetch_latest_package_version - A (4)
@@ -41,6 +52,6 @@ integration_tests/steps/steps.py
     F 11:0 check_container_logs - A (4)
     F 5:0 container_is_running - A (2)
 
-37 blocks (classes, functions, methods) analyzed.
-Average complexity: A (2.2972972972972974)
+48 blocks (classes, functions, methods) analyzed.
+Average complexity: A (2.25)
 </pre>
