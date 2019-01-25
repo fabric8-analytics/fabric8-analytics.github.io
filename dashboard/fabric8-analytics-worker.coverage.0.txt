@@ -1,9 +1,9 @@
 Name                                                            Stmts   Miss  Cover   Missing
 ---------------------------------------------------------------------------------------------
 /f8a_worker/f8a_worker/__init__.py                                  1      0   100%
-/f8a_worker/f8a_worker/base.py                                     66     28    58%   41, 55-62, 74-131, 149, 161
+/f8a_worker/f8a_worker/base.py                                     66     27    59%   55-62, 74-131, 149, 161
 /f8a_worker/f8a_worker/celery_settings.py                          40     12    70%   21, 28, 32, 54-70, 80, 85, 91-145
-/f8a_worker/f8a_worker/data_normalizer/__init__.py                 38     18    53%   49, 58-64, 69-84, 88
+/f8a_worker/f8a_worker/data_normalizer/__init__.py                 39     18    54%   51, 60-66, 71-86, 90
 /f8a_worker/f8a_worker/data_normalizer/abstract.py                 52      1    98%   104
 /f8a_worker/f8a_worker/data_normalizer/csharp.py                   45      5    89%   29, 44-45, 74-76
 /f8a_worker/f8a_worker/data_normalizer/go.py                       55      1    98%   102
@@ -13,7 +13,7 @@ Name                                                            Stmts   Miss  Co
 /f8a_worker/f8a_worker/defaults.py                                 86     12    86%   95-97, 101-103, 132, 143, 145-148, 164, 167, 180-181
 /f8a_worker/f8a_worker/dispatcher/__init__.py                       0      0   100%
 /f8a_worker/f8a_worker/dispatcher/foreach.py                       77     59    23%   17, 42-65, 71-95, 101-126
-/f8a_worker/f8a_worker/dispatcher/predicates.py                    11      7    36%   12-19
+/f8a_worker/f8a_worker/dispatcher/predicates.py                   144      7    95%   148-155
 /f8a_worker/f8a_worker/dispatcher/selective.py                     12      9    25%   19-42
 /f8a_worker/f8a_worker/dispatcher/trace.py                         13      2    85%   29, 36
 /f8a_worker/f8a_worker/enums.py                                     6      0   100%
@@ -22,10 +22,10 @@ Name                                                            Stmts   Miss  Co
 /f8a_worker/f8a_worker/manifests.py                                53     24    55%   27, 53, 58-62, 67-72, 77-81, 86-92
 /f8a_worker/f8a_worker/models.py                                  227     65    71%   41-45, 52-56, 61-65, 70-83, 124-126, 149-153, 175-179, 202-207, 212-215, 223, 231, 235-243, 299, 317, 322-326, 351, 356
 /f8a_worker/f8a_worker/object_cache.py                            147     75    49%   69-74, 81-87, 97, 104-107, 111-118, 128-130, 134-136, 143-144, 151-155, 162-164, 171-183, 190, 197, 204, 211, 218-228, 235, 242, 249-255, 262-269, 284, 289-291
-/f8a_worker/f8a_worker/process.py                                 313     47    85%   67, 69, 71, 81-82, 112, 120-125, 169, 225, 230-235, 241-244, 286, 295-296, 309-310, 319, 322, 329, 338-341, 382, 416, 430, 456, 459, 473, 495, 519-520, 567-571
+/f8a_worker/f8a_worker/process.py                                 280     46    84%   67, 69, 71, 81-82, 112, 120-125, 169, 223, 231-236, 242-245, 263, 272-273, 286-287, 296, 299, 306, 315-318, 359, 392, 406, 432, 435, 449, 469-470, 513-517
 /f8a_worker/f8a_worker/schemas.py                                 208     42    80%   65-67, 92, 129, 142, 155, 172, 253, 266-267, 326-329, 333-348, 352-361, 371-374, 378-381
 /f8a_worker/f8a_worker/setup_celery.py                             41     19    54%   22-24, 29, 34-35, 37, 48-52, 62-72
-/f8a_worker/f8a_worker/solver.py                                  520     68    87%   113, 130, 169, 188-198, 217, 223, 247-248, 252, 258, 298, 307, 310-311, 326, 332-336, 342, 421-424, 437, 452, 477, 487-489, 500, 504, 526, 531, 557-558, 612, 713, 718, 723, 743, 748, 786, 789-792, 804, 867, 990, 1002, 1007-1020
+/f8a_worker/f8a_worker/solver.py                                  493     57    88%   113, 130, 169, 198-199, 203, 209, 249, 258, 261-262, 277, 283-287, 293, 372-375, 388, 403, 428, 438-440, 451, 455, 477, 482, 508-509, 563, 661, 666, 671, 691, 696, 734, 737-740, 752, 805, 928, 938, 943-954
 /f8a_worker/f8a_worker/start.py                                    16     16     0%   3-30
 /f8a_worker/f8a_worker/storages/__init__.py                        35      0   100%
 /f8a_worker/f8a_worker/storages/package_postgres.py                86     64    26%   30-32, 35-38, 58-66, 76-89, 98-103, 112-122, 132-154, 165-189, 202-218
@@ -56,15 +56,15 @@ Name                                                            Stmts   Miss  Co
 /f8a_worker/f8a_worker/workers/finalize.py                         26     17    35%   15-27, 39-48
 /f8a_worker/f8a_worker/workers/git_operations.py                  102     62    39%   67-68, 74-83, 87-99, 103-162
 /f8a_worker/f8a_worker/workers/githuber.py                        101     42    58%   45-47, 54-56, 64-69, 83-86, 91-93, 98-100, 146-165, 169-178
-/f8a_worker/f8a_worker/workers/golangcvepredictor.py               73     33    55%   34-50, 54-68, 100-102, 106, 115-117
+/f8a_worker/f8a_worker/workers/golangcvepredictor.py               71     31    56%   34-50, 54-68, 100-101, 113-115
 /f8a_worker/f8a_worker/workers/graph_importer.py                   29     16    45%   32-69
 /f8a_worker/f8a_worker/workers/graphaggregator.py                  75     60    20%   25-32, 41-120
-/f8a_worker/f8a_worker/workers/init_analysis_flow.py               77     62    19%   26-103, 108-127, 132-151
-/f8a_worker/f8a_worker/workers/init_package_flow.py                72     60    17%   19-32, 41-61, 70-98, 106-151
+/f8a_worker/f8a_worker/workers/init_analysis_flow.py               77     58    25%   31-103, 108-127, 132-151
+/f8a_worker/f8a_worker/workers/init_package_flow.py                72     58    19%   19-32, 41-61, 70-98, 110-151
 /f8a_worker/f8a_worker/workers/libraries_io.py                     26      1    96%   39
 /f8a_worker/f8a_worker/workers/license.py                          61      7    89%   42, 104-112
 /f8a_worker/f8a_worker/workers/mercator.py                        145     50    66%   75-76, 83, 91, 132, 156-169, 178, 182-184, 187, 193-194, 198-212, 218, 220, 228-229, 237-254
-/f8a_worker/f8a_worker/workers/repo_dependency_finder.py          107     94    12%   24-56, 66-110, 119-153, 163-196
+/f8a_worker/f8a_worker/workers/repo_dependency_finder.py          105     92    12%   24-56, 66-110, 119-152, 162-195
 /f8a_worker/f8a_worker/workers/report_generation.py                79     68    14%   22-39, 48-54, 57-99, 107-127
 /f8a_worker/f8a_worker/workers/repository_description.py           39      3    92%   36, 54, 61
 /f8a_worker/f8a_worker/workers/result_collector.py                 37     28    24%   17-42, 50-58, 69-76
@@ -79,4 +79,4 @@ Name                                                            Stmts   Miss  Co
 /f8a_worker/f8a_worker/workers/unknown_dep_fetcher.py              39     31    21%   15-50, 59-67
 /f8a_worker/f8a_worker/workers/user_notifier.py                    38     29    24%   15-25, 29-49, 57-73
 ---------------------------------------------------------------------------------------------
-TOTAL                                                            5345   1945    64%
+TOTAL                                                            5415   1922    65%

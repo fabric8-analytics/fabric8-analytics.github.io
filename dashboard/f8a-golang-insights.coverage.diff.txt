@@ -1,7 +1,7 @@
 Name                                                 Stmts   Miss  Cover   Missing			Name                                                 Stmts   Miss  Cover   Missing
 ----------------------------------------------------------------------------------			----------------------------------------------------------------------------------
 /insights_engine/__init__.py                             0      0   100%				/insights_engine/__init__.py                             0      0   100%
-/insights_engine/config.py                              17      0   100%				/insights_engine/config.py                              17      0   100%
+/insights_engine/config.py                              17      0   100%			      |	/insights_engine/config.py                              18      0   100%
 /insights_engine/data_store/__init__.py                  0      0   100%				/insights_engine/data_store/__init__.py                  0      0   100%
 /insights_engine/data_store/abstract_data_store.py       2      0   100%				/insights_engine/data_store/abstract_data_store.py       2      0   100%
 /insights_engine/data_store/local_filesystem.py          8      0   100%				/insights_engine/data_store/local_filesystem.py          8      0   100%
@@ -11,6 +11,6 @@ Name                                                 Stmts   Miss  Cover   Missi
 /insights_engine/scoring/rules_predict.py               55     11    80%   17, 42, 58-69, 78, 86	/insights_engine/scoring/rules_predict.py               55     11    80%   17, 42, 58-69, 78, 86
 /insights_engine/training/__init__.py                    1      1     0%   3				/insights_engine/training/__init__.py                    1      1     0%   3
 /insights_engine/training/data_preprocessing.py         44     44     0%   2-141			/insights_engine/training/data_preprocessing.py         44     44     0%   2-141
-/insights_engine/training/training.py                   50     50     0%   3-100			/insights_engine/training/training.py                   50     50     0%   3-100
+/insights_engine/training/training.py                   50     50     0%   3-100		      |	/insights_engine/training/training.py                   52     52     0%   3-103
 ----------------------------------------------------------------------------------			----------------------------------------------------------------------------------
-TOTAL                                                  217    106    51%				TOTAL                                                  217    106    51%
+TOTAL                                                  217    106    51%			      |	TOTAL                                                  220    108    51%

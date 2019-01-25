@@ -3,7 +3,7 @@ Name                                     Stmts   Miss  Cover   Missing					Name 
 /src/__init__.py                             0      0   100%						/src/__init__.py                             0      0   100%
 /src/config/__init__.py                      0      0   100%						/src/config/__init__.py                      0      0   100%
 /src/config/cloud_constants.py              10      0   100%						/src/config/cloud_constants.py              10      0   100%
-/src/config/path_constants.py                6      0   100%						/src/config/path_constants.py                6      0   100%
+/src/config/path_constants.py                6      0   100%					      |	/src/config/path_constants.py                7      0   100%
 /src/data_store/__init__.py                  0      0   100%						/src/data_store/__init__.py                  0      0   100%
 /src/data_store/abstract_data_store.py       7      7     0%   3-35					/src/data_store/abstract_data_store.py       7      7     0%   3-35
 /src/data_store/local_filesystem.py         23     23     0%   3-61					/src/data_store/local_filesystem.py         23     23     0%   3-61
@@ -12,4 +12,4 @@ Name                                     Stmts   Miss  Cover   Missing					Name 
 /src/models/predict_model.py                92     92     0%   3-210					/src/models/predict_model.py                92     92     0%   3-210
 /src/recommendation_service.py              37     37     0%   3-89					/src/recommendation_service.py              37     37     0%   3-89
 ----------------------------------------------------------------------					----------------------------------------------------------------------
-TOTAL                                      215    199     7%						TOTAL                                      215    199     7%
+TOTAL                                      215    199     7%					      |	TOTAL                                      216    199     8%
