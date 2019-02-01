@@ -4,8 +4,8 @@ ghmonitor/__init__.py              0      0   100%							ghmonitor/__init__.py  
 ghmonitor/backend.py              37      3    92%   44, 60, 77						ghmonitor/backend.py              37      3    92%   44, 60, 77
 ghmonitor/gopkg/__init__.py        0      0   100%							ghmonitor/gopkg/__init__.py        0      0   100%
 ghmonitor/gopkg/translate.py      34      3    91%   43-44, 57						ghmonitor/gopkg/translate.py      34      3    91%   43-44, 57
-ghmonitor/models.py               42      3    93%   80-81, 83					      |	ghmonitor/models.py               45      0   100%
-ghmonitor/monitor.py              84     15    82%   87-94, 111-122, 154			      |	ghmonitor/monitor.py              84     13    85%   80, 89-92, 111-122, 154
+ghmonitor/models.py               45      0   100%							ghmonitor/models.py               45      0   100%
+ghmonitor/monitor.py              84     13    85%   80, 89-92, 111-122, 154				ghmonitor/monitor.py              84     13    85%   80, 89-92, 111-122, 154
 ghmonitor/utils.py                30      1    97%   39							ghmonitor/utils.py                30      1    97%   39
 ------------------------------------------------------------						------------------------------------------------------------
-TOTAL                            227     25    89%						      |	TOTAL                            230     20    91%
+TOTAL                            230     20    91%							TOTAL                            230     20    91%
