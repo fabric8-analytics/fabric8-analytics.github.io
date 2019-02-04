@@ -114,6 +114,9 @@ integration-tests/features/steps/jobs_api.py
 integration-tests/features/steps/oc.py
 0
     Pass
+integration-tests/features/steps/user_intent.py
+0
+    Pass
 integration-tests/features/steps/user_tag.py
 0
     Pass
@@ -408,4 +411,4 @@ e2e_tests_bot/src/e2e_tests_checker.py
 e2e_tests_bot/src/mm_client.py
 0
     Pass
-All checks passed for 132 source files
+All checks passed for 133 source files

@@ -701,6 +701,14 @@ integration-tests/features/steps/oc.py
     F 94:0 oc_delete_selected_pods - A (1)
     F 122:0 get_pod_phase - A (1)
     F 128:0 is_pod - A (1)
+integration-tests/features/steps/user_intent.py
+    F 9:0 post_data_to_user_intent_endpoint - A (2)
+    F 22:0 check_user_intent_without_payload - A (1)
+    F 28:0 check_user_intent_with_empty_payload - A (1)
+    F 35:0 check_user_intent_with_incorrect_payload - A (1)
+    F 42:0 check_user_intent_with_manual_tagging_attribute_in_payload - A (1)
+    F 49:0 check_user_intent_with_manual_tagging_user_attributes_in_payload - A (1)
+    F 58:0 check_user_intent_with_ecosystem_in_payload - A (1)
 integration-tests/features/steps/user_tag.py
     F 101:0 check_get_next_untagged_component_response - B (9)
     F 53:0 check_master_tag_list_response_json - A (3)
@@ -1299,6 +1307,6 @@ perf-tests/src/gremlin_package_generator.py
     M 55:4 GremlinPackageGenerator.package_generator_for_ecosystem - A (2)
     M 65:4 GremlinPackageGenerator.package_version_generator_for_ecosystem - A (2)
 
-1191 blocks (classes, functions, methods) analyzed.
-Average complexity: A (2.3123425692695214)
+1198 blocks (classes, functions, methods) analyzed.
+Average complexity: A (2.30550918196995)
 </pre>
