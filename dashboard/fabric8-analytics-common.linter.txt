@@ -1,6 +1,6 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-integration-tests ui-tests perf-tests dashboard reproducers load-tests db-integrity-tests taas job-checker baf e2e_tests_bot
+integration-tests ui-tests perf-tests dashboard reproducers load-tests db-integrity-tests taas job-checker baf e2e_tests_bot vscode-visual-tests
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -275,4 +275,8 @@ e2e_tests_bot/src/e2e_tests_checker.py
     Pass
 e2e_tests_bot/src/mm_client.py
     Pass
-All checks passed for 133 source files
+vscode-visual-tests/features/steps/ui_checks.py
+    Pass
+vscode-visual-tests/features/steps/common.py
+    Pass
+All checks passed for 135 source files
