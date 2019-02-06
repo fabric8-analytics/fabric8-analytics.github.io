@@ -21,13 +21,6 @@ propose changes to this document in a pull request.
 
 *Note: Every PR requires at least one review from at least one of the Core Reviewers member.*
 
-Core Reviewers are:
-
-* Marek Cermak <macermak@redhat.com>
-* Michal Srb <msrb@redhat.com>
-* Pavel Tisnovsky <ptisnovs@redhat.com>
-* Tomas Hrcka <thrcka@redhat.com>
-
 Before you submit your pull request consider the following guidelines:
 
 * Fork the repository and clone your fork
