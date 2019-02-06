@@ -3,7 +3,7 @@
 
 > What is the overall archicture and flow graph of Fabric8-Anaytics system?
 
-* [Architecture diagram is in the Home page](https://github.com/fabric8-analytics/fabric8-analytics-common)
+* [Architecture diagram is in the Home page](https://fabric8-analytics.github.io)
 
 <br>
 
