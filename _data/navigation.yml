@@ -6,6 +6,9 @@ banner:
 
 main:
     en:
+        - title: Home
+          url: /
+          
         - title: Repositories
           url: /repositories/
 
