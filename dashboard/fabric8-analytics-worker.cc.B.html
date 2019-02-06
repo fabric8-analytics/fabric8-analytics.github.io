@@ -64,6 +64,9 @@ f8a_worker/storages/s3.py
     M 90:4 AmazonS3._create_bucket - B (7)
 f8a_worker/workers/report_generation.py
     M 56:4 ReportGenerationTask._get_dependency_data - B (7)
+f8a_worker/workers/graph_importer.py
+    C 10:0 GraphImporterTask - B (6)
+    M 26:4 GraphImporterTask.execute - B (6)
 f8a_worker/workers/dependency_parser.py
     M 57:4 GithubDependencyTreeTask.extract_dependencies - B (10)
     M 197:4 GithubDependencyTreeTask.get_npm_dependencies - B (7)
@@ -97,7 +100,7 @@ f8a_worker/workers/graphaggregator.py
     C 16:0 GraphAggregatorTask - C (12)
 f8a_worker/workers/init_analysis_flow.py
     M 20:4 InitAnalysisFlow.execute - B (9)
-    M 105:4 InitAnalysisFlow._download_source_jar - B (6)
+    M 97:4 InitAnalysisFlow._download_source_jar - B (6)
 f8a_worker/workers/unknown_dep_fetcher.py
     M 13:4 UnknownDependencyFetcherTask.get_dependency_data - B (6)
 f8a_worker/workers/dependency_snapshot.py
@@ -135,6 +138,6 @@ tests/workers/test_mercator.py
     M 108:4 TestMercator.test_execute_go_godeps - B (6)
     M 130:4 TestMercator.test_get_outermost_items - B (6)
 
-93 blocks (classes, functions, methods) analyzed.
-Average complexity: B (8.053763440860216)
+95 blocks (classes, functions, methods) analyzed.
+Average complexity: B (8.010526315789473)
 </pre>

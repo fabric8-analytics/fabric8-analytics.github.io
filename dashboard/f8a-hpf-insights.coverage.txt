@@ -6,10 +6,10 @@ Name                                     Stmts   Miss  Cover   Missing
 /src/data_store/abstract_data_store.py       1      0   100%
 /src/data_store/local_data_store.py         45      1    98%   71
 /src/data_store/s3_data_store.py             9      0   100%
-/src/flask_endpoint.py                      50     10    80%   51-54, 59-60, 76, 93-103, 123
+/src/flask_endpoint.py                      50      6    88%   51-54, 59-60, 76, 123
 /src/scoring/__init__.py                     0      0   100%
-/src/scoring/hpf_scoring.py                 92     22    76%   100, 118-120, 141-143, 170, 174-210
+/src/scoring/hpf_scoring.py                 92      3    97%   100, 118, 170
 /src/training/__init__.py                    0      0   100%
 /src/utils.py                                2      0   100%
 ----------------------------------------------------------------------
-TOTAL                                      227     33    85%
+TOTAL                                      227     10    96%
