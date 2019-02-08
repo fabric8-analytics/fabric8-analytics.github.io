@@ -8,7 +8,7 @@ src/data_source/__init__.py                   0      0   100%						src/data_sour
 src/data_source/abstract_data_source.py       6      0   100%						src/data_source/abstract_data_source.py       6      0   100%
 src/data_source/s3_data_source.py            36      2    94%   29-31					src/data_source/s3_data_source.py            36      2    94%   29-31
 src/graph_manager.py                         38      0   100%						src/graph_manager.py                         38      0   100%
-src/graph_populator.py                      209      4    98%   72, 365-366, 486		      |	src/graph_populator.py                      209      4    98%   72, 369-370, 490
+src/graph_populator.py                      209      4    98%   72, 369-370, 490			src/graph_populator.py                      209      4    98%   72, 369-370, 490
 src/rest_api.py                             192     19    90%   84, 87-89, 165, 201, 207, 241-244, 26	src/rest_api.py                             192     19    90%   84, 87-89, 165, 201, 207, 241-244, 26
 src/utils.py                                 48      0   100%						src/utils.py                                 48      0   100%
 -----------------------------------------------------------------------					-----------------------------------------------------------------------
