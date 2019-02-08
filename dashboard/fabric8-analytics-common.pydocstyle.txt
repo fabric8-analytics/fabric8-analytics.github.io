@@ -411,10 +411,16 @@ e2e_tests_bot/src/e2e_tests_checker.py
 e2e_tests_bot/src/mm_client.py
 0
     Pass
+vscode-visual-tests/features/src/gui.py
+0
+    Pass
+vscode-visual-tests/features/src/ps.py
+0
+    Pass
 vscode-visual-tests/features/steps/ui_checks.py
 0
     Pass
 vscode-visual-tests/features/steps/common.py
 0
     Pass
-All checks passed for 135 source files
+All checks passed for 137 source files

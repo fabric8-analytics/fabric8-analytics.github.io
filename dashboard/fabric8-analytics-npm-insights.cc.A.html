@@ -7,32 +7,6 @@ tests/unit_tests/test_fileutils.py
     C 9:0 TestFileUtils - A (2)
     M 12:4 TestFileUtils.test_save_temporary_local_file - A (2)
     M 19:4 TestFileUtils.test_load_rating - A (1)
-tests/unit_tests/test_s3_data_store.py
-    F 9:0 test_initial_state - A (2)
-    F 15:0 test_get_name - A (2)
-    F 28:0 test_read_json_file_negative - A (2)
-    F 36:0 test_write_json_file - A (2)
-    F 21:0 test_read_json_file_positive - A (1)
-    F 44:0 test_write_json_file_mocked_s3 - A (1)
-tests/unit_tests/s3_mocks.py
-    M 78:4 MockedS3Bucket.upload_file - A (5)
-    M 85:4 MockedS3Bucket.download_file - A (5)
-    C 69:0 MockedS3Bucket - A (4)
-    M 41:4 MockedS3Resource.Object - A (3)
-    M 28:4 MockedS3Object.put - A (2)
-    C 34:0 MockedS3Resource - A (2)
-    C 4:0 MockedS3Data - A (1)
-    M 7:4 MockedS3Data.__init__ - A (1)
-    M 11:4 MockedS3Data.read - A (1)
-    C 16:0 MockedS3Object - A (1)
-    M 19:4 MockedS3Object.__init__ - A (1)
-    M 24:4 MockedS3Object.get - A (1)
-    M 37:4 MockedS3Resource.__init__ - A (1)
-    C 48:0 MockedS3Objects - A (1)
-    M 51:4 MockedS3Objects.__init__ - A (1)
-    M 55:4 MockedS3Objects.all - A (1)
-    M 61:4 MockedS3Objects.filter - A (1)
-    M 72:4 MockedS3Bucket.__init__ - A (1)
 tests/unit_tests/test_flask_predict.py
     C 10:0 FlaskPredictTestCase - A (1)
     M 13:4 FlaskPredictTestCase.setUp - A (1)
@@ -49,9 +23,9 @@ tests/unit_tests/test_PMFRecommendation.py
     M 48:4 TestPMFRecommendation.test__sigmoid - A (1)
     M 52:4 TestPMFRecommendation.test_predict - A (1)
 recommendation_engine/flask_predict.py
-    F 60:0 recommendation - A (2)
-    F 48:0 liveness - A (1)
-    F 54:0 readiness - A (1)
+    F 61:0 recommendation - A (2)
+    F 49:0 liveness - A (1)
+    F 55:0 readiness - A (1)
 recommendation_engine/predictor/abstract_recommender.py
     C 25:0 AbstractRecommender - A (1)
     M 30:4 AbstractRecommender.predict - A (1)
@@ -85,8 +59,8 @@ recommendation_engine/data_store/s3_data_store.py
     M 76:4 S3DataStore.read_generic_file - A (1)
     M 82:4 S3DataStore.upload_file - A (1)
 recommendation_engine/utils/fileutils.py
-    F 25:0 load_rating - A (4)
-    F 44:0 save_temporary_local_file - A (2)
+    F 25:0 load_rating - A (5)
+    F 50:0 save_temporary_local_file - A (2)
 recommendation_engine/config/params_scoring.py
     C 24:0 ScoringParams - A (1)
 recommendation_engine/model/pmf_prediction.py
@@ -98,6 +72,6 @@ deployment/submit_emr_job_train.py
 deployment/submit_emr_job_pretrain.py
     F 34:0 submit_job - A (2)
 
-81 blocks (classes, functions, methods) analyzed.
-Average complexity: A (1.654320987654321)
+57 blocks (classes, functions, methods) analyzed.
+Average complexity: A (1.6140350877192982)
 </pre>
