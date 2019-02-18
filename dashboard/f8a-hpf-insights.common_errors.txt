@@ -12,14 +12,6 @@ Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-co
 Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2.0.0)
 deployments/__init__.py
     Pass
-src/data_store/__init__.py
-    Pass
-src/data_store/abstract_data_store.py
-    Pass
-src/data_store/local_data_store.py
-    Pass
-src/data_store/s3_data_store.py
-    Pass
 src/__init__.py
     Pass
 src/utils.py
@@ -40,8 +32,6 @@ tests/unit_tests/test_scoring_hpf_scoring.py
     Pass
 tests/unit_tests/__init__.py
     Pass
-tests/unit_tests/test_local_datastore.py
-    Pass
 tests/unit_tests/test_utils.py
     Pass
 tests/test_data/__init__.py
@@ -56,4 +46,4 @@ perf_tests/locust_tests.py
     Pass
 PoC_code/__init__.py
     Pass
-All checks passed for 23 source files
+All checks passed for 18 source files

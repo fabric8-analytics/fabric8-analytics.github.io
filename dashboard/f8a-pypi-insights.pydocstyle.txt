@@ -18,18 +18,6 @@ src/models/predict_model.py
 src/models/__init__.py
 0
     Pass
-src/data_store/__init__.py
-0
-    Pass
-src/data_store/local_filesystem.py
-0
-    Pass
-src/data_store/abstract_data_store.py
-0
-    Pass
-src/data_store/s3_data_store.py
-0
-    Pass
 src/recommendation_service.py
 0
     Pass
@@ -48,4 +36,4 @@ src/config/path_constants.py
 tests/unit_tests/test_constants.py
 0
     Pass
-All checks passed for 12 source files
+All checks passed for 8 source files

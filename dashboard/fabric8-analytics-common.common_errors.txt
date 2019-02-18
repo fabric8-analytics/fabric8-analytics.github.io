@@ -268,8 +268,10 @@ vscode-visual-tests/features/src/gui.py
     Pass
 vscode-visual-tests/features/src/ps.py
     Pass
+vscode-visual-tests/features/steps/vscode.py
+    Pass
 vscode-visual-tests/features/steps/ui_checks.py
     Pass
 vscode-visual-tests/features/steps/common.py
     Pass
-All checks passed for 131 source files
+All checks passed for 132 source files

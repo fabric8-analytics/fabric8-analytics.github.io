@@ -10,8 +10,8 @@ Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (2.1.1)
-Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.11.0)
 Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.2.1)
+Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.11.0)
 recommendation_engine/predictor/abstract_recommender.py
 0
     Pass
@@ -22,18 +22,6 @@ recommendation_engine/predictor/online_recommendation.py
 0
     Pass
 recommendation_engine/flask_predict.py
-0
-    Pass
-recommendation_engine/data_store/__init__.py
-0
-    Pass
-recommendation_engine/data_store/local_filesystem.py
-0
-    Pass
-recommendation_engine/data_store/abstract_data_store.py
-0
-    Pass
-recommendation_engine/data_store/s3_data_store.py
 0
     Pass
 recommendation_engine/utils/__init__.py
@@ -84,4 +72,4 @@ tests/unit_tests/test_constants.py
 tests/unit_tests/test_PMFRecommendation.py
 0
     Pass
-All checks passed for 24 source files
+All checks passed for 20 source files
