@@ -26,4 +26,8 @@ src/config/path_constants.py
     Pass
 tests/unit_tests/test_constants.py
     Pass
-All checks passed for 8 source files
+tests/unit_tests/test_recommendation_service.py
+    Pass
+tests/conftest.py
+    Pass
+All checks passed for 10 source files

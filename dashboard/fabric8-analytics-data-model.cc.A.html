@@ -1,17 +1,19 @@
 <pre>populate_schema.py
     F 13:0 run - A (2)
+setup.py
+    F 25:0 get_requirements - A (4)
 sanitycheck.py
     F 36:0 main - A (4)
     F 17:0 test_http_connection - A (3)
     F 31:0 time_remaining - A (1)
 src/graph_populator.py
-    M 106:4 GraphPopulator.construct_version_query - E (34)
-    M 274:4 GraphPopulator.construct_package_query - D (27)
-    C 15:0 GraphPopulator - C (13)
-    M 466:4 GraphPopulator.create_query_string - B (6)
-    M 18:4 GraphPopulator.construct_graph_nodes - A (5)
-    M 74:4 GraphPopulator.sanitize_text_for_query - A (4)
-    M 94:4 GraphPopulator.correct_license_splitting - A (3)
+    M 110:4 GraphPopulator.construct_version_query - E (34)
+    M 270:4 GraphPopulator.construct_package_query - D (27)
+    C 16:0 GraphPopulator - C (13)
+    M 19:4 GraphPopulator.construct_graph_nodes - B (6)
+    M 457:4 GraphPopulator.create_query_string - B (6)
+    M 77:4 GraphPopulator.sanitize_text_for_query - A (4)
+    M 98:4 GraphPopulator.correct_license_splitting - A (3)
 src/utils.py
     F 33:0 execute_gremlin_dsl - A (3)
     F 14:0 get_session_retry - A (2)
@@ -43,20 +45,20 @@ src/graph_manager.py
     M 70:4 BayesianGraph.populate_schema - A (2)
 src/data_importer.py
     F 60:0 _import_keys_from_s3_http - C (16)
-    F 167:0 import_epv_http - C (11)
-    M 346:4 PostgresHandler._generate_fetch_query - B (8)
-    F 244:0 create_graph_nodes - B (6)
-    M 294:4 PostgresHandler.fetch_pending_epvs - B (6)
-    C 284:0 PostgresHandler - A (4)
-    M 384:4 PostgresHandler._generate_count_query - A (4)
+    F 176:0 import_epv_http - C (11)
+    M 355:4 PostgresHandler._generate_fetch_query - B (8)
+    F 253:0 create_graph_nodes - B (6)
+    M 303:4 PostgresHandler.fetch_pending_epvs - B (6)
+    C 293:0 PostgresHandler - A (4)
+    M 393:4 PostgresHandler._generate_count_query - A (4)
     F 18:0 parse_int_or_none - A (3)
     F 42:0 _other_key_info - A (3)
-    F 230:0 import_epv_from_s3_http - A (3)
-    F 148:0 _log_report_msg - A (2)
+    F 239:0 import_epv_from_s3_http - A (3)
+    F 157:0 _log_report_msg - A (2)
     F 33:0 _first_key_info - A (1)
     F 52:0 _get_exception_msg - A (1)
-    M 287:4 PostgresHandler.__init__ - A (1)
-    M 329:4 PostgresHandler.mark_epv_synced - A (1)
+    M 296:4 PostgresHandler.__init__ - A (1)
+    M 338:4 PostgresHandler.mark_epv_synced - A (1)
 src/cve.py
     M 19:4 CVEPut.validate_input - C (12)
     M 160:4 CVEGet.get - B (7)
@@ -125,9 +127,9 @@ test/test_rest_api.py
 test/test_postgres_handler.py
     F 14:0 test_fetch_pending_list - A (2)
 test/test_insertion_from_minio.py
-    F 35:0 test_create_minio_bucket - B (6)
-    F 78:0 test_insertion - A (4)
-    F 101:0 test_insertion_not_exists - A (4)
+    F 36:0 test_create_minio_bucket - B (6)
+    F 79:0 test_insertion - A (4)
+    F 102:0 test_insertion_not_exists - A (4)
 test/test_init.py
     F 6:0 test_logger - A (2)
 test/test_cve.py
@@ -188,6 +190,6 @@ test/test_graph_populator.py
     F 75:0 test_correct_license_splitting - A (3)
     F 305:0 test_create_query_string - A (1)
 
-168 blocks (classes, functions, methods) analyzed.
-Average complexity: A (3.8392857142857144)
+169 blocks (classes, functions, methods) analyzed.
+Average complexity: A (3.8461538461538463)
 </pre>

@@ -2,6 +2,18 @@
     C 9:0 TestImport - A (1)
     M 12:4 TestImport.test_cloud_constants - A (1)
     M 16:4 TestImport.test_path_constants - A (1)
+tests/unit_tests/test_recommendation_service.py
+    M 103:4 TestRecommendationService.test_companion_recommendation_with_known_transitive_stack - C (12)
+    M 69:4 TestRecommendationService.test_companion_recommendation_with_known_stack - C (11)
+    M 87:4 TestRecommendationService.test_companion_recommendation_with_unknown_stack - B (9)
+    C 54:0 TestRecommendationService - B (7)
+    M 23:4 MockHPFScoring.predict - A (3)
+    M 57:4 TestRecommendationService.test_liveness - A (3)
+    M 63:4 TestRecommendationService.test_readiness - A (3)
+    C 16:0 MockHPFScoring - A (2)
+    F 45:0 api_client - A (1)
+    M 19:4 MockHPFScoring.__init__ - A (1)
+    M 38:4 MockHPFScoring._map_input_to_package_ids - A (1)
 src/recommendation_service.py
     F 64:0 recommendation - A (4)
     F 52:0 liveness - A (1)
@@ -19,6 +31,6 @@ src/models/predict_model.py
     M 67:4 HPFScoring._load_manifest_to_id_map - A (1)
     M 120:4 HPFScoring._sigmoid - A (1)
 
-17 blocks (classes, functions, methods) analyzed.
-Average complexity: A (2.1176470588235294)
+28 blocks (classes, functions, methods) analyzed.
+Average complexity: A (3.1785714285714284)
 </pre>
