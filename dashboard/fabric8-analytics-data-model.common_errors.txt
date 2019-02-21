@@ -39,8 +39,7 @@ test/test_graph_properties.py
 test/test_postgres_handler.py
     Pass
 test/test_insertion_from_minio.py
-test/test_insertion_from_minio.py:8: redefinition of unused 'logging' from line 7
-    Fail
+    Pass
 test/test_init.py
     Pass
 test/test_cve.py
@@ -59,11 +58,13 @@ test/test_graph_populator.py
     Pass
 ----------------------------------------------------
 Checking following source files for common errors:
-sanitycheck.py populate_schema.py
+sanitycheck.py populate_schema.py setup.py
 ----------------------------------------------------
 
 sanitycheck.py
     Pass
 populate_schema.py
     Pass
-1 source files out of 25 files needs to be checked and fixed
+setup.py
+    Pass
+All checks passed for 26 source files
