@@ -1,0 +1,30 @@
+----------------------------------------------------
+Checking source files for dead code and unused imports
+in following directories:
+f8a_report
+----------------------------------------------------
+
+Using base prefix '/usr'
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-stacks-report/venv/bin/python3
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-stacks-report/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-stacks-report/venv/bin/python3)
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Collecting vulture
+  Using cached https://files.pythonhosted.org/packages/9a/a2/facb0a8b6d37901a58c1dbe76253378e83f9a943bf4768b5ec513b65921e/vulture-1.0-py2.py3-none-any.whl
+Installing collected packages: vulture
+Successfully installed vulture-1.0
+f8a_report/__init__.py
+    Pass
+f8a_report/main.py
+    Pass
+f8a_report/report_helper.py
+    Pass
+----------------------------------------------------
+Checking following source files for dead code and
+unused imports:
+setup.py
+----------------------------------------------------
+
+setup.py
+    Pass
+All checks passed for 4 source files

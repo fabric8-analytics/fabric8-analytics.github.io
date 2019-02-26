@@ -1,0 +1,29 @@
+Using base prefix '/usr'
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-stacks-report/venv/bin/python3
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-stacks-report/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-stacks-report/venv/bin/python3)
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Collecting pyflakes
+  Using cached https://files.pythonhosted.org/packages/16/3b/b6a508ad148ce1ef50bd7a9a783afbb8d775616fc4ae5e3007c8815a3c85/pyflakes-2.1.0-py2.py3-none-any.whl
+Installing collected packages: pyflakes
+Successfully installed pyflakes-2.1.0
+----------------------------------------------------
+Checking source files for common errors in following
+directories:
+f8a_report
+----------------------------------------------------
+
+f8a_report/__init__.py
+    Pass
+f8a_report/main.py
+    Pass
+f8a_report/report_helper.py
+    Pass
+----------------------------------------------------
+Checking following source files for common errors:
+setup.py
+----------------------------------------------------
+
+setup.py
+    Pass
+All checks passed for 4 source files
