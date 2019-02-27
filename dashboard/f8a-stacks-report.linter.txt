@@ -5,13 +5,10 @@ f8a_report tests
 
 Using base prefix '/usr'
 New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-stacks-report/venv/bin/python3
-Also creating executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-stacks-report/venv/bin/python
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-stacks-report/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-stacks-report/venv/bin/python3)
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Collecting pycodestyle
-  Using cached https://files.pythonhosted.org/packages/0e/0c/04a353e104d2f324f8ee5f4b32012618c1c86dd79e52a433b64fceed511b/pycodestyle-2.5.0-py2.py3-none-any.whl
-Installing collected packages: pycodestyle
-Successfully installed pycodestyle-2.5.0
+Requirement already satisfied: pycodestyle in ./venv/lib/python3.6/site-packages (2.5.0)
 f8a_report/__init__.py
     Pass
 f8a_report/main.py

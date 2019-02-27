@@ -9,14 +9,9 @@ New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashbo
 Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-stacks-report/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-stacks-report/venv/bin/python3)
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Collecting pydocstyle
-  Using cached https://files.pythonhosted.org/packages/6e/3f/9207e1af3fb23c71a2a17a5d82d4c68f4dd6b3429b58514c74b95f6e0784/pydocstyle-3.0.0-py3-none-any.whl
-Collecting six (from pydocstyle)
-  Using cached https://files.pythonhosted.org/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any.whl
-Collecting snowballstemmer (from pydocstyle)
-  Using cached https://files.pythonhosted.org/packages/d4/6c/8a935e2c7b54a37714656d753e4187ee0631988184ed50c0cf6476858566/snowballstemmer-1.2.1-py2.py3-none-any.whl
-Installing collected packages: six, snowballstemmer, pydocstyle
-Successfully installed pydocstyle-3.0.0 six-1.12.0 snowballstemmer-1.2.1
+Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (3.0.0)
+Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.2.1)
+Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.12.0)
 f8a_report/__init__.py
 0
     Pass
