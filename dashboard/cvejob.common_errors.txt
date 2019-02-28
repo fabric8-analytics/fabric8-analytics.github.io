@@ -13,6 +13,8 @@ cvejob/__init__.py
     Pass
 cvejob/utils.py
     Pass
+cvejob/version_utils.py
+    Pass
 cvejob/config.py
     Pass
 cvejob/outputs/__init__.py
@@ -45,6 +47,8 @@ tests/filters/test_input.py
     Pass
 tests/conftest.py
     Pass
+tests/test_version_utils.py
+    Pass
 scripts/get_python_packages.py
     Pass
 ----------------------------------------------------
@@ -54,4 +58,4 @@ run.py
 
 run.py
     Pass
-All checks passed for 22 source files
+All checks passed for 24 source files
