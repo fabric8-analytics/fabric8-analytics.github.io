@@ -1,15 +1,11 @@
-Name                                     Stmts   Miss  Cover   Missing				      |	Name                          Stmts   Miss  Cover   Missing
-----------------------------------------------------------------------				      |	-----------------------------------------------------------
-/src/__init__.py                             0      0   100%					      |	/src/__init__.py                  0      0   100%
-/src/config.py                              28      0   100%					      |	/src/config.py                   16      0   100%
-/src/data_store/__init__.py                  0      0   100%					      |	/src/flask_endpoint.py           51      7    86%   51-55, 60-61, 77, 124
-/src/data_store/abstract_data_store.py       1      0   100%					      |	/src/scoring/__init__.py          0      0   100%
-/src/data_store/local_data_store.py         45      1    98%   71				      |	/src/scoring/hpf_scoring.py      92     24    74%   93, 111-116, 138-140, 167, 171-205
-/src/data_store/s3_data_store.py             9      0   100%					      |	/src/training/__init__.py         0      0   100%
-/src/flask_endpoint.py                      50      6    88%   51-54, 59-60, 76, 123		      |	/src/utils.py                     2      0   100%
-/src/scoring/__init__.py                     0      0   100%					      |	-----------------------------------------------------------
-/src/scoring/hpf_scoring.py                 92      3    97%   100, 118, 170			      |	TOTAL                           161     31    81%
-/src/training/__init__.py                    0      0   100%					      <
-/src/utils.py                                2      0   100%					      <
-----------------------------------------------------------------------				      <
-TOTAL                                      227     10    96%					      <
+Name                          Stmts   Miss  Cover   Missing						Name                          Stmts   Miss  Cover   Missing
+-----------------------------------------------------------						-----------------------------------------------------------
+/src/__init__.py                  0      0   100%							/src/__init__.py                  0      0   100%
+/src/config.py                   16      0   100%							/src/config.py                   16      0   100%
+/src/flask_endpoint.py           51      7    86%   51-55, 60-61, 77, 124				/src/flask_endpoint.py           51      7    86%   51-55, 60-61, 77, 124
+/src/scoring/__init__.py          0      0   100%							/src/scoring/__init__.py          0      0   100%
+/src/scoring/hpf_scoring.py      92     24    74%   93, 111-116, 138-140, 167, 171-205			/src/scoring/hpf_scoring.py      92     24    74%   93, 111-116, 138-140, 167, 171-205
+/src/training/__init__.py         0      0   100%							/src/training/__init__.py         0      0   100%
+/src/utils.py                     2      0   100%							/src/utils.py                     2      0   100%
+-----------------------------------------------------------						-----------------------------------------------------------
+TOTAL                           161     31    81%							TOTAL                           161     31    81%

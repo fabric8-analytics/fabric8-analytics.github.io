@@ -13,5 +13,6 @@ cvejob/selectors/__init__.py           0      0   100%							cvejob/selectors/__
 cvejob/selectors/basic.py            124    124     0%   3-286						cvejob/selectors/basic.py            124    124     0%   3-286
 cvejob/utils.py                       85     24    72%   28-62, 74, 85, 92, 176-182			cvejob/utils.py                       85     24    72%   28-62, 74, 85, 92, 176-182
 cvejob/version.py                     55      0   100%							cvejob/version.py                     55      0   100%
+												      >	cvejob/version_utils.py              170      5    97%   67, 70, 151, 171, 254
 ----------------------------------------------------------------					----------------------------------------------------------------
-TOTAL                                611    296    52%							TOTAL                                611    296    52%
+TOTAL                                611    296    52%						      |	TOTAL                                781    301    61%
