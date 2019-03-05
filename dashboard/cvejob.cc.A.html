@@ -21,6 +21,11 @@ tests/conftest.py
     F 26:0 rejected_cve - A (2)
     F 34:0 unsupported_cve - A (2)
     F 42:0 config - A (1)
+tests/test_cpe2pkg.py
+    F 10:0 test_package_name_candidate - C (12)
+    F 61:0 test_run_cpe2pkg - A (4)
+    F 36:0 test_get_pkgfile_path - A (2)
+    F 46:0 test_build_cpe2pkg_query - A (2)
 tests/test_version_utils.py
     F 276:0 test_get_safe_ranges - C (12)
     F 11:0 test_get_ranges_from_cve - C (11)
@@ -118,6 +123,17 @@ cvejob/version.py
     M 92:4 BenevolentVersion.__ge__ - A (1)
     M 95:4 BenevolentVersion.__repr__ - A (1)
     M 101:4 BenevolentVersion.__hash__ - A (1)
+cvejob/cpe2pkg.py
+    M 16:4 PackageNameCandidate.__init__ - A (4)
+    F 64:0 run_cpe2pkg - A (3)
+    M 42:4 PackageNameCandidate.from_cpe2pkg_output - A (2)
+    F 59:0 get_pkgfile_path - A (1)
+    F 93:0 build_cpe2pkg_query - A (1)
+    C 13:0 PackageNameCandidate - A (1)
+    M 30:4 PackageNameCandidate.__repr__ - A (1)
+    M 33:4 PackageNameCandidate.__eq__ - A (1)
+    M 36:4 PackageNameCandidate.__lt__ - A (1)
+    M 39:4 PackageNameCandidate.__le__ - A (1)
 cvejob/selectors/basic.py
     M 138:4 VersionSelector.evaluate_package - C (12)
     M 36:4 VersionSelector.pick_winner - B (8)
@@ -173,6 +189,6 @@ cvejob/filters/input.py
     C 104:0 NotUnderAnalysisCheck - A (1)
     M 107:4 NotUnderAnalysisCheck.check - A (1)
 
-156 blocks (classes, functions, methods) analyzed.
-Average complexity: A (3.730769230769231)
+170 blocks (classes, functions, methods) analyzed.
+Average complexity: A (3.635294117647059)
 </pre>

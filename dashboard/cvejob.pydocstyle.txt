@@ -46,6 +46,9 @@ cvejob/filters/__init__.py
 cvejob/filters/input.py
 0
     Pass
+cvejob/cpe2pkg.py
+0
+    Pass
 tests/__init__.py
 0
     Pass
@@ -67,6 +70,9 @@ tests/filters/test_input.py
 tests/conftest.py
 0
     Pass
+tests/test_cpe2pkg.py
+0
+    Pass
 tests/test_version_utils.py
 0
     Pass
@@ -81,4 +87,4 @@ run.py
 run.py
 0
     Pass
-All checks passed for 24 source files
+All checks passed for 26 source files
