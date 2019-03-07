@@ -1,7 +1,7 @@
 <pre>run.py
-    F 85:0 run - C (18)
-    F 59:0 _filter_collection - A (3)
-    F 35:0 _log_results - A (1)
+    F 84:0 run - C (15)
+    F 58:0 _filter_collection - A (3)
+    F 34:0 _log_results - A (1)
 tests/test_utils.py
     M 55:4 TestUtils.test_parse_date_range - A (4)
     C 16:0 TestUtils - A (3)
@@ -16,11 +16,14 @@ tests/test_version.py
     F 46:0 test_version_loose - A (2)
     F 51:0 test_hash - A (2)
 tests/conftest.py
-    F 10:0 javascript_cve - A (2)
-    F 18:0 maven_cve - A (2)
-    F 26:0 rejected_cve - A (2)
-    F 34:0 unsupported_cve - A (2)
-    F 42:0 config - A (1)
+    F 11:0 javascript_cve - A (2)
+    F 19:0 maven_cve - A (2)
+    F 27:0 python_cve - A (2)
+    F 35:0 maven_vertx_cve - A (2)
+    F 43:0 rejected_cve - A (2)
+    F 51:0 unsupported_cve - A (2)
+    F 59:0 cpe2pkg_tool - A (2)
+    F 69:0 config - A (1)
 tests/test_cpe2pkg.py
     F 10:0 test_package_name_candidate - C (12)
     F 61:0 test_run_cpe2pkg - A (4)
@@ -47,11 +50,13 @@ tests/test_version_utils.py
     F 219:0 test_classify_versions - A (4)
     F 44:0 test_get_configuration_nodes - A (3)
     F 52:0 test_get_version_ranges - A (2)
-tests/outputs/test_victims.py
-    F 6:0 test_get_victims_affected_notation - B (7)
-    F 32:0 test_get_victims_fixedin_notation - A (5)
-    F 24:0 test_get_victims_affected_notation_empty - A (2)
-    F 44:0 test_get_victims_fixedin_notation_empty - A (2)
+tests/selectors/test_basic.py
+    F 8:0 test_basic_selector - A (3)
+tests/versions/test_version_identifier.py
+    F 6:0 test_nvd_versions - B (7)
+tests/identifiers/test_naive.py
+    F 8:0 test_naive_basic - A (3)
+    F 23:0 test_get_identifier_cls - A (3)
 tests/filters/test_input.py
     F 81:0 test_rejected_cve - A (3)
     F 17:0 test_not_older_than_check - A (2)
@@ -67,11 +72,9 @@ tests/filters/test_input.py
 scripts/get_python_packages.py
     F 8:0 get_package_names - A (3)
 cvejob/utils.py
-    F 65:0 get_cpe - C (12)
-    F 23:0 run_cpe2pkg - A (4)
-    F 108:0 get_description_by_lang - A (3)
-    F 174:0 sort_versions - A (3)
-    F 122:0 parse_date_range - A (2)
+    F 19:0 get_cpe - C (12)
+    F 62:0 get_description_by_lang - A (3)
+    F 76:0 parse_date_range - A (2)
 cvejob/version_utils.py
     F 21:0 get_ranges_from_cve - B (10)
     M 218:4 VersionRange.from_list - B (8)
@@ -135,40 +138,38 @@ cvejob/cpe2pkg.py
     M 36:4 PackageNameCandidate.__lt__ - A (1)
     M 39:4 PackageNameCandidate.__le__ - A (1)
 cvejob/selectors/basic.py
-    M 138:4 VersionSelector.evaluate_package - C (12)
-    M 36:4 VersionSelector.pick_winner - B (8)
-    M 222:4 VersionSelector._get_affected_versions - B (6)
-    C 26:0 VersionSelector - A (4)
-    M 210:4 VersionSelector._get_upstream_versions - A (4)
-    M 265:4 VersionSelector._get_safe_versions - A (3)
-    M 186:4 VersionSelector._get_cpe_entries - A (2)
-    M 195:4 VersionSelector._get_version_ranges - A (2)
-    M 29:4 VersionSelector.__init__ - A (1)
+    M 30:4 VersionSelector.pick_winner - B (8)
+    M 54:4 VersionSelector.get_versions_from_cve - A (4)
+    C 14:0 VersionSelector - A (3)
+    M 17:4 VersionSelector.__init__ - A (1)
+    M 73:4 VersionSelector._evaluate_package - A (1)
 cvejob/outputs/victims.py
-    F 142:0 get_victims_affected_notation - B (7)
-    F 181:0 get_victims_fixedin_notation - B (6)
-    M 114:4 VictimsYamlOutput.format_list - A (5)
-    M 75:4 VictimsYamlOutput.write - A (4)
-    F 216:0 reverse_version_string - A (3)
-    C 11:0 VictimsYamlOutput - A (2)
-    M 19:4 VictimsYamlOutput.__init__ - A (2)
-    M 50:4 VictimsYamlOutput.cve - A (1)
-    M 55:4 VictimsYamlOutput.affected_versions - A (1)
-    M 60:4 VictimsYamlOutput.safe_versions - A (1)
-    M 65:4 VictimsYamlOutput.winner - A (1)
-    M 70:4 VictimsYamlOutput.candidates - A (1)
-cvejob/identifiers/basic.py
-    M 53:4 NaivePackageNameIdentifier._guess_from_sentence - A (4)
-    M 79:4 NaivePackageNameIdentifier.identify - A (3)
-    C 14:0 NaivePackageNameIdentifier - A (2)
-    M 25:4 NaivePackageNameIdentifier._get_vendor_product_pairs - A (2)
-    M 37:4 NaivePackageNameIdentifier._get_candidates_from_description - A (2)
-    M 21:4 NaivePackageNameIdentifier.__init__ - A (1)
+    M 115:4 VictimsYamlOutput.format_list - A (5)
+    M 76:4 VictimsYamlOutput.write - A (4)
+    C 12:0 VictimsYamlOutput - A (2)
+    M 20:4 VictimsYamlOutput.__init__ - A (2)
+    M 51:4 VictimsYamlOutput.cve - A (1)
+    M 56:4 VictimsYamlOutput.affected_versions - A (1)
+    M 61:4 VictimsYamlOutput.safe_versions - A (1)
+    M 66:4 VictimsYamlOutput.winner - A (1)
+    M 71:4 VictimsYamlOutput.candidates - A (1)
+cvejob/versions/version_identifier.py
+    C 10:0 NVDVersions - A (1)
+    M 13:4 NVDVersions.__init__ - A (1)
+    M 24:4 NVDVersions.run - A (1)
 cvejob/identifiers/nvdtoolkit.py
     C 12:0 NvdToolkitPackageNameIdentifier - A (3)
     M 15:4 NvdToolkitPackageNameIdentifier.identify - A (3)
+cvejob/identifiers/naive.py
+    M 62:4 NaivePackageNameIdentifier._guess_from_sentence - A (4)
+    M 88:4 NaivePackageNameIdentifier.identify - A (3)
+    M 106:4 NaivePackageNameIdentifier._run_cpe2pkg - A (3)
+    C 17:0 NaivePackageNameIdentifier - A (2)
+    M 31:4 NaivePackageNameIdentifier._get_vendor_product_pairs - A (2)
+    M 46:4 NaivePackageNameIdentifier._get_candidates_from_description - A (2)
+    M 24:4 NaivePackageNameIdentifier.__init__ - A (1)
 cvejob/identifiers/__init__.py
-    F 11:0 get_identifier - A (2)
+    F 10:0 get_identifier_cls - A (2)
 cvejob/filters/input.py
     F 24:0 validate_cve - B (9)
     C 224:0 NotUnexpectedSiteInReferencesCheck - B (9)
@@ -189,6 +190,6 @@ cvejob/filters/input.py
     C 104:0 NotUnderAnalysisCheck - A (1)
     M 107:4 NotUnderAnalysisCheck.check - A (1)
 
-170 blocks (classes, functions, methods) analyzed.
-Average complexity: A (3.635294117647059)
+168 blocks (classes, functions, methods) analyzed.
+Average complexity: A (3.4464285714285716)
 </pre>

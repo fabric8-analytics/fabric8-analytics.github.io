@@ -13,13 +13,7 @@ Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages (1.
 rudra/data_store/__init__.py
     Pass
 rudra/data_store/abstract_data_store.py
-rudra/data_store/abstract_data_store.py:28: unused variable 'filename' (100% confidence)
-rudra/data_store/abstract_data_store.py:33: unused variable 'filename' (100% confidence)
-rudra/data_store/abstract_data_store.py:38: unused variable 'src' (100% confidence)
-rudra/data_store/abstract_data_store.py:38: unused variable 'target' (100% confidence)
-rudra/data_store/abstract_data_store.py:43: unused variable 'contents' (100% confidence)
-rudra/data_store/abstract_data_store.py:43: unused variable 'filename' (100% confidence)
-    Fail
+    Pass
 rudra/data_store/aws.py
     Pass
 rudra/data_store/local_data_store.py
@@ -47,22 +41,9 @@ rudra/deployments/emr_scripts/pypi_emr.py
 rudra/deployments/emr_scripts/emr_script_builder.py
     Pass
 rudra/deployments/emr_scripts/abstract_emr.py
-rudra/deployments/emr_scripts/abstract_emr.py:10: unused variable 'input_dict' (100% confidence)
-rudra/deployments/emr_scripts/abstract_emr.py:15: unused variable 'input_dict' (100% confidence)
-    Fail
+    Pass
 tests/data_store/test_aws.py
-tests/data_store/test_aws.py:74: unused variable 'upload_dir' (100% confidence)
-tests/data_store/test_aws.py:96: unused variable 'upload_dir' (100% confidence)
-tests/data_store/test_aws.py:101: unused variable 'upload_dir' (100% confidence)
-tests/data_store/test_aws.py:106: unused variable 'upload_dir' (100% confidence)
-tests/data_store/test_aws.py:111: unused variable 'upload_dir' (100% confidence)
-tests/data_store/test_aws.py:116: unused variable 'upload_dir' (100% confidence)
-tests/data_store/test_aws.py:123: unused variable 'upload_dir' (100% confidence)
-tests/data_store/test_aws.py:132: unused variable 'upload_dir' (100% confidence)
-tests/data_store/test_aws.py:137: unused variable 'upload_dir' (100% confidence)
-tests/data_store/test_aws.py:157: unused variable 'upload_dir' (100% confidence)
-tests/data_store/test_aws.py:165: unused variable 'upload_dir' (100% confidence)
-    Fail
+    Pass
 tests/data_store/test_local_store.py
     Pass
 tests/utils/test_helper.py
@@ -72,16 +53,13 @@ tests/utils/test_validation.py
 tests/deployments/emr_scripts/test_emr_script_builder.py
     Pass
 tests/deployments/emr_scripts/test_pypi_emr.py
-tests/deployments/emr_scripts/test_pypi_emr.py:32: unused variable 'emr_config_mocked' (100% confidence)
-    Fail
+    Pass
 tests/deployments/emr_scripts/test_npm_emr.py
-tests/deployments/emr_scripts/test_npm_emr.py:32: unused variable 'emr_config_mocked' (100% confidence)
-    Fail
+    Pass
 tests/deployments/emr_scripts/test_emr_config.py
     Pass
 tests/deployments/emr_scripts/test_maven_emr.py
-tests/deployments/emr_scripts/test_maven_emr.py:32: unused variable 'emr_config_mocked' (100% confidence)
-    Fail
+    Pass
 tests/conftest.py
     Pass
 ----------------------------------------------------
@@ -92,4 +70,4 @@ setup.py
 
 setup.py
     Pass
-6 source files out of 27 files seems to contain dead code and/or unused imports
+All checks passed for 27 source files

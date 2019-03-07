@@ -23,9 +23,13 @@ cvejob/outputs/victims.py
     Pass
 cvejob/version.py
     Pass
-cvejob/identifiers/basic.py
+cvejob/versions/version_identifier.py
+    Pass
+cvejob/versions/__init__.py
     Pass
 cvejob/identifiers/nvdtoolkit.py
+    Pass
+cvejob/identifiers/naive.py
     Pass
 cvejob/identifiers/__init__.py
     Pass
@@ -35,13 +39,23 @@ cvejob/filters/input.py
     Pass
 cvejob/cpe2pkg.py
     Pass
-tests/__init__.py
+tests/selectors/__init__.py
     Pass
-tests/outputs/test_victims.py
+tests/selectors/test_basic.py
+    Pass
+tests/__init__.py
     Pass
 tests/test_utils.py
     Pass
 tests/test_version.py
+    Pass
+tests/versions/__init__.py
+    Pass
+tests/versions/test_version_identifier.py
+    Pass
+tests/identifiers/__init__.py
+    Pass
+tests/identifiers/test_naive.py
     Pass
 tests/filters/__init__.py
     Pass
@@ -62,4 +76,4 @@ run.py
 
 run.py
     Pass
-All checks passed for 26 source files
+All checks passed for 33 source files

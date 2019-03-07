@@ -15,8 +15,7 @@ rudra/data_store/__init__.py
 rudra/data_store/abstract_data_store.py
     Pass
 rudra/data_store/aws.py
-rudra/data_store/aws.py:330: local variable 'exc' is assigned to but never used
-    Fail
+    Pass
 rudra/data_store/local_data_store.py
     Pass
 rudra/utils/validation.py
@@ -24,8 +23,7 @@ rudra/utils/validation.py
 rudra/utils/__init__.py
     Pass
 rudra/utils/helper.py
-rudra/utils/helper.py:30: local variable 'exc' is assigned to but never used
-    Fail
+    Pass
 rudra/__init__.py
     Pass
 rudra/deployments/__init__.py
@@ -41,8 +39,7 @@ rudra/deployments/emr_scripts/npm_emr.py
 rudra/deployments/emr_scripts/pypi_emr.py
     Pass
 rudra/deployments/emr_scripts/emr_script_builder.py
-rudra/deployments/emr_scripts/emr_script_builder.py:46: local variable 'exc' is assigned to but never used
-    Fail
+    Pass
 rudra/deployments/emr_scripts/abstract_emr.py
     Pass
 tests/data_store/test_aws.py
@@ -72,4 +69,4 @@ setup.py
 
 setup.py
     Pass
-3 source files out of 27 files needs to be checked and fixed
+All checks passed for 27 source files
