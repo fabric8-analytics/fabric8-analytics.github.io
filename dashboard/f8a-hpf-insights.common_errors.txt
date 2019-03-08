@@ -1,7 +1,7 @@
 ----------------------------------------------------
 Checking source files for common errors in following
 directories:
-deployments src tests perf_tests PoC_code
+deployments src tests perf_tests PoC_code training
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -44,4 +44,6 @@ perf_tests/locust_tests.py
     Pass
 PoC_code/__init__.py
     Pass
-All checks passed for 17 source files
+training/train.py
+    Pass
+All checks passed for 18 source files
