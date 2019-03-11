@@ -1,7 +1,7 @@
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
-src deployments tests perf_tests PoC_code training
+src deployments tests training perf_tests PoC_code
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -54,6 +54,9 @@ tests/test_data/__init__.py
 tests/test_data/maven/scoring/__init__.py
 0
     Pass
+training/train.py
+0
+    Pass
 perf_tests/__init__.py
 0
     Pass
@@ -61,9 +64,6 @@ perf_tests/locust_tests.py
 0
     Pass
 PoC_code/__init__.py
-0
-    Pass
-training/train.py
 0
     Pass
 All checks passed for 18 source files

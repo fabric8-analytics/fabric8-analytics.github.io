@@ -10,8 +10,8 @@ Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (3.0.0)
-Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.12.0)
 Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.2.1)
+Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.12.0)
 rudra/data_store/__init__.py
 rudra/data_store/__init__.py:1 at module level:
         D104: Missing docstring in public package
@@ -41,10 +41,8 @@ rudra/__init__.py
 0
     Pass
 rudra/deployments/__init__.py
-rudra/deployments/__init__.py:1 at module level:
-        D104: Missing docstring in public package
-1
-    Fail
+0
+    Pass
 rudra/deployments/emr_scripts/emr_config.py
 0
     Pass
@@ -72,8 +70,6 @@ tests/data_store/test_aws.py:1 at module level:
 tests/data_store/test_aws.py:18 in public function `s3_bucket`:
         D103: Missing docstring in public function
 tests/data_store/test_aws.py:25 in public function `s3`:
-        D103: Missing docstring in public function
-tests/data_store/test_aws.py:42 in public function `upload_dir`:
         D103: Missing docstring in public function
 tests/data_store/test_aws.py:49 in public class `TestAmazonS3`:
         D101: Missing docstring in public class
@@ -133,7 +129,7 @@ tests/data_store/test_aws.py:232 in public method `test_terminate_job`:
         D102: Missing docstring in public method
 tests/data_store/test_aws.py:259 in public method `test_terminate_jobs`:
         D102: Missing docstring in public method
-33
+32
     Fail
 tests/data_store/test_local_store.py
 tests/data_store/test_local_store.py:1 at module level:
@@ -256,4 +252,4 @@ setup.py
 setup.py
 0
     Pass
-Documentation strings should be added and/or fixed in 12 source files out of 27 files
+Documentation strings should be added and/or fixed in 11 source files out of 27 files

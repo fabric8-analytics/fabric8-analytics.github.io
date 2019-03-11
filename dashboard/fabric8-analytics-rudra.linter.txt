@@ -26,11 +26,9 @@ rudra/utils/helper.py
 rudra/__init__.py
     Pass
 rudra/deployments/__init__.py
-rudra/deployments/__init__.py:1:1: W391 blank line at end of file
-    Fail
+    Pass
 rudra/deployments/emr_scripts/emr_config.py
-rudra/deployments/emr_scripts/emr_config.py:59:47: E226 missing whitespace around arithmetic operator
-    Fail
+    Pass
 rudra/deployments/emr_scripts/__init__.py
     Pass
 rudra/deployments/emr_scripts/maven_emr.py
@@ -66,8 +64,7 @@ tests/deployments/emr_scripts/test_pypi_emr.py
 tests/deployments/emr_scripts/test_npm_emr.py
     Pass
 tests/deployments/emr_scripts/test_emr_config.py
-tests/deployments/emr_scripts/test_emr_config.py:35:21: W503 line break before binary operator
-    Fail
+    Pass
 tests/deployments/emr_scripts/test_maven_emr.py
     Pass
 tests/conftest.py
@@ -79,4 +76,4 @@ setup.py
 ----------------------------------------------------
 setup.py
     Pass
-Linter fail, 4 source files out of 27 source files need to be fixed
+Linter fail, 1 source files out of 27 source files need to be fixed

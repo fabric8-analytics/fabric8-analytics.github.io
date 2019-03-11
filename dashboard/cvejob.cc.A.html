@@ -22,13 +22,15 @@ tests/conftest.py
     F 35:0 maven_vertx_cve - A (2)
     F 43:0 rejected_cve - A (2)
     F 51:0 unsupported_cve - A (2)
-    F 59:0 cpe2pkg_tool - A (2)
-    F 69:0 config - A (1)
+    F 59:0 unsupported_cve_none_versions - A (2)
+    F 70:0 cpe2pkg_tool - A (2)
+    F 80:0 config - A (1)
 tests/test_cpe2pkg.py
-    F 10:0 test_package_name_candidate - C (12)
-    F 61:0 test_run_cpe2pkg - A (4)
-    F 36:0 test_get_pkgfile_path - A (2)
-    F 46:0 test_build_cpe2pkg_query - A (2)
+    F 10:0 test_package_name_candidate - B (9)
+    F 28:0 test_package_name_candidate_bad - A (5)
+    F 69:0 test_run_cpe2pkg - A (4)
+    F 44:0 test_get_pkgfile_path - A (2)
+    F 54:0 test_build_cpe2pkg_query - A (2)
 tests/test_version_utils.py
     F 276:0 test_get_safe_ranges - C (12)
     F 11:0 test_get_ranges_from_cve - C (11)
@@ -52,6 +54,7 @@ tests/test_version_utils.py
     F 52:0 test_get_version_ranges - A (2)
 tests/selectors/test_basic.py
     F 8:0 test_basic_selector - A (3)
+    F 20:0 test_basic_selector_none_versions - A (2)
 tests/versions/test_version_identifier.py
     F 6:0 test_nvd_versions - B (7)
 tests/identifiers/test_naive.py
@@ -72,7 +75,7 @@ tests/filters/test_input.py
 scripts/get_python_packages.py
     F 8:0 get_package_names - A (3)
 cvejob/utils.py
-    F 19:0 get_cpe - C (12)
+    F 19:0 get_cpe - C (14)
     F 62:0 get_description_by_lang - A (3)
     F 76:0 parse_date_range - A (2)
 cvejob/version_utils.py
@@ -139,8 +142,8 @@ cvejob/cpe2pkg.py
     M 39:4 PackageNameCandidate.__le__ - A (1)
 cvejob/selectors/basic.py
     M 30:4 VersionSelector.pick_winner - B (8)
-    M 54:4 VersionSelector.get_versions_from_cve - A (4)
-    C 14:0 VersionSelector - A (3)
+    M 54:4 VersionSelector.get_versions_from_cve - A (5)
+    C 14:0 VersionSelector - A (4)
     M 17:4 VersionSelector.__init__ - A (1)
     M 73:4 VersionSelector._evaluate_package - A (1)
 cvejob/outputs/victims.py
@@ -190,6 +193,6 @@ cvejob/filters/input.py
     C 104:0 NotUnderAnalysisCheck - A (1)
     M 107:4 NotUnderAnalysisCheck.check - A (1)
 
-168 blocks (classes, functions, methods) analyzed.
-Average complexity: A (3.4464285714285716)
+171 blocks (classes, functions, methods) analyzed.
+Average complexity: A (3.4444444444444446)
 </pre>
