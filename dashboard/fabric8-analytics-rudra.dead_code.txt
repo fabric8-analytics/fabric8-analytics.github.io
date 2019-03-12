@@ -39,7 +39,8 @@ rudra/deployments/emr_scripts/npm_emr.py
 rudra/deployments/emr_scripts/pypi_emr.py
     Pass
 rudra/deployments/emr_scripts/emr_script_builder.py
-    Pass
+rudra/deployments/emr_scripts/emr_script_builder.py:36: unreachable code after 'raise' (100% confidence)
+    Fail
 rudra/deployments/emr_scripts/abstract_emr.py
     Pass
 tests/data_store/test_aws.py
@@ -70,4 +71,4 @@ setup.py
 
 setup.py
     Pass
-All checks passed for 27 source files
+1 source files out of 27 files seems to contain dead code and/or unused imports
