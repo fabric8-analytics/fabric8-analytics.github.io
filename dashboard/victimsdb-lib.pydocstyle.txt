@@ -1,18 +1,33 @@
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
-tests
+victimsdb_lib tests
 ----------------------------------------------------
 
 Using base prefix '/usr'
-New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-github-refresh-cronjob/venv/bin/python3
-Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-github-refresh-cronjob/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-github-refresh-cronjob/venv/bin/python3)
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/victimsdb-lib/venv/bin/python3
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/victimsdb-lib/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/victimsdb-lib/venv/bin/python3)
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (3.0.0)
-Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.11.0)
+Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.12.0)
 Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.2.1)
-tests/test_github_refresh.py
+victimsdb_lib/__init__.py
+0
+    Pass
+victimsdb_lib/database.py
+0
+    Pass
+victimsdb_lib/model.py
+0
+    Pass
+victimsdb_lib/errors.py
+0
+    Pass
+tests/test_database.py
+0
+    Pass
+tests/test_model.py
 0
     Pass
 tests/conftest.py
@@ -21,9 +36,9 @@ tests/conftest.py
 
 ----------------------------------------------------
 Checking documentation strings in the following files
-github_refresh.py
+setup.py
 ----------------------------------------------------
-github_refresh.py
+setup.py
 0
     Pass
-All checks passed for 3 source files
+All checks passed for 8 source files

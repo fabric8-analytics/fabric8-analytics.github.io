@@ -1,0 +1,8 @@
+Name                        Stmts   Miss  Cover   Missing
+---------------------------------------------------------
+victimsdb_lib/__init__.py       2      0   100%
+victimsdb_lib/database.py      88      9    90%   85, 90-91, 97-101, 105
+victimsdb_lib/errors.py         2      0   100%
+victimsdb_lib/model.py        109     10    91%   59-60, 68, 71, 77, 107, 124-125, 137, 152
+---------------------------------------------------------
+TOTAL                         201     19    91%

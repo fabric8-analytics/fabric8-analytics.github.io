@@ -1,0 +1,35 @@
+----------------------------------------------------
+Checking source files for dead code and unused imports
+in following directories:
+victimsdb_lib tests
+----------------------------------------------------
+
+Using base prefix '/usr'
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/victimsdb-lib/venv/bin/python3
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/victimsdb-lib/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/victimsdb-lib/venv/bin/python3)
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages (1.0)
+victimsdb_lib/__init__.py
+    Fail
+victimsdb_lib/database.py
+    Fail
+victimsdb_lib/model.py
+    Fail
+victimsdb_lib/errors.py
+    Fail
+tests/test_database.py
+    Fail
+tests/test_model.py
+    Fail
+tests/conftest.py
+    Fail
+----------------------------------------------------
+Checking following source files for dead code and
+unused imports:
+setup.py
+----------------------------------------------------
+
+setup.py
+    Fail
+8 source files out of 8 files seems to contain dead code and/or unused imports
