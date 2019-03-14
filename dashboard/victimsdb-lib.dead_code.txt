@@ -11,19 +11,19 @@ Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages (1.0)
 victimsdb_lib/__init__.py
-    Fail
+    Pass
 victimsdb_lib/database.py
-    Fail
+    Pass
 victimsdb_lib/model.py
-    Fail
+    Pass
 victimsdb_lib/errors.py
-    Fail
+    Pass
 tests/test_database.py
-    Fail
+    Pass
 tests/test_model.py
-    Fail
+    Pass
 tests/conftest.py
-    Fail
+    Pass
 ----------------------------------------------------
 Checking following source files for dead code and
 unused imports:
@@ -31,5 +31,5 @@ setup.py
 ----------------------------------------------------
 
 setup.py
-    Fail
-8 source files out of 8 files seems to contain dead code and/or unused imports
+    Pass
+All checks passed for 8 source files

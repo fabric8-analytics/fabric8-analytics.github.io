@@ -11,10 +11,7 @@ victimsdb_lib tests
 ----------------------------------------------------
 
 victimsdb_lib/__init__.py
-victimsdb_lib/__init__.py:3: 'victimsdb_lib.database.VictimsDB' imported but unused
-victimsdb_lib/__init__.py:4: 'victimsdb_lib.errors.VictimsDBError' imported but unused
-victimsdb_lib/__init__.py:4: 'victimsdb_lib.errors.ParseError' imported but unused
-    Fail
+    Pass
 victimsdb_lib/database.py
     Pass
 victimsdb_lib/model.py
@@ -34,4 +31,4 @@ setup.py
 
 setup.py
     Pass
-1 source files out of 8 files needs to be checked and fixed
+All checks passed for 8 source files
