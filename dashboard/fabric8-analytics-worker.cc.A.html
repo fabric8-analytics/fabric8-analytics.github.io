@@ -347,28 +347,29 @@ f8a_worker/dispatcher/foreach.py
     F 98:0 iter_unknown_dependencies - A (5)
     F 15:0 _create_analysis_arguments - A (2)
 f8a_worker/data_normalizer/javascript.py
-    M 110:4 NpmDataNormalizer._transform_code_repository - B (8)
-    M 78:4 NpmDataNormalizer._transform_author - B (6)
-    M 89:4 NpmDataNormalizer._transform_contributors - B (6)
-    M 190:4 NpmDataNormalizer._transform_engines - B (6)
-    M 57:4 NpmDataNormalizer._are_tests_implemented - A (5)
-    M 137:4 NpmDataNormalizer._transform_declared_licenses - A (5)
-    M 169:4 NpmDataNormalizer._transform_declared_licenses_list - A (5)
-    M 205:4 NpmDataNormalizer._transform_engines_list - A (5)
-    M 102:4 NpmDataNormalizer._transform_maintainers - A (4)
-    M 179:4 NpmDataNormalizer._transform_dependencies - A (4)
-    M 238:4 NpmDataNormalizer._transform_dependency_lock_file - A (4)
+    M 114:4 NpmDataNormalizer._transform_code_repository - B (8)
+    M 93:4 NpmDataNormalizer._transform_contributors - B (6)
+    M 211:4 NpmDataNormalizer._transform_engines - B (6)
+    M 58:4 NpmDataNormalizer._are_tests_implemented - A (5)
+    M 81:4 NpmDataNormalizer._transform_author - A (5)
+    M 141:4 NpmDataNormalizer._transform_declared_licenses - A (5)
+    M 173:4 NpmDataNormalizer._transform_declared_licenses_list - A (5)
+    M 195:4 NpmDataNormalizer._transform_dependencies - A (5)
+    M 226:4 NpmDataNormalizer._transform_engines_list - A (5)
+    M 106:4 NpmDataNormalizer._transform_maintainers - A (4)
+    M 183:4 NpmDataNormalizer._transform_description - A (4)
+    M 259:4 NpmDataNormalizer._transform_dependency_lock_file - A (4)
     C 7:0 NpmDataNormalizer - A (3)
-    M 163:4 NpmDataNormalizer._transform_declared_licenses_dict - A (3)
-    M 74:4 NpmDataNormalizer._transform_bug_reporting - A (2)
-    M 157:4 NpmDataNormalizer._transform_declared_licenses_str - A (2)
-    M 218:4 NpmDataNormalizer._transform_engines_str - A (2)
-    M 226:4 NpmDataNormalizer._transform_keywords - A (2)
-    M 230:4 NpmDataNormalizer._transform_files - A (2)
-    M 234:4 NpmDataNormalizer._transform_homepage - A (2)
+    M 167:4 NpmDataNormalizer._transform_declared_licenses_dict - A (3)
+    M 75:4 NpmDataNormalizer._transform_bug_reporting - A (2)
+    M 161:4 NpmDataNormalizer._transform_declared_licenses_str - A (2)
+    M 239:4 NpmDataNormalizer._transform_engines_str - A (2)
+    M 247:4 NpmDataNormalizer._transform_keywords - A (2)
+    M 251:4 NpmDataNormalizer._transform_files - A (2)
+    M 255:4 NpmDataNormalizer._transform_homepage - A (2)
     M 35:4 NpmDataNormalizer.__init__ - A (1)
     M 39:4 NpmDataNormalizer.normalize - A (1)
-    M 268:4 NpmDataNormalizer._transform_tests_implemented - A (1)
+    M 289:4 NpmDataNormalizer._transform_tests_implemented - A (1)
 f8a_worker/data_normalizer/python.py
     M 61:4 PythonDistDataNormalizer.normalize - B (9)
     C 42:0 PythonDistDataNormalizer - A (5)
@@ -391,13 +392,13 @@ f8a_worker/data_normalizer/csharp.py
     M 21:4 NugetDataNormalizer.__init__ - A (1)
 f8a_worker/data_normalizer/abstract.py
     M 33:4 AbstractDataNormalizer._transform_keys - B (7)
-    M 84:4 AbstractDataNormalizer._split_keywords - B (6)
-    M 63:4 AbstractDataNormalizer._join_name_email - A (5)
+    M 63:4 AbstractDataNormalizer._join_name_email - B (6)
+    M 87:4 AbstractDataNormalizer._split_keywords - B (6)
     C 8:0 AbstractDataNormalizer - A (3)
-    M 100:4 AbstractDataNormalizer._identify_gh_repo - A (2)
+    M 103:4 AbstractDataNormalizer._identify_gh_repo - A (2)
     M 20:4 AbstractDataNormalizer.__init__ - A (1)
     M 29:4 AbstractDataNormalizer.normalize - A (1)
-    M 79:4 AbstractDataNormalizer._rf - A (1)
+    M 82:4 AbstractDataNormalizer._rf - A (1)
 f8a_worker/data_normalizer/java.py
     M 26:4 MavenDataNormalizer.normalize - B (7)
     C 7:0 MavenDataNormalizer - A (4)
@@ -818,14 +819,14 @@ tests/conftest.py
     F 76:0 go - A (1)
     F 85:0 dispatcher_setup - A (1)
     F 92:0 no_s3_connection - A (1)
-tests/data_normalizer/javascript.py
+tests/data_normalizer/test_javascript.py
     F 7:0 test_transforming_javascript_data - A (4)
-    F 61:0 test__are_tests_implemented - A (2)
-tests/data_normalizer/abstract.py
+    F 77:0 test__are_tests_implemented - A (2)
+tests/data_normalizer/test_abstract.py
     F 7:0 test__split_keywords - A (2)
     F 32:0 test__transform_keys - A (2)
-    F 60:0 test__join_name_email - A (2)
-tests/data_normalizer/java.py
+    F 61:0 test__join_name_email - A (2)
+tests/data_normalizer/test_java.py
     F 7:0 test_transforming_java_data - A (5)
 tests/data/license/license.py
     F 24:0 funkce - A (1)
@@ -1069,6 +1070,6 @@ alembic/versions/22a1cd66a9c6_batches_reviews.py
     F 20:0 upgrade - A (1)
     F 40:0 downgrade - A (1)
 
-913 blocks (classes, functions, methods) analyzed.
-Average complexity: A (2.6451259583789706)
+914 blocks (classes, functions, methods) analyzed.
+Average complexity: A (2.647702407002188)
 </pre>

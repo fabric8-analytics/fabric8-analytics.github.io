@@ -289,11 +289,13 @@ tests/test_process.py
     Pass
 tests/__init__.py
     Pass
-tests/data_normalizer/javascript.py
+tests/data_normalizer/test_javascript.py
     Pass
-tests/data_normalizer/abstract.py
+tests/data_normalizer/__init__.py
     Pass
-tests/data_normalizer/java.py
+tests/data_normalizer/test_abstract.py
+    Pass
+tests/data_normalizer/test_java.py
     Pass
 tests/data/schemas/generate.py
     Pass
@@ -348,4 +350,4 @@ setup.py
     Pass
 dead_code_whitelist.py
     Pass
-All checks passed for 167 source files
+All checks passed for 168 source files
