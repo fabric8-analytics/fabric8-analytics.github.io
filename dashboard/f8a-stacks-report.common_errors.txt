@@ -12,6 +12,8 @@ f8a_report
 
 f8a_report/__init__.py
     Pass
+f8a_report/graph_report_generator.py
+    Pass
 f8a_report/main.py
     Pass
 f8a_report/report_helper.py
@@ -23,4 +25,4 @@ setup.py
 
 setup.py
     Pass
-All checks passed for 4 source files
+All checks passed for 5 source files

@@ -11,11 +11,15 @@ Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-co
 Requirement already satisfied: pycodestyle in ./venv/lib/python3.6/site-packages (2.5.0)
 f8a_report/__init__.py
     Pass
+f8a_report/graph_report_generator.py
+    Pass
 f8a_report/main.py
     Pass
 f8a_report/report_helper.py
     Pass
 tests/test_main.py
+    Pass
+tests/test_graph_report_generator.py
     Pass
 tests/test_stack_report_helper.py
     Pass
@@ -28,4 +32,4 @@ setup.py
 ----------------------------------------------------
 setup.py
     Pass
-All checks passed for 7 source files
+All checks passed for 9 source files
