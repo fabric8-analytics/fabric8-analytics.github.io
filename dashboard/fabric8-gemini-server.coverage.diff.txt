@@ -6,11 +6,11 @@ src/exceptions.py                           5      0   100%						src/exceptions.
 src/notification/__init__.py                3      0   100%						src/notification/__init__.py                3      0   100%
 src/notification/user_notification.py      39      2    95%   29, 60					src/notification/user_notification.py      39      2    95%   29, 60
 src/parsers/__init__.py                     0      0   100%						src/parsers/__init__.py                     0      0   100%
-src/parsers/maven_parser.py                38      6    84%   20-25, 62, 64				src/parsers/maven_parser.py                38      6    84%   20-25, 62, 64
-src/parsers/node_parser.py                 27      2    93%   16, 38					src/parsers/node_parser.py                 27      2    93%   16, 38
+src/parsers/maven_parser.py                38      6    84%   20-25, 62, 64			      |	src/parsers/maven_parser.py                38      0   100%
+src/parsers/node_parser.py                 27      2    93%   16, 38				      |	src/parsers/node_parser.py                 27      0   100%
 src/parsers/parser_base.py                  1      0   100%						src/parsers/parser_base.py                  1      0   100%
-src/repo_dependency_creator.py             52     11    79%   28-29, 42-43, 64-68, 94-99		src/repo_dependency_creator.py             52     11    79%   28-29, 42-43, 64-68, 94-99
-src/rest_api.py                           154      9    94%   190-193, 216-217, 368, 379, 393	      |	src/rest_api.py                           159     13    92%   191-194, 217-218, 369, 380, 390-395, 40
-src/utils.py                              191     16    92%   57, 77, 91-96, 100-102, 148-149, 289, 3 |	src/utils.py                              203     27    87%   57, 77, 91-96, 100-102, 148-149, 289, 3
+src/repo_dependency_creator.py             52     11    79%   28-29, 42-43, 64-68, 94-99	      |	src/repo_dependency_creator.py             52      4    92%   94-99
+src/rest_api.py                           159     13    92%   191-194, 217-218, 369, 380, 390-395, 40 |	src/rest_api.py                           159     13    92%   191-194, 217-218, 369, 380, 390-396, 41
+src/utils.py                              203     27    87%   57, 77, 91-96, 100-102, 148-149, 289, 3 |	src/utils.py                              222     28    87%   58, 78, 92-97, 101-107, 153-154, 294, 3
 ---------------------------------------------------------------------					---------------------------------------------------------------------
-TOTAL                                     536     47    91%					      |	TOTAL                                     553     62    89%
+TOTAL                                     553     62    89%					      |	TOTAL                                     572     48    92%

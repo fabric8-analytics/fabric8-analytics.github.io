@@ -1,0 +1,8 @@
+Name                        Stmts   Miss  Cover   Missing						Name                        Stmts   Miss  Cover   Missing
+---------------------------------------------------------						---------------------------------------------------------
+victimsdb_lib/__init__.py       5      0   100%								victimsdb_lib/__init__.py       5      0   100%
+victimsdb_lib/database.py      88      0   100%								victimsdb_lib/database.py      88      0   100%
+victimsdb_lib/errors.py         2      0   100%								victimsdb_lib/errors.py         2      0   100%
+victimsdb_lib/model.py        109      0   100%								victimsdb_lib/model.py        109      0   100%
+---------------------------------------------------------						---------------------------------------------------------
+TOTAL                         204      0   100%								TOTAL                         204      0   100%
