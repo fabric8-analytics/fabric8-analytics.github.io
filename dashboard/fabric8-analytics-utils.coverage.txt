@@ -4,6 +4,6 @@ f8a_utils/__init__.py                0      0   100%
 f8a_utils/commands/__init__.py       2      0   100%
 f8a_utils/commands/command.py       54      0   100%
 f8a_utils/dependency_finder.py     125      0   100%
-f8a_utils/versions.py               87      0   100%
+f8a_utils/versions.py               96      1    99%   169
 --------------------------------------------------------------
-TOTAL                              268      0   100%
+TOTAL                              277      1    99%
