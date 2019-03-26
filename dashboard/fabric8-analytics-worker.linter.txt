@@ -297,6 +297,8 @@ tests/data_normalizer/test_abstract.py
     Pass
 tests/data_normalizer/test_java.py
     Pass
+tests/data_normalizer/test_python.py
+    Pass
 tests/data/schemas/generate.py
     Pass
 tests/data/license/license.py
@@ -350,4 +352,4 @@ setup.py
     Pass
 dead_code_whitelist.py
     Pass
-All checks passed for 168 source files
+All checks passed for 169 source files
