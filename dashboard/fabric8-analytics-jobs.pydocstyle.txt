@@ -120,13 +120,52 @@ tests/test_utils.py
 tests/test_scheduler.py
 0
     Pass
-tests/handlers/test_crowd_source_tag.py
+tests/handlers/test_book_keeping.py
+0
+    Pass
+tests/handlers/test_nuget_popular_analyses.py
+0
+    Pass
+tests/handlers/test_github_manifests.py
+0
+    Pass
+tests/handlers/test_clean_postgres.py
 0
     Pass
 tests/handlers/__init__.py
 0
     Pass
+tests/handlers/test_aggregate_github_manifest_pkgs.py
+0
+    Pass
+tests/handlers/test_aggregate_topics.py
+0
+    Pass
+tests/handlers/test_golang_popular_analyses.py
+0
+    Pass
+tests/handlers/test_flow.py
+0
+    Pass
+tests/handlers/test_github_most_starred.py
+0
+    Pass
+tests/handlers/test_python_popular_analyses.py
+0
+    Pass
 tests/handlers/test_base_handler.py
+0
+    Pass
+tests/handlers/test_aggregate_crowd_source_tags.py
+0
+    Pass
+tests/handlers/test_npm_popular_analyses.py
+0
+    Pass
+tests/handlers/test_error.py
+0
+    Pass
+tests/handlers/test_maven_popular_analyses.py
 0
     Pass
 tests/test_analyses_report.py
@@ -143,4 +182,4 @@ f8a-jobs.py
 setup.py
 0
     Pass
-All checks passed for 42 source files
+All checks passed for 55 source files
