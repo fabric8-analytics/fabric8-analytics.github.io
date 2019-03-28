@@ -64,6 +64,9 @@ tests/selectors/test_basic.py
 tests/__init__.py
 0
     Pass
+tests/test_config.py
+0
+    Pass
 tests/test_utils.py
 0
     Pass
@@ -108,4 +111,4 @@ run.py
 run.py
 0
     Pass
-All checks passed for 33 source files
+All checks passed for 34 source files
