@@ -8,6 +8,10 @@
     F 112:0 runserver - A (1)
 setup.py
     F 9:0 get_requirements - A (2)
+tests/test_models.py
+    C 9:0 TestModels - A (2)
+    M 12:4 TestModels.setup_method - A (2)
+    M 16:4 TestModels.teardown_method - A (2)
 tests/test_api_v1.py
     C 7:0 TestApiV1Functions - A (2)
     M 10:4 TestApiV1Functions.setup_method - A (2)
@@ -16,11 +20,19 @@ tests/test_auth.py
     C 7:0 TestAuthFunctions - A (2)
     M 10:4 TestAuthFunctions.setup_method - A (2)
     M 14:4 TestAuthFunctions.teardown_method - A (2)
+tests/test_defaults.py
+    C 9:0 TestDefaults - A (2)
+    M 12:4 TestDefaults.setup_method - A (2)
+    M 16:4 TestDefaults.teardown_method - A (2)
 tests/test_utils.py
     M 19:4 TestUtilFunctions.test_parse_dates - A (3)
     C 8:0 TestUtilFunctions - A (2)
     M 11:4 TestUtilFunctions.setup_method - A (2)
     M 15:4 TestUtilFunctions.teardown_method - A (2)
+tests/test_graph_sync.py
+    C 9:0 TestGraphSync - A (2)
+    M 12:4 TestGraphSync.setup_method - A (2)
+    M 16:4 TestGraphSync.teardown_method - A (2)
 tests/test_scheduler.py
     C 9:0 TestScheduler - A (2)
     M 12:4 TestScheduler.setup_method - A (2)
@@ -32,10 +44,21 @@ tests/test_scheduler.py
     M 41:4 TestScheduler.test_schedule_job_method_missfirre_grace_time_parsing - A (2)
     M 47:4 TestScheduler.test_schedule_job_method_misfire_grace_time_parsing_2 - A (2)
     M 53:4 TestScheduler.test_schedule_job_method_periodically_parsing - A (2)
+tests/test_error.py
+    C 9:0 TestError - A (2)
+    M 12:4 TestError.setup_method - A (2)
+    M 16:4 TestError.teardown_method - A (2)
 tests/test_analyses_report.py
     C 7:0 TestAnalysesReport - A (2)
     M 10:4 TestAnalysesReport.setup_method - A (2)
     M 14:4 TestAnalysesReport.teardown_method - A (2)
+tests/handlers/test_kronos_data_update.py
+    C 9:0 TestKronosDataUpdater - A (2)
+    M 12:4 TestKronosDataUpdater.setup_method - A (2)
+    M 16:4 TestKronosDataUpdater.teardown_method - A (2)
+tests/handlers/test_selective_flow.py
+    C 8:0 TestSelectiveFlowScheduling - A (3)
+    M 11:4 TestSelectiveFlowScheduling.test_constructor - A (3)
 tests/handlers/test_book_keeping.py
     C 9:0 TestBookKeeping - A (2)
     M 12:4 TestBookKeeping.setup_method - A (2)
@@ -47,6 +70,10 @@ tests/handlers/test_github_manifests.py
     C 9:0 TestGitHubManifests - A (2)
     M 12:4 TestGitHubManifests.setup_method - A (2)
     M 16:4 TestGitHubManifests.teardown_method - A (2)
+tests/handlers/test_maven_releases.py
+    C 9:0 TestMavenReleasesAnalyses - A (2)
+    M 12:4 TestMavenReleasesAnalyses.setup_method - A (2)
+    M 16:4 TestMavenReleasesAnalyses.teardown_method - A (2)
 tests/handlers/test_clean_postgres.py
     C 9:0 TestCleanPostgres - A (2)
     M 12:4 TestCleanPostgres.setup_method - A (2)
@@ -59,6 +86,13 @@ tests/handlers/test_aggregate_topics.py
     C 9:0 TestAggreateTopics - A (2)
     M 12:4 TestAggreateTopics.setup_method - A (2)
     M 16:4 TestAggreateTopics.teardown_method - A (2)
+tests/handlers/test_sync_to_graph.py
+    C 8:0 TestSyncToGraph - A (3)
+    M 11:4 TestSyncToGraph.test_constructor - A (3)
+tests/handlers/test_invoke_graph_sync.py
+    C 9:0 TestInvokeGraphSync - A (2)
+    M 12:4 TestInvokeGraphSync.setup_method - A (2)
+    M 16:4 TestInvokeGraphSync.teardown_method - A (2)
 tests/handlers/test_golang_popular_analyses.py
     C 8:0 TestGolangPopularAnalyses - A (3)
     M 11:4 TestGolangPopularAnalyses.test_constructor - A (3)
@@ -324,6 +358,6 @@ f8a_jobs/handlers/maven_releases.py
     C 15:0 MavenReleasesAnalyses - B (8)
     M 18:4 MavenReleasesAnalyses.execute - B (8)
 
-275 blocks (classes, functions, methods) analyzed.
-Average complexity: A (2.9454545454545453)
+300 blocks (classes, functions, methods) analyzed.
+Average complexity: A (2.88)
 </pre>

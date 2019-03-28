@@ -72,21 +72,35 @@ f8a_jobs/handlers/maven_releases.py
     Pass
 f8a_jobs/defaults.py
     Pass
+tests/test_models.py
+    Pass
 tests/test_api_v1.py
     Pass
 tests/test_auth.py
     Pass
 tests/__init__.py
     Pass
+tests/test_defaults.py
+    Pass
 tests/test_utils.py
     Pass
+tests/test_graph_sync.py
+    Pass
 tests/test_scheduler.py
+    Pass
+tests/test_error.py
+    Pass
+tests/handlers/test_kronos_data_update.py
+    Pass
+tests/handlers/test_selective_flow.py
     Pass
 tests/handlers/test_book_keeping.py
     Pass
 tests/handlers/test_nuget_popular_analyses.py
     Pass
 tests/handlers/test_github_manifests.py
+    Pass
+tests/handlers/test_maven_releases.py
     Pass
 tests/handlers/test_clean_postgres.py
     Pass
@@ -95,6 +109,10 @@ tests/handlers/__init__.py
 tests/handlers/test_aggregate_github_manifest_pkgs.py
     Pass
 tests/handlers/test_aggregate_topics.py
+    Pass
+tests/handlers/test_sync_to_graph.py
+    Pass
+tests/handlers/test_invoke_graph_sync.py
     Pass
 tests/handlers/test_golang_popular_analyses.py
     Pass
@@ -126,4 +144,4 @@ f8a-jobs.py
     Pass
 setup.py
     Pass
-All checks passed for 55 source files
+All checks passed for 64 source files
