@@ -14,6 +14,16 @@ rudra/data_store/__init__.py
     Pass
 rudra/data_store/abstract_data_store.py
     Pass
+rudra/data_store/bigquery/__init__.py
+    Pass
+rudra/data_store/bigquery/pypi_bigquery.py
+    Pass
+rudra/data_store/bigquery/maven_bigquery.py
+    Pass
+rudra/data_store/bigquery/npm_bigquery.py
+    Pass
+rudra/data_store/bigquery/base.py
+    Pass
 rudra/data_store/aws.py
     Pass
 rudra/data_store/local_data_store.py
@@ -21,6 +31,10 @@ rudra/data_store/local_data_store.py
 rudra/utils/validation.py
     Pass
 rudra/utils/__init__.py
+    Pass
+rudra/utils/pypi_parser.py
+    Pass
+rudra/utils/mercator.py
     Pass
 rudra/utils/helper.py
     Pass
@@ -42,13 +56,27 @@ rudra/deployments/emr_scripts/emr_script_builder.py
     Pass
 rudra/deployments/emr_scripts/abstract_emr.py
     Pass
+tests/data_store/bigquery/test_pypi_bigquery.py
+    Pass
+tests/data_store/bigquery/test_npm_bigquery.py
+    Pass
+tests/data_store/bigquery/test_maven_bigquery.py
+    Pass
+tests/data_store/bigquery/test_base_upload_s3.py
+    Pass
+tests/data_store/bigquery/test_base.py
+    Pass
 tests/data_store/test_aws.py
     Pass
 tests/data_store/test_local_store.py
     Pass
 tests/utils/test_helper.py
     Pass
+tests/utils/test_pypi_parser.py
+    Pass
 tests/utils/test_validation.py
+    Pass
+tests/utils/test_mercator.py
     Pass
 tests/deployments/emr_scripts/test_emr_script_builder.py
     Pass
@@ -69,4 +97,4 @@ setup.py
 
 setup.py
     Pass
-All checks passed for 27 source files
+All checks passed for 41 source files

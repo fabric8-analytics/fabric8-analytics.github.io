@@ -1,7 +1,7 @@
 Name                                    Stmts   Miss  Cover   Missing
 ---------------------------------------------------------------------
 cvejob/__init__.py                          0      0   100%
-cvejob/config.py                           52     11    79%   53, 57, 61, 65, 69, 73, 77, 81, 85, 89, 93
+cvejob/config.py                           52      1    98%   65
 cvejob/cpe2pkg.py                          39      1    97%   40
 cvejob/filters/__init__.py                  0      0   100%
 cvejob/filters/input.py                   124     12    90%   43, 49-51, 58, 92, 182, 195, 199, 207, 214, 218, 233
@@ -18,4 +18,4 @@ cvejob/version_utils.py                   170      5    97%   67, 70, 151, 171, 
 cvejob/versions/__init__.py                 2      0   100%
 cvejob/versions/version_identifier.py       8      0   100%
 ---------------------------------------------------------------------
-TOTAL                                     684    117    83%
+TOTAL                                     684    107    84%

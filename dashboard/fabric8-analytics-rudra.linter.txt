@@ -13,6 +13,23 @@ rudra/data_store/__init__.py
     Pass
 rudra/data_store/abstract_data_store.py
     Pass
+rudra/data_store/bigquery/__init__.py
+    Pass
+rudra/data_store/bigquery/pypi_bigquery.py
+    Pass
+rudra/data_store/bigquery/maven_bigquery.py
+    Pass
+rudra/data_store/bigquery/npm_bigquery.py
+rudra/data_store/bigquery/npm_bigquery.py:86:37: W605 invalid escape sequence '\s'
+rudra/data_store/bigquery/npm_bigquery.py:86:48: W605 invalid escape sequence '\s'
+rudra/data_store/bigquery/npm_bigquery.py:86:52: W605 invalid escape sequence '\{'
+rudra/data_store/bigquery/npm_bigquery.py:86:59: W605 invalid escape sequence '\}'
+rudra/data_store/bigquery/npm_bigquery.py:93:47: W605 invalid escape sequence '\:'
+rudra/data_store/bigquery/npm_bigquery.py:93:49: W605 invalid escape sequence '\s'
+    Fail
+rudra/data_store/bigquery/base.py
+rudra/data_store/bigquery/base.py:135:21: E123 closing bracket does not match indentation of opening bracket's line
+    Fail
 rudra/data_store/aws.py
     Pass
 rudra/data_store/local_data_store.py
@@ -20,6 +37,10 @@ rudra/data_store/local_data_store.py
 rudra/utils/validation.py
     Pass
 rudra/utils/__init__.py
+    Pass
+rudra/utils/pypi_parser.py
+    Pass
+rudra/utils/mercator.py
     Pass
 rudra/utils/helper.py
     Pass
@@ -41,13 +62,27 @@ rudra/deployments/emr_scripts/emr_script_builder.py
     Pass
 rudra/deployments/emr_scripts/abstract_emr.py
     Pass
+tests/data_store/bigquery/test_pypi_bigquery.py
+    Pass
+tests/data_store/bigquery/test_npm_bigquery.py
+    Pass
+tests/data_store/bigquery/test_maven_bigquery.py
+    Pass
+tests/data_store/bigquery/test_base_upload_s3.py
+    Pass
+tests/data_store/bigquery/test_base.py
+    Pass
 tests/data_store/test_aws.py
     Pass
 tests/data_store/test_local_store.py
     Pass
 tests/utils/test_helper.py
     Pass
+tests/utils/test_pypi_parser.py
+    Pass
 tests/utils/test_validation.py
+    Pass
+tests/utils/test_mercator.py
     Pass
 tests/deployments/emr_scripts/test_emr_script_builder.py
 tests/deployments/emr_scripts/test_emr_script_builder.py:28:25: W605 invalid escape sequence '\['
@@ -76,4 +111,4 @@ setup.py
 ----------------------------------------------------
 setup.py
     Pass
-Linter fail, 1 source files out of 27 source files need to be fixed
+Linter fail, 3 source files out of 41 source files need to be fixed
