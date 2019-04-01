@@ -28,7 +28,7 @@ rudra/data_store/bigquery/npm_bigquery.py:93:47: W605 invalid escape sequence '\
 rudra/data_store/bigquery/npm_bigquery.py:93:49: W605 invalid escape sequence '\s'
     Fail
 rudra/data_store/bigquery/base.py
-rudra/data_store/bigquery/base.py:135:21: E123 closing bracket does not match indentation of opening bracket's line
+rudra/data_store/bigquery/base.py:137:21: E123 closing bracket does not match indentation of opening bracket's line
     Fail
 rudra/data_store/aws.py
     Pass

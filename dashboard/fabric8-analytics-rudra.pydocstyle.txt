@@ -218,49 +218,51 @@ tests/data_store/bigquery/test_base.py:55 in public method `__init__`:
         D107: Missing docstring in __init__
 tests/data_store/bigquery/test_base.py:60 in public method `result`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_base.py:63 in public method `__iter__`:
+tests/data_store/bigquery/test_base.py:63 in public method `done`:
+        D102: Missing docstring in public method
+tests/data_store/bigquery/test_base.py:66 in public method `__iter__`:
         D105: Missing docstring in magic method
-tests/data_store/bigquery/test_base.py:67 in public class `MockBigQuery`:
+tests/data_store/bigquery/test_base.py:70 in public class `MockBigQuery`:
         D101: Missing docstring in public class
-tests/data_store/bigquery/test_base.py:71 in public method `__init__`:
+tests/data_store/bigquery/test_base.py:74 in public method `__init__`:
         D107: Missing docstring in __init__
-tests/data_store/bigquery/test_base.py:75 in public nested class `Client`:
+tests/data_store/bigquery/test_base.py:78 in public nested class `Client`:
         D106: Missing docstring in public nested class
-tests/data_store/bigquery/test_base.py:76 in public method `__init__`:
+tests/data_store/bigquery/test_base.py:79 in public method `__init__`:
         D107: Missing docstring in __init__
-tests/data_store/bigquery/test_base.py:79 in public method `query`:
+tests/data_store/bigquery/test_base.py:82 in public method `query`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_base.py:83 in public method `get_job`:
+tests/data_store/bigquery/test_base.py:86 in public method `get_job`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_base.py:89 in public nested class `Job`:
+tests/data_store/bigquery/test_base.py:92 in public nested class `Job`:
         D106: Missing docstring in public nested class
-tests/data_store/bigquery/test_base.py:92 in public nested class `QueryPriority`:
+tests/data_store/bigquery/test_base.py:95 in public nested class `QueryPriority`:
         D106: Missing docstring in public nested class
-tests/data_store/bigquery/test_base.py:105 in public class `TestBigQueryBuilder`:
+tests/data_store/bigquery/test_base.py:108 in public class `TestBigQueryBuilder`:
         D101: Missing docstring in public class
-tests/data_store/bigquery/test_base.py:107 in public method `test_init`:
+tests/data_store/bigquery/test_base.py:110 in public method `test_init`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_base.py:111 in public method `test_run_query`:
+tests/data_store/bigquery/test_base.py:114 in public method `test_run_query`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_base.py:115 in public method `test_run_query_sync`:
+tests/data_store/bigquery/test_base.py:118 in public method `test_run_query_sync`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_base.py:119 in public method `test_run_query_async`:
+tests/data_store/bigquery/test_base.py:122 in public method `test_run_query_async`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_base.py:125 in public method `test_get_result_sync`:
+tests/data_store/bigquery/test_base.py:128 in public method `test_get_result_sync`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_base.py:135 in public method `test_get_result_async`:
+tests/data_store/bigquery/test_base.py:138 in public method `test_get_result_async`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_base.py:145 in public method `test_iter_`:
+tests/data_store/bigquery/test_base.py:148 in public method `test_iter_`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_base.py:152 in public class `TestDataProcessing`:
+tests/data_store/bigquery/test_base.py:155 in public class `TestDataProcessing`:
         D101: Missing docstring in public class
-tests/data_store/bigquery/test_base.py:154 in public method `test_async_fetch`:
+tests/data_store/bigquery/test_base.py:157 in public method `test_async_fetch`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_base.py:173 in public method `test_is_fetch_done`:
+tests/data_store/bigquery/test_base.py:176 in public method `test_is_fetch_done`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_base.py:189 in public method `test_caching`:
+tests/data_store/bigquery/test_base.py:192 in public method `test_caching`:
         D102: Missing docstring in public method
-29
+30
     Fail
 tests/data_store/test_aws.py
 tests/data_store/test_aws.py:1 at module level:

@@ -23,8 +23,8 @@ rudra/data_store/bigquery/maven_bigquery.py
 rudra/data_store/bigquery/npm_bigquery.py
     Pass
 rudra/data_store/bigquery/base.py
-rudra/data_store/bigquery/base.py:95: unused variable 'payload' (100% confidence)
-rudra/data_store/bigquery/base.py:96: unused variable 'headers' (100% confidence)
+rudra/data_store/bigquery/base.py:97: unused variable 'payload' (100% confidence)
+rudra/data_store/bigquery/base.py:98: unused variable 'headers' (100% confidence)
     Fail
 rudra/data_store/aws.py
     Pass
@@ -61,23 +61,15 @@ rudra/deployments/emr_scripts/emr_script_builder.py
 rudra/deployments/emr_scripts/abstract_emr.py
     Pass
 tests/data_store/bigquery/test_pypi_bigquery.py
-tests/data_store/bigquery/test_pypi_bigquery.py:37: unused variable 'mock_bigquery_obj' (100% confidence)
-tests/data_store/bigquery/test_pypi_bigquery.py:46: unused variable 'mock_bigquery_obj' (100% confidence)
-    Fail
+    Pass
 tests/data_store/bigquery/test_npm_bigquery.py
-tests/data_store/bigquery/test_npm_bigquery.py:37: unused variable 'mock_bigquery_obj' (100% confidence)
-tests/data_store/bigquery/test_npm_bigquery.py:46: unused variable 'mock_bigquery_obj' (100% confidence)
-    Fail
+    Pass
 tests/data_store/bigquery/test_maven_bigquery.py
-tests/data_store/bigquery/test_maven_bigquery.py:37: unused variable 'mock_bigquery_obj' (100% confidence)
-tests/data_store/bigquery/test_maven_bigquery.py:46: unused variable 'mock_bigquery_obj' (100% confidence)
-    Fail
+    Pass
 tests/data_store/bigquery/test_base_upload_s3.py
     Pass
 tests/data_store/bigquery/test_base.py
-tests/data_store/bigquery/test_base.py:79: unused variable 'job_config' (100% confidence)
-tests/data_store/bigquery/test_base.py:98: unused variable 'mock_bigquery_obj' (100% confidence)
-    Fail
+    Pass
 tests/data_store/test_aws.py
     Pass
 tests/data_store/test_local_store.py
@@ -110,4 +102,4 @@ setup.py
 
 setup.py
     Pass
-6 source files out of 41 files seems to contain dead code and/or unused imports
+2 source files out of 41 files seems to contain dead code and/or unused imports
