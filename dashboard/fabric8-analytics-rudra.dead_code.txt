@@ -23,9 +23,7 @@ rudra/data_store/bigquery/maven_bigquery.py
 rudra/data_store/bigquery/npm_bigquery.py
     Pass
 rudra/data_store/bigquery/base.py
-rudra/data_store/bigquery/base.py:97: unused variable 'payload' (100% confidence)
-rudra/data_store/bigquery/base.py:98: unused variable 'headers' (100% confidence)
-    Fail
+    Pass
 rudra/data_store/aws.py
     Pass
 rudra/data_store/local_data_store.py
@@ -35,9 +33,7 @@ rudra/utils/validation.py
 rudra/utils/__init__.py
     Pass
 rudra/utils/pypi_parser.py
-rudra/utils/pypi_parser.py:13: unused variable 'args' (100% confidence)
-rudra/utils/pypi_parser.py:13: unused variable 'kwargs' (100% confidence)
-    Fail
+    Pass
 rudra/utils/mercator.py
     Pass
 rudra/utils/helper.py
@@ -102,4 +98,4 @@ setup.py
 
 setup.py
     Pass
-2 source files out of 41 files seems to contain dead code and/or unused imports
+All checks passed for 41 source files

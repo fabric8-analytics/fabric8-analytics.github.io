@@ -20,16 +20,9 @@ rudra/data_store/bigquery/pypi_bigquery.py
 rudra/data_store/bigquery/maven_bigquery.py
     Pass
 rudra/data_store/bigquery/npm_bigquery.py
-rudra/data_store/bigquery/npm_bigquery.py:86:37: W605 invalid escape sequence '\s'
-rudra/data_store/bigquery/npm_bigquery.py:86:48: W605 invalid escape sequence '\s'
-rudra/data_store/bigquery/npm_bigquery.py:86:52: W605 invalid escape sequence '\{'
-rudra/data_store/bigquery/npm_bigquery.py:86:59: W605 invalid escape sequence '\}'
-rudra/data_store/bigquery/npm_bigquery.py:93:47: W605 invalid escape sequence '\:'
-rudra/data_store/bigquery/npm_bigquery.py:93:49: W605 invalid escape sequence '\s'
-    Fail
+    Pass
 rudra/data_store/bigquery/base.py
-rudra/data_store/bigquery/base.py:137:21: E123 closing bracket does not match indentation of opening bracket's line
-    Fail
+    Pass
 rudra/data_store/aws.py
     Pass
 rudra/data_store/local_data_store.py
@@ -85,15 +78,7 @@ tests/utils/test_validation.py
 tests/utils/test_mercator.py
     Pass
 tests/deployments/emr_scripts/test_emr_script_builder.py
-tests/deployments/emr_scripts/test_emr_script_builder.py:28:25: W605 invalid escape sequence '\['
-tests/deployments/emr_scripts/test_emr_script_builder.py:28:44: W605 invalid escape sequence '\['
-tests/deployments/emr_scripts/test_emr_script_builder.py:28:48: W605 invalid escape sequence '\]'
-tests/deployments/emr_scripts/test_emr_script_builder.py:28:51: W605 invalid escape sequence '\]'
-tests/deployments/emr_scripts/test_emr_script_builder.py:47:25: W605 invalid escape sequence '\['
-tests/deployments/emr_scripts/test_emr_script_builder.py:47:44: W605 invalid escape sequence '\['
-tests/deployments/emr_scripts/test_emr_script_builder.py:47:48: W605 invalid escape sequence '\]'
-tests/deployments/emr_scripts/test_emr_script_builder.py:47:51: W605 invalid escape sequence '\]'
-    Fail
+    Pass
 tests/deployments/emr_scripts/test_pypi_emr.py
     Pass
 tests/deployments/emr_scripts/test_npm_emr.py
@@ -111,4 +96,4 @@ setup.py
 ----------------------------------------------------
 setup.py
     Pass
-Linter fail, 3 source files out of 41 source files need to be fixed
+All checks passed for 41 source files

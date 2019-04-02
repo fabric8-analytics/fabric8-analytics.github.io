@@ -13,18 +13,14 @@ Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages 
 Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.12.0)
 Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.2.1)
 rudra/data_store/__init__.py
-rudra/data_store/__init__.py:1 at module level:
-        D104: Missing docstring in public package
-1
-    Fail
+0
+    Pass
 rudra/data_store/abstract_data_store.py
 0
     Pass
 rudra/data_store/bigquery/__init__.py
-rudra/data_store/bigquery/__init__.py:1 at module level:
-        D104: Missing docstring in public package
-1
-    Fail
+0
+    Pass
 rudra/data_store/bigquery/pypi_bigquery.py
 0
     Pass
@@ -47,10 +43,8 @@ rudra/utils/validation.py
 0
     Pass
 rudra/utils/__init__.py
-rudra/utils/__init__.py:1 at module level:
-        D104: Missing docstring in public package
-1
-    Fail
+0
+    Pass
 rudra/utils/pypi_parser.py
 0
     Pass
@@ -484,4 +478,4 @@ setup.py
 setup.py
 0
     Pass
-Documentation strings should be added and/or fixed in 19 source files out of 41 files
+Documentation strings should be added and/or fixed in 16 source files out of 41 files
