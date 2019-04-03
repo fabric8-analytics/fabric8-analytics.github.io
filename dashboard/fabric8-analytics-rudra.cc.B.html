@@ -4,10 +4,11 @@
 tests/data_store/test_local_store.py
     M 56:4 TestLocalDataStore.test_read_yaml_file - B (6)
 tests/data_store/bigquery/test_pypi_bigquery.py
-    M 94:4 TestPyPiDataProcessing.test_process - B (8)
+    C 93:0 TestPyPiDataProcessing - B (9)
+    M 94:4 TestPyPiDataProcessing.test_process_with_validation - B (9)
+    M 107:4 TestPyPiDataProcessing.test_process_without_validation - B (9)
     M 72:4 TestPyPiBigQuery.test_get_result_sync - B (6)
     M 82:4 TestPyPiBigQuery.test_get_result_async - B (6)
-    C 93:0 TestPyPiDataProcessing - B (6)
 tests/data_store/bigquery/test_npm_bigquery.py
     M 94:4 TestNpmataProcessing.test_process - B (8)
     M 72:4 TestNpmBigQuery.test_get_result_sync - B (6)
@@ -19,14 +20,13 @@ tests/data_store/bigquery/test_maven_bigquery.py
 tests/data_store/bigquery/test_base_upload_s3.py
     F 52:0 test_update_s3_bucket_file_exist - B (7)
 tests/data_store/bigquery/test_base.py
-    M 157:4 TestDataProcessing.test_async_fetch - B (9)
-    M 192:4 TestDataProcessing.test_caching - B (9)
-    C 155:0 TestDataProcessing - B (8)
-    M 176:4 TestDataProcessing.test_is_fetch_done - B (7)
-    M 128:4 TestBigQueryBuilder.test_get_result_sync - B (6)
-    M 138:4 TestBigQueryBuilder.test_get_result_async - B (6)
+    M 126:4 TestBigQueryBuilder.test_get_result_sync - B (6)
+    M 136:4 TestBigQueryBuilder.test_get_result_async - B (6)
 tests/utils/test_helper.py
     F 62:0 test_cache_dict - B (8)
+tests/utils/test_validation.py
+    C 25:0 TestBQValidation - B (6)
+    M 27:4 TestBQValidation.test_validate_pypi_content - B (6)
 tests/utils/test_mercator.py
     M 28:4 TestSimpleMercator.test_get_dependencies - B (8)
 tests/deployments/emr_scripts/test_emr_script_builder.py
@@ -39,18 +39,18 @@ tests/deployments/emr_scripts/test_emr_config.py
 rudra/data_store/aws.py
     M 38:4 AmazonS3.__init__ - B (10)
 rudra/data_store/bigquery/pypi_bigquery.py
-    M 49:4 PyPiBigQueryDataProcessing.process - B (9)
+    M 50:4 PyPiBigQueryDataProcessing.process - B (7)
 rudra/data_store/bigquery/maven_bigquery.py
     M 71:4 MavenBQDataProcessing.construct_packages - B (6)
 rudra/data_store/bigquery/npm_bigquery.py
     M 67:4 NpmBQDataProcessing.construct_packages - B (7)
 rudra/data_store/bigquery/base.py
-    M 66:4 BigqueryBuilder.get_result - B (6)
+    M 62:4 BigqueryBuilder.get_result - B (6)
 rudra/utils/mercator.py
     M 59:4 SimpleMercator.handle_corrupt_pom - B (6)
 rudra/deployments/emr_scripts/emr_script_builder.py
     M 18:4 EMRScriptBuilder.construct_job - B (8)
 
-34 blocks (classes, functions, methods) analyzed.
-Average complexity: B (7.529411764705882)
+33 blocks (classes, functions, methods) analyzed.
+Average complexity: B (7.454545454545454)
 </pre>
