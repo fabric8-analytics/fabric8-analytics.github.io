@@ -1,7 +1,7 @@
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
-src tests
+src tests training
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -42,4 +42,10 @@ tests/unit_tests/test_recommendation_service.py
 tests/conftest.py
 0
     Pass
-All checks passed for 10 source files
+training/train.py
+0
+    Pass
+training/__init__.py
+0
+    Pass
+All checks passed for 12 source files

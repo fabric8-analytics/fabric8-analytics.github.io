@@ -1,6 +1,6 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-src tests
+src tests training
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -29,4 +29,8 @@ tests/unit_tests/test_recommendation_service.py
     Pass
 tests/conftest.py
     Pass
-All checks passed for 10 source files
+training/train.py
+    Pass
+training/__init__.py
+    Pass
+All checks passed for 12 source files

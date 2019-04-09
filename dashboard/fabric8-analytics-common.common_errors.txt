@@ -1,15 +1,15 @@
-----------------------------------------------------
-Checking source files for common errors in following
-directories:
-integration-tests ui-tests perf-tests dashboard reproducers load-tests db-integrity-tests taas baf e2e_tests_bot vscode-visual-tests
-----------------------------------------------------
-
 Using base prefix '/usr'
 New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-common/venv/bin/python3
 Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-common/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-common/venv/bin/python3)
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2.0.0)
+----------------------------------------------------
+Checking source files for common errors in following
+directories:
+integration-tests ui-tests perf-tests dashboard reproducers load-tests db-integrity-tests taas baf e2e_tests_bot vscode-visual-tests
+----------------------------------------------------
+
 integration-tests/features/src/schemas/component_security_issues.py
     Pass
 integration-tests/features/src/schemas/component_digests.py
