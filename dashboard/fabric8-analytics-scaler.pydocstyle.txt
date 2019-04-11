@@ -1,0 +1,22 @@
+----------------------------------------------------
+Checking documentation strings in all sources stored
+in following directories:
+.
+----------------------------------------------------
+
+Using base prefix '/usr'
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-scaler/venv/bin/python3
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-scaler/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-scaler/venv/bin/python3)
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (3.0.0)
+Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.12.0)
+Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.2.1)
+./sqs_status.py
+./sqs_status.py:1 at module level:
+        D100: Missing docstring in public module
+./sqs_status.py:29 in public function `get_number_of_messages`:
+        D202: No blank lines allowed after function docstring (found 1)
+2
+    Fail
+Documentation strings should be added and/or fixed in 1 source files out of 1 files
