@@ -7,7 +7,7 @@ Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2
 ----------------------------------------------------
 Checking source files for common errors in following
 directories:
-f8a_notification
+f8a_notification tools
 ----------------------------------------------------
 
 f8a_notification/auth.py
@@ -22,6 +22,8 @@ f8a_notification/github_utils.py
     Pass
 f8a_notification/user_notification.py
     Pass
+tools/check_python_version.py
+    Pass
 ----------------------------------------------------
 Checking following source files for common errors:
 setup.py
@@ -29,4 +31,4 @@ setup.py
 
 setup.py
     Pass
-All checks passed for 7 source files
+All checks passed for 8 source files

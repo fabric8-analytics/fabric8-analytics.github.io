@@ -1,6 +1,6 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-src test
+src test tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -55,6 +55,8 @@ test/conftest.py
     Pass
 test/test_graph_populator.py
     Pass
+tools/check_python_version.py
+    Pass
 
 ----------------------------------------------------
 Running Python linter against selected files:
@@ -66,4 +68,4 @@ populate_schema.py
     Pass
 setup.py
     Pass
-All checks passed for 26 source files
+All checks passed for 27 source files

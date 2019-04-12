@@ -40,8 +40,10 @@ rudra/data_store/local_data_store.py
 0
     Pass
 rudra/utils/validation.py
-0
-    Pass
+rudra/utils/validation.py:11 in public function `nn`:
+        D401: First line should be in imperative mood ('Return', not 'Returns')
+1
+    Fail
 rudra/utils/__init__.py
 0
     Pass
@@ -474,4 +476,4 @@ setup.py
 setup.py
 0
     Pass
-Documentation strings should be added and/or fixed in 16 source files out of 41 files
+Documentation strings should be added and/or fixed in 17 source files out of 41 files

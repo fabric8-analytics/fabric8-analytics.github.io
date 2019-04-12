@@ -7,7 +7,7 @@ Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2
 ----------------------------------------------------
 Checking source files for common errors in following
 directories:
-release_monitor/ integration_tests/ tests
+release_monitor/ integration_tests/ tests tools
 ----------------------------------------------------
 
 release_monitor/__init__.py
@@ -24,6 +24,8 @@ tests/__init__.py
     Pass
 tests/test_release_monitor.py
     Pass
+tools/check_python_version.py
+    Pass
 ----------------------------------------------------
 Checking following source files for common errors:
 setup.py run.py
@@ -33,4 +35,4 @@ setup.py
     Pass
 run.py
     Pass
-All checks passed for 9 source files
+All checks passed for 10 source files
