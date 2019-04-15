@@ -1,6 +1,6 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-src tests training
+src tests training tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -33,4 +33,6 @@ training/train.py
     Pass
 training/__init__.py
     Pass
-All checks passed for 12 source files
+tools/check_python_version.py
+    Pass
+All checks passed for 13 source files
