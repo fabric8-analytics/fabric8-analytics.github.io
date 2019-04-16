@@ -7,7 +7,7 @@ Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2
 ----------------------------------------------------
 Checking source files for common errors in following
 directories:
-src
+src tools
 ----------------------------------------------------
 
 src/server/unittest/__init__.py
@@ -42,4 +42,6 @@ src/deployment/spark_aws/job_scheduler.py
     Pass
 src/deployment/spark_aws/submit_training_job.py
     Pass
-All checks passed for 16 source files
+tools/check_python_version.py
+    Pass
+All checks passed for 17 source files

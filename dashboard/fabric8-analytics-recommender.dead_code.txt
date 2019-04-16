@@ -1,7 +1,7 @@
 ----------------------------------------------------
 Checking source files for dead code and unused imports
 in following directories:
-src
+src tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -42,4 +42,6 @@ src/deployment/spark_aws/job_scheduler.py
     Pass
 src/deployment/spark_aws/submit_training_job.py
     Pass
-All checks passed for 16 source files
+tools/check_python_version.py
+    Pass
+All checks passed for 17 source files

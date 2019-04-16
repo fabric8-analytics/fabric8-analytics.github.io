@@ -1,7 +1,7 @@
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
-src
+src tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -60,4 +60,7 @@ src/deployment/spark_aws/job_scheduler.py
 src/deployment/spark_aws/submit_training_job.py
 0
     Pass
-All checks passed for 16 source files
+tools/check_python_version.py
+0
+    Pass
+All checks passed for 17 source files
