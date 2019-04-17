@@ -7,7 +7,7 @@ Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2
 ----------------------------------------------------
 Checking source files for common errors in following
 directories:
-integration-tests ui-tests perf-tests dashboard reproducers load-tests db-integrity-tests taas baf e2e_tests_bot vscode-visual-tests
+integration-tests ui-tests perf-tests dashboard reproducers load-tests db-integrity-tests taas baf e2e_tests_bot vscode-visual-tests a2t
 ----------------------------------------------------
 
 integration-tests/features/src/schemas/component_security_issues.py
@@ -274,4 +274,6 @@ vscode-visual-tests/features/steps/ui_checks.py
     Pass
 vscode-visual-tests/features/steps/common.py
     Pass
-All checks passed for 132 source files
+a2t/src/a2t.py
+    Pass
+All checks passed for 133 source files
