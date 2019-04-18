@@ -1,7 +1,7 @@
 ----------------------------------------------------
 Checking source files for common errors in following
 directories:
-gateway tests
+gateway tests tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -28,4 +28,6 @@ tests/test_auth.py
     Pass
 tests/test_defaults.py
     Pass
-All checks passed for 9 source files
+tools/check_python_version.py
+    Pass
+All checks passed for 10 source files

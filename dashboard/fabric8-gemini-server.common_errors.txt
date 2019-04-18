@@ -7,7 +7,7 @@ Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2
 ----------------------------------------------------
 Checking source files for common errors in following
 directories:
-src tests
+src tests tools
 ----------------------------------------------------
 
 src/repo_dependency_creator.py
@@ -52,6 +52,8 @@ tests/test_node_parser.py
     Pass
 tests/conftest.py
     Pass
+tools/check_python_version.py
+    Pass
 ----------------------------------------------------
 Checking following source files for common errors:
 setup.py
@@ -59,4 +61,4 @@ setup.py
 
 setup.py
     Pass
-All checks passed for 22 source files
+All checks passed for 23 source files

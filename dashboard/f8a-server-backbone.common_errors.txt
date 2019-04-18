@@ -1,7 +1,7 @@
 ----------------------------------------------------
 Checking source files for common errors in following
 directories:
-src tests
+src tests tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -32,4 +32,6 @@ tests/test_recommender.py
     Pass
 tests/conftest.py
     Pass
-All checks passed for 11 source files
+tools/check_python_version.py
+    Pass
+All checks passed for 12 source files
