@@ -1,0 +1,6 @@
+Start time,1555589285.38874
+End time,1555589336.453344
+Duration,51.06460404396057
+
+#,Test name,Ecosystem,Package,Version,Manifest,Thread#,Status code,Start time,End time,Duration
+1,stack_analysis,pypi,N/A,N/A,requirements_click_6_star.txt,0,200,1555589285.3894985,1555589336.4529464,51.06344795227051

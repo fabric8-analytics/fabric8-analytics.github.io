@@ -1,0 +1,6 @@
+Start time,1555590534.536421
+End time,1555590537.0444255
+Duration,2.5080044269561768
+
+#,Test name,Ecosystem,Package,Version,Manifest,Thread#,Status code,Start time,End time,Duration
+1,component_analysis,pypi,pytest,2.8.0,N/A,0,200,1555590534.5374923,1555590537.0434408,2.505948543548584
