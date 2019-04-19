@@ -49,7 +49,9 @@ test/test_data_importer.py
 test/test_s3_data_source.py
     Pass
 test/test_utils.py
-    Pass
+test/test_utils.py:44: unused variable 'data' (100% confidence)
+test/test_utils.py:44: unused variable 'url' (100% confidence)
+    Fail
 test/test_graph_manager.py
     Pass
 test/conftest.py
@@ -70,4 +72,4 @@ populate_schema.py
     Pass
 setup.py
     Pass
-All checks passed for 27 source files
+1 source files out of 27 files seems to contain dead code and/or unused imports

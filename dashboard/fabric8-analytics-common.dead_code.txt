@@ -292,8 +292,10 @@ a2t/src/component_analysis.py
     Pass
 a2t/src/report_generator.py
     Pass
+a2t/src/stack_analysis.py
+    Pass
 a2t/src/a2t.py
     Pass
 a2t/src/test_runner.py
     Pass
-All checks passed for 143 source files
+All checks passed for 144 source files
