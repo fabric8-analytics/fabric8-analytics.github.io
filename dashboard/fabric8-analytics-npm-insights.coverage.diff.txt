@@ -12,6 +12,6 @@ Name                                                        Stmts   Miss  Cover 
 /recommendation_engine/predictor/abstract_recommender.py        5      0   100%				/recommendation_engine/predictor/abstract_recommender.py        5      0   100%
 /recommendation_engine/predictor/online_recommendation.py      90      0   100%				/recommendation_engine/predictor/online_recommendation.py      90      0   100%
 /recommendation_engine/utils/__init__.py                        0      0   100%				/recommendation_engine/utils/__init__.py                        0      0   100%
-/recommendation_engine/utils/fileutils.py                      18      1    94%   35			/recommendation_engine/utils/fileutils.py                      18      1    94%   35
+/recommendation_engine/utils/fileutils.py                      18      1    94%   35		      |	/recommendation_engine/utils/fileutils.py                      18      0   100%
 -----------------------------------------------------------------------------------------		-----------------------------------------------------------------------------------------
-TOTAL                                                         180      2    99%				TOTAL                                                         180      2    99%
+TOTAL                                                         180      2    99%			      |	TOTAL                                                         180      1    99%
