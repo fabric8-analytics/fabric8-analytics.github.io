@@ -22,7 +22,8 @@ rudra/data_store/bigquery/maven_bigquery.py
 rudra/data_store/bigquery/npm_bigquery.py
     Pass
 rudra/data_store/bigquery/base.py
-    Pass
+rudra/data_store/bigquery/base.py:21:32: E127 continuation line over-indented for visual indent
+    Fail
 rudra/data_store/aws.py
     Pass
 rudra/data_store/local_data_store.py
@@ -97,4 +98,4 @@ setup.py
 ----------------------------------------------------
 setup.py
     Pass
-Linter fail, 1 source files out of 41 source files need to be fixed
+Linter fail, 2 source files out of 41 source files need to be fixed

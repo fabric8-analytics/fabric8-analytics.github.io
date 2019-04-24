@@ -1,7 +1,7 @@
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
-alembic f8a_worker tests hack
+alembic f8a_worker tests hack tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -510,6 +510,9 @@ tests/conftest.py
 hack/queue_conf.py
 0
     Pass
+tools/check_python_version.py
+0
+    Pass
 
 ----------------------------------------------------
 Checking documentation strings in the following files
@@ -521,4 +524,4 @@ setup.py
 dead_code_whitelist.py
 0
     Pass
-All checks passed for 168 source files
+All checks passed for 169 source files

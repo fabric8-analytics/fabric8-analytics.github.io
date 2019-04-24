@@ -1,6 +1,6 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-alembic f8a_worker tests hack
+alembic f8a_worker tests hack tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -343,6 +343,8 @@ tests/conftest.py
     Pass
 hack/queue_conf.py
     Pass
+tools/check_python_version.py
+    Pass
 
 ----------------------------------------------------
 Running Python linter against selected files:
@@ -352,4 +354,4 @@ setup.py
     Pass
 dead_code_whitelist.py
     Pass
-All checks passed for 169 source files
+All checks passed for 170 source files

@@ -7,7 +7,7 @@ Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2
 ----------------------------------------------------
 Checking source files for common errors in following
 directories:
-alembic f8a_worker tests hack
+alembic f8a_worker tests hack tools
 ----------------------------------------------------
 
 alembic/versions/f5c853b83d41_add_api_requests_table.py
@@ -344,6 +344,8 @@ tests/conftest.py
     Pass
 hack/queue_conf.py
     Pass
+tools/check_python_version.py
+    Pass
 ----------------------------------------------------
 Checking following source files for common errors:
 setup.py
@@ -351,4 +353,4 @@ setup.py
 
 setup.py
     Pass
-All checks passed for 168 source files
+All checks passed for 169 source files
