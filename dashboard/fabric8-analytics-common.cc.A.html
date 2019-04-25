@@ -1183,7 +1183,7 @@ a2t/src/setup.py
     F 38:0 read_url_from_env_var - A (1)
 a2t/src/component_generator.py
     C 20:0 ComponentGenerator - A (4)
-    M 46:4 ComponentGenerator.generator_for_ecosystem - A (4)
+    M 335:4 ComponentGenerator.generator_for_ecosystem - A (4)
 a2t/src/component_analysis.py
     M 70:4 ComponentAnalysis.start - A (3)
     M 51:4 ComponentAnalysis.check_auth_token_validity - A (2)
@@ -1193,10 +1193,12 @@ a2t/src/component_analysis.py
     M 40:4 ComponentAnalysis.analysis_url - A (1)
     M 47:4 ComponentAnalysis.authorization - A (1)
 a2t/src/report_generator.py
-    F 31:0 export_test_results - A (2)
-    F 51:0 generate_csv_report - A (2)
-    F 22:0 export_header - A (1)
-    F 44:0 export_totat_time - A (1)
+    F 56:0 export_test_results - A (2)
+    F 76:0 generate_csv_report - A (2)
+    F 25:0 export_header - A (1)
+    F 35:0 export_environment_info - A (1)
+    F 44:0 export_test_setup - A (1)
+    F 69:0 export_totat_time - A (1)
 a2t/src/stack_analysis.py
     M 102:4 StackAnalysis.wait_for_stack_analysis - B (9)
     M 72:4 StackAnalysis.get_manifest_name - A (3)
@@ -1215,15 +1217,15 @@ a2t/src/a2t.py
     F 59:0 check_system - A (2)
     F 68:0 show_version - A (1)
 a2t/src/test_runner.py
-    F 53:0 component_analysis_benchmark - A (5)
-    F 165:0 start_tests - A (5)
-    F 74:0 stack_analysis_benchmark - A (3)
-    F 109:0 run_test - A (3)
-    F 147:0 run_tests_with_tags - A (3)
+    F 54:0 component_analysis_benchmark - B (9)
+    F 185:0 start_tests - A (5)
+    F 88:0 stack_analysis_benchmark - A (3)
+    F 124:0 run_test - A (3)
+    F 167:0 run_tests_with_tags - A (3)
     F 36:0 check_number_of_results - A (2)
-    F 101:0 wait_for_all_threads - A (2)
-    F 139:0 run_all_loaded_tests - A (2)
-    F 160:0 no_tests - A (2)
+    F 116:0 wait_for_all_threads - A (2)
+    F 159:0 run_all_loaded_tests - A (2)
+    F 180:0 no_tests - A (2)
 perf-tests/src/api.py
     M 15:4 Api.is_api_running - A (3)
     M 25:4 Api.add_slash - A (3)
@@ -1430,6 +1432,6 @@ vscode-visual-tests/features/steps/common.py
     F 55:0 start_visual_studion_code - A (1)
     F 63:0 pause_scenario_execution - A (1)
 
-1305 blocks (classes, functions, methods) analyzed.
-Average complexity: A (2.3164750957854405)
+1307 blocks (classes, functions, methods) analyzed.
+Average complexity: A (2.3175210405508797)
 </pre>
