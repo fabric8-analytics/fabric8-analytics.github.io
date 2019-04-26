@@ -2,14 +2,14 @@ Name                                      Stmts   Miss  Cover   Missing					Name
 -----------------------------------------------------------------------					-----------------------------------------------------------------------
 src/__init__.py                               2      0   100%						src/__init__.py                               2      0   100%
 src/config.py                                22      0   100%						src/config.py                                22      0   100%
-src/cve.py                                  130     10    92%   49-56, 100-101, 104-105, 138-139      |	src/cve.py                                  143      5    97%   58-59, 66, 159-160
+src/cve.py                                  143      5    97%   58-59, 66, 159-160			src/cve.py                                  143      5    97%   58-59, 66, 159-160
 src/data_importer.py                        207     20    90%   101, 112, 282, 322-324, 332-333, 340-	src/data_importer.py                        207     20    90%   101, 112, 282, 322-324, 332-333, 340-
 src/data_source/__init__.py                   0      0   100%						src/data_source/__init__.py                   0      0   100%
 src/data_source/abstract_data_source.py       6      0   100%						src/data_source/abstract_data_source.py       6      0   100%
 src/data_source/s3_data_source.py            36      2    94%   29-31					src/data_source/s3_data_source.py            36      2    94%   29-31
 src/graph_manager.py                         38      0   100%						src/graph_manager.py                         38      0   100%
 src/graph_populator.py                      214      7    97%   75, 301-302, 363-364, 481-482		src/graph_populator.py                      214      7    97%   75, 301-302, 363-364, 481-482
-src/rest_api.py                             188     19    90%   77, 80-82, 158, 194, 200, 234-237, 25 |	src/rest_api.py                             187     19    90%   77, 80-82, 158, 194, 200, 234-237, 25
+src/rest_api.py                             187     19    90%   77, 80-82, 158, 194, 200, 234-237, 25	src/rest_api.py                             187     19    90%   77, 80-82, 158, 194, 200, 234-237, 25
 src/utils.py                                 48      0   100%						src/utils.py                                 48      0   100%
 -----------------------------------------------------------------------					-----------------------------------------------------------------------
-TOTAL                                       891     58    93%					      |	TOTAL                                       903     53    94%
+TOTAL                                       903     53    94%						TOTAL                                       903     53    94%
