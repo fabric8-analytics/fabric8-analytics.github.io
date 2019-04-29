@@ -27,9 +27,6 @@ src/scoring/__init__.py
 src/scoring/hpf_scoring.py
 0
     Pass
-src/training/__init__.py
-0
-    Pass
 deployments/__init__.py
 0
     Pass
@@ -66,4 +63,4 @@ perf_tests/locust_tests.py
 PoC_code/__init__.py
 0
     Pass
-All checks passed for 18 source files
+All checks passed for 17 source files

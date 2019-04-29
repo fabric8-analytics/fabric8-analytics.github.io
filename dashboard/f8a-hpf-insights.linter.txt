@@ -23,8 +23,6 @@ src/scoring/__init__.py
     Pass
 src/scoring/hpf_scoring.py
     Pass
-src/training/__init__.py
-    Pass
 tests/__init__.py
     Pass
 tests/unit_tests/test_flask_endpoint.py
@@ -45,4 +43,4 @@ perf_tests/locust_tests.py
     Pass
 PoC_code/__init__.py
     Pass
-All checks passed for 18 source files
+All checks passed for 17 source files
