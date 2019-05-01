@@ -26,10 +26,12 @@ src/config/path_constants.py
     Pass
 tests/unit_tests/test_constants.py
     Pass
+tests/unit_tests/test_train.py
+    Pass
 tests/unit_tests/test_recommendation_service.py
     Pass
 tests/conftest.py
     Pass
 tools/check_python_version.py
     Pass
-All checks passed for 11 source files
+All checks passed for 12 source files

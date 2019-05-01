@@ -10,8 +10,8 @@ Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (3.0.0)
-Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.2.1)
 Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.12.0)
+Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.2.1)
 rudra/data_store/__init__.py
 0
     Pass
@@ -96,25 +96,27 @@ tests/data_store/bigquery/test_pypi_bigquery.py:24 in public method `write_json_
         D102: Missing docstring in public method
 tests/data_store/bigquery/test_pypi_bigquery.py:31 in public method `__del__`:
         D105: Missing docstring in magic method
-tests/data_store/bigquery/test_pypi_bigquery.py:56 in public class `TestPyPiBigQuery`:
+tests/data_store/bigquery/test_pypi_bigquery.py:34 in public method `connect`:
+        D102: Missing docstring in public method
+tests/data_store/bigquery/test_pypi_bigquery.py:59 in public class `TestPyPiBigQuery`:
         D101: Missing docstring in public class
-tests/data_store/bigquery/test_pypi_bigquery.py:58 in public method `test_run_query`:
+tests/data_store/bigquery/test_pypi_bigquery.py:61 in public method `test_run_query`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_pypi_bigquery.py:62 in public method `test_run_query_sync`:
+tests/data_store/bigquery/test_pypi_bigquery.py:65 in public method `test_run_query_sync`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_pypi_bigquery.py:66 in public method `test_run_query_async`:
+tests/data_store/bigquery/test_pypi_bigquery.py:69 in public method `test_run_query_async`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_pypi_bigquery.py:72 in public method `test_get_result_sync`:
+tests/data_store/bigquery/test_pypi_bigquery.py:75 in public method `test_get_result_sync`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_pypi_bigquery.py:82 in public method `test_get_result_async`:
+tests/data_store/bigquery/test_pypi_bigquery.py:85 in public method `test_get_result_async`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_pypi_bigquery.py:93 in public class `TestPyPiDataProcessing`:
+tests/data_store/bigquery/test_pypi_bigquery.py:96 in public class `TestPyPiDataProcessing`:
         D101: Missing docstring in public class
-tests/data_store/bigquery/test_pypi_bigquery.py:94 in public method `test_process_with_validation`:
+tests/data_store/bigquery/test_pypi_bigquery.py:97 in public method `test_process_with_validation`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_pypi_bigquery.py:107 in public method `test_process_without_validation`:
+tests/data_store/bigquery/test_pypi_bigquery.py:110 in public method `test_process_without_validation`:
         D102: Missing docstring in public method
-15
+16
     Fail
 tests/data_store/bigquery/test_npm_bigquery.py
 tests/data_store/bigquery/test_npm_bigquery.py:1 at module level:
@@ -129,27 +131,29 @@ tests/data_store/bigquery/test_npm_bigquery.py:24 in public method `write_json_f
         D102: Missing docstring in public method
 tests/data_store/bigquery/test_npm_bigquery.py:31 in public method `__del__`:
         D105: Missing docstring in magic method
-tests/data_store/bigquery/test_npm_bigquery.py:56 in public class `TestNpmBigQuery`:
+tests/data_store/bigquery/test_npm_bigquery.py:34 in public method `connect`:
+        D102: Missing docstring in public method
+tests/data_store/bigquery/test_npm_bigquery.py:59 in public class `TestNpmBigQuery`:
         D101: Missing docstring in public class
-tests/data_store/bigquery/test_npm_bigquery.py:58 in public method `test_run_query`:
+tests/data_store/bigquery/test_npm_bigquery.py:61 in public method `test_run_query`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_npm_bigquery.py:62 in public method `test_run_query_sync`:
+tests/data_store/bigquery/test_npm_bigquery.py:65 in public method `test_run_query_sync`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_npm_bigquery.py:66 in public method `test_run_query_async`:
+tests/data_store/bigquery/test_npm_bigquery.py:69 in public method `test_run_query_async`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_npm_bigquery.py:72 in public method `test_get_result_sync`:
+tests/data_store/bigquery/test_npm_bigquery.py:75 in public method `test_get_result_sync`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_npm_bigquery.py:82 in public method `test_get_result_async`:
+tests/data_store/bigquery/test_npm_bigquery.py:85 in public method `test_get_result_async`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_npm_bigquery.py:93 in public class `TestNpmataProcessing`:
+tests/data_store/bigquery/test_npm_bigquery.py:96 in public class `TestNpmataProcessing`:
         D101: Missing docstring in public class
-tests/data_store/bigquery/test_npm_bigquery.py:94 in public method `test_process`:
+tests/data_store/bigquery/test_npm_bigquery.py:97 in public method `test_process`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_npm_bigquery.py:106 in public method `test_handle_corrupt_packagejson`:
+tests/data_store/bigquery/test_npm_bigquery.py:109 in public method `test_handle_corrupt_packagejson`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_npm_bigquery.py:121 in public method `test_construct_packages`:
+tests/data_store/bigquery/test_npm_bigquery.py:124 in public method `test_construct_packages`:
         D102: Missing docstring in public method
-16
+17
     Fail
 tests/data_store/bigquery/test_maven_bigquery.py
 tests/data_store/bigquery/test_maven_bigquery.py:1 at module level:
@@ -164,25 +168,27 @@ tests/data_store/bigquery/test_maven_bigquery.py:24 in public method `write_json
         D102: Missing docstring in public method
 tests/data_store/bigquery/test_maven_bigquery.py:31 in public method `__del__`:
         D105: Missing docstring in magic method
-tests/data_store/bigquery/test_maven_bigquery.py:56 in public class `TestMavenBigQuery`:
+tests/data_store/bigquery/test_maven_bigquery.py:34 in public method `connect`:
+        D102: Missing docstring in public method
+tests/data_store/bigquery/test_maven_bigquery.py:59 in public class `TestMavenBigQuery`:
         D101: Missing docstring in public class
-tests/data_store/bigquery/test_maven_bigquery.py:58 in public method `test_run_query`:
+tests/data_store/bigquery/test_maven_bigquery.py:61 in public method `test_run_query`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_maven_bigquery.py:62 in public method `test_run_query_sync`:
+tests/data_store/bigquery/test_maven_bigquery.py:65 in public method `test_run_query_sync`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_maven_bigquery.py:66 in public method `test_run_query_async`:
+tests/data_store/bigquery/test_maven_bigquery.py:69 in public method `test_run_query_async`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_maven_bigquery.py:72 in public method `test_get_result_sync`:
+tests/data_store/bigquery/test_maven_bigquery.py:75 in public method `test_get_result_sync`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_maven_bigquery.py:82 in public method `test_get_result_async`:
+tests/data_store/bigquery/test_maven_bigquery.py:85 in public method `test_get_result_async`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_maven_bigquery.py:93 in public class `TestMavenDataProcessing`:
+tests/data_store/bigquery/test_maven_bigquery.py:96 in public class `TestMavenDataProcessing`:
         D101: Missing docstring in public class
-tests/data_store/bigquery/test_maven_bigquery.py:94 in public method `test_process`:
+tests/data_store/bigquery/test_maven_bigquery.py:97 in public method `test_process`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_maven_bigquery.py:105 in public method `test_construct_packages`:
+tests/data_store/bigquery/test_maven_bigquery.py:108 in public method `test_construct_packages`:
         D102: Missing docstring in public method
-15
+16
     Fail
 tests/data_store/bigquery/test_base_upload_s3.py
 tests/data_store/bigquery/test_base_upload_s3.py:1 at module level:
