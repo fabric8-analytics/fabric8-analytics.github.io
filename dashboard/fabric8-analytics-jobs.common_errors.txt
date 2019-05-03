@@ -7,7 +7,7 @@ Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2
 ----------------------------------------------------
 Checking source files for common errors in following
 directories:
-f8a_jobs tests
+f8a_jobs tests tools
 ----------------------------------------------------
 
 f8a_jobs/auth.py
@@ -134,6 +134,8 @@ tests/handlers/test_maven_popular_analyses.py
     Pass
 tests/test_analyses_report.py
     Pass
+tools/check_python_version.py
+    Pass
 ----------------------------------------------------
 Checking following source files for common errors:
 f8a-jobs.py setup.py
@@ -143,4 +145,4 @@ f8a-jobs.py
     Pass
 setup.py
     Pass
-All checks passed for 64 source files
+All checks passed for 65 source files

@@ -1,6 +1,6 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-recommendation_engine deployment tests
+recommendation_engine deployment tests training
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -43,10 +43,24 @@ tests/load_tests/locustfile.py
     Pass
 tests/unit_tests/test_fileutils.py
     Pass
+tests/unit_tests/test_get_keywords.py
+    Pass
 tests/unit_tests/test_flask_predict.py
     Pass
 tests/unit_tests/test_constants.py
     Pass
+tests/unit_tests/test_utils.py
+    Pass
 tests/unit_tests/test_PMFRecommendation.py
     Pass
-All checks passed for 20 source files
+training/datastore/s3_connection.py
+    Pass
+training/datastore/utils.py
+    Pass
+training/datastore/get_preprocess_data.py
+    Pass
+training/datastore/get_keywords.py
+    Pass
+training/datastore/preprocess_data.py
+    Pass
+All checks passed for 27 source files

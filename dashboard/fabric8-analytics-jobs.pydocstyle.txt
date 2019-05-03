@@ -1,7 +1,7 @@
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
-f8a_jobs tests
+f8a_jobs tests tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -198,6 +198,9 @@ tests/handlers/test_maven_popular_analyses.py
 tests/test_analyses_report.py
 0
     Pass
+tools/check_python_version.py
+0
+    Pass
 
 ----------------------------------------------------
 Checking documentation strings in the following files
@@ -209,4 +212,4 @@ f8a-jobs.py
 setup.py
 0
     Pass
-All checks passed for 64 source files
+All checks passed for 65 source files
