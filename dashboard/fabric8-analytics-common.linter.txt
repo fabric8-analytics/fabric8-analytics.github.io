@@ -1,6 +1,6 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-integration-tests ui-tests perf-tests dashboard reproducers load-tests db-integrity-tests taas job-checker baf e2e_tests_bot vscode-visual-tests a2t
+integration-tests ui-tests perf-tests dashboard reproducers load-tests db-integrity-tests taas job-checker baf e2e_tests_bot vscode-visual-tests a2t tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -309,4 +309,6 @@ a2t/src/a2t.py
     Pass
 a2t/src/test_runner.py
     Pass
-All checks passed for 150 source files
+tools/check_python_version.py
+    Pass
+All checks passed for 151 source files
