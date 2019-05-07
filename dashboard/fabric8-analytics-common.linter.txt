@@ -101,6 +101,8 @@ integration-tests/features/steps/license_analysis.py
     Pass
 integration-tests/features/environment.py
     Pass
+integration-tests/refresh_token_scripts/get_refresh_token_part.py
+    Pass
 integration-tests/hack/json2pom.py
     Pass
 ui-tests/test.py
@@ -311,4 +313,4 @@ a2t/src/test_runner.py
     Pass
 tools/check_python_version.py
     Pass
-All checks passed for 151 source files
+All checks passed for 152 source files
