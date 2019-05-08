@@ -1,7 +1,7 @@
 ----------------------------------------------------
 Checking source files for dead code and unused imports
 in following directories:
-cvejob tests scripts
+cvejob tests scripts tools
 ----------------------------------------------------
 
 Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages
@@ -71,6 +71,8 @@ tests/test_version_utils.py
     Pass
 scripts/get_python_packages.py
     Pass
+tools/check_python_version.py
+    Pass
 ----------------------------------------------------
 Checking following source files for dead code and
 unused imports:
@@ -79,4 +81,4 @@ run.py
 
 run.py
     Pass
-All checks passed for 34 source files
+All checks passed for 35 source files
