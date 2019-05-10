@@ -1,8 +1,9 @@
 Name                                   Stmts   Miss  Cover   Missing					Name                                   Stmts   Miss  Cover   Missing
 --------------------------------------------------------------------					--------------------------------------------------------------------
 f8a_report/__init__.py                     0      0   100%						f8a_report/__init__.py                     0      0   100%
-f8a_report/graph_report_generator.py     121     11    91%   131-137, 167, 188-194			f8a_report/graph_report_generator.py     121     11    91%   131-137, 167, 188-194
-f8a_report/main.py                        25     16    36%   20-37, 41					f8a_report/main.py                        25     16    36%   20-37, 41
-f8a_report/report_helper.py              382     84    78%   48, 61-66, 70-81, 85-100, 144-157, 175-1 |	f8a_report/report_helper.py              382     82    79%   48, 61-66, 70-81, 85-100, 144-157, 175-1
+f8a_report/graph_report_generator.py     121     11    91%   131-137, 167, 188-194		      |	f8a_report/graph_report_generator.py     121     12    90%   131-137, 167, 188-194, 203
+f8a_report/main.py                        25     16    36%   20-37, 41				      |	f8a_report/main.py                        26      7    73%   31-36, 42
+f8a_report/report_helper.py              382     82    79%   48, 61-66, 70-81, 85-100, 144-157, 175-1 |	f8a_report/report_helper.py              350     43    88%   77-90, 108-109, 169, 235-236, 241, 254-2
+												      >	f8a_report/s3_helper.py                   49     30    39%   25, 38-43, 47-58, 62-77
 --------------------------------------------------------------------					--------------------------------------------------------------------
-TOTAL                                    528    111    79%					      |	TOTAL                                    528    109    79%
+TOTAL                                    528    109    79%					      |	TOTAL                                    546     92    83%
