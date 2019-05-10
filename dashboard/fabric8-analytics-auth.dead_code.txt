@@ -1,7 +1,7 @@
 ----------------------------------------------------
 Checking source files for dead code and unused imports
 in following directories:
-fabric8a_auth tests
+fabric8a_auth tests tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -24,6 +24,8 @@ tests/test_utility_functions.py
     Pass
 tests/test_token_handling.py
     Pass
+tools/check_python_version.py
+    Pass
 ----------------------------------------------------
 Checking following source files for dead code and
 unused imports:
@@ -32,4 +34,4 @@ setup.py
 
 setup.py
     Pass
-All checks passed for 8 source files
+All checks passed for 9 source files

@@ -1,6 +1,6 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-fabric8a_auth tests
+fabric8a_auth tests tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -23,6 +23,8 @@ tests/test_utility_functions.py
     Pass
 tests/test_token_handling.py
     Pass
+tools/check_python_version.py
+    Pass
 
 ----------------------------------------------------
 Running Python linter against selected files:
@@ -30,4 +32,4 @@ setup.py
 ----------------------------------------------------
 setup.py
     Pass
-All checks passed for 8 source files
+All checks passed for 9 source files

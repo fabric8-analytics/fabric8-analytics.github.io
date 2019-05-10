@@ -7,7 +7,7 @@ Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2
 ----------------------------------------------------
 Checking source files for common errors in following
 directories:
-fabric8a_auth tests
+fabric8a_auth tests tools
 ----------------------------------------------------
 
 fabric8a_auth/auth.py
@@ -24,6 +24,8 @@ tests/test_utility_functions.py
     Pass
 tests/test_token_handling.py
     Pass
+tools/check_python_version.py
+    Pass
 ----------------------------------------------------
 Checking following source files for common errors:
 setup.py
@@ -31,4 +33,4 @@ setup.py
 
 setup.py
     Pass
-All checks passed for 8 source files
+All checks passed for 9 source files
