@@ -234,6 +234,9 @@ dashboard/src/unit_tests.py
 dashboard/src/cc.py
 0
     Pass
+dashboard/src/csv_exporter.py
+0
+    Pass
 dashboard/src/repositories.py
 0
     Pass
@@ -468,4 +471,4 @@ a2t/src/test_runner.py
 tools/check_python_version.py
 0
     Pass
-All checks passed for 152 source files
+All checks passed for 153 source files
