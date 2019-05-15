@@ -1,7 +1,7 @@
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
-ghmonitor tests
+ghmonitor tests tools
 ----------------------------------------------------
 
 ghmonitor/monitor.py
@@ -43,6 +43,9 @@ tests/gopkg/test_translate.py
 tests/test_backend.py
 0
     Pass
+tools/check_python_version.py
+0
+    Pass
 
 ----------------------------------------------------
 Checking documentation strings in the following files
@@ -51,4 +54,4 @@ run.py
 run.py
 0
     Pass
-All checks passed for 14 source files
+All checks passed for 15 source files

@@ -1,7 +1,7 @@
 ----------------------------------------------------
 Checking source files for dead code and unused imports
 in following directories:
-ghmonitor
+ghmonitor tools
 ----------------------------------------------------
 
 Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages
@@ -19,6 +19,8 @@ ghmonitor/gopkg/__init__.py
     Pass
 ghmonitor/gopkg/translate.py
     Pass
+tools/check_python_version.py
+    Pass
 ----------------------------------------------------
 Checking following source files for dead code and
 unused imports:
@@ -27,4 +29,4 @@ run.py
 
 run.py
     Pass
-All checks passed for 8 source files
+All checks passed for 9 source files
