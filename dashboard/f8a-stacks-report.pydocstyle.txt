@@ -15,6 +15,9 @@ Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from p
 f8a_report/__init__.py
 0
     Pass
+f8a_report/unknown_deps_report_helper.py
+0
+    Pass
 f8a_report/graph_report_generator.py
 0
     Pass
@@ -36,6 +39,9 @@ tests/test_graph_report_generator.py
 tests/test_stack_report_helper.py
 0
     Pass
+tests/test_unknown_deps_report_helper.py
+0
+    Pass
 tests/__init__.py
 0
     Pass
@@ -50,4 +56,4 @@ setup.py
 setup.py
 0
     Pass
-All checks passed for 11 source files
+All checks passed for 13 source files

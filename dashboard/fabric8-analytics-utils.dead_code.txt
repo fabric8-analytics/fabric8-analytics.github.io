@@ -1,7 +1,7 @@
 ----------------------------------------------------
 Checking source files for dead code and unused imports
 in following directories:
-f8a_utils tests
+f8a_utils tests tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -26,6 +26,8 @@ tests/test_depencency_finder.py
     Pass
 tests/test_versions.py
     Pass
+tools/check_python_version.py
+    Pass
 ----------------------------------------------------
 Checking following source files for dead code and
 unused imports:
@@ -34,4 +36,4 @@ setup.py
 
 setup.py
     Pass
-All checks passed for 9 source files
+All checks passed for 10 source files

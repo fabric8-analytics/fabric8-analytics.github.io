@@ -1,7 +1,7 @@
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
-f8a_version_comparator tests
+f8a_version_comparator tests tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -33,6 +33,9 @@ tests/test_version_comparator.py
 tests/test_item_object.py
 0
     Pass
+tools/check_python_version.py
+0
+    Pass
 
 ----------------------------------------------------
 Checking documentation strings in the following files
@@ -41,4 +44,4 @@ setup.py
 setup.py
 0
     Pass
-All checks passed for 8 source files
+All checks passed for 9 source files
