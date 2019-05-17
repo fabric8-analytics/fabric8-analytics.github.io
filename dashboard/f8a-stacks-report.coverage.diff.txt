@@ -1,9 +1,11 @@
-Name                                   Stmts   Miss  Cover   Missing					Name                                   Stmts   Miss  Cover   Missing
---------------------------------------------------------------------					--------------------------------------------------------------------
-f8a_report/__init__.py                     0      0   100%						f8a_report/__init__.py                     0      0   100%
-f8a_report/graph_report_generator.py     121     11    91%   131-137, 167, 188-194		      |	f8a_report/graph_report_generator.py     121     12    90%   131-137, 167, 188-194, 203
-f8a_report/main.py                        25     16    36%   20-37, 41				      |	f8a_report/main.py                        26      7    73%   31-36, 42
-f8a_report/report_helper.py              382     82    79%   48, 61-66, 70-81, 85-100, 144-157, 175-1 |	f8a_report/report_helper.py              350     43    88%   77-90, 108-109, 169, 235-236, 241, 254-2
-												      >	f8a_report/s3_helper.py                   49     30    39%   25, 38-43, 47-58, 62-77
---------------------------------------------------------------------					--------------------------------------------------------------------
-TOTAL                                    528    109    79%					      |	TOTAL                                    546     92    83%
+Name                                   Stmts   Miss  Cover   Missing				      |	Name                                       Stmts   Miss  Cover   Missing
+--------------------------------------------------------------------				      |	------------------------------------------------------------------------
+f8a_report/__init__.py                     0      0   100%					      |	f8a_report/__init__.py                         0      0   100%
+f8a_report/graph_report_generator.py     121     12    90%   131-137, 167, 188-194, 203		      |	f8a_report/graph_report_generator.py         136     11    92%   163-169, 199, 220-226
+f8a_report/main.py                        26      7    73%   31-36, 42				      |	f8a_report/main.py                            26      7    73%   31-36, 42
+f8a_report/report_helper.py              350     43    88%   77-90, 108-109, 169, 235-236, 241, 254-2 |	f8a_report/report_helper.py                  360     43    88%   81-94, 112-113, 173, 239-240, 245, 2
+f8a_report/s3_helper.py                   49     30    39%   25, 38-43, 47-58, 62-77		      |	f8a_report/s3_helper.py                       49     25    49%   25, 47-58, 62-77
+--------------------------------------------------------------------				      |	f8a_report/sentry_report_helper.py            76     10    87%   44-45, 76-77, 86-87, 123, 128-130
+TOTAL                                    546     92    83%					      |	f8a_report/unknown_deps_report_helper.py      27     14    48%   18-40
+												      >	------------------------------------------------------------------------
+												      >	TOTAL                                        674    110    84%
