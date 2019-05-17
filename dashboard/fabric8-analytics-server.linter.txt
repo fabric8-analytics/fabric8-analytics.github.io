@@ -1,6 +1,6 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-bayesian hack tests
+bayesian hack tests tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -51,6 +51,8 @@ tests/test_license_extractor.py
     Pass
 tests/conftest.py
     Pass
+tools/check_python_version.py
+    Pass
 
 ----------------------------------------------------
 Running Python linter against selected files:
@@ -58,4 +60,4 @@ setup.py
 ----------------------------------------------------
 setup.py
     Pass
-All checks passed for 22 source files
+All checks passed for 23 source files
