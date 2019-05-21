@@ -1,7 +1,7 @@
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
-tests
+tests tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -18,6 +18,9 @@ tests/test_github_refresh.py
 tests/conftest.py
 0
     Pass
+tools/check_python_version.py
+0
+    Pass
 
 ----------------------------------------------------
 Checking documentation strings in the following files
@@ -26,4 +29,4 @@ github_refresh.py
 github_refresh.py
 0
     Pass
-All checks passed for 3 source files
+All checks passed for 4 source files

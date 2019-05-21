@@ -1,6 +1,6 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-tests
+tests tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -13,6 +13,8 @@ tests/test_github_refresh.py
     Pass
 tests/conftest.py
     Pass
+tools/check_python_version.py
+    Pass
 
 ----------------------------------------------------
 Running Python linter against selected files:
@@ -20,4 +22,4 @@ github_refresh.py
 ----------------------------------------------------
 github_refresh.py
     Pass
-All checks passed for 3 source files
+All checks passed for 4 source files

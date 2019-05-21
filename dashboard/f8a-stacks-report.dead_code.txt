@@ -10,6 +10,8 @@ Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages (1.0)
+f8a_report/sentry_report_helper.py
+    Pass
 f8a_report/__init__.py
     Pass
 f8a_report/unknown_deps_report_helper.py
@@ -32,4 +34,4 @@ setup.py
 
 setup.py
     Pass
-All checks passed for 8 source files
+All checks passed for 9 source files
