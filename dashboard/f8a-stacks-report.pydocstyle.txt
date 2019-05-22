@@ -33,6 +33,9 @@ f8a_report/report_helper.py
 f8a_report/s3_helper.py
 0
     Pass
+f8a_report/cve_helper.py
+0
+    Pass
 tests/test_main.py
 0
     Pass
@@ -51,6 +54,9 @@ tests/__init__.py
 tests/test_sentry_report_helper.py
 0
     Pass
+tests/test_cve_helper.py
+0
+    Pass
 tools/check_python_version.py
 0
     Pass
@@ -62,4 +68,4 @@ setup.py
 setup.py
 0
     Pass
-All checks passed for 15 source files
+All checks passed for 17 source files

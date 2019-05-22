@@ -24,6 +24,8 @@ f8a_report/report_helper.py
     Pass
 f8a_report/s3_helper.py
     Pass
+f8a_report/cve_helper.py
+    Pass
 tools/check_python_version.py
     Pass
 ----------------------------------------------------
@@ -34,4 +36,4 @@ setup.py
 
 setup.py
     Pass
-All checks passed for 9 source files
+All checks passed for 10 source files

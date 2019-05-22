@@ -1,6 +1,6 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-victimsdb_lib tests
+victimsdb_lib tests tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -23,6 +23,8 @@ tests/test_model.py
     Pass
 tests/conftest.py
     Pass
+tools/check_python_version.py
+    Pass
 
 ----------------------------------------------------
 Running Python linter against selected files:
@@ -30,4 +32,4 @@ setup.py
 ----------------------------------------------------
 setup.py
     Pass
-All checks passed for 8 source files
+All checks passed for 9 source files

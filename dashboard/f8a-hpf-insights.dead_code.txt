@@ -1,7 +1,7 @@
 ----------------------------------------------------
 Checking source files for dead code and unused imports
 in following directories:
-deployments src tests perf_tests PoC_code training
+deployments src tests perf_tests PoC_code training tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -44,4 +44,6 @@ PoC_code/__init__.py
     Pass
 training/train.py
     Pass
-All checks passed for 17 source files
+tools/check_python_version.py
+    Pass
+All checks passed for 18 source files
