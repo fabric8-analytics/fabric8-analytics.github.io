@@ -3,6 +3,7 @@ git add *.txt
 git add *.png
 git add *.gif
 git add *.svg
+git add *.csv
 git status
 message="Dashboard `date +%Y-%m-%d`"
 echo $message
