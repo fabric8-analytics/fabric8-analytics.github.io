@@ -7,7 +7,7 @@ Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2
 ----------------------------------------------------
 Checking source files for common errors in following
 directories:
-insights_engine/ tests/
+insights_engine/ tests/ tools
 ----------------------------------------------------
 
 insights_engine/data_store/__init__.py
@@ -40,4 +40,6 @@ tests/unit_tests/test_local_datastore.py
     Pass
 tests/load_test/locustfile.py
     Pass
-All checks passed for 15 source files
+tools/check_python_version.py
+    Pass
+All checks passed for 16 source files

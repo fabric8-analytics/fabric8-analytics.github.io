@@ -1,6 +1,6 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-insights_engine/ tests/
+insights_engine/ tests/ tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -39,4 +39,6 @@ tests/unit_tests/test_local_datastore.py
     Pass
 tests/load_test/locustfile.py
     Pass
-All checks passed for 15 source files
+tools/check_python_version.py
+    Pass
+All checks passed for 16 source files
