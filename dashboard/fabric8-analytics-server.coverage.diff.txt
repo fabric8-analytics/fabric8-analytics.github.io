@@ -1,6 +1,6 @@
 Name                                      Stmts   Miss  Cover   Missing					Name                                      Stmts   Miss  Cover   Missing
 -----------------------------------------------------------------------					-----------------------------------------------------------------------
-/bayesian/bayesian/__init__.py               44      1    98%   57				      |	/bayesian/bayesian/__init__.py               47      1    98%   58
+/bayesian/bayesian/__init__.py               47      1    98%   58					/bayesian/bayesian/__init__.py               47      1    98%   58
 /bayesian/bayesian/api_v1.py                638    445    30%   87-94, 139-172, 225-231, 248-274, 287	/bayesian/bayesian/api_v1.py                638    445    30%   87-94, 139-172, 225-231, 248-274, 287
 /bayesian/bayesian/auth.py                   16     12    25%   10-24					/bayesian/bayesian/auth.py                   16     12    25%   10-24
 /bayesian/bayesian/default_config.py         24      0   100%						/bayesian/bayesian/default_config.py         24      0   100%
@@ -9,6 +9,6 @@ Name                                      Stmts   Miss  Cover   Missing					Name
 /bayesian/bayesian/generate_manifest.py      42      0   100%						/bayesian/bayesian/generate_manifest.py      42      0   100%
 /bayesian/bayesian/license_extractor.py      42      0   100%						/bayesian/bayesian/license_extractor.py      42      0   100%
 /bayesian/bayesian/manifest_models.py       136     42    69%   35, 54-56, 69-92, 137-139, 147-155, 2	/bayesian/bayesian/manifest_models.py       136     42    69%   35, 54-56, 69-92, 137-139, 147-155, 2
-/bayesian/bayesian/utils.py                 622    356    43%   56, 67-77, 92-101, 116-130, 139-140, 	/bayesian/bayesian/utils.py                 622    356    43%   56, 67-77, 92-101, 116-130, 139-140, 
+/bayesian/bayesian/utils.py                 622    356    43%   56, 67-77, 92-101, 116-130, 139-140,  |	/bayesian/bayesian/utils.py                 635    352    45%   57, 90-94, 110-119, 134-148, 157-158,
 -----------------------------------------------------------------------					-----------------------------------------------------------------------
-TOTAL                                      1719    958    44%					      |	TOTAL                                      1722    958    44%
+TOTAL                                      1722    958    44%					      |	TOTAL                                      1735    954    45%
