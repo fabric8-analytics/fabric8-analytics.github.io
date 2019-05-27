@@ -1,7 +1,7 @@
 ----------------------------------------------------
 Checking source files for dead code and unused imports
 in following directories:
-src tests
+src tests tools
 ----------------------------------------------------
 
 Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages
@@ -69,6 +69,8 @@ tests/test_classifiers.py
     Pass
 tests/test_extractors.py
     Pass
+tools/check_python_version.py
+    Pass
 ----------------------------------------------------
 Checking following source files for dead code and
 unused imports:
@@ -77,4 +79,4 @@ setup.py
 
 setup.py
     Pass
-All checks passed for 33 source files
+All checks passed for 34 source files

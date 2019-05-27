@@ -1,7 +1,7 @@
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
-f8a_ingestion tests alembic
+f8a_ingestion tests alembic tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -54,6 +54,9 @@ alembic/versions/0194c3a2332e_initial_migration.py
 alembic/env.py
 0
     Pass
+tools/check_python_version.py
+0
+    Pass
 
 ----------------------------------------------------
 Checking documentation strings in the following files
@@ -62,4 +65,4 @@ setup.py
 setup.py
 0
     Pass
-All checks passed for 15 source files
+All checks passed for 16 source files

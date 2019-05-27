@@ -1,6 +1,6 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-src tests
+src tests tools
 ----------------------------------------------------
 
 src/toolkit/pipelines/train.py
@@ -67,6 +67,8 @@ tests/test_classifiers.py
     Pass
 tests/test_extractors.py
     Pass
+tools/check_python_version.py
+    Pass
 
 ----------------------------------------------------
 Running Python linter against selected files:
@@ -74,4 +76,4 @@ setup.py
 ----------------------------------------------------
 setup.py
     Pass
-All checks passed for 33 source files
+All checks passed for 34 source files

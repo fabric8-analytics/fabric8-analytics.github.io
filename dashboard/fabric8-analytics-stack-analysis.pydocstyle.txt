@@ -1,7 +1,7 @@
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
-analytics_platform tagging_platform evaluation_platform util tests
+analytics_platform tagging_platform evaluation_platform util tests tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -10,8 +10,8 @@ Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (2.1.1)
-Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.2.1)
 Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.11.0)
+Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.2.1)
 analytics_platform/__init__.py
 0
     Pass
@@ -285,4 +285,7 @@ tests/unit_tests/test_uranus_companion_outlier_testing.py
 tests/unit_tests/test_apollo_frequency_dict_generator.py
 0
     Pass
-All checks passed for 91 source files
+tools/check_python_version.py
+0
+    Pass
+All checks passed for 92 source files

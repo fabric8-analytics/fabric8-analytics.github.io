@@ -1,7 +1,7 @@
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
-rudra tests
+rudra tests tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -474,6 +474,9 @@ tests/deployments/emr_scripts/test_maven_emr.py:32 in public method `test_run_jo
 tests/conftest.py
 0
     Pass
+tools/check_python_version.py
+0
+    Pass
 
 ----------------------------------------------------
 Checking documentation strings in the following files
@@ -482,4 +485,4 @@ setup.py
 setup.py
 0
     Pass
-Documentation strings should be added and/or fixed in 17 source files out of 41 files
+Documentation strings should be added and/or fixed in 17 source files out of 42 files

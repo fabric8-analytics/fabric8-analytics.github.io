@@ -7,7 +7,7 @@ Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2
 ----------------------------------------------------
 Checking source files for common errors in following
 directories:
-recommendation_engine deployment tests training
+recommendation_engine deployment tests training tools
 ----------------------------------------------------
 
 recommendation_engine/predictor/abstract_recommender.py
@@ -64,4 +64,6 @@ training/datastore/get_keywords.py
     Pass
 training/datastore/preprocess_data.py
     Pass
-All checks passed for 27 source files
+tools/check_python_version.py
+    Pass
+All checks passed for 28 source files

@@ -1,7 +1,7 @@
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
-src tests
+src tests tools
 ----------------------------------------------------
 
 src/toolkit/pipelines/train.py
@@ -100,6 +100,9 @@ tests/test_classifiers.py
 tests/test_extractors.py
 0
     Pass
+tools/check_python_version.py
+0
+    Pass
 
 ----------------------------------------------------
 Checking documentation strings in the following files
@@ -108,4 +111,4 @@ setup.py
 setup.py
 0
     Pass
-All checks passed for 33 source files
+All checks passed for 34 source files

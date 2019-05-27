@@ -1,7 +1,7 @@
 ----------------------------------------------------
 Checking source files for dead code and unused imports
 in following directories:
-f8a_ingestion tests alembic
+f8a_ingestion tests alembic tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -38,6 +38,8 @@ alembic/versions/0194c3a2332e_initial_migration.py
     Pass
 alembic/env.py
     Pass
+tools/check_python_version.py
+    Pass
 ----------------------------------------------------
 Checking following source files for dead code and
 unused imports:
@@ -46,4 +48,4 @@ setup.py
 
 setup.py
     Pass
-All checks passed for 15 source files
+All checks passed for 16 source files

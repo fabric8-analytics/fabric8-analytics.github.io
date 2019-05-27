@@ -1,10 +1,10 @@
 Collecting git+git://github.com/PyCQA/pyflakes@15a35c195e03a4be6192f259b362a9c6734babde
-  Cloning git://github.com/PyCQA/pyflakes (to 15a35c195e03a4be6192f259b362a9c6734babde) to /tmp/pip-o9vydfcg-build
+  Cloning git://github.com/PyCQA/pyflakes (to 15a35c195e03a4be6192f259b362a9c6734babde) to /tmp/pip-arlyn1ob-build
   Requirement already satisfied (use --upgrade to upgrade): pyflakes==2.0.0 from git+git://github.com/PyCQA/pyflakes@15a35c195e03a4be6192f259b362a9c6734babde in ./venv/lib/python3.6/site-packages
 ----------------------------------------------------
 Checking source files for common errors in following
 directories:
-src tests
+src tests tools
 ----------------------------------------------------
 
 src/toolkit/pipelines/train.py
@@ -71,6 +71,8 @@ tests/test_classifiers.py
     Pass
 tests/test_extractors.py
     Pass
+tools/check_python_version.py
+    Pass
 ----------------------------------------------------
 Checking following source files for common errors:
 setup.py
@@ -78,4 +80,4 @@ setup.py
 
 setup.py
     Pass
-All checks passed for 33 source files
+All checks passed for 34 source files

@@ -1,6 +1,6 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-analytics_platform tagging_platform evaluation_platform util tests
+analytics_platform tagging_platform evaluation_platform util tests tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -191,4 +191,6 @@ tests/unit_tests/test_uranus_companion_outlier_testing.py
     Pass
 tests/unit_tests/test_apollo_frequency_dict_generator.py
     Pass
-All checks passed for 91 source files
+tools/check_python_version.py
+    Pass
+All checks passed for 92 source files

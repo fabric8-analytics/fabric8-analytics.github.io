@@ -1,6 +1,6 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-f8a_ingestion tests alembic
+f8a_ingestion tests alembic tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -37,6 +37,8 @@ alembic/versions/0194c3a2332e_initial_migration.py
     Pass
 alembic/env.py
     Pass
+tools/check_python_version.py
+    Pass
 
 ----------------------------------------------------
 Running Python linter against selected files:
@@ -44,4 +46,4 @@ setup.py
 ----------------------------------------------------
 setup.py
     Pass
-All checks passed for 15 source files
+All checks passed for 16 source files
