@@ -9,6 +9,6 @@ Name                                      Stmts   Miss  Cover   Missing					Name
 /bayesian/bayesian/generate_manifest.py      42      0   100%						/bayesian/bayesian/generate_manifest.py      42      0   100%
 /bayesian/bayesian/license_extractor.py      42      0   100%						/bayesian/bayesian/license_extractor.py      42      0   100%
 /bayesian/bayesian/manifest_models.py       136     42    69%   35, 54-56, 69-92, 137-139, 147-155, 2	/bayesian/bayesian/manifest_models.py       136     42    69%   35, 54-56, 69-92, 137-139, 147-155, 2
-/bayesian/bayesian/utils.py                 622    356    43%   56, 67-77, 92-101, 116-130, 139-140,  |	/bayesian/bayesian/utils.py                 635    352    45%   57, 90-94, 110-119, 134-148, 157-158,
+/bayesian/bayesian/utils.py                 635    352    45%   57, 90-94, 110-119, 134-148, 157-158,	/bayesian/bayesian/utils.py                 635    352    45%   57, 90-94, 110-119, 134-148, 157-158,
 -----------------------------------------------------------------------					-----------------------------------------------------------------------
-TOTAL                                      1722    958    44%					      |	TOTAL                                      1735    954    45%
+TOTAL                                      1735    954    45%						TOTAL                                      1735    954    45%

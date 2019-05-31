@@ -1,32 +1,32 @@
-Name                                                             Stmts   Miss  Cover   Missing		Name                                                             Stmts   Miss  Cover   Missing
-----------------------------------------------------------------------------------------------		----------------------------------------------------------------------------------------------
-/recommendation_engine/__init__.py                                   1      0   100%			/recommendation_engine/__init__.py                                   1      0   100%
-/recommendation_engine/autoencoder/__init__.py                       1      1     0%   3		/recommendation_engine/autoencoder/__init__.py                       1      1     0%   3
-/recommendation_engine/autoencoder/common.py                         8      8     0%   3-30		/recommendation_engine/autoencoder/common.py                         8      8     0%   3-30
-/recommendation_engine/autoencoder/pretrain/__init__.py              1      1     0%   3		/recommendation_engine/autoencoder/pretrain/__init__.py              1      1     0%   3
-/recommendation_engine/autoencoder/pretrain/pretrain.py             33     33     0%   3-46		/recommendation_engine/autoencoder/pretrain/pretrain.py             33     33     0%   3-46
-/recommendation_engine/autoencoder/pretrain/pretrain_hidden.py      35     35     0%   3-67		/recommendation_engine/autoencoder/pretrain/pretrain_hidden.py      35     35     0%   3-67
-/recommendation_engine/autoencoder/pretrain/pretrain_latent.py      54     54     0%   2-94		/recommendation_engine/autoencoder/pretrain/pretrain_latent.py      54     54     0%   2-94
-/recommendation_engine/autoencoder/pretrain/pretrain_sdae.py        69     69     0%   3-111		/recommendation_engine/autoencoder/pretrain/pretrain_sdae.py        69     69     0%   3-111
-/recommendation_engine/autoencoder/train/__init__.py                 1      1     0%   3		/recommendation_engine/autoencoder/train/__init__.py                 1      1     0%   3
-/recommendation_engine/autoencoder/train/train.py                   80     80     0%   3-133		/recommendation_engine/autoencoder/train/train.py                   80     80     0%   3-133
-/recommendation_engine/config/__init__.py                            1      0   100%			/recommendation_engine/config/__init__.py                            1      0   100%
-/recommendation_engine/config/cloud_constants.py                     8      0   100%			/recommendation_engine/config/cloud_constants.py                     8      0   100%
-/recommendation_engine/config/params_scoring.py                      8      0   100%			/recommendation_engine/config/params_scoring.py                      8      0   100%
-/recommendation_engine/config/params_training.py                    18     18     0%   3-21		/recommendation_engine/config/params_training.py                    18     18     0%   3-21
-/recommendation_engine/config/path_constants.py                     11      0   100%			/recommendation_engine/config/path_constants.py                     11      0   100%
-/recommendation_engine/config/path_constants_train.py               15     15     0%   2-18		/recommendation_engine/config/path_constants_train.py               15     15     0%   2-18
-/recommendation_engine/data_pipeline/__init__.py                     1      1     0%   3		/recommendation_engine/data_pipeline/__init__.py                     1      1     0%   3
-/recommendation_engine/flask_predict.py                             27     12    56%   36, 49-79	/recommendation_engine/flask_predict.py                             27     12    56%   36, 49-79
-/recommendation_engine/model/__init__.py                             0      0   100%			/recommendation_engine/model/__init__.py                             0      0   100%
-/recommendation_engine/model/pmf_prediction.py                      13      6    54%   35-38, 53-54	/recommendation_engine/model/pmf_prediction.py                      13      6    54%   35-38, 53-54
-/recommendation_engine/pmf/__init__.py                               1      1     0%   3		/recommendation_engine/pmf/__init__.py                               1      1     0%   3
-/recommendation_engine/pmf/train_pmf.py                             77     77     0%   3-157		/recommendation_engine/pmf/train_pmf.py                             77     77     0%   3-157
-/recommendation_engine/predictor/__init__.py                         0      0   100%			/recommendation_engine/predictor/__init__.py                         0      0   100%
-/recommendation_engine/predictor/abstract_recommender.py             5      0   100%			/recommendation_engine/predictor/abstract_recommender.py             5      0   100%
-/recommendation_engine/predictor/online_recommendation.py           90     54    40%   63-64, 85-96, 	/recommendation_engine/predictor/online_recommendation.py           90     54    40%   63-64, 85-96, 
-/recommendation_engine/training_start.py                             1      1     0%   3		/recommendation_engine/training_start.py                             1      1     0%   3
-/recommendation_engine/utils/__init__.py                             0      0   100%			/recommendation_engine/utils/__init__.py                             0      0   100%
-/recommendation_engine/utils/fileutils.py                           20     10    50%   38-44, 54-55, 	/recommendation_engine/utils/fileutils.py                           20     10    50%   38-44, 54-55, 
-----------------------------------------------------------------------------------------------		----------------------------------------------------------------------------------------------
-TOTAL                                                              579    477    18%			TOTAL                                                              579    477    18%
+Name                                                             Stmts   Miss  Cover   Missing	      |	Name                                                        Stmts   Miss  Cover   Missing
+----------------------------------------------------------------------------------------------	      |	-----------------------------------------------------------------------------------------
+/recommendation_engine/__init__.py                                   1      0   100%		      |	/recommendation_engine/__init__.py                              0      0   100%
+/recommendation_engine/autoencoder/__init__.py                       1      1     0%   3	      |	/recommendation_engine/config/__init__.py                       0      0   100%
+/recommendation_engine/autoencoder/common.py                         8      8     0%   3-30	      |	/recommendation_engine/config/cloud_constants.py                8      0   100%
+/recommendation_engine/autoencoder/pretrain/__init__.py              1      1     0%   3	      |	/recommendation_engine/config/params_scoring.py                 8      0   100%
+/recommendation_engine/autoencoder/pretrain/pretrain.py             33     33     0%   3-46	      |	/recommendation_engine/config/path_constants.py                11      0   100%
+/recommendation_engine/autoencoder/pretrain/pretrain_hidden.py      35     35     0%   3-67	      |	/recommendation_engine/flask_predict.py                        27      8    70%   36, 52, 58, 65-76
+/recommendation_engine/autoencoder/pretrain/pretrain_latent.py      54     54     0%   2-94	      |	/recommendation_engine/model/__init__.py                        0      0   100%
+/recommendation_engine/autoencoder/pretrain/pretrain_sdae.py        69     69     0%   3-111	      |	/recommendation_engine/model/pmf_prediction.py                 13      6    54%   35-38, 53-54
+/recommendation_engine/autoencoder/train/__init__.py                 1      1     0%   3	      |	/recommendation_engine/predictor/__init__.py                    0      0   100%
+/recommendation_engine/autoencoder/train/train.py                   80     80     0%   3-133	      |	/recommendation_engine/predictor/abstract_recommender.py        5      0   100%
+/recommendation_engine/config/__init__.py                            1      0   100%		      |	/recommendation_engine/predictor/online_recommendation.py      90     52    42%   85-96, 99, 103-156
+/recommendation_engine/config/cloud_constants.py                     8      0   100%		      |	/recommendation_engine/utils/__init__.py                        0      0   100%
+/recommendation_engine/config/params_scoring.py                      8      0   100%		      |	/recommendation_engine/utils/fileutils.py                      18      2    89%   57-58
+/recommendation_engine/config/params_training.py                    18     18     0%   3-21	      |	-----------------------------------------------------------------------------------------
+/recommendation_engine/config/path_constants.py                     11      0   100%		      |	TOTAL                                                         180     68    62%
+/recommendation_engine/config/path_constants_train.py               15     15     0%   2-18	      <
+/recommendation_engine/data_pipeline/__init__.py                     1      1     0%   3	      <
+/recommendation_engine/flask_predict.py                             27     12    56%   36, 49-79      <
+/recommendation_engine/model/__init__.py                             0      0   100%		      <
+/recommendation_engine/model/pmf_prediction.py                      13      6    54%   35-38, 53-54   <
+/recommendation_engine/pmf/__init__.py                               1      1     0%   3	      <
+/recommendation_engine/pmf/train_pmf.py                             77     77     0%   3-157	      <
+/recommendation_engine/predictor/__init__.py                         0      0   100%		      <
+/recommendation_engine/predictor/abstract_recommender.py             5      0   100%		      <
+/recommendation_engine/predictor/online_recommendation.py           90     54    40%   63-64, 85-96,  <
+/recommendation_engine/training_start.py                             1      1     0%   3	      <
+/recommendation_engine/utils/__init__.py                             0      0   100%		      <
+/recommendation_engine/utils/fileutils.py                           20     10    50%   38-44, 54-55,  <
+----------------------------------------------------------------------------------------------	      <
+TOTAL                                                              579    477    18%		      <
