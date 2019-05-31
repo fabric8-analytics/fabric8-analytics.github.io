@@ -39,10 +39,11 @@ baf/src/setup.py
     F 90:0 get_input_file - A (2)
     F 22:0 read_url_from_env_var - A (1)
 baf/src/fuzzer.py
-    F 216:0 run_test - B (9)
     F 85:0 run_tests_with_removed_items - A (5)
     F 140:0 run_tests_with_added_items - A (5)
     F 157:0 run_tests_with_changed_items - A (5)
+    F 216:0 run_all_setup_tests - A (5)
+    F 241:0 run_test - A (5)
     F 47:0 perform_test - A (4)
     F 180:0 get_fuzzer_setting - A (4)
     F 69:0 run_tests_with_removed_items_one_iteration - A (3)
@@ -994,10 +995,13 @@ job-checker/src/config.py
     M 72:4 Config.get_overall_code_coverage_threshold - A (1)
     M 82:4 Config.get_repo_with_history_data - A (1)
 e2e_tests_bot/src/ci_jobs.py
-    F 27:0 read_build_history - B (8)
-    F 58:0 read_build_cause - A (4)
+    F 73:0 read_build_cause - A (4)
     F 14:0 remove_prefix - A (3)
-    F 73:0 read_changes - A (3)
+    F 35:0 get_total_builds - A (3)
+    F 40:0 get_success_builds - A (3)
+    F 45:0 read_build_history - A (3)
+    F 88:0 read_changes - A (3)
+    F 27:0 log_builds - A (2)
     F 9:0 construct_job_url - A (1)
     F 22:0 jenkins_api_query_build_statuses - A (1)
 e2e_tests_bot/src/config.py
@@ -1410,13 +1414,15 @@ perf-tests/src/gremlin_package_generator.py
     M 55:4 GremlinPackageGenerator.package_generator_for_ecosystem - A (2)
     M 65:4 GremlinPackageGenerator.package_version_generator_for_ecosystem - A (2)
 vscode-visual-tests/features/src/gui.py
-    F 64:0 perform_find_the_region - B (7)
-    F 19:0 perform_click_on_the_region - A (3)
+    F 77:0 perform_find_the_region - A (4)
+    F 50:0 entry_region_check - A (3)
+    F 56:0 filename_for_region - A (3)
+    F 66:0 save_screenshot - A (3)
     F 13:0 perform_move_mouse_cursor - A (2)
-    F 45:0 filename_for_region - A (2)
-    F 54:0 save_screenshot - A (2)
-    F 32:0 perform_type - A (1)
-    F 37:0 region_filename_in_directory - A (1)
+    F 19:0 check_location_existence - A (2)
+    F 24:0 perform_click_on_the_region - A (2)
+    F 37:0 perform_type - A (1)
+    F 42:0 region_filename_in_directory - A (1)
 vscode-visual-tests/features/src/ps.py
     F 6:0 get_process_list - A (4)
 vscode-visual-tests/features/steps/vscode.py
@@ -1452,6 +1458,6 @@ vscode-visual-tests/features/steps/common.py
     F 55:0 start_visual_studion_code - A (1)
     F 63:0 pause_scenario_execution - A (1)
 
-1325 blocks (classes, functions, methods) analyzed.
-Average complexity: A (2.321509433962264)
+1331 blocks (classes, functions, methods) analyzed.
+Average complexity: A (2.3163035311795643)
 </pre>
