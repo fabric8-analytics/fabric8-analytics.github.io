@@ -1,7 +1,7 @@
 Repository,Statements,Missed,Coverage,Threshold,Pass?
 fabric8-analytics-common,N/A,N/A,N/A,90%,no
 fabric8-analytics-server,1735,954,45%,90%,no
-fabric8-analytics-worker,5384,1891,65%,90%,no
+fabric8-analytics-worker,5384,1890,65%,90%,no
 fabric8-analytics-jobs,1994,1526,23%,90%,no
 fabric8-analytics-tagger,887,38,96%,90%,yes
 fabric8-analytics-stack-analysis,2118,1029,51%,90%,no
@@ -19,7 +19,7 @@ fabric8-analytics-notification-scheduler,554,190,66%,90%,no
 fabric8-analytics-utils,280,1,99%,90%,yes
 fabric8-analytics-github-refresh-cronjob,70,6,91%,90%,yes
 fabric8-analytics-github-events-monitor,230,20,91%,90%,yes
-fabric8-analytics-release-monitor,127,20,84%,90%,no
+fabric8-analytics-release-monitor,126,21,83%,90%,no
 f8a-server-backbone,815,88,89%,90%,no
 fabric8-analytics-rudra,N/A,N/A,N/A,90%,no
 f8a-hpf-insights,162,16,90%,90%,yes
