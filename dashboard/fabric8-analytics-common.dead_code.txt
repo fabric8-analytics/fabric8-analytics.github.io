@@ -278,6 +278,8 @@ vscode-visual-tests/features/steps/ui_checks.py
     Pass
 vscode-visual-tests/features/steps/common.py
     Pass
+vscode-visual-tests/features/environment.py
+    Pass
 a2t/src/auth.py
     Pass
 a2t/src/csv_reader.py
@@ -304,4 +306,4 @@ a2t/src/test_runner.py
     Pass
 tools/check_python_version.py
     Pass
-All checks passed for 147 source files
+All checks passed for 148 source files
