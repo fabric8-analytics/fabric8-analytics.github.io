@@ -1,6 +1,6 @@
 Repository,Source files,,Linter results,,,Pydocstyle results,,,Code coverage,,,Dead code,Common issues,Cyclomatic complexity,,,,,,,Maintainability index,,,,Overall status
 ,Files,Total lines,Pass,Fail,Pass %,Pass,Fail,Pass %,Statements,Missed,Coverage,,,A,B,C,D,E,F,OK?,A,B,C,OK?,
-fabric8-analytics-common,154,19320,154,0,100%,154,0,100%,N/A,N/A,N/A,0,0,1311,60,0,0,0,0,yes,154,0,0,yes,failure(s) found
+fabric8-analytics-common,154,19373,154,0,100%,154,0,100%,N/A,N/A,N/A,0,0,1315,60,0,0,0,0,yes,154,0,0,yes,failure(s) found
 fabric8-analytics-server,23,4781,23,0,100%,23,0,100%,1758,958,46%,0,0,209,31,10,1,0,0,no,21,2,0,no,failure(s) found
 fabric8-analytics-worker,170,15828,170,0,100%,169,0,100%,5384,1890,65%,0,0,830,84,8,1,0,0,no,170,0,0,yes,failure(s) found
 fabric8-analytics-jobs,65,4635,65,0,100%,65,0,100%,1994,1526,23%,0,0,269,31,6,0,0,0,yes,65,0,0,yes,failure(s) found
