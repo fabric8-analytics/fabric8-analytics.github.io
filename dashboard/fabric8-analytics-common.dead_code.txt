@@ -268,6 +268,8 @@ e2e_tests_bot/src/e2e_tests_checker.py
     Pass
 e2e_tests_bot/src/mm_client.py
     Pass
+vscode-visual-tests/features/src/litava.py
+    Pass
 vscode-visual-tests/features/src/gui.py
     Pass
 vscode-visual-tests/features/src/ps.py
@@ -306,4 +308,4 @@ a2t/src/test_runner.py
     Pass
 tools/check_python_version.py
     Pass
-All checks passed for 148 source files
+All checks passed for 149 source files
