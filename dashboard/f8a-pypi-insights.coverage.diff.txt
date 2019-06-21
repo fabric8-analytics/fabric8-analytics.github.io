@@ -6,6 +6,6 @@ Name                             Stmts   Miss  Cover   Missing						Name        
 /src/config/path_constants.py       11      0   100%							/src/config/path_constants.py       11      0   100%
 /src/models/__init__.py              0      0   100%							/src/models/__init__.py              0      0   100%
 /src/models/predict_model.py        91     69    24%   48-53, 57, 61, 65, 69, 77-88, 96-105, 113-118,	/src/models/predict_model.py        91     69    24%   48-53, 57, 61, 65, 69, 77-88, 96-105, 113-118,
-/src/recommendation_service.py      38      3    92%   41-44, 90					/src/recommendation_service.py      38      3    92%   41-44, 90
+/src/recommendation_service.py      38      3    92%   41-44, 90				      |	/src/recommendation_service.py      38      3    92%   35-38, 90
 --------------------------------------------------------------						--------------------------------------------------------------
 TOTAL                              150     72    52%							TOTAL                              150     72    52%
