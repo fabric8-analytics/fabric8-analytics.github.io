@@ -1,13 +1,13 @@
 Repository,Source files,,Linter results,,,Pydocstyle results,,,Code coverage,,,Dead code,Common issues,Cyclomatic complexity,,,,,,,Maintainability index,,,,Overall status
 ,Files,Total lines,Pass,Fail,Pass %,Pass,Fail,Pass %,Statements,Missed,Coverage,,,A,B,C,D,E,F,OK?,A,B,C,OK?,
-fabric8-analytics-common,155,19604,155,0,100%,155,0,100%,N/A,N/A,N/A,0,0,1330,63,0,0,0,0,yes,155,0,0,yes,failure(s) found
-fabric8-analytics-server,23,4781,23,0,100%,23,0,100%,1763,926,47%,0,0,209,31,10,1,0,0,no,21,2,0,no,failure(s) found
+fabric8-analytics-common,155,19666,155,0,100%,155,0,100%,N/A,N/A,N/A,0,0,1335,61,0,0,0,0,yes,155,0,0,yes,failure(s) found
+fabric8-analytics-server,23,4781,23,0,100%,23,0,100%,1758,958,46%,0,0,209,31,10,1,0,0,no,21,2,0,no,failure(s) found
 fabric8-analytics-worker,170,15828,170,0,100%,169,0,100%,5384,1890,65%,0,0,830,84,8,1,0,0,no,170,0,0,yes,failure(s) found
 fabric8-analytics-jobs,65,4635,65,0,100%,65,0,100%,1994,1526,23%,0,0,269,31,6,0,0,0,yes,65,0,0,yes,failure(s) found
 fabric8-analytics-tagger,44,4178,44,0,100%,44,0,100%,887,38,96%,0,0,241,31,14,0,0,0,yes,44,0,0,yes,ok
 fabric8-analytics-stack-analysis,92,5531,92,0,100%,92,0,100%,2118,1029,51%,0,0,260,17,3,0,0,0,yes,92,0,0,yes,failure(s) found
 fabric8-analytics-license-analysis,28,3606,28,0,100%,28,0,100%,834,53,94%,0,0,195,26,13,1,0,0,no,28,0,0,yes,failure(s) found
-fabric8-analytics-data-model,27,3849,27,0,100%,27,0,100%,1073,55,95%,0,0,142,33,6,1,1,0,no,27,0,0,yes,failure(s) found
+fabric8-analytics-data-model,27,3849,27,0,100%,27,0,100%,1075,55,95%,0,0,142,33,6,1,1,0,no,27,0,0,yes,failure(s) found
 fabric8-analytics-recommender,17,1052,17,0,100%,17,0,100%,N/A,N/A,N/A,0,0,62,4,0,0,0,0,yes,17,0,0,yes,failure(s) found
 fabric8-analytics-api-gateway,10,453,10,0,100%,10,0,100%,149,69,54%,0,0,27,1,0,0,0,0,yes,10,0,0,yes,failure(s) found
 fabric8-analytics-nvd-toolkit,34,5151,34,0,100%,34,0,100%,1042,93,91%,0,0,222,24,2,0,0,0,yes,34,0,0,yes,ok
@@ -21,7 +21,7 @@ fabric8-analytics-utils,10,1033,10,0,100%,10,0,100%,280,1,99%,0,0,50,11,2,0,0,0,
 fabric8-analytics-github-refresh-cronjob,4,216,4,0,100%,4,0,100%,70,6,91%,0,0,13,0,0,0,0,0,yes,4,0,0,yes,ok
 fabric8-analytics-github-events-monitor,15,1175,15,0,100%,15,0,100%,230,20,91%,0,0,58,7,0,0,0,0,yes,15,0,0,yes,ok
 fabric8-analytics-release-monitor,10,819,10,0,100%,10,0,100%,126,21,83%,0,0,51,1,0,0,0,0,yes,10,0,0,yes,failure(s) found
-f8a-server-backbone,12,2659,12,0,100%,12,0,100%,815,88,89%,0,0,84,16,5,0,0,0,yes,12,0,0,yes,failure(s) found
+f8a-server-backbone,12,2659,12,0,100%,12,0,100%,820,88,89%,0,0,84,16,5,0,0,0,yes,12,0,0,yes,failure(s) found
 fabric8-analytics-rudra,43,3309,41,1,98%,25,17,60%,N/A,N/A,N/A,2,1,251,31,2,0,0,0,yes,43,0,0,yes,failure(s) found
 f8a-hpf-insights,18,1077,18,0,100%,18,0,100%,162,16,90%,0,0,63,3,0,0,0,0,yes,18,0,0,yes,ok
 f8a-golang-insights,16,974,16,0,100%,16,0,100%,222,108,51%,0,0,48,4,1,0,0,0,yes,16,0,0,yes,failure(s) found
