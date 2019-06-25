@@ -11,7 +11,7 @@ fabric8-analytics-recommender,N/A,N/A,N/A,90%,no
 fabric8-analytics-api-gateway,149,69,54%,90%,no
 fabric8-analytics-nvd-toolkit,1042,93,91%,90%,yes
 fabric8-analytics-auth,154,31,80%,90%,no
-fabric8-gemini-server,575,48,92%,90%,yes
+fabric8-gemini-server,609,48,92%,90%,yes
 fabric8-analytics-version-comparator,217,0,100%,90%,yes
 fabric8-analytics-ingestion,228,107,53%,90%,no
 fabric8-analytics-npm-insights,180,68,62%,90%,no
