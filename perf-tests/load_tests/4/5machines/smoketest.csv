@@ -1,0 +1,17 @@
+System family,posix
+System,Linux
+Version,5.0.10-200.fc29.x86_64
+Python,3.7
+Path to interpret,/usr/bin/python3
+
+Name,Component analysis,Stack analysis,Python payload,Maven payload,NPM payload,Improper payload,Mix payloads,Check responses,Export responses,Comment
+smoketest,1,1,yes,yes,yes,yes,yes,no,no,set of smoke tests
+
+Start time,1557151009.4675796
+End time,1557151027.336207
+Duration,17.868627309799194
+
+#,Test name,Method,Ecosystem,Package,Version,Manifest,Thread#,Status code,Start time,End time,Duration
+1,component_analysis,GET,maven,io.vertx:vertx-stack,3.6.2,N/A,0,202,1557151009.4683414,1557151010.3810012,0.9126598834991455
+2,stack_analysis,POST,pypi,N/A,N/A,pytest_2_0_1.txt,0,200,1557151009.4712543,1557151010.4502783,0.9790239334106445
+3,stack_analysis,GET,pypi,N/A,N/A,pytest_2_0_1.txt,0,200,1557151010.4502783,1557151027.335289,16.885010719299316

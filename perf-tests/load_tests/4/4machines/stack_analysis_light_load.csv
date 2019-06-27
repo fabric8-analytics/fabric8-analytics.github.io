@@ -1,0 +1,34 @@
+System family,posix
+System,Linux
+Version,5.0.10-200.fc29.x86_64
+Python,3.7
+Path to interpret,/usr/bin/python3
+
+Name,Component analysis,Stack analysis,Python payload,Maven payload,NPM payload,Improper payload,Mix payloads,Check responses,Export responses,Comment
+stack analysis light load,0,10,yes,yes,yes,no,no,no,yes,stack analysis tests with light load
+
+Start time,1557150196.5880663
+End time,1557150214.533193
+Duration,17.94512677192688
+
+#,Test name,Method,Ecosystem,Package,Version,Manifest,Thread#,Status code,Start time,End time,Duration
+1,stack_analysis,POST,npm,N/A,N/A,underscore.json,8,200,1557150196.6132762,1557150197.8739195,1.2606432437896729
+2,stack_analysis,GET,npm,N/A,N/A,underscore.json,8,200,1557150197.8739195,1557150198.3823733,0.5084538459777832
+3,stack_analysis,POST,npm,N/A,N/A,dependency_array.json,3,200,1557150196.6008737,1557150197.8620012,1.2611274719238281
+4,stack_analysis,GET,npm,N/A,N/A,dependency_array.json,3,200,1557150197.8620012,1557150198.531176,0.6691749095916748
+5,stack_analysis,POST,pypi,N/A,N/A,requests_2_20_1.txt,7,200,1557150196.6112115,1557150197.3308792,0.7196676731109619
+6,stack_analysis,GET,pypi,N/A,N/A,requests_2_20_1.txt,7,200,1557150197.3308792,1557150214.1418583,16.81097912788391
+7,stack_analysis,POST,pypi,N/A,N/A,pyglet_latest.txt,2,200,1557150196.5980387,1557150197.4929607,0.8949220180511475
+8,stack_analysis,GET,pypi,N/A,N/A,pyglet_latest.txt,2,200,1557150197.4929607,1557150214.1444528,16.65149211883545
+9,stack_analysis,POST,pypi,N/A,N/A,pytest_latest.txt,4,200,1557150196.6036618,1557150197.3650591,0.7613973617553711
+10,stack_analysis,GET,pypi,N/A,N/A,pytest_latest.txt,4,200,1557150197.3650591,1557150214.1447053,16.779646158218384
+11,stack_analysis,POST,pypi,N/A,N/A,numpy_scipy.txt,5,200,1557150196.6058338,1557150197.7154152,1.109581470489502
+12,stack_analysis,GET,pypi,N/A,N/A,numpy_scipy.txt,5,200,1557150197.7154152,1557150214.3258185,16.610403299331665
+13,stack_analysis,POST,maven,N/A,N/A,clojure_1_6_0.xml,0,200,1557150196.58972,1557150197.7322783,1.1425583362579346
+14,stack_analysis,GET,maven,N/A,N/A,clojure_1_6_0.xml,0,200,1557150197.7322783,1557150214.350059,16.617780685424805
+15,stack_analysis,POST,maven,N/A,N/A,clojure_junit.xml,9,200,1557150196.6153717,1557150197.7385817,1.1232099533081055
+16,stack_analysis,GET,maven,N/A,N/A,clojure_junit.xml,9,200,1557150197.7385817,1557150214.350456,16.61187434196472
+17,stack_analysis,POST,npm,N/A,N/A,dependency_vue_to_function.json,6,200,1557150196.6091328,1557150197.8064957,1.1973628997802734
+18,stack_analysis,GET,npm,N/A,N/A,dependency_vue_to_function.json,6,200,1557150197.8064957,1557150214.5316746,16.725178956985474
+19,stack_analysis,POST,npm,N/A,N/A,dependency_jquery.json,1,200,1557150196.5950398,1557150197.9775624,1.3825225830078125
+20,stack_analysis,GET,npm,N/A,N/A,dependency_jquery.json,1,200,1557150197.9775624,1557150214.5323844,16.554821968078613

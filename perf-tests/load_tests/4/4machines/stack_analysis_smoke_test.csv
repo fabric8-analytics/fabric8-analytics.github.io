@@ -1,0 +1,16 @@
+System family,posix
+System,Linux
+Version,5.0.10-200.fc29.x86_64
+Python,3.7
+Path to interpret,/usr/bin/python3
+
+Name,Component analysis,Stack analysis,Python payload,Maven payload,NPM payload,Improper payload,Mix payloads,Check responses,Export responses,Comment
+stack analysis smoke test,0,1,yes,yes,yes,no,no,no,yes,"stack analysis smoke tests, just check if API responds"
+
+Start time,1557149515.3192737
+End time,1557150196.5836258
+Duration,681.2643520832062
+
+#,Test name,Method,Ecosystem,Package,Version,Manifest,Thread#,Status code,Start time,End time,Duration
+1,stack_analysis,POST,maven,N/A,N/A,clojure_1_7_0.xml,0,200,1557149515.319842,1557149521.1984203,5.878578186035156
+2,stack_analysis,GET,maven,N/A,N/A,clojure_1_7_0.xml,0,Timeout waiting for the stack analysis results,1557149521.1984203,1557150196.5808218,675.3824014663696
