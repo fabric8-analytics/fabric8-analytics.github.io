@@ -1,0 +1,34 @@
+System family,posix
+System,Linux
+Version,5.0.8-200.fc29.x86_64
+Python,3.7
+Path to interpret,/usr/bin/python3
+
+Name,Component analysis,Stack analysis,Python payload,Maven payload,NPM payload,Improper payload,Mix payloads,Check responses,Export responses,Comment
+stack analysis light load,0,10,yes,yes,yes,no,no,no,yes,stack analysis tests with light load
+
+Start time,1557149612.897147
+End time,1557150251.3850918
+Duration,638.4879448413849
+
+#,Test name,Method,Ecosystem,Package,Version,Manifest,Thread#,Status code,Start time,End time,Duration
+1,stack_analysis,POST,pypi,N/A,N/A,array_split.txt,1,200,1557149612.900494,1557149613.9249501,1.0244560241699219
+2,stack_analysis,GET,pypi,N/A,N/A,array_split.txt,1,200,1557149613.9249501,1557149615.9959636,2.0710134506225586
+3,stack_analysis,POST,npm,N/A,N/A,dependency_to_function.json,8,200,1557149612.915437,1557149613.743898,0.8284609317779541
+4,stack_analysis,GET,npm,N/A,N/A,dependency_to_function.json,8,200,1557149613.743898,1557149629.9776669,16.233768939971924
+5,stack_analysis,POST,pypi,N/A,N/A,dash_latest.txt,5,200,1557149612.9090664,1557149613.7533238,0.8442573547363281
+6,stack_analysis,GET,pypi,N/A,N/A,dash_latest.txt,5,200,1557149613.7533238,1557149645.6924942,31.939170360565186
+7,stack_analysis,POST,npm,N/A,N/A,dependency_vue.json,9,200,1557149612.9173605,1557149614.0673804,1.150019884109497
+8,stack_analysis,GET,npm,N/A,N/A,dependency_vue.json,9,200,1557149614.0673804,1557149646.0392401,31.97185969352722
+9,stack_analysis,POST,npm,N/A,N/A,dependency_underscore.json,2,200,1557149612.9028625,1557149615.948496,3.045633554458618
+10,stack_analysis,GET,npm,N/A,N/A,dependency_underscore.json,2,200,1557149615.948496,1557149652.6893597,36.74086356163025
+11,stack_analysis,POST,pypi,N/A,N/A,requests_2_20_1.txt,0,200,1557149612.8979108,1557149613.7618337,0.8639228343963623
+12,stack_analysis,GET,pypi,N/A,N/A,requests_2_20_1.txt,0,200,1557149613.7618337,1557149653.0275943,39.26576066017151
+13,stack_analysis,POST,npm,N/A,N/A,dependency_underscore.json,3,200,1557149612.9050858,1557149637.3287632,24.423677444458008
+14,stack_analysis,GET,npm,N/A,N/A,dependency_underscore.json,3,200,1557149637.3287632,1557149684.5956154,47.266852140426636
+15,stack_analysis,POST,pypi,N/A,N/A,pygame_latest.txt,6,200,1557149612.9115002,1557149613.5935748,0.6820745468139648
+16,stack_analysis,GET,pypi,N/A,N/A,pygame_latest.txt,6,200,1557149613.5935748,1557149739.253579,125.66000413894653
+17,stack_analysis,POST,npm,N/A,N/A,dependency_lodash.json,7,200,1557149612.9134598,1557149614.0816991,1.1682393550872803
+18,stack_analysis,GET,npm,N/A,N/A,dependency_lodash.json,7,Timeout waiting for the stack analysis results,1557149614.0816991,1557150251.3428524,637.2611532211304
+19,stack_analysis,POST,npm,N/A,N/A,dependency_vue.json,4,200,1557149612.907089,1557149614.045671,1.1385819911956787
+20,stack_analysis,GET,npm,N/A,N/A,dependency_vue.json,4,Timeout waiting for the stack analysis results,1557149614.045671,1557150251.382197,637.3365259170532

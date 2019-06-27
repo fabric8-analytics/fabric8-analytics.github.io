@@ -1,0 +1,44 @@
+System family,posix
+System,Linux
+Version,5.0.8-200.fc29.x86_64
+Python,3.7
+Path to interpret,/usr/bin/python3
+
+Name,Component analysis,Stack analysis,Python payload,Maven payload,NPM payload,Improper payload,Mix payloads,Check responses,Export responses,Comment
+heavy,10,10,yes,yes,yes,yes,yes,no,no,set of normal tests
+
+Start time,1557143668.6307209
+End time,1557144295.5475843
+Duration,626.9168634414673
+
+#,Test name,Method,Ecosystem,Package,Version,Manifest,Thread#,Status code,Start time,End time,Duration
+1,component_analysis,GET,npm,mocha,5.1.1,N/A,8,200,1557143668.6461987,1557143669.690072,1.0438733100891113
+2,component_analysis,GET,maven,io.vertx:vertx-core,3.5.1,N/A,0,200,1557143668.631376,1557143669.763811,1.1324350833892822
+3,component_analysis,GET,maven,io.vertx:vertx-core,3.0.0-milestone4,N/A,4,200,1557143668.6395662,1557143669.861355,1.2217888832092285
+4,component_analysis,GET,maven,io.vertx:vertx-core,2.1.1,N/A,9,200,1557143668.6479003,1557143669.9499512,1.3020508289337158
+5,component_analysis,GET,pypi,ansicolors,1.1.8,N/A,7,200,1557143668.6446397,1557143670.1946945,1.5500547885894775
+6,stack_analysis,POST,npm,N/A,N/A,dependency_array.json,4,200,1557143668.6589894,1557143669.6507485,0.9917590618133545
+7,stack_analysis,GET,npm,N/A,N/A,dependency_array.json,4,200,1557143669.6507485,1557143670.4391513,0.788402795791626
+8,component_analysis,GET,npm,jquery,2.1.0-beta3,N/A,6,200,1557143668.6427507,1557143670.4626334,1.8198826313018799
+9,component_analysis,GET,pypi,six,1.4.0,N/A,1,202,1557143668.6338897,1557143670.650428,2.016538381576538
+10,component_analysis,GET,maven,io.vertx:vertx-core,3.3.0,N/A,2,200,1557143668.636228,1557143670.9267826,2.2905545234680176
+11,component_analysis,GET,npm,jquery,3.0.0-rc1,N/A,3,200,1557143668.6379151,1557143670.976823,2.3389079570770264
+12,component_analysis,GET,npm,jquery,1.12.0,N/A,5,200,1557143668.6410873,1557143671.051201,2.41011381149292
+13,stack_analysis,POST,npm,N/A,N/A,no_requirements.json,9,200,1557143668.6721857,1557143670.570042,1.8978562355041504
+14,stack_analysis,GET,npm,N/A,N/A,no_requirements.json,9,200,1557143670.570042,1557143671.3191817,0.7491397857666016
+15,stack_analysis,POST,pypi,N/A,N/A,numpy_latest.txt,7,200,1557143668.6668239,1557143669.4123802,0.7455563545227051
+16,stack_analysis,GET,pypi,N/A,N/A,numpy_latest.txt,7,200,1557143669.4123802,1557143686.1844614,16.77208113670349
+17,stack_analysis,POST,pypi,N/A,N/A,pudb_latest.txt,5,200,1557143668.6615388,1557143669.5405092,0.8789703845977783
+18,stack_analysis,GET,pypi,N/A,N/A,pudb_latest.txt,5,200,1557143669.5405092,1557143686.3820217,16.841512441635132
+19,stack_analysis,POST,pypi,N/A,N/A,pytest_2_0_1.txt,1,200,1557143668.6518717,1557143669.862237,1.2103652954101562
+20,stack_analysis,GET,pypi,N/A,N/A,pytest_2_0_1.txt,1,200,1557143669.862237,1557143686.4528272,16.590590238571167
+21,stack_analysis,POST,maven,N/A,N/A,clojure_1_6_0.xml,3,200,1557143668.6566045,1557143669.8047943,1.1481897830963135
+22,stack_analysis,GET,maven,N/A,N/A,clojure_1_6_0.xml,3,200,1557143669.8047943,1557143686.555801,16.751006603240967
+23,stack_analysis,POST,pypi,N/A,N/A,numpy_1_12_0.txt,2,200,1557143668.6541183,1557143670.4599445,1.805826187133789
+24,stack_analysis,GET,pypi,N/A,N/A,numpy_1_12_0.txt,2,200,1557143670.4599445,1557143686.7231882,16.263243675231934
+25,stack_analysis,POST,pypi,N/A,N/A,numpy_latest.txt,0,200,1557143668.649621,1557143670.3363826,1.6867616176605225
+26,stack_analysis,GET,pypi,N/A,N/A,numpy_latest.txt,0,200,1557143670.3363826,1557143686.7850866,16.44870400428772
+27,stack_analysis,POST,npm,N/A,N/A,mocha.json,6,200,1557143668.664358,1557143672.2686229,3.604264974594116
+28,stack_analysis,GET,npm,N/A,N/A,mocha.json,6,200,1557143672.2686229,1557143688.674613,16.40599012374878
+29,stack_analysis,POST,npm,N/A,N/A,dependency_underscore.json,8,200,1557143668.6695633,1557143669.9926515,1.3230881690979004
+30,stack_analysis,GET,npm,N/A,N/A,dependency_underscore.json,8,Timeout waiting for the stack analysis results,1557143669.9926515,1557144295.5440998,625.5514483451843

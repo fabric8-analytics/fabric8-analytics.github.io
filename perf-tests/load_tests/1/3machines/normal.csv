@@ -1,0 +1,29 @@
+System family,posix
+System,Linux
+Version,5.0.8-200.fc29.x86_64
+Python,3.7
+Path to interpret,/usr/bin/python3
+
+Name,Component analysis,Stack analysis,Python payload,Maven payload,NPM payload,Improper payload,Mix payloads,Check responses,Export responses,Comment
+normal,5,5,yes,yes,yes,yes,yes,no,no,set of normal tests
+
+Start time,1557145268.1236095
+End time,1557145285.6809866
+Duration,17.557377099990845
+
+#,Test name,Method,Ecosystem,Package,Version,Manifest,Thread#,Status code,Start time,End time,Duration
+1,component_analysis,GET,npm,mocha,2.5.3,N/A,0,200,1557145268.124167,1557145268.9257624,0.8015954494476318
+2,component_analysis,GET,pypi,numpy,1.11.3,N/A,4,200,1557145268.1319482,1557145269.6565478,1.524599552154541
+3,component_analysis,GET,pypi,numpy,1.13.1,N/A,3,200,1557145268.1302433,1557145269.6646492,1.5344059467315674
+4,component_analysis,GET,npm,mocha,2.4.2,N/A,1,200,1557145268.1267173,1557145270.162474,2.0357565879821777
+5,component_analysis,GET,maven,org.json:json,20170516,N/A,2,200,1557145268.1285512,1557145270.7127519,2.584200620651245
+6,stack_analysis,POST,npm,N/A,N/A,no_requirements.json,3,200,1557145268.1405492,1557145268.879025,0.7384757995605469
+7,stack_analysis,GET,npm,N/A,N/A,no_requirements.json,3,200,1557145268.879025,1557145285.1176138,16.23858880996704
+8,stack_analysis,POST,pypi,N/A,N/A,numpy_latest.txt,2,200,1557145268.1382296,1557145269.0896733,0.9514436721801758
+9,stack_analysis,GET,pypi,N/A,N/A,numpy_latest.txt,2,200,1557145269.0896733,1557145285.2769344,16.18726110458374
+10,stack_analysis,POST,maven,N/A,N/A,clojure_1_6_0.xml,0,200,1557145268.1336892,1557145269.175817,1.0421278476715088
+11,stack_analysis,GET,maven,N/A,N/A,clojure_1_6_0.xml,0,200,1557145269.175817,1557145285.3788893,16.20307230949402
+12,stack_analysis,POST,npm,N/A,N/A,array.json,1,200,1557145268.1360576,1557145269.5139406,1.377882957458496
+13,stack_analysis,GET,npm,N/A,N/A,array.json,1,200,1557145269.5139406,1557145285.680055,16.166114330291748
+14,stack_analysis,POST,pypi,N/A,N/A,numpy_1_16_2.txt,4,200,1557145268.1427953,1557145269.4741254,1.3313300609588623
+15,stack_analysis,GET,pypi,N/A,N/A,numpy_1_16_2.txt,4,200,1557145269.4741254,1557145285.6805284,16.206403017044067
