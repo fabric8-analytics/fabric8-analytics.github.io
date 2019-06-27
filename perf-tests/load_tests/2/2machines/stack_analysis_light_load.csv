@@ -1,0 +1,34 @@
+System family,posix
+System,Linux
+Version,5.0.8-200.fc29.x86_64
+Python,3.7
+Path to interpret,/usr/bin/python3
+
+Name,Component analysis,Stack analysis,Python payload,Maven payload,NPM payload,Improper payload,Mix payloads,Check responses,Export responses,Comment
+stack analysis light load,0,10,yes,yes,yes,no,no,no,yes,stack analysis tests with light load
+
+Start time,1557143792.177988
+End time,1557143809.842753
+Duration,17.664764881134033
+
+#,Test name,Method,Ecosystem,Package,Version,Manifest,Thread#,Status code,Start time,End time,Duration
+1,stack_analysis,POST,npm,N/A,N/A,underscore.json,0,200,1557143792.178802,1557143793.1073568,0.9285547733306885
+2,stack_analysis,GET,npm,N/A,N/A,underscore.json,0,200,1557143793.1073568,1557143793.6478636,0.5405068397521973
+3,stack_analysis,POST,npm,N/A,N/A,no_requirements.json,4,200,1557143792.1938481,1557143793.274612,1.080763816833496
+4,stack_analysis,GET,npm,N/A,N/A,no_requirements.json,4,200,1557143793.274612,1557143794.0234416,0.7488296031951904
+5,stack_analysis,POST,npm,N/A,N/A,dependency_jquery.json,7,200,1557143792.2062213,1557143792.9007144,0.6944930553436279
+6,stack_analysis,GET,npm,N/A,N/A,dependency_jquery.json,7,200,1557143792.9007144,1557143809.0433517,16.142637252807617
+7,stack_analysis,POST,pypi,N/A,N/A,pyglet_latest.txt,3,200,1557143792.1920278,1557143792.882927,0.690899133682251
+8,stack_analysis,GET,pypi,N/A,N/A,pyglet_latest.txt,3,200,1557143792.882927,1557143809.235663,16.352735996246338
+9,stack_analysis,POST,pypi,N/A,N/A,pygame_latest.txt,9,200,1557143792.212135,1557143793.2434325,1.0312974452972412
+10,stack_analysis,GET,pypi,N/A,N/A,pygame_latest.txt,9,200,1557143793.2434325,1557143809.492318,16.2488853931427
+11,stack_analysis,POST,npm,N/A,N/A,dependency_react.json,1,200,1557143792.1801393,1557143792.9837065,0.8035671710968018
+12,stack_analysis,GET,npm,N/A,N/A,dependency_react.json,1,200,1557143792.9837065,1557143809.527256,16.54354953765869
+13,stack_analysis,POST,pypi,N/A,N/A,pygame_latest.txt,5,200,1557143792.1976824,1557143793.0465224,0.8488399982452393
+14,stack_analysis,GET,pypi,N/A,N/A,pygame_latest.txt,5,200,1557143793.0465224,1557143809.5307486,16.48422622680664
+15,stack_analysis,POST,maven,N/A,N/A,clojure_junit.xml,6,200,1557143792.2031028,1557143793.1811407,0.9780378341674805
+16,stack_analysis,GET,maven,N/A,N/A,clojure_junit.xml,6,200,1557143793.1811407,1557143809.6435597,16.462419033050537
+17,stack_analysis,POST,pypi,N/A,N/A,numpy_1_11_0.txt,8,200,1557143792.2098217,1557143793.2596738,1.0498521327972412
+18,stack_analysis,GET,pypi,N/A,N/A,numpy_1_11_0.txt,8,200,1557143793.2596738,1557143809.6503463,16.39067244529724
+19,stack_analysis,POST,npm,N/A,N/A,dependency_jquery.json,2,200,1557143792.1874573,1557143793.5448396,1.3573822975158691
+20,stack_analysis,GET,npm,N/A,N/A,dependency_jquery.json,2,200,1557143793.5448396,1557143809.841919,16.29707932472229

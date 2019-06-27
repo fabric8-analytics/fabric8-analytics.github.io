@@ -1,0 +1,24 @@
+System family,posix
+System,Linux
+Version,5.0.8-200.fc29.x86_64
+Python,3.7
+Path to interpret,/usr/bin/python3
+
+Name,Component analysis,Stack analysis,Python payload,Maven payload,NPM payload,Improper payload,Mix payloads,Check responses,Export responses,Comment
+component analysis light load,10,0,yes,no,no,no,no,no,no,component analysis tests with light load
+
+Start time,1557143684.2877312
+End time,1557143714.825277
+Duration,30.537545919418335
+
+#,Test name,Method,Ecosystem,Package,Version,Manifest,Thread#,Status code,Start time,End time,Duration
+1,component_analysis,GET,pypi,numpy,1.11.0rc2gc,N/A,2,202,1557143684.2929811,1557143684.8577795,0.5647983551025391
+2,component_analysis,GET,pypi,flask,0.6,N/A,0,200,1557143684.2886786,1557143684.9337237,0.6450450420379639
+3,component_analysis,GET,pypi,scipy,0.13.3,N/A,4,200,1557143684.300237,1557143685.0469034,0.746666431427002
+4,component_analysis,GET,pypi,scipy,0.14.1rc1.dev-52fb336,N/A,5,202,1557143684.3020217,1557143685.0474334,0.7454116344451904
+5,component_analysis,GET,pypi,scipy,0.18.0,N/A,3,200,1557143684.2978141,1557143685.2132254,0.9154112339019775
+6,component_analysis,GET,pypi,pyglet,1.2.4b1,N/A,7,202,1557143684.3062215,1557143685.356886,1.0506644248962402
+7,component_analysis,GET,pypi,pyglet,1.4.0a1,N/A,6,200,1557143684.304532,1557143685.4451911,1.1406590938568115
+8,component_analysis,GET,pypi,requests,2.21.0,N/A,8,200,1557143684.3082612,1557143686.426287,2.118025779724121
+9,component_analysis,GET,pypi,numpy,1.15.0rc1,N/A,1,200,1557143684.291591,1557143687.0800765,2.788485527038574
+10,component_analysis,GET,pypi,requests,2.14.0,N/A,9,504,1557143684.3107293,1557143714.8241384,30.51340913772583

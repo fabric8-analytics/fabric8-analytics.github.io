@@ -1,0 +1,16 @@
+System family,posix
+System,Linux
+Version,5.0.8-200.fc29.x86_64
+Python,3.7
+Path to interpret,/usr/bin/python3
+
+Name,Component analysis,Stack analysis,Python payload,Maven payload,NPM payload,Improper payload,Mix payloads,Check responses,Export responses,Comment
+stack analysis smoke test,0,1,yes,yes,yes,no,no,no,yes,"stack analysis smoke tests, just check if API responds"
+
+Start time,1557146775.7731214
+End time,1557146839.7887557
+Duration,64.01563429832458
+
+#,Test name,Method,Ecosystem,Package,Version,Manifest,Thread#,Status code,Start time,End time,Duration
+1,stack_analysis,POST,npm,N/A,N/A,dependency_to_function.json,0,200,1557146775.7737186,1557146776.6107798,0.8370611667633057
+2,stack_analysis,GET,npm,N/A,N/A,dependency_to_function.json,0,200,1557146776.6107798,1557146839.7876506,63.176870822906494

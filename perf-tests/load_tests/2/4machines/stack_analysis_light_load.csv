@@ -1,0 +1,34 @@
+System family,posix
+System,Linux
+Version,5.0.8-200.fc29.x86_64
+Python,3.7
+Path to interpret,/usr/bin/python3
+
+Name,Component analysis,Stack analysis,Python payload,Maven payload,NPM payload,Improper payload,Mix payloads,Check responses,Export responses,Comment
+stack analysis light load,0,10,yes,yes,yes,no,no,no,yes,stack analysis tests with light load
+
+Start time,1557149007.8652482
+End time,1557149673.827299
+Duration,665.9620509147644
+
+#,Test name,Method,Ecosystem,Package,Version,Manifest,Thread#,Status code,Start time,End time,Duration
+1,stack_analysis,POST,pypi,N/A,N/A,numpy_1_11_0.txt,3,200,1557149007.874623,1557149008.9573247,1.0827016830444336
+2,stack_analysis,GET,pypi,N/A,N/A,numpy_1_11_0.txt,3,200,1557149008.9573247,1557149025.1841557,16.22683095932007
+3,stack_analysis,POST,pypi,N/A,N/A,numpy_1_16_3.txt,0,200,1557149007.8659384,1557149009.1556532,1.2897148132324219
+4,stack_analysis,GET,pypi,N/A,N/A,numpy_1_16_3.txt,0,200,1557149009.1556532,1557149025.551593,16.395939826965332
+5,stack_analysis,POST,pypi,N/A,N/A,pyglet_latest.txt,1,200,1557149007.8668187,1557149008.8893414,1.0225226879119873
+6,stack_analysis,GET,pypi,N/A,N/A,pyglet_latest.txt,1,200,1557149008.8893414,1557149040.6179075,31.72856616973877
+7,stack_analysis,POST,pypi,N/A,N/A,numpy_1_12_0.txt,8,200,1557149007.8864274,1557149013.7402122,5.853784799575806
+8,stack_analysis,GET,pypi,N/A,N/A,numpy_1_12_0.txt,8,200,1557149013.7402122,1557149045.5618615,31.821649312973022
+9,stack_analysis,POST,maven,N/A,N/A,clojure_1_8_0.xml,9,200,1557149007.8883796,1557149013.6882718,5.79989218711853
+10,stack_analysis,GET,maven,N/A,N/A,clojure_1_8_0.xml,9,200,1557149013.6882718,1557149050.5204604,36.83218860626221
+11,stack_analysis,POST,npm,N/A,N/A,dependency_underscore_react_jquery.json,5,200,1557149007.8775325,1557149008.9169517,1.039419174194336
+12,stack_analysis,GET,npm,N/A,N/A,dependency_underscore_react_jquery.json,5,200,1557149008.9169517,1557149087.813286,78.89633440971375
+13,stack_analysis,POST,pypi,N/A,N/A,scipy_1_1_0.txt,6,200,1557149007.884067,1557149008.6828816,0.7988145351409912
+14,stack_analysis,GET,pypi,N/A,N/A,scipy_1_1_0.txt,6,200,1557149008.6828816,1557149134.1054626,125.42258095741272
+15,stack_analysis,POST,pypi,N/A,N/A,pytest_latest.txt,4,200,1557149007.8751862,1557149009.1585,1.2833137512207031
+16,stack_analysis,GET,pypi,N/A,N/A,pytest_latest.txt,4,200,1557149009.1585,1557149134.392845,125.23434495925903
+17,stack_analysis,POST,npm,N/A,N/A,dependency_lodash_react_jquery.json,7,200,1557149007.8845327,1557149013.7903123,5.905779600143433
+18,stack_analysis,GET,npm,N/A,N/A,dependency_lodash_react_jquery.json,7,200,1557149013.7903123,1557149138.8271925,125.03688025474548
+19,stack_analysis,POST,npm,N/A,N/A,dependency_react.json,2,200,1557149007.8720515,1557149008.9309225,1.0588710308074951
+20,stack_analysis,GET,npm,N/A,N/A,dependency_react.json,2,Timeout waiting for the stack analysis results,1557149008.9309225,1557149673.8239543,664.893031835556

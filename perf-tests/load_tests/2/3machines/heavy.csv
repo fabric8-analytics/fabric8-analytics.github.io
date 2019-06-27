@@ -1,0 +1,44 @@
+System family,posix
+System,Linux
+Version,5.0.8-200.fc29.x86_64
+Python,3.7
+Path to interpret,/usr/bin/python3
+
+Name,Component analysis,Stack analysis,Python payload,Maven payload,NPM payload,Improper payload,Mix payloads,Check responses,Export responses,Comment
+heavy,10,10,yes,yes,yes,yes,yes,no,no,set of normal tests
+
+Start time,1557146039.8846774
+End time,1557146683.8513527
+Duration,643.9666752815247
+
+#,Test name,Method,Ecosystem,Package,Version,Manifest,Thread#,Status code,Start time,End time,Duration
+1,component_analysis,GET,pypi,scipy,1.2.0,N/A,7,200,1557146039.90993,1557146040.5395792,0.6296491622924805
+2,component_analysis,GET,pypi,flask,0.11.1,N/A,1,200,1557146039.8941357,1557146040.9323502,1.0382144451141357
+3,component_analysis,GET,maven,io.vertx:vertx-core,2.1.2,N/A,8,200,1557146039.911668,1557146040.9981194,1.0864512920379639
+4,component_analysis,GET,maven,io.vertx:vertx-core,2.0.0-final,N/A,9,200,1557146039.9132621,1557146041.0732155,1.1599533557891846
+5,component_analysis,GET,pypi,numpy,1.15.1,N/A,5,200,1557146039.9053812,1557146041.1159165,1.2105352878570557
+6,component_analysis,GET,npm,jquery,2.1.4,N/A,2,200,1557146039.8964179,1557146041.5182793,1.621861457824707
+7,stack_analysis,POST,npm,N/A,N/A,empty.json,2,200,1557146039.91891,1557146041.2360961,1.3171861171722412
+8,stack_analysis,GET,npm,N/A,N/A,empty.json,2,200,1557146041.2360961,1557146042.119402,0.8833057880401611
+9,stack_analysis,POST,pypi,N/A,N/A,array_split.txt,3,200,1557146039.9224129,1557146041.6688664,1.7464535236358643
+10,stack_analysis,GET,pypi,N/A,N/A,array_split.txt,3,200,1557146041.6688664,1557146042.176378,0.5075116157531738
+11,component_analysis,GET,pypi,ansicolors,1.0,N/A,0,504,1557146039.8861024,1557146070.3729784,30.486876010894775
+12,component_analysis,GET,pypi,numpy,1.14.4,N/A,6,504,1557146039.9077892,1557146070.4266465,30.51885724067688
+13,component_analysis,GET,maven,io.vertx:vertx-core,3.2.0,N/A,4,504,1557146039.9030883,1557146070.4516985,30.5486102104187
+14,component_analysis,GET,pypi,numpy,1.16.3,N/A,3,504,1557146039.9002178,1557146070.4591045,30.558886766433716
+15,stack_analysis,POST,npm,N/A,N/A,dependency_to_function_vue_array.json,6,200,1557146039.928362,1557146042.0546305,2.1262686252593994
+16,stack_analysis,GET,npm,N/A,N/A,dependency_to_function_vue_array.json,6,200,1557146042.0546305,1557146089.5560474,47.5014169216156
+17,stack_analysis,POST,pypi,N/A,N/A,numpy_1_12_0.txt,4,200,1557146039.9239707,1557146042.054276,2.130305290222168
+18,stack_analysis,GET,pypi,N/A,N/A,numpy_1_12_0.txt,4,200,1557146042.054276,1557146089.5794518,47.52517580986023
+19,stack_analysis,POST,pypi,N/A,N/A,fastlog_urllib_requests.txt,9,200,1557146039.9330442,1557146055.931071,15.998026847839355
+20,stack_analysis,GET,pypi,N/A,N/A,fastlog_urllib_requests.txt,9,200,1557146055.931071,1557146089.6102343,33.679163217544556
+21,stack_analysis,POST,npm,N/A,N/A,dependency_to_function.json,1,200,1557146039.9168568,1557146048.9251869,9.00833010673523
+22,stack_analysis,GET,npm,N/A,N/A,dependency_to_function.json,1,200,1557146048.9251869,1557146096.39368,47.46849322319031
+23,stack_analysis,POST,npm,N/A,N/A,dependency_vue_to_function.json,8,200,1557146039.9303539,1557146042.0905328,2.1601788997650146
+24,stack_analysis,GET,npm,N/A,N/A,dependency_vue_to_function.json,8,200,1557146042.0905328,1557146102.6479905,60.55745768547058
+25,stack_analysis,POST,npm,N/A,N/A,dependency_lodash.json,0,200,1557146039.9152093,1557146051.4207232,11.505513906478882
+26,stack_analysis,GET,npm,N/A,N/A,dependency_lodash.json,0,200,1557146051.4207232,1557146102.667352,51.246628761291504
+27,stack_analysis,POST,npm,N/A,N/A,dependency_vue.json,5,200,1557146039.9262478,1557146040.9599915,1.0337436199188232
+28,stack_analysis,GET,npm,N/A,N/A,dependency_vue.json,5,200,1557146040.9599915,1557146102.678163,61.7181715965271
+29,stack_analysis,POST,npm,N/A,N/A,wisp.json,7,200,1557146039.9289892,1557146041.9918396,2.0628504753112793
+30,stack_analysis,GET,npm,N/A,N/A,wisp.json,7,Timeout waiting for the stack analysis results,1557146041.9918396,1557146683.8477986,641.8559589385986

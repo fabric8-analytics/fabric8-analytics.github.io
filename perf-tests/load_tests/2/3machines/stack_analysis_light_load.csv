@@ -1,0 +1,34 @@
+System family,posix
+System,Linux
+Version,5.0.8-200.fc29.x86_64
+Python,3.7
+Path to interpret,/usr/bin/python3
+
+Name,Component analysis,Stack analysis,Python payload,Maven payload,NPM payload,Improper payload,Mix payloads,Check responses,Export responses,Comment
+stack analysis light load,0,10,yes,yes,yes,no,no,no,yes,stack analysis tests with light load
+
+Start time,1557146839.7902405
+End time,1557147468.4446514
+Duration,628.6544108390808
+
+#,Test name,Method,Ecosystem,Package,Version,Manifest,Thread#,Status code,Start time,End time,Duration
+1,stack_analysis,POST,npm,N/A,N/A,dependency_emitter_component.json,3,200,1557146839.8020124,1557146841.1033134,1.3013010025024414
+2,stack_analysis,GET,npm,N/A,N/A,dependency_emitter_component.json,3,200,1557146841.1033134,1557146841.61781,0.5144965648651123
+3,stack_analysis,POST,pypi,N/A,N/A,pygame_latest.txt,1,200,1557146839.7933972,1557146840.5029724,0.7095751762390137
+4,stack_analysis,GET,pypi,N/A,N/A,pygame_latest.txt,1,200,1557146840.5029724,1557146856.6768947,16.173922300338745
+5,stack_analysis,POST,npm,N/A,N/A,array.json,7,200,1557146839.8119655,1557146840.9342077,1.1222422122955322
+6,stack_analysis,GET,npm,N/A,N/A,array.json,7,200,1557146840.9342077,1557146857.15009,16.215882301330566
+7,stack_analysis,POST,maven,N/A,N/A,clojure_1_8_0.xml,2,200,1557146839.7947216,1557146841.1482296,1.3535079956054688
+8,stack_analysis,GET,maven,N/A,N/A,clojure_1_8_0.xml,2,200,1557146841.1482296,1557146857.3363214,16.18809175491333
+9,stack_analysis,POST,npm,N/A,N/A,dependency_to_function.json,0,200,1557146839.791037,1557146841.1034873,1.3124501705169678
+10,stack_analysis,GET,npm,N/A,N/A,dependency_to_function.json,0,200,1557146841.1034873,1557146857.444512,16.34102463722229
+11,stack_analysis,POST,pypi,N/A,N/A,numpy_1_16_2.txt,8,200,1557146839.8151097,1557146840.5225146,0.7074048519134521
+12,stack_analysis,GET,pypi,N/A,N/A,numpy_1_16_2.txt,8,Timeout waiting for the stack analysis results,1557146840.5225146,1557147462.7123423,622.1898276805878
+13,stack_analysis,POST,npm,N/A,N/A,dependency_underscore_react_jquery.json,4,200,1557146839.8029525,1557146840.8141043,1.0111517906188965
+14,stack_analysis,GET,npm,N/A,N/A,dependency_underscore_react_jquery.json,4,Timeout waiting for the stack analysis results,1557146840.8141043,1557147463.090447,622.2763426303864
+15,stack_analysis,POST,npm,N/A,N/A,dependency_react.json,9,200,1557146839.8172884,1557146840.8918366,1.0745482444763184
+16,stack_analysis,GET,npm,N/A,N/A,dependency_react.json,9,Timeout waiting for the stack analysis results,1557146840.8918366,1557147463.269228,622.3773913383484
+17,stack_analysis,POST,npm,N/A,N/A,dependency_react.json,5,200,1557146839.8048463,1557146840.6130538,0.8082075119018555
+18,stack_analysis,GET,npm,N/A,N/A,dependency_react.json,5,Timeout waiting for the stack analysis results,1557146840.6130538,1557147467.8428326,627.2297787666321
+19,stack_analysis,POST,npm,N/A,N/A,wisp.json,6,200,1557146839.8085675,1557146841.178376,1.3698084354400635
+20,stack_analysis,GET,npm,N/A,N/A,wisp.json,6,Timeout waiting for the stack analysis results,1557146841.178376,1557147468.442854,627.2644779682159
