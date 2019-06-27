@@ -1,0 +1,17 @@
+System family,posix
+System,Linux
+Version,5.0.10-200.fc29.x86_64
+Python,3.7
+Path to interpret,/usr/bin/python3
+
+Name,Component analysis,Stack analysis,Python payload,Maven payload,NPM payload,Improper payload,Mix payloads,Check responses,Export responses,Comment
+smoketest,1,1,yes,yes,yes,yes,yes,no,no,set of smoke tests
+
+Start time,1557145253.694374
+End time,1557145270.5428095
+Duration,16.848435401916504
+
+#,Test name,Method,Ecosystem,Package,Version,Manifest,Thread#,Status code,Start time,End time,Duration
+1,component_analysis,GET,npm,mocha,2.2.3,N/A,0,202,1557145253.6957963,1557145254.303971,0.6081748008728027
+2,stack_analysis,POST,pypi,N/A,N/A,scipy_latest.txt,0,200,1557145253.6981876,1557145254.349333,0.6511454582214355
+3,stack_analysis,GET,pypi,N/A,N/A,scipy_latest.txt,0,200,1557145254.349333,1557145270.5412982,16.191965103149414

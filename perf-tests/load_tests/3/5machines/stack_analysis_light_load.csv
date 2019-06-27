@@ -1,0 +1,34 @@
+System family,posix
+System,Linux
+Version,5.0.10-200.fc29.x86_64
+Python,3.7
+Path to interpret,/usr/bin/python3
+
+Name,Component analysis,Stack analysis,Python payload,Maven payload,NPM payload,Improper payload,Mix payloads,Check responses,Export responses,Comment
+stack analysis light load,0,10,yes,yes,yes,no,no,no,yes,stack analysis tests with light load
+
+Start time,1557152488.9746587
+End time,1557153111.96062
+Duration,622.9859611988068
+
+#,Test name,Method,Ecosystem,Package,Version,Manifest,Thread#,Status code,Start time,End time,Duration
+1,stack_analysis,POST,npm,N/A,N/A,no_requirements.json,9,200,1557152489.0219018,1557152489.7425437,0.7206418514251709
+2,stack_analysis,GET,npm,N/A,N/A,no_requirements.json,9,200,1557152489.7425437,1557152490.5085359,0.7659921646118164
+3,stack_analysis,POST,pypi,N/A,N/A,pytest_2_0_0.txt,7,200,1557152489.0126586,1557152490.484771,1.4721124172210693
+4,stack_analysis,GET,pypi,N/A,N/A,pytest_2_0_0.txt,7,200,1557152490.484771,1557152511.0905519,20.605780839920044
+5,stack_analysis,POST,maven,N/A,N/A,clojure_1_6_0.xml,0,200,1557152488.9759915,1557152490.6095688,1.6335773468017578
+6,stack_analysis,GET,maven,N/A,N/A,clojure_1_6_0.xml,0,200,1557152490.6095688,1557152564.3661475,73.75657868385315
+7,stack_analysis,POST,pypi,N/A,N/A,numpy_1_16_3.txt,5,200,1557152489.001729,1557152490.3543289,1.352599859237671
+8,stack_analysis,GET,pypi,N/A,N/A,numpy_1_16_3.txt,5,200,1557152490.3543289,1557152569.557289,79.20296001434326
+9,stack_analysis,POST,pypi,N/A,N/A,dash_latest.txt,4,200,1557152488.9967272,1557152489.6891925,0.6924653053283691
+10,stack_analysis,GET,pypi,N/A,N/A,dash_latest.txt,4,200,1557152489.6891925,1557152584.4492865,94.76009392738342
+11,stack_analysis,POST,pypi,N/A,N/A,pytest_2_0_0.txt,2,200,1557152488.9867804,1557152490.210946,1.224165678024292
+12,stack_analysis,GET,pypi,N/A,N/A,pytest_2_0_0.txt,2,200,1557152490.210946,1557152584.7694066,94.55846047401428
+13,stack_analysis,POST,pypi,N/A,N/A,click_6_star.txt,3,200,1557152488.9920034,1557152490.3380463,1.3460428714752197
+14,stack_analysis,GET,pypi,N/A,N/A,click_6_star.txt,3,200,1557152490.3380463,1557152593.848278,103.51023173332214
+15,stack_analysis,POST,pypi,N/A,N/A,pyglet_latest.txt,8,200,1557152489.0173554,1557152490.084029,1.0666735172271729
+16,stack_analysis,GET,pypi,N/A,N/A,pyglet_latest.txt,8,200,1557152490.084029,1557152608.643814,118.55978512763977
+17,stack_analysis,POST,pypi,N/A,N/A,numpy_scipy.txt,6,200,1557152489.007057,1557152490.054101,1.047044038772583
+18,stack_analysis,GET,pypi,N/A,N/A,numpy_scipy.txt,6,200,1557152490.054101,1557152615.5979514,125.54385042190552
+19,stack_analysis,POST,pypi,N/A,N/A,scipy_1_2_1.txt,1,200,1557152488.981639,1557152489.9198847,0.9382457733154297
+20,stack_analysis,GET,pypi,N/A,N/A,scipy_1_2_1.txt,1,Timeout waiting for the stack analysis results,1557152489.9198847,1557153111.9598596,622.0399749279022

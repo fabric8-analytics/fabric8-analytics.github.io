@@ -1,0 +1,24 @@
+System family,posix
+System,Linux
+Version,5.0.10-200.fc29.x86_64
+Python,3.7
+Path to interpret,/usr/bin/python3
+
+Name,Component analysis,Stack analysis,Python payload,Maven payload,NPM payload,Improper payload,Mix payloads,Check responses,Export responses,Comment
+component analysis light load,10,0,yes,no,no,no,no,no,no,component analysis tests with light load
+
+Start time,1557145971.651426
+End time,1557145979.7831912
+Duration,8.131765127182007
+
+#,Test name,Method,Ecosystem,Package,Version,Manifest,Thread#,Status code,Start time,End time,Duration
+1,component_analysis,GET,pypi,scipy,0.18.1,N/A,5,200,1557145971.670684,1557145972.342194,0.6715099811553955
+2,component_analysis,GET,pypi,numpy,1.16.3,N/A,2,200,1557145971.6602163,1557145972.4799583,0.81974196434021
+3,component_analysis,GET,pypi,numpy,1.11.1rc1,N/A,4,200,1557145971.6672683,1557145972.6832454,1.015977144241333
+4,component_analysis,GET,pypi,flask,0.8,N/A,1,504,1557145971.6566265,1557145972.8650532,1.2084267139434814
+5,component_analysis,GET,pypi,numpy,1.13.3,N/A,3,504,1557145971.663745,1557145972.8658109,1.2020659446716309
+6,component_analysis,GET,pypi,scipy,0.13.3,N/A,6,504,1557145971.674266,1557145972.8669183,1.1926522254943848
+7,component_analysis,GET,pypi,pygame,1.9.2b4gc,N/A,8,504,1557145971.6813152,1557145972.8679843,1.186669111251831
+8,component_analysis,GET,pypi,scipy,0.5.2,N/A,7,504,1557145971.6775131,1557145972.8690057,1.1914925575256348
+9,component_analysis,GET,pypi,pygame,1.7.1,N/A,9,202,1557145971.6850698,1557145978.2615376,6.576467752456665
+10,component_analysis,GET,pypi,flask,1.0,N/A,0,200,1557145971.652906,1557145979.781421,8.128515005111694

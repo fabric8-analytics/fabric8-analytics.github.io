@@ -1,0 +1,44 @@
+System family,posix
+System,Linux
+Version,5.0.10-200.fc29.x86_64
+Python,3.7
+Path to interpret,/usr/bin/python3
+
+Name,Component analysis,Stack analysis,Python payload,Maven payload,NPM payload,Improper payload,Mix payloads,Check responses,Export responses,Comment
+heavy,10,10,yes,yes,yes,yes,yes,no,no,set of normal tests
+
+Start time,1557148787.2195113
+End time,1557149453.9126277
+Duration,666.6931164264679
+
+#,Test name,Method,Ecosystem,Package,Version,Manifest,Thread#,Status code,Start time,End time,Duration
+1,component_analysis,GET,npm,mocha,5.0.2,N/A,0,200,1557148787.221023,1557148788.088253,0.8672299385070801
+2,component_analysis,GET,pypi,numpy,1.12.1rc1gc,N/A,6,202,1557148787.2433417,1557148788.0920627,0.8487210273742676
+3,component_analysis,GET,npm,mocha,2.2.5,N/A,7,200,1557148787.246753,1557148788.0989077,0.8521547317504883
+4,component_analysis,GET,maven,io.vertx:vertx-stack,3.7.0,N/A,3,202,1557148787.232492,1557148788.279555,1.0470631122589111
+5,component_analysis,GET,npm,mocha,2.5.3,N/A,5,200,1557148787.2396886,1557148788.4924862,1.2527976036071777
+6,component_analysis,GET,npm,mocha,1.18.0,N/A,8,200,1557148787.250646,1557148788.5049927,1.2543466091156006
+7,component_analysis,GET,maven,org.json:json,20170516,N/A,4,200,1557148787.2361593,1557148788.6903093,1.4541499614715576
+8,component_analysis,GET,maven,org.python:jython,2.7.0,N/A,9,200,1557148787.2542899,1557148788.9191024,1.6648125648498535
+9,component_analysis,GET,pypi,flask,0.1,N/A,1,200,1557148787.2252147,1557148790.8178403,3.592625617980957
+10,stack_analysis,POST,npm,N/A,N/A,array.json,2,200,1557148787.2682645,1557148788.6714778,1.4032132625579834
+11,stack_analysis,GET,npm,N/A,N/A,array.json,2,200,1557148788.6714778,1557148804.9374003,16.26592254638672
+12,stack_analysis,POST,pypi,N/A,N/A,pytest_3_2_2.txt,0,200,1557148787.2579868,1557148788.3528426,1.094855785369873
+13,stack_analysis,GET,pypi,N/A,N/A,pytest_3_2_2.txt,0,200,1557148788.3528426,1557148804.948647,16.595804452896118
+14,stack_analysis,POST,pypi,N/A,N/A,numpy_latest.txt,1,200,1557148787.2628973,1557148788.0199287,0.7570314407348633
+15,stack_analysis,GET,pypi,N/A,N/A,numpy_latest.txt,1,200,1557148788.0199287,1557148805.0545816,17.034652948379517
+16,stack_analysis,POST,pypi,N/A,N/A,requests_2_20_1.txt,3,200,1557148787.2732553,1557148788.7279508,1.454695463180542
+17,stack_analysis,GET,pypi,N/A,N/A,requests_2_20_1.txt,3,200,1557148788.7279508,1557148805.088733,16.360782146453857
+18,stack_analysis,POST,npm,N/A,N/A,dependency_vue.json,4,200,1557148787.2777116,1557148788.9400918,1.6623802185058594
+19,stack_analysis,GET,npm,N/A,N/A,dependency_vue.json,4,200,1557148788.9400918,1557148805.25242,16.312328100204468
+20,stack_analysis,POST,pypi,N/A,N/A,dash_latest.txt,9,200,1557148787.3103702,1557148789.0439882,1.7336180210113525
+21,stack_analysis,GET,pypi,N/A,N/A,dash_latest.txt,9,200,1557148789.0439882,1557148805.267289,16.22330069541931
+22,stack_analysis,POST,pypi,N/A,N/A,numpy_latest.txt,8,200,1557148787.3068757,1557148789.145305,1.8384292125701904
+23,stack_analysis,GET,pypi,N/A,N/A,numpy_latest.txt,8,200,1557148789.145305,1557148805.4770944,16.33178949356079
+24,stack_analysis,POST,npm,N/A,N/A,dependency_lodash.json,5,200,1557148787.2956216,1557148793.082899,5.787277460098267
+25,stack_analysis,GET,npm,N/A,N/A,dependency_lodash.json,5,200,1557148793.082899,1557148809.2770104,16.194111347198486
+26,component_analysis,GET,pypi,numpy,1.14.2,N/A,2,504,1557148787.2286687,1557148817.8652592,30.636590480804443
+27,stack_analysis,POST,pypi,N/A,N/A,pyglet_latest.txt,6,200,1557148787.2993681,1557148787.996149,0.6967809200286865
+28,stack_analysis,GET,pypi,N/A,N/A,pyglet_latest.txt,6,Timeout waiting for the stack analysis results,1557148787.996149,1557149417.7864454,629.7902963161469
+29,stack_analysis,POST,pypi,N/A,N/A,numpy_scipy.txt,7,200,1557148787.3034158,1557148789.1896522,1.8862364292144775
+30,stack_analysis,GET,pypi,N/A,N/A,numpy_scipy.txt,7,Timeout waiting for the stack analysis results,1557148789.1896522,1557149453.9117496,664.7220973968506
