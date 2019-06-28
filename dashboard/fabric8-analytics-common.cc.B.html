@@ -24,14 +24,7 @@ integration-tests/features/steps/gremlin.py
     F 188:0 package_data_timestamp_comparison_with_remembered_time - B (6)
     F 512:0 test_libio_related_properties - B (6)
 integration-tests/features/steps/server_api.py
-    F 168:0 check_versions - B (6)
-    F 229:0 post_input_to_user_feedback - B (6)
-integration-tests/features/steps/three_scale.py
-    F 109:0 validate_result_post_registration_error_message - B (6)
-integration-tests/features/steps/jobs_api.py
-    F 337:0 check_job_api_tokens_information - B (10)
-    F 49:0 check_job_debug_analyses_report - B (7)
-    F 300:0 find_job - B (7)
+    F 234:0 post_input_to_user_feedback - B (6)
 integration-tests/features/steps/component_analysis.py
     F 110:0 finish_analysis_for_component - B (6)
 integration-tests/features/steps/stack_analysis.py
@@ -45,10 +38,6 @@ integration-tests/features/steps/stack_analysis.py
     F 297:0 check_licenses - B (6)
 integration-tests/features/steps/three_scale_preview.py
     F 88:0 wait_for_stack_analysis_completion - B (10)
-integration-tests/features/steps/gemini.py
-    F 157:0 check_cves_for_epv - B (6)
-integration-tests/features/steps/backbone_api.py
-    F 47:0 verify_database_entry - B (6)
 integration-tests/features/steps/license_analysis.py
     F 395:0 check_license_analysis_conflicts_for_package_version - B (6)
 db-integrity-tests/src/s3configuration.py
@@ -67,6 +56,10 @@ db-integrity-tests/src/checker.py
     M 77:4 Checker.check_cve_value - B (6)
 a2t/src/setup.py
     F 111:0 setup - B (8)
+a2t/src/component_analysis.py
+    M 162:4 ComponentAnalysis.check_version_part - B (10)
+    M 149:4 ComponentAnalysis.check_package_part - B (7)
+    M 179:4 ComponentAnalysis.start - B (6)
 a2t/src/stack_analysis.py
     M 108:4 StackAnalysis.wait_for_stack_analysis - B (10)
 a2t/src/test_runner.py
@@ -88,6 +81,6 @@ perf-tests/src/graph.py
 vscode-visual-tests/features/src/litava.py
     F 18:0 parse_litava_output - B (7)
 
-57 blocks (classes, functions, methods) analyzed.
-Average complexity: B (7.228070175438597)
+53 blocks (classes, functions, methods) analyzed.
+Average complexity: B (7.30188679245283)
 </pre>
