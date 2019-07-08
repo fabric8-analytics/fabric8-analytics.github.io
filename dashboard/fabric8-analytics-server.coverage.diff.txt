@@ -1,7 +1,7 @@
 Name                                      Stmts   Miss  Cover   Missing					Name                                      Stmts   Miss  Cover   Missing
 -----------------------------------------------------------------------					-----------------------------------------------------------------------
-/bayesian/bayesian/__init__.py               60      1    98%   76					/bayesian/bayesian/__init__.py               60      1    98%   76
-/bayesian/bayesian/api_v1.py                661    445    33%   89-96, 142-175, 230-236, 253-279, 292	/bayesian/bayesian/api_v1.py                661    445    33%   89-96, 142-175, 230-236, 253-279, 292
+/bayesian/bayesian/__init__.py               60      1    98%   76				      |	/bayesian/bayesian/__init__.py               47      1    98%   58
+/bayesian/bayesian/api_v1.py                661    445    33%   89-96, 142-175, 230-236, 253-279, 292 |	/bayesian/bayesian/api_v1.py                647    454    30%   88-95, 140-173, 226-232, 249-275, 288
 /bayesian/bayesian/auth.py                   16     12    25%   10-24					/bayesian/bayesian/auth.py                   16     12    25%   10-24
 /bayesian/bayesian/default_config.py         24      0   100%						/bayesian/bayesian/default_config.py         24      0   100%
 /bayesian/bayesian/dependency_finder.py     147    102    31%   36-68, 73-85, 90-98, 104-182, 211, 21	/bayesian/bayesian/dependency_finder.py     147    102    31%   36-68, 73-85, 90-98, 104-182, 211, 21
@@ -9,6 +9,6 @@ Name                                      Stmts   Miss  Cover   Missing					Name
 /bayesian/bayesian/generate_manifest.py      42      0   100%						/bayesian/bayesian/generate_manifest.py      42      0   100%
 /bayesian/bayesian/license_extractor.py      42      0   100%						/bayesian/bayesian/license_extractor.py      42      0   100%
 /bayesian/bayesian/manifest_models.py       136     42    69%   35, 54-56, 69-92, 137-139, 147-155, 2	/bayesian/bayesian/manifest_models.py       136     42    69%   35, 54-56, 69-92, 137-139, 147-155, 2
-/bayesian/bayesian/utils.py                 622    356    43%   56, 67-77, 92-101, 116-130, 139-140,  |	/bayesian/bayesian/utils.py                 627    324    48%   59, 70-80, 95-104, 119-133, 142-143, 
+/bayesian/bayesian/utils.py                 627    324    48%   59, 70-80, 95-104, 119-133, 142-143,  |	/bayesian/bayesian/utils.py                 649    328    49%   60, 71-81, 96-105, 120-134, 143-144, 
 -----------------------------------------------------------------------					-----------------------------------------------------------------------
-TOTAL                                      1758    958    46%					      |	TOTAL                                      1763    926    47%
+TOTAL                                      1763    926    47%					      |	TOTAL                                      1758    939    47%

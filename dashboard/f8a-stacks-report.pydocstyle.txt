@@ -51,6 +51,9 @@ tests/test_unknown_deps_report_helper.py
 tests/__init__.py
 0
     Pass
+tests/test_s3_helper.py
+0
+    Pass
 tests/test_sentry_report_helper.py
 0
     Pass
@@ -68,4 +71,4 @@ setup.py
 setup.py
 0
     Pass
-All checks passed for 17 source files
+All checks passed for 18 source files

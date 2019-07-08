@@ -1,15 +1,15 @@
 Name                                      Stmts   Miss  Cover   Missing					Name                                      Stmts   Miss  Cover   Missing
 -----------------------------------------------------------------------					-----------------------------------------------------------------------
-src/__init__.py                               2      0   100%						src/__init__.py                               2      0   100%
+src/__init__.py                               2      0   100%					      |	src/__init__.py                               3      0   100%
 src/config.py                                22      0   100%						src/config.py                                22      0   100%
-src/cve.py                                  143      5    97%   58-59, 66, 159-160		      |	src/cve.py                                  157      7    96%   58-59, 66-69, 178-179
+src/cve.py                                  157      7    96%   58-59, 66-69, 178-179			src/cve.py                                  157      7    96%   58-59, 66-69, 178-179
 src/data_importer.py                        207     20    90%   101, 112, 282, 322-324, 332-333, 340-	src/data_importer.py                        207     20    90%   101, 112, 282, 322-324, 332-333, 340-
 src/data_source/__init__.py                   0      0   100%						src/data_source/__init__.py                   0      0   100%
 src/data_source/abstract_data_source.py       6      0   100%						src/data_source/abstract_data_source.py       6      0   100%
 src/data_source/s3_data_source.py            36      2    94%   29-31					src/data_source/s3_data_source.py            36      2    94%   29-31
 src/graph_manager.py                         38      0   100%						src/graph_manager.py                         38      0   100%
-src/graph_populator.py                      215      7    97%   75, 301-302, 366-367, 484-485	      |	src/graph_populator.py                      217      7    97%   75, 304-305, 369-370, 487-488
-src/rest_api.py                             196     19    90%   90, 93-95, 171, 207, 213, 247-250, 26 |	src/rest_api.py                             204     19    91%   104, 107-109, 185, 221, 227, 261-264,
-src/utils.py                                 97      0   100%					      |	src/utils.py                                184      0   100%
+src/graph_populator.py                      217      7    97%   75, 304-305, 369-370, 487-488		src/graph_populator.py                      217      7    97%   75, 304-305, 369-370, 487-488
+src/rest_api.py                             204     19    91%   104, 107-109, 185, 221, 227, 261-264, |	src/rest_api.py                             206     19    91%   107, 110-112, 188, 224, 230, 264-267,
+src/utils.py                                184      0   100%					      |	src/utils.py                                207      0   100%
 -----------------------------------------------------------------------					-----------------------------------------------------------------------
-TOTAL                                       962     53    94%					      |	TOTAL                                      1073     55    95%
+TOTAL                                      1073     55    95%					      |	TOTAL                                      1099     55    95%
