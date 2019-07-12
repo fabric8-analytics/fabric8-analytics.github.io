@@ -10,7 +10,7 @@ src/parsers/maven_parser.py                38      0   100%
 src/parsers/node_parser.py                 27      0   100%
 src/parsers/parser_base.py                  1      0   100%
 src/repo_dependency_creator.py             52      4    92%   94-99
-src/rest_api.py                           162     13    92%   195-198, 221-222, 373, 384, 394-400, 414
+src/rest_api.py                           196     13    93%   253-256, 279-280, 431, 442, 452-458, 472
 src/utils.py                              222     28    87%   58, 78, 92-97, 101-107, 153-154, 294, 358, 416-426
 ---------------------------------------------------------------------
-TOTAL                                     575     48    92%
+TOTAL                                     609     48    92%

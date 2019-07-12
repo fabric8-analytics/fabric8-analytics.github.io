@@ -5,8 +5,8 @@ f8a_report/cve_helper.py                      99     12    88%   67, 79-80, 98-1
 f8a_report/graph_report_generator.py         155     13    92%   50-51, 197-203, 233, 254-260		f8a_report/graph_report_generator.py         155     13    92%   50-51, 197-203, 233, 254-260
 f8a_report/main.py                            26      7    73%   31-38, 44				f8a_report/main.py                            26      7    73%   31-38, 44
 f8a_report/report_helper.py                  381     49    87%   83-96, 114-115, 173, 196-197, 238-23	f8a_report/report_helper.py                  381     49    87%   83-96, 114-115, 173, 196-197, 238-23
-f8a_report/s3_helper.py                       49     25    49%   24, 46-57, 61-76		      |	f8a_report/s3_helper.py                       74     32    57%   43, 53, 57, 61, 65, 69, 90-102, 106-
+f8a_report/s3_helper.py                       74     32    57%   43, 53, 57, 61, 65, 69, 90-102, 106- |	f8a_report/s3_helper.py                       74      9    88%   46, 60, 64, 68, 72, 100, 104, 119, 1
 f8a_report/sentry_report_helper.py            88     20    77%   44-47, 78-79, 88-89, 109-113, 134, 1	f8a_report/sentry_report_helper.py            88     20    77%   44-47, 78-79, 88-89, 109-113, 134, 1
 f8a_report/unknown_deps_report_helper.py      28     15    46%   18-39					f8a_report/unknown_deps_report_helper.py      28     15    46%   18-39
 ------------------------------------------------------------------------				------------------------------------------------------------------------
-TOTAL                                        826    141    83%					      |	TOTAL                                        851    148    83%
+TOTAL                                        851    148    83%					      |	TOTAL                                        851    125    85%
