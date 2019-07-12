@@ -1,6 +1,8 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-f8a_tagger tests tools
+f8a_tagger
+tests
+tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -96,7 +98,8 @@ tools/check_python_version.py
 
 ----------------------------------------------------
 Running Python linter against selected files:
-f8a_tagger_cli.py setup.py
+f8a_tagger_cli.py
+setup.py
 ----------------------------------------------------
 f8a_tagger_cli.py
     Pass

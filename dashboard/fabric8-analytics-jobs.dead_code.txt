@@ -1,7 +1,9 @@
 ----------------------------------------------------
 Checking source files for dead code and unused imports
 in following directories:
-f8a_jobs tests tools
+f8a_jobs
+tests
+tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -139,7 +141,8 @@ tools/check_python_version.py
 ----------------------------------------------------
 Checking following source files for dead code and
 unused imports:
-f8a-jobs.py setup.py
+f8a-jobs.py
+setup.py
 ----------------------------------------------------
 
 f8a-jobs.py

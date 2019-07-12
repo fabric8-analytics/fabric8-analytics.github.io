@@ -1,7 +1,20 @@
 ----------------------------------------------------
 Checking source files for dead code and unused imports
 in following directories:
-integration-tests ui-tests perf-tests dashboard reproducers load-tests db-integrity-tests taas baf e2e_tests_bot vscode-visual-tests a2t tools
+integration-tests
+ui-tests
+perf-tests
+dashboard
+reproducers
+load-tests
+db-integrity-tests
+taas
+job-checker
+baf
+e2e_tests_bot
+vscode-visual-tests
+a2t
+tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -236,6 +249,18 @@ db-integrity-tests/src/checker.py
     Pass
 taas/taas.py
     Pass
+job-checker/src/results.py
+    Pass
+job-checker/src/job_checker.py
+    Pass
+job-checker/src/ci_jobs.py
+    Pass
+job-checker/src/repositories.py
+    Pass
+job-checker/src/cliargs.py
+    Pass
+job-checker/src/config.py
+    Pass
 baf/src/auth.py
     Pass
 baf/src/csv_reader.py
@@ -308,4 +333,4 @@ a2t/src/test_runner.py
     Pass
 tools/check_python_version.py
     Pass
-All checks passed for 149 source files
+All checks passed for 155 source files

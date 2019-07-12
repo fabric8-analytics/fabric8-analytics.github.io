@@ -1,6 +1,8 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-f8a_jobs tests tools
+f8a_jobs
+tests
+tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -138,7 +140,8 @@ tools/check_python_version.py
 
 ----------------------------------------------------
 Running Python linter against selected files:
-f8a-jobs.py setup.py
+f8a-jobs.py
+setup.py
 ----------------------------------------------------
 f8a-jobs.py
     Pass

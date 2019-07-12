@@ -7,7 +7,9 @@ Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2
 ----------------------------------------------------
 Checking source files for common errors in following
 directories:
-f8a_tagger tests tools
+f8a_tagger
+tests
+tools
 ----------------------------------------------------
 
 f8a_tagger/collectors/__init__.py
@@ -96,7 +98,8 @@ tools/check_python_version.py
     Pass
 ----------------------------------------------------
 Checking following source files for common errors:
-f8a_tagger_cli.py setup.py
+f8a_tagger_cli.py
+setup.py
 ----------------------------------------------------
 
 f8a_tagger_cli.py
