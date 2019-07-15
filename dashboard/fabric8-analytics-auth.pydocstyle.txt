@@ -1,7 +1,9 @@
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
-fabric8a_auth tests tools
+fabric8a_auth
+tests
+tools
 ----------------------------------------------------
 
 Using base prefix '/usr'

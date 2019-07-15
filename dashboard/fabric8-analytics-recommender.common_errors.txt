@@ -7,7 +7,8 @@ Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2
 ----------------------------------------------------
 Checking source files for common errors in following
 directories:
-src tools
+src
+tools
 ----------------------------------------------------
 
 src/server/unittest/__init__.py

@@ -1,6 +1,8 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-src tests tools
+src
+tests
+tools
 ----------------------------------------------------
 
 src/toolkit/pipelines/train.py

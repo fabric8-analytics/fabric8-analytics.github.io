@@ -1,6 +1,8 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-gateway tests tools
+gateway
+tests
+tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -29,9 +31,4 @@ tests/test_defaults.py
     Pass
 tools/check_python_version.py
     Pass
-
-----------------------------------------------------
-Running Python linter against selected files:
-
-----------------------------------------------------
 All checks passed for 10 source files
