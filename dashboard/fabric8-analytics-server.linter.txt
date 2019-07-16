@@ -1,6 +1,9 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-bayesian hack tests tools
+bayesian
+hack
+tests
+tools
 ----------------------------------------------------
 
 Using base prefix '/usr'

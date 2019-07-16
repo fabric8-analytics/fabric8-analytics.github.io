@@ -1,7 +1,10 @@
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
-bayesian hack tests tools
+bayesian
+hack
+tests
+tools
 ----------------------------------------------------
 
 Using base prefix '/usr'

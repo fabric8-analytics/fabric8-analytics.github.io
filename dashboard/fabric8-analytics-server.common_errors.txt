@@ -7,7 +7,10 @@ Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2
 ----------------------------------------------------
 Checking source files for common errors in following
 directories:
-bayesian hack tests tools
+bayesian
+hack
+tests
+tools
 ----------------------------------------------------
 
 bayesian/auth.py

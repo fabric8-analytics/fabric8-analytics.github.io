@@ -1,7 +1,11 @@
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
-alembic f8a_worker tests hack tools
+alembic
+f8a_worker
+tests
+hack
+tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -516,7 +520,8 @@ tools/check_python_version.py
 
 ----------------------------------------------------
 Checking documentation strings in the following files
-setup.py dead_code_whitelist.py
+setup.py
+dead_code_whitelist.py
 ----------------------------------------------------
 setup.py
 0

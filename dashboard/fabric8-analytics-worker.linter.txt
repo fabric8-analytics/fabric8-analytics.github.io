@@ -1,6 +1,10 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-alembic f8a_worker tests hack tools
+alembic
+f8a_worker
+tests
+hack
+tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -348,7 +352,8 @@ tools/check_python_version.py
 
 ----------------------------------------------------
 Running Python linter against selected files:
-setup.py dead_code_whitelist.py
+setup.py
+dead_code_whitelist.py
 ----------------------------------------------------
 setup.py
     Pass

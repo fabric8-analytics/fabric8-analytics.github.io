@@ -1,7 +1,10 @@
 ----------------------------------------------------
 Checking source files for dead code and unused imports
 in following directories:
-bayesian hack tests tools
+bayesian
+hack
+tests
+tools
 ----------------------------------------------------
 
 Using base prefix '/usr'

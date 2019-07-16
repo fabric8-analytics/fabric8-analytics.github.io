@@ -1,7 +1,11 @@
 ----------------------------------------------------
 Checking source files for dead code and unused imports
 in following directories:
-alembic f8a_worker tests hack tools
+alembic
+f8a_worker
+tests
+hack
+tools
 ----------------------------------------------------
 
 Using base prefix '/usr'

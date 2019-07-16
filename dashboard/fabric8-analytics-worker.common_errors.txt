@@ -7,7 +7,11 @@ Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2
 ----------------------------------------------------
 Checking source files for common errors in following
 directories:
-alembic f8a_worker tests hack tools
+alembic
+f8a_worker
+tests
+hack
+tools
 ----------------------------------------------------
 
 alembic/versions/f5c853b83d41_add_api_requests_table.py
