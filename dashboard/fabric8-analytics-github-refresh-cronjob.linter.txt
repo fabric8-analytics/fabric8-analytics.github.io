@@ -1,6 +1,7 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-tests tools
+tests
+tools
 ----------------------------------------------------
 
 Using base prefix '/usr'

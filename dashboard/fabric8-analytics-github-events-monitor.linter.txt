@@ -1,6 +1,8 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-ghmonitor tests tools
+ghmonitor
+tests
+tools
 ----------------------------------------------------
 
 ghmonitor/monitor.py

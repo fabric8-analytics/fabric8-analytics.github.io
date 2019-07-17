@@ -1,6 +1,11 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-analytics_platform tagging_platform evaluation_platform util tests tools
+analytics_platform
+tagging_platform
+evaluation_platform
+util
+tests
+tools
 ----------------------------------------------------
 
 Using base prefix '/usr'

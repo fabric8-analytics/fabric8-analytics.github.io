@@ -1,7 +1,9 @@
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
-ghmonitor tests tools
+ghmonitor
+tests
+tools
 ----------------------------------------------------
 
 ghmonitor/monitor.py

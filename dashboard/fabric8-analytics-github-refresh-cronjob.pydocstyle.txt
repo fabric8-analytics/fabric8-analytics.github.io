@@ -1,7 +1,8 @@
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
-tests tools
+tests
+tools
 ----------------------------------------------------
 
 Using base prefix '/usr'

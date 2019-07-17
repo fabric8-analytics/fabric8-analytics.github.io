@@ -1,7 +1,9 @@
 ----------------------------------------------------
 Checking source files for dead code and unused imports
 in following directories:
-f8a_version_comparator tests tools
+f8a_version_comparator
+tests
+tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
