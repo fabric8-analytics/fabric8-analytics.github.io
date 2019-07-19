@@ -18,7 +18,7 @@ Name                                                          Stmts   Miss  Cove
 /root/payload/src/toolkit/transformers/classifiers.py           132     20    85%   61, 141, 187, 191, 202, 208, 251-254, 265, 296-306, 367, 373, 376, 416
 /root/payload/src/toolkit/transformers/extractors.py             97      2    98%   45, 191
 /root/payload/src/toolkit/transformers/feature_hooks.py          67     10    85%   69-80
-/root/payload/src/toolkit/transformers/hooks.py                  27      1    96%   69
+/root/payload/src/toolkit/transformers/hooks.py                  27      1    96%   70
 /root/payload/src/toolkit/utils.py                              104     16    85%   21, 40, 48, 50, 55, 59, 199, 204-208, 223-226, 244-245
 -------------------------------------------------------------------------------------------
 TOTAL                                                          1042     93    91%

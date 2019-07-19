@@ -9,7 +9,7 @@ src/data_source/abstract_data_source.py       6      0   100%						src/data_sour
 src/data_source/s3_data_source.py            36      2    94%   29-31					src/data_source/s3_data_source.py            36      2    94%   29-31
 src/graph_manager.py                         38      0   100%						src/graph_manager.py                         38      0   100%
 src/graph_populator.py                      217      7    97%   75, 304-305, 369-370, 487-488		src/graph_populator.py                      217      7    97%   75, 304-305, 369-370, 487-488
-src/rest_api.py                             206     19    91%   107, 110-112, 188, 224, 230, 264-267, |	src/rest_api.py                             214     19    91%   122, 125-127, 203, 239, 245, 279-282,
-src/utils.py                                207      0   100%					      |	src/utils.py                                232      0   100%
+src/rest_api.py                             214     19    91%   122, 125-127, 203, 239, 245, 279-282,	src/rest_api.py                             214     19    91%   122, 125-127, 203, 239, 245, 279-282,
+src/utils.py                                232      0   100%						src/utils.py                                232      0   100%
 -----------------------------------------------------------------------					-----------------------------------------------------------------------
-TOTAL                                      1099     55    95%					      |	TOTAL                                      1132     55    95%
+TOTAL                                      1132     55    95%						TOTAL                                      1132     55    95%
