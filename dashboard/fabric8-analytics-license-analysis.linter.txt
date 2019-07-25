@@ -1,6 +1,7 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-src tests
+src
+tests
 ----------------------------------------------------
 
 Using base prefix '/usr'

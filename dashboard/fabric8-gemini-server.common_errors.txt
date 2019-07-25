@@ -7,7 +7,9 @@ Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2
 ----------------------------------------------------
 Checking source files for common errors in following
 directories:
-src tests tools
+src
+tests
+tools
 ----------------------------------------------------
 
 src/repo_dependency_creator.py

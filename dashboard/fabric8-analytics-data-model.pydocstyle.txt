@@ -1,7 +1,9 @@
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
-src test tools
+src
+test
+tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -87,7 +89,9 @@ tools/check_python_version.py
 
 ----------------------------------------------------
 Checking documentation strings in the following files
-sanitycheck.py populate_schema.py setup.py
+sanitycheck.py
+populate_schema.py
+setup.py
 ----------------------------------------------------
 sanitycheck.py
 0

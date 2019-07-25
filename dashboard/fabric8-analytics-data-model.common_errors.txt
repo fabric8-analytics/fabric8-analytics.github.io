@@ -7,7 +7,9 @@ Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2
 ----------------------------------------------------
 Checking source files for common errors in following
 directories:
-src test tools
+src
+test
+tools
 ----------------------------------------------------
 
 src/graph_populator.py
@@ -60,7 +62,9 @@ tools/check_python_version.py
     Pass
 ----------------------------------------------------
 Checking following source files for common errors:
-sanitycheck.py populate_schema.py setup.py
+sanitycheck.py
+populate_schema.py
+setup.py
 ----------------------------------------------------
 
 sanitycheck.py

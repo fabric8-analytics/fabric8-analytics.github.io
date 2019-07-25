@@ -1,7 +1,9 @@
 ----------------------------------------------------
 Checking source files for dead code and unused imports
 in following directories:
-src test tools
+src
+test
+tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -61,7 +63,9 @@ tools/check_python_version.py
 ----------------------------------------------------
 Checking following source files for dead code and
 unused imports:
-sanitycheck.py populate_schema.py setup.py
+sanitycheck.py
+populate_schema.py
+setup.py
 ----------------------------------------------------
 
 sanitycheck.py
