@@ -1,7 +1,9 @@
 ----------------------------------------------------
 Checking source files for dead code and unused imports
 in following directories:
-f8a_report tools
+f8a_report
+tests
+tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -26,6 +28,22 @@ f8a_report/s3_helper.py
     Pass
 f8a_report/cve_helper.py
     Pass
+tests/test_main.py
+    Pass
+tests/test_graph_report_generator.py
+    Pass
+tests/test_stack_report_helper.py
+    Pass
+tests/test_unknown_deps_report_helper.py
+    Pass
+tests/__init__.py
+    Pass
+tests/test_s3_helper.py
+    Pass
+tests/test_sentry_report_helper.py
+    Pass
+tests/test_cve_helper.py
+    Pass
 tools/check_python_version.py
     Pass
 ----------------------------------------------------
@@ -36,4 +54,4 @@ setup.py
 
 setup.py
     Pass
-All checks passed for 10 source files
+All checks passed for 18 source files

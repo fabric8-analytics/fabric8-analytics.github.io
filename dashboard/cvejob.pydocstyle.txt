@@ -1,7 +1,10 @@
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
-cvejob tests scripts tools
+cvejob
+tests
+scripts
+tools
 ----------------------------------------------------
 
 cvejob/selectors/basic.py

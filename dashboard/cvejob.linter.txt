@@ -1,6 +1,9 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-cvejob tests scripts tools
+cvejob
+tests
+scripts
+tools
 ----------------------------------------------------
 
 cvejob/selectors/basic.py

@@ -7,7 +7,9 @@ Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2
 ----------------------------------------------------
 Checking source files for common errors in following
 directories:
-f8a_report tools tests
+f8a_report
+tests
+tools
 ----------------------------------------------------
 
 f8a_report/sentry_report_helper.py
@@ -26,8 +28,6 @@ f8a_report/s3_helper.py
     Pass
 f8a_report/cve_helper.py
     Pass
-tools/check_python_version.py
-    Pass
 tests/test_main.py
     Pass
 tests/test_graph_report_generator.py
@@ -43,6 +43,8 @@ tests/test_s3_helper.py
 tests/test_sentry_report_helper.py
     Pass
 tests/test_cve_helper.py
+    Pass
+tools/check_python_version.py
     Pass
 ----------------------------------------------------
 Checking following source files for common errors:

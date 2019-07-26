@@ -1,6 +1,8 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-f8a_report tests tools
+f8a_report
+tests
+tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
