@@ -1,7 +1,10 @@
 ----------------------------------------------------
 Checking source files for dead code and unused imports
 in following directories:
-f8a_ingestion tests alembic tools
+f8a_ingestion
+tests
+alembic
+tools
 ----------------------------------------------------
 
 Using base prefix '/usr'

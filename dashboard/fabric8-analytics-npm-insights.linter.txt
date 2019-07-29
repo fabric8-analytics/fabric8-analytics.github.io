@@ -1,6 +1,10 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-recommendation_engine deployment tests training tools
+recommendation_engine
+deployment
+tests
+training
+tools
 ----------------------------------------------------
 
 Using base prefix '/usr'

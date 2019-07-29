@@ -1,7 +1,11 @@
 ----------------------------------------------------
 Checking source files for dead code and unused imports
 in following directories:
-recommendation_engine deployment tests training tools
+recommendation_engine
+deployment
+tests
+training
+tools
 ----------------------------------------------------
 
 Using base prefix '/usr'

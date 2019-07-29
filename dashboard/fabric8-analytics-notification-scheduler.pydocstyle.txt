@@ -1,7 +1,8 @@
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
-f8a_notification tests tools
+f8a_notification
+tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -30,21 +31,6 @@ f8a_notification/github_utils.py
 f8a_notification/user_notification.py
 0
     Pass
-tests/test_user_notification.py
-0
-    Pass
-tests/test_auth.py
-0
-    Pass
-tests/__init__.py
-0
-    Pass
-tests/test_utils.py
-0
-    Pass
-tests/test_entry.py
-0
-    Pass
 tools/check_python_version.py
 0
     Pass
@@ -56,4 +42,4 @@ setup.py
 setup.py
 0
     Pass
-All checks passed for 13 source files
+All checks passed for 8 source files

@@ -1,6 +1,9 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-f8a_ingestion tests alembic tools
+f8a_ingestion
+tests
+alembic
+tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
