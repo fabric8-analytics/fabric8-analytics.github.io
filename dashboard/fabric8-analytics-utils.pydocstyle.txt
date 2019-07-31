@@ -1,7 +1,9 @@
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
-f8a_utils tests tools
+f8a_utils
+tests
+tools
 ----------------------------------------------------
 
 Using base prefix '/usr'

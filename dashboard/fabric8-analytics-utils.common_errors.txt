@@ -7,7 +7,9 @@ Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2
 ----------------------------------------------------
 Checking source files for common errors in following
 directories:
-f8a_utils tests tools
+f8a_utils
+tests
+tools
 ----------------------------------------------------
 
 f8a_utils/commands/__init__.py

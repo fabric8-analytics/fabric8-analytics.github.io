@@ -9,6 +9,7 @@ Checking source files for common errors in following
 directories:
 f8a_notification
 tools
+tests
 ----------------------------------------------------
 
 f8a_notification/auth.py
@@ -25,6 +26,16 @@ f8a_notification/user_notification.py
     Pass
 tools/check_python_version.py
     Pass
+tests/test_user_notification.py
+    Pass
+tests/test_auth.py
+    Pass
+tests/__init__.py
+    Pass
+tests/test_utils.py
+    Pass
+tests/test_entry.py
+    Pass
 ----------------------------------------------------
 Checking following source files for common errors:
 setup.py
@@ -32,4 +43,4 @@ setup.py
 
 setup.py
     Pass
-All checks passed for 8 source files
+All checks passed for 13 source files
