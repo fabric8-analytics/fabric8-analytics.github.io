@@ -1,6 +1,12 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-deployments training src tests perf_tests PoC_code tools
+src
+deployments
+tests
+training
+perf_tests
+PoC_code
+tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -9,10 +15,6 @@ Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: pycodestyle in ./venv/lib/python3.6/site-packages (2.4.0)
-deployments/__init__.py
-    Pass
-training/train.py
-    Pass
 src/__init__.py
     Pass
 src/utils.py
@@ -22,6 +24,8 @@ src/flask_endpoint.py
 src/scoring/__init__.py
     Pass
 src/scoring/hpf_scoring.py
+    Pass
+deployments/__init__.py
     Pass
 tests/__init__.py
     Pass
@@ -36,6 +40,8 @@ tests/unit_tests/test_utils.py
 tests/test_data/__init__.py
     Pass
 tests/test_data/maven/scoring/__init__.py
+    Pass
+training/train.py
     Pass
 perf_tests/__init__.py
     Pass

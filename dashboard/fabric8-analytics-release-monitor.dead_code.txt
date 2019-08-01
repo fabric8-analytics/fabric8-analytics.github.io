@@ -1,7 +1,10 @@
 ----------------------------------------------------
 Checking source files for dead code and unused imports
 in following directories:
-release_monitor/ integration_tests/ tests tools
+release_monitor
+integration_tests
+tests
+tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -29,7 +32,8 @@ tools/check_python_version.py
 ----------------------------------------------------
 Checking following source files for dead code and
 unused imports:
-setup.py run.py
+setup.py
+run.py
 ----------------------------------------------------
 
 setup.py

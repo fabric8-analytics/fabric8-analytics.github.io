@@ -1,6 +1,8 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-rudra tests tools
+rudra
+tests
+tools
 ----------------------------------------------------
 
 Using base prefix '/usr'

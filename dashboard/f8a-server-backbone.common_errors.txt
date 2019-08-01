@@ -1,7 +1,9 @@
 ----------------------------------------------------
 Checking source files for common errors in following
 directories:
-src tests tools
+src
+tests
+tools
 ----------------------------------------------------
 
 Using base prefix '/usr'

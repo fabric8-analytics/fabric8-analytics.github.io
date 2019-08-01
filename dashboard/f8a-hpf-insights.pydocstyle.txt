@@ -1,7 +1,13 @@
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
-src deployments tests training perf_tests PoC_code tools
+src
+deployments
+tests
+training
+perf_tests
+PoC_code
+tools
 ----------------------------------------------------
 
 Using base prefix '/usr'

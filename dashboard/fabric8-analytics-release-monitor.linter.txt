@@ -1,6 +1,9 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-release_monitor integration_tests tests tools
+release_monitor
+integration_tests
+tests
+tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -28,7 +31,8 @@ tools/check_python_version.py
 
 ----------------------------------------------------
 Running Python linter against selected files:
-setup.py run.py
+setup.py
+run.py
 ----------------------------------------------------
 setup.py
     Pass

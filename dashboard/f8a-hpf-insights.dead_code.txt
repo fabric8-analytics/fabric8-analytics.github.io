@@ -1,7 +1,13 @@
 ----------------------------------------------------
 Checking source files for dead code and unused imports
 in following directories:
-deployments src tests perf_tests PoC_code training tools
+src
+deployments
+tests
+training
+perf_tests
+PoC_code
+tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -10,8 +16,6 @@ Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages (0.28)
-deployments/__init__.py
-    Pass
 src/__init__.py
     Pass
 src/utils.py
@@ -21,6 +25,8 @@ src/flask_endpoint.py
 src/scoring/__init__.py
     Pass
 src/scoring/hpf_scoring.py
+    Pass
+deployments/__init__.py
     Pass
 tests/__init__.py
     Pass
@@ -36,13 +42,13 @@ tests/test_data/__init__.py
     Pass
 tests/test_data/maven/scoring/__init__.py
     Pass
+training/train.py
+    Pass
 perf_tests/__init__.py
     Pass
 perf_tests/locust_tests.py
     Pass
 PoC_code/__init__.py
-    Pass
-training/train.py
     Pass
 tools/check_python_version.py
     Pass
