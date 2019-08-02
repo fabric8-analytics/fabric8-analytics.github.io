@@ -1,6 +1,9 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-src tests training tools
+src
+tests
+training
+tools
 ----------------------------------------------------
 
 Using base prefix '/usr'

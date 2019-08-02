@@ -1240,9 +1240,10 @@ a2t/src/api.py
     M 54:4 Api.get - A (1)
     M 70:4 Api.authorization - A (1)
 a2t/src/setup.py
-    F 111:0 setup - B (8)
-    F 74:0 get_access_token - A (4)
+    F 126:0 setup - A (5)
+    F 74:0 get_access_token_from_refresh_token - A (4)
     F 31:0 add_slash - A (3)
+    F 116:0 get_access_token - A (3)
     F 43:0 missing_api_token_warning - A (2)
     F 55:0 check_api_tokens_presence - A (2)
     F 64:0 yes_no - A (2)
@@ -1251,6 +1252,7 @@ a2t/src/setup.py
     F 96:0 tags_as_str - A (2)
     F 101:0 refresh_token_as_str - A (2)
     F 106:0 user_key_as_str - A (2)
+    F 111:0 get_input_file - A (2)
     F 38:0 read_url_from_env_var - A (1)
 a2t/src/component_generator.py
     C 20:0 ComponentGenerator - A (4)
@@ -1298,15 +1300,17 @@ a2t/src/a2t.py
     F 59:0 check_system - A (2)
     F 68:0 show_version - A (1)
 a2t/src/test_runner.py
-    F 54:0 component_analysis_benchmark - B (9)
-    F 229:0 start_tests - A (5)
-    F 88:0 stack_analysis_benchmark - A (3)
-    F 168:0 run_test - A (3)
-    F 211:0 run_tests_with_tags - A (3)
+    F 241:0 start_tests - A (5)
+    F 54:0 prepare_component_generators - A (4)
+    F 79:0 component_analysis_benchmark - A (4)
+    F 72:0 initialize_generators - A (3)
+    F 100:0 stack_analysis_benchmark - A (3)
+    F 180:0 run_test - A (3)
+    F 223:0 run_tests_with_tags - A (3)
     F 36:0 check_number_of_results - A (2)
-    F 160:0 wait_for_all_threads - A (2)
-    F 203:0 run_all_loaded_tests - A (2)
-    F 224:0 no_tests - A (2)
+    F 172:0 wait_for_all_threads - A (2)
+    F 215:0 run_all_loaded_tests - A (2)
+    F 236:0 no_tests - A (2)
 perf-tests/src/api.py
     M 15:4 Api.is_api_running - A (3)
     M 25:4 Api.add_slash - A (3)
@@ -1559,6 +1563,6 @@ vscode-visual-tests/features/steps/common.py
     F 175:0 pause_vscode_to_close - A (1)
     F 181:0 pause_wait_for_context_menu - A (1)
 
-1430 blocks (classes, functions, methods) analyzed.
-Average complexity: A (2.327972027972028)
+1434 blocks (classes, functions, methods) analyzed.
+Average complexity: A (2.3242677824267783)
 </pre>

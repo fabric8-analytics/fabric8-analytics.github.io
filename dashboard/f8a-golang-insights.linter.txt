@@ -1,6 +1,8 @@
 ----------------------------------------------------
 Running Python linter against following directories:
-insights_engine/ tests/ tools
+insights_engine
+tests
+tools
 ----------------------------------------------------
 
 Using base prefix '/usr'

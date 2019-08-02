@@ -1,7 +1,10 @@
 ----------------------------------------------------
 Checking source files for dead code and unused imports
 in following directories:
-src tests tools
+src
+tests
+training
+tools
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -32,6 +35,10 @@ tests/unit_tests/test_recommendation_service.py
     Pass
 tests/conftest.py
     Pass
+training/train.py
+    Pass
+training/__init__.py
+    Pass
 tools/check_python_version.py
     Pass
-All checks passed for 12 source files
+All checks passed for 14 source files
