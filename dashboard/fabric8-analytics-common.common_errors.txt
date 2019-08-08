@@ -333,6 +333,8 @@ a2t/src/test_runner.py
     Pass
 tools/check_python_version.py
     Pass
+tools/generate_pypi_list.py
+    Pass
 tools/generate_npm_list.py
     Pass
-All checks passed for 156 source files
+All checks passed for 157 source files
