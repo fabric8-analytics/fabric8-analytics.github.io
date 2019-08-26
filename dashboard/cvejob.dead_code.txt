@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/cvejob ~/bayesian/dashboard/repositories/cvejob
 ----------------------------------------------------
 Checking source files for dead code and unused imports
 in following directories:
@@ -84,4 +85,5 @@ run.py
 
 run.py
     Pass
+~/bayesian/dashboard/repositories/cvejob
 All checks passed for 35 source files

@@ -4,7 +4,7 @@ Name                                                       Stmts   Miss  Cover  
 /root/payload/src/config.py                                   10      0   100%
 /root/payload/src/directed_graph.py                           87      0   100%
 /root/payload/src/exceptions.py                                5      0   100%
-/root/payload/src/license_analysis.py                        274      0   100%
+/root/payload/src/license_analysis.py                        275      0   100%
 /root/payload/src/rest_api.py                                 30      2    93%   60, 64
 /root/payload/src/stack_license.py                           309     51    83%   34-39, 215-219, 246-247, 253-254, 270-274, 347-352, 433, 451, 455-463, 488, 491-498, 504-521, 572-573
 /root/payload/src/util/__init__.py                             0      0   100%
@@ -14,4 +14,4 @@ Name                                                       Stmts   Miss  Cover  
 /root/payload/src/util/data_store/s3_data_store.py            61      0   100%
 /root/payload/src/utils.py                                     3      0   100%
 ----------------------------------------------------------------------------------------
-TOTAL                                                        834     53    94%
+TOTAL                                                        835     53    94%

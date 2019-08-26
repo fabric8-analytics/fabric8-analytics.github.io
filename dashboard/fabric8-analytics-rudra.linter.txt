@@ -30,8 +30,7 @@ rudra/data_store/aws.py
 rudra/data_store/local_data_store.py
     Pass
 rudra/utils/validation.py
-rudra/utils/validation.py:15:1: E302 expected 2 blank lines, found 1
-    Fail
+    Pass
 rudra/utils/__init__.py
     Pass
 rudra/utils/pypi_parser.py
@@ -101,4 +100,4 @@ setup.py
 ----------------------------------------------------
 setup.py
     Pass
-Linter fail, 1 source files out of 42 source files need to be fixed
+All checks passed for 42 source files

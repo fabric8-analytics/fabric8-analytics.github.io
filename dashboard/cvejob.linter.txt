@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/cvejob ~/bayesian/dashboard/repositories/cvejob
 ----------------------------------------------------
 Running Python linter against following directories:
 cvejob
@@ -82,3 +83,4 @@ run.py
 run.py
     Pass
 All checks passed for 35 source files
+~/bayesian/dashboard/repositories/cvejob

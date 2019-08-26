@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/cvejob ~/bayesian/dashboard/repositories/cvejob
 Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages
 ----------------------------------------------------
 Checking source files for common errors in following
@@ -83,4 +84,5 @@ run.py
 
 run.py
     Pass
+~/bayesian/dashboard/repositories/cvejob
 All checks passed for 35 source files
