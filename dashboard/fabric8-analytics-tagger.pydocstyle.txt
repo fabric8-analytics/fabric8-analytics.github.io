@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/fabric8-analytics-tagger ~/bayesian/dashboard/repositories/fabric8-analytics-tagger
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
@@ -152,4 +153,5 @@ f8a_tagger_cli.py
 setup.py
 0
     Pass
+~/bayesian/dashboard/repositories/fabric8-analytics-tagger
 All checks passed for 44 source files
