@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/fabric8-analytics-nvd-toolkit ~/bayesian/dashboard/repositories/fabric8-analytics-nvd-toolkit
 ----------------------------------------------------
 Running Python linter against following directories:
 src
@@ -79,3 +80,4 @@ setup.py
 setup.py
     Pass
 All checks passed for 34 source files
+~/bayesian/dashboard/repositories/fabric8-analytics-nvd-toolkit
