@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/fabric8-analytics-recommender ~/bayesian/dashboard/repositories/fabric8-analytics-recommender
 ----------------------------------------------------
 Running Python linter against following directories:
 src
@@ -45,3 +46,4 @@ src/deployment/spark_aws/submit_training_job.py
 tools/check_python_version.py
     Pass
 All checks passed for 17 source files
+~/bayesian/dashboard/repositories/fabric8-analytics-recommender

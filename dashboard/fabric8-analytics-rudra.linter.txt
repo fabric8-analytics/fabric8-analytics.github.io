@@ -3,6 +3,7 @@ Running Python linter against following directories:
 rudra
 tests
 tools
+docs
 ----------------------------------------------------
 
 Using base prefix '/usr'
@@ -93,6 +94,8 @@ tests/conftest.py
     Pass
 tools/check_python_version.py
     Pass
+docs/source/conf.py
+    Pass
 
 ----------------------------------------------------
 Running Python linter against selected files:
@@ -100,4 +103,4 @@ setup.py
 ----------------------------------------------------
 setup.py
     Pass
-All checks passed for 42 source files
+All checks passed for 43 source files

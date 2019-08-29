@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/fabric8-analytics-recommender ~/bayesian/dashboard/repositories/fabric8-analytics-recommender
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
@@ -64,4 +65,5 @@ src/deployment/spark_aws/submit_training_job.py
 tools/check_python_version.py
 0
     Pass
+~/bayesian/dashboard/repositories/fabric8-analytics-recommender
 All checks passed for 17 source files
