@@ -23,8 +23,7 @@ rudra/data_store/bigquery/maven_bigquery.py
 rudra/data_store/bigquery/npm_bigquery.py
     Pass
 rudra/data_store/bigquery/base.py
-rudra/data_store/bigquery/base.py:5: unused import 'json' (90% confidence)
-    Fail
+    Pass
 rudra/data_store/aws.py
     Pass
 rudra/data_store/local_data_store.py
@@ -46,10 +45,7 @@ rudra/deployments/__init__.py
 rudra/deployments/emr_scripts/emr_config.py
     Pass
 rudra/deployments/emr_scripts/__init__.py
-rudra/deployments/emr_scripts/__init__.py:3: unused import 'MavenEMR' (90% confidence)
-rudra/deployments/emr_scripts/__init__.py:4: unused import 'NpmEMR' (90% confidence)
-rudra/deployments/emr_scripts/__init__.py:5: unused import 'PyPiEMR' (90% confidence)
-    Fail
+    Pass
 rudra/deployments/emr_scripts/maven_emr.py
     Pass
 rudra/deployments/emr_scripts/npm_emr.py
@@ -104,4 +100,4 @@ setup.py
 
 setup.py
     Pass
-2 source files out of 42 files seems to contain dead code and/or unused imports
+All checks passed for 42 source files

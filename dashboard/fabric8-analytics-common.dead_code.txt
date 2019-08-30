@@ -337,4 +337,6 @@ tools/generate_pypi_list.py
     Pass
 tools/generate_npm_list.py
     Pass
-All checks passed for 157 source files
+tools/generate_maven_list.py
+    Pass
+All checks passed for 158 source files

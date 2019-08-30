@@ -26,8 +26,7 @@ rudra/data_store/bigquery/maven_bigquery.py
 rudra/data_store/bigquery/npm_bigquery.py
     Pass
 rudra/data_store/bigquery/base.py
-rudra/data_store/bigquery/base.py:5: 'json' imported but unused
-    Fail
+    Pass
 rudra/data_store/aws.py
     Pass
 rudra/data_store/local_data_store.py
@@ -105,4 +104,4 @@ setup.py
 
 setup.py
     Pass
-1 source files out of 43 files needs to be checked and fixed
+All checks passed for 43 source files
