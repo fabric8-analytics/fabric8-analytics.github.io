@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/fabric8-analytics-github-events-monitor ~/bayesian/dashboard/repositories/fabric8-analytics-github-events-monitor
 Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages
 ----------------------------------------------------
 Checking source files for common errors in following
@@ -42,4 +43,5 @@ run.py
 
 run.py
     Pass
+~/bayesian/dashboard/repositories/fabric8-analytics-github-events-monitor
 All checks passed for 15 source files

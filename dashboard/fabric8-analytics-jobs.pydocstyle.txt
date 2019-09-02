@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/fabric8-analytics-jobs ~/bayesian/dashboard/repositories/fabric8-analytics-jobs
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
@@ -215,4 +216,5 @@ f8a-jobs.py
 setup.py
 0
     Pass
+~/bayesian/dashboard/repositories/fabric8-analytics-jobs
 All checks passed for 65 source files

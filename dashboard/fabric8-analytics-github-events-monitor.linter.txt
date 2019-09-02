@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/fabric8-analytics-github-events-monitor ~/bayesian/dashboard/repositories/fabric8-analytics-github-events-monitor
 ----------------------------------------------------
 Running Python linter against following directories:
 ghmonitor
@@ -41,3 +42,4 @@ run.py
 run.py
     Pass
 All checks passed for 15 source files
+~/bayesian/dashboard/repositories/fabric8-analytics-github-events-monitor

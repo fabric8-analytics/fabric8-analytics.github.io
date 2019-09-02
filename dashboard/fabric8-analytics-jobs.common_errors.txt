@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/fabric8-analytics-jobs ~/bayesian/dashboard/repositories/fabric8-analytics-jobs
 Using base prefix '/usr'
 New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-jobs/venv/bin/python3
 Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-jobs/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-jobs/venv/bin/python3)
@@ -148,4 +149,5 @@ f8a-jobs.py
     Pass
 setup.py
     Pass
+~/bayesian/dashboard/repositories/fabric8-analytics-jobs
 All checks passed for 65 source files

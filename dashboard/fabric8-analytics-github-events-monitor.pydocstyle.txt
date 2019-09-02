@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/fabric8-analytics-github-events-monitor ~/bayesian/dashboard/repositories/fabric8-analytics-github-events-monitor
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
@@ -56,4 +57,5 @@ run.py
 run.py
 0
     Pass
+~/bayesian/dashboard/repositories/fabric8-analytics-github-events-monitor
 All checks passed for 15 source files

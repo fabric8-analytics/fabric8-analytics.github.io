@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/fabric8-analytics-api-gateway ~/bayesian/dashboard/repositories/fabric8-analytics-api-gateway
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
@@ -44,4 +45,5 @@ tests/test_defaults.py
 tools/check_python_version.py
 0
     Pass
+~/bayesian/dashboard/repositories/fabric8-analytics-api-gateway
 All checks passed for 10 source files

@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/fabric8-analytics-jobs ~/bayesian/dashboard/repositories/fabric8-analytics-jobs
 ----------------------------------------------------
 Checking source files for dead code and unused imports
 in following directories:
@@ -149,4 +150,5 @@ f8a-jobs.py
     Pass
 setup.py
     Pass
+~/bayesian/dashboard/repositories/fabric8-analytics-jobs
 All checks passed for 65 source files

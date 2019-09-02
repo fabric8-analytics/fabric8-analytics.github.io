@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/fabric8-analytics-api-gateway ~/bayesian/dashboard/repositories/fabric8-analytics-api-gateway
 ----------------------------------------------------
 Running Python linter against following directories:
 gateway
@@ -32,3 +33,4 @@ tests/test_defaults.py
 tools/check_python_version.py
     Pass
 All checks passed for 10 source files
+~/bayesian/dashboard/repositories/fabric8-analytics-api-gateway
