@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/f8a-stacks-report ~/bayesian/dashboard/repositories/f8a-stacks-report
 ----------------------------------------------------
 Running Python linter against following directories:
 f8a_report
@@ -53,3 +54,4 @@ setup.py
 setup.py
     Pass
 All checks passed for 18 source files
+~/bayesian/dashboard/repositories/f8a-stacks-report

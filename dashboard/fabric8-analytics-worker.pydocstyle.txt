@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/fabric8-analytics-worker ~/bayesian/dashboard/repositories/fabric8-analytics-worker
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
@@ -529,4 +530,5 @@ setup.py
 dead_code_whitelist.py
 0
     Pass
+~/bayesian/dashboard/repositories/fabric8-analytics-worker
 All checks passed for 169 source files

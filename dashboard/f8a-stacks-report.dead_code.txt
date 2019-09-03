@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/f8a-stacks-report ~/bayesian/dashboard/repositories/f8a-stacks-report
 ----------------------------------------------------
 Checking source files for dead code and unused imports
 in following directories:
@@ -54,4 +55,5 @@ setup.py
 
 setup.py
     Pass
+~/bayesian/dashboard/repositories/f8a-stacks-report
 All checks passed for 18 source files

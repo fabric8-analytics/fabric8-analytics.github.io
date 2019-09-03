@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/fabric8-analytics-worker ~/bayesian/dashboard/repositories/fabric8-analytics-worker
 ----------------------------------------------------
 Running Python linter against following directories:
 alembic
@@ -360,3 +361,4 @@ setup.py
 dead_code_whitelist.py
     Pass
 All checks passed for 170 source files
+~/bayesian/dashboard/repositories/fabric8-analytics-worker
