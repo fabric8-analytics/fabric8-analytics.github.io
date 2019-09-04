@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/fabric8-analytics-version-comparator ~/bayesian/dashboard/repositories/fabric8-analytics-version-comparator
 Using base prefix '/usr'
 New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-version-comparator/venv/bin/python3
 Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-version-comparator/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-version-comparator/venv/bin/python3)
@@ -35,4 +36,5 @@ setup.py
 
 setup.py
     Pass
+~/bayesian/dashboard/repositories/fabric8-analytics-version-comparator
 All checks passed for 9 source files

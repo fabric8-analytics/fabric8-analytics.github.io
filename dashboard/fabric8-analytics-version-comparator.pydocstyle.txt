@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/fabric8-analytics-version-comparator ~/bayesian/dashboard/repositories/fabric8-analytics-version-comparator
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
@@ -46,4 +47,5 @@ setup.py
 setup.py
 0
     Pass
+~/bayesian/dashboard/repositories/fabric8-analytics-version-comparator
 All checks passed for 9 source files

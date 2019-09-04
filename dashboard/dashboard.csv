@@ -21,7 +21,7 @@ fabric8-analytics-utils,10,1033,10,0,100%,10,0,100%,280,1,99%,0,0,50,11,2,0,0,0,
 fabric8-analytics-github-refresh-cronjob,4,216,4,0,100%,4,0,100%,70,6,91%,0,0,13,0,0,0,0,0,yes,4,0,0,yes,ok
 fabric8-analytics-github-events-monitor,15,1182,15,0,100%,15,0,100%,230,20,91%,0,0,57,8,0,0,0,0,yes,15,0,0,yes,ok
 fabric8-analytics-release-monitor,10,819,10,0,100%,10,0,100%,126,21,83%,0,0,51,1,0,0,0,0,yes,10,0,0,yes,failure(s) found
-f8a-server-backbone,12,2893,12,0,100%,12,0,100%,888,82,91%,0,0,96,18,5,0,0,0,yes,12,0,0,yes,ok
+f8a-server-backbone,12,2926,12,0,100%,12,0,100%,902,82,91%,0,0,96,21,4,0,0,0,yes,12,0,0,yes,ok
 fabric8-analytics-rudra,43,3340,43,0,100%,28,15,65%,N/A,N/A,N/A,0,0,251,30,3,0,0,0,yes,43,0,0,yes,failure(s) found
 f8a-hpf-insights,18,1065,18,0,100%,18,0,100%,160,16,90%,0,0,63,3,0,0,0,0,yes,18,0,0,yes,ok
 f8a-golang-insights,16,974,16,0,100%,16,0,100%,222,108,51%,0,0,48,4,1,0,0,0,yes,16,0,0,yes,failure(s) found

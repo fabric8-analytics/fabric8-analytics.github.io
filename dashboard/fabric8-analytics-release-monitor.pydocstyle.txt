@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/fabric8-analytics-release-monitor ~/bayesian/dashboard/repositories/fabric8-analytics-release-monitor
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
@@ -51,4 +52,5 @@ setup.py
 run.py
 0
     Pass
+~/bayesian/dashboard/repositories/fabric8-analytics-release-monitor
 All checks passed for 10 source files
