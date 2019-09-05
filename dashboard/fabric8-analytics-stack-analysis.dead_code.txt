@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/fabric8-analytics-stack-analysis ~/bayesian/dashboard/repositories/fabric8-analytics-stack-analysis
 ----------------------------------------------------
 Checking source files for dead code and unused imports
 in following directories:
@@ -199,4 +200,5 @@ tests/unit_tests/test_apollo_frequency_dict_generator.py
     Pass
 tools/check_python_version.py
     Pass
+~/bayesian/dashboard/repositories/fabric8-analytics-stack-analysis
 All checks passed for 92 source files

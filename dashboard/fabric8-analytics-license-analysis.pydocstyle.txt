@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/fabric8-analytics-license-analysis ~/bayesian/dashboard/repositories/fabric8-analytics-license-analysis
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
@@ -97,4 +98,5 @@ tests/conftest.py
 tests/pandas_mocks.py
 0
     Pass
+~/bayesian/dashboard/repositories/fabric8-analytics-license-analysis
 All checks passed for 28 source files

@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/fabric8-analytics-stack-analysis ~/bayesian/dashboard/repositories/fabric8-analytics-stack-analysis
 ----------------------------------------------------
 Running Python linter against following directories:
 analytics_platform
@@ -199,3 +200,4 @@ tests/unit_tests/test_apollo_frequency_dict_generator.py
 tools/check_python_version.py
     Pass
 All checks passed for 92 source files
+~/bayesian/dashboard/repositories/fabric8-analytics-stack-analysis

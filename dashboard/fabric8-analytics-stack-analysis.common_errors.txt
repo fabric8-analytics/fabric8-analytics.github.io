@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/fabric8-analytics-stack-analysis ~/bayesian/dashboard/repositories/fabric8-analytics-stack-analysis
 Using base prefix '/usr'
 New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-stack-analysis/venv/bin/python3
 Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-stack-analysis/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-stack-analysis/venv/bin/python3)
@@ -199,4 +200,5 @@ tests/unit_tests/test_apollo_frequency_dict_generator.py
     Pass
 tools/check_python_version.py
     Pass
+~/bayesian/dashboard/repositories/fabric8-analytics-stack-analysis
 All checks passed for 92 source files

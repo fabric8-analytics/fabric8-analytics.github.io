@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/fabric8-analytics-license-analysis ~/bayesian/dashboard/repositories/fabric8-analytics-license-analysis
 ----------------------------------------------------
 Running Python linter against following directories:
 src
@@ -67,3 +68,4 @@ tests/conftest.py
 tests/pandas_mocks.py
     Pass
 All checks passed for 28 source files
+~/bayesian/dashboard/repositories/fabric8-analytics-license-analysis
