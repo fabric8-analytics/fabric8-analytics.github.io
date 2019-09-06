@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/fabric8-analytics-data-model ~/bayesian/dashboard/repositories/fabric8-analytics-data-model
 ----------------------------------------------------
 Checking source files for dead code and unused imports
 in following directories:
@@ -74,4 +75,5 @@ populate_schema.py
     Pass
 setup.py
     Pass
+~/bayesian/dashboard/repositories/fabric8-analytics-data-model
 All checks passed for 27 source files

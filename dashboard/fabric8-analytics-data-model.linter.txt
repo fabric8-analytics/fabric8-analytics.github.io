@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/fabric8-analytics-data-model ~/bayesian/dashboard/repositories/fabric8-analytics-data-model
 ----------------------------------------------------
 Running Python linter against following directories:
 src
@@ -73,3 +74,4 @@ populate_schema.py
 setup.py
     Pass
 All checks passed for 27 source files
+~/bayesian/dashboard/repositories/fabric8-analytics-data-model
