@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/fabric8-gemini-server ~/bayesian/dashboard/repositories/fabric8-gemini-server
 ----------------------------------------------------
 Checking source files for dead code and unused imports
 in following directories:
@@ -64,4 +65,5 @@ setup.py
 
 setup.py
     Pass
+~/bayesian/dashboard/repositories/fabric8-gemini-server
 All checks passed for 23 source files

@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/victimsdb-lib ~/bayesian/dashboard/repositories/victimsdb-lib
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
@@ -46,4 +47,5 @@ setup.py
 setup.py
 0
     Pass
+~/bayesian/dashboard/repositories/victimsdb-lib
 All checks passed for 9 source files

@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/victimsdb-lib ~/bayesian/dashboard/repositories/victimsdb-lib
 ----------------------------------------------------
 Running Python linter against following directories:
 victimsdb_lib
@@ -35,3 +36,4 @@ setup.py
 setup.py
     Pass
 All checks passed for 9 source files
+~/bayesian/dashboard/repositories/victimsdb-lib
