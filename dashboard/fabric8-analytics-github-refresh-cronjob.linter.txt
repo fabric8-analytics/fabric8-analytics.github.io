@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/fabric8-analytics-github-refresh-cronjob ~/bayesian/dashboard/repositories/fabric8-analytics-github-refresh-cronjob
 ----------------------------------------------------
 Running Python linter against following directories:
 tests
@@ -24,3 +25,4 @@ github_refresh.py
 github_refresh.py
     Pass
 All checks passed for 4 source files
+~/bayesian/dashboard/repositories/fabric8-analytics-github-refresh-cronjob

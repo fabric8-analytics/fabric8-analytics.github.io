@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/fabric8-analytics-github-refresh-cronjob ~/bayesian/dashboard/repositories/fabric8-analytics-github-refresh-cronjob
 ----------------------------------------------------
 Checking source files for dead code and unused imports
 in following directories:
@@ -25,4 +26,5 @@ github_refresh.py
 
 github_refresh.py
     Pass
+~/bayesian/dashboard/repositories/fabric8-analytics-github-refresh-cronjob
 All checks passed for 4 source files

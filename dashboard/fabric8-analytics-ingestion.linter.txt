@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/fabric8-analytics-ingestion ~/bayesian/dashboard/repositories/fabric8-analytics-ingestion
 ----------------------------------------------------
 Running Python linter against following directories:
 f8a_ingestion
@@ -50,3 +51,4 @@ setup.py
 setup.py
     Pass
 All checks passed for 16 source files
+~/bayesian/dashboard/repositories/fabric8-analytics-ingestion
