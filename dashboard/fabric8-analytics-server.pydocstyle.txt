@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/fabric8-analytics-server ~/bayesian/dashboard/repositories/fabric8-analytics-server
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
@@ -89,4 +90,5 @@ setup.py
 setup.py
 0
     Pass
+~/bayesian/dashboard/repositories/fabric8-analytics-server
 All checks passed for 23 source files
