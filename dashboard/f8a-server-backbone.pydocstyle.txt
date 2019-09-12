@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/f8a-server-backbone ~/bayesian/dashboard/repositories/f8a-server-backbone
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
@@ -50,4 +51,5 @@ tests/conftest.py
 tools/check_python_version.py
 0
     Pass
+~/bayesian/dashboard/repositories/f8a-server-backbone
 All checks passed for 12 source files

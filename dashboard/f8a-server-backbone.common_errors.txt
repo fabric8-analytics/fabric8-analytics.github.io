@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/f8a-server-backbone ~/bayesian/dashboard/repositories/f8a-server-backbone
 ----------------------------------------------------
 Checking source files for common errors in following
 directories:
@@ -36,4 +37,5 @@ tests/conftest.py
     Pass
 tools/check_python_version.py
     Pass
+~/bayesian/dashboard/repositories/f8a-server-backbone
 All checks passed for 12 source files

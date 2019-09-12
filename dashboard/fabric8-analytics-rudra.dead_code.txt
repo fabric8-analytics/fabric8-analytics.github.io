@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/fabric8-analytics-rudra ~/bayesian/dashboard/repositories/fabric8-analytics-rudra
 ----------------------------------------------------
 Checking source files for dead code and unused imports
 in following directories:
@@ -100,4 +101,5 @@ setup.py
 
 setup.py
     Pass
+~/bayesian/dashboard/repositories/fabric8-analytics-rudra
 All checks passed for 42 source files

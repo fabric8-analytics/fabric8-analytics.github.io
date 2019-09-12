@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/fabric8-analytics-rudra ~/bayesian/dashboard/repositories/fabric8-analytics-rudra
 ----------------------------------------------------
 Running Python linter against following directories:
 rudra
@@ -104,3 +105,4 @@ setup.py
 setup.py
     Pass
 All checks passed for 43 source files
+~/bayesian/dashboard/repositories/fabric8-analytics-rudra
