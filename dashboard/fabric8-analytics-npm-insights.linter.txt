@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/fabric8-analytics-npm-insights ~/bayesian/dashboard/repositories/fabric8-analytics-npm-insights
 ----------------------------------------------------
 Running Python linter against following directories:
 recommendation_engine
@@ -70,3 +71,4 @@ training/datastore/preprocess_data.py
 tools/check_python_version.py
     Pass
 All checks passed for 28 source files
+~/bayesian/dashboard/repositories/fabric8-analytics-npm-insights

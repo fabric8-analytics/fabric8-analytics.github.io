@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/fabric8-analytics-npm-insights ~/bayesian/dashboard/repositories/fabric8-analytics-npm-insights
 Using base prefix '/usr'
 New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-npm-insights/venv/bin/python3
 Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-npm-insights/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-npm-insights/venv/bin/python3)
@@ -70,4 +71,5 @@ training/datastore/preprocess_data.py
     Pass
 tools/check_python_version.py
     Pass
+~/bayesian/dashboard/repositories/fabric8-analytics-npm-insights
 All checks passed for 28 source files

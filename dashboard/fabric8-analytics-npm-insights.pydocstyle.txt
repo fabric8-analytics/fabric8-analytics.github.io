@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/fabric8-analytics-npm-insights ~/bayesian/dashboard/repositories/fabric8-analytics-npm-insights
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
@@ -14,8 +15,8 @@ Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (2.1.1)
-Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.11.0)
 Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.2.1)
+Requirement already satisfied: six in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.11.0)
 recommendation_engine/predictor/abstract_recommender.py
 0
     Pass
@@ -100,4 +101,5 @@ training/datastore/preprocess_data.py
 tools/check_python_version.py
 0
     Pass
+~/bayesian/dashboard/repositories/fabric8-analytics-npm-insights
 All checks passed for 28 source files

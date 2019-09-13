@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/fabric8-analytics-npm-insights ~/bayesian/dashboard/repositories/fabric8-analytics-npm-insights
 ----------------------------------------------------
 Checking source files for dead code and unused imports
 in following directories:
@@ -70,4 +71,5 @@ training/datastore/preprocess_data.py
     Pass
 tools/check_python_version.py
     Pass
+~/bayesian/dashboard/repositories/fabric8-analytics-npm-insights
 All checks passed for 28 source files

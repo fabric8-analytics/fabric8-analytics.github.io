@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/f8a-hpf-insights ~/bayesian/dashboard/repositories/f8a-hpf-insights
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
@@ -72,4 +73,5 @@ PoC_code/__init__.py
 tools/check_python_version.py
 0
     Pass
+~/bayesian/dashboard/repositories/f8a-hpf-insights
 All checks passed for 18 source files
