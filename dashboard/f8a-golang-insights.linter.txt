@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/f8a-golang-insights ~/bayesian/dashboard/repositories/f8a-golang-insights
 ----------------------------------------------------
 Running Python linter against following directories:
 insights_engine
@@ -44,3 +45,4 @@ tests/load_test/locustfile.py
 tools/check_python_version.py
     Pass
 All checks passed for 16 source files
+~/bayesian/dashboard/repositories/f8a-golang-insights

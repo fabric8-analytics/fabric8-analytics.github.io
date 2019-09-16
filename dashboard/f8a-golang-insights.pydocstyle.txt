@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/f8a-golang-insights ~/bayesian/dashboard/repositories/f8a-golang-insights
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
@@ -62,4 +63,5 @@ tests/load_test/locustfile.py
 tools/check_python_version.py
 0
     Pass
+~/bayesian/dashboard/repositories/f8a-golang-insights
 All checks passed for 16 source files

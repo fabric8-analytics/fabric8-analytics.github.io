@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/f8a-pypi-insights ~/bayesian/dashboard/repositories/f8a-pypi-insights
 ----------------------------------------------------
 Running Python linter against following directories:
 src
@@ -41,3 +42,4 @@ training/__init__.py
 tools/check_python_version.py
     Pass
 All checks passed for 14 source files
+~/bayesian/dashboard/repositories/f8a-pypi-insights

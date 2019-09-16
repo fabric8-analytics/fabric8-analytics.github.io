@@ -23,10 +23,10 @@ fabric8-analytics-github-events-monitor,15,1182,15,0,100%,15,0,100%,230,20,91%,0
 fabric8-analytics-release-monitor,10,819,10,0,100%,10,0,100%,126,21,83%,0,0,51,1,0,0,0,0,yes,10,0,0,yes,failure(s) found
 f8a-server-backbone,12,2926,12,0,100%,12,0,100%,902,82,91%,0,0,96,21,4,0,0,0,yes,12,0,0,yes,ok
 fabric8-analytics-rudra,43,3345,43,0,100%,28,15,65%,N/A,N/A,N/A,0,0,251,30,3,0,0,0,yes,43,0,0,yes,failure(s) found
-f8a-hpf-insights,18,1092,18,0,100%,18,0,100%,160,16,90%,0,0,63,4,0,0,0,0,yes,18,0,0,yes,ok
+f8a-hpf-insights,18,1093,18,0,100%,18,0,100%,160,16,90%,0,0,63,4,0,0,0,0,yes,18,0,0,yes,ok
 f8a-golang-insights,16,974,16,0,100%,16,0,100%,222,108,51%,0,0,48,4,1,0,0,0,yes,16,0,0,yes,failure(s) found
-f8a-pypi-insights,14,1046,14,0,100%,14,0,100%,150,72,52%,0,0,52,3,3,0,0,0,yes,14,0,0,yes,failure(s) found
-f8a-stacks-report,18,2777,18,0,100%,18,0,100%,883,122,86%,0,0,113,14,5,0,0,0,yes,18,0,0,yes,failure(s) found
+f8a-pypi-insights,14,1047,14,0,100%,14,0,100%,150,72,52%,0,0,52,3,3,0,0,0,yes,14,0,0,yes,failure(s) found
+f8a-stacks-report,18,2777,18,0,100%,18,0,100%,888,122,86%,0,0,113,14,5,0,0,0,yes,18,0,0,yes,failure(s) found
 cvejob,39,3546,35,0,100%,35,0,100%,684,107,84%,0,0,157,31,7,0,0,0,yes,35,0,0,yes,failure(s) found
 victimsdb-lib,9,843,9,0,100%,9,0,100%,204,0,100%,0,0,71,8,2,0,0,0,yes,9,0,0,yes,ok
 fabric8-analytics-jenkins-plugin,10,1028,0,0,0%,0,0,0%,348,112,67%,0,0,0,0,0,0,0,0,yes,0,0,0,yes,failure(s) found

@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/f8a-pypi-insights ~/bayesian/dashboard/repositories/f8a-pypi-insights
 ----------------------------------------------------
 Checking source files for dead code and unused imports
 in following directories:
@@ -41,4 +42,5 @@ training/__init__.py
     Pass
 tools/check_python_version.py
     Pass
+~/bayesian/dashboard/repositories/f8a-pypi-insights
 All checks passed for 14 source files
