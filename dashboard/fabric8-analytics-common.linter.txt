@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/fabric8-analytics-common ~/bayesian/dashboard/repositories/fabric8-analytics-common
 ----------------------------------------------------
 Running Python linter against following directories:
 integration-tests
@@ -339,3 +340,4 @@ tools/generate_npm_list.py
 tools/generate_maven_list.py
     Pass
 All checks passed for 158 source files
+~/bayesian/dashboard/repositories/fabric8-analytics-common
