@@ -1,6 +1,6 @@
 Repository,Source files,,Linter results,,,Pydocstyle results,,,Code coverage,,,Dead code,Common issues,Cyclomatic complexity,,,,,,,Maintainability index,,,,Overall status
 ,Files,Total lines,Pass,Fail,Pass %,Pass,Fail,Pass %,Statements,Missed,Coverage,,,A,B,C,D,E,F,OK?,A,B,C,OK?,
-fabric8-analytics-common,158,20925,158,0,100%,158,0,100%,N/A,N/A,N/A,0,0,1501,20,0,0,0,0,yes,158,0,0,yes,failure(s) found
+fabric8-analytics-common,158,20928,158,0,100%,158,0,100%,N/A,N/A,N/A,0,0,1501,20,0,0,0,0,yes,158,0,0,yes,failure(s) found
 fabric8-analytics-server,23,4998,23,0,100%,23,0,100%,1801,972,46%,0,0,212,34,8,1,0,0,no,21,2,0,no,failure(s) found
 fabric8-analytics-worker,170,15836,170,0,100%,169,0,100%,5384,1889,65%,0,0,831,84,8,1,0,0,no,170,0,0,yes,failure(s) found
 fabric8-analytics-jobs,65,4635,65,0,100%,65,0,100%,1994,1526,23%,0,0,269,31,6,0,0,0,yes,65,0,0,yes,failure(s) found
@@ -25,7 +25,7 @@ f8a-server-backbone,12,2926,12,0,100%,12,0,100%,902,82,91%,0,0,96,21,4,0,0,0,yes
 fabric8-analytics-rudra,43,3345,43,0,100%,28,15,65%,N/A,N/A,N/A,0,0,251,30,3,0,0,0,yes,43,0,0,yes,failure(s) found
 f8a-hpf-insights,18,1093,18,0,100%,18,0,100%,160,16,90%,0,0,63,4,0,0,0,0,yes,18,0,0,yes,ok
 f8a-golang-insights,16,974,16,0,100%,16,0,100%,222,108,51%,0,0,48,4,1,0,0,0,yes,16,0,0,yes,failure(s) found
-f8a-pypi-insights,14,1047,14,0,100%,14,0,100%,150,72,52%,0,0,52,3,3,0,0,0,yes,14,0,0,yes,failure(s) found
+f8a-pypi-insights,14,1047,14,0,100%,14,0,100%,149,72,52%,0,0,52,3,3,0,0,0,yes,14,0,0,yes,failure(s) found
 f8a-stacks-report,18,2777,18,0,100%,18,0,100%,888,122,86%,0,0,113,14,5,0,0,0,yes,18,0,0,yes,failure(s) found
 cvejob,39,3546,35,0,100%,35,0,100%,684,107,84%,0,0,157,31,7,0,0,0,yes,35,0,0,yes,failure(s) found
 victimsdb-lib,9,843,9,0,100%,9,0,100%,204,0,100%,0,0,71,8,2,0,0,0,yes,9,0,0,yes,ok
