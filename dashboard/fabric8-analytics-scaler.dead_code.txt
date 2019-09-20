@@ -1,3 +1,4 @@
+~/bayesian/dashboard/repositories/fabric8-analytics-scaler ~/bayesian/dashboard/repositories/fabric8-analytics-scaler
 ----------------------------------------------------
 Checking source files for dead code and unused imports
 in following directories:
@@ -10,6 +11,9 @@ Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics
 Installing setuptools, pip, wheel...done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages (1.0)
+./tools/check_python_version.py
+    Pass
 ./sqs_status.py
     Pass
-All checks passed for 1 source files
+~/bayesian/dashboard/repositories/fabric8-analytics-scaler
+All checks passed for 2 source files
