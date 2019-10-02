@@ -4,15 +4,3 @@ Running Python linter against following directories:
 .
 ----------------------------------------------------
 
-Using base prefix '/usr'
-New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-scaler/venv/bin/python3
-Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-scaler/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-scaler/venv/bin/python3)
-Installing setuptools, pip, wheel...done.
-Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Requirement already satisfied: pycodestyle in ./venv/lib/python3.6/site-packages (2.5.0)
-./tools/check_python_version.py
-    Pass
-./sqs_status.py
-    Pass
-All checks passed for 2 source files
-~/bayesian/dashboard/repositories/fabric8-analytics-scaler
