@@ -7,3 +7,57 @@ alembic
 tools
 ----------------------------------------------------
 
+Already using interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Using base prefix '/usr'
+  No LICENSE.txt / LICENSE found in source
+Overwriting /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-ingestion/venv/lib64/python3.6/site.py with new content
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-ingestion/venv/bin/python3
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-ingestion/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-ingestion/venv/bin/python3)
+Overwriting /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-ingestion/venv/lib64/python3.6/distutils/__init__.py with new content
+Installing setuptools, pip, wheel...
+done.
+Overwriting /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-ingestion/venv/bin/activate with new content
+Overwriting /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-ingestion/venv/bin/activate.fish with new content
+Overwriting /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-ingestion/venv/bin/activate.csh with new content
+Overwriting /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-ingestion/venv/bin/activate_this.py with new content
+Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Requirement already satisfied: pycodestyle in ./venv/lib/python3.6/site-packages (2.4.0)
+f8a_ingestion/models.py
+    Pass
+f8a_ingestion/__init__.py
+    Pass
+f8a_ingestion/utils.py
+    Pass
+f8a_ingestion/rest_api.py
+    Pass
+f8a_ingestion/enums.py
+    Pass
+f8a_ingestion/errors.py
+    Pass
+f8a_ingestion/defaults.py
+    Pass
+tests/test_rest_api.py
+    Pass
+tests/test_errors.py
+    Pass
+tests/__init__.py
+    Pass
+tests/test_utils.py
+    Pass
+tests/conftest.py
+    Pass
+alembic/versions/0194c3a2332e_initial_migration.py
+    Pass
+alembic/env.py
+    Pass
+tools/check_python_version.py
+    Pass
+
+----------------------------------------------------
+Running Python linter against selected files:
+setup.py
+----------------------------------------------------
+setup.py
+    Pass
+All checks passed for 16 source files
+~/bayesian/dashboard/repositories/fabric8-analytics-ingestion

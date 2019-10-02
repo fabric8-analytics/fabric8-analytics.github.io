@@ -1,1 +1,81 @@
 ~/bayesian/dashboard/repositories/fabric8-analytics-data-model ~/bayesian/dashboard/repositories/fabric8-analytics-data-model
+Already using interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Using base prefix '/usr'
+  No LICENSE.txt / LICENSE found in source
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-data-model/venv/bin/python3
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-data-model/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-data-model/venv/bin/python3)
+Installing setuptools, pip, wheel...
+done.
+Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2.0.0)
+----------------------------------------------------
+Checking source files for common errors in following
+directories:
+src
+test
+tools
+----------------------------------------------------
+
+src/graph_populator.py
+    Pass
+src/__init__.py
+    Pass
+src/utils.py
+    Pass
+src/rest_api.py
+    Pass
+src/data_source/__init__.py
+    Pass
+src/data_source/abstract_data_source.py
+    Pass
+src/data_source/s3_data_source.py
+    Pass
+src/graph_manager.py
+    Pass
+src/config.py
+    Pass
+src/data_importer.py
+    Pass
+src/cve.py
+    Pass
+test/test_rest_api.py
+    Pass
+test/test_graph_properties.py
+    Pass
+test/test_postgres_handler.py
+    Pass
+test/test_insertion_from_minio.py
+    Pass
+test/test_init.py
+    Pass
+test/test_cve.py
+    Pass
+test/test_data_importer.py
+    Pass
+test/test_s3_data_source.py
+    Pass
+test/test_utils.py
+    Pass
+test/test_graph_manager.py
+    Pass
+test/conftest.py
+    Pass
+test/test_graph_populator.py
+    Pass
+tools/check_python_version.py
+    Pass
+----------------------------------------------------
+Checking following source files for common errors:
+sanitycheck.py
+populate_schema.py
+setup.py
+----------------------------------------------------
+
+sanitycheck.py
+    Pass
+populate_schema.py
+    Pass
+setup.py
+    Pass
+~/bayesian/dashboard/repositories/fabric8-analytics-data-model
+All checks passed for 27 source files

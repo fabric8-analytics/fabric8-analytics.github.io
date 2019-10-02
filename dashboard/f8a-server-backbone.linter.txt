@@ -6,3 +6,44 @@ tests
 tools
 ----------------------------------------------------
 
+Already using interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Using base prefix '/usr'
+  No LICENSE.txt / LICENSE found in source
+Overwriting /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-server-backbone/venv/lib64/python3.6/site.py with new content
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-server-backbone/venv/bin/python3
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-server-backbone/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-server-backbone/venv/bin/python3)
+Overwriting /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-server-backbone/venv/lib64/python3.6/distutils/__init__.py with new content
+Installing setuptools, pip, wheel...
+done.
+Overwriting /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-server-backbone/venv/bin/activate with new content
+Overwriting /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-server-backbone/venv/bin/activate.fish with new content
+Overwriting /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-server-backbone/venv/bin/activate.csh with new content
+Overwriting /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-server-backbone/venv/bin/activate_this.py with new content
+Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Requirement already satisfied: pycodestyle in ./venv/lib/python3.6/site-packages (2.4.0)
+src/__init__.py
+    Pass
+src/utils.py
+    Pass
+src/rest_api.py
+    Pass
+src/stack_aggregator.py
+    Pass
+src/recommender.py
+    Pass
+tests/test_rest_api.py
+    Pass
+tests/__init__.py
+    Pass
+tests/test_utils.py
+    Pass
+tests/test_stack_aggregator.py
+    Pass
+tests/test_recommender.py
+    Pass
+tests/conftest.py
+    Pass
+tools/check_python_version.py
+    Pass
+All checks passed for 12 source files
+~/bayesian/dashboard/repositories/f8a-server-backbone

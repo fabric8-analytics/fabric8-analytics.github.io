@@ -1,1 +1,32 @@
 ~/bayesian/dashboard/repositories/fabric8-analytics-github-refresh-cronjob ~/bayesian/dashboard/repositories/fabric8-analytics-github-refresh-cronjob
+Already using interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Using base prefix '/usr'
+  No LICENSE.txt / LICENSE found in source
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-github-refresh-cronjob/venv/bin/python3
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-github-refresh-cronjob/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-github-refresh-cronjob/venv/bin/python3)
+Installing setuptools, pip, wheel...
+done.
+Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2.0.0)
+----------------------------------------------------
+Checking source files for common errors in following
+directories:
+tests
+tools
+----------------------------------------------------
+
+tests/test_github_refresh.py
+    Pass
+tests/conftest.py
+    Pass
+tools/check_python_version.py
+    Pass
+----------------------------------------------------
+Checking following source files for common errors:
+github_refresh.py
+----------------------------------------------------
+
+github_refresh.py
+    Pass
+~/bayesian/dashboard/repositories/fabric8-analytics-github-refresh-cronjob
+All checks passed for 4 source files

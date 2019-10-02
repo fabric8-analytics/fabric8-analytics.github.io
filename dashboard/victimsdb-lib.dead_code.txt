@@ -7,3 +7,38 @@ tests
 tools
 ----------------------------------------------------
 
+Already using interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Using base prefix '/usr'
+  No LICENSE.txt / LICENSE found in source
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/victimsdb-lib/venv/bin/python3
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/victimsdb-lib/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/victimsdb-lib/venv/bin/python3)
+Installing setuptools, pip, wheel...
+done.
+Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages (1.0)
+victimsdb_lib/__init__.py
+    Pass
+victimsdb_lib/database.py
+    Pass
+victimsdb_lib/model.py
+    Pass
+victimsdb_lib/errors.py
+    Pass
+tests/test_database.py
+    Pass
+tests/test_model.py
+    Pass
+tests/conftest.py
+    Pass
+tools/check_python_version.py
+    Pass
+----------------------------------------------------
+Checking following source files for dead code and
+unused imports:
+setup.py
+----------------------------------------------------
+
+setup.py
+    Pass
+~/bayesian/dashboard/repositories/victimsdb-lib
+All checks passed for 9 source files

@@ -1,1 +1,10 @@
 ~/bayesian/dashboard/repositories/fabric8-analytics-recommender ~/bayesian/dashboard/repositories/fabric8-analytics-recommender
+Already using interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Using base prefix '/usr'
+  No LICENSE.txt / LICENSE found in source
+New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-recommender/venv/bin/python3
+Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-recommender/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-recommender/venv/bin/python3)
+ERROR: The executable /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-recommender/venv/bin/python3 is not functioning
+ERROR: It thinks sys.prefix is '/home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv' (should be '/home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-recommender/venv')
+ERROR: virtualenv is not compatible with this system or executable
+Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
