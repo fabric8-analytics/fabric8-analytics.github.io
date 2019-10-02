@@ -17,7 +17,7 @@ Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics
 Installing setuptools, pip, wheel...
 done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages (0.28)
+Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages (1.1)
 alembic/versions/f5c853b83d41_add_api_requests_table.py
     Pass
 alembic/versions/9d605c7725d8_add_app_stack_tables.py

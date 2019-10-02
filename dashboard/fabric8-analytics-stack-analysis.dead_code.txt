@@ -18,7 +18,7 @@ Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics
 Installing setuptools, pip, wheel...
 done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages (0.28)
+Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages (1.1)
 analytics_platform/__init__.py
     Pass
 analytics_platform/kronos/src/recommendation_validator.py

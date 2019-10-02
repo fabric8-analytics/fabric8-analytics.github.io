@@ -4,7 +4,42 @@ Using base prefix '/usr'
   No LICENSE.txt / LICENSE found in source
 New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-utils/venv/bin/python3
 Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-utils/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-utils/venv/bin/python3)
-ERROR: The executable /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-utils/venv/bin/python3 is not functioning
-ERROR: It thinks sys.prefix is '/home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv' (should be '/home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-utils/venv')
-ERROR: virtualenv is not compatible with this system or executable
+Installing setuptools, pip, wheel...
+done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2.1.1)
+----------------------------------------------------
+Checking source files for common errors in following
+directories:
+f8a_utils
+tests
+tools
+----------------------------------------------------
+
+f8a_utils/commands/__init__.py
+    Pass
+f8a_utils/commands/command.py
+    Pass
+f8a_utils/dependency_finder.py
+    Pass
+f8a_utils/__init__.py
+    Pass
+f8a_utils/versions.py
+    Pass
+tests/commands/test_command.py
+    Pass
+tests/test_depencency_finder.py
+    Pass
+tests/test_versions.py
+    Pass
+tools/check_python_version.py
+    Pass
+----------------------------------------------------
+Checking following source files for common errors:
+setup.py
+----------------------------------------------------
+
+setup.py
+    Pass
+~/bayesian/dashboard/repositories/fabric8-analytics-utils
+All checks passed for 10 source files

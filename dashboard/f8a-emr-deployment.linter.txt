@@ -7,10 +7,29 @@ src tests tools
 Already using interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
 Using base prefix '/usr'
   No LICENSE.txt / LICENSE found in source
-Overwriting /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-emr-deployment/venv/lib64/python3.6/site.py with new content
 New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-emr-deployment/venv/bin/python3
 Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-emr-deployment/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-emr-deployment/venv/bin/python3)
-ERROR: The executable /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-emr-deployment/venv/bin/python3 is not functioning
-ERROR: It thinks sys.prefix is '/home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv' (should be '/home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-emr-deployment/venv')
-ERROR: virtualenv is not compatible with this system or executable
+Installing setuptools, pip, wheel...
+done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Requirement already satisfied: pycodestyle in ./venv/lib/python3.6/site-packages (2.5.0)
+src/__init__.py
+    Pass
+src/config.py
+    Pass
+src/api_v1.py
+    Pass
+src/exceptions.py
+    Pass
+src/trained_model_details.py
+    Pass
+tests/test_api_v1.py
+    Pass
+tests/__init__.py
+    Pass
+tests/conftest.py
+    Pass
+tools/check_python_version.py
+    Pass
+All checks passed for 9 source files
+~/bayesian/dashboard/repositories/f8a-emr-deployment

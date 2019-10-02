@@ -49,7 +49,7 @@
                                     <a href='https://ci.centos.org/job/devtools-test-end-to-end-prod-fabric8-analytics'>link</a>
                                 </td>
                             <td style="width:3ex">
-                                <a href='https://ci.centos.org/job/devtools-test-end-to-end-prod-fabric8-analytics'>0/100</a>
+                                <a href='https://ci.centos.org/job/devtools-test-end-to-end-prod-fabric8-analytics'>0/99</a>
                             </td>
                         </tr>
                     </table>
@@ -184,14 +184,26 @@ Please note that only semantical problems are reported; problems with style are 
                             <td class="numeric" style="width:7ex">21051</td>
 
                             <!-- Three columns 'Linter results' (Pass + Fail + Pass%) -->
-                                <td class="na" style="width:6ex">N/A</td>
-                                <td class="na" style="width:6ex">N/A</td>
-                                <td class="na" style="width:16ex">N/A</td>
+                                <td class="numeric ok" style="width:6ex">158</td>
+                                <td class="numeric error" style="width:6ex">0</td>
+                                <td class="numeric" style="width:16ex">
+                                    <a href="fabric8-analytics-common.linter.txt">
+                                        <div class='progress-bar progress-bar-success progress-bar-striped' style='width:100.0%'>
+                                        100%
+                                        </div>
+                                    </a>
+                                </td>
 
                             <!-- Three columns 'Pydocstyle results' (Pass + Fail + Pass%) -->
-                                <td class="na" style="width:6ex">N/A</td>
-                                <td class="na" style="width:6ex">N/A</td>
-                                <td class="na" style="width:16ex">N/A</td>
+                                <td class="numeric ok" style="width:6ex">158</td>
+                                <td class="numeric error" style="width:6ex">0</td>
+                                <td class="numeric" style="width:16ex">
+                                    <a href="fabric8-analytics-common.pydocstyle.txt">
+                                        <div class='progress-bar progress-bar-success progress-bar-striped' style='width:100.0%'>
+                                        100%
+                                        </div>
+                                    </a>
+                                </td>
 
                             <!-- Three columns 'Code coverage' (Stmts. + Missed + Covered) -->
                                 <td style="width:7ex">&nbsp;</td>
@@ -199,10 +211,10 @@ Please note that only semantical problems are reported; problems with style are 
                                 <td style="width:16ex">&nbsp;</td>
 
                             <!-- One column 'Dead code' -->
-                                <td class="ignored" style="text-align:right">&times;</td>
+                                    <td class="numeric ok"><a href="fabric8-analytics-common.dead_code.txt" class="numeric ok">ok</a></td>
 
                             <!-- One column 'Common issues' -->
-                                <td class="ignored" style="text-align:right">&times;</td>
+                                    <td class="numeric ok"><a href="fabric8-analytics-common.common_errors.txt" class="numeric ok">ok</a></td>
 
                             <!-- Six columns 'Cyclomatic Complexity' -->
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-common.cc.A.html" class="numeric ignored">1509</a></td>
@@ -225,7 +237,7 @@ Please note that only semantical problems are reported; problems with style are 
                                 <td class="boolean error" style="width:6ex;">&times;</td>
 
                             <!-- One column 'Remark' -->
-                                <td class="remark_todo" style="width:27ex"><ol><li>linter is not setup</li><li>docstyle checker is not setup</li><li>unit tests has not been setup</li><li>setup dead code detection tool</li><li>setup common errors detection tool</li></ol></td>
+                                <td class="remark_todo" style="width:27ex"><ol><li>unit tests has not been setup</li></ol></td>
                         </tr>
                         <tr>
                             <!-- Column 'Repository' -->
@@ -236,14 +248,26 @@ Please note that only semantical problems are reported; problems with style are 
                             <td class="numeric" style="width:7ex">4998</td>
 
                             <!-- Three columns 'Linter results' (Pass + Fail + Pass%) -->
-                                <td class="na" style="width:6ex">N/A</td>
-                                <td class="na" style="width:6ex">N/A</td>
-                                <td class="na" style="width:16ex">N/A</td>
+                                <td class="numeric ok" style="width:6ex">23</td>
+                                <td class="numeric error" style="width:6ex">0</td>
+                                <td class="numeric" style="width:16ex">
+                                    <a href="fabric8-analytics-server.linter.txt">
+                                        <div class='progress-bar progress-bar-success progress-bar-striped' style='width:100.0%'>
+                                        100%
+                                        </div>
+                                    </a>
+                                </td>
 
                             <!-- Three columns 'Pydocstyle results' (Pass + Fail + Pass%) -->
-                                <td class="na" style="width:6ex">N/A</td>
-                                <td class="na" style="width:6ex">N/A</td>
-                                <td class="na" style="width:16ex">N/A</td>
+                                <td class="numeric ok" style="width:6ex">23</td>
+                                <td class="numeric error" style="width:6ex">0</td>
+                                <td class="numeric" style="width:16ex">
+                                    <a href="fabric8-analytics-server.pydocstyle.txt">
+                                        <div class='progress-bar progress-bar-success progress-bar-striped' style='width:100.0%'>
+                                        100%
+                                        </div>
+                                    </a>
+                                </td>
 
                             <!-- Three columns 'Code coverage' (Stmts. + Missed + Covered) -->
                                 <td class="numeric ok" style="width:6ex">1801</td>
@@ -257,10 +281,10 @@ Please note that only semantical problems are reported; problems with style are 
                                 </td>
 
                             <!-- One column 'Dead code' -->
-                                <td class="ignored" style="text-align:right">&times;</td>
+                                    <td class="numeric ok"><a href="fabric8-analytics-server.dead_code.txt" class="numeric ok">ok</a></td>
 
                             <!-- One column 'Common issues' -->
-                                <td class="ignored" style="text-align:right">&times;</td>
+                                    <td class="numeric ok"><a href="fabric8-analytics-server.common_errors.txt" class="numeric ok">ok</a></td>
 
                             <!-- Six columns 'Cyclomatic Complexity' -->
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-server.cc.A.html" class="numeric ignored">212</a></td>
@@ -283,7 +307,7 @@ Please note that only semantical problems are reported; problems with style are 
                                 <td class="boolean error" style="width:6ex;">&times;</td>
 
                             <!-- One column 'Remark' -->
-                                <td class="remark_todo" style="width:27ex"><ol><li>linter is not setup</li><li>docstyle checker is not setup</li><li>improve code coverage</li><li>reduce cyclomatic complexity</li><li>improve maintainability index</li><li>setup dead code detection tool</li><li>setup common errors detection tool</li></ol></td>
+                                <td class="remark_todo" style="width:27ex"><ol><li>improve code coverage</li><li>reduce cyclomatic complexity</li><li>improve maintainability index</li></ol></td>
                         </tr>
                         <tr>
                             <!-- Column 'Repository' -->
@@ -714,14 +738,26 @@ Please note that only semantical problems are reported; problems with style are 
                             <td class="numeric" style="width:7ex">1052</td>
 
                             <!-- Three columns 'Linter results' (Pass + Fail + Pass%) -->
-                                <td class="na" style="width:6ex">N/A</td>
-                                <td class="na" style="width:6ex">N/A</td>
-                                <td class="na" style="width:16ex">N/A</td>
+                                <td class="numeric ok" style="width:6ex">17</td>
+                                <td class="numeric error" style="width:6ex">0</td>
+                                <td class="numeric" style="width:16ex">
+                                    <a href="fabric8-analytics-recommender.linter.txt">
+                                        <div class='progress-bar progress-bar-success progress-bar-striped' style='width:100.0%'>
+                                        100%
+                                        </div>
+                                    </a>
+                                </td>
 
                             <!-- Three columns 'Pydocstyle results' (Pass + Fail + Pass%) -->
-                                <td class="na" style="width:6ex">N/A</td>
-                                <td class="na" style="width:6ex">N/A</td>
-                                <td class="na" style="width:16ex">N/A</td>
+                                <td class="numeric ok" style="width:6ex">17</td>
+                                <td class="numeric error" style="width:6ex">0</td>
+                                <td class="numeric" style="width:16ex">
+                                    <a href="fabric8-analytics-recommender.pydocstyle.txt">
+                                        <div class='progress-bar progress-bar-success progress-bar-striped' style='width:100.0%'>
+                                        100%
+                                        </div>
+                                    </a>
+                                </td>
 
                             <!-- Three columns 'Code coverage' (Stmts. + Missed + Covered) -->
                                 <td style="width:7ex">&nbsp;</td>
@@ -729,10 +765,10 @@ Please note that only semantical problems are reported; problems with style are 
                                 <td style="width:16ex">&nbsp;</td>
 
                             <!-- One column 'Dead code' -->
-                                <td class="ignored" style="text-align:right">&times;</td>
+                                    <td class="numeric ok"><a href="fabric8-analytics-recommender.dead_code.txt" class="numeric ok">ok</a></td>
 
                             <!-- One column 'Common issues' -->
-                                <td class="ignored" style="text-align:right">&times;</td>
+                                    <td class="numeric ok"><a href="fabric8-analytics-recommender.common_errors.txt" class="numeric ok">ok</a></td>
 
                             <!-- Six columns 'Cyclomatic Complexity' -->
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-recommender.cc.A.html" class="numeric ignored">62</a></td>
@@ -755,7 +791,7 @@ Please note that only semantical problems are reported; problems with style are 
                                 <td class="boolean error" style="width:6ex;">&times;</td>
 
                             <!-- One column 'Remark' -->
-                                <td class="remark_todo" style="width:27ex"><ol><li>linter is not setup</li><li>docstyle checker is not setup</li><li>unit tests has not been setup</li><li>setup dead code detection tool</li><li>setup common errors detection tool</li></ol></td>
+                                <td class="remark_todo" style="width:27ex"><ol><li>unit tests has not been setup</li></ol></td>
                         </tr>
                         <tr>
                             <!-- Column 'Repository' -->
@@ -1326,14 +1362,26 @@ Please note that only semantical problems are reported; problems with style are 
                             <td class="numeric" style="width:7ex">1033</td>
 
                             <!-- Three columns 'Linter results' (Pass + Fail + Pass%) -->
-                                <td class="na" style="width:6ex">N/A</td>
-                                <td class="na" style="width:6ex">N/A</td>
-                                <td class="na" style="width:16ex">N/A</td>
+                                <td class="numeric ok" style="width:6ex">10</td>
+                                <td class="numeric error" style="width:6ex">0</td>
+                                <td class="numeric" style="width:16ex">
+                                    <a href="fabric8-analytics-utils.linter.txt">
+                                        <div class='progress-bar progress-bar-success progress-bar-striped' style='width:100.0%'>
+                                        100%
+                                        </div>
+                                    </a>
+                                </td>
 
                             <!-- Three columns 'Pydocstyle results' (Pass + Fail + Pass%) -->
-                                <td class="na" style="width:6ex">N/A</td>
-                                <td class="na" style="width:6ex">N/A</td>
-                                <td class="na" style="width:16ex">N/A</td>
+                                <td class="numeric ok" style="width:6ex">10</td>
+                                <td class="numeric error" style="width:6ex">0</td>
+                                <td class="numeric" style="width:16ex">
+                                    <a href="fabric8-analytics-utils.pydocstyle.txt">
+                                        <div class='progress-bar progress-bar-success progress-bar-striped' style='width:100.0%'>
+                                        100%
+                                        </div>
+                                    </a>
+                                </td>
 
                             <!-- Three columns 'Code coverage' (Stmts. + Missed + Covered) -->
                                 <td class="numeric ok" style="width:6ex">280</td>
@@ -1347,10 +1395,10 @@ Please note that only semantical problems are reported; problems with style are 
                                 </td>
 
                             <!-- One column 'Dead code' -->
-                                <td class="ignored" style="text-align:right">&times;</td>
+                                    <td class="numeric ok"><a href="fabric8-analytics-utils.dead_code.txt" class="numeric ok">ok</a></td>
 
                             <!-- One column 'Common issues' -->
-                                <td class="ignored" style="text-align:right">&times;</td>
+                                    <td class="numeric ok"><a href="fabric8-analytics-utils.common_errors.txt" class="numeric ok">ok</a></td>
 
                             <!-- Six columns 'Cyclomatic Complexity' -->
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-utils.cc.A.html" class="numeric ignored">50</a></td>
@@ -1370,10 +1418,10 @@ Please note that only semantical problems are reported; problems with style are 
                             <!-- One column 'Overall status' -->
                             <td nowrap><a href="charts_fabric8-analytics-utils.html"><img src="line_chart.gif" alt="Charts for the fabric8-analytics-utils repository" /></a>
                                 <a href="fabric8-analytics-utils.svg"><img src="label.png" alt="Code quality label for the fabric8-analytics-utils repository" /></a></td>
-                                <td class="boolean error" style="width:6ex;">&times;</td>
+                                <td class="boolean ok" style="width:6ex;">&#x2713;</td>
 
                             <!-- One column 'Remark' -->
-                                <td class="remark_todo" style="width:27ex"><ol><li>linter is not setup</li><li>docstyle checker is not setup</li><li>setup dead code detection tool</li><li>setup common errors detection tool</li></ol></td>
+                                <td class="remark_ok" style="width:26ex">&nbsp;</td>
                         </tr>
                         <tr>
                             <!-- Column 'Repository' -->
@@ -1524,14 +1572,26 @@ Please note that only semantical problems are reported; problems with style are 
                             <td class="numeric" style="width:7ex">819</td>
 
                             <!-- Three columns 'Linter results' (Pass + Fail + Pass%) -->
-                                <td class="na" style="width:6ex">N/A</td>
-                                <td class="na" style="width:6ex">N/A</td>
-                                <td class="na" style="width:16ex">N/A</td>
+                                <td class="numeric ok" style="width:6ex">10</td>
+                                <td class="numeric error" style="width:6ex">0</td>
+                                <td class="numeric" style="width:16ex">
+                                    <a href="fabric8-analytics-release-monitor.linter.txt">
+                                        <div class='progress-bar progress-bar-success progress-bar-striped' style='width:100.0%'>
+                                        100%
+                                        </div>
+                                    </a>
+                                </td>
 
                             <!-- Three columns 'Pydocstyle results' (Pass + Fail + Pass%) -->
-                                <td class="na" style="width:6ex">N/A</td>
-                                <td class="na" style="width:6ex">N/A</td>
-                                <td class="na" style="width:16ex">N/A</td>
+                                <td class="numeric ok" style="width:6ex">10</td>
+                                <td class="numeric error" style="width:6ex">0</td>
+                                <td class="numeric" style="width:16ex">
+                                    <a href="fabric8-analytics-release-monitor.pydocstyle.txt">
+                                        <div class='progress-bar progress-bar-success progress-bar-striped' style='width:100.0%'>
+                                        100%
+                                        </div>
+                                    </a>
+                                </td>
 
                             <!-- Three columns 'Code coverage' (Stmts. + Missed + Covered) -->
                                 <td class="numeric ok" style="width:6ex">126</td>
@@ -1545,10 +1605,10 @@ Please note that only semantical problems are reported; problems with style are 
                                 </td>
 
                             <!-- One column 'Dead code' -->
-                                <td class="ignored" style="text-align:right">&times;</td>
+                                    <td class="numeric ok"><a href="fabric8-analytics-release-monitor.dead_code.txt" class="numeric ok">ok</a></td>
 
                             <!-- One column 'Common issues' -->
-                                <td class="ignored" style="text-align:right">&times;</td>
+                                    <td class="numeric ok"><a href="fabric8-analytics-release-monitor.common_errors.txt" class="numeric ok">ok</a></td>
 
                             <!-- Six columns 'Cyclomatic Complexity' -->
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-release-monitor.cc.A.html" class="numeric ignored">51</a></td>
@@ -1571,7 +1631,7 @@ Please note that only semantical problems are reported; problems with style are 
                                 <td class="boolean error" style="width:6ex;">&times;</td>
 
                             <!-- One column 'Remark' -->
-                                <td class="remark_todo" style="width:27ex"><ol><li>linter is not setup</li><li>docstyle checker is not setup</li><li>improve code coverage</li><li>setup dead code detection tool</li><li>setup common errors detection tool</li></ol></td>
+                                <td class="remark_todo" style="width:27ex"><ol><li>improve code coverage</li></ol></td>
                         </tr>
                         <tr>
                             <!-- Column 'Repository' -->
@@ -1716,14 +1776,26 @@ Please note that only semantical problems are reported; problems with style are 
                             <td class="numeric" style="width:7ex">157</td>
 
                             <!-- Three columns 'Linter results' (Pass + Fail + Pass%) -->
-                                <td class="na" style="width:6ex">N/A</td>
-                                <td class="na" style="width:6ex">N/A</td>
-                                <td class="na" style="width:16ex">N/A</td>
+                                <td class="numeric ok" style="width:6ex">2</td>
+                                <td class="numeric error" style="width:6ex">0</td>
+                                <td class="numeric" style="width:16ex">
+                                    <a href="fabric8-analytics-scaler.linter.txt">
+                                        <div class='progress-bar progress-bar-success progress-bar-striped' style='width:100.0%'>
+                                        100%
+                                        </div>
+                                    </a>
+                                </td>
 
                             <!-- Three columns 'Pydocstyle results' (Pass + Fail + Pass%) -->
-                                <td class="na" style="width:6ex">N/A</td>
-                                <td class="na" style="width:6ex">N/A</td>
-                                <td class="na" style="width:16ex">N/A</td>
+                                <td class="numeric ok" style="width:6ex">2</td>
+                                <td class="numeric error" style="width:6ex">0</td>
+                                <td class="numeric" style="width:16ex">
+                                    <a href="fabric8-analytics-scaler.pydocstyle.txt">
+                                        <div class='progress-bar progress-bar-success progress-bar-striped' style='width:100.0%'>
+                                        100%
+                                        </div>
+                                    </a>
+                                </td>
 
                             <!-- Three columns 'Code coverage' (Stmts. + Missed + Covered) -->
                                 <td style="width:7ex">&nbsp;</td>
@@ -1731,10 +1803,10 @@ Please note that only semantical problems are reported; problems with style are 
                                 <td style="width:16ex">&nbsp;</td>
 
                             <!-- One column 'Dead code' -->
-                                <td class="ignored" style="text-align:right">&times;</td>
+                                    <td class="numeric ok"><a href="fabric8-analytics-scaler.dead_code.txt" class="numeric ok">ok</a></td>
 
                             <!-- One column 'Common issues' -->
-                                <td class="ignored" style="text-align:right">&times;</td>
+                                    <td class="numeric ok"><a href="fabric8-analytics-scaler.common_errors.txt" class="numeric ok">ok</a></td>
 
                             <!-- Six columns 'Cyclomatic Complexity' -->
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="fabric8-analytics-scaler.cc.A.html" class="numeric ignored">5</a></td>
@@ -1757,7 +1829,7 @@ Please note that only semantical problems are reported; problems with style are 
                                 <td class="boolean error" style="width:6ex;">&times;</td>
 
                             <!-- One column 'Remark' -->
-                                <td class="remark_todo" style="width:27ex"><ol><li>linter is not setup</li><li>docstyle checker is not setup</li><li>unit tests has not been setup</li><li>setup dead code detection tool</li><li>setup common errors detection tool</li></ol></td>
+                                <td class="remark_todo" style="width:27ex"><ol><li>unit tests has not been setup</li></ol></td>
                         </tr>
                         <tr>
                             <!-- Column 'Repository' -->
@@ -1768,14 +1840,26 @@ Please note that only semantical problems are reported; problems with style are 
                             <td class="numeric" style="width:7ex">269</td>
 
                             <!-- Three columns 'Linter results' (Pass + Fail + Pass%) -->
-                                <td class="na" style="width:6ex">N/A</td>
-                                <td class="na" style="width:6ex">N/A</td>
-                                <td class="na" style="width:16ex">N/A</td>
+                                <td class="numeric ok" style="width:6ex">9</td>
+                                <td class="numeric error" style="width:6ex">0</td>
+                                <td class="numeric" style="width:16ex">
+                                    <a href="f8a-emr-deployment.linter.txt">
+                                        <div class='progress-bar progress-bar-success progress-bar-striped' style='width:100.0%'>
+                                        100%
+                                        </div>
+                                    </a>
+                                </td>
 
                             <!-- Three columns 'Pydocstyle results' (Pass + Fail + Pass%) -->
-                                <td class="na" style="width:6ex">N/A</td>
-                                <td class="na" style="width:6ex">N/A</td>
-                                <td class="na" style="width:16ex">N/A</td>
+                                <td class="numeric ok" style="width:6ex">9</td>
+                                <td class="numeric error" style="width:6ex">0</td>
+                                <td class="numeric" style="width:16ex">
+                                    <a href="f8a-emr-deployment.pydocstyle.txt">
+                                        <div class='progress-bar progress-bar-success progress-bar-striped' style='width:100.0%'>
+                                        100%
+                                        </div>
+                                    </a>
+                                </td>
 
                             <!-- Three columns 'Code coverage' (Stmts. + Missed + Covered) -->
                                 <td class="numeric ok" style="width:6ex">88</td>
@@ -1789,10 +1873,10 @@ Please note that only semantical problems are reported; problems with style are 
                                 </td>
 
                             <!-- One column 'Dead code' -->
-                                <td class="ignored" style="text-align:right">&times;</td>
+                                    <td class="numeric ok"><a href="f8a-emr-deployment.dead_code.txt" class="numeric ok">ok</a></td>
 
                             <!-- One column 'Common issues' -->
-                                <td class="ignored" style="text-align:right">&times;</td>
+                                    <td class="numeric ok"><a href="f8a-emr-deployment.common_errors.txt" class="numeric ok">ok</a></td>
 
                             <!-- Six columns 'Cyclomatic Complexity' -->
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="f8a-emr-deployment.cc.A.html" class="numeric ignored">17</a></td>
@@ -1815,7 +1899,7 @@ Please note that only semantical problems are reported; problems with style are 
                                 <td class="boolean error" style="width:6ex;">&times;</td>
 
                             <!-- One column 'Remark' -->
-                                <td class="remark_todo" style="width:27ex"><ol><li>linter is not setup</li><li>docstyle checker is not setup</li><li>improve code coverage</li><li>setup dead code detection tool</li><li>setup common errors detection tool</li></ol></td>
+                                <td class="remark_todo" style="width:27ex"><ol><li>improve code coverage</li></ol></td>
                         </tr>
                         <tr>
                             <!-- Column 'Repository' -->
@@ -2036,14 +2120,26 @@ Please note that only semantical problems are reported; problems with style are 
                             <td class="numeric" style="width:7ex">2854</td>
 
                             <!-- Three columns 'Linter results' (Pass + Fail + Pass%) -->
-                                <td class="na" style="width:6ex">N/A</td>
-                                <td class="na" style="width:6ex">N/A</td>
-                                <td class="na" style="width:16ex">N/A</td>
+                                <td class="numeric ok" style="width:6ex">18</td>
+                                <td class="numeric error" style="width:6ex">0</td>
+                                <td class="numeric" style="width:16ex">
+                                    <a href="f8a-stacks-report.linter.txt">
+                                        <div class='progress-bar progress-bar-success progress-bar-striped' style='width:100.0%'>
+                                        100%
+                                        </div>
+                                    </a>
+                                </td>
 
                             <!-- Three columns 'Pydocstyle results' (Pass + Fail + Pass%) -->
-                                <td class="na" style="width:6ex">N/A</td>
-                                <td class="na" style="width:6ex">N/A</td>
-                                <td class="na" style="width:16ex">N/A</td>
+                                <td class="numeric ok" style="width:6ex">18</td>
+                                <td class="numeric error" style="width:6ex">0</td>
+                                <td class="numeric" style="width:16ex">
+                                    <a href="f8a-stacks-report.pydocstyle.txt">
+                                        <div class='progress-bar progress-bar-success progress-bar-striped' style='width:100.0%'>
+                                        100%
+                                        </div>
+                                    </a>
+                                </td>
 
                             <!-- Three columns 'Code coverage' (Stmts. + Missed + Covered) -->
                                 <td class="numeric ok" style="width:6ex">1004</td>
@@ -2057,10 +2153,10 @@ Please note that only semantical problems are reported; problems with style are 
                                 </td>
 
                             <!-- One column 'Dead code' -->
-                                <td class="ignored" style="text-align:right">&times;</td>
+                                    <td class="numeric ok"><a href="f8a-stacks-report.dead_code.txt" class="numeric ok">ok</a></td>
 
                             <!-- One column 'Common issues' -->
-                                <td class="ignored" style="text-align:right">&times;</td>
+                                    <td class="numeric ok"><a href="f8a-stacks-report.common_errors.txt" class="numeric ok">ok</a></td>
 
                             <!-- Six columns 'Cyclomatic Complexity' -->
                                 <td class="numeric ignored" style="width:3ex;padding-left:0px;padding-right:2px;"><a href="f8a-stacks-report.cc.A.html" class="numeric ignored">118</a></td>
@@ -2083,7 +2179,7 @@ Please note that only semantical problems are reported; problems with style are 
                                 <td class="boolean error" style="width:6ex;">&times;</td>
 
                             <!-- One column 'Remark' -->
-                                <td class="remark_todo" style="width:27ex"><ol><li>linter is not setup</li><li>docstyle checker is not setup</li><li>improve code coverage</li><li>setup dead code detection tool</li><li>setup common errors detection tool</li></ol></td>
+                                <td class="remark_todo" style="width:27ex"><ol><li>improve code coverage</li></ol></td>
                         </tr>
                         <tr>
                             <!-- Column 'Repository' -->
@@ -2839,7 +2935,7 @@ Please note that only semantical problems are reported; problems with style are 
             -->
             <div style='height:80px'></div>
             <div>Author: Pavel Tisnovsky &lt;<a href="mailto:ptisnovs@redhat.com">ptisnovs@redhat.com</a>&gt;</div>
-            <div>Generated on: 2019-10-02 12:23:28</div>
+            <div>Generated on: 2019-10-02 13:31:16</div>
         </div>
         <script type="text/javascript">
         $(function () {

@@ -12,7 +12,69 @@ Using base prefix '/usr'
   No LICENSE.txt / LICENSE found in source
 New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-stacks-report/venv/bin/python3
 Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-stacks-report/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-stacks-report/venv/bin/python3)
-ERROR: The executable /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-stacks-report/venv/bin/python3 is not functioning
-ERROR: It thinks sys.prefix is '/home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv' (should be '/home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-stacks-report/venv')
-ERROR: virtualenv is not compatible with this system or executable
+Installing setuptools, pip, wheel...
+done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (4.0.1)
+Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.9.1)
+f8a_report/sentry_report_helper.py
+0
+    Pass
+f8a_report/__init__.py
+0
+    Pass
+f8a_report/unknown_deps_report_helper.py
+0
+    Pass
+f8a_report/graph_report_generator.py
+0
+    Pass
+f8a_report/main.py
+0
+    Pass
+f8a_report/report_helper.py
+0
+    Pass
+f8a_report/s3_helper.py
+0
+    Pass
+f8a_report/cve_helper.py
+0
+    Pass
+tests/test_main.py
+0
+    Pass
+tests/test_graph_report_generator.py
+0
+    Pass
+tests/test_stack_report_helper.py
+0
+    Pass
+tests/test_unknown_deps_report_helper.py
+0
+    Pass
+tests/__init__.py
+0
+    Pass
+tests/test_s3_helper.py
+0
+    Pass
+tests/test_sentry_report_helper.py
+0
+    Pass
+tests/test_cve_helper.py
+0
+    Pass
+tools/check_python_version.py
+0
+    Pass
+
+----------------------------------------------------
+Checking documentation strings in the following files
+setup.py
+----------------------------------------------------
+setup.py
+0
+    Pass
+~/bayesian/dashboard/repositories/f8a-stacks-report
+All checks passed for 18 source files

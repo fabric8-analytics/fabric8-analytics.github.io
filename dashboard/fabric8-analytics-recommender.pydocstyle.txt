@@ -11,7 +11,61 @@ Using base prefix '/usr'
   No LICENSE.txt / LICENSE found in source
 New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-recommender/venv/bin/python3
 Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-recommender/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-recommender/venv/bin/python3)
-ERROR: The executable /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-recommender/venv/bin/python3 is not functioning
-ERROR: It thinks sys.prefix is '/home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv' (should be '/home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-recommender/venv')
-ERROR: virtualenv is not compatible with this system or executable
+Installing setuptools, pip, wheel...
+done.
 Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (4.0.1)
+Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.9.1)
+src/server/unittest/__init__.py
+0
+    Pass
+src/server/recommender_service.py
+0
+    Pass
+src/server/__init__.py
+0
+    Pass
+src/server/ghazab_app.py
+0
+    Pass
+src/models/similarity_with_frequent_patterns/__init__.py
+0
+    Pass
+src/models/similarity_with_frequent_patterns/scoring/__init__.py
+0
+    Pass
+src/models/similarity_with_frequent_patterns/scoring/entities/__init__.py
+0
+    Pass
+src/models/similarity_with_frequent_patterns/scoring/entities/entities.py
+0
+    Pass
+src/models/similarity_with_frequent_patterns/scoring/similarity/__init__.py
+0
+    Pass
+src/models/similarity_with_frequent_patterns/scoring/similarity/semvercomp.py
+0
+    Pass
+src/models/similarity_with_frequent_patterns/scoring/similarity/relativesimilarity.py
+0
+    Pass
+src/models/similarity_with_frequent_patterns/scoring/db.py
+0
+    Pass
+src/models/similarity_with_frequent_patterns/training/gen_ref_stacks.py
+0
+    Pass
+src/models/__init__.py
+0
+    Pass
+src/deployment/spark_aws/job_scheduler.py
+0
+    Pass
+src/deployment/spark_aws/submit_training_job.py
+0
+    Pass
+tools/check_python_version.py
+0
+    Pass
+~/bayesian/dashboard/repositories/fabric8-analytics-recommender
+All checks passed for 17 source files
