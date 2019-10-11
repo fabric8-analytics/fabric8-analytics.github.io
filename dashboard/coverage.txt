@@ -7,7 +7,7 @@ Fabric8-analytics code coverage report
 |                                        |Files|Total    |Week    |Stmts.|Missed|Covered|             |Threshold|Pass?|
 |                                        |     |lines    |        |      |      |       |             |         |     |
 |----------------------------------------+-----+---------+--------+------+------+-------+-------------+---------+-----|
-|fabric8-analytics-common                |158  |21051    |        |      |      |       |?            |         |     |
+|fabric8-analytics-common                |158  |21071    |        |      |      |       |?            |         |     |
 |                                        |     |         |        |      |      |       |             |         |     |
 |----------------------------------------+-----+---------+--------+------+------+-------+-------------+---------+-----|
 |fabric8-analytics-server                |23   |4998     |previous|1801  |972   |46%    |=            |90 %     |no   |
@@ -52,8 +52,9 @@ Fabric8-analytics code coverage report
 |fabric8-analytics-ingestion             |16   |1074     |previous|228   |107   |53%    |=            |90 %     |no   |
 |                                        |     |         |current |228   |107   |53%    |the same     |         |     |
 |----------------------------------------+-----+---------+--------+------+------+-------+-------------+---------+-----|
-|fabric8-analytics-npm-insights          |28   |1882     |previous|180   |68    |62%    |=            |90 %     |no   |
-|                                        |     |         |current |181   |68    |62%    |the same     |         |     |
+|fabric8-analytics-npm-insights          |28   |1882     |previous|181   |68    |62%    |×            |         |     |
+|                                        |     |         |current |287   |196   |32%    |decreased by |90 %     |no   |
+|                                        |     |         |        |      |      |       |30pp (93%)   |         |     |
 |----------------------------------------+-----+---------+--------+------+------+-------+-------------+---------+-----|
 |fabric8-analytics-notification-scheduler|13   |1793     |previous|554   |190   |66%    |=            |90 %     |no   |
 |                                        |     |         |current |554   |190   |66%    |the same     |         |     |
@@ -91,9 +92,8 @@ Fabric8-analytics code coverage report
 |f8a-pypi-insights                       |14   |1046     |previous|149   |72    |52%    |=            |90 %     |no   |
 |                                        |     |         |current |149   |72    |52%    |the same     |         |     |
 |----------------------------------------+-----+---------+--------+------+------+-------+-------------+---------+-----|
-|f8a-stacks-report                       |18   |2876     |previous|1005  |127   |87%    |×            |         |     |
-|                                        |     |         |current |919   |135   |85%    |decreased by |90 %     |no   |
-|                                        |     |         |        |      |      |       |2pp (2%)     |         |     |
+|f8a-stacks-report                       |18   |2876     |previous|919   |135   |85%    |=            |90 %     |no   |
+|                                        |     |         |current |921   |137   |85%    |the same     |         |     |
 |----------------------------------------+-----+---------+--------+------+------+-------+-------------+---------+-----|
 |f8a-data-ingestion-service              |5    |182      |        |      |      |       |?            |90 %     |     |
 |                                        |     |         |        |      |      |       |             |         |     |
@@ -109,4 +109,4 @@ Fabric8-analytics code coverage report
 +---------------------------------------------------------------------------------------------------------------------+
 
 Author: Pavel Tisnovsky <ptisnovs@redhat.com>
-Generated on: 2019-10-04 09:05:53
+Generated on: 2019-10-11 10:42:04
