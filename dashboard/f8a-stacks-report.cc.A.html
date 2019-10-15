@@ -54,7 +54,8 @@ tests/test_stack_report_helper.py
     F 298:0 mock_emr_api - A (1)
     F 315:0 mock_emr_api_fail - A (1)
 tests/test_unknown_deps_report_helper.py
-    F 17:0 test_get_current_ingestion_status - A (5)
+    F 36:0 test_get_current_ingestion_status - A (5)
+    F 31:0 test_get_unknown_list - A (2)
 tests/test_s3_helper.py
     F 33:0 test_read_json_object - A (3)
     F 46:0 test_list_objects - A (3)
@@ -87,10 +88,11 @@ f8a_report/sentry_report_helper.py
     M 28:4 SentryReportHelper.retrieve_sentry_logs - A (4)
     M 15:4 SentryReportHelper.__init__ - A (1)
 f8a_report/unknown_deps_report_helper.py
-    M 15:4 UnknownDepsReportHelper.get_past_unknown_deps - A (4)
-    C 8:0 UnknownDepsReportHelper - A (2)
-    M 41:4 UnknownDepsReportHelper.get_current_ingestion_status - A (2)
-    M 11:4 UnknownDepsReportHelper.__init__ - A (1)
+    M 18:4 UnknownDepsReportHelper.get_unknown_list - A (5)
+    C 11:0 UnknownDepsReportHelper - A (2)
+    M 51:4 UnknownDepsReportHelper.get_current_ingestion_status - A (2)
+    M 14:4 UnknownDepsReportHelper.__init__ - A (1)
+    M 37:4 UnknownDepsReportHelper.get_past_unknown_deps - A (1)
 f8a_report/graph_report_generator.py
     F 58:0 generate_report_for_cves - B (10)
     F 252:0 batch_query_executor - B (9)
@@ -154,6 +156,6 @@ f8a_report/cve_helper.py
     M 82:4 CVE.get_fp_cves_count - A (2)
     M 16:4 CVE.__init__ - A (1)
 
-139 blocks (classes, functions, methods) analyzed.
-Average complexity: A (3.3956834532374103)
+141 blocks (classes, functions, methods) analyzed.
+Average complexity: A (3.375886524822695)
 </pre>
