@@ -6,28 +6,28 @@ Name                                                                           S
 /analytics_platform/kronos/apollo/src/__init__.py                                  0      0   100%	/analytics_platform/kronos/apollo/src/__init__.py                                  0      0   100%
 /analytics_platform/kronos/apollo/src/apollo_constants.py                          5      0   100%	/analytics_platform/kronos/apollo/src/apollo_constants.py                          5      0   100%
 /analytics_platform/kronos/apollo/src/apollo_generate_frequency_dict.py           14      0   100%	/analytics_platform/kronos/apollo/src/apollo_generate_frequency_dict.py           14      0   100%
-/analytics_platform/kronos/apollo/src/apollo_tag_prune.py                         52     35    33%   	/analytics_platform/kronos/apollo/src/apollo_tag_prune.py                         52     35    33%   
+/analytics_platform/kronos/apollo/src/apollo_tag_prune.py                         52     35    33%    |	/analytics_platform/kronos/apollo/src/apollo_tag_prune.py                         51     35    31%   
 /analytics_platform/kronos/apollo/src/offline_training.py                         16     16     0%   	/analytics_platform/kronos/apollo/src/offline_training.py                         16     16     0%   
 /analytics_platform/kronos/deployment/__init__.py                                  0      0   100%	/analytics_platform/kronos/deployment/__init__.py                                  0      0   100%
 /analytics_platform/kronos/deployment/rest_api.py                                100    100     0%   	/analytics_platform/kronos/deployment/rest_api.py                                100    100     0%   
 /analytics_platform/kronos/deployment/submit_training_job.py                      36     36     0%   	/analytics_platform/kronos/deployment/submit_training_job.py                      36     36     0%   
 /analytics_platform/kronos/gnosis/__init__.py                                      0      0   100%	/analytics_platform/kronos/gnosis/__init__.py                                      0      0   100%
 /analytics_platform/kronos/gnosis/src/__init__.py                                  0      0   100%	/analytics_platform/kronos/gnosis/src/__init__.py                                  0      0   100%
-/analytics_platform/kronos/gnosis/src/abstract_gnosis.py                           9      3    67%   	/analytics_platform/kronos/gnosis/src/abstract_gnosis.py                           9      3    67%   
+/analytics_platform/kronos/gnosis/src/abstract_gnosis.py                           9      3    67%    |	/analytics_platform/kronos/gnosis/src/abstract_gnosis.py                          11      5    55%   
 /analytics_platform/kronos/gnosis/src/gnosis_constants.py                         21      0   100%	/analytics_platform/kronos/gnosis/src/gnosis_constants.py                         21      0   100%
-/analytics_platform/kronos/gnosis/src/gnosis_package_topic_model.py               57      2    96%   	/analytics_platform/kronos/gnosis/src/gnosis_package_topic_model.py               57      2    96%   
-/analytics_platform/kronos/gnosis/src/gnosis_ref_arch.py                         129      0   100%	/analytics_platform/kronos/gnosis/src/gnosis_ref_arch.py                         129      0   100%
-/analytics_platform/kronos/gnosis/src/offline_training.py                         28     28     0%   	/analytics_platform/kronos/gnosis/src/offline_training.py                         28     28     0%   
+/analytics_platform/kronos/gnosis/src/gnosis_package_topic_model.py               57      2    96%    |	/analytics_platform/kronos/gnosis/src/gnosis_package_topic_model.py               56      1    98%   
+/analytics_platform/kronos/gnosis/src/gnosis_ref_arch.py                         129      0   100%    |	/analytics_platform/kronos/gnosis/src/gnosis_ref_arch.py                         130      0   100%
+/analytics_platform/kronos/gnosis/src/offline_training.py                         28     28     0%    |	/analytics_platform/kronos/gnosis/src/offline_training.py                         26     26     0%   
 /analytics_platform/kronos/pgm/__init__.py                                         0      0   100%	/analytics_platform/kronos/pgm/__init__.py                                         0      0   100%
 /analytics_platform/kronos/pgm/src/__init__.py                                     0      0   100%	/analytics_platform/kronos/pgm/src/__init__.py                                     0      0   100%
-/analytics_platform/kronos/pgm/src/abstract_pgm.py                                10      3    70%   	/analytics_platform/kronos/pgm/src/abstract_pgm.py                                10      3    70%   
-/analytics_platform/kronos/pgm/src/offline_training.py                            59     18    69%   	/analytics_platform/kronos/pgm/src/offline_training.py                            59     18    69%   
+/analytics_platform/kronos/pgm/src/abstract_pgm.py                                10      3    70%    |	/analytics_platform/kronos/pgm/src/abstract_pgm.py                                12      5    58%   
+/analytics_platform/kronos/pgm/src/offline_training.py                            59     18    69%    |	/analytics_platform/kronos/pgm/src/offline_training.py                            57     18    68%   
 /analytics_platform/kronos/pgm/src/pgm_constants.py                               41      0   100%	/analytics_platform/kronos/pgm/src/pgm_constants.py                               41      0   100%
 /analytics_platform/kronos/pgm/src/pgm_pomegranate.py                             51      8    84%   	/analytics_platform/kronos/pgm/src/pgm_pomegranate.py                             51      8    84%   
 /analytics_platform/kronos/scripts/__init__.py                                     0      0   100%	/analytics_platform/kronos/scripts/__init__.py                                     0      0   100%
 /analytics_platform/kronos/softnet/__init__.py                                     0      0   100%	/analytics_platform/kronos/softnet/__init__.py                                     0      0   100%
 /analytics_platform/kronos/softnet/src/__init__.py                                 0      0   100%	/analytics_platform/kronos/softnet/src/__init__.py                                 0      0   100%
-/analytics_platform/kronos/softnet/src/cooccurrence_matrix_generator.py           61      6    90%   	/analytics_platform/kronos/softnet/src/cooccurrence_matrix_generator.py           61      6    90%   
+/analytics_platform/kronos/softnet/src/cooccurrence_matrix_generator.py           61      6    90%    |	/analytics_platform/kronos/softnet/src/cooccurrence_matrix_generator.py           60      6    90%   
 /analytics_platform/kronos/softnet/src/kronos_dependency_generator.py             71      1    99%   	/analytics_platform/kronos/softnet/src/kronos_dependency_generator.py             71      1    99%   
 /analytics_platform/kronos/softnet/src/offline_training.py                        63     43    32%   	/analytics_platform/kronos/softnet/src/offline_training.py                        63     43    32%   
 /analytics_platform/kronos/softnet/src/softnet_constants.py                       31      0   100%	/analytics_platform/kronos/softnet/src/softnet_constants.py                       31      0   100%
@@ -43,29 +43,29 @@ Name                                                                           S
 /evaluation_platform/uranus/scripts/__init__.py                                    0      0   100%	/evaluation_platform/uranus/scripts/__init__.py                                    0      0   100%
 /evaluation_platform/uranus/src/__init__.py                                        0      0   100%	/evaluation_platform/uranus/src/__init__.py                                        0      0   100%
 /evaluation_platform/uranus/src/alternate_testing.py                              51     51     0%   	/evaluation_platform/uranus/src/alternate_testing.py                              51     51     0%   
-/evaluation_platform/uranus/src/companion_outlier_testing.py                      65     65     0%   	/evaluation_platform/uranus/src/companion_outlier_testing.py                      65     65     0%   
+/evaluation_platform/uranus/src/companion_outlier_testing.py                      65     65     0%    |	/evaluation_platform/uranus/src/companion_outlier_testing.py                      64     64     0%   
 /evaluation_platform/uranus/src/evaluate_data.py                                  32     32     0%   	/evaluation_platform/uranus/src/evaluate_data.py                                  32     32     0%   
-/evaluation_platform/uranus/src/generate_test_data.py                             83     54    35%   	/evaluation_platform/uranus/src/generate_test_data.py                             83     54    35%   
-/evaluation_platform/uranus/src/kronos_offline_evaluation.py                      24     24     0%   	/evaluation_platform/uranus/src/kronos_offline_evaluation.py                      24     24     0%   
-/evaluation_platform/uranus/src/super_class.py                                    21     21     0%   	/evaluation_platform/uranus/src/super_class.py                                    21     21     0%   
+/evaluation_platform/uranus/src/generate_test_data.py                             83     54    35%    |	/evaluation_platform/uranus/src/generate_test_data.py                             81     53    35%   
+/evaluation_platform/uranus/src/kronos_offline_evaluation.py                      24     24     0%    |	/evaluation_platform/uranus/src/kronos_offline_evaluation.py                      22     22     0%   
+/evaluation_platform/uranus/src/super_class.py                                    21     21     0%    |	/evaluation_platform/uranus/src/super_class.py                                    18     18     0%   
 /evaluation_platform/uranus/src/uranus_constants.py                               11      0   100%	/evaluation_platform/uranus/src/uranus_constants.py                               11      0   100%
 /tagging_platform/__init__.py                                                      0      0   100%	/tagging_platform/__init__.py                                                      0      0   100%
 /tagging_platform/helles/__init__.py                                               0      0   100%	/tagging_platform/helles/__init__.py                                               0      0   100%
 /tagging_platform/helles/deployment/__init__.py                                    0      0   100%	/tagging_platform/helles/deployment/__init__.py                                    0      0   100%
 /tagging_platform/helles/deployment/submit_npm_tagging_job.py                     42     42     0%   	/tagging_platform/helles/deployment/submit_npm_tagging_job.py                     42     42     0%   
 /tagging_platform/helles/npm_tagger/__init__.py                                    0      0   100%	/tagging_platform/helles/npm_tagger/__init__.py                                    0      0   100%
-/tagging_platform/helles/npm_tagger/get_descriptions_from_s3.py                   34     34     0%   	/tagging_platform/helles/npm_tagger/get_descriptions_from_s3.py                   34     34     0%   
-/tagging_platform/helles/npm_tagger/get_version_info_for_missing_packages.py      31     31     0%   	/tagging_platform/helles/npm_tagger/get_version_info_for_missing_packages.py      31     31     0%   
+/tagging_platform/helles/npm_tagger/get_descriptions_from_s3.py                   34     34     0%    |	/tagging_platform/helles/npm_tagger/get_descriptions_from_s3.py                   33     33     0%   
+/tagging_platform/helles/npm_tagger/get_version_info_for_missing_packages.py      31     31     0%    |	/tagging_platform/helles/npm_tagger/get_version_info_for_missing_packages.py      30     30     0%   
 /tagging_platform/helles/npm_tagger/pytextrank_textrank_scoring.py               162    162     0%   	/tagging_platform/helles/npm_tagger/pytextrank_textrank_scoring.py               162    162     0%   
 /util/__init__.py                                                                  0      0   100%	/util/__init__.py                                                                  0      0   100%
 /util/analytics_platform_util.py                                                  35     11    69%   	/util/analytics_platform_util.py                                                  35     11    69%   
 /util/data_store/__init__.py                                                       0      0   100%	/util/data_store/__init__.py                                                       0      0   100%
 /util/data_store/abstract_data_store.py                                           17      7    59%   	/util/data_store/abstract_data_store.py                                           17      7    59%   
-/util/data_store/graph_store.py                                                   13     13     0%   	/util/data_store/graph_store.py                                                   13     13     0%   
-/util/data_store/local_filesystem.py                                              69     12    83%   	/util/data_store/local_filesystem.py                                              69     12    83%   
+/util/data_store/graph_store.py                                                   13     13     0%    |	/util/data_store/graph_store.py                                                   12     12     0%   
+/util/data_store/local_filesystem.py                                              69     12    83%    |	/util/data_store/local_filesystem.py                                              71     13    82%   
 /util/data_store/s3_data_store.py                                                 85     61    28%   	/util/data_store/s3_data_store.py                                                 85     61    28%   
 /util/error/__init__.py                                                            0      0   100%	/util/error/__init__.py                                                            0      0   100%
-/util/error/analytics_exception.py                                                 6      0   100%	/util/error/analytics_exception.py                                                 6      0   100%
+/util/error/analytics_exception.py                                                 6      0   100%    |	/util/error/analytics_exception.py                                                 5      0   100%
 /util/error/error_codes.py                                                         2      0   100%	/util/error/error_codes.py                                                         2      0   100%
 /util/gnosis_util.py                                                              26      0   100%	/util/gnosis_util.py                                                              26      0   100%
 /util/http_client/__init__.py                                                      0      0   100%	/util/http_client/__init__.py                                                      0      0   100%
@@ -74,4 +74,4 @@ Name                                                                           S
 /util/softnet_util.py                                                             38      0   100%	/util/softnet_util.py                                                             38      0   100%
 /util/util_constants.py                                                            1      0   100%	/util/util_constants.py                                                            1      0   100%
 -----------------------------------------------------------------------------------------------------	-----------------------------------------------------------------------------------------------------
-TOTAL                                                                           2118   1029    51%	TOTAL                                                                           2118   1029    51%
+TOTAL                                                                           2118   1029    51%    |	TOTAL                                                                           2106   1021    52%

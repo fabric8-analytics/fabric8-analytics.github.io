@@ -31,7 +31,7 @@ Name                                                            Stmts   Miss  Co
 /f8a_worker/f8a_worker/storages/package_postgres.py                86     64    26%   30-32, 35-38, 5	/f8a_worker/f8a_worker/storages/package_postgres.py                86     64    26%   30-32, 35-38, 5
 /f8a_worker/f8a_worker/storages/postgres.py                       114     73    36%   65, 76-78, 84, 	/f8a_worker/f8a_worker/storages/postgres.py                       114     73    36%   65, 76-78, 84, 
 /f8a_worker/f8a_worker/storages/postgres_base.py                   93     27    71%   43, 49, 54, 93-	/f8a_worker/f8a_worker/storages/postgres_base.py                   93     27    71%   43, 49, 54, 93-
-/f8a_worker/f8a_worker/storages/s3.py                             122     68    44%   58, 68, 76-88, 	/f8a_worker/f8a_worker/storages/s3.py                             122     68    44%   58, 68, 76-88, 
+/f8a_worker/f8a_worker/storages/s3.py                             122     68    44%   58, 68, 76-88,  |	/f8a_worker/f8a_worker/storages/s3.py                             122     70    43%   58, 68, 76-88, 
 /f8a_worker/f8a_worker/storages/s3_artifacts.py                     4      0   100%			/f8a_worker/f8a_worker/storages/s3_artifacts.py                     4      0   100%
 /f8a_worker/f8a_worker/storages/s3_crowd_source_tags.py            12      7    42%   12, 16-18, 22-2	/f8a_worker/f8a_worker/storages/s3_crowd_source_tags.py            12      7    42%   12, 16-18, 22-2
 /f8a_worker/f8a_worker/storages/s3_data.py                         13      7    46%   18-21, 25, 40-4	/f8a_worker/f8a_worker/storages/s3_data.py                         13      7    46%   18-21, 25, 40-4
@@ -59,7 +59,7 @@ Name                                                            Stmts   Miss  Co
 /f8a_worker/f8a_worker/workers/golangcvepredictor.py               71     31    56%   34-50, 54-68, 1	/f8a_worker/f8a_worker/workers/golangcvepredictor.py               71     31    56%   34-50, 54-68, 1
 /f8a_worker/f8a_worker/workers/graph_importer.py                   30     17    43%   32-70		/f8a_worker/f8a_worker/workers/graph_importer.py                   30     17    43%   32-70
 /f8a_worker/f8a_worker/workers/graphaggregator.py                  75     60    20%   25-32, 41-120	/f8a_worker/f8a_worker/workers/graphaggregator.py                  75     60    20%   25-32, 41-120
-/f8a_worker/f8a_worker/workers/init_analysis_flow.py               75     56    25%   31-95, 100-119,	/f8a_worker/f8a_worker/workers/init_analysis_flow.py               75     56    25%   31-95, 100-119,
+/f8a_worker/f8a_worker/workers/init_analysis_flow.py               75     56    25%   31-95, 100-119, |	/f8a_worker/f8a_worker/workers/init_analysis_flow.py               81     60    26%   33-107, 112-131
 /f8a_worker/f8a_worker/workers/init_package_flow.py                72     58    19%   19-32, 41-61, 7	/f8a_worker/f8a_worker/workers/init_package_flow.py                72     58    19%   19-32, 41-61, 7
 /f8a_worker/f8a_worker/workers/libraries_io.py                     26      1    96%   39		/f8a_worker/f8a_worker/workers/libraries_io.py                     26      1    96%   39
 /f8a_worker/f8a_worker/workers/license.py                          61      7    89%   42, 104-112	/f8a_worker/f8a_worker/workers/license.py                          61      7    89%   42, 104-112
@@ -79,4 +79,4 @@ Name                                                            Stmts   Miss  Co
 /f8a_worker/f8a_worker/workers/unknown_dep_fetcher.py              39     31    21%   15-50, 59-67	/f8a_worker/f8a_worker/workers/unknown_dep_fetcher.py              39     31    21%   15-50, 59-67
 /f8a_worker/f8a_worker/workers/user_notifier.py                    38     29    24%   15-25, 29-49, 5	/f8a_worker/f8a_worker/workers/user_notifier.py                    38     29    24%   15-25, 29-49, 5
 ---------------------------------------------------------------------------------------------		---------------------------------------------------------------------------------------------
-TOTAL                                                            5384   1889    65%			TOTAL                                                            5384   1889    65%
+TOTAL                                                            5384   1889    65%		      |	TOTAL                                                            5390   1895    65%
