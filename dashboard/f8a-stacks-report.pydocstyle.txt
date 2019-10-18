@@ -20,6 +20,9 @@ Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-pack
 f8a_report/sentry_report_helper.py
 0
     Pass
+f8a_report/manifest_helper.py
+0
+    Pass
 f8a_report/__init__.py
 0
     Pass
@@ -53,6 +56,9 @@ tests/test_stack_report_helper.py
 tests/test_unknown_deps_report_helper.py
 0
     Pass
+tests/test_manifest_helper.py
+0
+    Pass
 tests/__init__.py
 0
     Pass
@@ -77,4 +83,4 @@ setup.py
 0
     Pass
 ~/bayesian/dashboard/repositories/f8a-stacks-report
-All checks passed for 18 source files
+All checks passed for 20 source files

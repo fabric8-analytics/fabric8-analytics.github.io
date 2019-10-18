@@ -18,6 +18,8 @@ Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-co
 Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages (1.1)
 f8a_report/sentry_report_helper.py
     Pass
+f8a_report/manifest_helper.py
+    Pass
 f8a_report/__init__.py
     Pass
 f8a_report/unknown_deps_report_helper.py
@@ -40,6 +42,8 @@ tests/test_stack_report_helper.py
     Pass
 tests/test_unknown_deps_report_helper.py
     Pass
+tests/test_manifest_helper.py
+    Pass
 tests/__init__.py
     Pass
 tests/test_s3_helper.py
@@ -59,4 +63,4 @@ setup.py
 setup.py
     Pass
 ~/bayesian/dashboard/repositories/f8a-stacks-report
-All checks passed for 18 source files
+All checks passed for 20 source files
