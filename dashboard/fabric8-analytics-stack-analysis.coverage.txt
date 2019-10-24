@@ -9,7 +9,7 @@ Name                                                                           S
 /analytics_platform/kronos/apollo/src/apollo_tag_prune.py                         51     35    31%   34, 45, 71-75, 86-112, 126-139
 /analytics_platform/kronos/apollo/src/offline_training.py                         16     16     0%   3-41
 /analytics_platform/kronos/deployment/__init__.py                                  0      0   100%
-/analytics_platform/kronos/deployment/rest_api.py                                100    100     0%   3-212
+/analytics_platform/kronos/deployment/rest_api.py                                104    104     0%   3-216
 /analytics_platform/kronos/deployment/submit_training_job.py                      36     36     0%   12-179
 /analytics_platform/kronos/gnosis/__init__.py                                      0      0   100%
 /analytics_platform/kronos/gnosis/src/__init__.py                                  0      0   100%
@@ -74,4 +74,4 @@ Name                                                                           S
 /util/softnet_util.py                                                             38      0   100%
 /util/util_constants.py                                                            1      0   100%
 ------------------------------------------------------------------------------------------------------------
-TOTAL                                                                           2106   1021    52%
+TOTAL                                                                           2110   1025    51%
