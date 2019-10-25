@@ -36,9 +36,10 @@ f8a_worker/schemas.py
 f8a_worker/dispatcher/foreach.py
     F 39:0 iter_dependencies_analysis - B (6)
 f8a_worker/data_normalizer/javascript.py
-    M 114:4 NpmDataNormalizer._transform_code_repository - B (8)
-    M 93:4 NpmDataNormalizer._transform_contributors - B (6)
-    M 211:4 NpmDataNormalizer._transform_engines - B (6)
+    M 116:4 NpmDataNormalizer._transform_code_repository - B (8)
+    M 58:4 NpmDataNormalizer._are_tests_implemented - B (6)
+    M 95:4 NpmDataNormalizer._transform_contributors - B (6)
+    M 213:4 NpmDataNormalizer._transform_engines - B (6)
 f8a_worker/data_normalizer/python.py
     M 61:4 PythonDistDataNormalizer.normalize - B (9)
 f8a_worker/data_normalizer/csharp.py
@@ -73,8 +74,8 @@ f8a_worker/workers/dependency_parser.py
 f8a_worker/workers/bookkeeper.py
     M 16:4 BookkeeperTask.store_user_node - B (7)
 f8a_worker/workers/githuber.py
-    M 72:4 GithubTask.execute - B (7)
-    M 148:4 GitReadmeCollectorTask._get_github_readme - B (6)
+    M 75:4 GithubTask.execute - B (7)
+    M 151:4 GitReadmeCollectorTask._get_github_readme - B (6)
 f8a_worker/workers/repo_dependency_finder.py
     M 154:4 RepoDependencyFinderTask.generate_report - B (9)
     C 13:0 RepoDependencyFinderTask - B (6)
@@ -99,9 +100,9 @@ f8a_worker/workers/graphaggregator.py
     M 34:4 GraphAggregatorTask.execute - C (18)
     C 16:0 GraphAggregatorTask - C (12)
 f8a_worker/workers/init_analysis_flow.py
-    M 22:4 InitAnalysisFlow.execute - B (10)
-    C 19:0 InitAnalysisFlow - B (6)
-    M 109:4 InitAnalysisFlow._download_source_jar - B (6)
+    M 27:4 InitAnalysisFlow.execute - C (11)
+    C 24:0 InitAnalysisFlow - B (6)
+    M 120:4 InitAnalysisFlow._download_source_jar - B (6)
 f8a_worker/workers/unknown_dep_fetcher.py
     M 13:4 UnknownDependencyFetcherTask.get_dependency_data - B (6)
 f8a_worker/workers/dependency_snapshot.py
@@ -136,6 +137,6 @@ tests/workers/test_mercator.py
     M 108:4 TestMercator.test_execute_go_godeps - B (6)
     M 130:4 TestMercator.test_get_outermost_items - B (6)
 
-94 blocks (classes, functions, methods) analyzed.
-Average complexity: B (7.98936170212766)
+95 blocks (classes, functions, methods) analyzed.
+Average complexity: B (7.978947368421053)
 </pre>

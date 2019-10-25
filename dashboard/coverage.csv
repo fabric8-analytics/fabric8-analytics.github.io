@@ -11,7 +11,7 @@ fabric8-analytics-recommender,N/A,N/A,N/A,90%,no
 fabric8-analytics-api-gateway,149,69,54%,90%,no
 fabric8-analytics-nvd-toolkit,1042,93,91%,90%,yes
 fabric8-analytics-auth,154,31,80%,90%,no
-fabric8-gemini-server,625,52,92%,90%,yes
+fabric8-gemini-server,629,55,91%,90%,yes
 fabric8-analytics-version-comparator,217,0,100%,90%,yes
 fabric8-analytics-ingestion,228,107,53%,90%,no
 fabric8-analytics-npm-insights,186,69,63%,90%,no
@@ -27,7 +27,7 @@ f8a-emr-deployment,88,49,44%,90%,no
 f8a-hpf-insights,164,107,35%,90%,no
 f8a-golang-insights,222,108,51%,90%,no
 f8a-pypi-insights,153,72,53%,90%,no
-f8a-stacks-report,1028,142,86%,90%,no
+f8a-stacks-report,1024,138,87%,90%,no
 f8a-data-ingestion-service,N/A,N/A,N/A,90%,no
 cvejob,684,107,84%,90%,no
 victimsdb-lib,204,0,100%,90%,yes
