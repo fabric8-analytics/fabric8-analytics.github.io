@@ -2,9 +2,9 @@ Name                          Stmts   Miss  Cover   Missing
 -----------------------------------------------------------
 /src/__init__.py                  0      0   100%
 /src/config.py                   14      0   100%
-/src/flask_endpoint.py           51      7    86%   51-55, 60-61, 77, 124
+/src/flask_endpoint.py           55     35    36%   47-128
 /src/scoring/__init__.py          0      0   100%
-/src/scoring/hpf_scoring.py      93      9    90%   87, 108-115, 166
-/src/utils.py                     2      0   100%
+/src/scoring/hpf_scoring.py      93     71    24%   27-37, 45, 49, 53-57, 81-116, 137-139, 143-146, 156-166, 170-204
+/src/utils.py                     2      1    50%   9
 -----------------------------------------------------------
-TOTAL                           160     16    90%
+TOTAL                           164    107    35%
