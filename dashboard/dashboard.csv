@@ -28,7 +28,7 @@ f8a-emr-deployment,9,269,9,0,100%,9,0,100%,88,49,44%,0,0,17,0,0,0,0,0,yes,9,0,0,
 f8a-hpf-insights,18,1097,18,0,100%,18,0,100%,164,107,35%,0,0,63,4,0,0,0,0,yes,18,0,0,yes,failure(s) found
 f8a-golang-insights,16,974,16,0,100%,16,0,100%,222,108,51%,0,0,48,4,1,0,0,0,yes,16,0,0,yes,failure(s) found
 f8a-pypi-insights,14,1052,14,0,100%,14,0,100%,153,72,53%,0,0,52,3,3,0,0,0,yes,14,0,0,yes,failure(s) found
-f8a-stacks-report,20,3165,20,0,100%,20,0,100%,1023,138,87%,0,0,145,15,5,0,0,0,yes,20,0,0,yes,failure(s) found
+f8a-stacks-report,20,3177,20,0,100%,20,0,100%,1024,125,88%,0,0,149,15,5,0,0,0,yes,20,0,0,yes,failure(s) found
 f8a-data-ingestion-service,5,182,5,0,100%,5,0,100%,N/A,N/A,N/A,0,0,14,0,0,0,0,0,yes,5,0,0,yes,failure(s) found
 cvejob,39,3546,35,0,100%,35,0,100%,684,107,84%,0,0,157,31,7,0,0,0,yes,35,0,0,yes,failure(s) found
 victimsdb-lib,9,843,9,0,100%,9,0,100%,204,0,100%,0,0,71,8,2,0,0,0,yes,9,0,0,yes,ok
