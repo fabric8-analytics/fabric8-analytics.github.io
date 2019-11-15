@@ -3,7 +3,7 @@ Name                                      Stmts   Miss  Cover   Missing					Name
 src/__init__.py                               3      0   100%						src/__init__.py                               3      0   100%
 src/config.py                                22      0   100%						src/config.py                                22      0   100%
 src/cve.py                                  157      7    96%   58-59, 66-69, 178-179			src/cve.py                                  157      7    96%   58-59, 66-69, 178-179
-src/data_importer.py                        207     20    90%   101, 112, 282, 322-324, 332-333, 340-	src/data_importer.py                        207     20    90%   101, 112, 282, 322-324, 332-333, 340-
+src/data_importer.py                        207     20    90%   101, 112, 282, 322-324, 332-333, 340- |	src/data_importer.py                        208     20    90%   102, 113, 283, 323-325, 333-334, 341-
 src/data_source/__init__.py                   0      0   100%						src/data_source/__init__.py                   0      0   100%
 src/data_source/abstract_data_source.py       6      0   100%						src/data_source/abstract_data_source.py       6      0   100%
 src/data_source/s3_data_source.py            36      2    94%   29-31					src/data_source/s3_data_source.py            36      2    94%   29-31
@@ -12,4 +12,4 @@ src/graph_populator.py                      217      7    97%   75, 304-305, 369
 src/rest_api.py                             214     19    91%   122, 125-127, 203, 239, 245, 279-282,	src/rest_api.py                             214     19    91%   122, 125-127, 203, 239, 245, 279-282,
 src/utils.py                                232      0   100%						src/utils.py                                232      0   100%
 -----------------------------------------------------------------------					-----------------------------------------------------------------------
-TOTAL                                      1132     55    95%						TOTAL                                      1132     55    95%
+TOTAL                                      1132     55    95%					      |	TOTAL                                      1133     55    95%
