@@ -58,6 +58,9 @@ recommendation_engine/model/__init__.py
 recommendation_engine/model/pmf_prediction.py
 0
     Pass
+recommendation_engine/pmf/__init__.py
+0
+    Pass
 deployment/submit_emr_job_train.py
 0
     Pass
@@ -104,4 +107,4 @@ tools/check_python_version.py
 0
     Pass
 ~/bayesian/dashboard/repositories/fabric8-analytics-npm-insights
-All checks passed for 28 source files
+All checks passed for 29 source files

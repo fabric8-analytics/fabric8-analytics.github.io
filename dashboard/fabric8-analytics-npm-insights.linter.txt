@@ -43,6 +43,8 @@ recommendation_engine/model/__init__.py
     Pass
 recommendation_engine/model/pmf_prediction.py
     Pass
+recommendation_engine/pmf/__init__.py
+    Pass
 deployment/submit_emr_job_train.py
     Pass
 deployment/submit_emr_job_pretrain.py
@@ -73,5 +75,5 @@ training/datastore/preprocess_data.py
     Pass
 tools/check_python_version.py
     Pass
-All checks passed for 28 source files
+All checks passed for 29 source files
 ~/bayesian/dashboard/repositories/fabric8-analytics-npm-insights
