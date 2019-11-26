@@ -6,7 +6,7 @@ fabric8-analytics-jobs,1994,1526,23%,90%,no
 fabric8-analytics-tagger,887,38,96%,90%,yes
 fabric8-analytics-stack-analysis,2110,1025,51%,90%,no
 fabric8-analytics-license-analysis,845,54,94%,90%,yes
-fabric8-analytics-data-model,1133,55,95%,90%,yes
+fabric8-analytics-data-model,1147,65,94%,90%,yes
 fabric8-analytics-recommender,N/A,N/A,N/A,90%,no
 fabric8-analytics-api-gateway,149,69,54%,90%,no
 fabric8-analytics-nvd-toolkit,1042,93,91%,90%,yes
