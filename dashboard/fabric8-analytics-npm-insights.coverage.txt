@@ -4,15 +4,15 @@ Name                                                        Stmts   Miss  Cover 
 /recommendation_engine/config/__init__.py                       1      0   100%
 /recommendation_engine/config/cloud_constants.py                6      0   100%
 /recommendation_engine/config/params_scoring.py                 8      0   100%
-/recommendation_engine/config/path_constants.py                15      0   100%
+/recommendation_engine/config/path_constants.py                19      0   100%
 /recommendation_engine/flask_predict.py                        33     16    52%   38, 50-86
 /recommendation_engine/model/__init__.py                        0      0   100%
 /recommendation_engine/model/pmf_prediction.py                 13      6    54%   35-38, 53-54
 /recommendation_engine/pmf/__init__.py                          1      1     0%   3
 /recommendation_engine/predictor/__init__.py                    0      0   100%
 /recommendation_engine/predictor/abstract_recommender.py        5      0   100%
-/recommendation_engine/predictor/online_recommendation.py      90     61    32%   58-62, 73-74, 78-79, 83-94, 97, 101-154
+/recommendation_engine/predictor/online_recommendation.py      91     62    32%   58-62, 73-74, 78-79, 83-95, 98, 102-155
 /recommendation_engine/utils/__init__.py                        0      0   100%
 /recommendation_engine/utils/fileutils.py                      22     17    23%   32-47, 57-58, 68-70
 -----------------------------------------------------------------------------------------
-TOTAL                                                         195    101    48%
+TOTAL                                                         200    102    49%

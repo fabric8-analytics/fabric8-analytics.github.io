@@ -53,13 +53,13 @@ recommendation_engine/predictor/abstract_recommender.py
     C 25:0 AbstractRecommender - A (1)
     M 30:4 AbstractRecommender.predict - A (1)
 recommendation_engine/predictor/online_recommendation.py
-    M 99:4 PMFRecommendation.predict - C (13)
+    M 100:4 PMFRecommendation.predict - C (13)
     M 81:4 PMFRecommendation._find_closest_user_in_training_set - A (5)
     C 35:0 PMFRecommendation - A (3)
     M 44:4 PMFRecommendation.__init__ - A (1)
     M 64:4 PMFRecommendation._load_model_output_matrices - A (1)
     M 76:4 PMFRecommendation._load_package_id_to_name_map - A (1)
-    M 96:4 PMFRecommendation._sigmoid - A (1)
+    M 97:4 PMFRecommendation._sigmoid - A (1)
 recommendation_engine/utils/fileutils.py
     F 25:0 load_rating - A (5)
     F 50:0 save_temporary_local_file - A (2)
@@ -83,6 +83,7 @@ training/datastore/s3_connection.py
     M 152:4 GetData.split_training_testing_data - B (6)
     M 191:4 GetData.save_file_temporary - A (5)
     M 203:4 GetData.save_manifest_file_temporary - A (5)
+    M 235:4 GetData.save_on_s3 - A (4)
     C 31:0 GetData - A (3)
     M 64:4 GetData.load_raw_data - A (3)
     M 77:4 GetData.load_existing_data - A (3)
@@ -93,7 +94,6 @@ training/datastore/s3_connection.py
     M 130:4 GetData.create_package_test_item_data - A (3)
     M 181:4 GetData.check_path - A (3)
     M 225:4 GetData.save_json_file_temporary - A (3)
-    M 235:4 GetData.save_on_s3 - A (3)
     M 55:4 GetData.load_s3 - A (2)
     M 215:4 GetData.save_numpy_matrix_temporary - A (2)
     M 34:4 GetData.__init__ - A (1)
@@ -145,5 +145,5 @@ training/datastore/preprocess_data.py
     M 93:4 PreprocessData.create_df_and_dictionaries - A (1)
 
 124 blocks (classes, functions, methods) analyzed.
-Average complexity: A (2.2661290322580645)
+Average complexity: A (2.274193548387097)
 </pre>
