@@ -14,7 +14,7 @@ fabric8-analytics-auth,154,31,80%,90%,no
 fabric8-gemini-server,629,55,91%,90%,yes
 fabric8-analytics-version-comparator,217,0,100%,90%,yes
 fabric8-analytics-ingestion,228,107,53%,90%,no
-fabric8-analytics-npm-insights,204,103,50%,90%,no
+fabric8-analytics-npm-insights,206,103,50%,90%,no
 fabric8-analytics-notification-scheduler,554,190,66%,90%,no
 fabric8-analytics-utils,285,1,99%,90%,yes
 fabric8-analytics-github-refresh-cronjob,70,6,91%,90%,yes
