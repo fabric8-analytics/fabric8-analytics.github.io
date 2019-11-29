@@ -21,7 +21,7 @@ Name                                                            Stmts   Miss  Co
 /f8a_worker/f8a_worker/graphutils.py                              157    136    13%   30-55, 60-94, 9	/f8a_worker/f8a_worker/graphutils.py                              157    136    13%   30-55, 60-94, 9
 /f8a_worker/f8a_worker/manifests.py                                53     24    55%   27, 53, 58-62, 	/f8a_worker/f8a_worker/manifests.py                                53     24    55%   27, 53, 58-62, 
 /f8a_worker/f8a_worker/models.py                                  227     65    71%   41-45, 52-56, 6	/f8a_worker/f8a_worker/models.py                                  227     65    71%   41-45, 52-56, 6
-/f8a_worker/f8a_worker/object_cache.py                            147     75    49%   69-74, 81-87, 9 |	/f8a_worker/f8a_worker/object_cache.py                            148     76    49%   69-74, 81-87, 9
+/f8a_worker/f8a_worker/object_cache.py                            148     76    49%   69-74, 81-87, 9	/f8a_worker/f8a_worker/object_cache.py                            148     76    49%   69-74, 81-87, 9
 /f8a_worker/f8a_worker/process.py                                 280     46    84%   67, 69, 71, 81-	/f8a_worker/f8a_worker/process.py                                 280     46    84%   67, 69, 71, 81-
 /f8a_worker/f8a_worker/schemas.py                                 208     42    80%   65-67, 92, 129,	/f8a_worker/f8a_worker/schemas.py                                 208     42    80%   65-67, 92, 129,
 /f8a_worker/f8a_worker/setup_celery.py                             41     19    54%   22-24, 29, 34-3	/f8a_worker/f8a_worker/setup_celery.py                             41     19    54%   22-24, 29, 34-3
@@ -79,4 +79,4 @@ Name                                                            Stmts   Miss  Co
 /f8a_worker/f8a_worker/workers/unknown_dep_fetcher.py              39     31    21%   15-50, 59-67	/f8a_worker/f8a_worker/workers/unknown_dep_fetcher.py              39     31    21%   15-50, 59-67
 /f8a_worker/f8a_worker/workers/user_notifier.py                    38     29    24%   15-25, 29-49, 5	/f8a_worker/f8a_worker/workers/user_notifier.py                    38     29    24%   15-25, 29-49, 5
 ---------------------------------------------------------------------------------------------		---------------------------------------------------------------------------------------------
-TOTAL                                                            5408   1906    65%		      |	TOTAL                                                            5409   1907    65%
+TOTAL                                                            5409   1907    65%			TOTAL                                                            5409   1907    65%

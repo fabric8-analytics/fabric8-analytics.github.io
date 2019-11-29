@@ -1,18 +1,18 @@
 Name                                                        Stmts   Miss  Cover   Missing		Name                                                        Stmts   Miss  Cover   Missing
 -----------------------------------------------------------------------------------------		-----------------------------------------------------------------------------------------
 /recommendation_engine/__init__.py                              1      0   100%				/recommendation_engine/__init__.py                              1      0   100%
-/recommendation_engine/flask_predict.py                        33     33     0%   3-86		      |	/recommendation_engine/config/__init__.py                       1      0   100%
-												      >	/recommendation_engine/config/cloud_constants.py                6      0   100%
-												      >	/recommendation_engine/config/params_scoring.py                 8      0   100%
-												      >	/recommendation_engine/config/path_constants.py                15      0   100%
-												      >	/recommendation_engine/flask_predict.py                        33     16    52%   38, 50-86
+/recommendation_engine/config/__init__.py                       1      0   100%				/recommendation_engine/config/__init__.py                       1      0   100%
+/recommendation_engine/config/cloud_constants.py                6      0   100%				/recommendation_engine/config/cloud_constants.py                6      0   100%
+/recommendation_engine/config/params_scoring.py                 8      0   100%				/recommendation_engine/config/params_scoring.py                 8      0   100%
+/recommendation_engine/config/path_constants.py                15      0   100%			      |	/recommendation_engine/config/path_constants.py                21      0   100%
+/recommendation_engine/flask_predict.py                        33     16    52%   38, 50-86		/recommendation_engine/flask_predict.py                        33     16    52%   38, 50-86
 /recommendation_engine/model/__init__.py                        0      0   100%				/recommendation_engine/model/__init__.py                        0      0   100%
-/recommendation_engine/model/pmf_prediction.py                 13     13     0%   3-54		      |	/recommendation_engine/model/pmf_prediction.py                 13      6    54%   35-38, 53-54
+/recommendation_engine/model/pmf_prediction.py                 13      6    54%   35-38, 53-54		/recommendation_engine/model/pmf_prediction.py                 13      6    54%   35-38, 53-54
 /recommendation_engine/pmf/__init__.py                          1      1     0%   3			/recommendation_engine/pmf/__init__.py                          1      1     0%   3
 /recommendation_engine/predictor/__init__.py                    0      0   100%				/recommendation_engine/predictor/__init__.py                    0      0   100%
-/recommendation_engine/predictor/abstract_recommender.py        5      5     0%   3-30		      |	/recommendation_engine/predictor/abstract_recommender.py        5      0   100%
-/recommendation_engine/predictor/online_recommendation.py      90     84     7%   25-154	      |	/recommendation_engine/predictor/online_recommendation.py      90     61    32%   58-62, 73-74, 78-79
+/recommendation_engine/predictor/abstract_recommender.py        5      0   100%				/recommendation_engine/predictor/abstract_recommender.py        5      0   100%
+/recommendation_engine/predictor/online_recommendation.py      90     61    32%   58-62, 73-74, 78-79 |	/recommendation_engine/predictor/online_recommendation.py      95     63    34%   59-63, 76-77, 81-83
 /recommendation_engine/utils/__init__.py                        0      0   100%				/recommendation_engine/utils/__init__.py                        0      0   100%
-/recommendation_engine/utils/fileutils.py                      20     15    25%   32-42, 52-53, 63-65 |	/recommendation_engine/utils/fileutils.py                      22     17    23%   32-47, 57-58, 68-70
+/recommendation_engine/utils/fileutils.py                      22     17    23%   32-47, 57-58, 68-70	/recommendation_engine/utils/fileutils.py                      22     17    23%   32-47, 57-58, 68-70
 -----------------------------------------------------------------------------------------		-----------------------------------------------------------------------------------------
-TOTAL                                                         163    151     7%			      |	TOTAL                                                         195    101    48%
+TOTAL                                                         195    101    48%			      |	TOTAL                                                         206    103    50%
