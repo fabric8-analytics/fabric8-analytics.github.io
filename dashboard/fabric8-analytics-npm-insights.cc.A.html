@@ -4,9 +4,9 @@
     M 35:4 StackAnalysisUserBehaviour.trigger_stack_analysis_five_package_stack - A (1)
     C 45:0 StackAnalysisUserLocust - A (1)
 tests/unit_tests/test_fileutils.py
-    C 9:0 TestFileUtils - A (2)
-    M 12:4 TestFileUtils.test_save_temporary_local_file - A (2)
-    M 19:4 TestFileUtils.test_load_rating - A (1)
+    C 8:0 TestFileUtils - A (2)
+    M 11:4 TestFileUtils.test_save_temporary_local_file - A (2)
+    M 18:4 TestFileUtils.test_load_rating - A (1)
 tests/unit_tests/test_get_keywords.py
     C 33:0 TestGetKeywords - A (2)
     M 36:4 TestGetKeywords.test_from_existing_df - A (2)
@@ -14,10 +14,13 @@ tests/unit_tests/test_get_keywords.py
     M 48:4 TestGetKeywords.test_get_dependencies - A (2)
     M 55:4 TestGetKeywords.test_clean_response - A (2)
 tests/unit_tests/test_flask_predict.py
-    C 10:0 FlaskPredictTestCase - A (1)
-    M 13:4 FlaskPredictTestCase.setUp - A (1)
-    M 19:4 FlaskPredictTestCase.test_health_checks - A (1)
-    M 24:4 FlaskPredictTestCase.test_recommendation - A (1)
+    C 9:0 FlaskPredictTestCase - A (1)
+    M 12:4 FlaskPredictTestCase.setUp - A (1)
+    M 18:4 FlaskPredictTestCase.test_health_checks - A (1)
+    M 23:4 FlaskPredictTestCase.test_recommendation - A (1)
+tests/unit_tests/test_pretrain_hidden.py
+    C 31:0 TestPretrainHidden - A (1)
+    M 34:4 TestPretrainHidden.test_train - A (1)
 tests/unit_tests/test_constants.py
     C 9:0 TestImport - A (1)
     M 12:4 TestImport.test_cloud_constants - A (1)
@@ -43,8 +46,13 @@ tests/unit_tests/test_PMFRecommendation.py
     C 26:0 TestPMFRecommendation - A (1)
     M 29:4 TestPMFRecommendation.setUp - A (1)
     M 35:4 TestPMFRecommendation.test__find_closest_user_in_training_set - A (1)
-    M 48:4 TestPMFRecommendation.test__sigmoid - A (1)
-    M 52:4 TestPMFRecommendation.test_predict - A (1)
+    M 47:4 TestPMFRecommendation.test__sigmoid - A (1)
+    M 51:4 TestPMFRecommendation.test_predict - A (1)
+tests/unit_tests/test_pretrain.py
+    F 30:0 test_fit - A (2)
+tests/unit_tests/test_pretrain_latent.py
+    C 27:0 TestPretrainLatent - A (1)
+    M 33:4 TestPretrainLatent.test_train - A (1)
 recommendation_engine/flask_predict.py
     F 67:0 recommendation - A (2)
     F 55:0 liveness - A (1)
@@ -144,6 +152,6 @@ training/datastore/preprocess_data.py
     M 83:4 PreprocessData.extract_unique_packages - A (1)
     M 93:4 PreprocessData.create_df_and_dictionaries - A (1)
 
-124 blocks (classes, functions, methods) analyzed.
-Average complexity: A (2.274193548387097)
+129 blocks (classes, functions, methods) analyzed.
+Average complexity: A (2.2325581395348837)
 </pre>

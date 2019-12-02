@@ -79,6 +79,9 @@ tests/unit_tests/test_get_keywords.py
 tests/unit_tests/test_flask_predict.py
 0
     Pass
+tests/unit_tests/test_pretrain_hidden.py
+0
+    Pass
 tests/unit_tests/test_constants.py
 0
     Pass
@@ -86,6 +89,12 @@ tests/unit_tests/test_utils.py
 0
     Pass
 tests/unit_tests/test_PMFRecommendation.py
+0
+    Pass
+tests/unit_tests/test_pretrain.py
+0
+    Pass
+tests/unit_tests/test_pretrain_latent.py
 0
     Pass
 training/datastore/s3_connection.py
@@ -107,4 +116,4 @@ tools/check_python_version.py
 0
     Pass
 ~/bayesian/dashboard/repositories/fabric8-analytics-npm-insights
-All checks passed for 29 source files
+All checks passed for 32 source files
