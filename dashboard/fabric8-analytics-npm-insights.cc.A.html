@@ -74,10 +74,39 @@ recommendation_engine/utils/fileutils.py
     F 61:0 check_path - A (2)
 recommendation_engine/config/params_scoring.py
     C 24:0 ScoringParams - A (1)
+recommendation_engine/autoencoder/train/train.py
+    M 71:4 TrainNetwork.train - A (4)
+    C 27:0 TrainNetwork - A (2)
+    M 30:4 TrainNetwork.__init__ - A (1)
+    M 49:4 TrainNetwork.sampling - A (1)
+    M 63:4 TrainNetwork.load_pretrain_weights - A (1)
+recommendation_engine/autoencoder/pretrain/pretrain_latent.py
+    C 19:0 PretrainLatent - A (1)
+    M 22:4 PretrainLatent.__init__ - A (1)
+    M 27:4 PretrainLatent.sampling - A (1)
+    M 41:4 PretrainLatent.train - A (1)
+    M 90:4 PretrainLatent.get_weights - A (1)
+recommendation_engine/autoencoder/pretrain/pretrain.py
+    F 17:0 fit - A (2)
+recommendation_engine/autoencoder/pretrain/pretrain_hidden.py
+    C 18:0 PretrainHidden - A (1)
+    M 21:4 PretrainHidden.__init__ - A (1)
+    M 27:4 PretrainHidden.train - A (1)
+    M 61:4 PretrainHidden.get_layer_weights - A (1)
+recommendation_engine/autoencoder/pretrain/pretrain_sdae.py
+    M 43:4 PretrainNetwork.train - A (3)
+    C 20:0 PretrainNetwork - A (2)
+    M 23:4 PretrainNetwork.__init__ - A (1)
+    M 29:4 PretrainNetwork.sampling - A (1)
 recommendation_engine/model/pmf_prediction.py
     C 27:0 PMFScoring - A (1)
     M 33:4 PMFScoring.__init__ - A (1)
     M 40:4 PMFScoring.predict_transform - A (1)
+recommendation_engine/pmf/train_pmf.py
+    M 38:4 PMFTraining.__call__ - C (13)
+    C 18:0 PMFTraining - A (5)
+    M 21:4 PMFTraining.__init__ - A (2)
+    M 153:4 PMFTraining.save_model - A (1)
 tools/check_python_version.py
     F 19:0 get_expected_version - A (4)
     F 48:0 compare_versions - A (2)
@@ -152,6 +181,6 @@ training/datastore/preprocess_data.py
     M 83:4 PreprocessData.extract_unique_packages - A (1)
     M 93:4 PreprocessData.create_df_and_dictionaries - A (1)
 
-129 blocks (classes, functions, methods) analyzed.
-Average complexity: A (2.2325581395348837)
+152 blocks (classes, functions, methods) analyzed.
+Average complexity: A (2.210526315789474)
 </pre>

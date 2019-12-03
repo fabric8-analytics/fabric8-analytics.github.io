@@ -1,18 +1,25 @@
-Name                                                        Stmts   Miss  Cover   Missing
------------------------------------------------------------------------------------------
-/recommendation_engine/__init__.py                              1      0   100%
-/recommendation_engine/config/__init__.py                       1      0   100%
-/recommendation_engine/config/cloud_constants.py                6      0   100%
-/recommendation_engine/config/params_scoring.py                 8      0   100%
-/recommendation_engine/config/path_constants.py                21      0   100%
-/recommendation_engine/flask_predict.py                        33     30     9%   23-86
-/recommendation_engine/model/__init__.py                        0      0   100%
-/recommendation_engine/model/pmf_prediction.py                 13      6    54%   35-38, 53-54
-/recommendation_engine/pmf/__init__.py                          1      1     0%   3
-/recommendation_engine/predictor/__init__.py                    0      0   100%
-/recommendation_engine/predictor/abstract_recommender.py        5      0   100%
-/recommendation_engine/predictor/online_recommendation.py      95     75    21%   51-63, 72-77, 81-83, 87-99, 102, 106-159
-/recommendation_engine/utils/__init__.py                        0      0   100%
-/recommendation_engine/utils/fileutils.py                      22     17    23%   32-47, 57-58, 68-70
------------------------------------------------------------------------------------------
-TOTAL                                                         206    129    37%
+Name                                                             Stmts   Miss  Cover   Missing
+----------------------------------------------------------------------------------------------
+/recommendation_engine/__init__.py                                   1      0   100%
+/recommendation_engine/autoencoder/pretrain/__init__.py              1      0   100%
+/recommendation_engine/autoencoder/pretrain/pretrain.py             30      0   100%
+/recommendation_engine/autoencoder/pretrain/pretrain_hidden.py      38      0   100%
+/recommendation_engine/autoencoder/pretrain/pretrain_latent.py      59      0   100%
+/recommendation_engine/autoencoder/pretrain/pretrain_sdae.py        68      0   100%
+/recommendation_engine/config/__init__.py                            1      0   100%
+/recommendation_engine/config/cloud_constants.py                     6      0   100%
+/recommendation_engine/config/params_scoring.py                      8      0   100%
+/recommendation_engine/config/params_training.py                    17      0   100%
+/recommendation_engine/config/path_constants.py                     21      0   100%
+/recommendation_engine/flask_predict.py                             33      1    97%   38
+/recommendation_engine/model/__init__.py                             0      0   100%
+/recommendation_engine/model/pmf_prediction.py                      13      0   100%
+/recommendation_engine/pmf/__init__.py                               1      1     0%   3
+/recommendation_engine/pmf/train_pmf.py                             81     81     0%   3-157
+/recommendation_engine/predictor/__init__.py                         0      0   100%
+/recommendation_engine/predictor/abstract_recommender.py             5      0   100%
+/recommendation_engine/predictor/online_recommendation.py           95      2    98%   94-95
+/recommendation_engine/utils/__init__.py                             0      0   100%
+/recommendation_engine/utils/fileutils.py                           22      0   100%
+----------------------------------------------------------------------------------------------
+TOTAL                                                              500     85    83%
