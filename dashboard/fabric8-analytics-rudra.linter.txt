@@ -55,7 +55,8 @@ rudra/deployments/emr_scripts/__init__.py
 rudra/deployments/emr_scripts/maven_emr.py
     Pass
 rudra/deployments/emr_scripts/npm_emr.py
-    Pass
+rudra/deployments/emr_scripts/npm_emr.py:30:101: E501 line too long (105 > 100 characters)
+    Fail
 rudra/deployments/emr_scripts/pypi_emr.py
     Pass
 rudra/deployments/emr_scripts/emr_script_builder.py
@@ -107,5 +108,4 @@ setup.py
 ----------------------------------------------------
 setup.py
     Pass
-All checks passed for 43 source files
-~/bayesian/dashboard/repositories/fabric8-analytics-rudra
+Linter fail, 1 source files out of 43 source files need to be fixed

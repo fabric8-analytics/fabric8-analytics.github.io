@@ -4,6 +4,7 @@ Checking source files for dead code and unused imports
 in following directories:
 tests
 tools
+src
 ----------------------------------------------------
 
 Already using interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
@@ -21,13 +22,13 @@ tests/conftest.py
     Pass
 tools/check_python_version.py
     Pass
+src/github_refresh.py
+    Pass
 ----------------------------------------------------
 Checking following source files for dead code and
 unused imports:
-github_refresh.py
+
 ----------------------------------------------------
 
-github_refresh.py
-    Pass
 ~/bayesian/dashboard/repositories/fabric8-analytics-github-refresh-cronjob
 All checks passed for 4 source files

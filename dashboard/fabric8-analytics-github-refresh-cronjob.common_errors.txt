@@ -13,6 +13,7 @@ Checking source files for common errors in following
 directories:
 tests
 tools
+src
 ----------------------------------------------------
 
 tests/test_github_refresh.py
@@ -21,12 +22,12 @@ tests/conftest.py
     Pass
 tools/check_python_version.py
     Pass
+src/github_refresh.py
+    Pass
 ----------------------------------------------------
 Checking following source files for common errors:
-github_refresh.py
+
 ----------------------------------------------------
 
-github_refresh.py
-    Pass
 ~/bayesian/dashboard/repositories/fabric8-analytics-github-refresh-cronjob
 All checks passed for 4 source files

@@ -1,21 +1,25 @@
-<pre>github_refresh.py
-    F 60:0 run - A (3)
-    F 44:0 refresh - A (2)
-    F 72:0 get_expiration_date - A (1)
-    F 77:0 get_limit - A (1)
-    F 82:0 is_dry_run - A (1)
-    F 87:0 _get_count - A (1)
-    F 93:0 _get_outdated - A (1)
-tests/test_github_refresh.py
-    F 6:0 test_run - A (1)
+<pre>tests/test_github_refresh.py
+    F 30:0 test_get_epv_list - A (4)
+    F 58:0 test_retrieve_dict - A (3)
+    F 9:0 test_schedule_gh_refresh - A (2)
+    F 24:0 test_retrieve_blob - A (2)
+    F 70:0 test_refresh - A (2)
+    F 83:0 test_run - A (2)
 tests/conftest.py
     F 7:0 db_results - A (1)
+src/github_refresh.py
+    F 60:0 get_epv_list - B (6)
+    F 40:0 retrieve_dict - A (2)
+    F 50:0 retrieve_blob - A (2)
+    F 91:0 schedule_gh_refresh - A (2)
+    F 101:0 refresh - A (1)
+    F 107:0 run - A (1)
 tools/check_python_version.py
     F 19:0 get_expected_version - A (4)
     F 48:0 compare_versions - A (2)
     F 59:0 main - A (2)
     F 43:0 get_actual_version - A (1)
 
-13 blocks (classes, functions, methods) analyzed.
-Average complexity: A (1.6153846153846154)
+17 blocks (classes, functions, methods) analyzed.
+Average complexity: A (2.2941176470588234)
 </pre>

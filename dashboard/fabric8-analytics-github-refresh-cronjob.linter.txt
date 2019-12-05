@@ -3,6 +3,7 @@
 Running Python linter against following directories:
 tests
 tools
+src
 ----------------------------------------------------
 
 Already using interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
@@ -20,12 +21,12 @@ tests/conftest.py
     Pass
 tools/check_python_version.py
     Pass
+src/github_refresh.py
+    Pass
 
 ----------------------------------------------------
 Running Python linter against selected files:
-github_refresh.py
+
 ----------------------------------------------------
-github_refresh.py
-    Pass
 All checks passed for 4 source files
 ~/bayesian/dashboard/repositories/fabric8-analytics-github-refresh-cronjob
