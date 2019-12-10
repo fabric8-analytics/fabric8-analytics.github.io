@@ -391,7 +391,7 @@ tests/deployments/emr_scripts/test_emr_script_builder.py:14 in public method `te
         D102: Missing docstring in public method
 tests/deployments/emr_scripts/test_emr_script_builder.py:19 in public method `test_construct_job_without_required_params`:
         D102: Missing docstring in public method
-tests/deployments/emr_scripts/test_emr_script_builder.py:36 in public method `test_construct_job`:
+tests/deployments/emr_scripts/test_emr_script_builder.py:38 in public method `test_construct_job`:
         D102: Missing docstring in public method
 5
     Fail
