@@ -49,7 +49,9 @@ rudra/__init__.py
 rudra/deployments/__init__.py
     Pass
 rudra/deployments/emr_scripts/emr_config.py
-    Pass
+rudra/deployments/emr_scripts/emr_config.py:64:26: E225 missing whitespace around operator
+rudra/deployments/emr_scripts/emr_config.py:69:37: E128 continuation line under-indented for visual indent
+    Fail
 rudra/deployments/emr_scripts/__init__.py
     Pass
 rudra/deployments/emr_scripts/maven_emr.py
@@ -108,4 +110,4 @@ setup.py
 ----------------------------------------------------
 setup.py
     Pass
-Linter fail, 1 source files out of 43 source files need to be fixed
+Linter fail, 2 source files out of 43 source files need to be fixed
