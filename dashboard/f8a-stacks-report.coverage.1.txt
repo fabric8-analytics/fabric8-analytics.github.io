@@ -3,11 +3,11 @@ Name                                       Stmts   Miss  Cover   Missing
 f8a_report/__init__.py                         0      0   100%
 f8a_report/cve_helper.py                      99     12    88%   67, 79-80, 98-100, 130-132, 152-154
 f8a_report/graph_report_generator.py         169     10    94%   214-220, 271-277
-f8a_report/main.py                            37     14    62%   37-43, 47-54, 60
+f8a_report/main.py                            37      7    81%   47-54, 60
 f8a_report/manifest_helper.py                 79      2    97%   107-108
 f8a_report/report_helper.py                  452     67    85%   80-93, 136, 140-157, 175-176, 234, 262-263, 306-308, 314, 317-328, 359-366, 371, 436, 475-477, 492, 495, 501, 546, 550, 568-582, 589-603, 652, 674, 760, 800-801, 855
 f8a_report/s3_helper.py                       85     12    86%   48, 62, 66, 70, 74, 102, 106, 121, 125, 132, 141-142
 f8a_report/sentry_report_helper.py            88     20    77%   44-47, 78-79, 88-89, 109-113, 134, 138-143
 f8a_report/unknown_deps_report_helper.py      36      5    86%   40-49
 ------------------------------------------------------------------------
-TOTAL                                       1045    142    86%
+TOTAL                                       1045    135    87%
