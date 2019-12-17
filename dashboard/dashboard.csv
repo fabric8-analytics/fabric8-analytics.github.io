@@ -2,7 +2,7 @@ Repository,Source files,,Linter results,,,Pydocstyle results,,,Code coverage,,,D
 ,Files,Total lines,Pass,Fail,Pass %,Pass,Fail,Pass %,Statements,Missed,Coverage,,,A,B,C,D,E,F,OK?,A,B,C,OK?,
 fabric8-analytics-common,158,21144,158,0,100%,158,0,100%,N/A,N/A,N/A,0,0,1518,19,0,0,0,0,yes,158,0,0,yes,failure(s) found
 fabric8-analytics-server,23,5028,23,0,100%,23,0,100%,1807,883,51%,0,0,213,34,8,1,0,0,no,21,2,0,no,failure(s) found
-fabric8-analytics-worker,170,15887,170,0,100%,169,0,100%,5411,1907,65%,0,0,828,86,9,1,0,0,no,170,0,0,yes,failure(s) found
+fabric8-analytics-worker,170,15891,170,0,100%,169,0,100%,5414,1907,65%,0,0,828,86,9,1,0,0,no,170,0,0,yes,failure(s) found
 fabric8-analytics-jobs,65,4635,65,0,100%,65,0,100%,1994,1526,23%,0,0,269,31,6,0,0,0,yes,65,0,0,yes,failure(s) found
 fabric8-analytics-tagger,44,4178,44,0,100%,44,0,100%,887,38,96%,0,0,241,31,14,0,0,0,yes,44,0,0,yes,ok
 fabric8-analytics-stack-analysis,92,5535,92,0,100%,92,0,100%,2110,1025,51%,0,0,260,17,3,0,0,0,yes,92,0,0,yes,failure(s) found
