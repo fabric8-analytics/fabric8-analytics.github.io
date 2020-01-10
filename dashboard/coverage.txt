@@ -108,4 +108,4 @@ Fabric8-analytics code coverage report
 +---------------------------------------------------------------------------------------------------------------------+
 
 Author: Pavel Tisnovsky <ptisnovs@redhat.com>
-Generated on: 2020-01-03 09:06:15
+Generated on: 2020-01-10 10:09:38
