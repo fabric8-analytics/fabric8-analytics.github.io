@@ -3,7 +3,7 @@ Name                                      Stmts   Miss  Cover   Missing
 src/__init__.py                               3      0   100%
 src/config.py                                22      0   100%
 src/cve.py                                  157      7    96%   58-59, 66-69, 178-179
-src/data_importer.py                        221     30    86%   38-39, 102-114, 121, 132, 302, 342-344, 352-353, 360-373, 387, 392, 397, 402, 407, 425, 430, 435
+src/data_importer.py                        221     30    86%   38-39, 102-114, 121, 132, 311, 351-353, 361-362, 369-382, 396, 401, 406, 411, 416, 434, 439, 444
 src/data_source/__init__.py                   0      0   100%
 src/data_source/abstract_data_source.py       6      0   100%
 src/data_source/s3_data_source.py            36      2    94%   29-31
