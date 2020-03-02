@@ -27,7 +27,7 @@ f8a-emr-deployment,88,49,44%,90%,no
 f8a-hpf-insights,164,107,35%,90%,no
 f8a-golang-insights,222,108,51%,90%,no
 f8a-pypi-insights,153,72,53%,90%,no
-f8a-stacks-report,1045,135,87%,90%,no
+f8a-stacks-report,1045,142,86%,90%,no
 f8a-data-ingestion-service,N/A,N/A,N/A,90%,no
 cvejob,684,107,84%,90%,no
 victimsdb-lib,204,0,100%,90%,yes
