@@ -1,6 +1,6 @@
 Repository,Statements,Missed,Coverage,Threshold,Pass?
 fabric8-analytics-common,N/A,N/A,N/A,90%,no
-fabric8-analytics-server,1754,832,53%,90%,no
+fabric8-analytics-server,1753,809,54%,90%,no
 fabric8-analytics-worker,5419,1910,65%,90%,no
 fabric8-analytics-jobs,1994,1526,23%,90%,no
 fabric8-analytics-tagger,887,38,96%,90%,yes
