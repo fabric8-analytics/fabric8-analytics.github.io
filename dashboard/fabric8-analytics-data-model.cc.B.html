@@ -18,26 +18,31 @@ src/data_importer.py
     F 282:0 create_graph_nodes - B (6)
     M 332:4 PostgresHandler.fetch_pending_epvs - B (6)
 src/cve.py
-    M 19:4 CVEPut.validate_input - C (12)
-    M 204:4 CVEGet.get - B (7)
-    M 46:4 CVEPut.process - B (6)
+    M 20:4 SnykCVEPut.validate_input - C (12)
+    M 223:4 CVEPut.validate_input - C (12)
+    M 97:4 SnykCVEPut.get_qstring_for_cve_node - B (7)
+    M 408:4 CVEGet.get - B (7)
+    M 143:4 SnykCVEPut.process - B (6)
+    M 250:4 CVEPut.process - B (6)
 src/data_source/s3_data_source.py
     M 49:4 S3DataSource.list_files - B (7)
 test/test_rest_api.py
-    F 144:0 test_selective_ingest_empty - B (7)
-    F 46:0 test_sync_all - B (6)
-    F 61:0 test_ingest_to_graph - B (6)
-    F 82:0 test_ingest_to_graph_source - B (6)
-    F 489:0 test_sync_latest_version - B (6)
+    F 146:0 test_selective_ingest_empty - B (7)
+    F 48:0 test_sync_all - B (6)
+    F 63:0 test_ingest_to_graph - B (6)
+    F 84:0 test_ingest_to_graph_source - B (6)
+    F 551:0 test_sync_latest_version - B (6)
 test/test_insertion_from_minio.py
     F 35:0 test_create_minio_bucket - B (6)
 test/test_cve.py
-    F 70:0 test_cve_put_get_qstring_for_cve_node - C (11)
-    F 200:0 test_cve_get_ep - B (8)
-    F 99:0 test_create_pv_nodes - B (7)
-    F 184:0 test_cve_get_e - B (7)
-    F 169:0 test_cve_delete_prepare_payload - B (6)
-    F 217:0 test_cve_get_epv - B (6)
+    F 180:0 test_cve_put_get_qstring_for_cve_node - C (11)
+    F 90:0 test_snyk_cve_put_get_qstring_for_cve_node - B (10)
+    F 118:0 test_snyk_create_pv_nodes - B (8)
+    F 310:0 test_cve_get_ep - B (8)
+    F 209:0 test_create_pv_nodes - B (7)
+    F 294:0 test_cve_get_e - B (7)
+    F 279:0 test_cve_delete_prepare_payload - B (6)
+    F 327:0 test_cve_get_epv - B (6)
 test/test_data_importer.py
     F 13:0 test_parse_int_or_none_for_integer_input_overflows - B (9)
     F 36:0 test_parse_int_or_none_for_string_input - B (7)
@@ -55,6 +60,6 @@ test/test_graph_populator.py
     F 231:0 test_construct_package_query - B (7)
     F 92:0 test_construct_version_query_1 - B (6)
 
-44 blocks (classes, functions, methods) analyzed.
-Average complexity: B (8.886363636363637)
+49 blocks (classes, functions, methods) analyzed.
+Average complexity: B (8.857142857142858)
 </pre>
