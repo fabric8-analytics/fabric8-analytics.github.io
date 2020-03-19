@@ -1,7 +1,7 @@
 Repository,Statements,Missed,Coverage,Threshold,Pass?
 fabric8-analytics-common,N/A,N/A,N/A,90%,no
-fabric8-analytics-server,1756,808,54%,90%,no
-fabric8-analytics-worker,5419,1910,65%,90%,no
+fabric8-analytics-server,1759,808,54%,90%,no
+fabric8-analytics-worker,5419,1909,65%,90%,no
 fabric8-analytics-jobs,1994,1526,23%,90%,no
 fabric8-analytics-tagger,887,38,96%,90%,yes
 fabric8-analytics-stack-analysis,2110,1025,51%,90%,no
@@ -16,11 +16,11 @@ fabric8-analytics-version-comparator,217,0,100%,90%,yes
 fabric8-analytics-ingestion,228,107,53%,90%,no
 fabric8-analytics-npm-insights,500,85,83%,90%,no
 fabric8-analytics-notification-scheduler,554,190,66%,90%,no
-fabric8-analytics-utils,285,1,99%,90%,yes
+fabric8-analytics-utils,286,1,99%,90%,yes
 fabric8-analytics-github-refresh-cronjob,N/A,N/A,N/A,90%,no
 fabric8-analytics-github-events-monitor,230,20,91%,90%,yes
 fabric8-analytics-release-monitor,126,21,83%,90%,no
-f8a-server-backbone,902,82,91%,90%,yes
+f8a-server-backbone,907,82,91%,90%,yes
 fabric8-analytics-rudra,N/A,N/A,N/A,90%,no
 fabric8-analytics-scaler,N/A,N/A,N/A,90%,no
 f8a-emr-deployment,88,49,44%,90%,no
