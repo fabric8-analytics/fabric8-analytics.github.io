@@ -47,7 +47,7 @@ Name                                                            Stmts   Miss  Co
 /f8a_worker/f8a_worker/storages/s3_temp_artifacts.py               14      3    79%   45-49
 /f8a_worker/f8a_worker/storages/s3_userintent.py                   19     14    26%   11-16, 20-23, 27-31
 /f8a_worker/f8a_worker/storages/s3_userprofilestore.py              8      4    50%   12-15
-/f8a_worker/f8a_worker/utils.py                                   309     45    85%   35-48, 83-84, 94, 115-118, 137-146, 179, 195, 223-225, 317, 364, 403, 411, 471, 489, 501-505, 511-516, 546-550, 568, 574
+/f8a_worker/f8a_worker/utils.py                                   309     46    85%   35-48, 83-84, 94, 115-118, 137-146, 179, 195, 223-225, 317, 364, 403, 411, 471, 489, 501-505, 511-516, 546-550, 568, 572-574
 /f8a_worker/f8a_worker/workers/__init__.py                         42      0   100%
 /f8a_worker/f8a_worker/workers/bookkeeper.py                       38     29    24%   18-62, 70-80
 /f8a_worker/f8a_worker/workers/dependency_parser.py               161     59    63%   55, 88, 90, 103, 121-139, 151-166, 239-242, 279-315, 324-349
@@ -61,7 +61,7 @@ Name                                                            Stmts   Miss  Co
 /f8a_worker/f8a_worker/workers/graphaggregator.py                  75     60    20%   25-32, 41-120
 /f8a_worker/f8a_worker/workers/init_analysis_flow.py               90     66    27%   38-121, 126-145, 150-169
 /f8a_worker/f8a_worker/workers/init_package_flow.py                78     62    21%   21-35, 44-64, 73-101, 113-167
-/f8a_worker/f8a_worker/workers/libraries_io.py                     26      1    96%   39
+/f8a_worker/f8a_worker/workers/libraries_io.py                     32      1    97%   45
 /f8a_worker/f8a_worker/workers/license.py                          67      7    90%   42, 106-114
 /f8a_worker/f8a_worker/workers/mercator.py                        147     52    65%   75-76, 83, 91, 132, 156-169, 178, 182-184, 187, 193-194, 198-212, 218, 220, 228-229, 237-256
 /f8a_worker/f8a_worker/workers/repo_dependency_finder.py          105     92    12%   24-56, 66-110, 119-152, 162-195
@@ -79,4 +79,4 @@ Name                                                            Stmts   Miss  Co
 /f8a_worker/f8a_worker/workers/unknown_dep_fetcher.py              39     31    21%   15-50, 59-67
 /f8a_worker/f8a_worker/workers/user_notifier.py                    38     29    24%   15-25, 29-49, 57-73
 ---------------------------------------------------------------------------------------------
-TOTAL                                                            5419   1909    65%
+TOTAL                                                            5425   1910    65%
