@@ -1,13 +1,9 @@
-~/bayesian/dashboard/repositories/fabric8-analytics-npm-insights ~/bayesian/dashboard/repositories/fabric8-analytics-npm-insights
-Already using interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Using base prefix '/usr'
-  No LICENSE.txt / LICENSE found in source
-New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-npm-insights/venv/bin/python3
-Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-npm-insights/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-npm-insights/venv/bin/python3)
-Installing setuptools, pip, wheel...
-done.
-Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2.1.1)
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-npm-insights ~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-npm-insights
+created virtual environment CPython3.6.10.final.0-64 in 153ms
+  creator CPython3Posix(dest=/home/msawood/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-npm-insights/venv, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/msawood/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators PythonActivator,FishActivator,XonshActivator,CShellActivator,PowerShellActivator,BashActivator
+Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2.2.0)
 ----------------------------------------------------
 Checking source files for common errors in following
 directories:
@@ -18,11 +14,38 @@ training
 tools
 ----------------------------------------------------
 
-recommendation_engine/predictor/abstract_recommender.py
+recommendation_engine/pmf/__init__.py
+    Pass
+recommendation_engine/pmf/train_pmf.py
+    Pass
+recommendation_engine/model/__init__.py
+    Pass
+recommendation_engine/model/pmf_prediction.py
+    Pass
+recommendation_engine/__init__.py
     Pass
 recommendation_engine/predictor/__init__.py
     Pass
 recommendation_engine/predictor/online_recommendation.py
+    Pass
+recommendation_engine/predictor/abstract_recommender.py
+    Pass
+recommendation_engine/autoencoder/train/__init__.py
+    Pass
+recommendation_engine/autoencoder/train/train.py
+recommendation_engine/autoencoder/train/train.py:138:17 '...'.format(...) has unused arguments at position(s): 0, 1
+recommendation_engine/autoencoder/train/train.py:141:17 '...'.format(...) has unused arguments at position(s): 0, 1
+recommendation_engine/autoencoder/train/train.py:145:17 '...'.format(...) has unused arguments at position(s): 0, 1, 2
+    Fail
+recommendation_engine/autoencoder/pretrain/pretrain.py
+    Pass
+recommendation_engine/autoencoder/pretrain/__init__.py
+    Pass
+recommendation_engine/autoencoder/pretrain/pretrain_latent.py
+    Pass
+recommendation_engine/autoencoder/pretrain/pretrain_sdae.py
+    Pass
+recommendation_engine/autoencoder/pretrain/pretrain_hidden.py
     Pass
 recommendation_engine/flask_predict.py
     Pass
@@ -30,11 +53,7 @@ recommendation_engine/utils/__init__.py
     Pass
 recommendation_engine/utils/fileutils.py
     Pass
-recommendation_engine/__init__.py
-    Pass
 recommendation_engine/config/params_scoring.py
-    Pass
-recommendation_engine/config/cloud_constants.py
     Pass
 recommendation_engine/config/__init__.py
     Pass
@@ -42,63 +61,44 @@ recommendation_engine/config/params_training.py
     Pass
 recommendation_engine/config/path_constants.py
     Pass
-recommendation_engine/autoencoder/train/train.py
-    Pass
-recommendation_engine/autoencoder/train/__init__.py
-    Pass
-recommendation_engine/autoencoder/pretrain/pretrain_latent.py
-    Pass
-recommendation_engine/autoencoder/pretrain/__init__.py
-    Pass
-recommendation_engine/autoencoder/pretrain/pretrain.py
-    Pass
-recommendation_engine/autoencoder/pretrain/pretrain_hidden.py
-    Pass
-recommendation_engine/autoencoder/pretrain/pretrain_sdae.py
-    Pass
-recommendation_engine/model/__init__.py
-    Pass
-recommendation_engine/model/pmf_prediction.py
-    Pass
-recommendation_engine/pmf/train_pmf.py
-    Pass
-recommendation_engine/pmf/__init__.py
-    Pass
-deployment/submit_emr_job_train.py
+recommendation_engine/config/cloud_constants.py
     Pass
 deployment/submit_emr_job_pretrain.py
+deployment/submit_emr_job_pretrain.py:47:18 '...'.format(...) has unused arguments at position(s): 2
+    Fail
+deployment/submit_emr_job_train.py
     Pass
 tests/load_tests/locustfile.py
     Pass
-tests/unit_tests/test_fileutils.py
+tests/unit_tests/test_constants.py
     Pass
 tests/unit_tests/test_get_keywords.py
     Pass
-tests/unit_tests/test_flask_predict.py
-    Pass
-tests/unit_tests/test_pretrain_hidden.py
-    Pass
-tests/unit_tests/test_constants.py
-    Pass
-tests/unit_tests/test_utils.py
+tests/unit_tests/test_pretrain.py
     Pass
 tests/unit_tests/test_PMFRecommendation.py
     Pass
-tests/unit_tests/test_pretrain.py
+tests/unit_tests/test_pretrain_hidden.py
+    Pass
+tests/unit_tests/test_flask_predict.py
     Pass
 tests/unit_tests/test_pretrain_latent.py
     Pass
+tests/unit_tests/test_fileutils.py
+    Pass
+tests/unit_tests/test_utils.py
+    Pass
 training/datastore/s3_connection.py
-    Pass
-training/datastore/utils.py
-    Pass
-training/datastore/get_preprocess_data.py
-    Pass
-training/datastore/get_keywords.py
     Pass
 training/datastore/preprocess_data.py
     Pass
+training/datastore/utils.py
+    Pass
+training/datastore/get_keywords.py
+    Pass
+training/datastore/get_preprocess_data.py
+    Pass
 tools/check_python_version.py
     Pass
-~/bayesian/dashboard/repositories/fabric8-analytics-npm-insights
-All checks passed for 41 source files
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-npm-insights
+2 source files out of 41 files needs to be checked and fixed

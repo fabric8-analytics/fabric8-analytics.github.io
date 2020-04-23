@@ -1,4 +1,4 @@
-~/bayesian/dashboard/repositories/fabric8-gemini-server ~/bayesian/dashboard/repositories/fabric8-gemini-server
+~/fabric8-analytics-common/dashboard/repositories/fabric8-gemini-server ~/fabric8-analytics-common/dashboard/repositories/fabric8-gemini-server
 ----------------------------------------------------
 Running Python linter against following directories:
 src
@@ -6,56 +6,52 @@ tests
 tools
 ----------------------------------------------------
 
-Already using interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Using base prefix '/usr'
-  No LICENSE.txt / LICENSE found in source
-New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-gemini-server/venv/bin/python3
-Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-gemini-server/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-gemini-server/venv/bin/python3)
-Installing setuptools, pip, wheel...
-done.
-Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+created virtual environment CPython3.6.10.final.0-64 in 157ms
+  creator CPython3Posix(dest=/home/msawood/fabric8-analytics-common/dashboard/repositories/fabric8-gemini-server/venv, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/msawood/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators PythonActivator,FishActivator,XonshActivator,CShellActivator,PowerShellActivator,BashActivator
 Requirement already satisfied: pycodestyle in ./venv/lib/python3.6/site-packages (2.5.0)
-src/repo_dependency_creator.py
-    Pass
 src/__init__.py
-    Pass
-src/utils.py
     Pass
 src/rest_api.py
     Pass
-src/data_extractor.py
-    Pass
 src/exceptions.py
-    Pass
-src/parsers/maven_parser.py
-    Pass
-src/parsers/parser_base.py
-    Pass
-src/parsers/__init__.py
-    Pass
-src/parsers/node_parser.py
     Pass
 src/notification/__init__.py
     Pass
 src/notification/user_notification.py
     Pass
+src/utils.py
+    Pass
+src/parsers/maven_parser.py
+    Pass
+src/parsers/__init__.py
+    Pass
+src/parsers/node_parser.py
+    Pass
+src/parsers/parser_base.py
+    Pass
+src/repo_dependency_creator.py
+    Pass
+src/data_extractor.py
+    Pass
+tests/test_maven_parser.py
+    Pass
+tests/__init__.py
+    Pass
+tests/conftest.py
+    Pass
 tests/test_rest_api.py
+    Pass
+tests/test_repo_dependency_creator.py
+    Pass
+tests/test_utils.py
     Pass
 tests/test_user_notification.py
     Pass
 tests/test_errors_class.py
     Pass
-tests/__init__.py
-    Pass
-tests/test_utils.py
-    Pass
-tests/test_maven_parser.py
-    Pass
-tests/test_repo_dependency_creator.py
-    Pass
 tests/test_node_parser.py
-    Pass
-tests/conftest.py
     Pass
 tools/check_python_version.py
     Pass
@@ -67,4 +63,4 @@ setup.py
 setup.py
     Pass
 All checks passed for 23 source files
-~/bayesian/dashboard/repositories/fabric8-gemini-server
+~/fabric8-analytics-common/dashboard/repositories/fabric8-gemini-server

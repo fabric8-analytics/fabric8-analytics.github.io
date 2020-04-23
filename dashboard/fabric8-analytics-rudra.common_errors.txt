@@ -1,13 +1,9 @@
-~/bayesian/dashboard/repositories/fabric8-analytics-rudra ~/bayesian/dashboard/repositories/fabric8-analytics-rudra
-Already using interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Using base prefix '/usr'
-  No LICENSE.txt / LICENSE found in source
-New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-rudra/venv/bin/python3
-Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-rudra/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-rudra/venv/bin/python3)
-Installing setuptools, pip, wheel...
-done.
-Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2.1.1)
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-rudra ~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-rudra
+created virtual environment CPython3.6.10.final.0-64 in 177ms
+  creator CPython3Posix(dest=/home/msawood/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-rudra/venv, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/msawood/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators PythonActivator,FishActivator,XonshActivator,CShellActivator,PowerShellActivator,BashActivator
+Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2.2.0)
 ----------------------------------------------------
 Checking source files for common errors in following
 directories:
@@ -19,83 +15,85 @@ docs
 
 rudra/data_store/__init__.py
     Pass
-rudra/data_store/abstract_data_store.py
+rudra/data_store/bigquery/maven_bigquery.py
     Pass
 rudra/data_store/bigquery/__init__.py
     Pass
 rudra/data_store/bigquery/pypi_bigquery.py
     Pass
-rudra/data_store/bigquery/maven_bigquery.py
-    Pass
 rudra/data_store/bigquery/npm_bigquery.py
     Pass
 rudra/data_store/bigquery/base.py
     Pass
-rudra/data_store/aws.py
+rudra/data_store/abstract_data_store.py
     Pass
 rudra/data_store/local_data_store.py
     Pass
-rudra/utils/validation.py
-    Pass
-rudra/utils/__init__.py
-    Pass
-rudra/utils/pypi_parser.py
-    Pass
-rudra/utils/mercator.py
-    Pass
-rudra/utils/helper.py
-    Pass
-rudra/__init__.py
+rudra/data_store/aws.py
     Pass
 rudra/deployments/__init__.py
     Pass
-rudra/deployments/emr_scripts/emr_config.py
+rudra/deployments/emr_scripts/npm_emr.py
     Pass
 rudra/deployments/emr_scripts/__init__.py
     Pass
-rudra/deployments/emr_scripts/maven_emr.py
-    Pass
-rudra/deployments/emr_scripts/npm_emr.py
-    Pass
 rudra/deployments/emr_scripts/pypi_emr.py
-    Pass
-rudra/deployments/emr_scripts/emr_script_builder.py
     Pass
 rudra/deployments/emr_scripts/abstract_emr.py
     Pass
-tests/data_store/bigquery/test_pypi_bigquery.py
+rudra/deployments/emr_scripts/emr_config.py
+rudra/deployments/emr_scripts/emr_config.py:65:38 '...'.format(...) has unused arguments at position(s): 0
+rudra/deployments/emr_scripts/emr_config.py:68:38 '...'.format(...) has unused arguments at position(s): 0
+    Fail
+rudra/deployments/emr_scripts/emr_script_builder.py
     Pass
-tests/data_store/bigquery/test_npm_bigquery.py
+rudra/deployments/emr_scripts/maven_emr.py
+    Pass
+rudra/__init__.py
+    Pass
+rudra/utils/__init__.py
+    Pass
+rudra/utils/helper.py
+    Pass
+rudra/utils/pypi_parser.py
+    Pass
+rudra/utils/validation.py
+    Pass
+rudra/utils/mercator.py
     Pass
 tests/data_store/bigquery/test_maven_bigquery.py
+    Pass
+tests/data_store/bigquery/test_npm_bigquery.py
     Pass
 tests/data_store/bigquery/test_base_upload_s3.py
     Pass
 tests/data_store/bigquery/test_base.py
     Pass
-tests/data_store/test_aws.py
+tests/data_store/bigquery/test_pypi_bigquery.py
     Pass
 tests/data_store/test_local_store.py
+    Pass
+tests/data_store/test_aws.py
+    Pass
+tests/deployments/emr_scripts/test_npm_emr.py
+    Pass
+tests/deployments/emr_scripts/test_maven_emr.py
+    Pass
+tests/deployments/emr_scripts/test_emr_config.py
+    Pass
+tests/deployments/emr_scripts/test_pypi_emr.py
+    Pass
+tests/deployments/emr_scripts/test_emr_script_builder.py
+    Pass
+tests/conftest.py
+    Pass
+tests/utils/test_mercator.py
     Pass
 tests/utils/test_helper.py
     Pass
 tests/utils/test_pypi_parser.py
     Pass
 tests/utils/test_validation.py
-    Pass
-tests/utils/test_mercator.py
-    Pass
-tests/deployments/emr_scripts/test_emr_script_builder.py
-    Pass
-tests/deployments/emr_scripts/test_pypi_emr.py
-    Pass
-tests/deployments/emr_scripts/test_npm_emr.py
-    Pass
-tests/deployments/emr_scripts/test_emr_config.py
-    Pass
-tests/deployments/emr_scripts/test_maven_emr.py
-    Pass
-tests/conftest.py
     Pass
 tools/check_python_version.py
     Pass
@@ -108,5 +106,5 @@ setup.py
 
 setup.py
     Pass
-~/bayesian/dashboard/repositories/fabric8-analytics-rudra
-All checks passed for 43 source files
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-rudra
+1 source files out of 43 files needs to be checked and fixed

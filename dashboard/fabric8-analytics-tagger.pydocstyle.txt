@@ -1,4 +1,4 @@
-~/bayesian/dashboard/repositories/fabric8-analytics-tagger ~/bayesian/dashboard/repositories/fabric8-analytics-tagger
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-tagger ~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-tagger
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
@@ -7,50 +7,55 @@ tests
 tools
 ----------------------------------------------------
 
-Already using interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Using base prefix '/usr'
-  No LICENSE.txt / LICENSE found in source
-New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-tagger/venv/bin/python3
-Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-tagger/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-tagger/venv/bin/python3)
-Installing setuptools, pip, wheel...
-done.
-Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (4.0.1)
-Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.9.1)
+created virtual environment CPython3.6.10.final.0-64 in 149ms
+  creator CPython3Posix(dest=/home/msawood/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-tagger/venv, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/msawood/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators PythonActivator,FishActivator,XonshActivator,CShellActivator,PowerShellActivator,BashActivator
+Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (5.0.2)
+Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (2.0.0)
+f8a_tagger/keywords_set.py
+0
+    Pass
+f8a_tagger/stemmer.py
+0
+    Pass
+f8a_tagger/__init__.py
+0
+    Pass
+f8a_tagger/errors.py
+0
+    Pass
+f8a_tagger/scoring.py
+0
+    Pass
+f8a_tagger/recipes.py
+0
+    Pass
 f8a_tagger/collectors/__init__.py
 0
     Pass
 f8a_tagger/collectors/pypi.py
 0
     Pass
-f8a_tagger/collectors/maven.py
-0
-    Pass
 f8a_tagger/collectors/npm.py
-0
-    Pass
-f8a_tagger/collectors/base.py
 0
     Pass
 f8a_tagger/collectors/stackoverflow.py
 0
     Pass
-f8a_tagger/lemmatizer.py
+f8a_tagger/collectors/maven.py
 0
     Pass
-f8a_tagger/tokenizer.py
-0
-    Pass
-f8a_tagger/__init__.py
-0
-    Pass
-f8a_tagger/utils.py
+f8a_tagger/collectors/base.py
 0
     Pass
 f8a_tagger/keywords_chief.py
 0
     Pass
-f8a_tagger/scoring.py
+f8a_tagger/utils.py
+0
+    Pass
+f8a_tagger/parsers/parsers.py
 0
     Pass
 f8a_tagger/parsers/__init__.py
@@ -59,85 +64,76 @@ f8a_tagger/parsers/__init__.py
 f8a_tagger/parsers/core_parser.py
 0
     Pass
-f8a_tagger/parsers/parsers.py
-0
-    Pass
 f8a_tagger/parsers/abstract.py
-0
-    Pass
-f8a_tagger/stemmer.py
-0
-    Pass
-f8a_tagger/corpus.py
-0
-    Pass
-f8a_tagger/recipes.py
-0
-    Pass
-f8a_tagger/keywords_set.py
-0
-    Pass
-f8a_tagger/errors.py
 0
     Pass
 f8a_tagger/defaults.py
 0
     Pass
-tests/test_tokenizer.py
+f8a_tagger/lemmatizer.py
 0
     Pass
-tests/test_errors.py
+f8a_tagger/corpus.py
 0
     Pass
-tests/test_init.py
-0
-    Pass
-tests/test_parsers.py
-0
-    Pass
-tests/test_keywords_chief.py
-0
-    Pass
-tests/test_recipes.py
-0
-    Pass
-tests/test_pypi_collector.py
-0
-    Pass
-tests/test_lemmatizer.py
+f8a_tagger/tokenizer.py
 0
     Pass
 tests/test_scoring.py
 0
     Pass
-tests/test_maven_collector.py
-0
-    Pass
-tests/__init__.py
+tests/test_parsers.py
 0
     Pass
 tests/test_npm_collector.py
 0
     Pass
-tests/test_utils.py
+tests/__init__.py
 0
     Pass
-tests/test_stemmer.py
+tests/test_tokenizer.py
 0
     Pass
 tests/test_corpus.py
 0
     Pass
-tests/test_stackoverflow_collector.py
+tests/test_init.py
 0
     Pass
-tests/test_core_parser.py
+tests/test_maven_collector.py
+0
+    Pass
+tests/conftest.py
+0
+    Pass
+tests/test_errors.py
+0
+    Pass
+tests/test_lemmatizer.py
+0
+    Pass
+tests/test_keywords_chief.py
 0
     Pass
 tests/test_keywords_set.py
 0
     Pass
-tests/conftest.py
+tests/test_stackoverflow_collector.py
+0
+    Pass
+tests/test_utils.py
+0
+    Pass
+tests/test_pypi_collector.py
+0
+    Pass
+tests/test_core_parser.py
+0
+    Pass
+tests/test_stemmer.py
+0
+    Pass
+tests/test_recipes.py
 0
     Pass
 tools/check_python_version.py
@@ -155,5 +151,5 @@ f8a_tagger_cli.py
 setup.py
 0
     Pass
-~/bayesian/dashboard/repositories/fabric8-analytics-tagger
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-tagger
 All checks passed for 44 source files

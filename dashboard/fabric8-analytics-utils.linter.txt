@@ -1,4 +1,4 @@
-~/bayesian/dashboard/repositories/fabric8-analytics-utils ~/bayesian/dashboard/repositories/fabric8-analytics-utils
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-utils ~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-utils
 ----------------------------------------------------
 Running Python linter against following directories:
 f8a_utils
@@ -6,30 +6,26 @@ tests
 tools
 ----------------------------------------------------
 
-Already using interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Using base prefix '/usr'
-  No LICENSE.txt / LICENSE found in source
-New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-utils/venv/bin/python3
-Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-utils/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-utils/venv/bin/python3)
-Installing setuptools, pip, wheel...
-done.
-Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+created virtual environment CPython3.6.10.final.0-64 in 303ms
+  creator CPython3Posix(dest=/home/msawood/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-utils/venv, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/msawood/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators PythonActivator,FishActivator,XonshActivator,CShellActivator,PowerShellActivator,BashActivator
 Requirement already satisfied: pycodestyle in ./venv/lib/python3.6/site-packages (2.5.0)
 f8a_utils/commands/__init__.py
     Pass
 f8a_utils/commands/command.py
     Pass
-f8a_utils/dependency_finder.py
+f8a_utils/versions.py
     Pass
 f8a_utils/__init__.py
     Pass
-f8a_utils/versions.py
+f8a_utils/dependency_finder.py
     Pass
 tests/commands/test_command.py
     Pass
-tests/test_depencency_finder.py
-    Pass
 tests/test_versions.py
+    Pass
+tests/test_depencency_finder.py
     Pass
 tools/check_python_version.py
     Pass
@@ -41,4 +37,4 @@ setup.py
 setup.py
     Pass
 All checks passed for 10 source files
-~/bayesian/dashboard/repositories/fabric8-analytics-utils
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-utils

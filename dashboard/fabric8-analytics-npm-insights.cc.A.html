@@ -1,121 +1,19 @@
-<pre>tests/load_tests/locustfile.py
-    C 28:0 StackAnalysisUserBehaviour - A (1)
-    M 31:4 StackAnalysisUserBehaviour.on_start - A (1)
-    M 35:4 StackAnalysisUserBehaviour.trigger_stack_analysis_five_package_stack - A (1)
-    C 45:0 StackAnalysisUserLocust - A (1)
-tests/unit_tests/test_fileutils.py
-    C 8:0 TestFileUtils - A (2)
-    M 11:4 TestFileUtils.test_save_temporary_local_file - A (2)
-    M 18:4 TestFileUtils.test_load_rating - A (1)
-tests/unit_tests/test_get_keywords.py
-    C 33:0 TestGetKeywords - A (2)
-    M 36:4 TestGetKeywords.test_from_existing_df - A (2)
-    M 42:4 TestGetKeywords.test_get_version - A (2)
-    M 48:4 TestGetKeywords.test_get_dependencies - A (2)
-    M 55:4 TestGetKeywords.test_clean_response - A (2)
-tests/unit_tests/test_flask_predict.py
-    C 9:0 FlaskPredictTestCase - A (1)
-    M 12:4 FlaskPredictTestCase.setUp - A (1)
-    M 18:4 FlaskPredictTestCase.test_health_checks - A (1)
-    M 23:4 FlaskPredictTestCase.test_recommendation - A (1)
-tests/unit_tests/test_pretrain_hidden.py
-    C 31:0 TestPretrainHidden - A (1)
-    M 34:4 TestPretrainHidden.test_train - A (1)
-tests/unit_tests/test_constants.py
-    C 9:0 TestImport - A (1)
-    M 12:4 TestImport.test_cloud_constants - A (1)
-    M 16:4 TestImport.test_path_constants - A (1)
-tests/unit_tests/test_utils.py
-    M 54:4 TestUtility.test_make_manifest_df - A (3)
-    C 33:0 TestUtility - A (2)
-    M 36:4 TestUtility.test_flatten_list - A (2)
-    M 42:4 TestUtility.test_make_list_from_series - A (2)
-    M 48:4 TestUtility.test_dict_to_list - A (2)
-    M 60:4 TestUtility.test_make_filtered_pkg_kwd_df - A (2)
-    M 65:4 TestUtility.test_clean_set - A (2)
-    M 71:4 TestUtility.test_create_pkg_tag_map - A (2)
-    M 76:4 TestUtility.test_create_pkg_dep_map - A (2)
-    M 81:4 TestUtility.test_create_package_map - A (2)
-    M 87:4 TestUtility.test_create_vocabulary_map - A (2)
-    M 93:4 TestUtility.test_make_kwd_dependencies_df - A (2)
-    M 101:4 TestUtility.test_extract_package_manifest_lst - A (2)
-    M 106:4 TestUtility.test_get_url - A (2)
-    M 112:4 TestUtility.test_get_query_params - A (2)
-    M 118:4 TestUtility.test_make_user_data - A (2)
-tests/unit_tests/test_PMFRecommendation.py
-    C 26:0 TestPMFRecommendation - A (1)
-    M 29:4 TestPMFRecommendation.setUp - A (1)
-    M 35:4 TestPMFRecommendation.test__find_closest_user_in_training_set - A (1)
-    M 47:4 TestPMFRecommendation.test__sigmoid - A (1)
-    M 51:4 TestPMFRecommendation.test_predict - A (1)
-tests/unit_tests/test_pretrain.py
-    F 30:0 test_fit - A (2)
-tests/unit_tests/test_pretrain_latent.py
-    C 27:0 TestPretrainLatent - A (1)
-    M 33:4 TestPretrainLatent.test_train - A (1)
-recommendation_engine/flask_predict.py
-    F 67:0 recommendation - A (2)
-    F 55:0 liveness - A (1)
-    F 61:0 readiness - A (1)
-recommendation_engine/predictor/abstract_recommender.py
-    C 25:0 AbstractRecommender - A (1)
-    M 30:4 AbstractRecommender.predict - A (1)
-recommendation_engine/predictor/online_recommendation.py
-    M 104:4 PMFRecommendation.predict - C (13)
-    M 85:4 PMFRecommendation._find_closest_user_in_training_set - A (5)
-    C 36:0 PMFRecommendation - A (3)
-    M 45:4 PMFRecommendation.__init__ - A (1)
-    M 65:4 PMFRecommendation._load_model_output_matrices - A (1)
-    M 79:4 PMFRecommendation._load_package_id_to_name_map - A (1)
-    M 101:4 PMFRecommendation._sigmoid - A (1)
-recommendation_engine/utils/fileutils.py
-    F 25:0 load_rating - A (5)
-    F 50:0 save_temporary_local_file - A (2)
-    F 61:0 check_path - A (2)
-recommendation_engine/config/params_scoring.py
-    C 24:0 ScoringParams - A (1)
-recommendation_engine/autoencoder/train/train.py
-    M 71:4 TrainNetwork.train - A (4)
-    C 27:0 TrainNetwork - A (2)
-    M 30:4 TrainNetwork.__init__ - A (1)
-    M 49:4 TrainNetwork.sampling - A (1)
-    M 63:4 TrainNetwork.load_pretrain_weights - A (1)
-recommendation_engine/autoencoder/pretrain/pretrain_latent.py
-    C 19:0 PretrainLatent - A (1)
-    M 22:4 PretrainLatent.__init__ - A (1)
-    M 27:4 PretrainLatent.sampling - A (1)
-    M 41:4 PretrainLatent.train - A (1)
-    M 90:4 PretrainLatent.get_weights - A (1)
-recommendation_engine/autoencoder/pretrain/pretrain.py
-    F 17:0 fit - A (2)
-recommendation_engine/autoencoder/pretrain/pretrain_hidden.py
-    C 18:0 PretrainHidden - A (1)
-    M 21:4 PretrainHidden.__init__ - A (1)
-    M 27:4 PretrainHidden.train - A (1)
-    M 61:4 PretrainHidden.get_layer_weights - A (1)
-recommendation_engine/autoencoder/pretrain/pretrain_sdae.py
-    M 43:4 PretrainNetwork.train - A (3)
-    C 20:0 PretrainNetwork - A (2)
-    M 23:4 PretrainNetwork.__init__ - A (1)
-    M 29:4 PretrainNetwork.sampling - A (1)
-recommendation_engine/model/pmf_prediction.py
-    C 27:0 PMFScoring - A (1)
-    M 33:4 PMFScoring.__init__ - A (1)
-    M 40:4 PMFScoring.predict_transform - A (1)
-recommendation_engine/pmf/train_pmf.py
-    M 38:4 PMFTraining.__call__ - C (13)
-    C 18:0 PMFTraining - A (5)
-    M 21:4 PMFTraining.__init__ - A (2)
-    M 153:4 PMFTraining.save_model - A (1)
-tools/check_python_version.py
-    F 19:0 get_expected_version - A (4)
-    F 48:0 compare_versions - A (2)
-    F 59:0 main - A (2)
-    F 43:0 get_actual_version - A (1)
-deployment/submit_emr_job_train.py
-    F 37:0 submit_job - A (2)
-deployment/submit_emr_job_pretrain.py
-    F 34:0 submit_job - A (2)
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+<style type="text/css">
+.ansi2html-content { display: inline; white-space: pre-wrap; word-wrap: break-word; }
+.body_foreground { color: #AAAAAA; }
+.body_background { background-color: #000000; }
+.body_foreground > .bold,.bold > .body_foreground, body.body_foreground > pre > .bold { color: #FFFFFF; font-weight: normal; }
+.inv_foreground { color: #000000; }
+.inv_background { background-color: #AAAAAA; }
+</style>
+</head>
+<body class="body_foreground body_background" style="font-size: normal;" >
+<pre class="ansi2html-content">
 training/datastore/s3_connection.py
     M 153:4 GetData.split_training_testing_data - B (6)
     M 192:4 GetData.save_file_temporary - A (5)
@@ -135,6 +33,17 @@ training/datastore/s3_connection.py
     M 216:4 GetData.save_numpy_matrix_temporary - A (2)
     M 34:4 GetData.__init__ - A (1)
     M 139:4 GetData.train_test_data - A (1)
+training/datastore/preprocess_data.py
+    M 38:4 PreprocessData.add_dependencies_resolved_column - A (4)
+    M 69:4 PreprocessData.make_necessary_df - A (3)
+    M 105:4 PreprocessData.create_extended_pkg_tag_map - A (3)
+    M 122:4 PreprocessData.update_pkg_tag_map - A (3)
+    C 26:0 PreprocessData - A (2)
+    M 49:4 PreprocessData.check_resolved_dependencies - A (2)
+    M 56:4 PreprocessData.fetch_package_keywords - A (2)
+    M 29:4 PreprocessData.__init__ - A (1)
+    M 85:4 PreprocessData.extract_unique_packages - A (1)
+    M 95:4 PreprocessData.create_df_and_dictionaries - A (1)
 training/datastore/utils.py
     M 170:4 Utility.create_content_matrix - B (6)
     M 208:4 Utility.make_user_data - A (5)
@@ -155,10 +64,6 @@ training/datastore/utils.py
     M 187:4 Utility.get_url - A (2)
     M 31:4 Utility.__init__ - A (1)
     M 76:4 Utility.make_manifest_df - A (1)
-training/datastore/get_preprocess_data.py
-    C 29:0 GetPreprocessData - A (2)
-    M 49:4 GetPreprocessData.preprocess_data - A (2)
-    M 32:4 GetPreprocessData.__init__ - A (1)
 training/datastore/get_keywords.py
     M 121:4 GetKeywords.find_keywords - A (5)
     M 78:4 GetKeywords.get_dependencies - A (4)
@@ -169,18 +74,133 @@ training/datastore/get_keywords.py
     M 49:4 GetKeywords.from_npm_registry - A (2)
     M 93:4 GetKeywords.clean_response - A (2)
     M 31:4 GetKeywords.__init__ - A (1)
-training/datastore/preprocess_data.py
-    M 38:4 PreprocessData.add_dependencies_resolved_column - A (4)
-    M 69:4 PreprocessData.make_necessary_df - A (3)
-    M 105:4 PreprocessData.create_extended_pkg_tag_map - A (3)
-    M 122:4 PreprocessData.update_pkg_tag_map - A (3)
-    C 26:0 PreprocessData - A (2)
-    M 49:4 PreprocessData.check_resolved_dependencies - A (2)
-    M 56:4 PreprocessData.fetch_package_keywords - A (2)
-    M 29:4 PreprocessData.__init__ - A (1)
-    M 85:4 PreprocessData.extract_unique_packages - A (1)
-    M 95:4 PreprocessData.create_df_and_dictionaries - A (1)
+training/datastore/get_preprocess_data.py
+    C 29:0 GetPreprocessData - A (2)
+    M 49:4 GetPreprocessData.preprocess_data - A (2)
+    M 32:4 GetPreprocessData.__init__ - A (1)
+deployment/submit_emr_job_pretrain.py
+    F 34:0 submit_job - A (2)
+deployment/submit_emr_job_train.py
+    F 37:0 submit_job - A (2)
+tests/load_tests/locustfile.py
+    C 28:0 StackAnalysisUserBehaviour - A (1)
+    M 31:4 StackAnalysisUserBehaviour.on_start - A (1)
+    M 35:4 StackAnalysisUserBehaviour.trigger_stack_analysis_five_package_stack - A (1)
+    C 45:0 StackAnalysisUserLocust - A (1)
+tests/unit_tests/test_constants.py
+    C 9:0 TestImport - A (1)
+    M 12:4 TestImport.test_cloud_constants - A (1)
+    M 16:4 TestImport.test_path_constants - A (1)
+tests/unit_tests/test_get_keywords.py
+    C 33:0 TestGetKeywords - A (2)
+    M 36:4 TestGetKeywords.test_from_existing_df - A (2)
+    M 42:4 TestGetKeywords.test_get_version - A (2)
+    M 48:4 TestGetKeywords.test_get_dependencies - A (2)
+    M 55:4 TestGetKeywords.test_clean_response - A (2)
+tests/unit_tests/test_pretrain.py
+    F 30:0 test_fit - A (2)
+tests/unit_tests/test_PMFRecommendation.py
+    C 26:0 TestPMFRecommendation - A (1)
+    M 29:4 TestPMFRecommendation.setUp - A (1)
+    M 35:4 TestPMFRecommendation.test__find_closest_user_in_training_set - A (1)
+    M 47:4 TestPMFRecommendation.test__sigmoid - A (1)
+    M 51:4 TestPMFRecommendation.test_predict - A (1)
+tests/unit_tests/test_pretrain_hidden.py
+    C 31:0 TestPretrainHidden - A (1)
+    M 34:4 TestPretrainHidden.test_train - A (1)
+tests/unit_tests/test_flask_predict.py
+    C 9:0 FlaskPredictTestCase - A (1)
+    M 12:4 FlaskPredictTestCase.setUp - A (1)
+    M 18:4 FlaskPredictTestCase.test_health_checks - A (1)
+    M 23:4 FlaskPredictTestCase.test_recommendation - A (1)
+tests/unit_tests/test_pretrain_latent.py
+    C 27:0 TestPretrainLatent - A (1)
+    M 33:4 TestPretrainLatent.test_train - A (1)
+tests/unit_tests/test_fileutils.py
+    C 8:0 TestFileUtils - A (2)
+    M 11:4 TestFileUtils.test_save_temporary_local_file - A (2)
+    M 18:4 TestFileUtils.test_load_rating - A (1)
+tests/unit_tests/test_utils.py
+    M 54:4 TestUtility.test_make_manifest_df - A (3)
+    C 33:0 TestUtility - A (2)
+    M 36:4 TestUtility.test_flatten_list - A (2)
+    M 42:4 TestUtility.test_make_list_from_series - A (2)
+    M 48:4 TestUtility.test_dict_to_list - A (2)
+    M 60:4 TestUtility.test_make_filtered_pkg_kwd_df - A (2)
+    M 65:4 TestUtility.test_clean_set - A (2)
+    M 71:4 TestUtility.test_create_pkg_tag_map - A (2)
+    M 76:4 TestUtility.test_create_pkg_dep_map - A (2)
+    M 81:4 TestUtility.test_create_package_map - A (2)
+    M 87:4 TestUtility.test_create_vocabulary_map - A (2)
+    M 93:4 TestUtility.test_make_kwd_dependencies_df - A (2)
+    M 101:4 TestUtility.test_extract_package_manifest_lst - A (2)
+    M 106:4 TestUtility.test_get_url - A (2)
+    M 112:4 TestUtility.test_get_query_params - A (2)
+    M 118:4 TestUtility.test_make_user_data - A (2)
+recommendation_engine/flask_predict.py
+    F 67:0 recommendation - A (2)
+    F 55:0 liveness - A (1)
+    F 61:0 readiness - A (1)
+recommendation_engine/pmf/train_pmf.py
+    M 38:4 PMFTraining.__call__ - C (13)
+    C 18:0 PMFTraining - A (5)
+    M 21:4 PMFTraining.__init__ - A (2)
+    M 153:4 PMFTraining.save_model - A (1)
+recommendation_engine/model/pmf_prediction.py
+    C 27:0 PMFScoring - A (1)
+    M 33:4 PMFScoring.__init__ - A (1)
+    M 40:4 PMFScoring.predict_transform - A (1)
+recommendation_engine/predictor/online_recommendation.py
+    M 104:4 PMFRecommendation.predict - C (13)
+    M 85:4 PMFRecommendation._find_closest_user_in_training_set - A (5)
+    C 36:0 PMFRecommendation - A (3)
+    M 45:4 PMFRecommendation.__init__ - A (1)
+    M 65:4 PMFRecommendation._load_model_output_matrices - A (1)
+    M 79:4 PMFRecommendation._load_package_id_to_name_map - A (1)
+    M 101:4 PMFRecommendation._sigmoid - A (1)
+recommendation_engine/predictor/abstract_recommender.py
+    C 25:0 AbstractRecommender - A (1)
+    M 30:4 AbstractRecommender.predict - A (1)
+recommendation_engine/autoencoder/train/train.py
+    M 71:4 TrainNetwork.train - A (4)
+    C 27:0 TrainNetwork - A (2)
+    M 30:4 TrainNetwork.__init__ - A (1)
+    M 49:4 TrainNetwork.sampling - A (1)
+    M 63:4 TrainNetwork.load_pretrain_weights - A (1)
+recommendation_engine/autoencoder/pretrain/pretrain.py
+    F 17:0 fit - A (2)
+recommendation_engine/autoencoder/pretrain/pretrain_latent.py
+    C 19:0 PretrainLatent - A (1)
+    M 22:4 PretrainLatent.__init__ - A (1)
+    M 27:4 PretrainLatent.sampling - A (1)
+    M 41:4 PretrainLatent.train - A (1)
+    M 90:4 PretrainLatent.get_weights - A (1)
+recommendation_engine/autoencoder/pretrain/pretrain_sdae.py
+    M 43:4 PretrainNetwork.train - A (3)
+    C 20:0 PretrainNetwork - A (2)
+    M 23:4 PretrainNetwork.__init__ - A (1)
+    M 29:4 PretrainNetwork.sampling - A (1)
+recommendation_engine/autoencoder/pretrain/pretrain_hidden.py
+    C 18:0 PretrainHidden - A (1)
+    M 21:4 PretrainHidden.__init__ - A (1)
+    M 27:4 PretrainHidden.train - A (1)
+    M 61:4 PretrainHidden.get_layer_weights - A (1)
+recommendation_engine/utils/fileutils.py
+    F 25:0 load_rating - A (5)
+    F 50:0 save_temporary_local_file - A (2)
+    F 61:0 check_path - A (2)
+recommendation_engine/config/params_scoring.py
+    C 24:0 ScoringParams - A (1)
+tools/check_python_version.py
+    F 19:0 get_expected_version - A (4)
+    F 48:0 compare_versions - A (2)
+    F 59:0 main - A (2)
+    F 43:0 get_actual_version - A (1)
 
 152 blocks (classes, functions, methods) analyzed.
 Average complexity: A (2.210526315789474)
+
 </pre>
+</body>
+
+</html>

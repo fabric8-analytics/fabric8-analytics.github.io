@@ -1,9 +1,0 @@
-Name                             Stmts   Miss  Cover   Missing						Name                             Stmts   Miss  Cover   Missing
---------------------------------------------------------------						--------------------------------------------------------------
-f8a_utils/__init__.py                0      0   100%							f8a_utils/__init__.py                0      0   100%
-f8a_utils/commands/__init__.py       2      0   100%							f8a_utils/commands/__init__.py       2      0   100%
-f8a_utils/commands/command.py       54      0   100%							f8a_utils/commands/command.py       54      0   100%
-f8a_utils/dependency_finder.py     128      0   100%							f8a_utils/dependency_finder.py     128      0   100%
-f8a_utils/versions.py              102      1    99%   178						f8a_utils/versions.py              102      1    99%   178
---------------------------------------------------------------						--------------------------------------------------------------
-TOTAL                              286      1    99%							TOTAL                              286      1    99%

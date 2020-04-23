@@ -1,4 +1,4 @@
-~/bayesian/dashboard/repositories/fabric8-analytics-release-monitor ~/bayesian/dashboard/repositories/fabric8-analytics-release-monitor
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-release-monitor ~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-release-monitor
 ----------------------------------------------------
 Checking source files for dead code and unused imports
 in following directories:
@@ -8,15 +8,11 @@ tests
 tools
 ----------------------------------------------------
 
-Already using interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Using base prefix '/usr'
-  No LICENSE.txt / LICENSE found in source
-New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-release-monitor/venv/bin/python3
-Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-release-monitor/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-release-monitor/venv/bin/python3)
-Installing setuptools, pip, wheel...
-done.
-Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages (1.1)
+created virtual environment CPython3.6.10.final.0-64 in 142ms
+  creator CPython3Posix(dest=/home/msawood/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-release-monitor/venv, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/msawood/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators PythonActivator,FishActivator,XonshActivator,CShellActivator,PowerShellActivator,BashActivator
+Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages (1.4)
 release_monitor/__init__.py
     Pass
 release_monitor/release_monitor.py
@@ -44,5 +40,5 @@ setup.py
     Pass
 run.py
     Pass
-~/bayesian/dashboard/repositories/fabric8-analytics-release-monitor
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-release-monitor
 All checks passed for 10 source files

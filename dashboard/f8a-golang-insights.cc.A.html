@@ -1,40 +1,23 @@
-<pre>tests/unit_tests/test_rest_api.py
-    F 29:0 test_readiness_endpoint_wrong_http_method - A (5)
-    F 47:0 test_liveness_endpoint_wrong_http_method - A (5)
-    F 11:0 client - A (2)
-    F 23:0 test_readiness_endpoint - A (2)
-    F 41:0 test_liveness_endpoint - A (2)
-    F 59:0 test_companion - A (2)
-    F 18:0 get_json_from_response - A (1)
-tests/unit_tests/test_local_datastore.py
-    F 6:0 test_local_datastore - A (3)
-tests/load_test/locustfile.py
-    C 28:0 StackAnalysisUserBehaviour - A (1)
-    M 31:4 StackAnalysisUserBehaviour.on_start - A (1)
-    M 35:4 StackAnalysisUserBehaviour.trigger_stack_analysis_five_package_stack - A (1)
-    C 46:0 StackAnalysisUserLocust - A (1)
-tools/check_python_version.py
-    F 19:0 get_expected_version - A (4)
-    F 48:0 compare_versions - A (2)
-    F 59:0 main - A (2)
-    F 43:0 get_actual_version - A (1)
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+<style type="text/css">
+.ansi2html-content { display: inline; white-space: pre-wrap; word-wrap: break-word; }
+.body_foreground { color: #AAAAAA; }
+.body_background { background-color: #000000; }
+.body_foreground > .bold,.bold > .body_foreground, body.body_foreground > pre > .bold { color: #FFFFFF; font-weight: normal; }
+.inv_foreground { color: #000000; }
+.inv_background { background-color: #AAAAAA; }
+</style>
+</head>
+<body class="body_foreground body_background" style="font-size: normal;" >
+<pre class="ansi2html-content">
 insights_engine/rest_api.py
     F 24:0 readiness - A (3)
     F 44:0 companion_recommendation - A (2)
     F 19:0 liveness - A (1)
-insights_engine/data_store/local_filesystem.py
-    M 47:4 LocalFileSystem.read_generic_file - A (3)
-    M 56:4 LocalFileSystem.read_json_file - A (2)
-    M 61:4 LocalFileSystem.download_file - A (2)
-    C 33:0 LocalFileSystem - A (1)
-    M 36:4 LocalFileSystem.__init__ - A (1)
-    M 43:4 LocalFileSystem.get_name - A (1)
-    M 66:4 LocalFileSystem.read_into_file - A (1)
-insights_engine/data_store/abstract_data_store.py
-    C 24:0 AbstractDataStore - A (1)
-    M 27:4 AbstractDataStore.get_name - A (1)
-    M 32:4 AbstractDataStore.read_json_file - A (1)
-    M 37:4 AbstractDataStore.read_into_file - A (1)
 insights_engine/data_store/s3_data_store.py
     M 89:4 S3DataStore.upload_folder_to_s3 - A (4)
     M 39:4 S3DataStore.__init__ - A (2)
@@ -45,12 +28,19 @@ insights_engine/data_store/s3_data_store.py
     M 80:4 S3DataStore.upload_file - A (1)
     M 85:4 S3DataStore.download_file - A (1)
     M 103:4 S3DataStore.read_into_file - A (1)
-insights_engine/scoring/rules_predict.py
-    M 47:4 ScoringEngine._create_companion_set - B (6)
-    C 11:0 ScoringEngine - A (4)
-    M 34:4 ScoringEngine._get_candidate_rules - A (4)
-    M 72:4 ScoringEngine.predict - A (4)
-    M 14:4 ScoringEngine.__init__ - A (2)
+insights_engine/data_store/abstract_data_store.py
+    C 24:0 AbstractDataStore - A (1)
+    M 27:4 AbstractDataStore.get_name - A (1)
+    M 32:4 AbstractDataStore.read_json_file - A (1)
+    M 37:4 AbstractDataStore.read_into_file - A (1)
+insights_engine/data_store/local_filesystem.py
+    M 47:4 LocalFileSystem.read_generic_file - A (3)
+    M 56:4 LocalFileSystem.read_json_file - A (2)
+    M 61:4 LocalFileSystem.download_file - A (2)
+    C 33:0 LocalFileSystem - A (1)
+    M 36:4 LocalFileSystem.__init__ - A (1)
+    M 43:4 LocalFileSystem.get_name - A (1)
+    M 66:4 LocalFileSystem.read_into_file - A (1)
 insights_engine/training/data_preprocessing.py
     F 144:0 main - C (16)
     F 20:0 add_packages_to_manifest_list - B (9)
@@ -61,7 +51,37 @@ insights_engine/training/data_preprocessing.py
     F 129:0 import_json - A (2)
     F 137:0 export_json - A (2)
     F 10:0 run_mercator - A (1)
+insights_engine/scoring/rules_predict.py
+    M 47:4 ScoringEngine._create_companion_set - B (6)
+    C 11:0 ScoringEngine - A (4)
+    M 34:4 ScoringEngine._get_candidate_rules - A (4)
+    M 72:4 ScoringEngine.predict - A (4)
+    M 14:4 ScoringEngine.__init__ - A (2)
+tests/load_test/locustfile.py
+    C 28:0 StackAnalysisUserBehaviour - A (1)
+    M 31:4 StackAnalysisUserBehaviour.on_start - A (1)
+    M 35:4 StackAnalysisUserBehaviour.trigger_stack_analysis_five_package_stack - A (1)
+    C 46:0 StackAnalysisUserLocust - A (1)
+tests/unit_tests/test_local_datastore.py
+    F 6:0 test_local_datastore - A (3)
+tests/unit_tests/test_rest_api.py
+    F 29:0 test_readiness_endpoint_wrong_http_method - A (5)
+    F 47:0 test_liveness_endpoint_wrong_http_method - A (5)
+    F 11:0 client - A (2)
+    F 23:0 test_readiness_endpoint - A (2)
+    F 41:0 test_liveness_endpoint - A (2)
+    F 59:0 test_companion - A (2)
+    F 18:0 get_json_from_response - A (1)
+tools/check_python_version.py
+    F 19:0 get_expected_version - A (4)
+    F 48:0 compare_versions - A (2)
+    F 59:0 main - A (2)
+    F 43:0 get_actual_version - A (1)
 
 53 blocks (classes, functions, methods) analyzed.
 Average complexity: A (2.660377358490566)
+
 </pre>
+</body>
+
+</html>

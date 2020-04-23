@@ -1,4 +1,4 @@
-~/bayesian/dashboard/repositories/fabric8-analytics-auth ~/bayesian/dashboard/repositories/fabric8-analytics-auth
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-auth ~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-auth
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
@@ -7,35 +7,33 @@ tests
 tools
 ----------------------------------------------------
 
-Already using interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Using base prefix '/usr'
-  No LICENSE.txt / LICENSE found in source
-New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-auth/venv/bin/python3
-Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-auth/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-auth/venv/bin/python3)
-Installing setuptools, pip, wheel...
-done.
-Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (4.0.1)
-Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.9.1)
-fabric8a_auth/auth.py
-0
-    Pass
+created virtual environment CPython3.6.10.final.0-64 in 237ms
+  creator CPython3Posix(dest=/home/msawood/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-auth/venv, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/msawood/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators PythonActivator,FishActivator,XonshActivator,CShellActivator,PowerShellActivator,BashActivator
+Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (5.0.2)
+Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (2.0.0)
 fabric8a_auth/__init__.py
 0
     Pass
 fabric8a_auth/errors.py
-0
-    Pass
-tests/test_errors_class.py
-0
-    Pass
-tests/__init__.py
+fabric8a_auth/errors.py:17 in public method `__init__`:
+        D401: First line should be in imperative mood; try rephrasing (found 'Constructor')
+1
+    Fail
+fabric8a_auth/auth.py
 0
     Pass
 tests/test_utility_functions.py
 0
     Pass
 tests/test_token_handling.py
+0
+    Pass
+tests/__init__.py
+0
+    Pass
+tests/test_errors_class.py
 0
     Pass
 tools/check_python_version.py
@@ -49,5 +47,5 @@ setup.py
 setup.py
 0
     Pass
-~/bayesian/dashboard/repositories/fabric8-analytics-auth
-All checks passed for 9 source files
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-auth
+Documentation strings should be added and/or fixed in 1 source files out of 9 files

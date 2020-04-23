@@ -1,4 +1,4 @@
-~/bayesian/dashboard/repositories/cvejob ~/bayesian/dashboard/repositories/cvejob
+~/fabric8-analytics-common/dashboard/repositories/cvejob ~/fabric8-analytics-common/dashboard/repositories/cvejob
 ----------------------------------------------------
 Running Python linter against following directories:
 cvejob
@@ -7,69 +7,69 @@ scripts
 tools
 ----------------------------------------------------
 
-cvejob/selectors/basic.py
-    Pass
-cvejob/selectors/__init__.py
+cvejob/config.py
     Pass
 cvejob/__init__.py
     Pass
-cvejob/utils.py
-    Pass
 cvejob/version_utils.py
     Pass
-cvejob/config.py
+cvejob/version.py
+    Pass
+cvejob/cpe2pkg.py
     Pass
 cvejob/outputs/__init__.py
     Pass
 cvejob/outputs/victims.py
     Pass
-cvejob/version.py
+cvejob/selectors/__init__.py
     Pass
-cvejob/versions/version_identifier.py
+cvejob/selectors/basic.py
     Pass
-cvejob/versions/__init__.py
+cvejob/identifiers/__init__.py
     Pass
 cvejob/identifiers/nvdtoolkit.py
     Pass
 cvejob/identifiers/naive.py
     Pass
-cvejob/identifiers/__init__.py
+cvejob/utils.py
     Pass
 cvejob/filters/__init__.py
     Pass
 cvejob/filters/input.py
     Pass
-cvejob/cpe2pkg.py
+cvejob/versions/version_identifier.py
+    Pass
+cvejob/versions/__init__.py
+    Pass
+tests/test_version_utils.py
+    Pass
+tests/__init__.py
+    Pass
+tests/test_cpe2pkg.py
     Pass
 tests/selectors/__init__.py
     Pass
 tests/selectors/test_basic.py
     Pass
-tests/__init__.py
+tests/conftest.py
     Pass
 tests/test_config.py
-    Pass
-tests/test_utils.py
-    Pass
-tests/test_version.py
-    Pass
-tests/versions/__init__.py
-    Pass
-tests/versions/test_version_identifier.py
     Pass
 tests/identifiers/__init__.py
     Pass
 tests/identifiers/test_naive.py
     Pass
-tests/filters/__init__.py
+tests/test_utils.py
+    Pass
+tests/test_version.py
     Pass
 tests/filters/test_input.py
     Pass
-tests/conftest.py
+tests/filters/__init__.py
     Pass
-tests/test_cpe2pkg.py
+tests/versions/__init__.py
     Pass
-tests/test_version_utils.py
+tests/versions/test_version_identifier.py
     Pass
 scripts/get_python_packages.py
     Pass
@@ -83,4 +83,4 @@ run.py
 run.py
     Pass
 All checks passed for 35 source files
-~/bayesian/dashboard/repositories/cvejob
+~/fabric8-analytics-common/dashboard/repositories/cvejob

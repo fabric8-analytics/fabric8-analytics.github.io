@@ -1,9 +1,22 @@
-<pre>tests/test_api_v1.py
-    F 11:0 test_heart_beat_endpoint - A (4)
-    F 20:0 test_liveness_endpoint - A (3)
-    F 6:0 get_json_from_response - A (1)
-tests/conftest.py
-    F 8:0 client - A (2)
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+<style type="text/css">
+.ansi2html-content { display: inline; white-space: pre-wrap; word-wrap: break-word; }
+.body_foreground { color: #AAAAAA; }
+.body_background { background-color: #000000; }
+.body_foreground > .bold,.bold > .body_foreground, body.body_foreground > pre > .bold { color: #FFFFFF; font-weight: normal; }
+.inv_foreground { color: #000000; }
+.inv_background { background-color: #AAAAAA; }
+</style>
+</head>
+<body class="body_foreground body_background" style="font-size: normal;" >
+<pre class="ansi2html-content">
+src/exceptions.py
+    C 8:0 HTTPError - A (1)
+    M 20:4 HTTPError.__init__ - A (1)
 src/api_v1.py
     F 47:0 run_training_job - A (5)
     F 71:0 version_details - A (4)
@@ -11,11 +24,14 @@ src/api_v1.py
     F 41:0 liveness - A (1)
     F 90:0 handle_error - A (1)
     F 98:0 api_401_handler - A (1)
-src/exceptions.py
-    C 8:0 HTTPError - A (1)
-    M 20:4 HTTPError.__init__ - A (1)
 src/trained_model_details.py
     F 8:0 trained_model_details - A (5)
+tests/conftest.py
+    F 8:0 client - A (2)
+tests/test_api_v1.py
+    F 11:0 test_heart_beat_endpoint - A (4)
+    F 20:0 test_liveness_endpoint - A (3)
+    F 6:0 get_json_from_response - A (1)
 tools/check_python_version.py
     F 19:0 get_expected_version - A (4)
     F 48:0 compare_versions - A (2)
@@ -24,4 +40,8 @@ tools/check_python_version.py
 
 17 blocks (classes, functions, methods) analyzed.
 Average complexity: A (2.2941176470588234)
+
 </pre>
+</body>
+
+</html>

@@ -1,15 +1,42 @@
-<pre>run.py
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+<style type="text/css">
+.ansi2html-content { display: inline; white-space: pre-wrap; word-wrap: break-word; }
+.body_foreground { color: #AAAAAA; }
+.body_background { background-color: #000000; }
+.body_foreground > .bold,.bold > .body_foreground, body.body_foreground > pre > .bold { color: #FFFFFF; font-weight: normal; }
+.inv_foreground { color: #000000; }
+.inv_background { background-color: #AAAAAA; }
+</style>
+</head>
+<body class="body_foreground body_background" style="font-size: normal;" >
+<pre class="ansi2html-content">
+run.py
     F 86:0 run - C (18)
-tests/test_config.py
-    F 216:0 test_runtime_config_attribute_cvejob_use_nvd_toolkit - B (9)
-    F 39:0 test_default_config_attribute_values_not_nil - B (8)
-    F 27:0 test_default_config_attribute_values_nil - B (6)
-tests/test_version.py
-    F 5:0 test_version_basic - C (13)
-    F 22:0 test_version_trailing_zeros - B (7)
-    F 32:0 test_version_complex - B (6)
-tests/test_cpe2pkg.py
-    F 10:0 test_package_name_candidate - B (9)
+cvejob/config.py
+    M 47:4 RuntimeConfig.__init__ - C (12)
+    C 44:0 RuntimeConfig - B (7)
+cvejob/version_utils.py
+    F 21:0 get_ranges_from_cve - B (10)
+    M 218:4 VersionRange.from_list - B (8)
+    F 75:0 get_configuration_nodes - B (6)
+    F 257:0 classify_versions - B (6)
+    F 360:0 get_upstream_versions - B (6)
+cvejob/version.py
+    M 31:4 BenevolentVersion._parse - C (17)
+cvejob/utils.py
+    F 19:0 get_cpe - C (14)
+cvejob/selectors/basic.py
+    M 30:4 VersionSelector.pick_winner - B (8)
+cvejob/filters/input.py
+    F 24:0 validate_cve - B (9)
+    C 236:0 NotUnexpectedSiteInReferencesCheck - B (9)
+    M 257:4 NotUnexpectedSiteInReferencesCheck.check - B (9)
+    M 166:4 IsSupportedGitHubLanguageCheck.check - B (7)
+    M 148:4 IsSupportedGitHubLanguageCheck.is_security_project - B (6)
 tests/test_version_utils.py
     F 305:0 test_get_safe_ranges - C (12)
     F 11:0 test_get_ranges_from_cve - C (11)
@@ -25,30 +52,23 @@ tests/test_version_utils.py
     F 369:0 test_get_upstream_versions - B (7)
     F 101:0 test_version_spec_le - B (6)
     F 228:0 test_version_range_from_list - B (6)
+tests/test_cpe2pkg.py
+    F 10:0 test_package_name_candidate - B (9)
+tests/test_config.py
+    F 216:0 test_runtime_config_attribute_cvejob_use_nvd_toolkit - B (9)
+    F 39:0 test_default_config_attribute_values_not_nil - B (8)
+    F 27:0 test_default_config_attribute_values_nil - B (6)
+tests/test_version.py
+    F 5:0 test_version_basic - C (13)
+    F 22:0 test_version_trailing_zeros - B (7)
+    F 32:0 test_version_complex - B (6)
 tests/versions/test_version_identifier.py
     F 6:0 test_nvd_versions - B (7)
-cvejob/utils.py
-    F 19:0 get_cpe - C (14)
-cvejob/version_utils.py
-    F 21:0 get_ranges_from_cve - B (10)
-    M 218:4 VersionRange.from_list - B (8)
-    F 75:0 get_configuration_nodes - B (6)
-    F 257:0 classify_versions - B (6)
-    F 360:0 get_upstream_versions - B (6)
-cvejob/config.py
-    M 47:4 RuntimeConfig.__init__ - C (12)
-    C 44:0 RuntimeConfig - B (7)
-cvejob/version.py
-    M 31:4 BenevolentVersion._parse - C (17)
-cvejob/selectors/basic.py
-    M 30:4 VersionSelector.pick_winner - B (8)
-cvejob/filters/input.py
-    F 24:0 validate_cve - B (9)
-    C 236:0 NotUnexpectedSiteInReferencesCheck - B (9)
-    M 257:4 NotUnexpectedSiteInReferencesCheck.check - B (9)
-    M 166:4 IsSupportedGitHubLanguageCheck.check - B (7)
-    M 148:4 IsSupportedGitHubLanguageCheck.is_security_project - B (6)
 
 38 blocks (classes, functions, methods) analyzed.
 Average complexity: B (8.842105263157896)
+
 </pre>
+</body>
+
+</html>

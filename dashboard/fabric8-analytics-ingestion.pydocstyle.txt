@@ -1,4 +1,4 @@
-~/bayesian/dashboard/repositories/fabric8-analytics-ingestion ~/bayesian/dashboard/repositories/fabric8-analytics-ingestion
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-ingestion ~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-ingestion
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
@@ -8,50 +8,46 @@ alembic
 tools
 ----------------------------------------------------
 
-Already using interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Using base prefix '/usr'
-  No LICENSE.txt / LICENSE found in source
-New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-ingestion/venv/bin/python3
-Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-ingestion/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-ingestion/venv/bin/python3)
-Installing setuptools, pip, wheel...
-done.
-Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (4.0.1)
-Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.9.1)
+created virtual environment CPython3.6.10.final.0-64 in 140ms
+  creator CPython3Posix(dest=/home/msawood/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-ingestion/venv, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/msawood/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators PythonActivator,FishActivator,XonshActivator,CShellActivator,PowerShellActivator,BashActivator
+Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (5.0.2)
+Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (2.0.0)
 f8a_ingestion/models.py
 0
     Pass
 f8a_ingestion/__init__.py
 0
     Pass
-f8a_ingestion/utils.py
-0
-    Pass
 f8a_ingestion/rest_api.py
-0
-    Pass
-f8a_ingestion/enums.py
 0
     Pass
 f8a_ingestion/errors.py
 0
     Pass
+f8a_ingestion/enums.py
+0
+    Pass
+f8a_ingestion/utils.py
+0
+    Pass
 f8a_ingestion/defaults.py
-0
-    Pass
-tests/test_rest_api.py
-0
-    Pass
-tests/test_errors.py
 0
     Pass
 tests/__init__.py
 0
     Pass
-tests/test_utils.py
+tests/conftest.py
 0
     Pass
-tests/conftest.py
+tests/test_errors.py
+0
+    Pass
+tests/test_rest_api.py
+0
+    Pass
+tests/test_utils.py
 0
     Pass
 alembic/versions/0194c3a2332e_initial_migration.py
@@ -71,5 +67,5 @@ setup.py
 setup.py
 0
     Pass
-~/bayesian/dashboard/repositories/fabric8-analytics-ingestion
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-ingestion
 All checks passed for 16 source files

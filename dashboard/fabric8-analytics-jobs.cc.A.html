@@ -1,4 +1,20 @@
-<pre>f8a-jobs.py
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+<style type="text/css">
+.ansi2html-content { display: inline; white-space: pre-wrap; word-wrap: break-word; }
+.body_foreground { color: #AAAAAA; }
+.body_background { background-color: #000000; }
+.body_foreground > .bold,.bold > .body_foreground, body.body_foreground > pre > .bold { color: #FFFFFF; font-weight: normal; }
+.inv_foreground { color: #000000; }
+.inv_background { background-color: #AAAAAA; }
+</style>
+</head>
+<body class="body_foreground body_background" style="font-size: normal;" >
+<pre class="ansi2html-content">
+f8a-jobs.py
     F 88:0 api_v1 - A (3)
     C 23:0 SafeJSONEncoder - A (3)
     M 26:4 SafeJSONEncoder.default - A (3)
@@ -8,132 +24,18 @@
     F 112:0 runserver - A (1)
 setup.py
     F 9:0 get_requirements - A (2)
-tests/test_models.py
-    C 9:0 TestModels - A (2)
-    M 12:4 TestModels.setup_method - A (2)
-    M 16:4 TestModels.teardown_method - A (2)
-tests/test_api_v1.py
-    C 7:0 TestApiV1Functions - A (2)
-    M 10:4 TestApiV1Functions.setup_method - A (2)
-    M 14:4 TestApiV1Functions.teardown_method - A (2)
-tests/test_auth.py
-    C 7:0 TestAuthFunctions - A (2)
-    M 10:4 TestAuthFunctions.setup_method - A (2)
-    M 14:4 TestAuthFunctions.teardown_method - A (2)
-tests/test_defaults.py
-    C 9:0 TestDefaults - A (2)
-    M 12:4 TestDefaults.setup_method - A (2)
-    M 16:4 TestDefaults.teardown_method - A (2)
-tests/test_utils.py
-    M 49:4 TestUtilFunctions.test_parse_dates_return_value - B (6)
-    C 9:0 TestUtilFunctions - A (3)
-    M 20:4 TestUtilFunctions.test_parse_dates - A (3)
-    M 12:4 TestUtilFunctions.setup_method - A (2)
-    M 16:4 TestUtilFunctions.teardown_method - A (2)
-tests/test_graph_sync.py
-    C 9:0 TestGraphSync - A (2)
-    M 12:4 TestGraphSync.setup_method - A (2)
-    M 16:4 TestGraphSync.teardown_method - A (2)
-tests/test_scheduler.py
-    C 9:0 TestScheduler - A (2)
-    M 12:4 TestScheduler.setup_method - A (2)
-    M 16:4 TestScheduler.teardown_method - A (2)
-    M 20:4 TestScheduler.test_schedule_job_error_class - A (2)
-    M 26:4 TestScheduler.test_schedule_job_method_state - A (2)
-    M 31:4 TestScheduler.test_schedule_job_method_handler_name - A (2)
-    M 36:4 TestScheduler.test_schedule_job_method_when_parsing - A (2)
-    M 41:4 TestScheduler.test_schedule_job_method_missfirre_grace_time_parsing - A (2)
-    M 47:4 TestScheduler.test_schedule_job_method_misfire_grace_time_parsing_2 - A (2)
-    M 53:4 TestScheduler.test_schedule_job_method_periodically_parsing - A (2)
-tests/test_error.py
-    M 20:4 TestError.token_expired - A (3)
-    C 9:0 TestError - A (2)
-    M 12:4 TestError.setup_method - A (2)
-    M 16:4 TestError.teardown_method - A (2)
-tests/test_analyses_report.py
-    C 7:0 TestAnalysesReport - A (2)
-    M 10:4 TestAnalysesReport.setup_method - A (2)
-    M 14:4 TestAnalysesReport.teardown_method - A (2)
-tests/handlers/test_kronos_data_update.py
-    C 9:0 TestKronosDataUpdater - A (2)
-    M 12:4 TestKronosDataUpdater.setup_method - A (2)
-    M 16:4 TestKronosDataUpdater.teardown_method - A (2)
-tests/handlers/test_selective_flow.py
-    C 8:0 TestSelectiveFlowScheduling - A (3)
-    M 11:4 TestSelectiveFlowScheduling.test_constructor - A (3)
-tests/handlers/test_book_keeping.py
-    C 9:0 TestBookKeeping - A (2)
-    M 12:4 TestBookKeeping.setup_method - A (2)
-    M 16:4 TestBookKeeping.teardown_method - A (2)
-tests/handlers/test_nuget_popular_analyses.py
-    C 8:0 TestNugetPopularAnalyses - A (3)
-    M 11:4 TestNugetPopularAnalyses.test_constructor - A (3)
-tests/handlers/test_github_manifests.py
-    C 9:0 TestGitHubManifests - A (2)
-    M 12:4 TestGitHubManifests.setup_method - A (2)
-    M 16:4 TestGitHubManifests.teardown_method - A (2)
-tests/handlers/test_maven_releases.py
-    C 9:0 TestMavenReleasesAnalyses - A (2)
-    M 12:4 TestMavenReleasesAnalyses.setup_method - A (2)
-    M 16:4 TestMavenReleasesAnalyses.teardown_method - A (2)
-tests/handlers/test_clean_postgres.py
-    C 9:0 TestCleanPostgres - A (2)
-    M 12:4 TestCleanPostgres.setup_method - A (2)
-    M 16:4 TestCleanPostgres.teardown_method - A (2)
-tests/handlers/test_aggregate_github_manifest_pkgs.py
-    C 9:0 TestAggreateGithubManifestPkgs - A (2)
-    M 12:4 TestAggreateGithubManifestPkgs.setup_method - A (2)
-    M 16:4 TestAggreateGithubManifestPkgs.teardown_method - A (2)
-tests/handlers/test_aggregate_topics.py
-    C 9:0 TestAggreateTopics - A (2)
-    M 12:4 TestAggreateTopics.setup_method - A (2)
-    M 16:4 TestAggreateTopics.teardown_method - A (2)
-tests/handlers/test_sync_to_graph.py
-    C 8:0 TestSyncToGraph - A (3)
-    M 11:4 TestSyncToGraph.test_constructor - A (3)
-tests/handlers/test_invoke_graph_sync.py
-    C 9:0 TestInvokeGraphSync - A (2)
-    M 12:4 TestInvokeGraphSync.setup_method - A (2)
-    M 16:4 TestInvokeGraphSync.teardown_method - A (2)
-tests/handlers/test_golang_popular_analyses.py
-    C 8:0 TestGolangPopularAnalyses - A (3)
-    M 11:4 TestGolangPopularAnalyses.test_constructor - A (3)
-tests/handlers/test_flow.py
-    C 9:0 TestFlowScheduling - A (2)
-    M 12:4 TestFlowScheduling.setup_method - A (2)
-    M 16:4 TestFlowScheduling.teardown_method - A (2)
-tests/handlers/test_github_most_starred.py
-    C 9:0 TestGitHubMostStarred - A (2)
-    M 12:4 TestGitHubMostStarred.setup_method - A (2)
-    M 16:4 TestGitHubMostStarred.teardown_method - A (2)
-tests/handlers/test_python_popular_analyses.py
-    C 8:0 TestPythonPopularAnalyses - A (3)
-    M 11:4 TestPythonPopularAnalyses.test_constructor - A (3)
-tests/handlers/test_base_handler.py
-    C 7:0 TestAnalysesBaseHandler - A (2)
-    M 10:4 TestAnalysesBaseHandler.test_parse_count - A (2)
-tests/handlers/test_aggregate_crowd_source_tags.py
-    M 43:4 TestCrowdSourceTags.test_filter_user_tags_double_pkg - B (7)
-    C 8:0 TestCrowdSourceTags - A (5)
-    M 11:4 TestCrowdSourceTags.test_filter_user_tags_single_pkg - A (4)
-    M 27:4 TestCrowdSourceTags.test_filter_user_tags_multiple_user_tags - A (4)
-tests/handlers/test_npm_popular_analyses.py
-    C 8:0 TestNpmPopularAnalyses - A (3)
-    M 11:4 TestNpmPopularAnalyses.test_constructor - A (3)
-tests/handlers/test_error.py
-    C 9:0 TestErrorHandler - A (2)
-    M 12:4 TestErrorHandler.setup_method - A (2)
-    M 16:4 TestErrorHandler.teardown_method - A (2)
-tests/handlers/test_maven_popular_analyses.py
-    C 8:0 TestMavenPopularAnalyses - A (3)
-    M 11:4 TestMavenPopularAnalyses.test_constructor - A (3)
-tools/check_python_version.py
-    F 19:0 get_expected_version - A (4)
-    F 48:0 compare_versions - A (2)
-    F 59:0 main - A (2)
-    F 43:0 get_actual_version - A (1)
-f8a_jobs/auth.py
-    F 21:0 get_github_oauth_token - A (1)
+f8a_jobs/analyses_report.py
+    F 10:0 _add_query_datetime_constrains - A (3)
+    F 78:0 construct_analyses_report - A (3)
+    F 35:0 _count - A (2)
+    F 22:0 _get_base_query - A (1)
+    F 43:0 _get_finished_analyses_count - A (1)
+    F 48:0 _get_unfinished_analyses_count - A (1)
+    F 53:0 _get_unique_analyses_count - A (1)
+    F 58:0 _get_unique_finished_analyses_count - A (1)
+    F 63:0 _get_packages_count - A (1)
+    F 68:0 _get_finished_packages_count - A (1)
+    F 73:0 _get_versions_count - A (1)
 f8a_jobs/models.py
     M 54:4 JobToken.verify - B (6)
     M 88:4 JobToken._invalidate_tokens - A (5)
@@ -157,6 +59,8 @@ f8a_jobs/scheduler.py
     F 295:0 uses_scheduler - A (1)
     C 24:0 ScheduleJobError - A (1)
     M 55:4 Scheduler.__init__ - A (1)
+f8a_jobs/auth.py
+    F 21:0 get_github_oauth_token - A (1)
 f8a_jobs/utils.py
     F 180:0 purge_queues - B (6)
     F 65:0 job2raw_dict - A (5)
@@ -171,20 +75,6 @@ f8a_jobs/utils.py
     F 87:0 requires_auth - A (1)
     F 123:0 get_gh_token - A (1)
     F 146:0 requires_aws_sqs_access - A (1)
-f8a_jobs/error.py
-    C 4:0 TokenExpired - A (1)
-f8a_jobs/analyses_report.py
-    F 10:0 _add_query_datetime_constrains - A (3)
-    F 78:0 construct_analyses_report - A (3)
-    F 35:0 _count - A (2)
-    F 22:0 _get_base_query - A (1)
-    F 43:0 _get_finished_analyses_count - A (1)
-    F 48:0 _get_unfinished_analyses_count - A (1)
-    F 53:0 _get_unique_analyses_count - A (1)
-    F 58:0 _get_unique_finished_analyses_count - A (1)
-    F 63:0 _get_packages_count - A (1)
-    F 68:0 _get_finished_packages_count - A (1)
-    F 73:0 _get_versions_count - A (1)
 f8a_jobs/api_v1.py
     F 148:0 get_jobs - B (9)
     F 45:0 authorized - B (8)
@@ -238,6 +128,104 @@ f8a_jobs/graph_sync.py
     F 14:0 _api_call - A (3)
     F 27:0 fetch_pending - A (3)
     F 40:0 invoke_sync - A (3)
+f8a_jobs/error.py
+    C 4:0 TokenExpired - A (1)
+f8a_jobs/handlers/python_popular_analyses.py
+    M 58:4 PythonPopularAnalyses._use_pypi_ranking - B (7)
+    C 12:0 PythonPopularAnalyses - A (4)
+    M 18:4 PythonPopularAnalyses._parse_version_stats - A (3)
+    M 41:4 PythonPopularAnalyses._use_pypi_xml_rpc - A (3)
+    M 96:4 PythonPopularAnalyses.do_execute - A (2)
+f8a_jobs/handlers/clean_postgres.py
+    M 27:4 CleanPostgres._clean_package_version_data - C (15)
+    M 92:4 CleanPostgres._clean_package_data - C (15)
+    C 12:0 CleanPostgres - C (11)
+    M 156:4 CleanPostgres.execute - A (2)
+f8a_jobs/handlers/golang_popular_analyses.py
+    M 31:4 GolangPopularAnalyses._popular_packages - B (10)
+    M 14:4 GolangPopularAnalyses._get_latest_commit - B (7)
+    C 8:0 GolangPopularAnalyses - B (6)
+    M 76:4 GolangPopularAnalyses._packages - A (3)
+    M 93:4 GolangPopularAnalyses.do_execute - A (3)
+f8a_jobs/handlers/npm_popular_analyses.py
+    M 35:4 NpmPopularAnalyses._use_npm_registry - A (5)
+    C 9:0 NpmPopularAnalyses - A (4)
+    M 16:4 NpmPopularAnalyses._schedule_from_npm_registry - A (4)
+    M 66:4 NpmPopularAnalyses._use_npm_popular - A (4)
+    M 80:4 NpmPopularAnalyses.do_execute - A (2)
+f8a_jobs/handlers/invoke_graph_sync.py
+    M 68:4 InvokeGraphSync.execute - B (6)
+    C 11:0 InvokeGraphSync - A (3)
+    M 31:4 InvokeGraphSync._fetch_all_counts - A (2)
+    M 44:4 InvokeGraphSync._fetch_package_versions - A (2)
+    M 57:4 InvokeGraphSync._perform_sync - A (2)
+f8a_jobs/handlers/sync_to_graph.py
+    C 10:0 SyncToGraph - B (7)
+    M 15:4 SyncToGraph.execute - B (7)
+f8a_jobs/handlers/maven_popular_analyses.py
+    M 53:4 MavenPopularAnalyses._projects_from - B (9)
+    M 129:4 MavenPopularAnalyses._use_maven_index_checker - B (8)
+    M 29:4 MavenPopularAnalyses._find_versions - B (6)
+    M 194:4 MavenPopularAnalyses.do_execute - A (5)
+    C 17:0 MavenPopularAnalyses - A (4)
+    M 99:4 MavenPopularAnalyses._top_categories_projects - A (4)
+    M 113:4 MavenPopularAnalyses._top_tags_projects - A (3)
+    M 23:4 MavenPopularAnalyses.__init__ - A (1)
+    M 94:4 MavenPopularAnalyses._top_projects - A (1)
+f8a_jobs/handlers/aggregate_github_manifest_pkgs.py
+    M 11:4 AggregateGitHubManifestPackages.execute - B (9)
+    C 8:0 AggregateGitHubManifestPackages - A (4)
+    M 113:4 AggregateGitHubManifestPackages._create_manifest_entry - A (3)
+    M 82:4 AggregateGitHubManifestPackages._create_tagger_list - A (2)
+    M 95:4 AggregateGitHubManifestPackages._create_data_structure - A (1)
+f8a_jobs/handlers/github_manifests.py
+    C 8:0 GitHubManifests - B (6)
+    M 13:4 GitHubManifests.execute - B (6)
+f8a_jobs/handlers/kronos_data_update.py
+    M 97:4 KronosDataUpdater._processing - B (9)
+    M 78:4 KronosDataUpdater._append_package_topic - A (5)
+    C 9:0 KronosDataUpdater - A (3)
+    M 61:4 KronosDataUpdater._append_manifest - A (3)
+    M 12:4 KronosDataUpdater.__init__ - A (1)
+    M 24:4 KronosDataUpdater.execute - A (1)
+    M 40:4 KronosDataUpdater._generate_query - A (1)
+    M 55:4 KronosDataUpdater._execute_query - A (1)
+f8a_jobs/handlers/maven_releases.py
+    C 15:0 MavenReleasesAnalyses - B (8)
+    M 18:4 MavenReleasesAnalyses.execute - B (8)
+f8a_jobs/handlers/aggregate_topics.py
+    M 28:4 AggregateTopics.execute - C (11)
+    C 13:0 AggregateTopics - B (6)
+    M 16:4 AggregateTopics._store_topics - A (1)
+f8a_jobs/handlers/flow.py
+    C 6:0 FlowScheduling - A (4)
+    M 9:4 FlowScheduling.execute - A (4)
+f8a_jobs/handlers/selective_flow.py
+    C 6:0 SelectiveFlowScheduling - A (4)
+    M 9:4 SelectiveFlowScheduling.execute - A (4)
+f8a_jobs/handlers/nuget_popular_analyses.py
+    M 17:4 NugetPopularAnalyses._scrape_nuget_org - C (14)
+    C 11:0 NugetPopularAnalyses - B (8)
+    M 60:4 NugetPopularAnalyses.do_execute - A (1)
+f8a_jobs/handlers/github_most_starred.py
+    M 48:4 GitHubMostStarred.get_most_starred_repositories - B (7)
+    M 122:4 GitHubMostStarred.do_execute - B (6)
+    M 40:4 GitHubMostStarred._get_stars_filter - A (5)
+    C 10:0 GitHubMostStarred - A (4)
+    M 95:4 GitHubMostStarred.execute - A (2)
+    M 27:4 GitHubMostStarred.__init__ - A (1)
+f8a_jobs/handlers/error.py
+    C 8:0 ErrorHandler - A (1)
+    M 11:4 ErrorHandler.execute - A (1)
+f8a_jobs/handlers/book_keeping.py
+    M 136:4 BookKeeping.retrieve_bookkeeping_upstreams - B (7)
+    M 69:4 BookKeeping.retrieve_bookkeeping_for_ecosystem_package - A (3)
+    C 31:0 BookKeeping - A (2)
+    M 39:4 BookKeeping.retrieve_bookkeeping_all - A (2)
+    M 104:4 BookKeeping.retrieve_bookkeeping_for_epv - A (2)
+    F 13:0 handle_sqlalchemy - A (1)
+    M 34:4 BookKeeping.__init__ - A (1)
+    M 56:4 BookKeeping.retrieve_bookkeeping_for_ecosystem - A (1)
 f8a_jobs/handlers/aggregate_crowd_source_tags.py
     M 14:4 AggregateCrowdSourceTags.execute - B (6)
     M 114:4 AggregateCrowdSourceTags._update_tags_from_graph - A (4)
@@ -249,80 +237,6 @@ f8a_jobs/handlers/aggregate_crowd_source_tags.py
     M 40:4 AggregateCrowdSourceTags._get_graph_url - A (1)
     M 60:4 AggregateCrowdSourceTags._get_usertags_query - A (1)
     M 166:4 AggregateCrowdSourceTags.process_tags - A (1)
-f8a_jobs/handlers/npm_popular_analyses.py
-    M 35:4 NpmPopularAnalyses._use_npm_registry - A (5)
-    C 9:0 NpmPopularAnalyses - A (4)
-    M 16:4 NpmPopularAnalyses._schedule_from_npm_registry - A (4)
-    M 66:4 NpmPopularAnalyses._use_npm_popular - A (4)
-    M 80:4 NpmPopularAnalyses.do_execute - A (2)
-f8a_jobs/handlers/maven_popular_analyses.py
-    M 53:4 MavenPopularAnalyses._projects_from - B (9)
-    M 129:4 MavenPopularAnalyses._use_maven_index_checker - B (8)
-    M 29:4 MavenPopularAnalyses._find_versions - B (6)
-    M 194:4 MavenPopularAnalyses.do_execute - A (5)
-    C 17:0 MavenPopularAnalyses - A (4)
-    M 99:4 MavenPopularAnalyses._top_categories_projects - A (4)
-    M 113:4 MavenPopularAnalyses._top_tags_projects - A (3)
-    M 23:4 MavenPopularAnalyses.__init__ - A (1)
-    M 94:4 MavenPopularAnalyses._top_projects - A (1)
-f8a_jobs/handlers/github_manifests.py
-    C 8:0 GitHubManifests - B (6)
-    M 13:4 GitHubManifests.execute - B (6)
-f8a_jobs/handlers/github_most_starred.py
-    M 48:4 GitHubMostStarred.get_most_starred_repositories - B (7)
-    M 122:4 GitHubMostStarred.do_execute - B (6)
-    M 40:4 GitHubMostStarred._get_stars_filter - A (5)
-    C 10:0 GitHubMostStarred - A (4)
-    M 95:4 GitHubMostStarred.execute - A (2)
-    M 27:4 GitHubMostStarred.__init__ - A (1)
-f8a_jobs/handlers/error.py
-    C 8:0 ErrorHandler - A (1)
-    M 11:4 ErrorHandler.execute - A (1)
-f8a_jobs/handlers/nuget_popular_analyses.py
-    M 17:4 NugetPopularAnalyses._scrape_nuget_org - C (14)
-    C 11:0 NugetPopularAnalyses - B (8)
-    M 60:4 NugetPopularAnalyses.do_execute - A (1)
-f8a_jobs/handlers/flow.py
-    C 6:0 FlowScheduling - A (4)
-    M 9:4 FlowScheduling.execute - A (4)
-f8a_jobs/handlers/python_popular_analyses.py
-    M 58:4 PythonPopularAnalyses._use_pypi_ranking - B (7)
-    C 12:0 PythonPopularAnalyses - A (4)
-    M 18:4 PythonPopularAnalyses._parse_version_stats - A (3)
-    M 41:4 PythonPopularAnalyses._use_pypi_xml_rpc - A (3)
-    M 96:4 PythonPopularAnalyses.do_execute - A (2)
-f8a_jobs/handlers/sync_to_graph.py
-    C 10:0 SyncToGraph - B (7)
-    M 15:4 SyncToGraph.execute - B (7)
-f8a_jobs/handlers/kronos_data_update.py
-    M 97:4 KronosDataUpdater._processing - B (9)
-    M 78:4 KronosDataUpdater._append_package_topic - A (5)
-    C 9:0 KronosDataUpdater - A (3)
-    M 61:4 KronosDataUpdater._append_manifest - A (3)
-    M 12:4 KronosDataUpdater.__init__ - A (1)
-    M 24:4 KronosDataUpdater.execute - A (1)
-    M 40:4 KronosDataUpdater._generate_query - A (1)
-    M 55:4 KronosDataUpdater._execute_query - A (1)
-f8a_jobs/handlers/aggregate_github_manifest_pkgs.py
-    M 11:4 AggregateGitHubManifestPackages.execute - B (9)
-    C 8:0 AggregateGitHubManifestPackages - A (4)
-    M 113:4 AggregateGitHubManifestPackages._create_manifest_entry - A (3)
-    M 82:4 AggregateGitHubManifestPackages._create_tagger_list - A (2)
-    M 95:4 AggregateGitHubManifestPackages._create_data_structure - A (1)
-f8a_jobs/handlers/clean_postgres.py
-    M 27:4 CleanPostgres._clean_package_version_data - C (15)
-    M 92:4 CleanPostgres._clean_package_data - C (15)
-    C 12:0 CleanPostgres - C (11)
-    M 156:4 CleanPostgres.execute - A (2)
-f8a_jobs/handlers/book_keeping.py
-    M 136:4 BookKeeping.retrieve_bookkeeping_upstreams - B (7)
-    M 69:4 BookKeeping.retrieve_bookkeeping_for_ecosystem_package - A (3)
-    C 31:0 BookKeeping - A (2)
-    M 39:4 BookKeeping.retrieve_bookkeeping_all - A (2)
-    M 104:4 BookKeeping.retrieve_bookkeeping_for_epv - A (2)
-    F 13:0 handle_sqlalchemy - A (1)
-    M 34:4 BookKeeping.__init__ - A (1)
-    M 56:4 BookKeeping.retrieve_bookkeeping_for_ecosystem - A (1)
 f8a_jobs/handlers/base.py
     M 209:4 AnalysesBaseHandler.parse_count - B (8)
     M 164:4 AnalysesBaseHandler.ecosystem2handler_name - B (6)
@@ -342,29 +256,135 @@ f8a_jobs/handlers/base.py
     M 142:4 BaseHandler.execute - A (1)
     M 153:4 AnalysesBaseHandler.__init__ - A (1)
     M 269:4 AnalysesBaseHandler.do_execute - A (1)
-f8a_jobs/handlers/golang_popular_analyses.py
-    M 31:4 GolangPopularAnalyses._popular_packages - B (10)
-    M 14:4 GolangPopularAnalyses._get_latest_commit - B (7)
-    C 8:0 GolangPopularAnalyses - B (6)
-    M 76:4 GolangPopularAnalyses._packages - A (3)
-    M 93:4 GolangPopularAnalyses.do_execute - A (3)
-f8a_jobs/handlers/selective_flow.py
-    C 6:0 SelectiveFlowScheduling - A (4)
-    M 9:4 SelectiveFlowScheduling.execute - A (4)
-f8a_jobs/handlers/aggregate_topics.py
-    M 28:4 AggregateTopics.execute - C (11)
-    C 13:0 AggregateTopics - B (6)
-    M 16:4 AggregateTopics._store_topics - A (1)
-f8a_jobs/handlers/invoke_graph_sync.py
-    M 68:4 InvokeGraphSync.execute - B (6)
-    C 11:0 InvokeGraphSync - A (3)
-    M 31:4 InvokeGraphSync._fetch_all_counts - A (2)
-    M 44:4 InvokeGraphSync._fetch_package_versions - A (2)
-    M 57:4 InvokeGraphSync._perform_sync - A (2)
-f8a_jobs/handlers/maven_releases.py
-    C 15:0 MavenReleasesAnalyses - B (8)
-    M 18:4 MavenReleasesAnalyses.execute - B (8)
+tests/test_error.py
+    M 20:4 TestError.token_expired - A (3)
+    C 9:0 TestError - A (2)
+    M 12:4 TestError.setup_method - A (2)
+    M 16:4 TestError.teardown_method - A (2)
+tests/test_graph_sync.py
+    C 9:0 TestGraphSync - A (2)
+    M 12:4 TestGraphSync.setup_method - A (2)
+    M 16:4 TestGraphSync.teardown_method - A (2)
+tests/test_auth.py
+    C 7:0 TestAuthFunctions - A (2)
+    M 10:4 TestAuthFunctions.setup_method - A (2)
+    M 14:4 TestAuthFunctions.teardown_method - A (2)
+tests/test_analyses_report.py
+    C 7:0 TestAnalysesReport - A (2)
+    M 10:4 TestAnalysesReport.setup_method - A (2)
+    M 14:4 TestAnalysesReport.teardown_method - A (2)
+tests/test_defaults.py
+    C 9:0 TestDefaults - A (2)
+    M 12:4 TestDefaults.setup_method - A (2)
+    M 16:4 TestDefaults.teardown_method - A (2)
+tests/test_models.py
+    C 9:0 TestModels - A (2)
+    M 12:4 TestModels.setup_method - A (2)
+    M 16:4 TestModels.teardown_method - A (2)
+tests/test_scheduler.py
+    C 9:0 TestScheduler - A (2)
+    M 12:4 TestScheduler.setup_method - A (2)
+    M 16:4 TestScheduler.teardown_method - A (2)
+    M 20:4 TestScheduler.test_schedule_job_error_class - A (2)
+    M 26:4 TestScheduler.test_schedule_job_method_state - A (2)
+    M 31:4 TestScheduler.test_schedule_job_method_handler_name - A (2)
+    M 36:4 TestScheduler.test_schedule_job_method_when_parsing - A (2)
+    M 41:4 TestScheduler.test_schedule_job_method_missfirre_grace_time_parsing - A (2)
+    M 47:4 TestScheduler.test_schedule_job_method_misfire_grace_time_parsing_2 - A (2)
+    M 53:4 TestScheduler.test_schedule_job_method_periodically_parsing - A (2)
+tests/test_utils.py
+    M 49:4 TestUtilFunctions.test_parse_dates_return_value - B (6)
+    C 9:0 TestUtilFunctions - A (3)
+    M 20:4 TestUtilFunctions.test_parse_dates - A (3)
+    M 12:4 TestUtilFunctions.setup_method - A (2)
+    M 16:4 TestUtilFunctions.teardown_method - A (2)
+tests/test_api_v1.py
+    C 7:0 TestApiV1Functions - A (2)
+    M 10:4 TestApiV1Functions.setup_method - A (2)
+    M 14:4 TestApiV1Functions.teardown_method - A (2)
+tests/handlers/test_maven_releases.py
+    C 9:0 TestMavenReleasesAnalyses - A (2)
+    M 12:4 TestMavenReleasesAnalyses.setup_method - A (2)
+    M 16:4 TestMavenReleasesAnalyses.teardown_method - A (2)
+tests/handlers/test_error.py
+    C 9:0 TestErrorHandler - A (2)
+    M 12:4 TestErrorHandler.setup_method - A (2)
+    M 16:4 TestErrorHandler.teardown_method - A (2)
+tests/handlers/test_invoke_graph_sync.py
+    C 9:0 TestInvokeGraphSync - A (2)
+    M 12:4 TestInvokeGraphSync.setup_method - A (2)
+    M 16:4 TestInvokeGraphSync.teardown_method - A (2)
+tests/handlers/test_github_manifests.py
+    C 9:0 TestGitHubManifests - A (2)
+    M 12:4 TestGitHubManifests.setup_method - A (2)
+    M 16:4 TestGitHubManifests.teardown_method - A (2)
+tests/handlers/test_npm_popular_analyses.py
+    C 8:0 TestNpmPopularAnalyses - A (3)
+    M 11:4 TestNpmPopularAnalyses.test_constructor - A (3)
+tests/handlers/test_flow.py
+    C 9:0 TestFlowScheduling - A (2)
+    M 12:4 TestFlowScheduling.setup_method - A (2)
+    M 16:4 TestFlowScheduling.teardown_method - A (2)
+tests/handlers/test_sync_to_graph.py
+    C 8:0 TestSyncToGraph - A (3)
+    M 11:4 TestSyncToGraph.test_constructor - A (3)
+tests/handlers/test_maven_popular_analyses.py
+    C 8:0 TestMavenPopularAnalyses - A (3)
+    M 11:4 TestMavenPopularAnalyses.test_constructor - A (3)
+tests/handlers/test_aggregate_topics.py
+    C 9:0 TestAggreateTopics - A (2)
+    M 12:4 TestAggreateTopics.setup_method - A (2)
+    M 16:4 TestAggreateTopics.teardown_method - A (2)
+tests/handlers/test_golang_popular_analyses.py
+    C 8:0 TestGolangPopularAnalyses - A (3)
+    M 11:4 TestGolangPopularAnalyses.test_constructor - A (3)
+tests/handlers/test_kronos_data_update.py
+    C 9:0 TestKronosDataUpdater - A (2)
+    M 12:4 TestKronosDataUpdater.setup_method - A (2)
+    M 16:4 TestKronosDataUpdater.teardown_method - A (2)
+tests/handlers/test_aggregate_crowd_source_tags.py
+    M 43:4 TestCrowdSourceTags.test_filter_user_tags_double_pkg - B (7)
+    C 8:0 TestCrowdSourceTags - A (5)
+    M 11:4 TestCrowdSourceTags.test_filter_user_tags_single_pkg - A (4)
+    M 27:4 TestCrowdSourceTags.test_filter_user_tags_multiple_user_tags - A (4)
+tests/handlers/test_base_handler.py
+    C 7:0 TestAnalysesBaseHandler - A (2)
+    M 10:4 TestAnalysesBaseHandler.test_parse_count - A (2)
+tests/handlers/test_selective_flow.py
+    C 8:0 TestSelectiveFlowScheduling - A (3)
+    M 11:4 TestSelectiveFlowScheduling.test_constructor - A (3)
+tests/handlers/test_clean_postgres.py
+    C 9:0 TestCleanPostgres - A (2)
+    M 12:4 TestCleanPostgres.setup_method - A (2)
+    M 16:4 TestCleanPostgres.teardown_method - A (2)
+tests/handlers/test_aggregate_github_manifest_pkgs.py
+    C 9:0 TestAggreateGithubManifestPkgs - A (2)
+    M 12:4 TestAggreateGithubManifestPkgs.setup_method - A (2)
+    M 16:4 TestAggreateGithubManifestPkgs.teardown_method - A (2)
+tests/handlers/test_book_keeping.py
+    C 9:0 TestBookKeeping - A (2)
+    M 12:4 TestBookKeeping.setup_method - A (2)
+    M 16:4 TestBookKeeping.teardown_method - A (2)
+tests/handlers/test_nuget_popular_analyses.py
+    C 8:0 TestNugetPopularAnalyses - A (3)
+    M 11:4 TestNugetPopularAnalyses.test_constructor - A (3)
+tests/handlers/test_github_most_starred.py
+    C 9:0 TestGitHubMostStarred - A (2)
+    M 12:4 TestGitHubMostStarred.setup_method - A (2)
+    M 16:4 TestGitHubMostStarred.teardown_method - A (2)
+tests/handlers/test_python_popular_analyses.py
+    C 8:0 TestPythonPopularAnalyses - A (3)
+    M 11:4 TestPythonPopularAnalyses.test_constructor - A (3)
+tools/check_python_version.py
+    F 19:0 get_expected_version - A (4)
+    F 48:0 compare_versions - A (2)
+    F 59:0 main - A (2)
+    F 43:0 get_actual_version - A (1)
 
 306 blocks (classes, functions, methods) analyzed.
 Average complexity: A (2.8986928104575163)
+
 </pre>
+</body>
+
+</html>

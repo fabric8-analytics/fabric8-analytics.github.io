@@ -1,4 +1,4 @@
-~/bayesian/dashboard/repositories/fabric8-analytics-nvd-toolkit ~/bayesian/dashboard/repositories/fabric8-analytics-nvd-toolkit
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-nvd-toolkit ~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-nvd-toolkit
 ----------------------------------------------------
 Running Python linter against following directories:
 src
@@ -6,69 +6,69 @@ tests
 tools
 ----------------------------------------------------
 
-src/toolkit/pipelines/train.py
-    Pass
-src/toolkit/pipelines/predict.py
-    Pass
-src/toolkit/pipelines/pipelines.py
-    Pass
-src/toolkit/pipelines/__init__.py
-    Pass
-src/toolkit/pipelines/evaluation.py
-    Pass
-src/toolkit/__init__.py
-    Pass
-src/toolkit/utils.py
-    Pass
-src/toolkit/config.py
-    Pass
-src/toolkit/scripts/get_packages_by_commit.py
-    Pass
-src/toolkit/scripts/__init__.py
-    Pass
-src/toolkit/preprocessing/ecos.py
+src/toolkit/preprocessing/preprocessors.py
     Pass
 src/toolkit/preprocessing/__init__.py
     Pass
 src/toolkit/preprocessing/handlers.py
     Pass
-src/toolkit/preprocessing/preprocessors.py
+src/toolkit/preprocessing/ecos.py
     Pass
-src/toolkit/__about__.py
+src/toolkit/config.py
     Pass
-src/toolkit/transformers/extractors.py
+src/toolkit/__init__.py
     Pass
 src/toolkit/transformers/__init__.py
     Pass
-src/toolkit/transformers/classifiers.py
-    Pass
-src/toolkit/transformers/feature_hooks.py
+src/toolkit/transformers/extractors.py
     Pass
 src/toolkit/transformers/hooks.py
     Pass
-tests/test_preprocessors.py
+src/toolkit/transformers/feature_hooks.py
     Pass
-tests/test_scripts.py
+src/toolkit/transformers/classifiers.py
+    Pass
+src/toolkit/scripts/__init__.py
+    Pass
+src/toolkit/scripts/get_packages_by_commit.py
+    Pass
+src/toolkit/utils.py
+    Pass
+src/toolkit/__about__.py
+    Pass
+src/toolkit/pipelines/__init__.py
+    Pass
+src/toolkit/pipelines/predict.py
+    Pass
+src/toolkit/pipelines/train.py
+    Pass
+src/toolkit/pipelines/evaluation.py
+    Pass
+src/toolkit/pipelines/pipelines.py
     Pass
 tests/test_pipelines.py
     Pass
+tests/test_extractors.py
+    Pass
 tests/__init__.py
-    Pass
-tests/test_utils.py
-    Pass
-tests/test_handlers.py
-    Pass
-tests/test_extras.py
-    Pass
-tests/test_hook.py
     Pass
 tests/test_feature_hooks.py
     Pass
-tests/test_ecos.py
+tests/test_handlers.py
+    Pass
+tests/test_scripts.py
     Pass
 tests/test_classifiers.py
     Pass
-tests/test_extractors.py
+tests/test_utils.py
+    Pass
+tests/test_extras.py
+    Pass
+tests/test_preprocessors.py
+    Pass
+tests/test_ecos.py
+    Pass
+tests/test_hook.py
     Pass
 tools/check_python_version.py
     Pass
@@ -80,4 +80,4 @@ setup.py
 setup.py
     Pass
 All checks passed for 34 source files
-~/bayesian/dashboard/repositories/fabric8-analytics-nvd-toolkit
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-nvd-toolkit

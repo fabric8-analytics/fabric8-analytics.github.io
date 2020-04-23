@@ -1,5 +1,32 @@
-<pre>setup.py
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+<style type="text/css">
+.ansi2html-content { display: inline; white-space: pre-wrap; word-wrap: break-word; }
+.body_foreground { color: #AAAAAA; }
+.body_background { background-color: #000000; }
+.body_foreground > .bold,.bold > .body_foreground, body.body_foreground > pre > .bold { color: #FFFFFF; font-weight: normal; }
+.inv_foreground { color: #000000; }
+.inv_background { background-color: #AAAAAA; }
+</style>
+</head>
+<body class="body_foreground body_background" style="font-size: normal;" >
+<pre class="ansi2html-content">
+setup.py
     F 8:0 get_requirements - A (4)
+tests/test_generate_manifest.py
+    F 6:0 test_constructor - A (4)
+    F 37:0 test_attributes - A (4)
+    F 45:0 test_add_framework - A (4)
+    F 68:0 test_xml_string - A (2)
+    F 87:0 test_add_dependencies - A (2)
+tests/conftest.py
+    F 34:0 rdb - A (2)
+    F 12:0 someuser - A (1)
+    F 20:0 auth_header - A (1)
+    F 26:0 app - A (1)
 tests/test_manifest_models.py
     M 30:4 TestManifestModels.test_attributes - A (5)
     M 44:4 TestManifestModels.test_add_tags_and_value - A (3)
@@ -13,43 +40,19 @@ tests/test_manifest_models.py
     M 85:4 TestManifestModels.test_remove_dependency - A (2)
     M 125:4 TestManifestModels.test_pypi_constructor - A (2)
     M 130:4 TestManifestModels.test_npm_constructor - A (2)
-tests/test_api_v1.py
-    F 258:0 test_get_item_skip - B (7)
-    F 18:0 assert_pages - A (5)
-    F 268:0 test_get_item_relative_limit - A (5)
-    F 276:0 test_get_item_absolute_limit - A (5)
-    F 284:0 test_get_items_for_page - A (5)
-    F 98:0 fill_packages_for_paging - A (3)
-    C 111:0 TestApiV1Root - A (3)
-    M 142:4 TestApiV1Root.test_api_root - A (3)
-    M 179:4 TestCommonEndpoints.test_stack_analyses_202 - A (3)
-    C 235:0 TestApiV1SystemVersion - A (3)
-    M 239:4 TestApiV1SystemVersion.test_get_system_version - A (3)
-    C 246:0 TestApiV1RecommendationFeedback - A (3)
-    M 250:4 TestApiV1RecommendationFeedback.test_get_recommendation_feedback - A (3)
-    F 37:0 fill_analyses - A (2)
-    F 292:0 test_paginated - A (2)
-    C 149:0 TestCommonEndpoints - A (2)
-    M 153:4 TestCommonEndpoints.test_readiness - A (2)
-    M 158:4 TestCommonEndpoints.test_liveness - A (2)
-    M 164:4 TestCommonEndpoints.test_error - A (2)
-    M 169:4 TestCommonEndpoints.test_system_version - A (2)
-    M 174:4 TestCommonEndpoints.test_stack_analyses - A (2)
-    M 202:4 TestCommonEndpoints.test_component_search - A (2)
-    M 207:4 TestCommonEndpoints.test_component_analyses - A (2)
-    M 213:4 TestCommonEndpoints.test_component_analyses1 - A (2)
-    F 13:0 api_route_for - A (1)
-    C 228:0 TestUser - A (1)
-tests/test_generate_manifest.py
-    F 6:0 test_constructor - A (4)
-    F 37:0 test_attributes - A (4)
-    F 45:0 test_add_framework - A (4)
-    F 68:0 test_xml_string - A (2)
-    F 87:0 test_add_dependencies - A (2)
-tests/test_depencency_finder.py
-    F 7:0 test_scan_and_find_dependencies - A (4)
-    F 20:0 test_scan_and_find_dependencies_pypi - A (4)
-    F 33:0 test_scan_and_find_dependencies_golang - A (3)
+tests/test_license_extractor.py
+    F 25:0 test_get_license_synonyms - B (7)
+    F 74:0 test_extract_licenses - A (5)
+    F 67:0 _check_extracted_license - A (4)
+    F 56:0 test_get_license_synonyms_wrong_response - A (3)
+    F 103:0 test_extract_licenses_no_synonyms - A (3)
+    F 50:0 mocked_requests_get - A (2)
+    F 113:0 test_extract_licenses_wrong_file - A (2)
+    F 9:0 setUp - A (1)
+    F 15:0 tearDown - A (1)
+    F 20:0 current_app_logger - A (1)
+    C 42:0 _response - A (1)
+    M 45:4 _response.__init__ - A (1)
 tests/test_utils.py
     F 446:0 test_get_cves_by_date_ecosystem_add - B (10)
     F 300:0 test_semantic_versioning - B (9)
@@ -88,43 +91,71 @@ tests/test_utils.py
     C 605:0 GenerateRecommendationMocker - A (1)
     M 608:4 GenerateRecommendationMocker.__init__ - A (1)
     M 612:4 GenerateRecommendationMocker.clubbed_data - A (1)
-tests/test_license_extractor.py
-    F 25:0 test_get_license_synonyms - B (7)
-    F 74:0 test_extract_licenses - A (5)
-    F 67:0 _check_extracted_license - A (4)
-    F 56:0 test_get_license_synonyms_wrong_response - A (3)
-    F 103:0 test_extract_licenses_no_synonyms - A (3)
-    F 50:0 mocked_requests_get - A (2)
-    F 113:0 test_extract_licenses_wrong_file - A (2)
-    F 9:0 setUp - A (1)
-    F 15:0 tearDown - A (1)
-    F 20:0 current_app_logger - A (1)
-    C 42:0 _response - A (1)
-    M 45:4 _response.__init__ - A (1)
-tests/conftest.py
-    F 34:0 rdb - A (2)
-    F 12:0 someuser - A (1)
-    F 20:0 auth_header - A (1)
-    F 26:0 app - A (1)
-tools/check_python_version.py
-    F 19:0 get_expected_version - A (4)
-    F 48:0 compare_versions - A (2)
-    F 59:0 main - A (2)
-    F 43:0 get_actual_version - A (1)
-bayesian/auth.py
-    F 8:0 get_access_token - A (3)
-bayesian/dependency_finder.py
-    M 100:4 DependencyFinder.execute - C (19)
-    M 205:4 DependencyFinder.validate_manifest - B (9)
-    M 33:4 DependencyFinder.get_npm_dependencies - B (8)
-    C 22:0 DependencyFinder - B (7)
-    M 70:4 DependencyFinder.get_npm_transitives - B (7)
-    M 87:4 DependencyFinder._handle_external_deps - A (5)
-    M 25:4 DependencyFinder.scan_and_find_dependencies - A (2)
-    M 184:4 DependencyFinder.get_dependencies_from_ecosystem_list - A (2)
+tests/test_depencency_finder.py
+    F 7:0 test_scan_and_find_dependencies - A (4)
+    F 20:0 test_scan_and_find_dependencies_pypi - A (4)
+    F 33:0 test_scan_and_find_dependencies_golang - A (3)
+tests/test_api_v1.py
+    F 258:0 test_get_item_skip - B (7)
+    F 18:0 assert_pages - A (5)
+    F 268:0 test_get_item_relative_limit - A (5)
+    F 276:0 test_get_item_absolute_limit - A (5)
+    F 284:0 test_get_items_for_page - A (5)
+    F 98:0 fill_packages_for_paging - A (3)
+    C 111:0 TestApiV1Root - A (3)
+    M 142:4 TestApiV1Root.test_api_root - A (3)
+    M 179:4 TestCommonEndpoints.test_stack_analyses_202 - A (3)
+    C 235:0 TestApiV1SystemVersion - A (3)
+    M 239:4 TestApiV1SystemVersion.test_get_system_version - A (3)
+    C 246:0 TestApiV1RecommendationFeedback - A (3)
+    M 250:4 TestApiV1RecommendationFeedback.test_get_recommendation_feedback - A (3)
+    F 37:0 fill_analyses - A (2)
+    F 292:0 test_paginated - A (2)
+    C 149:0 TestCommonEndpoints - A (2)
+    M 153:4 TestCommonEndpoints.test_readiness - A (2)
+    M 158:4 TestCommonEndpoints.test_liveness - A (2)
+    M 164:4 TestCommonEndpoints.test_error - A (2)
+    M 169:4 TestCommonEndpoints.test_system_version - A (2)
+    M 174:4 TestCommonEndpoints.test_stack_analyses - A (2)
+    M 202:4 TestCommonEndpoints.test_component_search - A (2)
+    M 207:4 TestCommonEndpoints.test_component_analyses - A (2)
+    M 213:4 TestCommonEndpoints.test_component_analyses1 - A (2)
+    F 13:0 api_route_for - A (1)
+    C 228:0 TestUser - A (1)
+bayesian/generate_manifest.py
+    M 62:4 PomXMLTemplate.add_dependencies - A (4)
+    M 23:4 PomXMLTemplate.create - A (3)
+    M 45:4 PomXMLTemplate.add_framework - A (3)
+    C 10:0 PomXMLTemplate - A (2)
+    M 13:4 PomXMLTemplate.__init__ - A (1)
+    M 73:4 PomXMLTemplate.xml_string - A (1)
 bayesian/__init__.py
     F 18:0 setup_logging - A (2)
     F 33:0 create_app - A (1)
+bayesian/manifest_models.py
+    M 62:4 MavenPom.add_element - B (10)
+    M 13:4 MavenPom.__init__ - B (8)
+    M 49:4 MavenPom.__setitem__ - A (3)
+    M 141:4 MavenPom.tostring - A (3)
+    C 10:0 MavenPom - A (2)
+    M 102:4 MavenPom.add_dependencies - A (2)
+    M 127:4 MavenPom.get_dependencies - A (2)
+    M 135:4 MavenPom._commit - A (2)
+    M 43:4 MavenPom.__getitem__ - A (1)
+    M 94:4 MavenPom.add_dependency - A (1)
+    M 111:4 MavenPom.remove_dependency - A (1)
+    M 119:4 MavenPom.__contains__ - A (1)
+    M 157:4 MavenPom.to_objectify - A (1)
+    M 166:4 MavenPom._reload - A (1)
+    C 286:0 PypiRequirements - A (1)
+    M 289:4 PypiRequirements.__init__ - A (1)
+    C 297:0 NpmPackage - A (1)
+    M 300:4 NpmPackage.__init__ - A (1)
+bayesian/auth.py
+    F 8:0 get_access_token - A (3)
+bayesian/exceptions.py
+    C 8:0 HTTPError - A (1)
+    M 20:4 HTTPError.__init__ - A (1)
 bayesian/utils.py
     F 1202:0 push_repo - C (11)
     F 424:0 get_analyses_from_graph - B (8)
@@ -190,32 +221,18 @@ bayesian/utils.py
     M 335:4 GraphAnalyses.__init__ - A (1)
     M 412:4 GraphAnalyses.get_link - A (1)
     M 581:4 CveByDateEcosystemUtils.prepare_payload - A (1)
-bayesian/manifest_models.py
-    M 62:4 MavenPom.add_element - B (10)
-    M 13:4 MavenPom.__init__ - B (8)
-    M 49:4 MavenPom.__setitem__ - A (3)
-    M 141:4 MavenPom.tostring - A (3)
-    C 10:0 MavenPom - A (2)
-    M 102:4 MavenPom.add_dependencies - A (2)
-    M 127:4 MavenPom.get_dependencies - A (2)
-    M 135:4 MavenPom._commit - A (2)
-    M 43:4 MavenPom.__getitem__ - A (1)
-    M 94:4 MavenPom.add_dependency - A (1)
-    M 111:4 MavenPom.remove_dependency - A (1)
-    M 119:4 MavenPom.__contains__ - A (1)
-    M 157:4 MavenPom.to_objectify - A (1)
-    M 166:4 MavenPom._reload - A (1)
-    C 286:0 PypiRequirements - A (1)
-    M 289:4 PypiRequirements.__init__ - A (1)
-    C 297:0 NpmPackage - A (1)
-    M 300:4 NpmPackage.__init__ - A (1)
-bayesian/generate_manifest.py
-    M 62:4 PomXMLTemplate.add_dependencies - A (4)
-    M 23:4 PomXMLTemplate.create - A (3)
-    M 45:4 PomXMLTemplate.add_framework - A (3)
-    C 10:0 PomXMLTemplate - A (2)
-    M 13:4 PomXMLTemplate.__init__ - A (1)
-    M 73:4 PomXMLTemplate.xml_string - A (1)
+bayesian/license_extractor.py
+    F 29:0 extract_licenses - C (13)
+    F 15:0 get_license_synonyms - A (2)
+bayesian/dependency_finder.py
+    M 100:4 DependencyFinder.execute - C (19)
+    M 205:4 DependencyFinder.validate_manifest - B (9)
+    M 33:4 DependencyFinder.get_npm_dependencies - B (8)
+    C 22:0 DependencyFinder - B (7)
+    M 70:4 DependencyFinder.get_npm_transitives - B (7)
+    M 87:4 DependencyFinder._handle_external_deps - A (5)
+    M 25:4 DependencyFinder.scan_and_find_dependencies - A (2)
+    M 184:4 DependencyFinder.get_dependencies_from_ecosystem_list - A (2)
 bayesian/api_v1.py
     M 751:4 StackAnalyses.post - D (29)
     C 382:0 StackAnalysesGET - C (19)
@@ -274,13 +291,16 @@ bayesian/api_v1.py
     M 219:4 SystemVersion.get - A (1)
     M 652:4 MasterTagsGET.__repr__ - A (1)
     M 926:4 StackAnalyses.get - A (1)
-bayesian/exceptions.py
-    C 8:0 HTTPError - A (1)
-    M 20:4 HTTPError.__init__ - A (1)
-bayesian/license_extractor.py
-    F 29:0 extract_licenses - C (13)
-    F 15:0 get_license_synonyms - A (2)
+tools/check_python_version.py
+    F 19:0 get_expected_version - A (4)
+    F 48:0 compare_versions - A (2)
+    F 59:0 main - A (2)
+    F 43:0 get_actual_version - A (1)
 
 264 blocks (classes, functions, methods) analyzed.
 Average complexity: A (3.5492424242424243)
+
 </pre>
+</body>
+
+</html>

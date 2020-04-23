@@ -1,4 +1,4 @@
-~/bayesian/dashboard/repositories/fabric8-analytics-server ~/bayesian/dashboard/repositories/fabric8-analytics-server
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-server ~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-server
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
@@ -8,77 +8,73 @@ tests
 tools
 ----------------------------------------------------
 
-Already using interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Using base prefix '/usr'
-  No LICENSE.txt / LICENSE found in source
-New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-server/venv/bin/python3
-Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-server/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-server/venv/bin/python3)
-Installing setuptools, pip, wheel...
-done.
-Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (4.0.1)
-Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.9.1)
-bayesian/auth.py
-0
-    Pass
-bayesian/dependency_finder.py
-0
-    Pass
-bayesian/default_config.py
+created virtual environment CPython3.6.10.final.0-64 in 152ms
+  creator CPython3Posix(dest=/home/msawood/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-server/venv, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/msawood/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators PythonActivator,FishActivator,XonshActivator,CShellActivator,PowerShellActivator,BashActivator
+Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (5.0.2)
+Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (2.0.0)
+bayesian/generate_manifest.py
 0
     Pass
 bayesian/__init__.py
 0
     Pass
-bayesian/utils.py
-0
-    Pass
 bayesian/manifest_models.py
 0
     Pass
-bayesian/generate_manifest.py
+bayesian/default_config.py
 0
     Pass
-bayesian/api_v1.py
+bayesian/auth.py
 0
     Pass
 bayesian/exceptions.py
 0
     Pass
+bayesian/utils.py
+0
+    Pass
 bayesian/license_extractor.py
+0
+    Pass
+bayesian/dependency_finder.py
+0
+    Pass
+bayesian/api_v1.py
 0
     Pass
 hack/auth_test_fixtures/generate_auth_token.py
 0
     Pass
-tests/test_manifest_models.py
-0
-    Pass
-tests/appconfig.py
-0
-    Pass
-tests/test_api_v1.py
-0
-    Pass
-tests/test_auth.py
+tests/__init__.py
 0
     Pass
 tests/test_generate_manifest.py
 0
     Pass
-tests/__init__.py
+tests/test_auth.py
 0
     Pass
-tests/test_depencency_finder.py
+tests/conftest.py
 0
     Pass
-tests/test_utils.py
+tests/test_manifest_models.py
 0
     Pass
 tests/test_license_extractor.py
 0
     Pass
-tests/conftest.py
+tests/appconfig.py
+0
+    Pass
+tests/test_utils.py
+0
+    Pass
+tests/test_depencency_finder.py
+0
+    Pass
+tests/test_api_v1.py
 0
     Pass
 tools/check_python_version.py
@@ -92,5 +88,5 @@ setup.py
 setup.py
 0
     Pass
-~/bayesian/dashboard/repositories/fabric8-analytics-server
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-server
 All checks passed for 23 source files

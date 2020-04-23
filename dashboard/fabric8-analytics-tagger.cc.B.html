@@ -1,11 +1,58 @@
-<pre>f8a_tagger_cli.py
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+<style type="text/css">
+.ansi2html-content { display: inline; white-space: pre-wrap; word-wrap: break-word; }
+.body_foreground { color: #AAAAAA; }
+.body_background { background-color: #000000; }
+.body_foreground > .bold,.bold > .body_foreground, body.body_foreground > pre > .bold { color: #FFFFFF; font-weight: normal; }
+.inv_foreground { color: #000000; }
+.inv_background { background-color: #AAAAAA; }
+</style>
+</head>
+<body class="body_foreground body_background" style="font-size: normal;" >
+<pre class="ansi2html-content">
+f8a_tagger_cli.py
     F 133:0 find_diffs - C (18)
     F 27:0 _print_result - B (10)
+f8a_tagger/recipes.py
+    F 216:0 aggregate - C (20)
+    F 25:0 _prepare_lookup - B (6)
+    F 73:0 lookup_file - B (6)
+f8a_tagger/keywords_chief.py
+    M 23:4 KeywordsChief.__init__ - C (18)
+    M 153:4 KeywordsChief.get_keyword - B (9)
+    M 92:4 KeywordsChief.keywords - B (8)
+    M 82:4 KeywordsChief.read_keyword_file - B (6)
+    M 196:4 KeywordsChief.filter_keyword - B (6)
+f8a_tagger/utils.py
+    F 40:0 iter_files - B (9)
+f8a_tagger/tokenizer.py
+    M 24:4 Tokenizer.__init__ - C (14)
+    M 143:4 Tokenizer.tokenize - C (12)
+    C 18:0 Tokenizer - B (6)
+    M 116:4 Tokenizer.remove_stopwords - B (6)
+f8a_tagger/collectors/pypi.py
+    C 18:0 PypiCollector - C (11)
+    M 24:4 PypiCollector.execute - C (11)
+f8a_tagger/collectors/stackoverflow.py
+    C 16:0 StackOverflowCollector - B (10)
+    M 21:4 StackOverflowCollector.execute - B (10)
+f8a_tagger/collectors/maven.py
+    C 25:0 MavenCollector - B (10)
+    M 30:4 MavenCollector.execute - B (10)
+tests/test_scoring.py
+    F 38:0 test_relative_usage_scoring - B (6)
+tests/test_parsers.py
+    F 9:0 test_initial_states - C (12)
 tests/test_tokenizer.py
     F 18:0 test_stopwords_reading - B (6)
     F 56:0 test_remove_stopwords_method - B (6)
-tests/test_parsers.py
-    F 9:0 test_initial_states - C (12)
+tests/test_corpus.py
+    F 72:0 test_load_json_method - B (7)
+    F 57:0 test_load_pickle_method - B (6)
 tests/test_keywords_chief.py
     F 130:0 test_keywords_property - C (11)
     F 265:0 test_filter_keywords - C (11)
@@ -14,53 +61,26 @@ tests/test_keywords_chief.py
     F 250:0 test_extract_keywords - B (8)
     F 35:0 test_keyword_file_check - B (7)
     F 10:0 test_initial_state - B (6)
-tests/test_recipes.py
-    F 133:0 test_aggregate - B (10)
-    F 50:0 test_lookup_file - B (7)
-tests/test_scoring.py
-    F 38:0 test_relative_usage_scoring - B (6)
-tests/test_utils.py
-    F 7:0 test_iter_files - B (8)
-    F 24:0 test_iter_files_negative - B (7)
-tests/test_corpus.py
-    F 72:0 test_load_json_method - B (7)
-    F 57:0 test_load_pickle_method - B (6)
-tests/test_core_parser.py
-    F 13:0 test_parse_method - B (6)
-    F 81:0 test_parse_readme_json_method_negative - B (6)
 tests/test_keywords_set.py
     F 13:0 test_add_method - C (14)
     F 50:0 test_union_method - C (13)
     F 80:0 test_union_method_and_occurrence_count_1 - C (13)
     F 108:0 test_union_method_and_occurrence_count_2 - C (13)
     F 136:0 test_union_method_for_overlapping_data - B (7)
-f8a_tagger/tokenizer.py
-    M 24:4 Tokenizer.__init__ - C (14)
-    M 143:4 Tokenizer.tokenize - C (12)
-    C 18:0 Tokenizer - B (6)
-    M 116:4 Tokenizer.remove_stopwords - B (6)
-f8a_tagger/utils.py
-    F 40:0 iter_files - B (9)
-f8a_tagger/keywords_chief.py
-    M 23:4 KeywordsChief.__init__ - C (18)
-    M 153:4 KeywordsChief.get_keyword - B (9)
-    M 92:4 KeywordsChief.keywords - B (8)
-    M 82:4 KeywordsChief.read_keyword_file - B (6)
-    M 196:4 KeywordsChief.filter_keyword - B (6)
-f8a_tagger/recipes.py
-    F 216:0 aggregate - C (20)
-    F 25:0 _prepare_lookup - B (6)
-    F 73:0 lookup_file - B (6)
-f8a_tagger/collectors/pypi.py
-    C 18:0 PypiCollector - C (11)
-    M 24:4 PypiCollector.execute - C (11)
-f8a_tagger/collectors/maven.py
-    C 25:0 MavenCollector - B (10)
-    M 30:4 MavenCollector.execute - B (10)
-f8a_tagger/collectors/stackoverflow.py
-    C 16:0 StackOverflowCollector - B (10)
-    M 21:4 StackOverflowCollector.execute - B (10)
+tests/test_utils.py
+    F 7:0 test_iter_files - B (8)
+    F 24:0 test_iter_files_negative - B (7)
+tests/test_core_parser.py
+    F 13:0 test_parse_method - B (6)
+    F 81:0 test_parse_readme_json_method_negative - B (6)
+tests/test_recipes.py
+    F 133:0 test_aggregate - B (10)
+    F 50:0 test_lookup_file - B (7)
 
 45 blocks (classes, functions, methods) analyzed.
 Average complexity: B (9.444444444444445)
+
 </pre>
+</body>
+
+</html>

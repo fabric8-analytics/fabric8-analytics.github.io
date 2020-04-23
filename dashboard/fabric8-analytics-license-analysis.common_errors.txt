@@ -1,13 +1,9 @@
-~/bayesian/dashboard/repositories/fabric8-analytics-license-analysis ~/bayesian/dashboard/repositories/fabric8-analytics-license-analysis
-Already using interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Using base prefix '/usr'
-  No LICENSE.txt / LICENSE found in source
-New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-license-analysis/venv/bin/python3
-Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-license-analysis/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-license-analysis/venv/bin/python3)
-Installing setuptools, pip, wheel...
-done.
-Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2.1.1)
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-license-analysis ~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-license-analysis
+created virtual environment CPython3.6.10.final.0-64 in 151ms
+  creator CPython3Posix(dest=/home/msawood/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-license-analysis/venv, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/msawood/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators PythonActivator,FishActivator,XonshActivator,CShellActivator,PowerShellActivator,BashActivator
+Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2.2.0)
 ----------------------------------------------------
 Checking source files for common errors in following
 directories:
@@ -15,61 +11,61 @@ src
 tests
 ----------------------------------------------------
 
-src/util/data_store/__init__.py
-    Pass
-src/util/data_store/local_filesystem.py
-    Pass
-src/util/data_store/abstract_data_store.py
-    Pass
-src/util/data_store/s3_data_store.py
-    Pass
-src/util/__init__.py
-    Pass
 src/directed_graph.py
     Pass
 src/__init__.py
     Pass
-src/utils.py
+src/stack_license.py
     Pass
 src/rest_api.py
     Pass
-src/stack_license.py
+src/license_analysis.py
     Pass
 src/exceptions.py
     Pass
-src/license_analysis.py
+src/utils.py
     Pass
-tests/test_s3_data_store.py
+src/util/data_store/s3_data_store.py
     Pass
-tests/s3_mocks.py
+src/util/data_store/__init__.py
     Pass
-tests/test_errors_class.py
+src/util/data_store/abstract_data_store.py
     Pass
-tests/test_local_filesystem.py
+src/util/data_store/local_filesystem.py
     Pass
-tests/test_api_v1.py
+src/util/__init__.py
     Pass
 tests/__init__.py
     Pass
-tests/test_license_analysis_representative_licenses.py
-    Pass
-tests/test_directed_graph.py
-    Pass
-tests/test_license_analysis.py
+tests/synonyms/__init__.py
     Pass
 tests/license_graph/__init__.py
     Pass
+tests/conftest.py
+    Pass
+tests/test_license_analysis_representative_licenses.py
+    Pass
+tests/test_license_analysis.py
+    Pass
+tests/s3_mocks.py
+    Pass
 tests/test_vertex.py
-    Pass
-tests/synonyms/__init__.py
-    Pass
-tests/test_stack_license.py
     Pass
 tests/test_stack_license_sanity_check.py
     Pass
-tests/conftest.py
+tests/test_local_filesystem.py
+    Pass
+tests/test_errors_class.py
     Pass
 tests/pandas_mocks.py
     Pass
-~/bayesian/dashboard/repositories/fabric8-analytics-license-analysis
+tests/test_s3_data_store.py
+    Pass
+tests/test_stack_license.py
+    Pass
+tests/test_directed_graph.py
+    Pass
+tests/test_api_v1.py
+    Pass
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-license-analysis
 All checks passed for 28 source files

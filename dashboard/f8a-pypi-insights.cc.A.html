@@ -1,47 +1,19 @@
-<pre>tests/unit_tests/test_constants.py
-    C 9:0 TestImport - A (1)
-    M 12:4 TestImport.test_cloud_constants - A (1)
-    M 16:4 TestImport.test_path_constants - A (1)
-tests/unit_tests/test_train.py
-    M 47:4 TestTraining.test_preprocess_raw_data - A (4)
-    C 44:0 TestTraining - A (3)
-    M 58:4 TestTraining.test_make_user_item_df - A (3)
-    M 68:4 TestTraining.test_format_dict - A (3)
-    M 84:4 TestTraining.test_train_test_split - A (2)
-    F 39:0 mock_validate_manifest_data - A (1)
-tests/unit_tests/test_recommendation_service.py
-    M 111:4 TestRecommendationService.test_companion_recommendation_with_known_transitive_stack - C (14)
-    M 73:4 TestRecommendationService.test_companion_recommendation_with_known_stack - C (13)
-    M 93:4 TestRecommendationService.test_companion_recommendation_with_unknown_stack - C (11)
-    C 54:0 TestRecommendationService - B (9)
-    M 57:4 TestRecommendationService.test_liveness - A (5)
-    M 65:4 TestRecommendationService.test_readiness - A (5)
-    M 23:4 MockHPFScoring.predict - A (3)
-    C 16:0 MockHPFScoring - A (2)
-    F 45:0 api_client - A (1)
-    M 19:4 MockHPFScoring.__init__ - A (1)
-    M 38:4 MockHPFScoring._map_input_to_package_ids - A (1)
-src/recommendation_service.py
-    F 70:0 recommendation - A (4)
-    F 58:0 liveness - A (1)
-    F 64:0 readiness - A (1)
-src/models/predict_model.py
-    M 124:4 HPFScoring.predict - B (9)
-    M 71:4 HPFScoring._get_closest_manifest_file - A (5)
-    M 90:4 HPFScoring._map_input_to_package_ids - A (3)
-    C 39:0 HPFScoring - A (2)
-    M 107:4 HPFScoring._get_packages_from_id - A (2)
-    M 42:4 HPFScoring.__init__ - A (1)
-    M 55:4 HPFScoring._load_model - A (1)
-    M 59:4 HPFScoring._load_package_to_id_map - A (1)
-    M 63:4 HPFScoring._load_id_to_package_map - A (1)
-    M 67:4 HPFScoring._load_manifest_to_id_map - A (1)
-    M 120:4 HPFScoring._sigmoid - A (1)
-tools/check_python_version.py
-    F 19:0 get_expected_version - A (4)
-    F 48:0 compare_versions - A (2)
-    F 59:0 main - A (2)
-    F 43:0 get_actual_version - A (1)
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+<style type="text/css">
+.ansi2html-content { display: inline; white-space: pre-wrap; word-wrap: break-word; }
+.body_foreground { color: #AAAAAA; }
+.body_background { background-color: #000000; }
+.body_foreground > .bold,.bold > .body_foreground, body.body_foreground > pre > .bold { color: #FFFFFF; font-weight: normal; }
+.inv_foreground { color: #000000; }
+.inv_background { background-color: #AAAAAA; }
+</style>
+</head>
+<body class="body_foreground body_background" style="font-size: normal;" >
+<pre class="ansi2html-content">
 training/train.py
     F 287:0 create_git_pr - B (9)
     F 69:0 make_user_item_df - A (4)
@@ -63,7 +35,55 @@ training/train.py
     F 123:0 run_recommender - A (1)
     F 160:0 extra_df - A (1)
     F 268:0 save_obj - A (1)
+src/recommendation_service.py
+    F 70:0 recommendation - A (4)
+    F 58:0 liveness - A (1)
+    F 64:0 readiness - A (1)
+src/models/predict_model.py
+    M 124:4 HPFScoring.predict - B (9)
+    M 71:4 HPFScoring._get_closest_manifest_file - A (5)
+    M 90:4 HPFScoring._map_input_to_package_ids - A (3)
+    C 39:0 HPFScoring - A (2)
+    M 107:4 HPFScoring._get_packages_from_id - A (2)
+    M 42:4 HPFScoring.__init__ - A (1)
+    M 55:4 HPFScoring._load_model - A (1)
+    M 59:4 HPFScoring._load_package_to_id_map - A (1)
+    M 63:4 HPFScoring._load_id_to_package_map - A (1)
+    M 67:4 HPFScoring._load_manifest_to_id_map - A (1)
+    M 120:4 HPFScoring._sigmoid - A (1)
+tests/unit_tests/test_constants.py
+    C 9:0 TestImport - A (1)
+    M 12:4 TestImport.test_cloud_constants - A (1)
+    M 16:4 TestImport.test_path_constants - A (1)
+tests/unit_tests/test_recommendation_service.py
+    M 111:4 TestRecommendationService.test_companion_recommendation_with_known_transitive_stack - C (14)
+    M 73:4 TestRecommendationService.test_companion_recommendation_with_known_stack - C (13)
+    M 93:4 TestRecommendationService.test_companion_recommendation_with_unknown_stack - C (11)
+    C 54:0 TestRecommendationService - B (9)
+    M 57:4 TestRecommendationService.test_liveness - A (5)
+    M 65:4 TestRecommendationService.test_readiness - A (5)
+    M 23:4 MockHPFScoring.predict - A (3)
+    C 16:0 MockHPFScoring - A (2)
+    F 45:0 api_client - A (1)
+    M 19:4 MockHPFScoring.__init__ - A (1)
+    M 38:4 MockHPFScoring._map_input_to_package_ids - A (1)
+tests/unit_tests/test_train.py
+    M 47:4 TestTraining.test_preprocess_raw_data - A (4)
+    C 44:0 TestTraining - A (3)
+    M 58:4 TestTraining.test_make_user_item_df - A (3)
+    M 68:4 TestTraining.test_format_dict - A (3)
+    M 84:4 TestTraining.test_train_test_split - A (2)
+    F 39:0 mock_validate_manifest_data - A (1)
+tools/check_python_version.py
+    F 19:0 get_expected_version - A (4)
+    F 48:0 compare_versions - A (2)
+    F 59:0 main - A (2)
+    F 43:0 get_actual_version - A (1)
 
 58 blocks (classes, functions, methods) analyzed.
 Average complexity: A (3.103448275862069)
+
 </pre>
+</body>
+
+</html>

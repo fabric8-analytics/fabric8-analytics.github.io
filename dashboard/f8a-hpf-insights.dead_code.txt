@@ -1,4 +1,4 @@
-~/bayesian/dashboard/repositories/f8a-hpf-insights ~/bayesian/dashboard/repositories/f8a-hpf-insights
+~/fabric8-analytics-common/dashboard/repositories/f8a-hpf-insights ~/fabric8-analytics-common/dashboard/repositories/f8a-hpf-insights
 ----------------------------------------------------
 Checking source files for dead code and unused imports
 in following directories:
@@ -11,20 +11,16 @@ PoC_code
 tools
 ----------------------------------------------------
 
-Already using interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Using base prefix '/usr'
-  No LICENSE.txt / LICENSE found in source
-New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-hpf-insights/venv/bin/python3
-Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-hpf-insights/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/f8a-hpf-insights/venv/bin/python3)
-Installing setuptools, pip, wheel...
-done.
-Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages (1.1)
+created virtual environment CPython3.6.10.final.0-64 in 153ms
+  creator CPython3Posix(dest=/home/msawood/fabric8-analytics-common/dashboard/repositories/f8a-hpf-insights/venv, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/msawood/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators PythonActivator,FishActivator,XonshActivator,CShellActivator,PowerShellActivator,BashActivator
+Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages (1.4)
+src/flask_endpoint.py
+    Pass
 src/__init__.py
     Pass
 src/utils.py
-    Pass
-src/flask_endpoint.py
     Pass
 src/scoring/__init__.py
     Pass
@@ -34,17 +30,17 @@ deployments/__init__.py
     Pass
 tests/__init__.py
     Pass
+tests/test_data/__init__.py
+    Pass
+tests/test_data/maven/scoring/__init__.py
+    Pass
+tests/unit_tests/__init__.py
+    Pass
 tests/unit_tests/test_flask_endpoint.py
     Pass
 tests/unit_tests/test_scoring_hpf_scoring.py
     Pass
-tests/unit_tests/__init__.py
-    Pass
 tests/unit_tests/test_utils.py
-    Pass
-tests/test_data/__init__.py
-    Pass
-tests/test_data/maven/scoring/__init__.py
     Pass
 training/train.py
     Pass
@@ -56,5 +52,5 @@ PoC_code/__init__.py
     Pass
 tools/check_python_version.py
     Pass
-~/bayesian/dashboard/repositories/f8a-hpf-insights
+~/fabric8-analytics-common/dashboard/repositories/f8a-hpf-insights
 All checks passed for 18 source files

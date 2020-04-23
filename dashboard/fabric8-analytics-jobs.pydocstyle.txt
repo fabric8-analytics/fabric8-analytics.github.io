@@ -1,4 +1,4 @@
-~/bayesian/dashboard/repositories/fabric8-analytics-jobs ~/bayesian/dashboard/repositories/fabric8-analytics-jobs
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-jobs ~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-jobs
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
@@ -7,35 +7,31 @@ tests
 tools
 ----------------------------------------------------
 
-Already using interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Using base prefix '/usr'
-  No LICENSE.txt / LICENSE found in source
-New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-jobs/venv/bin/python3
-Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-jobs/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-jobs/venv/bin/python3)
-Installing setuptools, pip, wheel...
-done.
-Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (4.0.1)
-Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.9.1)
-f8a_jobs/auth.py
+created virtual environment CPython3.6.10.final.0-64 in 146ms
+  creator CPython3Posix(dest=/home/msawood/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-jobs/venv, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/msawood/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators PythonActivator,FishActivator,XonshActivator,CShellActivator,PowerShellActivator,BashActivator
+Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (5.0.2)
+Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (2.0.0)
+f8a_jobs/analyses_report.py
 0
     Pass
 f8a_jobs/models.py
 0
     Pass
+f8a_jobs/__init__.py
+0
+    Pass
 f8a_jobs/scheduler.py
 0
     Pass
-f8a_jobs/__init__.py
+f8a_jobs/auth.py
 0
     Pass
 f8a_jobs/utils.py
 0
     Pass
-f8a_jobs/error.py
-0
-    Pass
-f8a_jobs/analyses_report.py
+f8a_jobs/defaults.py
 0
     Pass
 f8a_jobs/api_v1.py
@@ -44,19 +40,55 @@ f8a_jobs/api_v1.py
 f8a_jobs/graph_sync.py
 0
     Pass
-f8a_jobs/handlers/aggregate_crowd_source_tags.py
+f8a_jobs/error.py
+0
+    Pass
+f8a_jobs/handlers/python_popular_analyses.py
+0
+    Pass
+f8a_jobs/handlers/clean_postgres.py
+0
+    Pass
+f8a_jobs/handlers/golang_popular_analyses.py
+0
+    Pass
+f8a_jobs/handlers/__init__.py
 0
     Pass
 f8a_jobs/handlers/npm_popular_analyses.py
 0
     Pass
+f8a_jobs/handlers/invoke_graph_sync.py
+0
+    Pass
+f8a_jobs/handlers/sync_to_graph.py
+0
+    Pass
 f8a_jobs/handlers/maven_popular_analyses.py
+0
+    Pass
+f8a_jobs/handlers/aggregate_github_manifest_pkgs.py
 0
     Pass
 f8a_jobs/handlers/github_manifests.py
 0
     Pass
-f8a_jobs/handlers/__init__.py
+f8a_jobs/handlers/kronos_data_update.py
+0
+    Pass
+f8a_jobs/handlers/maven_releases.py
+0
+    Pass
+f8a_jobs/handlers/aggregate_topics.py
+0
+    Pass
+f8a_jobs/handlers/flow.py
+0
+    Pass
+f8a_jobs/handlers/selective_flow.py
+0
+    Pass
+f8a_jobs/handlers/nuget_popular_analyses.py
 0
     Pass
 f8a_jobs/handlers/github_most_starred.py
@@ -65,82 +97,91 @@ f8a_jobs/handlers/github_most_starred.py
 f8a_jobs/handlers/error.py
 0
     Pass
-f8a_jobs/handlers/nuget_popular_analyses.py
-0
-    Pass
-f8a_jobs/handlers/flow.py
-0
-    Pass
-f8a_jobs/handlers/python_popular_analyses.py
-0
-    Pass
-f8a_jobs/handlers/sync_to_graph.py
-0
-    Pass
-f8a_jobs/handlers/kronos_data_update.py
-0
-    Pass
-f8a_jobs/handlers/aggregate_github_manifest_pkgs.py
-0
-    Pass
-f8a_jobs/handlers/clean_postgres.py
-0
-    Pass
 f8a_jobs/handlers/book_keeping.py
+0
+    Pass
+f8a_jobs/handlers/aggregate_crowd_source_tags.py
 0
     Pass
 f8a_jobs/handlers/base.py
 0
     Pass
-f8a_jobs/handlers/golang_popular_analyses.py
-0
-    Pass
-f8a_jobs/handlers/selective_flow.py
-0
-    Pass
-f8a_jobs/handlers/aggregate_topics.py
-0
-    Pass
-f8a_jobs/handlers/invoke_graph_sync.py
-0
-    Pass
-f8a_jobs/handlers/maven_releases.py
-0
-    Pass
-f8a_jobs/defaults.py
-0
-    Pass
-tests/test_models.py
-0
-    Pass
-tests/test_api_v1.py
-0
-    Pass
-tests/test_auth.py
-0
-    Pass
-tests/__init__.py
-0
-    Pass
-tests/test_defaults.py
-0
-    Pass
-tests/test_utils.py
+tests/test_error.py
 0
     Pass
 tests/test_graph_sync.py
 0
     Pass
+tests/__init__.py
+0
+    Pass
+tests/test_auth.py
+0
+    Pass
+tests/test_analyses_report.py
+0
+    Pass
+tests/test_defaults.py
+0
+    Pass
+tests/test_models.py
+0
+    Pass
 tests/test_scheduler.py
 0
     Pass
-tests/test_error.py
+tests/test_utils.py
+0
+    Pass
+tests/handlers/test_maven_releases.py
+0
+    Pass
+tests/handlers/test_error.py
+0
+    Pass
+tests/handlers/test_invoke_graph_sync.py
+0
+    Pass
+tests/handlers/__init__.py
+0
+    Pass
+tests/handlers/test_github_manifests.py
+0
+    Pass
+tests/handlers/test_npm_popular_analyses.py
+0
+    Pass
+tests/handlers/test_flow.py
+0
+    Pass
+tests/handlers/test_sync_to_graph.py
+0
+    Pass
+tests/handlers/test_maven_popular_analyses.py
+0
+    Pass
+tests/handlers/test_aggregate_topics.py
+0
+    Pass
+tests/handlers/test_golang_popular_analyses.py
 0
     Pass
 tests/handlers/test_kronos_data_update.py
 0
     Pass
+tests/handlers/test_aggregate_crowd_source_tags.py
+0
+    Pass
+tests/handlers/test_base_handler.py
+0
+    Pass
 tests/handlers/test_selective_flow.py
+0
+    Pass
+tests/handlers/test_clean_postgres.py
+0
+    Pass
+tests/handlers/test_aggregate_github_manifest_pkgs.py
 0
     Pass
 tests/handlers/test_book_keeping.py
@@ -149,58 +190,13 @@ tests/handlers/test_book_keeping.py
 tests/handlers/test_nuget_popular_analyses.py
 0
     Pass
-tests/handlers/test_github_manifests.py
-0
-    Pass
-tests/handlers/test_maven_releases.py
-0
-    Pass
-tests/handlers/test_clean_postgres.py
-0
-    Pass
-tests/handlers/__init__.py
-0
-    Pass
-tests/handlers/test_aggregate_github_manifest_pkgs.py
-0
-    Pass
-tests/handlers/test_aggregate_topics.py
-0
-    Pass
-tests/handlers/test_sync_to_graph.py
-0
-    Pass
-tests/handlers/test_invoke_graph_sync.py
-0
-    Pass
-tests/handlers/test_golang_popular_analyses.py
-0
-    Pass
-tests/handlers/test_flow.py
-0
-    Pass
 tests/handlers/test_github_most_starred.py
 0
     Pass
 tests/handlers/test_python_popular_analyses.py
 0
     Pass
-tests/handlers/test_base_handler.py
-0
-    Pass
-tests/handlers/test_aggregate_crowd_source_tags.py
-0
-    Pass
-tests/handlers/test_npm_popular_analyses.py
-0
-    Pass
-tests/handlers/test_error.py
-0
-    Pass
-tests/handlers/test_maven_popular_analyses.py
-0
-    Pass
-tests/test_analyses_report.py
+tests/test_api_v1.py
 0
     Pass
 tools/check_python_version.py
@@ -218,5 +214,5 @@ f8a-jobs.py
 setup.py
 0
     Pass
-~/bayesian/dashboard/repositories/fabric8-analytics-jobs
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-jobs
 All checks passed for 65 source files

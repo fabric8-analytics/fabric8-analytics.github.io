@@ -1,4 +1,4 @@
-~/bayesian/dashboard/repositories/fabric8-analytics-data-model ~/bayesian/dashboard/repositories/fabric8-analytics-data-model
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-data-model ~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-data-model
 ----------------------------------------------------
 Running Python linter against following directories:
 src
@@ -6,60 +6,56 @@ test
 tools
 ----------------------------------------------------
 
-Already using interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Using base prefix '/usr'
-  No LICENSE.txt / LICENSE found in source
-New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-data-model/venv/bin/python3
-Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-data-model/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-data-model/venv/bin/python3)
-Installing setuptools, pip, wheel...
-done.
-Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+created virtual environment CPython3.6.10.final.0-64 in 273ms
+  creator CPython3Posix(dest=/home/msawood/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-data-model/venv, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/msawood/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators PythonActivator,FishActivator,XonshActivator,CShellActivator,PowerShellActivator,BashActivator
 Requirement already satisfied: pycodestyle in ./venv/lib/python3.6/site-packages (2.5.0)
-src/graph_populator.py
-    Pass
-src/__init__.py
-    Pass
-src/utils.py
-    Pass
-src/rest_api.py
-    Pass
-src/data_source/__init__.py
-    Pass
-src/data_source/abstract_data_source.py
-    Pass
-src/data_source/s3_data_source.py
-    Pass
-src/graph_manager.py
+src/data_importer.py
     Pass
 src/config.py
     Pass
-src/data_importer.py
+src/__init__.py
+    Pass
+src/rest_api.py
+    Pass
+src/graph_populator.py
+    Pass
+src/utils.py
     Pass
 src/cve.py
     Pass
-test/test_rest_api.py
+src/data_source/__init__.py
     Pass
-test/test_graph_properties.py
+src/data_source/s3_data_source.py
     Pass
-test/test_postgres_handler.py
+src/data_source/abstract_data_source.py
     Pass
-test/test_insertion_from_minio.py
-    Pass
-test/test_init.py
-    Pass
-test/test_cve.py
+src/graph_manager.py
     Pass
 test/test_data_importer.py
     Pass
-test/test_s3_data_source.py
-    Pass
-test/test_utils.py
-    Pass
-test/test_graph_manager.py
+test/test_init.py
     Pass
 test/conftest.py
     Pass
+test/test_postgres_handler.py
+    Pass
+test/test_s3_data_source.py
+    Pass
+test/test_rest_api.py
+    Pass
+test/test_insertion_from_minio.py
+    Pass
+test/test_graph_properties.py
+    Pass
 test/test_graph_populator.py
+    Pass
+test/test_graph_manager.py
+    Pass
+test/test_utils.py
+    Pass
+test/test_cve.py
     Pass
 tools/check_python_version.py
     Pass
@@ -77,4 +73,4 @@ populate_schema.py
 setup.py
     Pass
 All checks passed for 27 source files
-~/bayesian/dashboard/repositories/fabric8-analytics-data-model
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-data-model

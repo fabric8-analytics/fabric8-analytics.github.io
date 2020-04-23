@@ -1,4 +1,4 @@
-~/bayesian/dashboard/repositories/fabric8-analytics-github-events-monitor ~/bayesian/dashboard/repositories/fabric8-analytics-github-events-monitor
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-github-events-monitor ~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-github-events-monitor
 ----------------------------------------------------
 Running Python linter against following directories:
 ghmonitor
@@ -6,31 +6,31 @@ tests
 tools
 ----------------------------------------------------
 
-ghmonitor/monitor.py
-    Pass
 ghmonitor/models.py
     Pass
-ghmonitor/__init__.py
-    Pass
-ghmonitor/utils.py
-    Pass
 ghmonitor/backend.py
+    Pass
+ghmonitor/__init__.py
     Pass
 ghmonitor/gopkg/__init__.py
     Pass
 ghmonitor/gopkg/translate.py
     Pass
-tests/test_models.py
+ghmonitor/monitor.py
+    Pass
+ghmonitor/utils.py
     Pass
 tests/test_monitor.py
     Pass
 tests/__init__.py
     Pass
-tests/test_utils.py
-    Pass
 tests/gopkg/test_translate.py
     Pass
+tests/test_models.py
+    Pass
 tests/test_backend.py
+    Pass
+tests/test_utils.py
     Pass
 tools/check_python_version.py
     Pass
@@ -42,4 +42,4 @@ run.py
 run.py
     Pass
 All checks passed for 15 source files
-~/bayesian/dashboard/repositories/fabric8-analytics-github-events-monitor
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-github-events-monitor

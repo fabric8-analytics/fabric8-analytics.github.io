@@ -1,7 +1,19 @@
-<pre>tests/test_utils.py
-    M 49:4 TestUtilFunctions.test_parse_dates_return_value - B (6)
-tests/handlers/test_aggregate_crowd_source_tags.py
-    M 43:4 TestCrowdSourceTags.test_filter_user_tags_double_pkg - B (7)
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+<style type="text/css">
+.ansi2html-content { display: inline; white-space: pre-wrap; word-wrap: break-word; }
+.body_foreground { color: #AAAAAA; }
+.body_background { background-color: #000000; }
+.body_foreground > .bold,.bold > .body_foreground, body.body_foreground > pre > .bold { color: #FFFFFF; font-weight: normal; }
+.inv_foreground { color: #000000; }
+.inv_background { background-color: #AAAAAA; }
+</style>
+</head>
+<body class="body_foreground body_background" style="font-size: normal;" >
+<pre class="ansi2html-content">
 f8a_jobs/models.py
     M 54:4 JobToken.verify - B (6)
 f8a_jobs/scheduler.py
@@ -12,52 +24,60 @@ f8a_jobs/utils.py
 f8a_jobs/api_v1.py
     F 148:0 get_jobs - B (9)
     F 45:0 authorized - B (8)
-f8a_jobs/handlers/aggregate_crowd_source_tags.py
-    M 14:4 AggregateCrowdSourceTags.execute - B (6)
-f8a_jobs/handlers/maven_popular_analyses.py
-    M 53:4 MavenPopularAnalyses._projects_from - B (9)
-    M 129:4 MavenPopularAnalyses._use_maven_index_checker - B (8)
-    M 29:4 MavenPopularAnalyses._find_versions - B (6)
-f8a_jobs/handlers/github_manifests.py
-    C 8:0 GitHubManifests - B (6)
-    M 13:4 GitHubManifests.execute - B (6)
-f8a_jobs/handlers/github_most_starred.py
-    M 48:4 GitHubMostStarred.get_most_starred_repositories - B (7)
-    M 122:4 GitHubMostStarred.do_execute - B (6)
-f8a_jobs/handlers/nuget_popular_analyses.py
-    M 17:4 NugetPopularAnalyses._scrape_nuget_org - C (14)
-    C 11:0 NugetPopularAnalyses - B (8)
 f8a_jobs/handlers/python_popular_analyses.py
     M 58:4 PythonPopularAnalyses._use_pypi_ranking - B (7)
-f8a_jobs/handlers/sync_to_graph.py
-    C 10:0 SyncToGraph - B (7)
-    M 15:4 SyncToGraph.execute - B (7)
-f8a_jobs/handlers/kronos_data_update.py
-    M 97:4 KronosDataUpdater._processing - B (9)
-f8a_jobs/handlers/aggregate_github_manifest_pkgs.py
-    M 11:4 AggregateGitHubManifestPackages.execute - B (9)
 f8a_jobs/handlers/clean_postgres.py
     M 27:4 CleanPostgres._clean_package_version_data - C (15)
     M 92:4 CleanPostgres._clean_package_data - C (15)
     C 12:0 CleanPostgres - C (11)
-f8a_jobs/handlers/book_keeping.py
-    M 136:4 BookKeeping.retrieve_bookkeeping_upstreams - B (7)
-f8a_jobs/handlers/base.py
-    M 209:4 AnalysesBaseHandler.parse_count - B (8)
-    M 164:4 AnalysesBaseHandler.ecosystem2handler_name - B (6)
 f8a_jobs/handlers/golang_popular_analyses.py
     M 31:4 GolangPopularAnalyses._popular_packages - B (10)
     M 14:4 GolangPopularAnalyses._get_latest_commit - B (7)
     C 8:0 GolangPopularAnalyses - B (6)
-f8a_jobs/handlers/aggregate_topics.py
-    M 28:4 AggregateTopics.execute - C (11)
-    C 13:0 AggregateTopics - B (6)
 f8a_jobs/handlers/invoke_graph_sync.py
     M 68:4 InvokeGraphSync.execute - B (6)
+f8a_jobs/handlers/sync_to_graph.py
+    C 10:0 SyncToGraph - B (7)
+    M 15:4 SyncToGraph.execute - B (7)
+f8a_jobs/handlers/maven_popular_analyses.py
+    M 53:4 MavenPopularAnalyses._projects_from - B (9)
+    M 129:4 MavenPopularAnalyses._use_maven_index_checker - B (8)
+    M 29:4 MavenPopularAnalyses._find_versions - B (6)
+f8a_jobs/handlers/aggregate_github_manifest_pkgs.py
+    M 11:4 AggregateGitHubManifestPackages.execute - B (9)
+f8a_jobs/handlers/github_manifests.py
+    C 8:0 GitHubManifests - B (6)
+    M 13:4 GitHubManifests.execute - B (6)
+f8a_jobs/handlers/kronos_data_update.py
+    M 97:4 KronosDataUpdater._processing - B (9)
 f8a_jobs/handlers/maven_releases.py
     C 15:0 MavenReleasesAnalyses - B (8)
     M 18:4 MavenReleasesAnalyses.execute - B (8)
+f8a_jobs/handlers/aggregate_topics.py
+    M 28:4 AggregateTopics.execute - C (11)
+    C 13:0 AggregateTopics - B (6)
+f8a_jobs/handlers/nuget_popular_analyses.py
+    M 17:4 NugetPopularAnalyses._scrape_nuget_org - C (14)
+    C 11:0 NugetPopularAnalyses - B (8)
+f8a_jobs/handlers/github_most_starred.py
+    M 48:4 GitHubMostStarred.get_most_starred_repositories - B (7)
+    M 122:4 GitHubMostStarred.do_execute - B (6)
+f8a_jobs/handlers/book_keeping.py
+    M 136:4 BookKeeping.retrieve_bookkeeping_upstreams - B (7)
+f8a_jobs/handlers/aggregate_crowd_source_tags.py
+    M 14:4 AggregateCrowdSourceTags.execute - B (6)
+f8a_jobs/handlers/base.py
+    M 209:4 AnalysesBaseHandler.parse_count - B (8)
+    M 164:4 AnalysesBaseHandler.ecosystem2handler_name - B (6)
+tests/test_utils.py
+    M 49:4 TestUtilFunctions.test_parse_dates_return_value - B (6)
+tests/handlers/test_aggregate_crowd_source_tags.py
+    M 43:4 TestCrowdSourceTags.test_filter_user_tags_double_pkg - B (7)
 
 37 blocks (classes, functions, methods) analyzed.
 Average complexity: B (8.297297297297296)
+
 </pre>
+</body>
+
+</html>

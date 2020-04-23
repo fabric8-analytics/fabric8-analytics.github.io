@@ -1,4 +1,4 @@
-~/bayesian/dashboard/repositories/fabric8-analytics-server ~/bayesian/dashboard/repositories/fabric8-analytics-server
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-server ~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-server
 ----------------------------------------------------
 Running Python linter against following directories:
 bayesian
@@ -7,56 +7,52 @@ tests
 tools
 ----------------------------------------------------
 
-Already using interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Using base prefix '/usr'
-  No LICENSE.txt / LICENSE found in source
-New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-server/venv/bin/python3
-Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-server/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-server/venv/bin/python3)
-Installing setuptools, pip, wheel...
-done.
-Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+created virtual environment CPython3.6.10.final.0-64 in 215ms
+  creator CPython3Posix(dest=/home/msawood/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-server/venv, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/msawood/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators PythonActivator,FishActivator,XonshActivator,CShellActivator,PowerShellActivator,BashActivator
 Requirement already satisfied: pycodestyle in ./venv/lib/python3.6/site-packages (2.5.0)
-bayesian/auth.py
-    Pass
-bayesian/dependency_finder.py
-    Pass
-bayesian/default_config.py
+bayesian/generate_manifest.py
     Pass
 bayesian/__init__.py
     Pass
-bayesian/utils.py
-    Pass
 bayesian/manifest_models.py
     Pass
-bayesian/generate_manifest.py
+bayesian/default_config.py
     Pass
-bayesian/api_v1.py
+bayesian/auth.py
     Pass
 bayesian/exceptions.py
     Pass
+bayesian/utils.py
+    Pass
 bayesian/license_extractor.py
+    Pass
+bayesian/dependency_finder.py
+    Pass
+bayesian/api_v1.py
     Pass
 hack/auth_test_fixtures/generate_auth_token.py
     Pass
-tests/test_manifest_models.py
-    Pass
-tests/appconfig.py
-    Pass
-tests/test_api_v1.py
-    Pass
-tests/test_auth.py
+tests/__init__.py
     Pass
 tests/test_generate_manifest.py
     Pass
-tests/__init__.py
+tests/test_auth.py
     Pass
-tests/test_depencency_finder.py
+tests/conftest.py
     Pass
-tests/test_utils.py
+tests/test_manifest_models.py
     Pass
 tests/test_license_extractor.py
     Pass
-tests/conftest.py
+tests/appconfig.py
+    Pass
+tests/test_utils.py
+    Pass
+tests/test_depencency_finder.py
+    Pass
+tests/test_api_v1.py
     Pass
 tools/check_python_version.py
     Pass
@@ -68,4 +64,4 @@ setup.py
 setup.py
     Pass
 All checks passed for 23 source files
-~/bayesian/dashboard/repositories/fabric8-analytics-server
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-server

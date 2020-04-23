@@ -1,20 +1,30 @@
-<pre>setup.py
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+<style type="text/css">
+.ansi2html-content { display: inline; white-space: pre-wrap; word-wrap: break-word; }
+.body_foreground { color: #AAAAAA; }
+.body_background { background-color: #000000; }
+.body_foreground > .bold,.bold > .body_foreground, body.body_foreground > pre > .bold { color: #FFFFFF; font-weight: normal; }
+.inv_foreground { color: #000000; }
+.inv_background { background-color: #AAAAAA; }
+</style>
+</head>
+<body class="body_foreground body_background" style="font-size: normal;" >
+<pre class="ansi2html-content">
+setup.py
     F 7:0 get_requirements - A (5)
-tests/test_database.py
-    F 105:0 test_merge - A (5)
-    F 37:0 test_java_vulnerabilities - A (4)
-    F 49:0 test_javascript_vulnerabilities - A (4)
-    F 61:0 test_python_vulnerabilities - A (4)
-    F 97:0 test_contains - A (4)
-    F 129:0 test_read_yamls_from_git_url - A (4)
-    F 13:0 test_basic - A (3)
-    F 21:0 test_basic_unknown_package - A (3)
-    F 29:0 test_improper_yaml_parsing - A (3)
-    F 79:0 test_getitem - A (3)
-    F 88:0 test_iter - A (3)
-    F 118:0 test_merge_dont_keep_ours - A (3)
-    F 7:0 test_from_dir - A (2)
-    F 73:0 test_len - A (2)
+tests/conftest.py
+    F 10:0 db_small_path - A (1)
+    F 16:0 db_path_with_improper_files - A (1)
+    F 22:0 db_python_only - A (1)
+    F 28:0 java_record_path - A (1)
+    F 34:0 python_record_path - A (1)
+    F 40:0 invalid_record_path - A (1)
+    F 46:0 unparseable_record_path - A (1)
+    F 52:0 git_url - A (1)
 tests/test_model.py
     F 28:0 test_version_range_improper_version - C (13)
     F 105:0 test_record_java - C (12)
@@ -33,31 +43,24 @@ tests/test_model.py
     F 145:0 test_invalid_yaml - A (2)
     F 184:0 test_affected_repr - A (2)
     F 192:0 test_version_range_repr - A (2)
-tests/conftest.py
-    F 10:0 db_small_path - A (1)
-    F 16:0 db_path_with_improper_files - A (1)
-    F 22:0 db_python_only - A (1)
-    F 28:0 java_record_path - A (1)
-    F 34:0 python_record_path - A (1)
-    F 40:0 invalid_record_path - A (1)
-    F 46:0 unparseable_record_path - A (1)
-    F 52:0 git_url - A (1)
-victimsdb_lib/database.py
-    M 42:4 VictimsDB.cves_for - B (7)
-    M 71:4 VictimsDB.from_dir - B (6)
-    M 103:4 VictimsDB.__contains__ - A (5)
-    M 65:4 VictimsDB._merge_ecosystem - A (4)
-    M 113:4 VictimsDB.__getitem__ - A (4)
-    C 14:0 VictimsDB - A (3)
-    M 120:4 VictimsDB.__iter__ - A (3)
-    M 17:4 VictimsDB.__init__ - A (2)
-    M 55:4 VictimsDB.merge - A (2)
-    M 94:4 VictimsDB.from_git_url - A (2)
-    M 128:4 VictimsDB.__len__ - A (2)
-    M 21:4 VictimsDB.java_vulnerabilities - A (1)
-    M 28:4 VictimsDB.javascript_vulnerabilities - A (1)
-    M 35:4 VictimsDB.python_vulnerabilities - A (1)
-    M 134:4 VictimsDB.__bool__ - A (1)
+tests/test_database.py
+    F 105:0 test_merge - A (5)
+    F 37:0 test_java_vulnerabilities - A (4)
+    F 49:0 test_javascript_vulnerabilities - A (4)
+    F 61:0 test_python_vulnerabilities - A (4)
+    F 97:0 test_contains - A (4)
+    F 129:0 test_read_yamls_from_git_url - A (4)
+    F 13:0 test_basic - A (3)
+    F 21:0 test_basic_unknown_package - A (3)
+    F 29:0 test_improper_yaml_parsing - A (3)
+    F 79:0 test_getitem - A (3)
+    F 88:0 test_iter - A (3)
+    F 118:0 test_merge_dont_keep_ours - A (3)
+    F 7:0 test_from_dir - A (2)
+    F 73:0 test_len - A (2)
+victimsdb_lib/errors.py
+    C 4:0 VictimsDBError - A (1)
+    C 8:0 ParseError - A (1)
 victimsdb_lib/model.py
     M 13:4 Record.__init__ - B (7)
     M 154:4 VersionRange.__contains__ - B (7)
@@ -79,9 +82,22 @@ victimsdb_lib/model.py
     M 106:4 Affected.__repr__ - A (1)
     M 148:4 VersionRange.__str__ - A (1)
     M 151:4 VersionRange.__repr__ - A (1)
-victimsdb_lib/errors.py
-    C 4:0 VictimsDBError - A (1)
-    C 8:0 ParseError - A (1)
+victimsdb_lib/database.py
+    M 42:4 VictimsDB.cves_for - B (7)
+    M 71:4 VictimsDB.from_dir - B (6)
+    M 103:4 VictimsDB.__contains__ - A (5)
+    M 65:4 VictimsDB._merge_ecosystem - A (4)
+    M 113:4 VictimsDB.__getitem__ - A (4)
+    C 14:0 VictimsDB - A (3)
+    M 120:4 VictimsDB.__iter__ - A (3)
+    M 17:4 VictimsDB.__init__ - A (2)
+    M 55:4 VictimsDB.merge - A (2)
+    M 94:4 VictimsDB.from_git_url - A (2)
+    M 128:4 VictimsDB.__len__ - A (2)
+    M 21:4 VictimsDB.java_vulnerabilities - A (1)
+    M 28:4 VictimsDB.javascript_vulnerabilities - A (1)
+    M 35:4 VictimsDB.python_vulnerabilities - A (1)
+    M 134:4 VictimsDB.__bool__ - A (1)
 tools/check_python_version.py
     F 19:0 get_expected_version - A (4)
     F 48:0 compare_versions - A (2)
@@ -90,4 +106,8 @@ tools/check_python_version.py
 
 81 blocks (classes, functions, methods) analyzed.
 Average complexity: A (3.1728395061728394)
+
 </pre>
+</body>
+
+</html>

@@ -1,8 +1,19 @@
-<pre>tests/test_models.py
-    F 6:0 test_event_types_from_str - B (6)
-    F 41:0 test_event_from_non_valid_json - B (6)
-    F 26:0 test_events_comparison - A (4)
-    F 17:0 test_event_parser_returns_event - A (3)
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+<style type="text/css">
+.ansi2html-content { display: inline; white-space: pre-wrap; word-wrap: break-word; }
+.body_foreground { color: #AAAAAA; }
+.body_background { background-color: #000000; }
+.body_foreground > .bold,.bold > .body_foreground, body.body_foreground > pre > .bold { color: #FFFFFF; font-weight: normal; }
+.inv_foreground { color: #000000; }
+.inv_background { background-color: #AAAAAA; }
+</style>
+</head>
+<body class="body_foreground body_background" style="font-size: normal;" >
+<pre class="ansi2html-content">
 tests/test_monitor.py
     F 330:0 test_new_issues - B (10)
     F 278:0 mocked_github_request - B (8)
@@ -11,6 +22,14 @@ tests/test_monitor.py
     F 303:0 test_get_auth_header - A (3)
     F 311:0 test_get_list_of_repos - A (2)
     F 317:0 test_get_list_of_packages - A (2)
+tests/test_models.py
+    F 6:0 test_event_types_from_str - B (6)
+    F 41:0 test_event_from_non_valid_json - B (6)
+    F 26:0 test_events_comparison - A (4)
+    F 17:0 test_event_parser_returns_event - A (3)
+tests/test_backend.py
+    F 10:0 test_get_backend_by_name - A (5)
+    F 24:0 test_get_backend_by_name_invalid - A (2)
 tests/test_utils.py
     F 96:0 test_process_new_events - B (6)
     F 30:0 test_create_monitors - A (4)
@@ -18,32 +37,10 @@ tests/test_utils.py
     C 41:0 MockBackend - A (1)
     M 44:4 MockBackend.__init__ - A (1)
     M 48:4 MockBackend.notify - A (1)
-tests/test_backend.py
-    F 10:0 test_get_backend_by_name - A (5)
-    F 24:0 test_get_backend_by_name_invalid - A (2)
 tests/gopkg/test_translate.py
     F 12:0 test_github_re - B (6)
     F 23:0 test_translate - A (4)
     F 6:0 test_get_repo_urn - A (3)
-tools/check_python_version.py
-    F 19:0 get_expected_version - A (4)
-    F 48:0 compare_versions - A (2)
-    F 59:0 main - A (2)
-    F 43:0 get_actual_version - A (1)
-ghmonitor/monitor.py
-    F 71:0 repository_exists - B (7)
-    F 53:0 github_request - A (3)
-    M 108:4 RepositoryMonitor.get_new_events - A (3)
-    F 25:0 get_auth_header - A (2)
-    F 39:0 get_list_of_repos - A (1)
-    F 46:0 get_list_of_packages - A (1)
-    C 97:0 RepositoryMonitor - A (1)
-    M 100:4 RepositoryMonitor.__init__ - A (1)
-    M 124:4 RepositoryMonitor._new_events_in_set - A (1)
-    M 130:4 RepositoryMonitor.new_issues - A (1)
-    M 138:4 RepositoryMonitor.new_commits - A (1)
-    M 145:4 RepositoryMonitor.new_pull_requests - A (1)
-    M 152:4 RepositoryMonitor.__str__ - A (1)
 ghmonitor/models.py
     M 64:4 Event.from_dict - A (5)
     C 16:0 EventType - A (2)
@@ -54,9 +51,6 @@ ghmonitor/models.py
     M 52:4 Event.__str__ - A (1)
     M 56:4 Event.__eq__ - A (1)
     M 60:4 Event.__hash__ - A (1)
-ghmonitor/utils.py
-    F 34:0 process_new_events - B (7)
-    F 17:0 create_monitors - A (1)
 ghmonitor/backend.py
     F 17:0 get_backend_by_name - A (2)
     F 80:0 create_pr_notification - A (1)
@@ -71,10 +65,36 @@ ghmonitor/backend.py
     C 66:0 SelinonBackend - A (1)
     M 69:4 SelinonBackend.__init__ - A (1)
     M 75:4 SelinonBackend.notify - A (1)
+ghmonitor/monitor.py
+    F 71:0 repository_exists - B (7)
+    F 53:0 github_request - A (3)
+    M 108:4 RepositoryMonitor.get_new_events - A (3)
+    F 25:0 get_auth_header - A (2)
+    F 39:0 get_list_of_repos - A (1)
+    F 46:0 get_list_of_packages - A (1)
+    C 97:0 RepositoryMonitor - A (1)
+    M 100:4 RepositoryMonitor.__init__ - A (1)
+    M 124:4 RepositoryMonitor._new_events_in_set - A (1)
+    M 130:4 RepositoryMonitor.new_issues - A (1)
+    M 138:4 RepositoryMonitor.new_commits - A (1)
+    M 145:4 RepositoryMonitor.new_pull_requests - A (1)
+    M 152:4 RepositoryMonitor.__str__ - A (1)
+ghmonitor/utils.py
+    F 34:0 process_new_events - B (7)
+    F 17:0 create_monitors - A (1)
 ghmonitor/gopkg/translate.py
     F 14:0 get_repo_from_random_urn - A (5)
     F 49:0 translate - A (4)
+tools/check_python_version.py
+    F 19:0 get_expected_version - A (4)
+    F 48:0 compare_versions - A (2)
+    F 59:0 main - A (2)
+    F 43:0 get_actual_version - A (1)
 
 65 blocks (classes, functions, methods) analyzed.
 Average complexity: A (2.5538461538461537)
+
 </pre>
+</body>
+
+</html>

@@ -1,4 +1,4 @@
-~/bayesian/dashboard/repositories/fabric8-analytics-recommender ~/bayesian/dashboard/repositories/fabric8-analytics-recommender
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-recommender ~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-recommender
 ----------------------------------------------------
 Checking source files for dead code and unused imports
 in following directories:
@@ -6,30 +6,30 @@ src
 tools
 ----------------------------------------------------
 
-Already using interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Using base prefix '/usr'
-  No LICENSE.txt / LICENSE found in source
-New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-recommender/venv/bin/python3
-Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-recommender/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-recommender/venv/bin/python3)
-Installing setuptools, pip, wheel...
-done.
-Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages (1.1)
-src/server/unittest/__init__.py
-    Pass
-src/server/recommender_service.py
-    Pass
+created virtual environment CPython3.6.10.final.0-64 in 147ms
+  creator CPython3Posix(dest=/home/msawood/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-recommender/venv, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/msawood/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators PythonActivator,FishActivator,XonshActivator,CShellActivator,PowerShellActivator,BashActivator
+Requirement already satisfied: vulture in ./venv/lib/python3.6/site-packages (1.4)
 src/server/__init__.py
     Pass
 src/server/ghazab_app.py
     Pass
+src/server/unittest/__init__.py
+    Pass
+src/server/recommender_service.py
+    Pass
+src/deployment/spark_aws/job_scheduler.py
+    Pass
+src/deployment/spark_aws/submit_training_job.py
+    Pass
+src/models/__init__.py
+    Pass
+src/models/similarity_with_frequent_patterns/training/gen_ref_stacks.py
+    Pass
 src/models/similarity_with_frequent_patterns/__init__.py
     Pass
 src/models/similarity_with_frequent_patterns/scoring/__init__.py
-    Pass
-src/models/similarity_with_frequent_patterns/scoring/entities/__init__.py
-    Pass
-src/models/similarity_with_frequent_patterns/scoring/entities/entities.py
     Pass
 src/models/similarity_with_frequent_patterns/scoring/similarity/__init__.py
     Pass
@@ -37,17 +37,13 @@ src/models/similarity_with_frequent_patterns/scoring/similarity/semvercomp.py
     Pass
 src/models/similarity_with_frequent_patterns/scoring/similarity/relativesimilarity.py
     Pass
+src/models/similarity_with_frequent_patterns/scoring/entities/__init__.py
+    Pass
+src/models/similarity_with_frequent_patterns/scoring/entities/entities.py
+    Pass
 src/models/similarity_with_frequent_patterns/scoring/db.py
-    Pass
-src/models/similarity_with_frequent_patterns/training/gen_ref_stacks.py
-    Pass
-src/models/__init__.py
-    Pass
-src/deployment/spark_aws/job_scheduler.py
-    Pass
-src/deployment/spark_aws/submit_training_job.py
     Pass
 tools/check_python_version.py
     Pass
-~/bayesian/dashboard/repositories/fabric8-analytics-recommender
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-recommender
 All checks passed for 17 source files

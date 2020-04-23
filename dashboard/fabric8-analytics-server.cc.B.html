@@ -1,5 +1,21 @@
-<pre>tests/test_api_v1.py
-    F 258:0 test_get_item_skip - B (7)
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+<style type="text/css">
+.ansi2html-content { display: inline; white-space: pre-wrap; word-wrap: break-word; }
+.body_foreground { color: #AAAAAA; }
+.body_background { background-color: #000000; }
+.body_foreground > .bold,.bold > .body_foreground, body.body_foreground > pre > .bold { color: #FFFFFF; font-weight: normal; }
+.inv_foreground { color: #000000; }
+.inv_background { background-color: #AAAAAA; }
+</style>
+</head>
+<body class="body_foreground body_background" style="font-size: normal;" >
+<pre class="ansi2html-content">
+tests/test_license_extractor.py
+    F 25:0 test_get_license_synonyms - B (7)
 tests/test_utils.py
     F 446:0 test_get_cves_by_date_ecosystem_add - B (10)
     F 300:0 test_semantic_versioning - B (9)
@@ -8,14 +24,11 @@ tests/test_utils.py
     F 321:0 test_version_info_tuple - B (6)
     F 334:0 test_version_info_tuple_empty_version_obj - B (6)
     F 426:0 test_gremlin_component_analysis_response - B (6)
-tests/test_license_extractor.py
-    F 25:0 test_get_license_synonyms - B (7)
-bayesian/dependency_finder.py
-    M 100:4 DependencyFinder.execute - C (19)
-    M 205:4 DependencyFinder.validate_manifest - B (9)
-    M 33:4 DependencyFinder.get_npm_dependencies - B (8)
-    C 22:0 DependencyFinder - B (7)
-    M 70:4 DependencyFinder.get_npm_transitives - B (7)
+tests/test_api_v1.py
+    F 258:0 test_get_item_skip - B (7)
+bayesian/manifest_models.py
+    M 62:4 MavenPom.add_element - B (10)
+    M 13:4 MavenPom.__init__ - B (8)
 bayesian/utils.py
     F 1202:0 push_repo - C (11)
     F 424:0 get_analyses_from_graph - B (8)
@@ -25,9 +38,14 @@ bayesian/utils.py
     F 290:0 search_packages_from_graph - B (6)
     M 342:4 GraphAnalyses.get_analyses_for_snyk - B (6)
     M 846:4 GithubRead.get_manifest_files - B (6)
-bayesian/manifest_models.py
-    M 62:4 MavenPom.add_element - B (10)
-    M 13:4 MavenPom.__init__ - B (8)
+bayesian/license_extractor.py
+    F 29:0 extract_licenses - C (13)
+bayesian/dependency_finder.py
+    M 100:4 DependencyFinder.execute - C (19)
+    M 205:4 DependencyFinder.validate_manifest - B (9)
+    M 33:4 DependencyFinder.get_npm_dependencies - B (8)
+    C 22:0 DependencyFinder - B (7)
+    M 70:4 DependencyFinder.get_npm_transitives - B (7)
 bayesian/api_v1.py
     M 751:4 StackAnalyses.post - D (29)
     C 382:0 StackAnalysesGET - C (19)
@@ -45,9 +63,11 @@ bayesian/api_v1.py
     M 686:4 SetTagsToComponent.post - B (7)
     C 1051:0 EmptyBooster - B (7)
     M 1056:4 EmptyBooster.post - B (7)
-bayesian/license_extractor.py
-    F 29:0 extract_licenses - C (13)
 
 41 blocks (classes, functions, methods) analyzed.
 Average complexity: B (9.268292682926829)
+
 </pre>
+</body>
+
+</html>

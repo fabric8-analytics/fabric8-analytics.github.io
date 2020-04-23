@@ -1,34 +1,31 @@
-<pre>setup.py
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+<style type="text/css">
+.ansi2html-content { display: inline; white-space: pre-wrap; word-wrap: break-word; }
+.body_foreground { color: #AAAAAA; }
+.body_background { background-color: #000000; }
+.body_foreground > .bold,.bold > .body_foreground, body.body_foreground > pre > .bold { color: #FFFFFF; font-weight: normal; }
+.inv_foreground { color: #000000; }
+.inv_background { background-color: #AAAAAA; }
+</style>
+</head>
+<body class="body_foreground body_background" style="font-size: normal;" >
+<pre class="ansi2html-content">
+setup.py
     F 9:0 get_requirements - A (2)
-f8a_worker/object_cache.py
-    M 110:4 EPVCache._construct_source_tarball_names - A (4)
-    M 76:4 EPVCache._get_meta - A (3)
-    M 167:4 EPVCache.get_extracted_source_tarball - A (3)
-    M 214:4 EPVCache.get_extracted_source_jar - A (3)
-    M 245:4 EPVCache.get_sources - A (3)
-    M 258:4 EPVCache.has_sources - A (3)
-    M 299:4 ObjectCache.get - A (3)
-    M 29:4 EPVCache.__init__ - A (2)
-    M 67:4 EPVCache._retrieve_s3_object - A (2)
-    M 122:4 EPVCache._get_object_cached - A (2)
-    M 147:4 EPVCache.has_source_tarball - A (2)
-    M 287:4 ObjectCache.wipe - A (2)
-    C 14:0 EPVCache - A (1)
-    M 89:4 EPVCache._has_meta - A (1)
-    M 99:4 EPVCache._put_meta - A (1)
-    M 133:4 EPVCache.remove_files - A (1)
-    M 139:4 EPVCache.get_source_tarball - A (1)
-    M 158:4 EPVCache.put_source_tarball - A (1)
-    M 186:4 EPVCache.get_pom_xml - A (1)
-    M 193:4 EPVCache.put_pom_xml - A (1)
-    M 200:4 EPVCache.has_pom_xml - A (1)
-    M 207:4 EPVCache.get_source_jar - A (1)
-    M 231:4 EPVCache.put_source_jar - A (1)
-    M 238:4 EPVCache.has_source_jar - A (1)
-    C 273:0 ObjectCache - A (1)
-    M 283:4 ObjectCache.__init__ - A (1)
-    M 294:4 ObjectCache._cache_dir - A (1)
-    M 316:4 ObjectCache.get_from_dict - A (1)
+f8a_worker/graphutils.py
+    F 58:0 get_stack_popularity_data_graph - B (8)
+    F 215:0 create_package_dict - B (8)
+    F 28:0 get_stack_usage_data_graph - B (6)
+    F 304:0 select_latest_version - B (6)
+    F 97:0 extract_component_details - A (3)
+    F 171:0 aggregate_stack_data - A (3)
+    F 324:0 update_properties - A (3)
+    F 363:0 create_nodes - A (3)
+    F 197:0 get_osio_user_count - A (2)
 f8a_worker/models.py
     M 67:4 BayesianModelMixin.get_or_create - A (4)
     C 28:0 BayesianModelMixin - A (3)
@@ -67,16 +64,63 @@ f8a_worker/models.py
     C 374:0 APIRequests - A (1)
     C 389:0 RecommendationFeedback - A (1)
     C 405:0 OSIORegisteredRepos - A (1)
-f8a_worker/graphutils.py
-    F 58:0 get_stack_popularity_data_graph - B (8)
-    F 215:0 create_package_dict - B (8)
-    F 28:0 get_stack_usage_data_graph - B (6)
-    F 304:0 select_latest_version - B (6)
-    F 97:0 extract_component_details - A (3)
-    F 171:0 aggregate_stack_data - A (3)
-    F 324:0 update_properties - A (3)
-    F 363:0 create_nodes - A (3)
-    F 197:0 get_osio_user_count - A (2)
+f8a_worker/start.py
+    C 12:0 SentryCelery - A (1)
+    M 15:4 SentryCelery.on_configure - A (1)
+f8a_worker/celery_settings.py
+    F 12:0 _use_sqs - A (5)
+    C 38:0 CelerySettings - A (3)
+    F 88:0 configure_logging - A (2)
+    M 78:4 CelerySettings.__init__ - A (1)
+    M 82:4 CelerySettings.disable_result_backend - A (1)
+f8a_worker/errors.py
+    C 5:0 TaskError - A (1)
+    C 9:0 NotABugTaskError - A (1)
+    C 16:0 NotABugFatalTaskError - A (1)
+    C 23:0 F8AConfigurationException - A (1)
+    C 27:0 TaskAlreadyExistsError - A (1)
+f8a_worker/manifests.py
+    F 22:0 get_manifest_descriptor_by_filename - A (3)
+    F 56:0 json_validator - A (2)
+    F 65:0 xml_validator - A (2)
+    F 75:0 yaml_validator - A (2)
+    F 84:0 python_validator - A (2)
+    F 13:0 register_manifest_descriptor - A (1)
+    C 30:0 ManifestDescriptor - A (1)
+    M 33:4 ManifestDescriptor.__init__ - A (1)
+    M 51:4 ManifestDescriptor.validate - A (1)
+f8a_worker/object_cache.py
+    M 110:4 EPVCache._construct_source_tarball_names - A (4)
+    M 76:4 EPVCache._get_meta - A (3)
+    M 167:4 EPVCache.get_extracted_source_tarball - A (3)
+    M 214:4 EPVCache.get_extracted_source_jar - A (3)
+    M 245:4 EPVCache.get_sources - A (3)
+    M 258:4 EPVCache.has_sources - A (3)
+    M 299:4 ObjectCache.get - A (3)
+    M 29:4 EPVCache.__init__ - A (2)
+    M 67:4 EPVCache._retrieve_s3_object - A (2)
+    M 122:4 EPVCache._get_object_cached - A (2)
+    M 147:4 EPVCache.has_source_tarball - A (2)
+    M 287:4 ObjectCache.wipe - A (2)
+    C 14:0 EPVCache - A (1)
+    M 89:4 EPVCache._has_meta - A (1)
+    M 99:4 EPVCache._put_meta - A (1)
+    M 133:4 EPVCache.remove_files - A (1)
+    M 139:4 EPVCache.get_source_tarball - A (1)
+    M 158:4 EPVCache.put_source_tarball - A (1)
+    M 186:4 EPVCache.get_pom_xml - A (1)
+    M 193:4 EPVCache.put_pom_xml - A (1)
+    M 200:4 EPVCache.has_pom_xml - A (1)
+    M 207:4 EPVCache.get_source_jar - A (1)
+    M 231:4 EPVCache.put_source_jar - A (1)
+    M 238:4 EPVCache.has_source_jar - A (1)
+    C 273:0 ObjectCache - A (1)
+    M 283:4 ObjectCache.__init__ - A (1)
+    M 294:4 ObjectCache._cache_dir - A (1)
+    M 316:4 ObjectCache.get_from_dict - A (1)
+f8a_worker/enums.py
+    C 6:0 EcosystemBackend - A (1)
+    C 17:0 SortOrder - A (1)
 f8a_worker/utils.py
     F 425:0 parse_gh_repo - C (12)
     M 98:4 TimedCommand.run - B (10)
@@ -121,13 +165,96 @@ f8a_worker/utils.py
     M 409:4 MavenCoordinates.__ne__ - A (1)
     M 413:4 MavenCoordinates.normalize_str - A (1)
     M 418:4 MavenCoordinates.from_str - A (1)
+f8a_worker/defaults.py
+    M 152:4 F8AConfiguration.libraries_io_project_url - A (5)
+    M 124:4 F8AConfiguration._decide_token_usage - A (3)
+    M 135:4 F8AConfiguration.select_random_github_token - A (3)
+    C 17:0 F8AConfiguration - A (2)
+    M 178:4 F8AConfiguration.dependency_check_script_path - A (2)
+    M 20:4 F8AConfiguration._make_postgres_string - A (1)
+    M 110:4 F8AConfiguration.is_local_deployment - A (1)
+    M 115:4 F8AConfiguration._rate_limit_exceeded - A (1)
 f8a_worker/setup_celery.py
     F 17:0 get_dispatcher_config_files - B (7)
     F 55:0 init_celery - A (3)
     F 43:0 init_selinon - A (2)
-f8a_worker/start.py
-    C 12:0 SentryCelery - A (1)
-    M 15:4 SentryCelery.on_configure - A (1)
+f8a_worker/schemas.py
+    M 236:4 BundledDynamicSchemaLibrary._load_all_schema_refs - B (8)
+    F 367:0 get_schema_ref - B (6)
+    F 407:0 assert_no_two_consecutive_schemas_are_same - B (6)
+    M 221:4 BundledDynamicSchemaLibrary.load_schema_class_and_role - A (4)
+    C 207:0 BundledDynamicSchemaLibrary - A (3)
+    F 397:0 schema_version_comparator_key - A (2)
+    C 47:0 JSLSchemaBase - A (2)
+    M 54:4 JSLSchemaBase.get_schema - A (2)
+    C 158:0 AbstractSchemaLibrary - A (2)
+    M 161:4 AbstractSchemaLibrary.load_schema - A (2)
+    C 175:0 SchemaLibrary - A (2)
+    M 185:4 SchemaLibrary.read_binary_schema - A (2)
+    M 260:4 BundledDynamicSchemaLibrary.load_all_jsl_definitions - A (2)
+    M 269:4 BundledDynamicSchemaLibrary.load_all_schemas - A (2)
+    M 324:4 SchemaValidator._ensure_schema - A (2)
+    F 15:0 added_in - A (1)
+    F 26:0 removed_in - A (1)
+    F 385:0 pop_schema_ref - A (1)
+    F 392:0 set_schema_ref - A (1)
+    C 37:0 JSLWithSchemaAttribute - A (1)
+    C 76:0 JSLSchemaBaseWithRelease - A (1)
+    C 85:0 SchemaRef - A (1)
+    M 90:4 SchemaRef.__str__ - A (1)
+    M 95:4 SchemaRef._split_version_info - A (1)
+    M 99:4 SchemaRef._replace_version_info - A (1)
+    M 104:4 SchemaRef.next_addition - A (1)
+    M 109:4 SchemaRef.next_revision - A (1)
+    M 114:4 SchemaRef.next_model - A (1)
+    C 120:0 SchemaLookupError - A (1)
+    M 123:4 SchemaLookupError.__init__ - A (1)
+    M 127:4 SchemaLookupError.__str__ - A (1)
+    C 132:0 SchemaModuleAttributeError - A (1)
+    M 135:4 SchemaModuleAttributeError.__init__ - A (1)
+    M 140:4 SchemaModuleAttributeError.__str__ - A (1)
+    C 146:0 SchemaImportError - A (1)
+    M 149:4 SchemaImportError.__init__ - A (1)
+    M 153:4 SchemaImportError.__str__ - A (1)
+    M 169:4 AbstractSchemaLibrary.read_binary_schema - A (1)
+    M 178:4 SchemaLibrary.__init__ - A (1)
+    C 192:0 BundledSchemaLibrary - A (1)
+    M 195:4 BundledSchemaLibrary.__init__ - A (1)
+    M 201:4 BundledSchemaLibrary.read_binary_schema - A (1)
+    M 210:4 BundledDynamicSchemaLibrary.__init__ - A (1)
+    M 216:4 BundledDynamicSchemaLibrary.read_binary_schema - A (1)
+    C 289:0 SchemaValidator - A (1)
+    M 319:4 SchemaValidator.__init__ - A (1)
+    M 331:4 SchemaValidator.input - A (1)
+    M 350:4 SchemaValidator.result - A (1)
+f8a_worker/process.py
+    M 43:4 Git.clone - B (9)
+    M 480:4 IndianaJones.fetch_artifact - B (9)
+    M 259:4 IndianaJones.download_file - B (8)
+    M 290:4 IndianaJones.fetch_maven_artifact - B (7)
+    M 208:4 Archive.extract - A (5)
+    C 256:0 IndianaJones - A (5)
+    M 413:4 IndianaJones.fetch_pypi_artifact - A (5)
+    M 152:4 Git.archive - A (4)
+    M 323:4 IndianaJones.fetch_npm_artifact - A (4)
+    M 29:4 Git.config - A (3)
+    M 114:4 Git.rev_parse - A (3)
+    M 174:4 Git.reset - A (3)
+    M 182:4 Git.ls_remote - A (3)
+    C 203:0 Archive - A (3)
+    M 238:4 Archive.extract_zip - A (3)
+    M 456:4 IndianaJones.fetch_go_artifact - A (3)
+    C 22:0 Git - A (2)
+    M 97:4 Git.commit - A (2)
+    M 127:4 Git.add - A (2)
+    M 228:4 Archive.zip_file - A (2)
+    M 283:4 IndianaJones.get_revision - A (2)
+    M 396:4 IndianaJones.fetch_nuget_artifact - A (2)
+    M 25:4 Git.__init__ - A (1)
+    M 86:4 Git.create_git - A (1)
+    M 107:4 Git.log - A (1)
+    M 135:4 Git.add_and_commit_everything - A (1)
+    M 249:4 Archive.extract_tar - A (1)
 f8a_worker/solver.py
     C 595:0 NugetDependencyParser - C (12)
     M 598:4 NugetDependencyParser.parse - C (12)
@@ -214,44 +341,6 @@ f8a_worker/solver.py
     M 709:4 Solver.dependency_parser - A (1)
     M 714:4 Solver.release_fetcher - A (1)
     M 895:4 MavenSolver.is_version_range - A (1)
-f8a_worker/process.py
-    M 43:4 Git.clone - B (9)
-    M 480:4 IndianaJones.fetch_artifact - B (9)
-    M 259:4 IndianaJones.download_file - B (8)
-    M 290:4 IndianaJones.fetch_maven_artifact - B (7)
-    M 208:4 Archive.extract - A (5)
-    C 256:0 IndianaJones - A (5)
-    M 413:4 IndianaJones.fetch_pypi_artifact - A (5)
-    M 152:4 Git.archive - A (4)
-    M 323:4 IndianaJones.fetch_npm_artifact - A (4)
-    M 29:4 Git.config - A (3)
-    M 114:4 Git.rev_parse - A (3)
-    M 174:4 Git.reset - A (3)
-    M 182:4 Git.ls_remote - A (3)
-    C 203:0 Archive - A (3)
-    M 238:4 Archive.extract_zip - A (3)
-    M 456:4 IndianaJones.fetch_go_artifact - A (3)
-    C 22:0 Git - A (2)
-    M 97:4 Git.commit - A (2)
-    M 127:4 Git.add - A (2)
-    M 228:4 Archive.zip_file - A (2)
-    M 283:4 IndianaJones.get_revision - A (2)
-    M 396:4 IndianaJones.fetch_nuget_artifact - A (2)
-    M 25:4 Git.__init__ - A (1)
-    M 86:4 Git.create_git - A (1)
-    M 107:4 Git.log - A (1)
-    M 135:4 Git.add_and_commit_everything - A (1)
-    M 249:4 Archive.extract_tar - A (1)
-f8a_worker/manifests.py
-    F 22:0 get_manifest_descriptor_by_filename - A (3)
-    F 56:0 json_validator - A (2)
-    F 65:0 xml_validator - A (2)
-    F 75:0 yaml_validator - A (2)
-    F 84:0 python_validator - A (2)
-    F 13:0 register_manifest_descriptor - A (1)
-    C 30:0 ManifestDescriptor - A (1)
-    M 33:4 ManifestDescriptor.__init__ - A (1)
-    M 51:4 ManifestDescriptor.validate - A (1)
 f8a_worker/base.py
     M 66:4 BaseTask.run - B (9)
     M 140:4 BaseTask.validate_result - A (4)
@@ -261,91 +350,54 @@ f8a_worker/base.py
     M 28:4 BaseTask.__init__ - A (1)
     M 43:4 BaseTask._add_audit_info - A (1)
     M 162:4 BaseTask.execute - A (1)
-f8a_worker/schemas.py
-    M 236:4 BundledDynamicSchemaLibrary._load_all_schema_refs - B (8)
-    F 367:0 get_schema_ref - B (6)
-    F 407:0 assert_no_two_consecutive_schemas_are_same - B (6)
-    M 221:4 BundledDynamicSchemaLibrary.load_schema_class_and_role - A (4)
-    C 207:0 BundledDynamicSchemaLibrary - A (3)
-    F 397:0 schema_version_comparator_key - A (2)
-    C 47:0 JSLSchemaBase - A (2)
-    M 54:4 JSLSchemaBase.get_schema - A (2)
-    C 158:0 AbstractSchemaLibrary - A (2)
-    M 161:4 AbstractSchemaLibrary.load_schema - A (2)
-    C 175:0 SchemaLibrary - A (2)
-    M 185:4 SchemaLibrary.read_binary_schema - A (2)
-    M 260:4 BundledDynamicSchemaLibrary.load_all_jsl_definitions - A (2)
-    M 269:4 BundledDynamicSchemaLibrary.load_all_schemas - A (2)
-    M 324:4 SchemaValidator._ensure_schema - A (2)
-    F 15:0 added_in - A (1)
-    F 26:0 removed_in - A (1)
-    F 385:0 pop_schema_ref - A (1)
-    F 392:0 set_schema_ref - A (1)
-    C 37:0 JSLWithSchemaAttribute - A (1)
-    C 76:0 JSLSchemaBaseWithRelease - A (1)
-    C 85:0 SchemaRef - A (1)
-    M 90:4 SchemaRef.__str__ - A (1)
-    M 95:4 SchemaRef._split_version_info - A (1)
-    M 99:4 SchemaRef._replace_version_info - A (1)
-    M 104:4 SchemaRef.next_addition - A (1)
-    M 109:4 SchemaRef.next_revision - A (1)
-    M 114:4 SchemaRef.next_model - A (1)
-    C 120:0 SchemaLookupError - A (1)
-    M 123:4 SchemaLookupError.__init__ - A (1)
-    M 127:4 SchemaLookupError.__str__ - A (1)
-    C 132:0 SchemaModuleAttributeError - A (1)
-    M 135:4 SchemaModuleAttributeError.__init__ - A (1)
-    M 140:4 SchemaModuleAttributeError.__str__ - A (1)
-    C 146:0 SchemaImportError - A (1)
-    M 149:4 SchemaImportError.__init__ - A (1)
-    M 153:4 SchemaImportError.__str__ - A (1)
-    M 169:4 AbstractSchemaLibrary.read_binary_schema - A (1)
-    M 178:4 SchemaLibrary.__init__ - A (1)
-    C 192:0 BundledSchemaLibrary - A (1)
-    M 195:4 BundledSchemaLibrary.__init__ - A (1)
-    M 201:4 BundledSchemaLibrary.read_binary_schema - A (1)
-    M 210:4 BundledDynamicSchemaLibrary.__init__ - A (1)
-    M 216:4 BundledDynamicSchemaLibrary.read_binary_schema - A (1)
-    C 289:0 SchemaValidator - A (1)
-    M 319:4 SchemaValidator.__init__ - A (1)
-    M 331:4 SchemaValidator.input - A (1)
-    M 350:4 SchemaValidator.result - A (1)
-f8a_worker/enums.py
-    C 6:0 EcosystemBackend - A (1)
-    C 17:0 SortOrder - A (1)
-f8a_worker/errors.py
-    C 5:0 TaskError - A (1)
-    C 9:0 NotABugTaskError - A (1)
-    C 16:0 NotABugFatalTaskError - A (1)
-    C 23:0 F8AConfigurationException - A (1)
-    C 27:0 TaskAlreadyExistsError - A (1)
-f8a_worker/celery_settings.py
-    F 12:0 _use_sqs - A (5)
-    C 38:0 CelerySettings - A (3)
-    F 88:0 configure_logging - A (2)
-    M 78:4 CelerySettings.__init__ - A (1)
-    M 82:4 CelerySettings.disable_result_backend - A (1)
-f8a_worker/defaults.py
-    M 152:4 F8AConfiguration.libraries_io_project_url - A (5)
-    M 124:4 F8AConfiguration._decide_token_usage - A (3)
-    M 135:4 F8AConfiguration.select_random_github_token - A (3)
-    C 17:0 F8AConfiguration - A (2)
-    M 178:4 F8AConfiguration.dependency_check_script_path - A (2)
-    M 20:4 F8AConfiguration._make_postgres_string - A (1)
-    M 110:4 F8AConfiguration.is_local_deployment - A (1)
-    M 115:4 F8AConfiguration._rate_limit_exceeded - A (1)
-f8a_worker/dispatcher/selective.py
-    F 8:0 selective_run_function - A (4)
-f8a_worker/dispatcher/trace.py
-    F 26:0 trace_func - A (3)
-f8a_worker/dispatcher/predicates.py
-    F 146:0 isGhRepo - A (4)
-f8a_worker/dispatcher/foreach.py
-    F 39:0 iter_dependencies_analysis - B (6)
-    F 27:0 _is_url_dependency - A (5)
-    F 68:0 iter_dependencies_stack - A (5)
-    F 98:0 iter_unknown_dependencies - A (5)
-    F 15:0 _create_analysis_arguments - A (2)
+f8a_worker/data_normalizer/java.py
+    M 26:4 MavenDataNormalizer.normalize - B (7)
+    C 7:0 MavenDataNormalizer - A (4)
+    M 74:4 GradleDataNormalizer.normalize - A (4)
+    C 64:0 GradleDataNormalizer - A (2)
+    M 88:4 GradleDataNormalizer._parse_gradle_dependencies - A (2)
+    M 21:4 MavenDataNormalizer.__init__ - A (1)
+    M 70:4 GradleDataNormalizer.__init__ - A (1)
+f8a_worker/data_normalizer/__init__.py
+    F 69:0 _main - A (4)
+    F 30:0 normalize - A (3)
+    F 58:0 _dict2json - A (2)
+f8a_worker/data_normalizer/python.py
+    M 61:4 PythonDistDataNormalizer.normalize - B (9)
+    C 42:0 PythonDistDataNormalizer - A (5)
+    C 6:0 PythonDataNormalizer - A (3)
+    M 25:4 PythonDataNormalizer.normalize - A (3)
+    M 18:4 PythonDataNormalizer.__init__ - A (2)
+    M 57:4 PythonDistDataNormalizer.__init__ - A (1)
+    C 107:0 PythonRequirementsTxtDataNormalizer - A (1)
+    M 113:4 PythonRequirementsTxtDataNormalizer.__init__ - A (1)
+    M 117:4 PythonRequirementsTxtDataNormalizer.normalize - A (1)
+f8a_worker/data_normalizer/csharp.py
+    M 26:4 NugetDataNormalizer.normalize - B (9)
+    M 60:4 NugetDataNormalizer._transform_licenses - B (6)
+    C 7:0 NugetDataNormalizer - A (5)
+    M 78:4 NugetDataNormalizer._transform_dependencies - A (4)
+    M 21:4 NugetDataNormalizer.__init__ - A (1)
+f8a_worker/data_normalizer/go.py
+    M 23:4 GoGlideDataNormalizer.normalize - A (5)
+    M 49:4 GoGlideDataNormalizer._import2dependencies - A (4)
+    C 7:0 GoGlideDataNormalizer - A (3)
+    M 92:4 GodepsDataNormalizer.normalize - A (3)
+    M 128:4 GoFedlibDataNormalizer.normalize - A (3)
+    C 76:0 GodepsDataNormalizer - A (2)
+    C 112:0 GoFedlibDataNormalizer - A (2)
+    M 19:4 GoGlideDataNormalizer.__init__ - A (1)
+    M 88:4 GodepsDataNormalizer.__init__ - A (1)
+    M 124:4 GoFedlibDataNormalizer.__init__ - A (1)
+f8a_worker/data_normalizer/abstract.py
+    M 33:4 AbstractDataNormalizer._transform_keys - B (7)
+    M 63:4 AbstractDataNormalizer._join_name_email - B (6)
+    M 87:4 AbstractDataNormalizer._split_keywords - B (6)
+    C 8:0 AbstractDataNormalizer - A (3)
+    M 103:4 AbstractDataNormalizer._identify_gh_repo - A (2)
+    M 20:4 AbstractDataNormalizer.__init__ - A (1)
+    M 29:4 AbstractDataNormalizer.normalize - A (1)
+    M 82:4 AbstractDataNormalizer._rf - A (1)
 f8a_worker/data_normalizer/javascript.py
     M 116:4 NpmDataNormalizer._transform_code_repository - B (8)
     M 58:4 NpmDataNormalizer._are_tests_implemented - B (6)
@@ -370,86 +422,196 @@ f8a_worker/data_normalizer/javascript.py
     M 35:4 NpmDataNormalizer.__init__ - A (1)
     M 39:4 NpmDataNormalizer.normalize - A (1)
     M 291:4 NpmDataNormalizer._transform_tests_implemented - A (1)
-f8a_worker/data_normalizer/python.py
-    M 61:4 PythonDistDataNormalizer.normalize - B (9)
-    C 42:0 PythonDistDataNormalizer - A (5)
-    C 6:0 PythonDataNormalizer - A (3)
-    M 25:4 PythonDataNormalizer.normalize - A (3)
-    M 18:4 PythonDataNormalizer.__init__ - A (2)
-    M 57:4 PythonDistDataNormalizer.__init__ - A (1)
-    C 107:0 PythonRequirementsTxtDataNormalizer - A (1)
-    M 113:4 PythonRequirementsTxtDataNormalizer.__init__ - A (1)
-    M 117:4 PythonRequirementsTxtDataNormalizer.normalize - A (1)
-f8a_worker/data_normalizer/__init__.py
-    F 69:0 _main - A (4)
-    F 30:0 normalize - A (3)
-    F 58:0 _dict2json - A (2)
-f8a_worker/data_normalizer/csharp.py
-    M 26:4 NugetDataNormalizer.normalize - B (9)
-    M 60:4 NugetDataNormalizer._transform_licenses - B (6)
-    C 7:0 NugetDataNormalizer - A (5)
-    M 78:4 NugetDataNormalizer._transform_dependencies - A (4)
-    M 21:4 NugetDataNormalizer.__init__ - A (1)
-f8a_worker/data_normalizer/abstract.py
-    M 33:4 AbstractDataNormalizer._transform_keys - B (7)
-    M 63:4 AbstractDataNormalizer._join_name_email - B (6)
-    M 87:4 AbstractDataNormalizer._split_keywords - B (6)
-    C 8:0 AbstractDataNormalizer - A (3)
-    M 103:4 AbstractDataNormalizer._identify_gh_repo - A (2)
-    M 20:4 AbstractDataNormalizer.__init__ - A (1)
-    M 29:4 AbstractDataNormalizer.normalize - A (1)
-    M 82:4 AbstractDataNormalizer._rf - A (1)
-f8a_worker/data_normalizer/java.py
-    M 26:4 MavenDataNormalizer.normalize - B (7)
-    C 7:0 MavenDataNormalizer - A (4)
-    M 74:4 GradleDataNormalizer.normalize - A (4)
-    C 64:0 GradleDataNormalizer - A (2)
-    M 88:4 GradleDataNormalizer._parse_gradle_dependencies - A (2)
-    M 21:4 MavenDataNormalizer.__init__ - A (1)
-    M 70:4 GradleDataNormalizer.__init__ - A (1)
-f8a_worker/data_normalizer/go.py
-    M 23:4 GoGlideDataNormalizer.normalize - A (5)
-    M 49:4 GoGlideDataNormalizer._import2dependencies - A (4)
-    C 7:0 GoGlideDataNormalizer - A (3)
-    M 92:4 GodepsDataNormalizer.normalize - A (3)
-    M 128:4 GoFedlibDataNormalizer.normalize - A (3)
-    C 76:0 GodepsDataNormalizer - A (2)
-    C 112:0 GoFedlibDataNormalizer - A (2)
-    M 19:4 GoGlideDataNormalizer.__init__ - A (1)
-    M 88:4 GodepsDataNormalizer.__init__ - A (1)
-    M 124:4 GoFedlibDataNormalizer.__init__ - A (1)
-f8a_worker/storages/s3_mavenindex.py
-    M 22:4 S3MavenIndex.store_index - A (4)
-    C 13:0 S3MavenIndex - A (3)
-    M 34:4 S3MavenIndex.retrieve_index_if_exists - A (3)
-    M 46:4 S3MavenIndex.get_last_offset - A (3)
-    M 64:4 S3MavenIndex.set_last_offset - A (1)
-f8a_worker/storages/s3_data_base.py
-    M 14:4 S3DataBase._base_file_content - A (5)
-    M 53:4 S3DataBase.store_base_file_record - A (4)
-    C 11:0 S3DataBase - A (2)
-    M 32:4 S3DataBase._construct_base_file_name - A (1)
-    M 41:4 S3DataBase._construct_task_result_object_key - A (1)
-    M 86:4 S3DataBase.store_task_result - A (1)
-f8a_worker/storages/s3_crowd_source_tags.py
-    C 6:0 S3CrowdSourceTags - A (1)
-    M 9:4 S3CrowdSourceTags.get_object_key_path - A (1)
-    M 14:4 S3CrowdSourceTags.retrieve_package_topic - A (1)
-    M 20:4 S3CrowdSourceTags.store_package_topic - A (1)
+f8a_worker/workers/graph_importer.py
+    C 10:0 GraphImporterTask - B (6)
+    M 26:4 GraphImporterTask.execute - B (6)
+f8a_worker/workers/golangcvepredictor.py
+    M 25:4 GitIssuesPRsTask.get_response_issues - B (6)
+    M 70:4 GitIssuesPRsTask.execute - B (6)
+    C 17:0 GitIssuesPRsTask - A (5)
+    M 52:4 GitIssuesPRsTask._processJSonIssuePR - A (2)
+f8a_worker/workers/user_notifier.py
+    C 10:0 UserNotificationTask - A (2)
+    M 13:4 UserNotificationTask.send_notification - A (2)
+    M 27:4 UserNotificationTask.generate_notification - A (2)
+    M 51:4 UserNotificationTask.execute - A (2)
+f8a_worker/workers/repo_dependency_finder.py
+    M 154:4 RepoDependencyFinderTask.generate_report - B (9)
+    C 13:0 RepoDependencyFinderTask - B (6)
+    M 18:4 RepoDependencyFinderTask.execute - A (5)
+    M 59:4 RepoDependencyFinderTask.create_repo_node_and_get_cve - A (5)
+    M 112:4 RepoDependencyFinderTask.get_cve - A (4)
+f8a_worker/workers/dependency_parser.py
+    M 57:4 GithubDependencyTreeTask.extract_dependencies - B (10)
+    M 197:4 GithubDependencyTreeTask.get_npm_dependencies - B (7)
+    M 144:4 GithubDependencyTreeTask.parse_maven_dependency_resolve - A (5)
+    M 272:4 GithubDependencyTreeTask.get_go_glide_dependencies - A (5)
+    M 317:4 GithubDependencyTreeTask.get_go_pkg_dependencies - A (5)
+    C 16:0 GithubDependencyTreeTask - A (4)
+    M 168:4 GithubDependencyTreeTask.parse_maven_dependency_tree - A (4)
+    M 43:4 GithubDependencyTreeTask.run_timed_command - A (3)
+    M 94:4 GithubDependencyTreeTask.get_maven_dependencies - A (3)
+    M 21:4 GithubDependencyTreeTask.execute - A (2)
+    M 247:4 GithubDependencyTreeTask.get_python_dependencies - A (2)
+    M 351:4 GithubDependencyTreeTask.change_package_lock_to_shrinkwrap - A (2)
+    M 115:4 GithubDependencyTreeTask.get_dependencies_using_dependency_resolve - A (1)
+f8a_worker/workers/bookkeeper.py
+    M 16:4 BookkeeperTask.store_user_node - B (7)
+    C 10:0 BookkeeperTask - A (5)
+    M 64:4 BookkeeperTask.execute - A (3)
+f8a_worker/workers/git_operations.py
+    M 101:4 GitOperationTask.execute - B (7)
+    M 45:4 GitOperationTask.create_repo_and_generate_files - A (5)
+    C 20:0 GitOperationTask - A (3)
+    M 72:4 GitOperationTask.gemini_call_for_cve_scan - A (3)
+    M 85:4 GitOperationTask.backbone_for_stack_analysis - A (2)
+    M 23:4 GitOperationTask.generate_files_for_maven - A (1)
+    M 36:4 GitOperationTask.generate_files_for_node - A (1)
+f8a_worker/workers/report_generation.py
+    M 56:4 ReportGenerationTask._get_dependency_data - B (7)
+    M 15:4 ReportGenerationTask.parse_version_data - A (4)
+    C 12:0 ReportGenerationTask - A (3)
+    M 101:4 ReportGenerationTask.execute - A (2)
+    M 41:4 ReportGenerationTask.parse_package_data - A (1)
+f8a_worker/workers/unknown_dep_fetcher.py
+    M 13:4 UnknownDependencyFetcherTask.get_dependency_data - B (6)
+    C 10:0 UnknownDependencyFetcherTask - A (4)
+    M 52:4 UnknownDependencyFetcherTask.execute - A (2)
+f8a_worker/workers/dependency_snapshot.py
+    M 40:4 DependencySnapshotTask._resolve_dependency - B (9)
+    C 17:0 DependencySnapshotTask - B (6)
+    M 23:4 DependencySnapshotTask._collect_dependencies - A (5)
+    M 82:4 DependencySnapshotTask.execute - A (4)
+f8a_worker/workers/init_package_flow.py
+    M 103:4 InitPackageFlow.execute - B (7)
+    M 19:4 InitPackageFlow.get_upstream_url - B (6)
+    C 14:0 InitPackageFlow - A (5)
+    M 37:4 InitPackageFlow.get_upstream_entry - A (4)
+    M 66:4 InitPackageFlow.add_or_update_upstream - A (2)
+f8a_worker/workers/license.py
+    M 21:4 LicenseCheckTask.process_output - B (6)
+    C 15:0 LicenseCheckTask - A (5)
+    M 91:4 LicenseCheckTask.execute - A (5)
+    M 50:4 LicenseCheckTask.run_scancode - A (4)
+f8a_worker/workers/finalize.py
+    C 10:0 FinalizeTask - A (2)
+    M 13:4 FinalizeTask.run - A (2)
+    C 34:0 PackageFinalizeTask - A (2)
+    M 37:4 PackageFinalizeTask.run - A (2)
+f8a_worker/workers/libraries_io.py
+    M 20:4 LibrariesIoTask.recent_releases - A (4)
+    C 14:0 LibrariesIoTask - A (3)
+    M 31:4 LibrariesIoTask.execute - A (2)
+f8a_worker/workers/graphaggregator.py
+    M 34:4 GraphAggregatorTask.execute - C (18)
+    C 16:0 GraphAggregatorTask - C (12)
+    M 22:4 GraphAggregatorTask._handle_external_deps - A (5)
+f8a_worker/workers/repository_description.py
+    M 26:4 RepositoryDescCollectorTask.collect_npm - A (3)
+    M 44:4 RepositoryDescCollectorTask.collect_pypi - A (3)
+    C 10:0 RepositoryDescCollectorTask - A (2)
+    M 18:4 RepositoryDescCollectorTask._scrape_page - A (2)
+    M 71:4 RepositoryDescCollectorTask.execute - A (2)
+f8a_worker/workers/init_analysis_flow.py
+    M 27:4 InitAnalysisFlow.execute - C (12)
+    C 24:0 InitAnalysisFlow - B (6)
+    M 123:4 InitAnalysisFlow._download_source_jar - B (6)
+    M 147:4 InitAnalysisFlow._download_pom_xml - A (1)
+f8a_worker/workers/githuber.py
+    M 75:4 GithubTask.execute - B (7)
+    M 151:4 GitReadmeCollectorTask._get_github_readme - B (6)
+    M 51:4 GithubTask._get_repo_stats - A (5)
+    C 18:0 GithubTask - A (4)
+    C 129:0 GitReadmeCollectorTask - A (4)
+    M 42:4 GithubTask._get_last_years_commits - A (3)
+    M 32:4 GithubTask.create_test_instance - A (2)
+    M 66:4 GithubTask._get_repo_name - A (2)
+    M 174:4 GitReadmeCollectorTask.run - A (2)
+f8a_worker/workers/digester.py
+    C 27:0 DigesterTask - A (2)
+    M 33:4 DigesterTask.compute_ssdeep - A (2)
+    M 44:4 DigesterTask.compute_digests - A (2)
+    M 61:4 DigesterTask.execute - A (1)
+f8a_worker/workers/result_collector.py
+    C 8:0 _ResultCollectorBase - B (6)
+    M 15:4 _ResultCollectorBase.do_run - B (6)
+    C 45:0 ResultCollector - A (1)
+    M 48:4 ResultCollector.run - A (1)
+    C 64:0 PackageResultCollector - A (1)
+    M 67:4 PackageResultCollector.run - A (1)
+f8a_worker/workers/mercator.py
+    M 171:4 MercatorTask._merge_python_items - D (30)
+    M 58:4 MercatorTask.run_mercator - C (19)
+    C 38:0 MercatorTask - B (9)
+    M 155:4 MercatorTask._parse_requires_txt - B (6)
+    M 265:4 MercatorTask.get_outermost_items - A (4)
+    M 45:4 MercatorTask.execute - A (2)
+    M 121:4 MercatorTask.run_gofedlib - A (2)
+    M 142:4 MercatorTask._add_extra_go_fields - A (1)
+f8a_worker/workers/schemas/digests.py
+    C 14:0 DigesterDetail - A (1)
+    C 31:0 DigesterResult - A (1)
+f8a_worker/workers/schemas/dependency_snapshot.py
+    C 14:0 Dependency - A (1)
+    C 30:0 DependencySnapshotDetail - A (1)
+    C 42:0 DependenciesCounts - A (1)
+    C 54:0 DependencySnapshotSummary - A (1)
+    C 67:0 DependencySnapshotResult - A (1)
+f8a_worker/workers/schemas/metadata.py
+    C 15:0 CodeRepository - A (1)
+    C 28:0 Maintainer - A (1)
+    C 42:0 LockedDependency - A (1)
+    C 61:0 LockFile - A (1)
+    C 81:0 NpmShrinkwrap - A (1)
+    C 99:0 MetadataDict - A (1)
+    C 170:0 MercatorResult - A (1)
+f8a_worker/workers/schemas/crypto_algorithms.py
+    C 14:0 CryptoAlgoDetail - A (1)
+    C 31:0 CryptoAlgorithmRecord - A (1)
+    C 43:0 CryptoCheckSummary - A (1)
+    C 61:0 CryptoCheckResult - A (1)
+f8a_worker/workers/schemas/libraries_io.py
+    C 13:0 DependentRepositories - A (1)
+    C 24:0 Dependents - A (1)
+    C 35:0 RecentRelease - A (1)
+    C 47:0 Releases - A (1)
+    C 59:0 LibrariesIoDetails - A (1)
+    C 72:0 LibrariesIoResult - A (1)
+f8a_worker/workers/schemas/github_details.py
+    C 85:0 GithubDetail - B (7)
+    C 53:0 GithubUpdatedIssues - A (3)
+    C 69:0 GithubUpdatedPullRequests - A (3)
+    C 27:0 GithubLastYearCommits - A (1)
+    C 40:0 GithubItemsByTime - A (1)
+    C 116:0 GithubResult - A (1)
+f8a_worker/workers/schemas/source_licenses.py
+    C 67:0 LicenseDetailsPre30 - A (3)
+    C 123:0 LicenseScanDetails - A (3)
+    C 30:0 LicenseScanSummary - A (2)
+    C 11:0 LicenseCount - A (1)
+    C 55:0 FileDetails - A (1)
+    C 95:0 LicenseDetails - A (1)
+    C 113:0 OSLCStats - A (1)
+    C 150:0 SuccessfulLicenseScan - A (1)
+    C 164:0 FailedLicenseScan - A (1)
+    C 178:0 LicenseScanResult - A (1)
+f8a_worker/dispatcher/foreach.py
+    F 39:0 iter_dependencies_analysis - B (6)
+    F 27:0 _is_url_dependency - A (5)
+    F 68:0 iter_dependencies_stack - A (5)
+    F 98:0 iter_unknown_dependencies - A (5)
+    F 15:0 _create_analysis_arguments - A (2)
+f8a_worker/dispatcher/selective.py
+    F 8:0 selective_run_function - A (4)
+f8a_worker/dispatcher/predicates.py
+    F 146:0 isGhRepo - A (4)
+f8a_worker/dispatcher/trace.py
+    F 26:0 trace_func - A (3)
 f8a_worker/storages/s3_readme.py
     M 19:4 S3Readme.store - A (4)
     C 6:0 S3Readme - A (2)
     M 9:4 S3Readme._construct_object_key - A (1)
     M 14:4 S3Readme.retrieve_readme_json - A (1)
-f8a_worker/storages/s3_package_data.py
-    M 11:4 S3PackageData._construct_base_file_name - A (3)
-    C 8:0 S3PackageData - A (2)
-    M 22:4 S3PackageData.construct_task_result_object_key - A (1)
-    M 29:4 S3PackageData.retrieve_task_result - A (1)
-f8a_worker/storages/s3_manifests.py
-    M 17:4 S3Manifests.store - A (4)
-    C 8:0 S3Manifests - A (3)
-    M 11:4 S3Manifests._construct_object_key - A (2)
 f8a_worker/storages/postgres_base.py
     M 35:4 PostgresBase.__init__ - B (7)
     M 84:4 PostgresBase.retrieve - B (6)
@@ -462,60 +624,16 @@ f8a_worker/storages/postgres_base.py
     M 59:4 PostgresBase.is_connected - A (1)
     M 63:4 PostgresBase.connect - A (1)
     M 114:4 PostgresBase._create_result_entry - A (1)
-f8a_worker/storages/s3_userintent.py
-    M 18:4 S3UserIntent.store_master_tags - A (3)
-    C 6:0 S3UserIntent - A (2)
-    M 9:4 S3UserIntent.store_in_bucket - A (2)
-    M 25:4 S3UserIntent.fetch_master_tags - A (2)
-f8a_worker/storages/s3_gocveartifact.py
-    M 31:4 S3IssuesPRs.store - A (2)
-    C 9:0 S3IssuesPRs - A (1)
-    M 12:4 S3IssuesPRs.bucket_name - A (1)
-    M 17:4 S3IssuesPRs.bucket_name - A (1)
-    M 26:4 S3IssuesPRs._construct_object_key - A (1)
-    M 40:4 S3IssuesPRs.retrieve - A (1)
-    M 48:4 S3IssuesPRs.store_error - A (1)
-f8a_worker/storages/s3_userprofilestore.py
-    C 7:0 S3UserProfileStore - A (1)
-    M 10:4 S3UserProfileStore.store_in_bucket - A (1)
-f8a_worker/storages/s3_description_repository.py
-    M 19:4 S3RepositoryDescription.store - A (3)
-    C 6:0 S3RepositoryDescription - A (2)
-    M 9:4 S3RepositoryDescription._construct_object_key - A (1)
-    M 14:4 S3RepositoryDescription.retrieve_repository_description - A (1)
-f8a_worker/storages/package_postgres.py
-    M 34:4 PackagePostgres._create_result_entry - B (7)
-    M 124:4 PackagePostgres.get_latest_task_result - A (5)
-    M 156:4 PackagePostgres.get_task_result_by_analysis_id - A (5)
-    C 21:0 PackagePostgres - A (3)
-    M 51:4 PackagePostgres.get_analysis_by_id - A (3)
-    M 68:4 PackagePostgres.get_analysis_count - A (3)
-    M 191:4 PackagePostgres.get_latest_task_entry - A (3)
-    M 26:4 PackagePostgres.s3 - A (2)
-    M 91:4 PackagePostgres.get_worker_id_count - A (2)
-    M 105:4 PackagePostgres.get_finished_task_names - A (2)
-f8a_worker/storages/s3_temp_artifacts.py
-    C 9:0 S3TempArtifacts - A (2)
-    M 29:4 S3TempArtifacts.__init__ - A (2)
-    M 43:4 S3TempArtifacts._create_bucket - A (2)
-f8a_worker/storages/s3_artifacts.py
-    C 8:0 S3Artifacts - A (1)
 f8a_worker/storages/s3_data.py
     M 11:4 S3Data._construct_base_file_name - A (4)
     C 8:0 S3Data - A (2)
     M 23:4 S3Data.construct_task_result_object_key - A (1)
     M 31:4 S3Data.retrieve_task_result - A (1)
-f8a_worker/storages/s3_manual_tagging.py
-    M 9:4 S3ManualTagging.store_user_data - A (3)
-    C 6:0 S3ManualTagging - A (2)
-    M 19:4 S3ManualTagging.fetch_user_data - A (1)
-    M 29:4 S3ManualTagging.get_file_name - A (1)
-f8a_worker/storages/s3_gh_manifests.py
-    M 20:4 S3GitHubManifestMetadata.store - A (3)
-    C 6:0 S3GitHubManifestMetadata - A (1)
-    M 9:4 S3GitHubManifestMetadata._construct_object_key - A (1)
-    M 14:4 S3GitHubManifestMetadata.get_object_key_path - A (1)
-    M 29:4 S3GitHubManifestMetadata.store_raw_manifest - A (1)
+f8a_worker/storages/s3_userintent.py
+    M 18:4 S3UserIntent.store_master_tags - A (3)
+    C 6:0 S3UserIntent - A (2)
+    M 9:4 S3UserIntent.store_in_bucket - A (2)
+    M 25:4 S3UserIntent.fetch_master_tags - A (2)
 f8a_worker/storages/postgres.py
     M 38:4 BayesianPostgres._create_result_entry - B (7)
     M 214:4 BayesianPostgres.store_api_requests - B (6)
@@ -530,6 +648,11 @@ f8a_worker/storages/postgres.py
     M 192:4 BayesianPostgres.check_api_user_entry - A (2)
     M 263:4 BayesianPostgres.get_analysed_versions - A (2)
     M 207:4 BayesianPostgres.store_in_bucket - A (1)
+f8a_worker/storages/s3_crowd_source_tags.py
+    C 6:0 S3CrowdSourceTags - A (1)
+    M 9:4 S3CrowdSourceTags.get_object_key_path - A (1)
+    M 14:4 S3CrowdSourceTags.retrieve_package_topic - A (1)
+    M 20:4 S3CrowdSourceTags.store_package_topic - A (1)
 f8a_worker/storages/s3.py
     M 24:4 AmazonS3.__init__ - C (13)
     M 90:4 AmazonS3._create_bucket - B (7)
@@ -552,206 +675,249 @@ f8a_worker/storages/s3.py
     M 210:4 AmazonS3.retrieve_file - A (1)
     M 214:4 AmazonS3.retrieve_blob - A (1)
     M 218:4 AmazonS3.retrieve_dict - A (1)
-f8a_worker/workers/finalize.py
-    C 10:0 FinalizeTask - A (2)
-    M 13:4 FinalizeTask.run - A (2)
-    C 34:0 PackageFinalizeTask - A (2)
-    M 37:4 PackageFinalizeTask.run - A (2)
-f8a_worker/workers/report_generation.py
-    M 56:4 ReportGenerationTask._get_dependency_data - B (7)
-    M 15:4 ReportGenerationTask.parse_version_data - A (4)
-    C 12:0 ReportGenerationTask - A (3)
-    M 101:4 ReportGenerationTask.execute - A (2)
-    M 41:4 ReportGenerationTask.parse_package_data - A (1)
-f8a_worker/workers/graph_importer.py
-    C 10:0 GraphImporterTask - B (6)
-    M 26:4 GraphImporterTask.execute - B (6)
-f8a_worker/workers/dependency_parser.py
-    M 57:4 GithubDependencyTreeTask.extract_dependencies - B (10)
-    M 197:4 GithubDependencyTreeTask.get_npm_dependencies - B (7)
-    M 144:4 GithubDependencyTreeTask.parse_maven_dependency_resolve - A (5)
-    M 272:4 GithubDependencyTreeTask.get_go_glide_dependencies - A (5)
-    M 317:4 GithubDependencyTreeTask.get_go_pkg_dependencies - A (5)
-    C 16:0 GithubDependencyTreeTask - A (4)
-    M 168:4 GithubDependencyTreeTask.parse_maven_dependency_tree - A (4)
-    M 43:4 GithubDependencyTreeTask.run_timed_command - A (3)
-    M 94:4 GithubDependencyTreeTask.get_maven_dependencies - A (3)
-    M 21:4 GithubDependencyTreeTask.execute - A (2)
-    M 247:4 GithubDependencyTreeTask.get_python_dependencies - A (2)
-    M 351:4 GithubDependencyTreeTask.change_package_lock_to_shrinkwrap - A (2)
-    M 115:4 GithubDependencyTreeTask.get_dependencies_using_dependency_resolve - A (1)
-f8a_worker/workers/bookkeeper.py
-    M 16:4 BookkeeperTask.store_user_node - B (7)
-    C 10:0 BookkeeperTask - A (5)
-    M 64:4 BookkeeperTask.execute - A (3)
-f8a_worker/workers/libraries_io.py
-    M 20:4 LibrariesIoTask.recent_releases - A (4)
-    C 14:0 LibrariesIoTask - A (3)
-    M 31:4 LibrariesIoTask.execute - A (2)
-f8a_worker/workers/githuber.py
-    M 75:4 GithubTask.execute - B (7)
-    M 151:4 GitReadmeCollectorTask._get_github_readme - B (6)
-    M 51:4 GithubTask._get_repo_stats - A (5)
-    C 18:0 GithubTask - A (4)
-    C 129:0 GitReadmeCollectorTask - A (4)
-    M 42:4 GithubTask._get_last_years_commits - A (3)
-    M 32:4 GithubTask.create_test_instance - A (2)
-    M 66:4 GithubTask._get_repo_name - A (2)
-    M 174:4 GitReadmeCollectorTask.run - A (2)
-f8a_worker/workers/repo_dependency_finder.py
-    M 154:4 RepoDependencyFinderTask.generate_report - B (9)
-    C 13:0 RepoDependencyFinderTask - B (6)
-    M 18:4 RepoDependencyFinderTask.execute - A (5)
-    M 59:4 RepoDependencyFinderTask.create_repo_node_and_get_cve - A (5)
-    M 112:4 RepoDependencyFinderTask.get_cve - A (4)
-f8a_worker/workers/mercator.py
-    M 171:4 MercatorTask._merge_python_items - D (30)
-    M 58:4 MercatorTask.run_mercator - C (19)
-    C 38:0 MercatorTask - B (9)
-    M 155:4 MercatorTask._parse_requires_txt - B (6)
-    M 265:4 MercatorTask.get_outermost_items - A (4)
-    M 45:4 MercatorTask.execute - A (2)
-    M 121:4 MercatorTask.run_gofedlib - A (2)
-    M 142:4 MercatorTask._add_extra_go_fields - A (1)
-f8a_worker/workers/golangcvepredictor.py
-    M 25:4 GitIssuesPRsTask.get_response_issues - B (6)
-    M 70:4 GitIssuesPRsTask.execute - B (6)
-    C 17:0 GitIssuesPRsTask - A (5)
-    M 52:4 GitIssuesPRsTask._processJSonIssuePR - A (2)
-f8a_worker/workers/digester.py
-    C 27:0 DigesterTask - A (2)
-    M 33:4 DigesterTask.compute_ssdeep - A (2)
-    M 44:4 DigesterTask.compute_digests - A (2)
-    M 61:4 DigesterTask.execute - A (1)
-f8a_worker/workers/user_notifier.py
-    C 10:0 UserNotificationTask - A (2)
-    M 13:4 UserNotificationTask.send_notification - A (2)
-    M 27:4 UserNotificationTask.generate_notification - A (2)
-    M 51:4 UserNotificationTask.execute - A (2)
-f8a_worker/workers/git_operations.py
-    M 101:4 GitOperationTask.execute - B (7)
-    M 45:4 GitOperationTask.create_repo_and_generate_files - A (5)
-    C 20:0 GitOperationTask - A (3)
-    M 72:4 GitOperationTask.gemini_call_for_cve_scan - A (3)
-    M 85:4 GitOperationTask.backbone_for_stack_analysis - A (2)
-    M 23:4 GitOperationTask.generate_files_for_maven - A (1)
-    M 36:4 GitOperationTask.generate_files_for_node - A (1)
-f8a_worker/workers/license.py
-    M 21:4 LicenseCheckTask.process_output - B (6)
-    C 15:0 LicenseCheckTask - A (5)
-    M 91:4 LicenseCheckTask.execute - A (5)
-    M 50:4 LicenseCheckTask.run_scancode - A (4)
-f8a_worker/workers/init_package_flow.py
-    M 103:4 InitPackageFlow.execute - B (7)
-    M 19:4 InitPackageFlow.get_upstream_url - B (6)
-    C 14:0 InitPackageFlow - A (5)
-    M 37:4 InitPackageFlow.get_upstream_entry - A (4)
-    M 66:4 InitPackageFlow.add_or_update_upstream - A (2)
-f8a_worker/workers/result_collector.py
-    C 8:0 _ResultCollectorBase - B (6)
-    M 15:4 _ResultCollectorBase.do_run - B (6)
-    C 45:0 ResultCollector - A (1)
-    M 48:4 ResultCollector.run - A (1)
-    C 64:0 PackageResultCollector - A (1)
-    M 67:4 PackageResultCollector.run - A (1)
-f8a_worker/workers/graphaggregator.py
-    M 34:4 GraphAggregatorTask.execute - C (18)
-    C 16:0 GraphAggregatorTask - C (12)
-    M 22:4 GraphAggregatorTask._handle_external_deps - A (5)
-f8a_worker/workers/init_analysis_flow.py
-    M 27:4 InitAnalysisFlow.execute - C (12)
-    C 24:0 InitAnalysisFlow - B (6)
-    M 123:4 InitAnalysisFlow._download_source_jar - B (6)
-    M 147:4 InitAnalysisFlow._download_pom_xml - A (1)
-f8a_worker/workers/repository_description.py
-    M 26:4 RepositoryDescCollectorTask.collect_npm - A (3)
-    M 44:4 RepositoryDescCollectorTask.collect_pypi - A (3)
-    C 10:0 RepositoryDescCollectorTask - A (2)
-    M 18:4 RepositoryDescCollectorTask._scrape_page - A (2)
-    M 71:4 RepositoryDescCollectorTask.execute - A (2)
-f8a_worker/workers/unknown_dep_fetcher.py
-    M 13:4 UnknownDependencyFetcherTask.get_dependency_data - B (6)
-    C 10:0 UnknownDependencyFetcherTask - A (4)
-    M 52:4 UnknownDependencyFetcherTask.execute - A (2)
-f8a_worker/workers/dependency_snapshot.py
-    M 40:4 DependencySnapshotTask._resolve_dependency - B (9)
-    C 17:0 DependencySnapshotTask - B (6)
-    M 23:4 DependencySnapshotTask._collect_dependencies - A (5)
-    M 82:4 DependencySnapshotTask.execute - A (4)
-f8a_worker/workers/schemas/source_licenses.py
-    C 67:0 LicenseDetailsPre30 - A (3)
-    C 123:0 LicenseScanDetails - A (3)
-    C 30:0 LicenseScanSummary - A (2)
-    C 11:0 LicenseCount - A (1)
-    C 55:0 FileDetails - A (1)
-    C 95:0 LicenseDetails - A (1)
-    C 113:0 OSLCStats - A (1)
-    C 150:0 SuccessfulLicenseScan - A (1)
-    C 164:0 FailedLicenseScan - A (1)
-    C 178:0 LicenseScanResult - A (1)
-f8a_worker/workers/schemas/github_details.py
-    C 85:0 GithubDetail - B (7)
-    C 53:0 GithubUpdatedIssues - A (3)
-    C 69:0 GithubUpdatedPullRequests - A (3)
-    C 27:0 GithubLastYearCommits - A (1)
-    C 40:0 GithubItemsByTime - A (1)
-    C 116:0 GithubResult - A (1)
-f8a_worker/workers/schemas/libraries_io.py
-    C 13:0 DependentRepositories - A (1)
-    C 24:0 Dependents - A (1)
-    C 35:0 RecentRelease - A (1)
-    C 47:0 Releases - A (1)
-    C 59:0 LibrariesIoDetails - A (1)
-    C 72:0 LibrariesIoResult - A (1)
-f8a_worker/workers/schemas/metadata.py
-    C 15:0 CodeRepository - A (1)
-    C 28:0 Maintainer - A (1)
-    C 42:0 LockedDependency - A (1)
-    C 61:0 LockFile - A (1)
-    C 81:0 NpmShrinkwrap - A (1)
-    C 99:0 MetadataDict - A (1)
-    C 170:0 MercatorResult - A (1)
-f8a_worker/workers/schemas/digests.py
-    C 14:0 DigesterDetail - A (1)
-    C 31:0 DigesterResult - A (1)
-f8a_worker/workers/schemas/crypto_algorithms.py
-    C 14:0 CryptoAlgoDetail - A (1)
-    C 31:0 CryptoAlgorithmRecord - A (1)
-    C 43:0 CryptoCheckSummary - A (1)
-    C 61:0 CryptoCheckResult - A (1)
-f8a_worker/workers/schemas/dependency_snapshot.py
-    C 14:0 Dependency - A (1)
-    C 30:0 DependencySnapshotDetail - A (1)
-    C 42:0 DependenciesCounts - A (1)
-    C 54:0 DependencySnapshotSummary - A (1)
-    C 67:0 DependencySnapshotResult - A (1)
-tests/test_data_normalizer.py
-    F 98:0 test_transforming_gofedlib_data - A (5)
-    F 22:0 _load_json - A (2)
-    F 28:0 test_transforming_setup_py - A (2)
-    F 35:0 test_transforming_pkginfo - A (2)
-    F 42:0 test_transforming_requirements_txt - A (2)
-    F 49:0 test_transforming_metadata_json - A (2)
-    F 56:0 test_transforming_npm_shrinkwrap_data - A (2)
-    F 63:0 test_transforming_java - A (2)
-    F 70:0 test_transforming_gradle - A (2)
-    F 77:0 test_transforming_nuspec - A (2)
-    F 84:0 test_transforming_go_glide - A (2)
-    F 91:0 test_transforming_godeps - A (2)
-    F 10:0 compare_dictionaries - A (1)
-tests/test_schemas.py
-    M 74:4 TestSchemaLibrary.test_bundled_dynamic_schema_lookup - B (9)
-    C 40:0 TestSchemaLibrary - B (6)
-    M 44:4 TestSchemaLibrary.test_schema_lookup - A (4)
-    M 57:4 TestSchemaLibrary.test_bundled_schema_lookup - A (4)
-    C 117:0 TestGeneratedSchemas - A (3)
-    M 123:4 TestGeneratedSchemas.test_dynamic_schemas_against_generated - A (3)
-    C 20:0 TestSchemaRef - A (2)
-    M 24:4 TestSchemaRef.test_next_addition - A (2)
-    M 29:4 TestSchemaRef.test_next_revision - A (2)
-    M 34:4 TestSchemaRef.test_next_model - A (2)
-    C 137:0 TestSchemaSequence - A (1)
-    M 141:4 TestSchemaSequence.test_no_two_consecutive_schemas_are_same - A (1)
+f8a_worker/storages/s3_gh_manifests.py
+    M 20:4 S3GitHubManifestMetadata.store - A (3)
+    C 6:0 S3GitHubManifestMetadata - A (1)
+    M 9:4 S3GitHubManifestMetadata._construct_object_key - A (1)
+    M 14:4 S3GitHubManifestMetadata.get_object_key_path - A (1)
+    M 29:4 S3GitHubManifestMetadata.store_raw_manifest - A (1)
+f8a_worker/storages/s3_userprofilestore.py
+    C 7:0 S3UserProfileStore - A (1)
+    M 10:4 S3UserProfileStore.store_in_bucket - A (1)
+f8a_worker/storages/s3_temp_artifacts.py
+    C 9:0 S3TempArtifacts - A (2)
+    M 29:4 S3TempArtifacts.__init__ - A (2)
+    M 43:4 S3TempArtifacts._create_bucket - A (2)
+f8a_worker/storages/s3_package_data.py
+    M 11:4 S3PackageData._construct_base_file_name - A (3)
+    C 8:0 S3PackageData - A (2)
+    M 22:4 S3PackageData.construct_task_result_object_key - A (1)
+    M 29:4 S3PackageData.retrieve_task_result - A (1)
+f8a_worker/storages/s3_manifests.py
+    M 17:4 S3Manifests.store - A (4)
+    C 8:0 S3Manifests - A (3)
+    M 11:4 S3Manifests._construct_object_key - A (2)
+f8a_worker/storages/s3_artifacts.py
+    C 8:0 S3Artifacts - A (1)
+f8a_worker/storages/s3_description_repository.py
+    M 19:4 S3RepositoryDescription.store - A (3)
+    C 6:0 S3RepositoryDescription - A (2)
+    M 9:4 S3RepositoryDescription._construct_object_key - A (1)
+    M 14:4 S3RepositoryDescription.retrieve_repository_description - A (1)
+f8a_worker/storages/s3_gocveartifact.py
+    M 31:4 S3IssuesPRs.store - A (2)
+    C 9:0 S3IssuesPRs - A (1)
+    M 12:4 S3IssuesPRs.bucket_name - A (1)
+    M 17:4 S3IssuesPRs.bucket_name - A (1)
+    M 26:4 S3IssuesPRs._construct_object_key - A (1)
+    M 40:4 S3IssuesPRs.retrieve - A (1)
+    M 48:4 S3IssuesPRs.store_error - A (1)
+f8a_worker/storages/package_postgres.py
+    M 34:4 PackagePostgres._create_result_entry - B (7)
+    M 124:4 PackagePostgres.get_latest_task_result - A (5)
+    M 156:4 PackagePostgres.get_task_result_by_analysis_id - A (5)
+    C 21:0 PackagePostgres - A (3)
+    M 51:4 PackagePostgres.get_analysis_by_id - A (3)
+    M 68:4 PackagePostgres.get_analysis_count - A (3)
+    M 191:4 PackagePostgres.get_latest_task_entry - A (3)
+    M 26:4 PackagePostgres.s3 - A (2)
+    M 91:4 PackagePostgres.get_worker_id_count - A (2)
+    M 105:4 PackagePostgres.get_finished_task_names - A (2)
+f8a_worker/storages/s3_manual_tagging.py
+    M 9:4 S3ManualTagging.store_user_data - A (3)
+    C 6:0 S3ManualTagging - A (2)
+    M 19:4 S3ManualTagging.fetch_user_data - A (1)
+    M 29:4 S3ManualTagging.get_file_name - A (1)
+f8a_worker/storages/s3_data_base.py
+    M 14:4 S3DataBase._base_file_content - A (5)
+    M 53:4 S3DataBase.store_base_file_record - A (4)
+    C 11:0 S3DataBase - A (2)
+    M 32:4 S3DataBase._construct_base_file_name - A (1)
+    M 41:4 S3DataBase._construct_task_result_object_key - A (1)
+    M 86:4 S3DataBase.store_task_result - A (1)
+f8a_worker/storages/s3_mavenindex.py
+    M 22:4 S3MavenIndex.store_index - A (4)
+    C 13:0 S3MavenIndex - A (3)
+    M 34:4 S3MavenIndex.retrieve_index_if_exists - A (3)
+    M 46:4 S3MavenIndex.get_last_offset - A (3)
+    M 64:4 S3MavenIndex.set_last_offset - A (1)
+hack/queue_conf.py
+    F 23:0 set_queue_attributes - A (4)
+    F 67:0 print_help - A (1)
+alembic/env.py
+    F 60:0 run_migrations_online - A (3)
+    F 40:0 run_migrations_offline - A (2)
+alembic/versions/43360d9467b9_drop_bigquery_results_table.py
+    F 20:0 upgrade - A (1)
+    F 34:0 downgrade - A (1)
+alembic/versions/b19a6deb869d_stack_request_coltype_change.py
+    F 18:0 upgrade - A (1)
+    F 30:0 downgrade - A (1)
+alembic/versions/a46a17bfd29b_batches_versions_relation.py
+    F 20:0 upgrade - A (1)
+    F 32:0 downgrade - A (1)
+alembic/versions/424427c5f988_relative_usage.py
+    F 19:0 upgrade - A (1)
+    F 26:0 downgrade - A (1)
+alembic/versions/49c27b67936f_permissions.py
+    F 19:0 upgrade - A (1)
+    F 35:0 downgrade - A (1)
+alembic/versions/d62464ca17ae_introduce_error_flag_for_worker_results.py
+    F 19:0 upgrade - A (1)
+    F 27:0 downgrade - A (1)
+alembic/versions/ea55c632ae8d_create_auth_data.py
+    F 19:0 upgrade - A (1)
+    F 46:0 downgrade - A (1)
+alembic/versions/5cf8c7dac1b6_remove_active_flag.py
+    F 19:0 upgrade - A (1)
+    F 26:0 downgrade - A (1)
+alembic/versions/51cb05927271_downstream_map.py
+    F 19:0 upgrade - A (1)
+    F 29:0 downgrade - A (1)
+alembic/versions/f5c853b83d41_add_api_requests_table.py
+    F 20:0 upgrade - A (1)
+    F 38:0 downgrade - A (1)
+alembic/versions/22a1cd66a9c6_batches_reviews.py
+    F 20:0 upgrade - A (1)
+    F 40:0 downgrade - A (1)
+alembic/versions/e2762a61d34c_upstream_url_can_be_null.py
+    F 19:0 upgrade - A (1)
+    F 34:0 downgrade - A (1)
+alembic/versions/063c0fcb3fa3_add_index_on_user_email.py
+    F 18:0 upgrade - A (1)
+    F 27:0 downgrade - A (1)
+alembic/versions/76c5fd72744e_gh_usage_stats.py
+    F 19:0 upgrade - A (1)
+    F 39:0 downgrade - A (1)
+alembic/versions/9d605c7725d8_add_app_stack_tables.py
+    F 20:0 upgrade - A (1)
+    F 36:0 downgrade - A (1)
+alembic/versions/33b719488061_add_col_dep_snapshot.py
+    F 21:0 upgrade - A (1)
+    F 30:0 downgrade - A (1)
+alembic/versions/b4fbc8e04c81_gh_usage_with_versions.py
+    F 20:0 upgrade - A (1)
+    F 38:0 downgrade - A (1)
+alembic/versions/a60f15a395e2_do_not_index_ecosystem_url.py
+    F 18:0 upgrade - A (1)
+    F 25:0 downgrade - A (1)
+alembic/versions/02b91e918b43_migrate_to_dynamic_control_flow.py
+    F 19:0 upgrade - A (1)
+    F 28:0 downgrade - A (1)
+alembic/versions/8302d3bb5f68_stackreq_team_result.py
+    F 20:0 upgrade - A (1)
+    F 28:0 downgrade - A (1)
+alembic/versions/c3ea37a6ebc5_add_redhat_maven_ecosystem.py
+    F 19:0 upgrade - A (1)
+    F 31:0 downgrade - A (1)
+alembic/versions/967036f90ba1_gemini_model_py.py
+    F 19:0 upgrade - A (1)
+    F 31:0 downgrade - A (1)
+alembic/versions/3655e38b92bc_increase_pkg_name_length.py
+    F 19:0 upgrade - A (1)
+    F 31:0 downgrade - A (1)
+alembic/versions/da53445aabad_add_recommendation_feedback_py.py
+    F 19:0 upgrade - A (1)
+    F 40:0 downgrade - A (1)
+alembic/versions/2bd5f6d0c8b0_introduce_stackreq_origin_flag.py
+    F 19:0 upgrade - A (1)
+    F 27:0 downgrade - A (1)
+alembic/versions/f8bb0efac483_nuget_ecosystem.py
+    F 20:0 upgrade - A (3)
+    F 40:0 downgrade - A (1)
+alembic/versions/750621a9cd89_drop_server_tables.py
+    F 20:0 upgrade - A (1)
+    F 31:0 downgrade - A (1)
+alembic/versions/7c643a1823db_index_on_external_request_id.py
+    F 18:0 upgrade - A (1)
+    F 26:0 downgrade - A (1)
+alembic/versions/cd05b43f27e5_add_synced2graph_boolean_column_to_.py
+    F 19:0 upgrade - A (1)
+    F 28:0 downgrade - A (1)
+alembic/versions/21b3add12b10_initial_ref_stack_support.py
+    F 20:0 upgrade - A (1)
+    F 34:0 downgrade - A (1)
+alembic/versions/727aeeb88b2f_add_started_at_and_ended_at_to_.py
+    F 19:0 upgrade - A (1)
+    F 29:0 downgrade - A (1)
+alembic/versions/49fb7de6227f_removal_of_anitya.py
+    F 19:0 upgrade - A (1)
+    F 26:0 downgrade - A (1)
+alembic/versions/47f4ce1e8d75_stack_analyses_request.py
+    F 20:0 upgrade - A (1)
+    F 33:0 downgrade - A (1)
+alembic/versions/a0433904c63b_analysis_requests.py
+    F 19:0 upgrade - A (1)
+    F 38:0 downgrade - A (1)
+alembic/versions/6e7ff4c3177e_remove_batches.py
+    F 20:0 upgrade - A (1)
+    F 28:0 downgrade - A (1)
+alembic/versions/ddb09a7d6633_delete_unnecessary_db_tables.py
+    F 20:0 upgrade - A (1)
+    F 30:0 downgrade - A (1)
+alembic/versions/094ea67a2baf_add_index_for_synced2graph_column.py
+    F 18:0 upgrade - A (1)
+    F 25:0 downgrade - A (1)
+alembic/versions/01404498814b_create_epv_and_workerresult_indexes.py
+    F 18:0 upgrade - A (1)
+    F 28:0 downgrade - A (1)
+alembic/versions/133cd5484609_add_es_marker.py
+    F 19:0 upgrade - A (1)
+    F 30:0 downgrade - A (1)
+alembic/versions/813f9a704eb7_stack_request_coltypechange.py
+    F 20:0 upgrade - A (1)
+    F 30:0 downgrade - A (1)
+alembic/versions/245b57b274c2_introduce_upstream_monitoring_flows.py
+    F 20:0 upgrade - A (1)
+    F 63:0 downgrade - A (1)
+alembic/versions/2ff043a5af5b_make_ecosystem_name_unique.py
+    F 18:0 upgrade - A (1)
+    F 25:0 downgrade - A (1)
+alembic/versions/097bb617eade_go_backend_for_golang.py
+    F 18:0 upgrade - A (1)
+    F 34:0 downgrade - A (1)
+alembic/versions/0ff7fe2828a5_initial_revision.py
+    F 16:0 upgrade - A (1)
+    F 21:0 downgrade - A (1)
+alembic/versions/e48c7b4235aa_drop_analysisrequest_table.py
+    F 20:0 upgrade - A (1)
+    F 28:0 downgrade - A (1)
+alembic/versions/be06b06767de_add_indexes_on_foreign_keys_in_.py
+    F 18:0 upgrade - A (1)
+    F 27:0 downgrade - A (1)
+alembic/versions/20cf59abbda8_add_external_reqeust_id_to_workerresult.py
+    F 19:0 upgrade - A (1)
+    F 27:0 downgrade - A (1)
+alembic/versions/4bffa8c11eb8_add_indexes_to_start_and_end_date_for_.py
+    F 18:0 upgrade - A (1)
+    F 30:0 downgrade - A (1)
+alembic/versions/a31c98c74ea0_add_e_p_v.py
+    F 19:0 upgrade - A (1)
+    F 79:0 downgrade - A (1)
+alembic/versions/79d88d57baa7_remove_analyses_column.py
+    F 20:0 upgrade - A (1)
+    F 27:0 downgrade - A (1)
+alembic/versions/c23ff3124920_fix_ecosystem_data.py
+    F 18:0 upgrade - A (1)
+    F 35:0 downgrade - A (1)
+alembic/versions/3eb32f202f93_removing_starttime_and_endtime.py
+    F 20:0 upgrade - A (1)
+    F 28:0 downgrade - A (1)
+alembic/versions/fc7ea2a7e386_analytics_tables.py
+    F 20:0 upgrade - A (1)
+    F 43:0 downgrade - A (1)
+alembic/versions/3fd95b3a69f5_bye_reviews.py
+    F 20:0 upgrade - A (1)
+    F 27:0 downgrade - A (1)
+alembic/versions/963d3d929b19_analyses.py
+    F 20:0 upgrade - A (1)
+    F 46:0 downgrade - A (1)
+alembic/versions/60b296cac700_add_similar_components_table.py
+    F 19:0 upgrade - A (1)
+    F 32:0 downgrade - A (1)
+alembic/versions/35180d0f1ced_fix_pypi_url.py
+    F 18:0 upgrade - A (1)
+    F 29:0 downgrade - A (1)
 tests/test_process.py
     M 52:4 TestIndianaJones.test_fetch_npm_specific - B (7)
     M 33:4 TestGit.test_clone - A (5)
@@ -768,27 +934,6 @@ tests/test_process.py
     M 80:4 TestIndianaJones.test_fetch_version_range_npm_specific - A (3)
     M 110:4 TestIndianaJones.test_fetch_pypi_nonexistent - A (2)
     M 20:4 TestGit.test_git_add_and_commit_everything_with_dotgit - A (1)
-tests/test_utils.py
-    M 36:4 TestUtilFunctions.test_get_all_files_from - B (6)
-    M 157:4 TestMavenCoordinates.test_from_str - B (6)
-    M 75:4 TestUtilFunctions.test_compute_digest - A (5)
-    C 154:0 TestMavenCoordinates - A (5)
-    M 171:4 TestMavenCoordinates.test_to_str - A (5)
-    C 91:0 TestThreadPool - A (4)
-    M 94:4 TestThreadPool.test_context_manager - A (4)
-    C 25:0 TestUtilFunctions - A (3)
-    M 82:4 TestUtilFunctions.test_compute_digest_for_empty_input - A (3)
-    M 108:4 TestThreadPool.test_normal_usage - A (3)
-    M 181:4 TestMavenCoordinates.test_to_repo_url - A (3)
-    F 244:0 test_normalize_package_name - A (2)
-    M 28:4 TestUtilFunctions.setup_method - A (2)
-    M 32:4 TestUtilFunctions.teardown_method - A (2)
-    C 190:0 TestParseGHRepo - A (2)
-    M 193:4 TestParseGHRepo.test_parse_gh_repo_ok - A (2)
-    M 210:4 TestParseGHRepo.test_parse_gh_repo_nok - A (2)
-    C 222:0 TestUrl2GitRepo - A (2)
-    M 225:4 TestUrl2GitRepo.test_url2git_repo_ok - A (2)
-    M 235:4 TestUrl2GitRepo.test_url2git_repo_nok - A (2)
 tests/test_solver.py
     M 308:4 TestFetcher.test_f8a_fetcher - B (9)
     M 18:4 TestDependencyParser.test_nuget_dependency_parser_parse - A (4)
@@ -811,6 +956,19 @@ tests/test_solver.py
     M 265:4 TestFetcher.test_pypi_fetcher - A (2)
     M 278:4 TestFetcher.test_nuget_fetcher - A (2)
     M 296:4 TestFetcher.test_golang_fetcher - A (2)
+tests/test_schemas.py
+    M 74:4 TestSchemaLibrary.test_bundled_dynamic_schema_lookup - B (9)
+    C 40:0 TestSchemaLibrary - B (6)
+    M 44:4 TestSchemaLibrary.test_schema_lookup - A (4)
+    M 57:4 TestSchemaLibrary.test_bundled_schema_lookup - A (4)
+    C 117:0 TestGeneratedSchemas - A (3)
+    M 123:4 TestGeneratedSchemas.test_dynamic_schemas_against_generated - A (3)
+    C 20:0 TestSchemaRef - A (2)
+    M 24:4 TestSchemaRef.test_next_addition - A (2)
+    M 29:4 TestSchemaRef.test_next_revision - A (2)
+    M 34:4 TestSchemaRef.test_next_model - A (2)
+    C 137:0 TestSchemaSequence - A (1)
+    M 141:4 TestSchemaSequence.test_no_two_consecutive_schemas_are_same - A (1)
 tests/conftest.py
     F 16:0 rdb - A (2)
     F 36:0 maven - A (1)
@@ -820,6 +978,47 @@ tests/conftest.py
     F 76:0 go - A (1)
     F 85:0 dispatcher_setup - A (1)
     F 92:0 no_s3_connection - A (1)
+tests/test_data_normalizer.py
+    F 98:0 test_transforming_gofedlib_data - A (5)
+    F 22:0 _load_json - A (2)
+    F 28:0 test_transforming_setup_py - A (2)
+    F 35:0 test_transforming_pkginfo - A (2)
+    F 42:0 test_transforming_requirements_txt - A (2)
+    F 49:0 test_transforming_metadata_json - A (2)
+    F 56:0 test_transforming_npm_shrinkwrap_data - A (2)
+    F 63:0 test_transforming_java - A (2)
+    F 70:0 test_transforming_gradle - A (2)
+    F 77:0 test_transforming_nuspec - A (2)
+    F 84:0 test_transforming_go_glide - A (2)
+    F 91:0 test_transforming_godeps - A (2)
+    F 10:0 compare_dictionaries - A (1)
+tests/test_utils.py
+    M 36:4 TestUtilFunctions.test_get_all_files_from - B (6)
+    M 157:4 TestMavenCoordinates.test_from_str - B (6)
+    M 75:4 TestUtilFunctions.test_compute_digest - A (5)
+    C 154:0 TestMavenCoordinates - A (5)
+    M 171:4 TestMavenCoordinates.test_to_str - A (5)
+    C 91:0 TestThreadPool - A (4)
+    M 94:4 TestThreadPool.test_context_manager - A (4)
+    C 25:0 TestUtilFunctions - A (3)
+    M 82:4 TestUtilFunctions.test_compute_digest_for_empty_input - A (3)
+    M 108:4 TestThreadPool.test_normal_usage - A (3)
+    M 181:4 TestMavenCoordinates.test_to_repo_url - A (3)
+    F 244:0 test_normalize_package_name - A (2)
+    M 28:4 TestUtilFunctions.setup_method - A (2)
+    M 32:4 TestUtilFunctions.teardown_method - A (2)
+    C 190:0 TestParseGHRepo - A (2)
+    M 193:4 TestParseGHRepo.test_parse_gh_repo_ok - A (2)
+    M 210:4 TestParseGHRepo.test_parse_gh_repo_nok - A (2)
+    C 222:0 TestUrl2GitRepo - A (2)
+    M 225:4 TestUrl2GitRepo.test_url2git_repo_ok - A (2)
+    M 235:4 TestUrl2GitRepo.test_url2git_repo_nok - A (2)
+tests/data/license/license.py
+    F 24:0 funkce - A (1)
+tests/data_normalizer/test_java.py
+    F 7:0 test_transforming_java_data - A (5)
+    F 49:0 test_normalize_error_input - A (3)
+    F 43:0 test_constructor_error_input - A (2)
 tests/data_normalizer/test_javascript.py
     F 7:0 test_transforming_javascript_data - A (4)
     F 77:0 test__are_tests_implemented - A (2)
@@ -827,67 +1026,15 @@ tests/data_normalizer/test_abstract.py
     F 7:0 test__split_keywords - A (2)
     F 32:0 test__transform_keys - A (2)
     F 61:0 test__join_name_email - A (2)
-tests/data_normalizer/test_java.py
-    F 7:0 test_transforming_java_data - A (5)
-    F 49:0 test_normalize_error_input - A (3)
-    F 43:0 test_constructor_error_input - A (2)
 tests/data_normalizer/test_python.py
     F 7:0 test_constructor - A (4)
     F 43:0 test_normalize_error_input - A (3)
     F 37:0 test_constructor_error_input - A (2)
-tests/data/license/license.py
-    F 24:0 funkce - A (1)
-tests/storages/test_s3_gocveartifact.py
-    F 6:0 test_bucket_name - A (2)
-tests/storages/test_postgres.py
-    C 17:0 TestBayesianPostgres - A (2)
-    M 20:4 TestBayesianPostgres.setup_method - A (2)
-    M 40:4 TestBayesianPostgres.test_retrieve_normal - A (2)
-    M 51:4 TestBayesianPostgres.test_retrieve_s3 - A (2)
-    M 74:4 TestBayesianPostgres.test_store_normal - A (2)
-    M 82:4 TestBayesianPostgres.test_store_already_exists - A (2)
-    M 98:4 TestBayesianPostgres.test_get_latest_task_result - A (2)
-    M 110:4 TestBayesianPostgres.test_get_latest_task_result_no_results - A (2)
-tests/workers/test_gocvecollector.py
-    M 46:4 TestGocvecollector.test_execute_noarg - A (5)
-    M 54:4 TestGocvecollector.test_execute - A (5)
-    C 12:0 TestGocvecollector - A (4)
-    M 64:4 TestGocvecollector.test_exception - A (2)
-tests/workers/test_git_operations.py
-    F 60:0 test_create_repo_and_generate_files - A (5)
-tests/workers/test_recurse.py
-    F 6:0 test__is_url_dependency - A (3)
-tests/workers/test_licensecheck.py
-    M 30:4 TestLicenseCheck.test_execute - B (7)
-    C 15:0 TestLicenseCheck - A (5)
-    M 20:4 TestLicenseCheck.test_error - A (2)
-tests/workers/test_init_package_flow.py
-    C 9:0 TestInitPackageFlow - A (2)
-    M 13:4 TestInitPackageFlow.test_basic_input_validation - A (2)
-tests/workers/test_libraries_io.py
-    M 45:4 TestLibrariesIoTask.test_execute - B (9)
-    C 41:0 TestLibrariesIoTask - B (6)
-    M 69:4 TestLibrariesIoTask.test_execute_nonexistent - A (2)
-tests/workers/test_github_dependency_tree.py
-    M 12:4 TestGithubDependencyTreeTask.test_maven_index_checker_repo - A (5)
-    M 95:4 TestGithubDependencyTreeTask.test_repo_with_no_lockfile - A (5)
-    C 8:0 TestGithubDependencyTreeTask - A (4)
-    M 31:4 TestGithubDependencyTreeTask.test_python_requirements_txt - A (4)
-    M 53:4 TestGithubDependencyTreeTask.test_npm_repo_with_package_lock - A (4)
-tests/workers/test_repository_description.py
-    M 13:4 TestRepositoryDescCollectorTask.test_execute - A (3)
-    C 9:0 TestRepositoryDescCollectorTask - A (2)
-    M 26:4 TestRepositoryDescCollectorTask.test_execute_nonexistent - A (2)
-    M 40:4 TestRepositoryDescCollectorTask.test_execute_unsupported_ecosystem - A (2)
-tests/workers/test_digester.py
-    C 18:0 TestDigester - B (10)
-    M 22:4 TestDigester.test_execute - B (10)
-tests/workers/test_init_analysis_flow.py
-    C 9:0 TestInitAnalysisFlow - A (2)
-    M 13:4 TestInitAnalysisFlow.test_basic_input_validation - A (2)
 tests/workers/test_githuber.py
     C 10:0 TestGithuber - B (10)
     M 14:4 TestGithuber.test_execute - B (10)
+tests/workers/test_recurse.py
+    F 6:0 test__is_url_dependency - A (3)
 tests/workers/test_mercator.py
     M 52:4 TestMercator.test_execute_maven - C (11)
     M 92:4 TestMercator.test_execute_go_glide - B (7)
@@ -899,189 +1046,62 @@ tests/workers/test_mercator.py
     M 28:4 TestMercator.setup_method - A (2)
     F 12:0 compare_dictionaries - A (1)
     M 125:4 TestMercator.sort_by_path - A (1)
+tests/workers/test_repository_description.py
+    M 13:4 TestRepositoryDescCollectorTask.test_execute - A (3)
+    C 9:0 TestRepositoryDescCollectorTask - A (2)
+    M 26:4 TestRepositoryDescCollectorTask.test_execute_nonexistent - A (2)
+    M 40:4 TestRepositoryDescCollectorTask.test_execute_unsupported_ecosystem - A (2)
+tests/workers/test_libraries_io.py
+    M 45:4 TestLibrariesIoTask.test_execute - B (9)
+    C 41:0 TestLibrariesIoTask - B (6)
+    M 69:4 TestLibrariesIoTask.test_execute_nonexistent - A (2)
+tests/workers/test_digester.py
+    C 18:0 TestDigester - B (10)
+    M 22:4 TestDigester.test_execute - B (10)
+tests/workers/test_git_operations.py
+    F 60:0 test_create_repo_and_generate_files - A (5)
+tests/workers/test_licensecheck.py
+    M 30:4 TestLicenseCheck.test_execute - B (7)
+    C 15:0 TestLicenseCheck - A (5)
+    M 20:4 TestLicenseCheck.test_error - A (2)
+tests/workers/test_init_analysis_flow.py
+    C 9:0 TestInitAnalysisFlow - A (2)
+    M 13:4 TestInitAnalysisFlow.test_basic_input_validation - A (2)
+tests/workers/test_gocvecollector.py
+    M 46:4 TestGocvecollector.test_execute_noarg - A (5)
+    M 54:4 TestGocvecollector.test_execute - A (5)
+    C 12:0 TestGocvecollector - A (4)
+    M 64:4 TestGocvecollector.test_exception - A (2)
+tests/workers/test_init_package_flow.py
+    C 9:0 TestInitPackageFlow - A (2)
+    M 13:4 TestInitPackageFlow.test_basic_input_validation - A (2)
+tests/workers/test_github_dependency_tree.py
+    M 12:4 TestGithubDependencyTreeTask.test_maven_index_checker_repo - A (5)
+    M 95:4 TestGithubDependencyTreeTask.test_repo_with_no_lockfile - A (5)
+    C 8:0 TestGithubDependencyTreeTask - A (4)
+    M 31:4 TestGithubDependencyTreeTask.test_python_requirements_txt - A (4)
+    M 53:4 TestGithubDependencyTreeTask.test_npm_repo_with_package_lock - A (4)
+tests/storages/test_postgres.py
+    C 17:0 TestBayesianPostgres - A (2)
+    M 20:4 TestBayesianPostgres.setup_method - A (2)
+    M 40:4 TestBayesianPostgres.test_retrieve_normal - A (2)
+    M 51:4 TestBayesianPostgres.test_retrieve_s3 - A (2)
+    M 74:4 TestBayesianPostgres.test_store_normal - A (2)
+    M 82:4 TestBayesianPostgres.test_store_already_exists - A (2)
+    M 98:4 TestBayesianPostgres.test_get_latest_task_result - A (2)
+    M 110:4 TestBayesianPostgres.test_get_latest_task_result_no_results - A (2)
+tests/storages/test_s3_gocveartifact.py
+    F 6:0 test_bucket_name - A (2)
 tools/check_python_version.py
     F 19:0 get_expected_version - A (4)
     F 48:0 compare_versions - A (2)
     F 59:0 main - A (2)
     F 43:0 get_actual_version - A (1)
-hack/queue_conf.py
-    F 23:0 set_queue_attributes - A (4)
-    F 67:0 print_help - A (1)
-alembic/env.py
-    F 60:0 run_migrations_online - A (3)
-    F 40:0 run_migrations_offline - A (2)
-alembic/versions/f5c853b83d41_add_api_requests_table.py
-    F 20:0 upgrade - A (1)
-    F 38:0 downgrade - A (1)
-alembic/versions/9d605c7725d8_add_app_stack_tables.py
-    F 20:0 upgrade - A (1)
-    F 36:0 downgrade - A (1)
-alembic/versions/76c5fd72744e_gh_usage_stats.py
-    F 19:0 upgrade - A (1)
-    F 39:0 downgrade - A (1)
-alembic/versions/c23ff3124920_fix_ecosystem_data.py
-    F 18:0 upgrade - A (1)
-    F 35:0 downgrade - A (1)
-alembic/versions/0ff7fe2828a5_initial_revision.py
-    F 16:0 upgrade - A (1)
-    F 21:0 downgrade - A (1)
-alembic/versions/e48c7b4235aa_drop_analysisrequest_table.py
-    F 20:0 upgrade - A (1)
-    F 28:0 downgrade - A (1)
-alembic/versions/35180d0f1ced_fix_pypi_url.py
-    F 18:0 upgrade - A (1)
-    F 29:0 downgrade - A (1)
-alembic/versions/727aeeb88b2f_add_started_at_and_ended_at_to_.py
-    F 19:0 upgrade - A (1)
-    F 29:0 downgrade - A (1)
-alembic/versions/4bffa8c11eb8_add_indexes_to_start_and_end_date_for_.py
-    F 18:0 upgrade - A (1)
-    F 30:0 downgrade - A (1)
-alembic/versions/be06b06767de_add_indexes_on_foreign_keys_in_.py
-    F 18:0 upgrade - A (1)
-    F 27:0 downgrade - A (1)
-alembic/versions/2bd5f6d0c8b0_introduce_stackreq_origin_flag.py
-    F 19:0 upgrade - A (1)
-    F 27:0 downgrade - A (1)
-alembic/versions/e2762a61d34c_upstream_url_can_be_null.py
-    F 19:0 upgrade - A (1)
-    F 34:0 downgrade - A (1)
-alembic/versions/49c27b67936f_permissions.py
-    F 19:0 upgrade - A (1)
-    F 35:0 downgrade - A (1)
-alembic/versions/097bb617eade_go_backend_for_golang.py
-    F 18:0 upgrade - A (1)
-    F 34:0 downgrade - A (1)
-alembic/versions/33b719488061_add_col_dep_snapshot.py
-    F 21:0 upgrade - A (1)
-    F 30:0 downgrade - A (1)
-alembic/versions/ea55c632ae8d_create_auth_data.py
-    F 19:0 upgrade - A (1)
-    F 46:0 downgrade - A (1)
-alembic/versions/d62464ca17ae_introduce_error_flag_for_worker_results.py
-    F 19:0 upgrade - A (1)
-    F 27:0 downgrade - A (1)
-alembic/versions/43360d9467b9_drop_bigquery_results_table.py
-    F 20:0 upgrade - A (1)
-    F 34:0 downgrade - A (1)
-alembic/versions/c3ea37a6ebc5_add_redhat_maven_ecosystem.py
-    F 19:0 upgrade - A (1)
-    F 31:0 downgrade - A (1)
-alembic/versions/ddb09a7d6633_delete_unnecessary_db_tables.py
-    F 20:0 upgrade - A (1)
-    F 30:0 downgrade - A (1)
-alembic/versions/813f9a704eb7_stack_request_coltypechange.py
-    F 20:0 upgrade - A (1)
-    F 30:0 downgrade - A (1)
-alembic/versions/b4fbc8e04c81_gh_usage_with_versions.py
-    F 20:0 upgrade - A (1)
-    F 38:0 downgrade - A (1)
-alembic/versions/a0433904c63b_analysis_requests.py
-    F 19:0 upgrade - A (1)
-    F 38:0 downgrade - A (1)
-alembic/versions/063c0fcb3fa3_add_index_on_user_email.py
-    F 18:0 upgrade - A (1)
-    F 27:0 downgrade - A (1)
-alembic/versions/750621a9cd89_drop_server_tables.py
-    F 20:0 upgrade - A (1)
-    F 31:0 downgrade - A (1)
-alembic/versions/133cd5484609_add_es_marker.py
-    F 19:0 upgrade - A (1)
-    F 30:0 downgrade - A (1)
-alembic/versions/b19a6deb869d_stack_request_coltype_change.py
-    F 18:0 upgrade - A (1)
-    F 30:0 downgrade - A (1)
-alembic/versions/fc7ea2a7e386_analytics_tables.py
-    F 20:0 upgrade - A (1)
-    F 43:0 downgrade - A (1)
-alembic/versions/245b57b274c2_introduce_upstream_monitoring_flows.py
-    F 20:0 upgrade - A (1)
-    F 63:0 downgrade - A (1)
-alembic/versions/a31c98c74ea0_add_e_p_v.py
-    F 19:0 upgrade - A (1)
-    F 79:0 downgrade - A (1)
-alembic/versions/f8bb0efac483_nuget_ecosystem.py
-    F 20:0 upgrade - A (3)
-    F 40:0 downgrade - A (1)
-alembic/versions/3fd95b3a69f5_bye_reviews.py
-    F 20:0 upgrade - A (1)
-    F 27:0 downgrade - A (1)
-alembic/versions/47f4ce1e8d75_stack_analyses_request.py
-    F 20:0 upgrade - A (1)
-    F 33:0 downgrade - A (1)
-alembic/versions/2ff043a5af5b_make_ecosystem_name_unique.py
-    F 18:0 upgrade - A (1)
-    F 25:0 downgrade - A (1)
-alembic/versions/02b91e918b43_migrate_to_dynamic_control_flow.py
-    F 19:0 upgrade - A (1)
-    F 28:0 downgrade - A (1)
-alembic/versions/49fb7de6227f_removal_of_anitya.py
-    F 19:0 upgrade - A (1)
-    F 26:0 downgrade - A (1)
-alembic/versions/60b296cac700_add_similar_components_table.py
-    F 19:0 upgrade - A (1)
-    F 32:0 downgrade - A (1)
-alembic/versions/424427c5f988_relative_usage.py
-    F 19:0 upgrade - A (1)
-    F 26:0 downgrade - A (1)
-alembic/versions/79d88d57baa7_remove_analyses_column.py
-    F 20:0 upgrade - A (1)
-    F 27:0 downgrade - A (1)
-alembic/versions/cd05b43f27e5_add_synced2graph_boolean_column_to_.py
-    F 19:0 upgrade - A (1)
-    F 28:0 downgrade - A (1)
-alembic/versions/8302d3bb5f68_stackreq_team_result.py
-    F 20:0 upgrade - A (1)
-    F 28:0 downgrade - A (1)
-alembic/versions/3655e38b92bc_increase_pkg_name_length.py
-    F 19:0 upgrade - A (1)
-    F 31:0 downgrade - A (1)
-alembic/versions/01404498814b_create_epv_and_workerresult_indexes.py
-    F 18:0 upgrade - A (1)
-    F 28:0 downgrade - A (1)
-alembic/versions/7c643a1823db_index_on_external_request_id.py
-    F 18:0 upgrade - A (1)
-    F 26:0 downgrade - A (1)
-alembic/versions/20cf59abbda8_add_external_reqeust_id_to_workerresult.py
-    F 19:0 upgrade - A (1)
-    F 27:0 downgrade - A (1)
-alembic/versions/a46a17bfd29b_batches_versions_relation.py
-    F 20:0 upgrade - A (1)
-    F 32:0 downgrade - A (1)
-alembic/versions/a60f15a395e2_do_not_index_ecosystem_url.py
-    F 18:0 upgrade - A (1)
-    F 25:0 downgrade - A (1)
-alembic/versions/967036f90ba1_gemini_model_py.py
-    F 19:0 upgrade - A (1)
-    F 31:0 downgrade - A (1)
-alembic/versions/3eb32f202f93_removing_starttime_and_endtime.py
-    F 20:0 upgrade - A (1)
-    F 28:0 downgrade - A (1)
-alembic/versions/094ea67a2baf_add_index_for_synced2graph_column.py
-    F 18:0 upgrade - A (1)
-    F 25:0 downgrade - A (1)
-alembic/versions/da53445aabad_add_recommendation_feedback_py.py
-    F 19:0 upgrade - A (1)
-    F 40:0 downgrade - A (1)
-alembic/versions/963d3d929b19_analyses.py
-    F 20:0 upgrade - A (1)
-    F 46:0 downgrade - A (1)
-alembic/versions/5cf8c7dac1b6_remove_active_flag.py
-    F 19:0 upgrade - A (1)
-    F 26:0 downgrade - A (1)
-alembic/versions/6e7ff4c3177e_remove_batches.py
-    F 20:0 upgrade - A (1)
-    F 28:0 downgrade - A (1)
-alembic/versions/51cb05927271_downstream_map.py
-    F 19:0 upgrade - A (1)
-    F 29:0 downgrade - A (1)
-alembic/versions/21b3add12b10_initial_ref_stack_support.py
-    F 20:0 upgrade - A (1)
-    F 34:0 downgrade - A (1)
-alembic/versions/22a1cd66a9c6_batches_reviews.py
-    F 20:0 upgrade - A (1)
-    F 40:0 downgrade - A (1)
 
 924 blocks (classes, functions, methods) analyzed.
 Average complexity: A (2.6677489177489178)
+
 </pre>
+</body>
+
+</html>

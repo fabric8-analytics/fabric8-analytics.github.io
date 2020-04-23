@@ -1,5 +1,31 @@
-<pre>setup.py
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+<style type="text/css">
+.ansi2html-content { display: inline; white-space: pre-wrap; word-wrap: break-word; }
+.body_foreground { color: #AAAAAA; }
+.body_background { background-color: #000000; }
+.body_foreground > .bold,.bold > .body_foreground, body.body_foreground > pre > .bold { color: #FFFFFF; font-weight: normal; }
+.inv_foreground { color: #000000; }
+.inv_background { background-color: #AAAAAA; }
+</style>
+</head>
+<body class="body_foreground body_background" style="font-size: normal;" >
+<pre class="ansi2html-content">
+setup.py
     F 8:0 get_requirements - A (4)
+tests/test_item_object.py
+    F 35:0 test_integer_item_constructor - B (10)
+    F 116:0 test_string_item_compare_to - B (10)
+    F 62:0 test_integer_item_compare_to - B (8)
+    F 146:0 test_list_item_compare_to - B (6)
+    F 25:0 test_integer_item - A (3)
+    F 85:0 test_string_item - A (3)
+    F 94:0 check_string_item - A (2)
+    F 100:0 test_string_item_constructor - A (2)
+    F 108:0 test_string_item_constructor_aliases - A (1)
 tests/test_version_comparator.py
     F 313:0 test_parse_version - B (9)
     F 339:0 test_parse_item - B (9)
@@ -17,35 +43,6 @@ tests/test_version_comparator.py
     F 107:0 test_str - A (2)
     F 296:0 test_comparisons_wrong_type - A (2)
     F 225:0 test_comparisons - A (1)
-tests/test_item_object.py
-    F 35:0 test_integer_item_constructor - B (10)
-    F 116:0 test_string_item_compare_to - B (10)
-    F 62:0 test_integer_item_compare_to - B (8)
-    F 146:0 test_list_item_compare_to - B (6)
-    F 25:0 test_integer_item - A (3)
-    F 85:0 test_string_item - A (3)
-    F 94:0 check_string_item - A (2)
-    F 100:0 test_string_item_constructor - A (2)
-    F 108:0 test_string_item_constructor_aliases - A (1)
-tools/check_python_version.py
-    F 19:0 get_expected_version - A (4)
-    F 48:0 compare_versions - A (2)
-    F 59:0 main - A (2)
-    F 43:0 get_actual_version - A (1)
-f8a_version_comparator/comparable_version.py
-    M 124:4 ComparableVersion.parse_version - C (13)
-    M 198:4 ComparableVersion.compare_to - A (3)
-    C 27:0 ComparableVersion - A (2)
-    M 30:4 ComparableVersion.__init__ - A (2)
-    M 58:4 ComparableVersion.__eq__ - A (2)
-    M 69:4 ComparableVersion.__ne__ - A (2)
-    M 80:4 ComparableVersion.__lt__ - A (2)
-    M 91:4 ComparableVersion.__le__ - A (2)
-    M 102:4 ComparableVersion.__gt__ - A (2)
-    M 113:4 ComparableVersion.__ge__ - A (2)
-    M 189:4 ComparableVersion.parse_item - A (2)
-    M 45:4 ComparableVersion.__repr__ - A (1)
-    M 52:4 ComparableVersion.__str__ - A (1)
 f8a_version_comparator/item_object.py
     M 171:4 ListItem.compare_to - C (12)
     M 42:4 IntegerItem.compare_to - B (6)
@@ -67,10 +64,33 @@ f8a_version_comparator/item_object.py
     M 143:4 ListItem.__init__ - A (1)
     M 147:4 ListItem.add_item - A (1)
     M 151:4 ListItem.get_list - A (1)
+f8a_version_comparator/comparable_version.py
+    M 124:4 ComparableVersion.parse_version - C (13)
+    M 198:4 ComparableVersion.compare_to - A (3)
+    C 27:0 ComparableVersion - A (2)
+    M 30:4 ComparableVersion.__init__ - A (2)
+    M 58:4 ComparableVersion.__eq__ - A (2)
+    M 69:4 ComparableVersion.__ne__ - A (2)
+    M 80:4 ComparableVersion.__lt__ - A (2)
+    M 91:4 ComparableVersion.__le__ - A (2)
+    M 102:4 ComparableVersion.__gt__ - A (2)
+    M 113:4 ComparableVersion.__ge__ - A (2)
+    M 189:4 ComparableVersion.parse_item - A (2)
+    M 45:4 ComparableVersion.__repr__ - A (1)
+    M 52:4 ComparableVersion.__str__ - A (1)
 f8a_version_comparator/base.py
     C 23:0 Item - A (1)
     M 26:4 Item.compare_to - A (1)
+tools/check_python_version.py
+    F 19:0 get_expected_version - A (4)
+    F 48:0 compare_versions - A (2)
+    F 59:0 main - A (2)
+    F 43:0 get_actual_version - A (1)
 
 65 blocks (classes, functions, methods) analyzed.
 Average complexity: A (3.6615384615384614)
+
 </pre>
+</body>
+
+</html>

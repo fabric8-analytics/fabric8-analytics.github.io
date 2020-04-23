@@ -1,12 +1,33 @@
-<pre>evaluation_platform/uranus/src/generate_test_data.py
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+<style type="text/css">
+.ansi2html-content { display: inline; white-space: pre-wrap; word-wrap: break-word; }
+.body_foreground { color: #AAAAAA; }
+.body_background { background-color: #000000; }
+.body_foreground > .bold,.bold > .body_foreground, body.body_foreground > pre > .bold { color: #FFFFFF; font-weight: normal; }
+.inv_foreground { color: #000000; }
+.inv_background { background-color: #AAAAAA; }
+</style>
+</head>
+<body class="body_foreground body_background" style="font-size: normal;" >
+<pre class="ansi2html-content">
+evaluation_platform/uranus/src/generate_test_data.py
     M 38:4 TestData.load_package_list - B (6)
 evaluation_platform/uranus/src/alternate_testing.py
     M 62:4 AlternateAccuracy.generate_alternate_dependency_set - B (6)
     M 76:4 AlternateAccuracy.alternate_precision - B (6)
-util/data_store/local_filesystem.py
-    M 26:4 LocalFileSystem.list_files - B (6)
-util/data_store/s3_data_store.py
-    M 40:4 S3DataStore.list_files - B (10)
+analytics_platform/kronos/gnosis/src/gnosis_package_topic_model.py
+    M 29:4 GnosisPackageTopicModel.curate - B (8)
+    M 121:4 GnosisPackageTopicModel._get_unknown_packages_from_manifests - B (7)
+analytics_platform/kronos/gnosis/src/gnosis_ref_arch.py
+    M 221:4 GnosisReferenceArchitecture._generate_intent_component_class_dict_fp_growth - C (15)
+analytics_platform/kronos/apollo/src/apollo_tag_prune.py
+    M 78:4 TagListPruner.prune_tag_list_max_count - B (9)
+analytics_platform/kronos/softnet/src/cooccurrence_matrix_generator.py
+    M 83:4 CooccurrenceMatrixGenerator._generate_cooccurrence_matrix_for_ecosystem - B (6)
 analytics_platform/kronos/src/recommendation_validator.py
     M 66:4 RecommendationValidator.generate_alternate_dependency_set - B (7)
     M 131:4 RecommendationValidator.check_companion_recommendation - B (6)
@@ -15,23 +36,22 @@ analytics_platform/kronos/src/kronos_online_scoring.py
     F 148:0 generated_evidence_dict_list_and_potential_outlier_list - B (8)
     F 14:0 load_user_eco_to_kronos_model_dict - B (6)
     F 276:0 score_kronos - B (6)
-analytics_platform/kronos/apollo/src/apollo_tag_prune.py
-    M 78:4 TagListPruner.prune_tag_list_max_count - B (9)
 analytics_platform/kronos/pgm/src/offline_training.py
     F 39:0 load_user_eco_to_co_occerrence_matrix_dict - B (6)
-analytics_platform/kronos/gnosis/src/gnosis_package_topic_model.py
-    M 29:4 GnosisPackageTopicModel.curate - B (8)
-    M 121:4 GnosisPackageTopicModel._get_unknown_packages_from_manifests - B (7)
-analytics_platform/kronos/gnosis/src/gnosis_ref_arch.py
-    M 221:4 GnosisReferenceArchitecture._generate_intent_component_class_dict_fp_growth - C (15)
-analytics_platform/kronos/softnet/src/cooccurrence_matrix_generator.py
-    M 83:4 CooccurrenceMatrixGenerator._generate_cooccurrence_matrix_for_ecosystem - B (6)
-tagging_platform/helles/npm_tagger/get_descriptions_from_s3.py
-    F 18:0 run - B (7)
 tagging_platform/helles/npm_tagger/pytextrank_textrank_scoring.py
     F 109:0 process_readme - C (14)
     F 54:0 main - C (12)
+tagging_platform/helles/npm_tagger/get_descriptions_from_s3.py
+    F 18:0 run - B (7)
+util/data_store/s3_data_store.py
+    M 40:4 S3DataStore.list_files - B (10)
+util/data_store/local_filesystem.py
+    M 26:4 LocalFileSystem.list_files - B (6)
 
 20 blocks (classes, functions, methods) analyzed.
 Average complexity: B (7.85)
+
 </pre>
+</body>
+
+</html>

@@ -1,4 +1,85 @@
-<pre>tests/test_rest_api.py
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+<style type="text/css">
+.ansi2html-content { display: inline; white-space: pre-wrap; word-wrap: break-word; }
+.body_foreground { color: #AAAAAA; }
+.body_background { background-color: #000000; }
+.body_foreground > .bold,.bold > .body_foreground, body.body_foreground > pre > .bold { color: #FFFFFF; font-weight: normal; }
+.inv_foreground { color: #000000; }
+.inv_background { background-color: #AAAAAA; }
+</style>
+</head>
+<body class="body_foreground body_background" style="font-size: normal;" >
+<pre class="ansi2html-content">
+src/rest_api.py
+    F 88:0 stack_aggregator - B (9)
+    F 50:0 recommender - B (6)
+    F 15:0 setup_logging - A (2)
+    F 38:0 readiness - A (1)
+    F 44:0 liveness - A (1)
+src/stack_aggregator.py
+    F 178:0 _extract_unknown_licenses - C (11)
+    F 528:0 find_unknown_deps - B (10)
+    F 269:0 perform_license_analysis - B (9)
+    C 604:0 StackAggregator - B (9)
+    M 607:4 StackAggregator.execute - B (9)
+    F 342:0 aggregate_stack_data - B (8)
+    F 47:0 extract_component_details - B (7)
+    F 420:0 remove_duplicate_cve_data - B (7)
+    F 449:0 add_transitive_details - B (7)
+    F 486:0 get_tr_dependency_data - B (7)
+    F 545:0 get_dependency_data - B (7)
+    F 23:0 get_recommended_version - A (5)
+    F 401:0 create_dependency_data_set - A (5)
+    F 145:0 _extract_conflict_packages - A (4)
+    F 322:0 extract_user_stack_package_licenses - A (4)
+    F 246:0 _extract_license_outliers - A (3)
+src/recommender.py
+    M 489:4 RecommendationTask.execute - C (15)
+    M 182:4 GraphDB.filter_versions - C (12)
+    M 315:4 License.apply_license_filter - B (9)
+    C 418:0 RecommendationTask - B (9)
+    M 429:4 RecommendationTask.get_insights_url - B (9)
+    M 258:4 GraphDB.get_topics_for_alt - B (6)
+    C 92:0 GraphDB - A (5)
+    M 123:4 GraphDB.get_topmost_alternate - A (5)
+    M 165:4 GraphDB.prepare_final_filtered_list - A (5)
+    M 271:4 GraphDB.get_topics_for_comp - A (5)
+    C 288:0 License - A (5)
+    F 403:0 set_valid_cooccurrence_probability - A (3)
+    M 95:4 GraphDB.get_version_information - A (3)
+    M 147:4 GraphDB.add_version_to_filtered_list - A (3)
+    M 291:4 License.invoke_license_analysis_service - A (3)
+    M 371:4 License.perform_license_analysis - A (3)
+    M 463:4 RecommendationTask.call_insights_recommender - A (3)
+src/utils.py
+    F 231:0 select_latest_version - B (9)
+    F 96:0 create_package_dict - B (8)
+    F 72:0 format_date - A (3)
+    F 188:0 convert_version_to_proper_semantic - A (3)
+    F 278:0 is_quickstart_majority - A (3)
+    F 313:0 execute_gremlin_dsl - A (3)
+    F 358:0 server_create_analysis - A (3)
+    F 407:0 get_time_delta - A (3)
+    F 433:0 total_time_elapsed - A (3)
+    F 460:0 retry - A (3)
+    F 216:0 version_info_tuple - A (2)
+    F 267:0 get_session_retry - A (2)
+    F 292:0 persist_data_in_db - A (2)
+    F 388:0 select_from_db - A (2)
+    F 83:0 get_osio_user_count - A (1)
+    F 330:0 get_response_data - A (1)
+    F 338:0 server_run_flow - A (1)
+    F 422:0 push_data - A (1)
+    C 47:0 Postgres - A (1)
+    M 50:4 Postgres.__init__ - A (1)
+    M 64:4 Postgres.session - A (1)
+tests/conftest.py
+    F 8:0 client - A (2)
+tests/test_rest_api.py
     F 82:0 test_readiness_endpoint - A (3)
     F 90:0 test_liveness_endpoint - A (3)
     F 108:0 test_recommendation_api_endpoint - A (3)
@@ -59,71 +140,6 @@ tests/test_recommender.py
     M 50:4 TestRecommendationTask.test_call_insights_recommender_npm - A (2)
     F 28:0 mocked_requests_get - A (1)
     F 78:0 mocked_response_graph - A (1)
-tests/conftest.py
-    F 8:0 client - A (2)
-src/utils.py
-    F 231:0 select_latest_version - B (9)
-    F 96:0 create_package_dict - B (8)
-    F 72:0 format_date - A (3)
-    F 188:0 convert_version_to_proper_semantic - A (3)
-    F 278:0 is_quickstart_majority - A (3)
-    F 313:0 execute_gremlin_dsl - A (3)
-    F 358:0 server_create_analysis - A (3)
-    F 407:0 get_time_delta - A (3)
-    F 433:0 total_time_elapsed - A (3)
-    F 460:0 retry - A (3)
-    F 216:0 version_info_tuple - A (2)
-    F 267:0 get_session_retry - A (2)
-    F 292:0 persist_data_in_db - A (2)
-    F 388:0 select_from_db - A (2)
-    F 83:0 get_osio_user_count - A (1)
-    F 330:0 get_response_data - A (1)
-    F 338:0 server_run_flow - A (1)
-    F 422:0 push_data - A (1)
-    C 47:0 Postgres - A (1)
-    M 50:4 Postgres.__init__ - A (1)
-    M 64:4 Postgres.session - A (1)
-src/rest_api.py
-    F 88:0 stack_aggregator - B (9)
-    F 50:0 recommender - B (6)
-    F 15:0 setup_logging - A (2)
-    F 38:0 readiness - A (1)
-    F 44:0 liveness - A (1)
-src/stack_aggregator.py
-    F 178:0 _extract_unknown_licenses - C (11)
-    F 528:0 find_unknown_deps - B (10)
-    F 269:0 perform_license_analysis - B (9)
-    C 604:0 StackAggregator - B (9)
-    M 607:4 StackAggregator.execute - B (9)
-    F 342:0 aggregate_stack_data - B (8)
-    F 47:0 extract_component_details - B (7)
-    F 420:0 remove_duplicate_cve_data - B (7)
-    F 449:0 add_transitive_details - B (7)
-    F 486:0 get_tr_dependency_data - B (7)
-    F 545:0 get_dependency_data - B (7)
-    F 23:0 get_recommended_version - A (5)
-    F 401:0 create_dependency_data_set - A (5)
-    F 145:0 _extract_conflict_packages - A (4)
-    F 322:0 extract_user_stack_package_licenses - A (4)
-    F 246:0 _extract_license_outliers - A (3)
-src/recommender.py
-    M 489:4 RecommendationTask.execute - C (15)
-    M 182:4 GraphDB.filter_versions - C (12)
-    M 315:4 License.apply_license_filter - B (9)
-    C 418:0 RecommendationTask - B (9)
-    M 429:4 RecommendationTask.get_insights_url - B (9)
-    M 258:4 GraphDB.get_topics_for_alt - B (6)
-    C 92:0 GraphDB - A (5)
-    M 123:4 GraphDB.get_topmost_alternate - A (5)
-    M 165:4 GraphDB.prepare_final_filtered_list - A (5)
-    M 271:4 GraphDB.get_topics_for_comp - A (5)
-    C 288:0 License - A (5)
-    F 403:0 set_valid_cooccurrence_probability - A (3)
-    M 95:4 GraphDB.get_version_information - A (3)
-    M 147:4 GraphDB.add_version_to_filtered_list - A (3)
-    M 291:4 License.invoke_license_analysis_service - A (3)
-    M 371:4 License.perform_license_analysis - A (3)
-    M 463:4 RecommendationTask.call_insights_recommender - A (3)
 tools/check_python_version.py
     F 19:0 get_expected_version - A (4)
     F 48:0 compare_versions - A (2)
@@ -132,4 +148,8 @@ tools/check_python_version.py
 
 121 blocks (classes, functions, methods) analyzed.
 Average complexity: A (3.9834710743801653)
+
 </pre>
+</body>
+
+</html>

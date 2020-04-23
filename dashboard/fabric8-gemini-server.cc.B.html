@@ -1,28 +1,48 @@
-<pre>tests/test_rest_api.py
-    F 200:0 test_report_endpoint - B (9)
-tests/test_utils.py
-    F 258:0 test_fix_gremlin_output - C (12)
-    F 43:0 test_validate_request_data - B (9)
-tests/test_maven_parser.py
-    F 58:0 test_maven_parser_changed_coordinates - C (11)
-    F 10:0 test_maven_parser_output_files_direct_dependencies - B (8)
-    F 29:0 test_maven_parser_output_files_transitive_dependencies - B (8)
-tests/test_repo_dependency_creator.py
-    F 10:0 test_generate_report - B (8)
-tests/test_node_parser.py
-    F 20:0 test_node_parser - B (6)
-    F 42:0 test_node_parser_transitive_dependencies - B (6)
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+<style type="text/css">
+.ansi2html-content { display: inline; white-space: pre-wrap; word-wrap: break-word; }
+.body_foreground { color: #AAAAAA; }
+.body_background { background-color: #000000; }
+.body_foreground > .bold,.bold > .body_foreground, body.body_foreground > pre > .bold { color: #FFFFFF; font-weight: normal; }
+.inv_foreground { color: #000000; }
+.inv_background { background-color: #AAAAAA; }
+</style>
+</head>
+<body class="body_foreground body_background" style="font-size: normal;" >
+<pre class="ansi2html-content">
+src/rest_api.py
+    F 122:0 register - B (8)
+    F 240:0 user_repo_scan - B (7)
+src/utils.py
+    M 140:4 S3Helper.__init__ - B (9)
+    F 473:0 generate_comparison - B (6)
 src/repo_dependency_creator.py
     M 12:4 RepoDependencyCreator.create_repo_node_and_get_cve - C (11)
     C 8:0 RepoDependencyCreator - B (10)
     M 73:4 RepoDependencyCreator.generate_report - B (9)
-src/utils.py
-    M 140:4 S3Helper.__init__ - B (9)
-    F 473:0 generate_comparison - B (6)
-src/rest_api.py
-    F 122:0 register - B (8)
-    F 240:0 user_repo_scan - B (7)
+tests/test_maven_parser.py
+    F 58:0 test_maven_parser_changed_coordinates - C (11)
+    F 10:0 test_maven_parser_output_files_direct_dependencies - B (8)
+    F 29:0 test_maven_parser_output_files_transitive_dependencies - B (8)
+tests/test_rest_api.py
+    F 200:0 test_report_endpoint - B (9)
+tests/test_repo_dependency_creator.py
+    F 10:0 test_generate_report - B (8)
+tests/test_utils.py
+    F 258:0 test_fix_gremlin_output - C (12)
+    F 43:0 test_validate_request_data - B (9)
+tests/test_node_parser.py
+    F 20:0 test_node_parser - B (6)
+    F 42:0 test_node_parser_transitive_dependencies - B (6)
 
 16 blocks (classes, functions, methods) analyzed.
 Average complexity: B (8.5625)
+
 </pre>
+</body>
+
+</html>

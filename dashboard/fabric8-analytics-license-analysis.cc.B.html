@@ -1,36 +1,19 @@
-<pre>tests/test_s3_data_store.py
-    F 62:0 test_list_files_mocked_s3 - C (11)
-tests/test_local_filesystem.py
-    F 39:0 test_list_files - B (10)
-    F 88:0 test_read_all_json_files - B (7)
-    F 102:0 test_write_json_file - B (6)
-tests/test_license_analysis_representative_licenses.py
-    F 25:0 test_compute_representative_license_one_license - C (13)
-    F 64:0 test_compute_representative_license_outlier_licenses - C (13)
-    F 180:0 test_compute_representative_license_conflict_3 - B (9)
-    F 200:0 test_compute_representative_license_repeating_licenses - B (8)
-    F 97:0 test_compute_representative_license_unknown - B (7)
-    F 143:0 test_compute_representative_license_conflict_1 - B (7)
-    F 114:0 test_compute_representative_license_no_conflict - B (6)
-    F 161:0 test_compute_representative_license_conflict_2 - B (6)
-tests/test_directed_graph.py
-    F 257:0 test_iterator - C (15)
-    F 224:0 test_find_common_reachable_vertex - C (13)
-tests/test_license_analysis.py
-    F 50:0 test_check_compatibility_input_sanity_checks - C (16)
-    F 130:0 test_check_compatibility - C (14)
-    F 105:0 test_check_compatibility_all_permissive_licenses - B (7)
-    F 86:0 test_check_compatibility_some_unknown_licenses - B (6)
-tests/test_vertex.py
-    F 46:0 test_properties - B (6)
-tests/test_stack_license.py
-    F 324:0 test_extract_component_details - C (17)
-    F 505:0 test_extract_user_stack_package_licenses - B (9)
-    F 213:0 test_check_compatibility - B (8)
-    F 242:0 test_check_compatibility_conflicts - B (8)
-    F 551:0 test_select_latest_version - B (8)
-tests/test_stack_license_sanity_check.py
-    F 10:0 test_input_sanity_checks - B (10)
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+<style type="text/css">
+.ansi2html-content { display: inline; white-space: pre-wrap; word-wrap: break-word; }
+.body_foreground { color: #AAAAAA; }
+.body_background { background-color: #000000; }
+.body_foreground > .bold,.bold > .body_foreground, body.body_foreground > pre > .bold { color: #FFFFFF; font-weight: normal; }
+.inv_foreground { color: #000000; }
+.inv_background { background-color: #AAAAAA; }
+</style>
+</head>
+<body class="body_foreground body_background" style="font-size: normal;" >
+<pre class="ansi2html-content">
 src/directed_graph.py
     M 106:4 DirectedGraph.find_common_reachable_vertices - B (8)
 src/stack_license.py
@@ -47,11 +30,48 @@ src/license_analysis.py
     M 307:4 LicenseAnalyzer._find_conflict_licenses - C (14)
     M 377:4 LicenseAnalyzer._find_outlier_licenses - C (13)
     M 156:4 LicenseAnalyzer._find_walks_within_type - B (7)
-src/util/data_store/local_filesystem.py
-    M 27:4 LocalFileSystem.list_files - B (6)
 src/util/data_store/s3_data_store.py
     M 40:4 S3DataStore.list_files - B (10)
+src/util/data_store/local_filesystem.py
+    M 27:4 LocalFileSystem.list_files - B (6)
+tests/test_license_analysis_representative_licenses.py
+    F 25:0 test_compute_representative_license_one_license - C (13)
+    F 64:0 test_compute_representative_license_outlier_licenses - C (13)
+    F 180:0 test_compute_representative_license_conflict_3 - B (9)
+    F 200:0 test_compute_representative_license_repeating_licenses - B (8)
+    F 97:0 test_compute_representative_license_unknown - B (7)
+    F 143:0 test_compute_representative_license_conflict_1 - B (7)
+    F 114:0 test_compute_representative_license_no_conflict - B (6)
+    F 161:0 test_compute_representative_license_conflict_2 - B (6)
+tests/test_license_analysis.py
+    F 50:0 test_check_compatibility_input_sanity_checks - C (16)
+    F 130:0 test_check_compatibility - C (14)
+    F 105:0 test_check_compatibility_all_permissive_licenses - B (7)
+    F 86:0 test_check_compatibility_some_unknown_licenses - B (6)
+tests/test_vertex.py
+    F 46:0 test_properties - B (6)
+tests/test_stack_license_sanity_check.py
+    F 10:0 test_input_sanity_checks - B (10)
+tests/test_local_filesystem.py
+    F 39:0 test_list_files - B (10)
+    F 88:0 test_read_all_json_files - B (7)
+    F 102:0 test_write_json_file - B (6)
+tests/test_s3_data_store.py
+    F 62:0 test_list_files_mocked_s3 - C (11)
+tests/test_stack_license.py
+    F 324:0 test_extract_component_details - C (17)
+    F 505:0 test_extract_user_stack_package_licenses - B (9)
+    F 213:0 test_check_compatibility - B (8)
+    F 242:0 test_check_compatibility_conflicts - B (8)
+    F 551:0 test_select_latest_version - B (8)
+tests/test_directed_graph.py
+    F 257:0 test_iterator - C (15)
+    F 224:0 test_find_common_reachable_vertex - C (13)
 
 40 blocks (classes, functions, methods) analyzed.
 Average complexity: C (10.075)
+
 </pre>
+</body>
+
+</html>

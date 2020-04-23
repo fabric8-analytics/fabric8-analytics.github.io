@@ -1,4 +1,4 @@
-~/bayesian/dashboard/repositories/fabric8-analytics-rudra ~/bayesian/dashboard/repositories/fabric8-analytics-rudra
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-rudra ~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-rudra
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
@@ -8,20 +8,16 @@ tools
 docs
 ----------------------------------------------------
 
-Already using interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Using base prefix '/usr'
-  No LICENSE.txt / LICENSE found in source
-New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-rudra/venv/bin/python3
-Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-rudra/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-rudra/venv/bin/python3)
-Installing setuptools, pip, wheel...
-done.
-Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (4.0.1)
-Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.9.1)
+created virtual environment CPython3.6.10.final.0-64 in 225ms
+  creator CPython3Posix(dest=/home/msawood/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-rudra/venv, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/msawood/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators PythonActivator,FishActivator,XonshActivator,CShellActivator,PowerShellActivator,BashActivator
+Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (5.0.2)
+Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (2.0.0)
 rudra/data_store/__init__.py
 0
     Pass
-rudra/data_store/abstract_data_store.py
+rudra/data_store/bigquery/maven_bigquery.py
 0
     Pass
 rudra/data_store/bigquery/__init__.py
@@ -30,93 +26,93 @@ rudra/data_store/bigquery/__init__.py
 rudra/data_store/bigquery/pypi_bigquery.py
 0
     Pass
-rudra/data_store/bigquery/maven_bigquery.py
-0
-    Pass
 rudra/data_store/bigquery/npm_bigquery.py
 0
     Pass
 rudra/data_store/bigquery/base.py
 0
     Pass
-rudra/data_store/aws.py
+rudra/data_store/abstract_data_store.py
 0
     Pass
 rudra/data_store/local_data_store.py
 0
     Pass
-rudra/utils/validation.py
-0
-    Pass
-rudra/utils/__init__.py
-0
-    Pass
-rudra/utils/pypi_parser.py
-0
-    Pass
-rudra/utils/mercator.py
-0
-    Pass
-rudra/utils/helper.py
-0
-    Pass
-rudra/__init__.py
+rudra/data_store/aws.py
 0
     Pass
 rudra/deployments/__init__.py
 0
     Pass
-rudra/deployments/emr_scripts/emr_config.py
+rudra/deployments/emr_scripts/npm_emr.py
 0
     Pass
 rudra/deployments/emr_scripts/__init__.py
 0
     Pass
-rudra/deployments/emr_scripts/maven_emr.py
-0
-    Pass
-rudra/deployments/emr_scripts/npm_emr.py
-0
-    Pass
 rudra/deployments/emr_scripts/pypi_emr.py
-0
-    Pass
-rudra/deployments/emr_scripts/emr_script_builder.py
 0
     Pass
 rudra/deployments/emr_scripts/abstract_emr.py
 0
     Pass
-tests/data_store/bigquery/test_pypi_bigquery.py
-tests/data_store/bigquery/test_pypi_bigquery.py:17 in public class `MockS3`:
+rudra/deployments/emr_scripts/emr_config.py
+0
+    Pass
+rudra/deployments/emr_scripts/emr_script_builder.py
+0
+    Pass
+rudra/deployments/emr_scripts/maven_emr.py
+0
+    Pass
+rudra/__init__.py
+0
+    Pass
+rudra/utils/__init__.py
+0
+    Pass
+rudra/utils/helper.py
+0
+    Pass
+rudra/utils/pypi_parser.py
+0
+    Pass
+rudra/utils/validation.py
+0
+    Pass
+rudra/utils/mercator.py
+0
+    Pass
+tests/data_store/bigquery/test_maven_bigquery.py
+tests/data_store/bigquery/test_maven_bigquery.py:17 in public class `MockS3`:
         D101: Missing docstring in public class
-tests/data_store/bigquery/test_pypi_bigquery.py:19 in public method `__init__`:
+tests/data_store/bigquery/test_maven_bigquery.py:19 in public method `__init__`:
         D107: Missing docstring in __init__
-tests/data_store/bigquery/test_pypi_bigquery.py:24 in public method `object_exists`:
+tests/data_store/bigquery/test_maven_bigquery.py:24 in public method `object_exists`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_pypi_bigquery.py:27 in public method `write_json_file`:
+tests/data_store/bigquery/test_maven_bigquery.py:27 in public method `write_json_file`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_pypi_bigquery.py:34 in public method `__del__`:
+tests/data_store/bigquery/test_maven_bigquery.py:34 in public method `__del__`:
         D105: Missing docstring in magic method
-tests/data_store/bigquery/test_pypi_bigquery.py:37 in public method `connect`:
+tests/data_store/bigquery/test_maven_bigquery.py:37 in public method `connect`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_pypi_bigquery.py:62 in public class `TestPyPiBigQuery`:
+tests/data_store/bigquery/test_maven_bigquery.py:62 in public class `TestMavenBigQuery`:
         D101: Missing docstring in public class
-tests/data_store/bigquery/test_pypi_bigquery.py:64 in public method `test_run_query`:
+tests/data_store/bigquery/test_maven_bigquery.py:64 in public method `test_run_query`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_pypi_bigquery.py:68 in public method `test_run_query_sync`:
+tests/data_store/bigquery/test_maven_bigquery.py:68 in public method `test_run_query_sync`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_pypi_bigquery.py:72 in public method `test_run_query_async`:
+tests/data_store/bigquery/test_maven_bigquery.py:72 in public method `test_run_query_async`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_pypi_bigquery.py:78 in public method `test_get_result_sync`:
+tests/data_store/bigquery/test_maven_bigquery.py:78 in public method `test_get_result_sync`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_pypi_bigquery.py:88 in public method `test_get_result_async`:
+tests/data_store/bigquery/test_maven_bigquery.py:88 in public method `test_get_result_async`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_pypi_bigquery.py:99 in public class `TestPyPiDataProcessing`:
+tests/data_store/bigquery/test_maven_bigquery.py:99 in public class `TestMavenDataProcessing`:
         D101: Missing docstring in public class
-tests/data_store/bigquery/test_pypi_bigquery.py:100 in public method `test_process_with_validation`:
+tests/data_store/bigquery/test_maven_bigquery.py:100 in public method `test_process`:
         D102: Missing docstring in public method
-tests/data_store/bigquery/test_pypi_bigquery.py:113 in public method `test_process_without_validation`:
+tests/data_store/bigquery/test_maven_bigquery.py:111 in public method `test_construct_packages`:
         D102: Missing docstring in public method
 15
     Fail
@@ -154,39 +150,6 @@ tests/data_store/bigquery/test_npm_bigquery.py:112 in public method `test_handle
 tests/data_store/bigquery/test_npm_bigquery.py:127 in public method `test_construct_packages`:
         D102: Missing docstring in public method
 16
-    Fail
-tests/data_store/bigquery/test_maven_bigquery.py
-tests/data_store/bigquery/test_maven_bigquery.py:17 in public class `MockS3`:
-        D101: Missing docstring in public class
-tests/data_store/bigquery/test_maven_bigquery.py:19 in public method `__init__`:
-        D107: Missing docstring in __init__
-tests/data_store/bigquery/test_maven_bigquery.py:24 in public method `object_exists`:
-        D102: Missing docstring in public method
-tests/data_store/bigquery/test_maven_bigquery.py:27 in public method `write_json_file`:
-        D102: Missing docstring in public method
-tests/data_store/bigquery/test_maven_bigquery.py:34 in public method `__del__`:
-        D105: Missing docstring in magic method
-tests/data_store/bigquery/test_maven_bigquery.py:37 in public method `connect`:
-        D102: Missing docstring in public method
-tests/data_store/bigquery/test_maven_bigquery.py:62 in public class `TestMavenBigQuery`:
-        D101: Missing docstring in public class
-tests/data_store/bigquery/test_maven_bigquery.py:64 in public method `test_run_query`:
-        D102: Missing docstring in public method
-tests/data_store/bigquery/test_maven_bigquery.py:68 in public method `test_run_query_sync`:
-        D102: Missing docstring in public method
-tests/data_store/bigquery/test_maven_bigquery.py:72 in public method `test_run_query_async`:
-        D102: Missing docstring in public method
-tests/data_store/bigquery/test_maven_bigquery.py:78 in public method `test_get_result_sync`:
-        D102: Missing docstring in public method
-tests/data_store/bigquery/test_maven_bigquery.py:88 in public method `test_get_result_async`:
-        D102: Missing docstring in public method
-tests/data_store/bigquery/test_maven_bigquery.py:99 in public class `TestMavenDataProcessing`:
-        D101: Missing docstring in public class
-tests/data_store/bigquery/test_maven_bigquery.py:100 in public method `test_process`:
-        D102: Missing docstring in public method
-tests/data_store/bigquery/test_maven_bigquery.py:111 in public method `test_construct_packages`:
-        D102: Missing docstring in public method
-15
     Fail
 tests/data_store/bigquery/test_base_upload_s3.py
 0
@@ -243,6 +206,62 @@ tests/data_store/bigquery/test_base.py:138 in public method `test_get_result_asy
 tests/data_store/bigquery/test_base.py:148 in public method `test_iter_`:
         D102: Missing docstring in public method
 25
+    Fail
+tests/data_store/bigquery/test_pypi_bigquery.py
+tests/data_store/bigquery/test_pypi_bigquery.py:17 in public class `MockS3`:
+        D101: Missing docstring in public class
+tests/data_store/bigquery/test_pypi_bigquery.py:19 in public method `__init__`:
+        D107: Missing docstring in __init__
+tests/data_store/bigquery/test_pypi_bigquery.py:24 in public method `object_exists`:
+        D102: Missing docstring in public method
+tests/data_store/bigquery/test_pypi_bigquery.py:27 in public method `write_json_file`:
+        D102: Missing docstring in public method
+tests/data_store/bigquery/test_pypi_bigquery.py:34 in public method `__del__`:
+        D105: Missing docstring in magic method
+tests/data_store/bigquery/test_pypi_bigquery.py:37 in public method `connect`:
+        D102: Missing docstring in public method
+tests/data_store/bigquery/test_pypi_bigquery.py:62 in public class `TestPyPiBigQuery`:
+        D101: Missing docstring in public class
+tests/data_store/bigquery/test_pypi_bigquery.py:64 in public method `test_run_query`:
+        D102: Missing docstring in public method
+tests/data_store/bigquery/test_pypi_bigquery.py:68 in public method `test_run_query_sync`:
+        D102: Missing docstring in public method
+tests/data_store/bigquery/test_pypi_bigquery.py:72 in public method `test_run_query_async`:
+        D102: Missing docstring in public method
+tests/data_store/bigquery/test_pypi_bigquery.py:78 in public method `test_get_result_sync`:
+        D102: Missing docstring in public method
+tests/data_store/bigquery/test_pypi_bigquery.py:88 in public method `test_get_result_async`:
+        D102: Missing docstring in public method
+tests/data_store/bigquery/test_pypi_bigquery.py:99 in public class `TestPyPiDataProcessing`:
+        D101: Missing docstring in public class
+tests/data_store/bigquery/test_pypi_bigquery.py:100 in public method `test_process_with_validation`:
+        D102: Missing docstring in public method
+tests/data_store/bigquery/test_pypi_bigquery.py:113 in public method `test_process_without_validation`:
+        D102: Missing docstring in public method
+15
+    Fail
+tests/data_store/test_local_store.py
+tests/data_store/test_local_store.py:1 at module level:
+        D100: Missing docstring in public module
+tests/data_store/test_local_store.py:12 in public function `tmp_dir`:
+        D103: Missing docstring in public function
+tests/data_store/test_local_store.py:18 in public function `local_data_store`:
+        D103: Missing docstring in public function
+tests/data_store/test_local_store.py:34 in public class `TestLocalDataStore`:
+        D101: Missing docstring in public class
+tests/data_store/test_local_store.py:36 in public method `test_get_name`:
+        D102: Missing docstring in public method
+tests/data_store/test_local_store.py:39 in public method `test_read_generic_file`:
+        D102: Missing docstring in public method
+tests/data_store/test_local_store.py:44 in public method `test_read_json_file`:
+        D102: Missing docstring in public method
+tests/data_store/test_local_store.py:50 in public method `test_load_matlab_multi_matrix`:
+        D102: Missing docstring in public method
+tests/data_store/test_local_store.py:56 in public method `test_read_yaml_file`:
+        D102: Missing docstring in public method
+tests/data_store/test_local_store.py:64 in public method `test_read_pickle_file`:
+        D102: Missing docstring in public method
+10
     Fail
 tests/data_store/test_aws.py
 tests/data_store/test_aws.py:1 at module level:
@@ -311,28 +330,88 @@ tests/data_store/test_aws.py:259 in public method `test_terminate_jobs`:
         D102: Missing docstring in public method
 32
     Fail
-tests/data_store/test_local_store.py
-tests/data_store/test_local_store.py:1 at module level:
+tests/deployments/emr_scripts/test_npm_emr.py
+tests/deployments/emr_scripts/test_npm_emr.py:1 at module level:
         D100: Missing docstring in public module
-tests/data_store/test_local_store.py:12 in public function `tmp_dir`:
-        D103: Missing docstring in public function
-tests/data_store/test_local_store.py:18 in public function `local_data_store`:
-        D103: Missing docstring in public function
-tests/data_store/test_local_store.py:34 in public class `TestLocalDataStore`:
+tests/deployments/emr_scripts/test_npm_emr.py:6 in public class `MockEMRConfig`:
         D101: Missing docstring in public class
-tests/data_store/test_local_store.py:36 in public method `test_get_name`:
+tests/deployments/emr_scripts/test_npm_emr.py:7 in public method `__init__`:
+        D107: Missing docstring in __init__
+tests/deployments/emr_scripts/test_npm_emr.py:10 in public method `get_config`:
         D102: Missing docstring in public method
-tests/data_store/test_local_store.py:39 in public method `test_read_generic_file`:
+tests/deployments/emr_scripts/test_npm_emr.py:26 in public class `TestNpmEMR`:
+        D101: Missing docstring in public class
+tests/deployments/emr_scripts/test_npm_emr.py:32 in public method `test_run_job`:
         D102: Missing docstring in public method
-tests/data_store/test_local_store.py:44 in public method `test_read_json_file`:
+6
+    Fail
+tests/deployments/emr_scripts/test_maven_emr.py
+tests/deployments/emr_scripts/test_maven_emr.py:1 at module level:
+        D100: Missing docstring in public module
+tests/deployments/emr_scripts/test_maven_emr.py:6 in public class `MockEMRConfig`:
+        D101: Missing docstring in public class
+tests/deployments/emr_scripts/test_maven_emr.py:7 in public method `__init__`:
+        D107: Missing docstring in __init__
+tests/deployments/emr_scripts/test_maven_emr.py:10 in public method `get_config`:
         D102: Missing docstring in public method
-tests/data_store/test_local_store.py:50 in public method `test_load_matlab_multi_matrix`:
+tests/deployments/emr_scripts/test_maven_emr.py:26 in public class `TestMavenEMR`:
+        D101: Missing docstring in public class
+tests/deployments/emr_scripts/test_maven_emr.py:32 in public method `test_run_job`:
         D102: Missing docstring in public method
-tests/data_store/test_local_store.py:56 in public method `test_read_yaml_file`:
+6
+    Fail
+tests/deployments/emr_scripts/test_emr_config.py
+tests/deployments/emr_scripts/test_emr_config.py:1 at module level:
+        D100: Missing docstring in public module
+tests/deployments/emr_scripts/test_emr_config.py:4 in public class `TestEMRConfig`:
+        D101: Missing docstring in public class
+tests/deployments/emr_scripts/test_emr_config.py:6 in public method `test_get_config`:
         D102: Missing docstring in public method
-tests/data_store/test_local_store.py:64 in public method `test_read_pickle_file`:
+3
+    Fail
+tests/deployments/emr_scripts/test_pypi_emr.py
+tests/deployments/emr_scripts/test_pypi_emr.py:1 at module level:
+        D100: Missing docstring in public module
+tests/deployments/emr_scripts/test_pypi_emr.py:6 in public class `MockEMRConfig`:
+        D101: Missing docstring in public class
+tests/deployments/emr_scripts/test_pypi_emr.py:7 in public method `__init__`:
+        D107: Missing docstring in __init__
+tests/deployments/emr_scripts/test_pypi_emr.py:10 in public method `get_config`:
         D102: Missing docstring in public method
-10
+tests/deployments/emr_scripts/test_pypi_emr.py:26 in public class `TestPyPiEMR`:
+        D101: Missing docstring in public class
+tests/deployments/emr_scripts/test_pypi_emr.py:32 in public method `test_run_job`:
+        D102: Missing docstring in public method
+6
+    Fail
+tests/deployments/emr_scripts/test_emr_script_builder.py
+tests/deployments/emr_scripts/test_emr_script_builder.py:1 at module level:
+        D100: Missing docstring in public module
+tests/deployments/emr_scripts/test_emr_script_builder.py:12 in public class `TestEMRScriptBuilder`:
+        D101: Missing docstring in public class
+tests/deployments/emr_scripts/test_emr_script_builder.py:14 in public method `test_curr_time`:
+        D102: Missing docstring in public method
+tests/deployments/emr_scripts/test_emr_script_builder.py:19 in public method `test_construct_job_without_required_params`:
+        D102: Missing docstring in public method
+tests/deployments/emr_scripts/test_emr_script_builder.py:38 in public method `test_construct_job`:
+        D102: Missing docstring in public method
+5
+    Fail
+tests/conftest.py
+0
+    Pass
+tests/utils/test_mercator.py
+tests/utils/test_mercator.py:8 in public class `TestSimpleMercator`:
+        D101: Missing docstring in public class
+tests/utils/test_mercator.py:30 in public method `test_get_dependencies`:
+        D102: Missing docstring in public method
+tests/utils/test_mercator.py:41 in public method `test_get_dependencies_with_no_dependencies`:
+        D102: Missing docstring in public method
+tests/utils/test_mercator.py:46 in public method `test_get_dependencies_with_no_content`:
+        D102: Missing docstring in public method
+tests/utils/test_mercator.py:50 in public method `test_find_data_corrupt_pom`:
+        D102: Missing docstring in public method
+5
     Fail
 tests/utils/test_helper.py
 tests/utils/test_helper.py:8 in public function `test_get_github_repo_info`:
@@ -369,89 +448,6 @@ tests/utils/test_validation.py:30 in public method `test_validate_pypi_content`:
         D102: Missing docstring in public method
 4
     Fail
-tests/utils/test_mercator.py
-tests/utils/test_mercator.py:8 in public class `TestSimpleMercator`:
-        D101: Missing docstring in public class
-tests/utils/test_mercator.py:30 in public method `test_get_dependencies`:
-        D102: Missing docstring in public method
-tests/utils/test_mercator.py:41 in public method `test_get_dependencies_with_no_dependencies`:
-        D102: Missing docstring in public method
-tests/utils/test_mercator.py:46 in public method `test_get_dependencies_with_no_content`:
-        D102: Missing docstring in public method
-tests/utils/test_mercator.py:50 in public method `test_find_data_corrupt_pom`:
-        D102: Missing docstring in public method
-5
-    Fail
-tests/deployments/emr_scripts/test_emr_script_builder.py
-tests/deployments/emr_scripts/test_emr_script_builder.py:1 at module level:
-        D100: Missing docstring in public module
-tests/deployments/emr_scripts/test_emr_script_builder.py:12 in public class `TestEMRScriptBuilder`:
-        D101: Missing docstring in public class
-tests/deployments/emr_scripts/test_emr_script_builder.py:14 in public method `test_curr_time`:
-        D102: Missing docstring in public method
-tests/deployments/emr_scripts/test_emr_script_builder.py:19 in public method `test_construct_job_without_required_params`:
-        D102: Missing docstring in public method
-tests/deployments/emr_scripts/test_emr_script_builder.py:38 in public method `test_construct_job`:
-        D102: Missing docstring in public method
-5
-    Fail
-tests/deployments/emr_scripts/test_pypi_emr.py
-tests/deployments/emr_scripts/test_pypi_emr.py:1 at module level:
-        D100: Missing docstring in public module
-tests/deployments/emr_scripts/test_pypi_emr.py:6 in public class `MockEMRConfig`:
-        D101: Missing docstring in public class
-tests/deployments/emr_scripts/test_pypi_emr.py:7 in public method `__init__`:
-        D107: Missing docstring in __init__
-tests/deployments/emr_scripts/test_pypi_emr.py:10 in public method `get_config`:
-        D102: Missing docstring in public method
-tests/deployments/emr_scripts/test_pypi_emr.py:26 in public class `TestPyPiEMR`:
-        D101: Missing docstring in public class
-tests/deployments/emr_scripts/test_pypi_emr.py:32 in public method `test_run_job`:
-        D102: Missing docstring in public method
-6
-    Fail
-tests/deployments/emr_scripts/test_npm_emr.py
-tests/deployments/emr_scripts/test_npm_emr.py:1 at module level:
-        D100: Missing docstring in public module
-tests/deployments/emr_scripts/test_npm_emr.py:6 in public class `MockEMRConfig`:
-        D101: Missing docstring in public class
-tests/deployments/emr_scripts/test_npm_emr.py:7 in public method `__init__`:
-        D107: Missing docstring in __init__
-tests/deployments/emr_scripts/test_npm_emr.py:10 in public method `get_config`:
-        D102: Missing docstring in public method
-tests/deployments/emr_scripts/test_npm_emr.py:26 in public class `TestNpmEMR`:
-        D101: Missing docstring in public class
-tests/deployments/emr_scripts/test_npm_emr.py:32 in public method `test_run_job`:
-        D102: Missing docstring in public method
-6
-    Fail
-tests/deployments/emr_scripts/test_emr_config.py
-tests/deployments/emr_scripts/test_emr_config.py:1 at module level:
-        D100: Missing docstring in public module
-tests/deployments/emr_scripts/test_emr_config.py:4 in public class `TestEMRConfig`:
-        D101: Missing docstring in public class
-tests/deployments/emr_scripts/test_emr_config.py:6 in public method `test_get_config`:
-        D102: Missing docstring in public method
-3
-    Fail
-tests/deployments/emr_scripts/test_maven_emr.py
-tests/deployments/emr_scripts/test_maven_emr.py:1 at module level:
-        D100: Missing docstring in public module
-tests/deployments/emr_scripts/test_maven_emr.py:6 in public class `MockEMRConfig`:
-        D101: Missing docstring in public class
-tests/deployments/emr_scripts/test_maven_emr.py:7 in public method `__init__`:
-        D107: Missing docstring in __init__
-tests/deployments/emr_scripts/test_maven_emr.py:10 in public method `get_config`:
-        D102: Missing docstring in public method
-tests/deployments/emr_scripts/test_maven_emr.py:26 in public class `TestMavenEMR`:
-        D101: Missing docstring in public class
-tests/deployments/emr_scripts/test_maven_emr.py:32 in public method `test_run_job`:
-        D102: Missing docstring in public method
-6
-    Fail
-tests/conftest.py
-0
-    Pass
 tools/check_python_version.py
 0
     Pass
@@ -466,5 +462,5 @@ setup.py
 setup.py
 0
     Pass
-~/bayesian/dashboard/repositories/fabric8-analytics-rudra
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-rudra
 Documentation strings should be added and/or fixed in 15 source files out of 43 files

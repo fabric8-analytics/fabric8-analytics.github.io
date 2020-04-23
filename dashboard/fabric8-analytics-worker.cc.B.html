@@ -1,4 +1,20 @@
-<pre>f8a_worker/graphutils.py
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+<style type="text/css">
+.ansi2html-content { display: inline; white-space: pre-wrap; word-wrap: break-word; }
+.body_foreground { color: #AAAAAA; }
+.body_background { background-color: #000000; }
+.body_foreground > .bold,.bold > .body_foreground, body.body_foreground > pre > .bold { color: #FFFFFF; font-weight: normal; }
+.inv_foreground { color: #000000; }
+.inv_background { background-color: #AAAAAA; }
+</style>
+</head>
+<body class="body_foreground body_background" style="font-size: normal;" >
+<pre class="ansi2html-content">
+f8a_worker/graphutils.py
     F 58:0 get_stack_popularity_data_graph - B (8)
     F 215:0 create_package_dict - B (8)
     F 28:0 get_stack_usage_data_graph - B (6)
@@ -12,6 +28,15 @@ f8a_worker/utils.py
     F 553:0 get_response - B (6)
 f8a_worker/setup_celery.py
     F 17:0 get_dispatcher_config_files - B (7)
+f8a_worker/schemas.py
+    M 236:4 BundledDynamicSchemaLibrary._load_all_schema_refs - B (8)
+    F 367:0 get_schema_ref - B (6)
+    F 407:0 assert_no_two_consecutive_schemas_are_same - B (6)
+f8a_worker/process.py
+    M 43:4 Git.clone - B (9)
+    M 480:4 IndianaJones.fetch_artifact - B (9)
+    M 259:4 IndianaJones.download_file - B (8)
+    M 290:4 IndianaJones.fetch_maven_artifact - B (7)
 f8a_worker/solver.py
     C 595:0 NugetDependencyParser - C (12)
     M 598:4 NugetDependencyParser.parse - C (12)
@@ -22,24 +47,10 @@ f8a_worker/solver.py
     F 941:0 get_ecosystem_parser - B (6)
     M 186:4 NugetReleasesFetcher.scrape_versions_from_nuget_org - B (6)
     M 274:4 GolangReleasesFetcher.fetch_releases - B (6)
-f8a_worker/process.py
-    M 43:4 Git.clone - B (9)
-    M 480:4 IndianaJones.fetch_artifact - B (9)
-    M 259:4 IndianaJones.download_file - B (8)
-    M 290:4 IndianaJones.fetch_maven_artifact - B (7)
 f8a_worker/base.py
     M 66:4 BaseTask.run - B (9)
-f8a_worker/schemas.py
-    M 236:4 BundledDynamicSchemaLibrary._load_all_schema_refs - B (8)
-    F 367:0 get_schema_ref - B (6)
-    F 407:0 assert_no_two_consecutive_schemas_are_same - B (6)
-f8a_worker/dispatcher/foreach.py
-    F 39:0 iter_dependencies_analysis - B (6)
-f8a_worker/data_normalizer/javascript.py
-    M 116:4 NpmDataNormalizer._transform_code_repository - B (8)
-    M 58:4 NpmDataNormalizer._are_tests_implemented - B (6)
-    M 95:4 NpmDataNormalizer._transform_contributors - B (6)
-    M 213:4 NpmDataNormalizer._transform_engines - B (6)
+f8a_worker/data_normalizer/java.py
+    M 26:4 MavenDataNormalizer.normalize - B (7)
 f8a_worker/data_normalizer/python.py
     M 61:4 PythonDistDataNormalizer.normalize - B (9)
 f8a_worker/data_normalizer/csharp.py
@@ -49,54 +60,39 @@ f8a_worker/data_normalizer/abstract.py
     M 33:4 AbstractDataNormalizer._transform_keys - B (7)
     M 63:4 AbstractDataNormalizer._join_name_email - B (6)
     M 87:4 AbstractDataNormalizer._split_keywords - B (6)
-f8a_worker/data_normalizer/java.py
-    M 26:4 MavenDataNormalizer.normalize - B (7)
-f8a_worker/storages/postgres_base.py
-    M 35:4 PostgresBase.__init__ - B (7)
-    M 84:4 PostgresBase.retrieve - B (6)
-    M 135:4 PostgresBase.store_error - B (6)
-f8a_worker/storages/package_postgres.py
-    M 34:4 PackagePostgres._create_result_entry - B (7)
-f8a_worker/storages/postgres.py
-    M 38:4 BayesianPostgres._create_result_entry - B (7)
-    M 214:4 BayesianPostgres.store_api_requests - B (6)
-f8a_worker/storages/s3.py
-    M 24:4 AmazonS3.__init__ - C (13)
-    M 90:4 AmazonS3._create_bucket - B (7)
-f8a_worker/workers/report_generation.py
-    M 56:4 ReportGenerationTask._get_dependency_data - B (7)
+f8a_worker/data_normalizer/javascript.py
+    M 116:4 NpmDataNormalizer._transform_code_repository - B (8)
+    M 58:4 NpmDataNormalizer._are_tests_implemented - B (6)
+    M 95:4 NpmDataNormalizer._transform_contributors - B (6)
+    M 213:4 NpmDataNormalizer._transform_engines - B (6)
 f8a_worker/workers/graph_importer.py
     C 10:0 GraphImporterTask - B (6)
     M 26:4 GraphImporterTask.execute - B (6)
+f8a_worker/workers/golangcvepredictor.py
+    M 25:4 GitIssuesPRsTask.get_response_issues - B (6)
+    M 70:4 GitIssuesPRsTask.execute - B (6)
+f8a_worker/workers/repo_dependency_finder.py
+    M 154:4 RepoDependencyFinderTask.generate_report - B (9)
+    C 13:0 RepoDependencyFinderTask - B (6)
 f8a_worker/workers/dependency_parser.py
     M 57:4 GithubDependencyTreeTask.extract_dependencies - B (10)
     M 197:4 GithubDependencyTreeTask.get_npm_dependencies - B (7)
 f8a_worker/workers/bookkeeper.py
     M 16:4 BookkeeperTask.store_user_node - B (7)
-f8a_worker/workers/githuber.py
-    M 75:4 GithubTask.execute - B (7)
-    M 151:4 GitReadmeCollectorTask._get_github_readme - B (6)
-f8a_worker/workers/repo_dependency_finder.py
-    M 154:4 RepoDependencyFinderTask.generate_report - B (9)
-    C 13:0 RepoDependencyFinderTask - B (6)
-f8a_worker/workers/mercator.py
-    M 171:4 MercatorTask._merge_python_items - D (30)
-    M 58:4 MercatorTask.run_mercator - C (19)
-    C 38:0 MercatorTask - B (9)
-    M 155:4 MercatorTask._parse_requires_txt - B (6)
-f8a_worker/workers/golangcvepredictor.py
-    M 25:4 GitIssuesPRsTask.get_response_issues - B (6)
-    M 70:4 GitIssuesPRsTask.execute - B (6)
 f8a_worker/workers/git_operations.py
     M 101:4 GitOperationTask.execute - B (7)
-f8a_worker/workers/license.py
-    M 21:4 LicenseCheckTask.process_output - B (6)
+f8a_worker/workers/report_generation.py
+    M 56:4 ReportGenerationTask._get_dependency_data - B (7)
+f8a_worker/workers/unknown_dep_fetcher.py
+    M 13:4 UnknownDependencyFetcherTask.get_dependency_data - B (6)
+f8a_worker/workers/dependency_snapshot.py
+    M 40:4 DependencySnapshotTask._resolve_dependency - B (9)
+    C 17:0 DependencySnapshotTask - B (6)
 f8a_worker/workers/init_package_flow.py
     M 103:4 InitPackageFlow.execute - B (7)
     M 19:4 InitPackageFlow.get_upstream_url - B (6)
-f8a_worker/workers/result_collector.py
-    C 8:0 _ResultCollectorBase - B (6)
-    M 15:4 _ResultCollectorBase.do_run - B (6)
+f8a_worker/workers/license.py
+    M 21:4 LicenseCheckTask.process_output - B (6)
 f8a_worker/workers/graphaggregator.py
     M 34:4 GraphAggregatorTask.execute - C (18)
     C 16:0 GraphAggregatorTask - C (12)
@@ -104,31 +100,43 @@ f8a_worker/workers/init_analysis_flow.py
     M 27:4 InitAnalysisFlow.execute - C (12)
     C 24:0 InitAnalysisFlow - B (6)
     M 123:4 InitAnalysisFlow._download_source_jar - B (6)
-f8a_worker/workers/unknown_dep_fetcher.py
-    M 13:4 UnknownDependencyFetcherTask.get_dependency_data - B (6)
-f8a_worker/workers/dependency_snapshot.py
-    M 40:4 DependencySnapshotTask._resolve_dependency - B (9)
-    C 17:0 DependencySnapshotTask - B (6)
+f8a_worker/workers/githuber.py
+    M 75:4 GithubTask.execute - B (7)
+    M 151:4 GitReadmeCollectorTask._get_github_readme - B (6)
+f8a_worker/workers/result_collector.py
+    C 8:0 _ResultCollectorBase - B (6)
+    M 15:4 _ResultCollectorBase.do_run - B (6)
+f8a_worker/workers/mercator.py
+    M 171:4 MercatorTask._merge_python_items - D (30)
+    M 58:4 MercatorTask.run_mercator - C (19)
+    C 38:0 MercatorTask - B (9)
+    M 155:4 MercatorTask._parse_requires_txt - B (6)
 f8a_worker/workers/schemas/github_details.py
     C 85:0 GithubDetail - B (7)
+f8a_worker/dispatcher/foreach.py
+    F 39:0 iter_dependencies_analysis - B (6)
+f8a_worker/storages/postgres_base.py
+    M 35:4 PostgresBase.__init__ - B (7)
+    M 84:4 PostgresBase.retrieve - B (6)
+    M 135:4 PostgresBase.store_error - B (6)
+f8a_worker/storages/postgres.py
+    M 38:4 BayesianPostgres._create_result_entry - B (7)
+    M 214:4 BayesianPostgres.store_api_requests - B (6)
+f8a_worker/storages/s3.py
+    M 24:4 AmazonS3.__init__ - C (13)
+    M 90:4 AmazonS3._create_bucket - B (7)
+f8a_worker/storages/package_postgres.py
+    M 34:4 PackagePostgres._create_result_entry - B (7)
+tests/test_process.py
+    M 52:4 TestIndianaJones.test_fetch_npm_specific - B (7)
+tests/test_solver.py
+    M 308:4 TestFetcher.test_f8a_fetcher - B (9)
 tests/test_schemas.py
     M 74:4 TestSchemaLibrary.test_bundled_dynamic_schema_lookup - B (9)
     C 40:0 TestSchemaLibrary - B (6)
-tests/test_process.py
-    M 52:4 TestIndianaJones.test_fetch_npm_specific - B (7)
 tests/test_utils.py
     M 36:4 TestUtilFunctions.test_get_all_files_from - B (6)
     M 157:4 TestMavenCoordinates.test_from_str - B (6)
-tests/test_solver.py
-    M 308:4 TestFetcher.test_f8a_fetcher - B (9)
-tests/workers/test_licensecheck.py
-    M 30:4 TestLicenseCheck.test_execute - B (7)
-tests/workers/test_libraries_io.py
-    M 45:4 TestLibrariesIoTask.test_execute - B (9)
-    C 41:0 TestLibrariesIoTask - B (6)
-tests/workers/test_digester.py
-    C 18:0 TestDigester - B (10)
-    M 22:4 TestDigester.test_execute - B (10)
 tests/workers/test_githuber.py
     C 10:0 TestGithuber - B (10)
     M 14:4 TestGithuber.test_execute - B (10)
@@ -137,7 +145,19 @@ tests/workers/test_mercator.py
     M 92:4 TestMercator.test_execute_go_glide - B (7)
     M 108:4 TestMercator.test_execute_go_godeps - B (6)
     M 130:4 TestMercator.test_get_outermost_items - B (6)
+tests/workers/test_libraries_io.py
+    M 45:4 TestLibrariesIoTask.test_execute - B (9)
+    C 41:0 TestLibrariesIoTask - B (6)
+tests/workers/test_digester.py
+    C 18:0 TestDigester - B (10)
+    M 22:4 TestDigester.test_execute - B (10)
+tests/workers/test_licensecheck.py
+    M 30:4 TestLicenseCheck.test_execute - B (7)
 
 96 blocks (classes, functions, methods) analyzed.
 Average complexity: B (7.989583333333333)
+
 </pre>
+</body>
+
+</html>

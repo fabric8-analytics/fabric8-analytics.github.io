@@ -1,4 +1,4 @@
-~/bayesian/dashboard/repositories/cvejob ~/bayesian/dashboard/repositories/cvejob
+~/fabric8-analytics-common/dashboard/repositories/cvejob ~/fabric8-analytics-common/dashboard/repositories/cvejob
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
@@ -8,55 +8,76 @@ scripts
 tools
 ----------------------------------------------------
 
-cvejob/selectors/basic.py
-0
-    Pass
-cvejob/selectors/__init__.py
-0
-    Pass
+cvejob/config.py
+cvejob/config.py:48 in public method `__init__`:
+        D401: First line should be in imperative mood; try rephrasing (found 'Constructor')
+1
+    Fail
 cvejob/__init__.py
-0
-    Pass
-cvejob/utils.py
 0
     Pass
 cvejob/version_utils.py
 0
     Pass
-cvejob/config.py
+cvejob/version.py
+cvejob/version.py:17 in public method `__init__`:
+        D401: First line should be in imperative mood; try rephrasing (found 'Constructor')
+1
+    Fail
+cvejob/cpe2pkg.py
 0
     Pass
 cvejob/outputs/__init__.py
 0
     Pass
 cvejob/outputs/victims.py
+cvejob/outputs/victims.py:27 in public method `__init__`:
+        D401: First line should be in imperative mood; try rephrasing (found 'Constructor')
+1
+    Fail
+cvejob/selectors/__init__.py
 0
     Pass
-cvejob/version.py
+cvejob/selectors/basic.py
 0
     Pass
-cvejob/versions/version_identifier.py
-0
-    Pass
-cvejob/versions/__init__.py
+cvejob/identifiers/__init__.py
 0
     Pass
 cvejob/identifiers/nvdtoolkit.py
 0
     Pass
 cvejob/identifiers/naive.py
-0
-    Pass
-cvejob/identifiers/__init__.py
+cvejob/identifiers/naive.py:25 in public method `__init__`:
+        D401: First line should be in imperative mood; try rephrasing (found 'Constructor')
+1
+    Fail
+cvejob/utils.py
 0
     Pass
 cvejob/filters/__init__.py
 0
     Pass
 cvejob/filters/input.py
+cvejob/filters/input.py:68 in public method `__init__`:
+        D401: First line should be in imperative mood; try rephrasing (found 'Constructor')
+cvejob/filters/input.py:140 in public method `__init__`:
+        D401: First line should be in imperative mood; try rephrasing (found 'Constructor')
+2
+    Fail
+cvejob/versions/version_identifier.py
 0
     Pass
-cvejob/cpe2pkg.py
+cvejob/versions/__init__.py
+0
+    Pass
+tests/test_version_utils.py
+0
+    Pass
+tests/__init__.py
+0
+    Pass
+tests/test_cpe2pkg.py
 0
     Pass
 tests/selectors/__init__.py
@@ -65,22 +86,10 @@ tests/selectors/__init__.py
 tests/selectors/test_basic.py
 0
     Pass
-tests/__init__.py
+tests/conftest.py
 0
     Pass
 tests/test_config.py
-0
-    Pass
-tests/test_utils.py
-0
-    Pass
-tests/test_version.py
-0
-    Pass
-tests/versions/__init__.py
-0
-    Pass
-tests/versions/test_version_identifier.py
 0
     Pass
 tests/identifiers/__init__.py
@@ -89,19 +98,22 @@ tests/identifiers/__init__.py
 tests/identifiers/test_naive.py
 0
     Pass
-tests/filters/__init__.py
+tests/test_utils.py
+0
+    Pass
+tests/test_version.py
 0
     Pass
 tests/filters/test_input.py
 0
     Pass
-tests/conftest.py
+tests/filters/__init__.py
 0
     Pass
-tests/test_cpe2pkg.py
+tests/versions/__init__.py
 0
     Pass
-tests/test_version_utils.py
+tests/versions/test_version_identifier.py
 0
     Pass
 scripts/get_python_packages.py
@@ -118,5 +130,5 @@ run.py
 run.py
 0
     Pass
-~/bayesian/dashboard/repositories/cvejob
-All checks passed for 35 source files
+~/fabric8-analytics-common/dashboard/repositories/cvejob
+Documentation strings should be added and/or fixed in 5 source files out of 35 files

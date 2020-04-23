@@ -1,13 +1,9 @@
-~/bayesian/dashboard/repositories/fabric8-analytics-version-comparator ~/bayesian/dashboard/repositories/fabric8-analytics-version-comparator
-Already using interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Using base prefix '/usr'
-  No LICENSE.txt / LICENSE found in source
-New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-version-comparator/venv/bin/python3
-Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-version-comparator/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-version-comparator/venv/bin/python3)
-Installing setuptools, pip, wheel...
-done.
-Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2.1.1)
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-version-comparator ~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-version-comparator
+created virtual environment CPython3.6.10.final.0-64 in 142ms
+  creator CPython3Posix(dest=/home/msawood/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-version-comparator/venv, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/msawood/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators PythonActivator,FishActivator,XonshActivator,CShellActivator,PowerShellActivator,BashActivator
+Requirement already satisfied: pyflakes in ./venv/lib/python3.6/site-packages (2.2.0)
 ----------------------------------------------------
 Checking source files for common errors in following
 directories:
@@ -18,17 +14,17 @@ tools
 
 f8a_version_comparator/__init__.py
     Pass
-f8a_version_comparator/comparable_version.py
-    Pass
 f8a_version_comparator/item_object.py
+    Pass
+f8a_version_comparator/comparable_version.py
     Pass
 f8a_version_comparator/base.py
     Pass
-tests/__init__.py
+tests/test_item_object.py
     Pass
 tests/test_version_comparator.py
     Pass
-tests/test_item_object.py
+tests/__init__.py
     Pass
 tools/check_python_version.py
     Pass
@@ -39,5 +35,5 @@ setup.py
 
 setup.py
     Pass
-~/bayesian/dashboard/repositories/fabric8-analytics-version-comparator
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-version-comparator
 All checks passed for 9 source files

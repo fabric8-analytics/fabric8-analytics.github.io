@@ -1,4 +1,4 @@
-~/bayesian/dashboard/repositories/fabric8-analytics-license-analysis ~/bayesian/dashboard/repositories/fabric8-analytics-license-analysis
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-license-analysis ~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-license-analysis
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
@@ -6,99 +6,95 @@ src
 tests
 ----------------------------------------------------
 
-Already using interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Using base prefix '/usr'
-  No LICENSE.txt / LICENSE found in source
-New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-license-analysis/venv/bin/python3
-Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-license-analysis/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-license-analysis/venv/bin/python3)
-Installing setuptools, pip, wheel...
-done.
-Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (4.0.1)
-Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.9.1)
-src/util/data_store/__init__.py
-0
-    Pass
-src/util/data_store/local_filesystem.py
-0
-    Pass
-src/util/data_store/abstract_data_store.py
-0
-    Pass
-src/util/data_store/s3_data_store.py
-0
-    Pass
-src/util/__init__.py
-0
-    Pass
+created virtual environment CPython3.6.10.final.0-64 in 158ms
+  creator CPython3Posix(dest=/home/msawood/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-license-analysis/venv, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/msawood/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators PythonActivator,FishActivator,XonshActivator,CShellActivator,PowerShellActivator,BashActivator
+Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (5.0.2)
+Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (2.0.0)
 src/directed_graph.py
 0
     Pass
 src/__init__.py
 0
     Pass
-src/utils.py
+src/stack_license.py
 0
     Pass
 src/rest_api.py
 0
     Pass
-src/stack_license.py
+src/license_analysis.py
 0
     Pass
 src/exceptions.py
 0
     Pass
-src/license_analysis.py
+src/utils.py
 0
     Pass
-tests/test_s3_data_store.py
+src/util/data_store/s3_data_store.py
 0
     Pass
-tests/s3_mocks.py
+src/util/data_store/__init__.py
 0
     Pass
-tests/test_errors_class.py
+src/util/data_store/abstract_data_store.py
 0
     Pass
-tests/test_local_filesystem.py
+src/util/data_store/local_filesystem.py
 0
     Pass
-tests/test_api_v1.py
+src/util/__init__.py
 0
     Pass
 tests/__init__.py
 0
     Pass
-tests/test_license_analysis_representative_licenses.py
-0
-    Pass
-tests/test_directed_graph.py
-0
-    Pass
-tests/test_license_analysis.py
+tests/synonyms/__init__.py
 0
     Pass
 tests/license_graph/__init__.py
 0
     Pass
+tests/conftest.py
+0
+    Pass
+tests/test_license_analysis_representative_licenses.py
+0
+    Pass
+tests/test_license_analysis.py
+0
+    Pass
+tests/s3_mocks.py
+0
+    Pass
 tests/test_vertex.py
-0
-    Pass
-tests/synonyms/__init__.py
-0
-    Pass
-tests/test_stack_license.py
 0
     Pass
 tests/test_stack_license_sanity_check.py
 0
     Pass
-tests/conftest.py
+tests/test_local_filesystem.py
+0
+    Pass
+tests/test_errors_class.py
 0
     Pass
 tests/pandas_mocks.py
 0
     Pass
-~/bayesian/dashboard/repositories/fabric8-analytics-license-analysis
+tests/test_s3_data_store.py
+0
+    Pass
+tests/test_stack_license.py
+0
+    Pass
+tests/test_directed_graph.py
+0
+    Pass
+tests/test_api_v1.py
+0
+    Pass
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-license-analysis
 All checks passed for 28 source files

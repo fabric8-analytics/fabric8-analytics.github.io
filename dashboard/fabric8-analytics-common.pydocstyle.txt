@@ -1,4 +1,4 @@
-~/bayesian/dashboard/repositories/fabric8-analytics-common ~/bayesian/dashboard/repositories/fabric8-analytics-common
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-common ~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-common
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
@@ -18,80 +18,121 @@ a2t
 tools
 ----------------------------------------------------
 
-Already using interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Using base prefix '/usr'
-  No LICENSE.txt / LICENSE found in source
-New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-common/venv/bin/python3
-Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-common/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-common/venv/bin/python3)
-Installing setuptools, pip, wheel...
-done.
-Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (4.0.1)
-Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.9.1)
-integration-tests/features/src/schemas/component_security_issues.py
+created virtual environment CPython3.6.10.final.0-64 in 143ms
+  creator CPython3Posix(dest=/home/msawood/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-common/venv, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/msawood/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators PythonActivator,FishActivator,XonshActivator,CShellActivator,PowerShellActivator,BashActivator
+Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (5.0.2)
+Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (2.0.0)
+integration-tests/features/steps/gemini.py
 0
     Pass
-integration-tests/features/src/schemas/component_digests.py
+integration-tests/features/steps/s3_component_analysis.py
 0
     Pass
-integration-tests/features/src/schemas/component_dependency_snapshot.py
+integration-tests/features/steps/user_intent.py
 0
     Pass
-integration-tests/features/src/schemas/package_github_details.py
+integration-tests/features/steps/stack_analysis.py
+0
+    Pass
+integration-tests/features/steps/schema_checks.py
+0
+    Pass
+integration-tests/features/steps/gremlin.py
+0
+    Pass
+integration-tests/features/steps/common.py
+0
+    Pass
+integration-tests/features/steps/server_api.py
+0
+    Pass
+integration-tests/features/steps/authorization.py
+0
+    Pass
+integration-tests/features/steps/jobs_api.py
+0
+    Pass
+integration-tests/features/steps/license_analysis.py
+0
+    Pass
+integration-tests/features/steps/user_tag.py
+0
+    Pass
+integration-tests/features/steps/oc.py
+0
+    Pass
+integration-tests/features/steps/three_scale_preview.py
+0
+    Pass
+integration-tests/features/steps/s3_interface.py
+0
+    Pass
+integration-tests/features/steps/component_analysis.py
+0
+    Pass
+integration-tests/features/steps/s3_package_analysis.py
+0
+    Pass
+integration-tests/features/steps/backbone_api.py
+0
+    Pass
+integration-tests/features/steps/three_scale.py
+0
+    Pass
+integration-tests/features/environment.py
 0
     Pass
 integration-tests/features/src/schemas/__init__.py
 0
     Pass
-integration-tests/features/src/schemas/component_metadata.py
-0
-    Pass
-integration-tests/features/src/schemas/predicates.py
-0
-    Pass
-integration-tests/features/src/schemas/component_code_metrics.py
-0
-    Pass
 integration-tests/features/src/schemas/common.py
-0
-    Pass
-integration-tests/features/src/schemas/component_toplevel.py
-0
-    Pass
-integration-tests/features/src/schemas/package_toplevel.py
-0
-    Pass
-integration-tests/features/src/schemas/package_keywords_tagging.py
-0
-    Pass
-integration-tests/features/src/schemas/component_keywords_tagging.py
-0
-    Pass
-integration-tests/features/src/schemas/package_git_stats.py
 0
     Pass
 integration-tests/features/src/schemas/package_libraries_io.py
 0
     Pass
+integration-tests/features/src/schemas/component_security_issues.py
+0
+    Pass
+integration-tests/features/src/schemas/component_dependency_snapshot.py
+0
+    Pass
+integration-tests/features/src/schemas/component_code_metrics.py
+0
+    Pass
+integration-tests/features/src/schemas/package_github_details.py
+0
+    Pass
+integration-tests/features/src/schemas/component_toplevel.py
+0
+    Pass
+integration-tests/features/src/schemas/predicates.py
+0
+    Pass
+integration-tests/features/src/schemas/package_git_stats.py
+0
+    Pass
 integration-tests/features/src/schemas/component_source_licenses.py
 0
     Pass
-integration-tests/features/src/stack_analysis_common.py
+integration-tests/features/src/schemas/package_keywords_tagging.py
+0
+    Pass
+integration-tests/features/src/schemas/component_digests.py
+0
+    Pass
+integration-tests/features/src/schemas/component_metadata.py
+0
+    Pass
+integration-tests/features/src/schemas/package_toplevel.py
+0
+    Pass
+integration-tests/features/src/schemas/component_keywords_tagging.py
 0
     Pass
 integration-tests/features/src/schema_validator.py
-0
-    Pass
-integration-tests/features/src/parsing.py
-0
-    Pass
-integration-tests/features/src/utils.py
-0
-    Pass
-integration-tests/features/src/graph_db_query.py
-0
-    Pass
-integration-tests/features/src/MockedResponse.py
 0
     Pass
 integration-tests/features/src/json_utils.py
@@ -100,76 +141,31 @@ integration-tests/features/src/json_utils.py
 integration-tests/features/src/authorization_tokens.py
 0
     Pass
+integration-tests/features/src/parsing.py
+0
+    Pass
+integration-tests/features/src/utils.py
+0
+    Pass
+integration-tests/features/src/MockedResponse.py
+0
+    Pass
 integration-tests/features/src/s3interface.py
 0
     Pass
 integration-tests/features/src/attribute_checks.py
 0
     Pass
-integration-tests/features/steps/schema_checks.py
+integration-tests/features/src/graph_db_query.py
 0
     Pass
-integration-tests/features/steps/s3_package_analysis.py
-0
-    Pass
-integration-tests/features/steps/gremlin.py
-0
-    Pass
-integration-tests/features/steps/s3_component_analysis.py
-0
-    Pass
-integration-tests/features/steps/server_api.py
-0
-    Pass
-integration-tests/features/steps/three_scale.py
-0
-    Pass
-integration-tests/features/steps/jobs_api.py
-0
-    Pass
-integration-tests/features/steps/oc.py
-0
-    Pass
-integration-tests/features/steps/user_intent.py
-0
-    Pass
-integration-tests/features/steps/user_tag.py
-0
-    Pass
-integration-tests/features/steps/component_analysis.py
-0
-    Pass
-integration-tests/features/steps/s3_interface.py
-0
-    Pass
-integration-tests/features/steps/stack_analysis.py
-0
-    Pass
-integration-tests/features/steps/three_scale_preview.py
-0
-    Pass
-integration-tests/features/steps/common.py
-0
-    Pass
-integration-tests/features/steps/gemini.py
-0
-    Pass
-integration-tests/features/steps/authorization.py
-0
-    Pass
-integration-tests/features/steps/backbone_api.py
-0
-    Pass
-integration-tests/features/steps/license_analysis.py
-0
-    Pass
-integration-tests/features/environment.py
-0
-    Pass
-integration-tests/refresh_token_scripts/get_refresh_token_part.py
+integration-tests/features/src/stack_analysis_common.py
 0
     Pass
 integration-tests/hack/json2pom.py
+0
+    Pass
+integration-tests/refresh_token_scripts/get_refresh_token_part.py
 0
     Pass
 ui-tests/test.py
@@ -181,103 +177,73 @@ perf-tests/src/api.py
 perf-tests/src/jobsapi.py
 0
     Pass
-perf-tests/src/duration.py
-0
-    Pass
-perf-tests/src/componentgenerator.py
+perf-tests/src/coreapi.py
 0
     Pass
 perf-tests/src/cliargs.py
 0
     Pass
-perf-tests/src/perf-tests.py
+perf-tests/src/gremlin_api.py
 0
     Pass
 perf-tests/src/measurements.py
 0
     Pass
-perf-tests/src/gremlin_api.py
+perf-tests/src/perf-tests.py
 0
     Pass
 perf-tests/src/gremlin_query.py
 0
     Pass
-perf-tests/src/benchmarks.py
+perf-tests/src/componentgenerator.py
 0
     Pass
 perf-tests/src/s3interface.py
 0
     Pass
-perf-tests/src/coreapi.py
+perf-tests/src/gremlin_package_generator.py
 0
     Pass
 perf-tests/src/graph.py
 0
     Pass
-perf-tests/src/gremlin_package_generator.py
+perf-tests/src/benchmarks.py
 0
     Pass
-dashboard/src/results.py
+perf-tests/src/duration.py
 0
     Pass
-dashboard/src/configuration.py
-0
-    Pass
-dashboard/src/dc_ce_history.py
-0
-    Pass
-dashboard/src/jacoco_to_codecov.py
-0
-    Pass
-dashboard/src/sla.py
+dashboard/src/s3_configuration.py
 0
     Pass
 dashboard/src/api.py
 0
     Pass
-dashboard/src/ci_jobs.py
-0
-    Pass
 dashboard/src/jobsapi.py
-0
-    Pass
-dashboard/src/charts.py
-0
-    Pass
-dashboard/src/unit_tests.py
-0
-    Pass
-dashboard/src/cc.py
-0
-    Pass
-dashboard/src/csv_exporter.py
-0
-    Pass
-dashboard/src/repositories.py
 0
     Pass
 dashboard/src/perf_tests.py
 0
     Pass
-dashboard/src/cliargs.py
-0
-    Pass
-dashboard/src/server_configuration.py
-0
-    Pass
-dashboard/src/html_generator.py
+dashboard/src/coreapi.py
 0
     Pass
 dashboard/src/config.py
 0
     Pass
-dashboard/src/code_quality_label.py
-0
-    Pass
 dashboard/src/source_files.py
 0
     Pass
-dashboard/src/s3_configuration.py
+dashboard/src/cliargs.py
+0
+    Pass
+dashboard/src/git_utils.py
+0
+    Pass
+dashboard/src/repositories.py
+0
+    Pass
+dashboard/src/unit_tests.py
 0
     Pass
 dashboard/src/dashboard.py
@@ -286,22 +252,52 @@ dashboard/src/dashboard.py
 dashboard/src/smoke_tests.py
 0
     Pass
-dashboard/src/external_tools.py
+dashboard/src/jacoco_to_codecov.py
+0
+    Pass
+dashboard/src/html_generator.py
+0
+    Pass
+dashboard/src/history_generator.py
+0
+    Pass
+dashboard/src/ci_jobs.py
+0
+    Pass
+dashboard/src/sla.py
+0
+    Pass
+dashboard/src/code_quality_label.py
 0
     Pass
 dashboard/src/progress_bar.py
 0
     Pass
-dashboard/src/coreapi.py
+dashboard/src/configuration.py
+0
+    Pass
+dashboard/src/cc.py
+0
+    Pass
+dashboard/src/external_tools.py
+0
+    Pass
+dashboard/src/csv_exporter.py
 0
     Pass
 dashboard/src/cc_history.py
 0
     Pass
-dashboard/src/git_utils.py
+dashboard/src/server_configuration.py
 0
     Pass
-dashboard/src/history_generator.py
+dashboard/src/dc_ce_history.py
+0
+    Pass
+dashboard/src/charts.py
+0
+    Pass
+dashboard/src/results.py
 0
     Pass
 reproducers/issue1934.py
@@ -310,10 +306,10 @@ reproducers/issue1934.py
 reproducers/issue1619.py
 0
     Pass
-reproducers/issue4071.py
+reproducers/issue2012.py
 0
     Pass
-reproducers/issue2012.py
+reproducers/issue4071.py
 0
     Pass
 load-tests/run_load_test.py
@@ -322,85 +318,88 @@ load-tests/run_load_test.py
 load-tests/locust-test.py
 0
     Pass
-db-integrity-tests/src/schema_validator.py
-0
-    Pass
-db-integrity-tests/src/utils.py
-0
-    Pass
-db-integrity-tests/src/gremlin_checker.py
-0
-    Pass
 db-integrity-tests/src/s3configuration.py
-0
-    Pass
-db-integrity-tests/src/cliargs.py
-0
-    Pass
-db-integrity-tests/src/main.py
-0
-    Pass
-db-integrity-tests/src/gremlin_configuration.py
-0
-    Pass
-db-integrity-tests/src/component_versions_checker.py
-0
-    Pass
-db-integrity-tests/src/gremlin_query.py
-0
-    Pass
-db-integrity-tests/src/s3interface.py
-0
-    Pass
-db-integrity-tests/src/csv_reporter.py
-0
-    Pass
-db-integrity-tests/src/gremlin_interface.py
-0
-    Pass
-db-integrity-tests/src/core_package_checker.py
 0
     Pass
 db-integrity-tests/src/checker.py
 0
     Pass
+db-integrity-tests/src/schema_validator.py
+0
+    Pass
+db-integrity-tests/src/csv_reporter.py
+0
+    Pass
+db-integrity-tests/src/cliargs.py
+0
+    Pass
+db-integrity-tests/src/gremlin_interface.py
+0
+    Pass
+db-integrity-tests/src/gremlin_configuration.py
+0
+    Pass
+db-integrity-tests/src/gremlin_query.py
+0
+    Pass
+db-integrity-tests/src/core_package_checker.py
+0
+    Pass
+db-integrity-tests/src/utils.py
+0
+    Pass
+db-integrity-tests/src/s3interface.py
+0
+    Pass
+db-integrity-tests/src/gremlin_checker.py
+0
+    Pass
+db-integrity-tests/src/component_versions_checker.py
+0
+    Pass
+db-integrity-tests/src/main.py
+0
+    Pass
 taas/taas.py
-0
-    Pass
-job-checker/src/results.py
-0
-    Pass
-job-checker/src/job_checker.py
-0
-    Pass
-job-checker/src/ci_jobs.py
-0
-    Pass
-job-checker/src/repositories.py
-0
-    Pass
-job-checker/src/cliargs.py
 0
     Pass
 job-checker/src/config.py
 0
     Pass
-baf/src/auth.py
+job-checker/src/cliargs.py
 0
     Pass
-baf/src/csv_reader.py
+job-checker/src/repositories.py
 0
     Pass
-baf/src/results.py
+job-checker/src/ci_jobs.py
 0
     Pass
-baf/src/random_payload_generator.py
+job-checker/src/job_checker.py
+0
+    Pass
+job-checker/src/results.py
+0
+    Pass
+baf/src/report_generator.py
 0
     Pass
 baf/src/setup.py
 0
     Pass
+baf/src/payload_mutator.py
+0
+    Pass
 baf/src/cliargs.py
+0
+    Pass
+baf/src/csv_reader.py
+0
+    Pass
+baf/src/random_payload_generator.py
+0
+    Pass
+baf/src/auth.py
 0
     Pass
 baf/src/fuzzer.py
@@ -412,16 +411,10 @@ baf/src/baf.py
 baf/src/test_result.py
 0
     Pass
-baf/src/report_generator.py
-0
-    Pass
 baf/src/rest_api_calls.py
 0
     Pass
-baf/src/payload_mutator.py
-0
-    Pass
-e2e_tests_bot/src/ci_jobs.py
+baf/src/results.py
 0
     Pass
 e2e_tests_bot/src/config.py
@@ -433,13 +426,7 @@ e2e_tests_bot/src/e2e_tests_checker.py
 e2e_tests_bot/src/mm_client.py
 0
     Pass
-vscode-visual-tests/features/src/litava.py
-0
-    Pass
-vscode-visual-tests/features/src/gui.py
-0
-    Pass
-vscode-visual-tests/features/src/ps.py
+e2e_tests_bot/src/ci_jobs.py
 0
     Pass
 vscode-visual-tests/features/steps/vscode.py
@@ -454,53 +441,62 @@ vscode-visual-tests/features/steps/common.py
 vscode-visual-tests/features/environment.py
 0
     Pass
-a2t/src/auth.py
+vscode-visual-tests/features/src/ps.py
 0
     Pass
-a2t/src/csv_reader.py
+vscode-visual-tests/features/src/gui.py
 0
     Pass
-a2t/src/results.py
-0
-    Pass
-a2t/src/api.py
-0
-    Pass
-a2t/src/setup.py
-0
-    Pass
-a2t/src/cliargs.py
-0
-    Pass
-a2t/src/component_generator.py
-0
-    Pass
-a2t/src/component_analysis.py
+vscode-visual-tests/features/src/litava.py
 0
     Pass
 a2t/src/report_generator.py
 0
     Pass
+a2t/src/setup.py
+0
+    Pass
+a2t/src/api.py
+0
+    Pass
 a2t/src/stack_analysis.py
 0
     Pass
-a2t/src/a2t.py
+a2t/src/cliargs.py
+0
+    Pass
+a2t/src/csv_reader.py
+0
+    Pass
+a2t/src/component_generator.py
 0
     Pass
 a2t/src/test_runner.py
 0
     Pass
-tools/check_python_version.py
+a2t/src/auth.py
+0
+    Pass
+a2t/src/a2t.py
+0
+    Pass
+a2t/src/component_analysis.py
+0
+    Pass
+a2t/src/results.py
 0
     Pass
 tools/generate_pypi_list.py
 0
     Pass
-tools/generate_npm_list.py
+tools/check_python_version.py
 0
     Pass
 tools/generate_maven_list.py
 0
     Pass
-~/bayesian/dashboard/repositories/fabric8-analytics-common
+tools/generate_npm_list.py
+0
+    Pass
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-common
 All checks passed for 158 source files

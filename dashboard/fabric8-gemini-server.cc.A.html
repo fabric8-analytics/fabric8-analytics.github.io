@@ -1,5 +1,113 @@
-<pre>setup.py
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+<style type="text/css">
+.ansi2html-content { display: inline; white-space: pre-wrap; word-wrap: break-word; }
+.body_foreground { color: #AAAAAA; }
+.body_background { background-color: #000000; }
+.body_foreground > .bold,.bold > .body_foreground, body.body_foreground > pre > .bold { color: #FFFFFF; font-weight: normal; }
+.inv_foreground { color: #000000; }
+.inv_background { background-color: #AAAAAA; }
+</style>
+</head>
+<body class="body_foreground body_background" style="font-size: normal;" >
+<pre class="ansi2html-content">
+setup.py
     F 8:0 get_requirements - A (4)
+src/rest_api.py
+    F 122:0 register - B (8)
+    F 240:0 user_repo_scan - B (7)
+    F 61:0 sync_data - A (5)
+    F 200:0 report - A (4)
+    F 310:0 user_repo_scan_experimental - A (4)
+    F 356:0 notify_user - A (4)
+    F 398:0 drop - A (4)
+    F 522:0 compare_stacks_report - A (3)
+    F 471:0 get_stacks_report - A (2)
+    F 49:0 readiness - A (1)
+    F 55:0 liveness - A (1)
+    F 441:0 graph - A (1)
+    F 451:0 pgsql - A (1)
+    F 461:0 list_stacks_reports - A (1)
+    F 488:0 list_ingestion_reports - A (1)
+    F 494:0 get_ingestion_report - A (1)
+    F 505:0 list_sentry_reports - A (1)
+    F 511:0 get_sentry_report - A (1)
+    F 538:0 handle_error - A (1)
+    F 546:0 api_401_handler - A (1)
+src/exceptions.py
+    C 4:0 HTTPError - A (1)
+    M 16:4 HTTPError.__init__ - A (1)
+src/utils.py
+    M 140:4 S3Helper.__init__ - B (9)
+    F 473:0 generate_comparison - B (6)
+    F 35:0 sanitize_text_for_query - A (5)
+    F 409:0 fetch_public_key - A (5)
+    C 59:0 GraphPassThrough - A (5)
+    M 62:4 GraphPassThrough.fetch_nodes - A (5)
+    M 91:4 PostgresPassThrough.fetch_records - A (5)
+    C 137:0 S3Helper - A (5)
+    M 340:4 DatabaseIngestion.get_info - A (5)
+    C 292:0 DatabaseIngestion - A (4)
+    M 312:4 DatabaseIngestion.store_record - A (4)
+    F 199:0 retrieve_worker_result - A (3)
+    F 246:0 validate_request_data - A (3)
+    F 436:0 fix_gremlin_output - A (3)
+    C 78:0 PostgresPassThrough - A (3)
+    M 163:4 S3Helper.list_objects - A (3)
+    M 295:4 DatabaseIngestion.update_data - A (3)
+    F 222:0 get_session - A (2)
+    F 231:0 get_session_retry - A (2)
+    M 172:4 S3Helper.get_object_content - A (2)
+    F 186:0 query_worker_result - A (1)
+    F 194:0 get_first_query_result - A (1)
+    F 264:0 _to_object_dict - A (1)
+    F 274:0 update_osio_registered_repos - A (1)
+    F 281:0 add_entry_to_osio_registered_repos - A (1)
+    F 286:0 get_one_result_from_osio_registered_repos - A (1)
+    F 370:0 server_run_flow - A (1)
+    F 387:0 scan_repo - A (1)
+    F 397:0 alert_user - A (1)
+    F 465:0 get_parser_from_ecosystem - A (1)
+    M 81:4 PostgresPassThrough.__init__ - A (1)
+    C 106:0 Postgres - A (1)
+    M 109:4 Postgres.__init__ - A (1)
+    M 129:4 Postgres.session - A (1)
+src/repo_dependency_creator.py
+    M 12:4 RepoDependencyCreator.create_repo_node_and_get_cve - C (11)
+    C 8:0 RepoDependencyCreator - B (10)
+    M 73:4 RepoDependencyCreator.generate_report - B (9)
+src/data_extractor.py
+    C 4:0 DataExtractor - A (3)
+    M 19:4 DataExtractor.get_res_data - A (3)
+    M 30:4 DataExtractor.get_trans_data - A (3)
+    M 7:4 DataExtractor.get_details_from_results - A (2)
+src/notification/user_notification.py
+    M 31:4 UserNotification.generate_notification - A (4)
+    C 15:0 UserNotification - A (3)
+    M 18:4 UserNotification.send_notification - A (2)
+src/parsers/maven_parser.py
+    M 49:4 MavenParser._parse_string - A (5)
+    C 7:0 MavenParser - A (4)
+    M 10:4 MavenParser.parse_output_files - A (4)
+    M 30:4 MavenParser.parse_file_content - A (3)
+src/parsers/node_parser.py
+    M 12:4 NodeParser.parse_output_files - A (5)
+    C 9:0 NodeParser - A (4)
+    M 33:4 NodeParser.get_transitive_dependencies - A (3)
+src/parsers/parser_base.py
+    C 6:0 Parser - A (1)
+    M 9:4 Parser.parse_output_files - A (1)
+tests/test_maven_parser.py
+    F 58:0 test_maven_parser_changed_coordinates - C (11)
+    F 10:0 test_maven_parser_output_files_direct_dependencies - B (8)
+    F 29:0 test_maven_parser_output_files_transitive_dependencies - B (8)
+    F 49:0 test_maven_parser_output_files_bad_filename - A (4)
+tests/conftest.py
+    F 13:0 client - A (2)
+    F 20:0 create_database - A (1)
 tests/test_rest_api.py
     F 200:0 test_report_endpoint - B (9)
     F 123:0 test_readiness_endpoint_wrong_http_method - A (5)
@@ -28,14 +136,23 @@ tests/test_rest_api.py
     F 89:0 mocked_generate_notification - A (1)
     F 105:0 api_route_for - A (1)
     F 110:0 get_json_from_response - A (1)
-tests/test_user_notification.py
-    F 6:0 test_generate_notification - A (2)
-    F 24:0 test_generate_notification_2 - A (2)
-    F 42:0 test_generate_notification_3 - A (2)
-tests/test_errors_class.py
-    F 7:0 test_http_error_attributes - A (3)
-    F 14:0 test_http_error_raise - A (2)
-    F 20:0 test_http_error_exception_handling - A (2)
+tests/test_repo_dependency_creator.py
+    F 10:0 test_generate_report - B (8)
+    F 25:0 check_gremlin_payload - A (5)
+    F 182:0 test_create_repo_node_and_get_cve_error_status_code - A (3)
+    F 193:0 test_create_repo_node_and_get_cve_error_status_code_direct_dependency - A (3)
+    F 204:0 test_create_repo_node_and_get_cve_error_status_code_transitive_dependency - A (3)
+    F 215:0 test_create_repo_node_and_get_cve_error_status_code_direct_transitive_dependency - A (3)
+    F 77:0 test_create_repo_node_and_get_cve - A (2)
+    F 91:0 test_create_repo_node_and_get_cve_direct_dependency - A (2)
+    F 105:0 test_create_repo_node_and_get_cve_direct_dependency_epv_only - A (2)
+    F 118:0 test_create_repo_node_and_get_cve_direct_dependencies - A (2)
+    F 132:0 test_create_repo_node_and_get_cve_transitive_dependency - A (2)
+    F 146:0 test_create_repo_node_and_get_cve_transitive_dependency_epv_only - A (2)
+    F 158:0 test_create_repo_node_and_get_cve_transitive_dependencies - A (2)
+    F 170:0 test_create_repo_node_and_get_cve_direct_and_transitive_dependencies - A (2)
+    F 33:0 mock_post_with_payload_check - A (1)
+    F 55:0 mock_post_with_error_status_code - A (1)
 tests/test_utils.py
     F 258:0 test_fix_gremlin_output - C (12)
     F 43:0 test_validate_request_data - B (9)
@@ -73,119 +190,18 @@ tests/test_utils.py
     M 319:4 QueryResultMock.__init__ - A (1)
     M 323:4 QueryResultMock.first - A (1)
     M 328:4 QueryResultMock.get_first_called - A (1)
-tests/test_maven_parser.py
-    F 58:0 test_maven_parser_changed_coordinates - C (11)
-    F 10:0 test_maven_parser_output_files_direct_dependencies - B (8)
-    F 29:0 test_maven_parser_output_files_transitive_dependencies - B (8)
-    F 49:0 test_maven_parser_output_files_bad_filename - A (4)
-tests/test_repo_dependency_creator.py
-    F 10:0 test_generate_report - B (8)
-    F 25:0 check_gremlin_payload - A (5)
-    F 182:0 test_create_repo_node_and_get_cve_error_status_code - A (3)
-    F 193:0 test_create_repo_node_and_get_cve_error_status_code_direct_dependency - A (3)
-    F 204:0 test_create_repo_node_and_get_cve_error_status_code_transitive_dependency - A (3)
-    F 215:0 test_create_repo_node_and_get_cve_error_status_code_direct_transitive_dependency - A (3)
-    F 77:0 test_create_repo_node_and_get_cve - A (2)
-    F 91:0 test_create_repo_node_and_get_cve_direct_dependency - A (2)
-    F 105:0 test_create_repo_node_and_get_cve_direct_dependency_epv_only - A (2)
-    F 118:0 test_create_repo_node_and_get_cve_direct_dependencies - A (2)
-    F 132:0 test_create_repo_node_and_get_cve_transitive_dependency - A (2)
-    F 146:0 test_create_repo_node_and_get_cve_transitive_dependency_epv_only - A (2)
-    F 158:0 test_create_repo_node_and_get_cve_transitive_dependencies - A (2)
-    F 170:0 test_create_repo_node_and_get_cve_direct_and_transitive_dependencies - A (2)
-    F 33:0 mock_post_with_payload_check - A (1)
-    F 55:0 mock_post_with_error_status_code - A (1)
+tests/test_user_notification.py
+    F 6:0 test_generate_notification - A (2)
+    F 24:0 test_generate_notification_2 - A (2)
+    F 42:0 test_generate_notification_3 - A (2)
+tests/test_errors_class.py
+    F 7:0 test_http_error_attributes - A (3)
+    F 14:0 test_http_error_raise - A (2)
+    F 20:0 test_http_error_exception_handling - A (2)
 tests/test_node_parser.py
     F 20:0 test_node_parser - B (6)
     F 42:0 test_node_parser_transitive_dependencies - B (6)
     F 10:0 test_node_parser_no_files - A (3)
-tests/conftest.py
-    F 13:0 client - A (2)
-    F 20:0 create_database - A (1)
-src/repo_dependency_creator.py
-    M 12:4 RepoDependencyCreator.create_repo_node_and_get_cve - C (11)
-    C 8:0 RepoDependencyCreator - B (10)
-    M 73:4 RepoDependencyCreator.generate_report - B (9)
-src/utils.py
-    M 140:4 S3Helper.__init__ - B (9)
-    F 473:0 generate_comparison - B (6)
-    F 35:0 sanitize_text_for_query - A (5)
-    F 409:0 fetch_public_key - A (5)
-    C 59:0 GraphPassThrough - A (5)
-    M 62:4 GraphPassThrough.fetch_nodes - A (5)
-    M 91:4 PostgresPassThrough.fetch_records - A (5)
-    C 137:0 S3Helper - A (5)
-    M 340:4 DatabaseIngestion.get_info - A (5)
-    C 292:0 DatabaseIngestion - A (4)
-    M 312:4 DatabaseIngestion.store_record - A (4)
-    F 199:0 retrieve_worker_result - A (3)
-    F 246:0 validate_request_data - A (3)
-    F 436:0 fix_gremlin_output - A (3)
-    C 78:0 PostgresPassThrough - A (3)
-    M 163:4 S3Helper.list_objects - A (3)
-    M 295:4 DatabaseIngestion.update_data - A (3)
-    F 222:0 get_session - A (2)
-    F 231:0 get_session_retry - A (2)
-    M 172:4 S3Helper.get_object_content - A (2)
-    F 186:0 query_worker_result - A (1)
-    F 194:0 get_first_query_result - A (1)
-    F 264:0 _to_object_dict - A (1)
-    F 274:0 update_osio_registered_repos - A (1)
-    F 281:0 add_entry_to_osio_registered_repos - A (1)
-    F 286:0 get_one_result_from_osio_registered_repos - A (1)
-    F 370:0 server_run_flow - A (1)
-    F 387:0 scan_repo - A (1)
-    F 397:0 alert_user - A (1)
-    F 465:0 get_parser_from_ecosystem - A (1)
-    M 81:4 PostgresPassThrough.__init__ - A (1)
-    C 106:0 Postgres - A (1)
-    M 109:4 Postgres.__init__ - A (1)
-    M 129:4 Postgres.session - A (1)
-src/rest_api.py
-    F 122:0 register - B (8)
-    F 240:0 user_repo_scan - B (7)
-    F 61:0 sync_data - A (5)
-    F 200:0 report - A (4)
-    F 310:0 user_repo_scan_experimental - A (4)
-    F 356:0 notify_user - A (4)
-    F 398:0 drop - A (4)
-    F 522:0 compare_stacks_report - A (3)
-    F 471:0 get_stacks_report - A (2)
-    F 49:0 readiness - A (1)
-    F 55:0 liveness - A (1)
-    F 441:0 graph - A (1)
-    F 451:0 pgsql - A (1)
-    F 461:0 list_stacks_reports - A (1)
-    F 488:0 list_ingestion_reports - A (1)
-    F 494:0 get_ingestion_report - A (1)
-    F 505:0 list_sentry_reports - A (1)
-    F 511:0 get_sentry_report - A (1)
-    F 538:0 handle_error - A (1)
-    F 546:0 api_401_handler - A (1)
-src/data_extractor.py
-    C 4:0 DataExtractor - A (3)
-    M 19:4 DataExtractor.get_res_data - A (3)
-    M 30:4 DataExtractor.get_trans_data - A (3)
-    M 7:4 DataExtractor.get_details_from_results - A (2)
-src/exceptions.py
-    C 4:0 HTTPError - A (1)
-    M 16:4 HTTPError.__init__ - A (1)
-src/parsers/maven_parser.py
-    M 49:4 MavenParser._parse_string - A (5)
-    C 7:0 MavenParser - A (4)
-    M 10:4 MavenParser.parse_output_files - A (4)
-    M 30:4 MavenParser.parse_file_content - A (3)
-src/parsers/parser_base.py
-    C 6:0 Parser - A (1)
-    M 9:4 Parser.parse_output_files - A (1)
-src/parsers/node_parser.py
-    M 12:4 NodeParser.parse_output_files - A (5)
-    C 9:0 NodeParser - A (4)
-    M 33:4 NodeParser.get_transitive_dependencies - A (3)
-src/notification/user_notification.py
-    M 31:4 UserNotification.generate_notification - A (4)
-    C 15:0 UserNotification - A (3)
-    M 18:4 UserNotification.send_notification - A (2)
 tools/check_python_version.py
     F 19:0 get_expected_version - A (4)
     F 48:0 compare_versions - A (2)
@@ -194,4 +210,8 @@ tools/check_python_version.py
 
 174 blocks (classes, functions, methods) analyzed.
 Average complexity: A (2.9827586206896552)
+
 </pre>
+</body>
+
+</html>

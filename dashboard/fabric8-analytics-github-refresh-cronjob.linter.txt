@@ -1,4 +1,4 @@
-~/bayesian/dashboard/repositories/fabric8-analytics-github-refresh-cronjob ~/bayesian/dashboard/repositories/fabric8-analytics-github-refresh-cronjob
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-github-refresh-cronjob ~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-github-refresh-cronjob
 ----------------------------------------------------
 Running Python linter against following directories:
 tests
@@ -6,18 +6,14 @@ tools
 src
 ----------------------------------------------------
 
-Already using interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Using base prefix '/usr'
-  No LICENSE.txt / LICENSE found in source
-New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-github-refresh-cronjob/venv/bin/python3
-Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-github-refresh-cronjob/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-github-refresh-cronjob/venv/bin/python3)
-Installing setuptools, pip, wheel...
-done.
-Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
+created virtual environment CPython3.6.10.final.0-64 in 280ms
+  creator CPython3Posix(dest=/home/msawood/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-github-refresh-cronjob/venv, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/msawood/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators PythonActivator,FishActivator,XonshActivator,CShellActivator,PowerShellActivator,BashActivator
 Requirement already satisfied: pycodestyle in ./venv/lib/python3.6/site-packages (2.5.0)
-tests/test_github_refresh.py
-    Pass
 tests/conftest.py
+    Pass
+tests/test_github_refresh.py
     Pass
 tools/check_python_version.py
     Pass
@@ -29,4 +25,4 @@ Running Python linter against selected files:
 
 ----------------------------------------------------
 All checks passed for 4 source files
-~/bayesian/dashboard/repositories/fabric8-analytics-github-refresh-cronjob
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-github-refresh-cronjob

@@ -1,4 +1,62 @@
-<pre>src/graph_populator.py
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+<style type="text/css">
+.ansi2html-content { display: inline; white-space: pre-wrap; word-wrap: break-word; }
+.body_foreground { color: #AAAAAA; }
+.body_background { background-color: #000000; }
+.body_foreground > .bold,.bold > .body_foreground, body.body_foreground > pre > .bold { color: #FFFFFF; font-weight: normal; }
+.inv_foreground { color: #000000; }
+.inv_background { background-color: #AAAAAA; }
+</style>
+</head>
+<body class="body_foreground body_background" style="font-size: normal;" >
+<pre class="ansi2html-content">
+test/test_data_importer.py
+    F 13:0 test_parse_int_or_none_for_integer_input_overflows - B (9)
+    F 36:0 test_parse_int_or_none_for_string_input - B (7)
+    F 46:0 test_parse_int_or_none_for_unicode_string_input - B (7)
+    F 27:0 test_parse_int_or_none_for_float_input - B (6)
+    F 56:0 test_parse_int_or_none_for_invalid_input - B (6)
+test/test_s3_data_source.py
+    F 23:0 test_list_files - B (7)
+test/test_rest_api.py
+    F 146:0 test_selective_ingest_empty - B (7)
+    F 48:0 test_sync_all - B (6)
+    F 63:0 test_ingest_to_graph - B (6)
+    F 84:0 test_ingest_to_graph_source - B (6)
+    F 551:0 test_sync_latest_version - B (6)
+test/test_insertion_from_minio.py
+    F 35:0 test_create_minio_bucket - B (6)
+test/test_graph_populator.py
+    F 11:0 test_sanitize_text_for_query - B (10)
+    F 49:0 test_sanitize_text_for_query_for_unicode_input - B (10)
+    F 25:0 test_sanitize_text_for_query_whitespace_characters - B (9)
+    F 63:0 test_sanitize_text_for_query_whitespace_characters_in_unicode - B (8)
+    F 175:0 test_construct_version_query_4 - B (7)
+    F 231:0 test_construct_package_query - B (7)
+    F 92:0 test_construct_version_query_1 - B (6)
+test/test_cve.py
+    F 91:0 test_snyk_cve_put_get_qstring_for_cve_node - C (12)
+    F 183:0 test_cve_put_get_qstring_for_cve_node - C (11)
+    F 121:0 test_snyk_create_pv_nodes - B (8)
+    F 313:0 test_cve_get_ep - B (8)
+    F 212:0 test_create_pv_nodes - B (7)
+    F 297:0 test_cve_get_e - B (7)
+    F 282:0 test_cve_delete_prepare_payload - B (6)
+    F 330:0 test_cve_get_epv - B (6)
+src/data_importer.py
+    F 64:0 _import_keys_from_s3_http - C (20)
+    F 205:0 import_epv_http - C (11)
+    M 384:4 PostgresHandler._generate_fetch_query - B (8)
+    F 282:0 create_graph_nodes - B (6)
+    M 332:4 PostgresHandler.fetch_pending_epvs - B (6)
+src/rest_api.py
+    F 208:0 handle_properties - C (13)
+    F 177:0 selective_ingest - B (6)
+src/graph_populator.py
     M 112:4 GraphPopulator.construct_version_query - E (34)
     M 272:4 GraphPopulator.construct_package_query - D (27)
     C 16:0 GraphPopulator - C (13)
@@ -8,15 +66,6 @@
 src/utils.py
     F 369:0 batch_query_executor - B (9)
     F 333:0 rectify_latest_version - B (7)
-src/rest_api.py
-    F 208:0 handle_properties - C (13)
-    F 177:0 selective_ingest - B (6)
-src/data_importer.py
-    F 64:0 _import_keys_from_s3_http - C (20)
-    F 205:0 import_epv_http - C (11)
-    M 384:4 PostgresHandler._generate_fetch_query - B (8)
-    F 282:0 create_graph_nodes - B (6)
-    M 332:4 PostgresHandler.fetch_pending_epvs - B (6)
 src/cve.py
     M 21:4 SnykCVEPut.validate_input - C (12)
     M 238:4 CVEPut.validate_input - C (12)
@@ -27,40 +76,11 @@ src/cve.py
     M 265:4 CVEPut.process - B (6)
 src/data_source/s3_data_source.py
     M 49:4 S3DataSource.list_files - B (7)
-test/test_rest_api.py
-    F 146:0 test_selective_ingest_empty - B (7)
-    F 48:0 test_sync_all - B (6)
-    F 63:0 test_ingest_to_graph - B (6)
-    F 84:0 test_ingest_to_graph_source - B (6)
-    F 551:0 test_sync_latest_version - B (6)
-test/test_insertion_from_minio.py
-    F 35:0 test_create_minio_bucket - B (6)
-test/test_cve.py
-    F 91:0 test_snyk_cve_put_get_qstring_for_cve_node - C (12)
-    F 183:0 test_cve_put_get_qstring_for_cve_node - C (11)
-    F 121:0 test_snyk_create_pv_nodes - B (8)
-    F 313:0 test_cve_get_ep - B (8)
-    F 212:0 test_create_pv_nodes - B (7)
-    F 297:0 test_cve_get_e - B (7)
-    F 282:0 test_cve_delete_prepare_payload - B (6)
-    F 330:0 test_cve_get_epv - B (6)
-test/test_data_importer.py
-    F 13:0 test_parse_int_or_none_for_integer_input_overflows - B (9)
-    F 36:0 test_parse_int_or_none_for_string_input - B (7)
-    F 46:0 test_parse_int_or_none_for_unicode_string_input - B (7)
-    F 27:0 test_parse_int_or_none_for_float_input - B (6)
-    F 56:0 test_parse_int_or_none_for_invalid_input - B (6)
-test/test_s3_data_source.py
-    F 23:0 test_list_files - B (7)
-test/test_graph_populator.py
-    F 11:0 test_sanitize_text_for_query - B (10)
-    F 49:0 test_sanitize_text_for_query_for_unicode_input - B (10)
-    F 25:0 test_sanitize_text_for_query_whitespace_characters - B (9)
-    F 63:0 test_sanitize_text_for_query_whitespace_characters_in_unicode - B (8)
-    F 175:0 test_construct_version_query_4 - B (7)
-    F 231:0 test_construct_package_query - B (7)
-    F 92:0 test_construct_version_query_1 - B (6)
 
 50 blocks (classes, functions, methods) analyzed.
 Average complexity: B (8.92)
+
 </pre>
+</body>
+
+</html>

@@ -1,4 +1,4 @@
-~/bayesian/dashboard/repositories/fabric8-analytics-nvd-toolkit ~/bayesian/dashboard/repositories/fabric8-analytics-nvd-toolkit
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-nvd-toolkit ~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-nvd-toolkit
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
@@ -7,37 +7,7 @@ tests
 tools
 ----------------------------------------------------
 
-src/toolkit/pipelines/train.py
-0
-    Pass
-src/toolkit/pipelines/predict.py
-0
-    Pass
-src/toolkit/pipelines/pipelines.py
-0
-    Pass
-src/toolkit/pipelines/__init__.py
-0
-    Pass
-src/toolkit/pipelines/evaluation.py
-0
-    Pass
-src/toolkit/__init__.py
-0
-    Pass
-src/toolkit/utils.py
-0
-    Pass
-src/toolkit/config.py
-0
-    Pass
-src/toolkit/scripts/get_packages_by_commit.py
-0
-    Pass
-src/toolkit/scripts/__init__.py
-0
-    Pass
-src/toolkit/preprocessing/ecos.py
+src/toolkit/preprocessing/preprocessors.py
 0
     Pass
 src/toolkit/preprocessing/__init__.py
@@ -46,61 +16,91 @@ src/toolkit/preprocessing/__init__.py
 src/toolkit/preprocessing/handlers.py
 0
     Pass
-src/toolkit/preprocessing/preprocessors.py
+src/toolkit/preprocessing/ecos.py
 0
     Pass
-src/toolkit/__about__.py
+src/toolkit/config.py
 0
     Pass
-src/toolkit/transformers/extractors.py
+src/toolkit/__init__.py
 0
     Pass
 src/toolkit/transformers/__init__.py
 0
     Pass
-src/toolkit/transformers/classifiers.py
-0
-    Pass
-src/toolkit/transformers/feature_hooks.py
+src/toolkit/transformers/extractors.py
 0
     Pass
 src/toolkit/transformers/hooks.py
 0
     Pass
-tests/test_preprocessors.py
+src/toolkit/transformers/feature_hooks.py
 0
     Pass
-tests/test_scripts.py
+src/toolkit/transformers/classifiers.py
+0
+    Pass
+src/toolkit/scripts/__init__.py
+0
+    Pass
+src/toolkit/scripts/get_packages_by_commit.py
+0
+    Pass
+src/toolkit/utils.py
+0
+    Pass
+src/toolkit/__about__.py
+0
+    Pass
+src/toolkit/pipelines/__init__.py
+0
+    Pass
+src/toolkit/pipelines/predict.py
+0
+    Pass
+src/toolkit/pipelines/train.py
+0
+    Pass
+src/toolkit/pipelines/evaluation.py
+0
+    Pass
+src/toolkit/pipelines/pipelines.py
 0
     Pass
 tests/test_pipelines.py
 0
     Pass
+tests/test_extractors.py
+0
+    Pass
 tests/__init__.py
-0
-    Pass
-tests/test_utils.py
-0
-    Pass
-tests/test_handlers.py
-0
-    Pass
-tests/test_extras.py
-0
-    Pass
-tests/test_hook.py
 0
     Pass
 tests/test_feature_hooks.py
 0
     Pass
-tests/test_ecos.py
+tests/test_handlers.py
+0
+    Pass
+tests/test_scripts.py
 0
     Pass
 tests/test_classifiers.py
 0
     Pass
-tests/test_extractors.py
+tests/test_utils.py
+0
+    Pass
+tests/test_extras.py
+0
+    Pass
+tests/test_preprocessors.py
+0
+    Pass
+tests/test_ecos.py
+0
+    Pass
+tests/test_hook.py
 0
     Pass
 tools/check_python_version.py
@@ -114,5 +114,5 @@ setup.py
 setup.py
 0
     Pass
-~/bayesian/dashboard/repositories/fabric8-analytics-nvd-toolkit
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-nvd-toolkit
 All checks passed for 34 source files

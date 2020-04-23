@@ -1,55 +1,25 @@
-<pre>tests/unit_tests/test_flask_endpoint.py
-    M 12:4 TestFlaskMethods.setUp - A (2)
-    C 9:0 TestFlaskMethods - A (1)
-    M 18:4 TestFlaskMethods.test_health_checks - A (1)
-    M 24:4 TestFlaskMethods.test_root_path - A (1)
-    M 28:4 TestFlaskMethods.test_model_details - A (1)
-    M 33:4 TestFlaskMethods.test_companion_recommendations - A (1)
-tests/unit_tests/test_scoring_hpf_scoring.py
-    M 24:4 TestHPFScoringMethods.test_basic_object - A (4)
-    M 43:4 TestHPFScoringMethods.test_load_objects - A (3)
-    M 56:4 TestHPFScoringMethods.test_recommend_known_user - A (3)
-    M 63:4 TestHPFScoringMethods.test_recommend_new_user - A (3)
-    C 11:0 TestHPFScoringMethods - A (2)
-    M 69:4 TestHPFScoringMethods.test_predict_missing - A (2)
-    M 76:4 TestHPFScoringMethods.test_model_details - A (2)
-    M 84:4 TestHPFScoringMethods.test_get_sizeof - A (2)
-    M 14:4 TestHPFScoringMethods.__init__ - A (1)
-tests/unit_tests/test_utils.py
-    F 6:0 test_convert_string2bool_env - A (3)
-src/utils.py
-    F 4:0 convert_string2bool_env - A (1)
-src/flask_endpoint.py
-    F 85:0 hpf_scoring - A (4)
-    F 27:0 setup_logging - A (2)
-    F 78:0 readiness - A (2)
-    F 117:0 hpf_model_details - A (2)
-    F 68:0 heart_beat - A (1)
-    F 73:0 liveness - A (1)
-src/scoring/hpf_scoring.py
-    M 70:4 HPFScoring.predict - B (8)
-    M 168:4 HPFScoring.filter_recommendation - A (4)
-    M 59:4 HPFScoring.loadObjects - A (3)
-    M 118:4 HPFScoring.match_manifest - A (3)
-    C 22:0 HPFScoring - A (2)
-    M 135:4 HPFScoring.package_labelling - A (2)
-    M 148:4 HPFScoring.recommend_new_user - A (2)
-    M 25:4 HPFScoring.__init__ - A (1)
-    M 39:4 HPFScoring._getsizeof - A (1)
-    M 47:4 HPFScoring._load_model - A (1)
-    M 51:4 HPFScoring.model_details - A (1)
-    M 141:4 HPFScoring.recommend_known_user - A (1)
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+<style type="text/css">
+.ansi2html-content { display: inline; white-space: pre-wrap; word-wrap: break-word; }
+.body_foreground { color: #AAAAAA; }
+.body_background { background-color: #000000; }
+.body_foreground > .bold,.bold > .body_foreground, body.body_foreground > pre > .bold { color: #FFFFFF; font-weight: normal; }
+.inv_foreground { color: #000000; }
+.inv_background { background-color: #AAAAAA; }
+</style>
+</head>
+<body class="body_foreground body_background" style="font-size: normal;" >
+<pre class="ansi2html-content">
 perf_tests/locust_tests.py
     C 89:0 HPFInsightsBehaviour - A (2)
     M 96:4 HPFInsightsBehaviour.trigger_companion_recommendation_random_stack_len - A (2)
     F 82:0 get_packages - A (1)
     M 92:4 HPFInsightsBehaviour.on_start - A (1)
     C 105:0 HPFInsightsLocust - A (1)
-tools/check_python_version.py
-    F 19:0 get_expected_version - A (4)
-    F 48:0 compare_versions - A (2)
-    F 59:0 main - A (2)
-    F 43:0 get_actual_version - A (1)
 training/train.py
     F 340:0 create_git_pr - B (9)
     F 140:0 make_user_item_df - B (7)
@@ -74,7 +44,57 @@ training/train.py
     F 206:0 extra_df - A (1)
     F 264:0 run_recommender - A (1)
     F 320:0 save_obj - A (1)
+src/flask_endpoint.py
+    F 85:0 hpf_scoring - A (4)
+    F 27:0 setup_logging - A (2)
+    F 78:0 readiness - A (2)
+    F 117:0 hpf_model_details - A (2)
+    F 68:0 heart_beat - A (1)
+    F 73:0 liveness - A (1)
+src/utils.py
+    F 4:0 convert_string2bool_env - A (1)
+src/scoring/hpf_scoring.py
+    M 70:4 HPFScoring.predict - B (8)
+    M 168:4 HPFScoring.filter_recommendation - A (4)
+    M 59:4 HPFScoring.loadObjects - A (3)
+    M 118:4 HPFScoring.match_manifest - A (3)
+    C 22:0 HPFScoring - A (2)
+    M 135:4 HPFScoring.package_labelling - A (2)
+    M 148:4 HPFScoring.recommend_new_user - A (2)
+    M 25:4 HPFScoring.__init__ - A (1)
+    M 39:4 HPFScoring._getsizeof - A (1)
+    M 47:4 HPFScoring._load_model - A (1)
+    M 51:4 HPFScoring.model_details - A (1)
+    M 141:4 HPFScoring.recommend_known_user - A (1)
+tests/unit_tests/test_flask_endpoint.py
+    M 12:4 TestFlaskMethods.setUp - A (2)
+    C 9:0 TestFlaskMethods - A (1)
+    M 18:4 TestFlaskMethods.test_health_checks - A (1)
+    M 24:4 TestFlaskMethods.test_root_path - A (1)
+    M 28:4 TestFlaskMethods.test_model_details - A (1)
+    M 33:4 TestFlaskMethods.test_companion_recommendations - A (1)
+tests/unit_tests/test_scoring_hpf_scoring.py
+    M 24:4 TestHPFScoringMethods.test_basic_object - A (4)
+    M 43:4 TestHPFScoringMethods.test_load_objects - A (3)
+    M 56:4 TestHPFScoringMethods.test_recommend_known_user - A (3)
+    M 63:4 TestHPFScoringMethods.test_recommend_new_user - A (3)
+    C 11:0 TestHPFScoringMethods - A (2)
+    M 69:4 TestHPFScoringMethods.test_predict_missing - A (2)
+    M 76:4 TestHPFScoringMethods.test_model_details - A (2)
+    M 84:4 TestHPFScoringMethods.test_get_sizeof - A (2)
+    M 14:4 TestHPFScoringMethods.__init__ - A (1)
+tests/unit_tests/test_utils.py
+    F 6:0 test_convert_string2bool_env - A (3)
+tools/check_python_version.py
+    F 19:0 get_expected_version - A (4)
+    F 48:0 compare_versions - A (2)
+    F 59:0 main - A (2)
+    F 43:0 get_actual_version - A (1)
 
 67 blocks (classes, functions, methods) analyzed.
 Average complexity: A (2.343283582089552)
+
 </pre>
+</body>
+
+</html>

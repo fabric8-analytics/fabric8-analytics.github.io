@@ -1,4 +1,4 @@
-~/bayesian/dashboard/repositories/fabric8-analytics-data-model ~/bayesian/dashboard/repositories/fabric8-analytics-data-model
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-data-model ~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-data-model
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
@@ -7,83 +7,79 @@ test
 tools
 ----------------------------------------------------
 
-Already using interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Using base prefix '/usr'
-  No LICENSE.txt / LICENSE found in source
-New python executable in /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-data-model/venv/bin/python3
-Not overwriting existing python script /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-data-model/venv/bin/python (you must use /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-data-model/venv/bin/python3)
-Installing setuptools, pip, wheel...
-done.
-Running virtualenv with interpreter /home/ptisnovs/bayesian/fabric8-analytics-common/dashboard/venv/bin/python3
-Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (4.0.1)
-Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (1.9.1)
-src/graph_populator.py
-0
-    Pass
-src/__init__.py
-0
-    Pass
-src/utils.py
-0
-    Pass
-src/rest_api.py
-0
-    Pass
-src/data_source/__init__.py
-0
-    Pass
-src/data_source/abstract_data_source.py
-0
-    Pass
-src/data_source/s3_data_source.py
-0
-    Pass
-src/graph_manager.py
+created virtual environment CPython3.6.10.final.0-64 in 151ms
+  creator CPython3Posix(dest=/home/msawood/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-data-model/venv, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/msawood/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators PythonActivator,FishActivator,XonshActivator,CShellActivator,PowerShellActivator,BashActivator
+Requirement already satisfied: pydocstyle in ./venv/lib/python3.6/site-packages (5.0.2)
+Requirement already satisfied: snowballstemmer in ./venv/lib/python3.6/site-packages (from pydocstyle) (2.0.0)
+src/data_importer.py
 0
     Pass
 src/config.py
 0
     Pass
-src/data_importer.py
+src/__init__.py
+0
+    Pass
+src/rest_api.py
+0
+    Pass
+src/graph_populator.py
+0
+    Pass
+src/utils.py
 0
     Pass
 src/cve.py
 0
     Pass
-test/test_rest_api.py
+src/data_source/__init__.py
 0
     Pass
-test/test_graph_properties.py
+src/data_source/s3_data_source.py
 0
     Pass
-test/test_postgres_handler.py
+src/data_source/abstract_data_source.py
 0
     Pass
-test/test_insertion_from_minio.py
-0
-    Pass
-test/test_init.py
-0
-    Pass
-test/test_cve.py
+src/graph_manager.py
 0
     Pass
 test/test_data_importer.py
 0
     Pass
-test/test_s3_data_source.py
-0
-    Pass
-test/test_utils.py
-0
-    Pass
-test/test_graph_manager.py
+test/test_init.py
 0
     Pass
 test/conftest.py
 0
     Pass
+test/test_postgres_handler.py
+0
+    Pass
+test/test_s3_data_source.py
+0
+    Pass
+test/test_rest_api.py
+0
+    Pass
+test/test_insertion_from_minio.py
+0
+    Pass
+test/test_graph_properties.py
+0
+    Pass
 test/test_graph_populator.py
+0
+    Pass
+test/test_graph_manager.py
+0
+    Pass
+test/test_utils.py
+0
+    Pass
+test/test_cve.py
 0
     Pass
 tools/check_python_version.py
@@ -105,5 +101,5 @@ populate_schema.py
 setup.py
 0
     Pass
-~/bayesian/dashboard/repositories/fabric8-analytics-data-model
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-data-model
 All checks passed for 27 source files

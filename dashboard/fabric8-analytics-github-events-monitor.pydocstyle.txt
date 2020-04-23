@@ -1,4 +1,4 @@
-~/bayesian/dashboard/repositories/fabric8-analytics-github-events-monitor ~/bayesian/dashboard/repositories/fabric8-analytics-github-events-monitor
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-github-events-monitor ~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-github-events-monitor
 ----------------------------------------------------
 Checking documentation strings in all sources stored
 in following directories:
@@ -7,19 +7,13 @@ tests
 tools
 ----------------------------------------------------
 
-ghmonitor/monitor.py
-0
-    Pass
 ghmonitor/models.py
 0
     Pass
-ghmonitor/__init__.py
-0
-    Pass
-ghmonitor/utils.py
-0
-    Pass
 ghmonitor/backend.py
+0
+    Pass
+ghmonitor/__init__.py
 0
     Pass
 ghmonitor/gopkg/__init__.py
@@ -28,7 +22,10 @@ ghmonitor/gopkg/__init__.py
 ghmonitor/gopkg/translate.py
 0
     Pass
-tests/test_models.py
+ghmonitor/monitor.py
+0
+    Pass
+ghmonitor/utils.py
 0
     Pass
 tests/test_monitor.py
@@ -37,13 +34,16 @@ tests/test_monitor.py
 tests/__init__.py
 0
     Pass
-tests/test_utils.py
-0
-    Pass
 tests/gopkg/test_translate.py
 0
     Pass
+tests/test_models.py
+0
+    Pass
 tests/test_backend.py
+0
+    Pass
+tests/test_utils.py
 0
     Pass
 tools/check_python_version.py
@@ -57,5 +57,5 @@ run.py
 run.py
 0
     Pass
-~/bayesian/dashboard/repositories/fabric8-analytics-github-events-monitor
+~/fabric8-analytics-common/dashboard/repositories/fabric8-analytics-github-events-monitor
 All checks passed for 15 source files
