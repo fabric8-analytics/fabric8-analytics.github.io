@@ -84,9 +84,9 @@ tests/test_s3_helper.py
     F 60:0 test_store_file_object - A (2)
     F 25:0 test_store_json_content - A (1)
 tests/test_sentry_report_helper.py
-    F 95:0 test_retrieve_sentry_logs_success - A (2)
-    F 117:0 test_retrieve_sentry_logs_failure - A (2)
-    F 123:0 test_retrieve_sentry_logs_nostacktrace - A (2)
+    F 98:0 test_retrieve_sentry_logs_success - A (2)
+    F 120:0 test_retrieve_sentry_logs_failure - A (2)
+    F 126:0 test_retrieve_sentry_logs_nostacktrace - A (2)
 tests/test_cve_helper.py
     F 88:0 test_validate_cveids_in_graph - B (8)
     F 75:0 test_get_cveids_from_cvedb_prs - A (5)
@@ -103,11 +103,11 @@ tools/check_python_version.py
     F 59:0 main - A (2)
     F 43:0 get_actual_version - A (1)
 f8a_report/sentry_report_helper.py
-    M 92:4 SentryReportHelper.retrieve_events - C (14)
-    M 49:4 SentryReportHelper.normalize_sentry_data - B (7)
-    C 12:0 SentryReportHelper - B (6)
-    M 27:4 SentryReportHelper.retrieve_sentry_logs - A (4)
-    M 15:4 SentryReportHelper.__init__ - A (1)
+    M 91:4 SentryReportHelper.retrieve_events - C (14)
+    C 12:0 SentryReportHelper - B (7)
+    M 48:4 SentryReportHelper.normalize_sentry_data - B (7)
+    M 26:4 SentryReportHelper.retrieve_sentry_logs - A (4)
+    M 15:4 SentryReportHelper.__init__ - A (2)
 f8a_report/manifest_helper.py
     M 65:4 FilterStacks.filter_stacks_on_ecosystem - B (8)
     C 62:0 FilterStacks - A (4)
@@ -193,5 +193,5 @@ f8a_report/cve_helper.py
     M 16:4 CVE.__init__ - A (1)
 
 175 blocks (classes, functions, methods) analyzed.
-Average complexity: A (3.1314285714285712)
+Average complexity: A (3.142857142857143)
 </pre>
